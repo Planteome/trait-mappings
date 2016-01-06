@@ -7,16 +7,17 @@ ontology: co_339
 id: CO_339:0000000
 name: Anthracnose resistance
 namespace: LentilTrait
-def: "Degree of tolerance to Anthracnose disease. Causative organism: Colletotrichum truncatum. Symptoms develop when plants start to flower. Necrotic lesions can be found on the lower leaflets and cause premature leaf senescence. Symptoms can also be found on stem starting from the base to the top of the plant" []
+def: "Degree of tolerance to Anthracnose disease. Causative organism: Colletotrichum truncatum. Symptoms develop when plants start to flower. Necrotic lesions can be found on the lower leaflets and cause premature leaf senescence. Symptoms can also be found on stem starting from the base to the top of the plant" [CO:curators]
 synonym: "ANTR" EXACT []
 is_a: CO_339:Biotic_Stress_traits ! Biotic_Stress_traits
+is_a: TO:0000440
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000001
 name: Scoring method for Anthracnose resistance
 namespace: LentilMethod
-def: "Quantification of symptoms development in leaves and stem" []
+def: "Quantification of symptoms development in leaves and stem" [CO:curators]
 relationship: method_of CO_339:0000000 ! Anthracnose resistance
 
 [Term]
@@ -78,16 +79,17 @@ is_a: CO_339:0000002 ! 1 to 9 symptom scale
 id: CO_339:0000003
 name: Aphid resistance
 namespace: LentilTrait
-def: "Degree of tolerance to Aphids. Acrythosiphon pisum. Suck sap from tender parts of plants and it is the vector of viral diseases." []
+def: "Degree of tolerance to Aphids. Acrythosiphon pisum. Suck sap from tender parts of plants and it is the vector of viral diseases." [CO:curators]
 synonym: "APHR" EXACT []
 is_a: CO_339:Biotic_Stress_traits ! Biotic_Stress_traits
+is_a: TO:0006067
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000004
 name: Screening method for Aphid Resitance
 namespace: LentilMethod
-def: "Infestation area was taken and the percentage of infestation was determined at seven days interval" []
+def: "Infestation area was taken and the percentage of infestation was determined at seven days interval" [CO:curators]
 relationship: method_of CO_339:0000003 ! Aphid resistance
 
 [Term]
@@ -105,16 +107,17 @@ relationship: scale_of CO_339:0000175 ! Screening method for Stem weevil resista
 id: CO_339:0000006
 name: Ascochyta blight resistance
 namespace: LentilTrait
-def: "Degree of resistance to Ascochyta blight . Causative agent: Ascochyta lentis (Didymella lentis). The pathogen infects leaves, stems, petioles, pods and seeds.  On leaves, young lesions with small necrotic spots of 3-5mm diameter can be found. Reddish brown to black pycnidia from in the middle of the mature lesions.  In severe infections, lesions gridle the stem, kill the epidermal and cortical cells and lead to stem breakage. Pods can also be infected and results seed infection. Heavily infected seeds look shrivelled and discoloured with a whitish mycelium and pycnidia." []
+def: "Degree of resistance to Ascochyta blight . Causative agent: Ascochyta lentis (Didymella lentis). The pathogen infects leaves, stems, petioles, pods and seeds.  On leaves, young lesions with small necrotic spots of 3-5mm diameter can be found. Reddish brown to black pycnidia from in the middle of the mature lesions.  In severe infections, lesions gridle the stem, kill the epidermal and cortical cells and lead to stem breakage. Pods can also be infected and results seed infection. Heavily infected seeds look shrivelled and discoloured with a whitish mycelium and pycnidia." [CO:curators]
 synonym: "ABR" EXACT []
 is_a: CO_339:Biotic_Stress_traits ! Biotic_Stress_traits
+is_a: TO:0000441
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000007
 name: Scoring method for Ascochyta blight Resistance
 namespace: LentilMethod
-def: "Quantification of infestation rate in leaves and stem" []
+def: "Quantification of infestation rate in leaves and stem" [CO:curators]
 relationship: method_of CO_339:0000006 ! Ascochyta blight resistance
 
 [Term]
@@ -176,16 +179,17 @@ is_a: CO_339:0000008 ! 1 to 9 symptom scale
 id: CO_339:0000009
 name: Biological yield per plant
 namespace: LentilTrait
-def: "The total biological yield of a plant (seed yield + straw yield)" []
+def: "The total biological yield of a plant (seed yield + straw yield)" [CO:curators]
 synonym: "BYPL" EXACT []
 is_a: CO_339:Agronomical_traits ! Agronomical_traits
+is_a: TO:0000457
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000010
 name: Method of measuring BYPL
 namespace: LentilMethod
-def: "Yield of dried matured plants after pulling" []
+def: "Yield of dried matured plants after pulling" [CO:curators]
 relationship: method_of CO_339:0000009 ! Biological yield per plant
 
 [Term]
@@ -198,16 +202,17 @@ relationship: scale_of CO_339:0000010 ! Method of measuring BYPL
 id: CO_339:0000012
 name: Biological yield per area
 namespace: LentilTrait
-def: "The total biological yield (seed yield + straw yield) of plants in a plot" []
+def: "The total biological yield (seed yield + straw yield) of plants in a plot" [CO:curators]
 synonym: "BYPO" EXACT []
 is_a: CO_339:Agronomical_traits ! Agronomical_traits
+is_a: TO:0000458
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000013
 name: Method of measuring BYPO
 namespace: LentilMethod
-def: "Yield of dried matured plants in a plot after pulling" []
+def: "Yield of dried matured plants in a plot after pulling" [CO:curators]
 relationship: method_of CO_339:0000012 ! Biological yield per area
 
 [Term]
@@ -220,16 +225,17 @@ relationship: scale_of CO_339:0000013 ! Method of measuring BYPO
 id: CO_339:0000015
 name: Boron deficiency
 namespace: LentilTrait
-def: "Deficiency of Boron in the plant" []
+def: "Deficiency of Boron in the plant" [CO:curators]
 synonym: "BORD" EXACT []
 is_a: CO_339:Abiotic_Stress_traits ! Abiotic_Stress_traits
+is_a: TO:0000018
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000016
 name: Screening method for Boron Deficiency
 namespace: LentilMethod
-def: "Quantification of symptoms development in leaves and stem, measured after six weeks of sowing" []
+def: "Quantification of symptoms development in leaves and stem, measured after six weeks of sowing" [CO:curators]
 relationship: method_of CO_339:0000015 ! Boron deficiency
 
 [Term]
@@ -305,16 +311,17 @@ is_a: CO_339:0000017 ! 1 to 10 percentage scale
 id: CO_339:0000018
 name: Boron toxicity tolerance
 namespace: LentilTrait
-def: "Degree of tolerance to boron toxicity" []
+def: "Degree of tolerance to boron toxicity" [CO:curators]
 synonym: "BORT" EXACT []
 is_a: CO_339:Abiotic_Stress_traits ! Abiotic_Stress_traits
+is_a: TO:0000018
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000019
 name: Screening method for Boron toxicity tolerance
 namespace: LentilMethod
-def: "Quantification of symptoms of boron toxicity in leaves" []
+def: "Quantification of symptoms of boron toxicity in leaves" [CO:curators]
 relationship: method_of CO_339:0000018 ! Boron toxicity tolerance
 
 [Term]
@@ -390,16 +397,17 @@ is_a: CO_339:0000020 ! 1 to 10 percentage scale
 id: CO_339:0000021
 name: Branching pattern
 namespace: LentilTrait
-def: "A qualitative trait describing the branching pattern of plant" []
+def: "A qualitative trait describing the branching pattern of plant" [CO:curators]
 synonym: "BRPT" EXACT []
 is_a: CO_339:Morphological_traits ! Morphological_traits
+is_a: TO:0002639
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000022
 name: Branching pattern - method
 namespace: LentilMethod
-def: "Visual observation of the branching pattern" []
+def: "Visual observation of the branching pattern" [CO:curators]
 relationship: method_of CO_339:0000021 ! Branching pattern
 
 [Term]
@@ -433,32 +441,34 @@ is_a: CO_339:0000023 ! 1 to 3 pattern scale
 id: CO_339:0000024
 name: Bruchid resistance
 namespace: LentilTrait
-def: "Degree of tolerance to Bruchids.Callosobruchus analis. Damage flowers, pods and seeds" []
+def: "Degree of tolerance to Bruchids.Callosobruchus analis. Damage flowers, pods and seeds" [CO:curators]
 synonym: "BRUR" EXACT []
 is_a: CO_339:Biotic_Stress_traits ! Biotic_Stress_traits
+is_a: TO:0000261
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000025
 name: Screening method for Bruchid Resistance
 namespace: LentilMethod
-def: "Proportion of penetrated seeds in a sample of 40 seeds" []
+def: "Proportion of penetrated seeds in a sample of 40 seeds" [CO:curators]
 relationship: method_of CO_339:0000024 ! Bruchid resistance
 
 [Term]
 id: CO_339:0000027
 name: Canopy width
 namespace: LentilTrait
-def: "Width of the canopy" []
+def: "Width of the canopy" [CO:curators]
 synonym: "CANW" EXACT []
 is_a: CO_339:Morphological_traits ! Morphological_traits
+is_a: TO:0006062
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000028
 name: Canopy Width - method
 namespace: LentilMethod
-def: "Average canopy width of three/five representative plants of an accession." []
+def: "Average canopy width of three/five representative plants of an accession." [CO:curators]
 relationship: method_of CO_339:0000027 ! Canopy width
 
 [Term]
@@ -476,16 +486,17 @@ relationship: scale_of CO_339:0000196 ! Root length measurement - Method
 id: CO_339:0000030
 name: Cold tolerance
 namespace: LentilTrait
-def: "Tolerance to damage caused to aerial plant parts by cold stress." []
+def: "Tolerance to damage caused to aerial plant parts by cold stress." [CO:curators]
 synonym: "CTOL" EXACT []
 is_a: CO_339:Abiotic_Stress_traits ! Abiotic_Stress_traits
+is_a: TO:0000303
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000031
 name: Screening method for Cold Tolerance
 namespace: LentilMethod
-def: "visual estimation of the proportion of plants showing symptoms of cold stress" []
+def: "visual estimation of the proportion of plants showing symptoms of cold stress" [CO:curators]
 relationship: method_of CO_339:0000030 ! Cold tolerance
 
 [Term]
@@ -533,16 +544,17 @@ is_a: CO_339:0000032 ! 1 to 5 percentage scale
 id: CO_339:0000033
 name: Collar rot resistance
 namespace: LentilTrait
-def: "Degree of tolerance to collar rot. Causative agent: Sclerotium rolfsii." []
+def: "Degree of tolerance to collar rot. Causative agent: Sclerotium rolfsii." [CO:curators]
 synonym: "COLRR" EXACT []
 is_a: CO_339:Biotic_Stress_traits ! Biotic_Stress_traits
+is_a: TO:0000439
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000034
 name: Screening method for Colar resistance
 namespace: LentilMethod
-def: "Observation of seedling mortality" []
+def: "Observation of seedling mortality" [CO:curators]
 relationship: method_of CO_339:0000033 ! Collar rot resistance
 
 [Term]
@@ -597,16 +609,17 @@ is_a: CO_339:0000035 ! 1 to 10 percentage scale
 id: CO_339:0000036
 name: Cooking time
 namespace: LentilTrait
-def: "Time needed for lentil sample to cook" []
+def: "Time needed for lentil sample to cook" [CO:curators]
 synonym: "CKT" EXACT []
 is_a: CO_339:Quality_traits ! Quality_traits
+is_a: TO:0000667
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000037
 name: Cooking time - Method
 namespace: LentilMethod
-def: "Cooking time for dry seed without soaking" []
+def: "Cooking time for dry seed without soaking" [CO:curators]
 relationship: method_of CO_339:0000036 ! Cooking time
 
 [Term]
@@ -619,16 +632,17 @@ relationship: scale_of CO_339:0000037 ! Cooking time - Method
 id: CO_339:0000039
 name: Cotyledon colour
 namespace: LentilTrait
-def: "A trait describing the colour of cotyledon" []
+def: "A trait describing the colour of cotyledon" [CO:curators]
 synonym: "CTLC" EXACT []
 is_a: CO_339:Quality_traits ! Quality_traits
+is_a: TO:0000980
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000040
 name: Cotyledon Colour - Method
 namespace: LentilMethod
-def: "To be observed on seeds less than three months old" []
+def: "To be observed on seeds less than three months old" [CO:curators]
 relationship: method_of CO_339:0000039 ! Cotyledon colour
 
 [Term]
@@ -662,32 +676,34 @@ is_a: CO_339:0000041 ! 1 to 3 colour scale
 id: CO_339:0000042
 name: Straw protein content
 namespace: LentilTrait
-def: "The amount of protein content in the straw" []
+def: "The amount of protein content in the straw" [CO:curators]
 synonym: "STRP" EXACT []
 is_a: CO_339:Quality_traits ! Quality_traits
+is_a: TO:0000598
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000043
 name: Straw protein content analysis - Method
 namespace: LentilMethod
-def: "Crude protein analysis in lentil straw" []
+def: "Crude protein analysis in lentil straw" [CO:curators]
 relationship: method_of CO_339:0000042 ! Straw protein content
 
 [Term]
 id: CO_339:0000045
 name: Days to 50% flowering
 namespace: LentilTrait
-def: "Number of days from sowing to when 50% of the plants have started flowering" []
+def: "Number of days from sowing to when 50% of the plants have started flowering" [CO:curators]
 synonym: "DFTFL" EXACT []
 is_a: CO_339:Phenological_traits ! Phenological_traits
+is_a: TO:0000344
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000046
 name: DFTFL calculation method
 namespace: LentilMethod
-def: "Number of days from sowing until 50% of the plants are in flower under irrigated condition. In rain-fed conditions, it is counted from first day of rainfall or irrigation, which is sufficient for germination" []
+def: "Number of days from sowing until 50% of the plants are in flower under irrigated condition. In rain-fed conditions, it is counted from first day of rainfall or irrigation, which is sufficient for germination" [CO:curators]
 relationship: method_of CO_339:0000045 ! Days to 50% flowering
 relationship: method_of CO_339:0000195 ! Time to flowering
 
@@ -706,16 +722,17 @@ relationship: scale_of CO_339:0000055 ! Time to maturity - method
 id: CO_339:0000048
 name: Days to first flowering
 namespace: LentilTrait
-def: "Number of days from sowing to when first flower started to occur" []
+def: "Number of days from sowing to when first flower started to occur" [CO:curators]
 synonym: "DFFL" EXACT []
 is_a: CO_339:Phenological_traits ! Phenological_traits
+is_a: TO:0000344
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000049
 name: DFFL calculation method
 namespace: LentilMethod
-def: "Number of days from sowing until the first flower started to occur." []
+def: "Number of days from sowing until the first flower started to occur." [CO:curators]
 relationship: method_of CO_339:0000048 ! Days to first flowering
 relationship: method_of CO_339:0000195 ! Time to flowering
 
@@ -723,48 +740,51 @@ relationship: method_of CO_339:0000195 ! Time to flowering
 id: CO_339:0000051
 name: Time to first pod formation
 namespace: LentilTrait
-def: "Number of days from sowing to formation of first pod" []
+def: "Number of days from sowing to formation of first pod" [CO:curators]
 synonym: "DFPD" EXACT []
 is_a: CO_339:Phenological_traits ! Phenological_traits
+is_a: TO:0002640 (u)
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000052
 name: Time to first pod formation - method
 namespace: LentilMethod
-def: "Counting the number of days from sowing to first pod formation" []
+def: "Counting the number of days from sowing to first pod formation" [CO:curators]
 relationship: method_of CO_339:0000051 ! Time to first pod formation
 
 [Term]
 id: CO_339:0000054
 name: Time to maturity
 namespace: LentilTrait
-def: "A quantitative trait describing the physiological maturity of plant" []
+def: "A quantitative trait describing the physiological maturity of plant" [CO:curators]
 synonym: "DM" EXACT []
 is_a: CO_339:Phenological_traits ! Phenological_traits
+is_a: TO:0000469
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000055
 name: Time to maturity - method
 namespace: LentilMethod
-def: "Number of days from sowing until 90% of the pods are in golden brown" []
+def: "Number of days from sowing until 90% of the pods are in golden brown" [CO:curators]
 relationship: method_of CO_339:0000054 ! Time to maturity
 
 [Term]
 id: CO_339:0000057
 name: Drought tolerance
 namespace: LentilTrait
-def: "Degree of tolerance to drought stress" []
+def: "Degree of tolerance to drought stress" [CO:curators]
 synonym: "DRTL" EXACT []
 is_a: CO_339:Abiotic_Stress_traits ! Abiotic_Stress_traits
+is_a: TO:0000276
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000058
 name: Screening method for Drought tolerance
 namespace: LentilMethod
-def: "Drought tolerance index is calucated by using the formula of crop yield under drought conditons to the non-drought conditions i.e., 1-[(Ys)/(Yp)]" []
+def: "Drought tolerance index is calucated by using the formula of crop yield under drought conditons to the non-drought conditions i.e., 1-[(Ys)/(Yp)]" [CO:curators]
 relationship: method_of CO_339:0000057 ! Drought tolerance
 
 [Term]
@@ -777,32 +797,34 @@ relationship: scale_of CO_339:0000058 ! Screening method for Drought tolerance
 id: CO_339:0000060
 name: Early growth vigour
 namespace: LentilTrait
-def: "A quantitative traits desrcibing the growth of seedlings" []
+def: "A quantitative traits desrcibing the growth of seedlings" [CO:curators]
 synonym: "EGV" EXACT []
 is_a: CO_339:Phenological_traits ! Phenological_traits
+is_a: TO:0000280
 created_by: Dr. Jitendra Kumar
 
 [Term]
 id: CO_339:0000061
 name: Early growth vigour - Method
 namespace: LentilMethod
-def: "Seedling length after 40-45 days of sowing , which is measured in field" []
+def: "Seedling length after 40-45 days of sowing , which is measured in field" [CO:curators]
 relationship: method_of CO_339:0000060 ! Early growth vigour
 
 [Term]
 id: CO_339:0000063
 name: Fusarium wilt resistance
 namespace: LentilTrait
-def: "Degree of tolerance to Fusarium wilt disease.Causative organism: Fusarium oxysporum f. sp. lentis. Typical symptoms of wilt are first seen as sudden drooping of leaflets starting at the plant top and progressing downward. Leaflets close and do not shed prematurely, turning dull green . Finally the whole plant wilts . Wilting may be unilateral and confined to  individual branches. When wilt appears at flowering no seeds are produced." []
+def: "Degree of tolerance to Fusarium wilt disease.Causative organism: Fusarium oxysporum f. sp. lentis. Typical symptoms of wilt are first seen as sudden drooping of leaflets starting at the plant top and progressing downward. Leaflets close and do not shed prematurely, turning dull green . Finally the whole plant wilts . Wilting may be unilateral and confined to  individual branches. When wilt appears at flowering no seeds are produced." [CO:curators]
 synonym: "FWR" EXACT []
 is_a: CO_339:Biotic_Stress_traits ! Biotic_Stress_traits
+is_a: TO:0000442
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000064
 name: Screening method for Fusarium wilt resistance
 namespace: LentilMethod
-def: "Proportion of wilted or dead plants per plot were recorded periodically every 3-4 days interval" []
+def: "Proportion of wilted or dead plants per plot were recorded periodically every 3-4 days interval" [CO:curators]
 relationship: method_of CO_339:0000063 ! Fusarium wilt resistance
 
 [Term]
@@ -850,16 +872,17 @@ is_a: CO_339:0000065 ! 1 to 5 resistance scale
 id: CO_339:0000066
 name: Ground colour of seed testa
 namespace: LentilTrait
-def: "A qualitative trait indicating seed coat color." []
+def: "A qualitative trait indicating seed coat color." [CO:curators]
 synonym: "CSTA" EXACT []
 is_a: CO_339:Morphological_traits ! Morphological_traits
+is_a: TO:0000190
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000067
 name: Seed coat color - Method
 namespace: LentilMethod
-def: "To be observed on seeds less than three months old" []
+def: "To be observed on seeds less than three months old" [CO:curators]
 relationship: method_of CO_339:0000066 ! Ground colour of seed testa
 
 [Term]
@@ -914,17 +937,18 @@ is_a: CO_339:0000068 ! 1 to 6 colour scale
 id: CO_339:0000069
 name: Growth habit
 namespace: LentilTrait
-def: "A qualitative description of the growth habit of the plant." []
+def: "A qualitative description of the growth habit of the plant." [CO:curators]
 synonym: "GRH" EXACT []
 synonym: "Plant growth habit" EXACT []
 is_a: CO_339:Morphological_traits ! Morphological_traits
+is_a: TO:0000947
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000070
 name: Growth Habit - Method
 namespace: LentilMethod
-def: "Visual observation of the angle of primary branches recorded at mid-pod" []
+def: "Visual observation of the angle of primary branches recorded at mid-pod" [CO:curators]
 relationship: method_of CO_339:0000069 ! Growth habit
 
 [Term]
@@ -972,16 +996,17 @@ is_a: CO_339:0000071 ! 1 to 5 habit scale
 id: CO_339:0000072
 name: Harvest Index
 namespace: LentilTrait
-def: "A measurement of crop yield, the weight of the harvested product as a percentage of the total plant weight of a crop" []
+def: "A measurement of crop yield, the weight of the harvested product as a percentage of the total plant weight of a crop" [CO:curators]
 synonym: "HI" EXACT []
 is_a: CO_339:Agronomical_traits ! Agronomical_traits
+is_a: TO:0000128
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000073
 name: Harvest Index - Method
 namespace: LentilMethod
-def: "Grain yield/ (straw yield + grain yield)" []
+def: "Grain yield/ (straw yield + grain yield)" [CO:curators]
 relationship: method_of CO_339:0000072 ! Harvest Index
 
 [Term]
@@ -996,16 +1021,17 @@ relationship: scale_of CO_339:0000193 ! Screening method for Winter survival
 id: CO_339:0000075
 name: Heat tolerance
 namespace: LentilTrait
-def: "Degree of tolerance to high temperature" []
+def: "Degree of tolerance to high temperature" [CO:curators]
 synonym: "HTOL" EXACT []
 is_a: CO_339:Abiotic_Stress_traits ! Abiotic_Stress_traits
+is_a: TO:0000259
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000076
 name: Screening method for Heat tolerance
 namespace: LentilMethod
-def: "Heat tolerance can be observed by counting number of unfilled or filled pods per plant" []
+def: "Heat tolerance can be observed by counting number of unfilled or filled pods per plant" [CO:curators]
 relationship: method_of CO_339:0000075 ! Heat tolerance
 
 [Term]
@@ -1018,32 +1044,34 @@ relationship: scale_of CO_339:0000076 ! Screening method for Heat tolerance
 id: CO_339:0000078
 name: Height of the lowest pod
 namespace: LentilTrait
-def: "Height above ground of the lowest pod" []
+def: "Height above ground of the lowest pod" [CO:curators]
 synonym: "HLPD" EXACT []
 is_a: CO_339:Agronomical_traits ! Agronomical_traits
+is_a: TO:1000011
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000079
 name: Height of the lowest pod - Method
 namespace: LentilMethod
-def: "Estimate of the average height above ground of the lowest pod on randomly selected 3 to 5 unlodged plants at harvest" []
+def: "Estimate of the average height above ground of the lowest pod on randomly selected 3 to 5 unlodged plants at harvest" [CO:curators]
 relationship: method_of CO_339:0000078 ! Height of the lowest pod
 
 [Term]
 id: CO_339:0000081
 name: Herbicide tolerance
 namespace: LentilTrait
-def: "The plant ability to resist the toxic effects of herbicides." []
+def: "The plant ability to resist the toxic effects of herbicides." [CO:curators]
 synonym: "HERBT" EXACT []
 is_a: CO_339:Agronomical_traits ! Agronomical_traits
+is_a: TO:0000058
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000082
 name: Screening method for Herbicide Tolerance
 namespace: LentilMethod
-def: "Estimation of the tolerance to herbicide" []
+def: "Estimation of the tolerance to herbicide" [CO:curators]
 relationship: method_of CO_339:0000081 ! Herbicide tolerance
 
 [Term]
@@ -1091,16 +1119,17 @@ is_a: CO_339:0000083 ! 1 to 5 tolerance scale
 id: CO_339:0000084
 name: Seed weight
 namespace: LentilTrait
-def: "Weight of seeds" []
+def: "Weight of seeds" [CO:curators]
 synonym: "HSW" EXACT []
 is_a: CO_339:Agronomical_traits ! Agronomical_traits
+is_a: TO:0000181
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000085
 name: 100 seed weight - Method
 namespace: LentilMethod
-def: "Average weight of two samples of 100 randomly chosen seeds" []
+def: "Average weight of two samples of 100 randomly chosen seeds" [CO:curators]
 relationship: method_of CO_339:0000084 ! Seed weight
 
 [Term]
@@ -1115,16 +1144,17 @@ relationship: scale_of CO_339:0000166 ! SYPL measurment method
 id: CO_339:0000087
 name: Iron (Fe) deficiency
 namespace: LentilTrait
-def: "Deficiency of Iron (Fe) in the plant measured at flowering stage" []
+def: "Deficiency of Iron (Fe) in the plant measured at flowering stage" [CO:curators]
 synonym: "IRND" EXACT []
 is_a: CO_339:Abiotic_Stress_traits ! Abiotic_Stress_traits
+is_a: TO:0006049
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000088
 name: Screening method for Iron Deficency
 namespace: LentilMethod
-def: "Visual estimation of Fe deficiency" []
+def: "Visual estimation of Fe deficiency" [CO:curators]
 relationship: method_of CO_339:0000087 ! Iron (Fe) deficiency
 
 [Term]
@@ -1200,16 +1230,17 @@ is_a: CO_339:0000089 ! 0 to 9 percentage scale
 id: CO_339:0000090
 name: Lodging susceptibility
 namespace: LentilTrait
-def: "A trait describing status of susceptibilty of genotypes to lodging" []
+def: "A trait describing status of susceptibilty of genotypes to lodging" [CO:curators]
 synonym: "LOSP" EXACT []
 is_a: CO_339:Agronomical_traits ! Agronomical_traits
+is_a: TO:0000068
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000091
 name: Lodgind susceptibility assessment - Method
 namespace: LentilMethod
-def: "Visually assessed at maturity" []
+def: "Visually assessed at maturity" [CO:curators]
 relationship: method_of CO_339:0000090 ! Lodging susceptibility
 
 [Term]
@@ -1278,33 +1309,35 @@ is_a: CO_339:0000092 ! 1 to 7 incidence scale
 id: CO_339:0000093
 name: Micro nutrient content
 namespace: LentilTrait
-def: "The amount of micro-nutrient including Fe and Zn in the seed" []
+def: "The amount of micro-nutrient including Fe and Zn in the seed" [CO:curators]
 synonym: "Micro-nutrient content in the grain" EXACT []
 synonym: "MNCG" EXACT []
 is_a: CO_339:Quality_traits ! Quality_traits
+is_a: TO:0000465
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000094
 name: Micro nutrient content analysis -Method
 namespace: LentilMethod
-def: "Using atomic absorption spectrometry" []
+def: "Using atomic absorption spectrometry" [CO:curators]
 relationship: method_of CO_339:0000093 ! Micro nutrient content
 
 [Term]
 id: CO_339:0000096
 name: Number of pods per plant
 namespace: LentilTrait
-def: "A trait indicating total number of pods per plant" []
+def: "A trait indicating total number of pods per plant" [CO:curators]
 synonym: "NPDPL" EXACT []
 is_a: CO_339:Agronomical_traits ! Agronomical_traits
+is_a: TO:0000871
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000097
 name: Number of Pod per Plant -  method
 namespace: LentilMethod
-def: "Mean number of pods recorded from 10 randomly selected plants at physiological maturity" []
+def: "Mean number of pods recorded from 10 randomly selected plants at physiological maturity" [CO:curators]
 relationship: method_of CO_339:0000096 ! Number of pods per plant
 
 [Term]
@@ -1318,16 +1351,17 @@ relationship: scale_of CO_339:0000103 ! Number of pod per peduncle method
 id: CO_339:0000099
 name: Number of peduncles per plant
 namespace: LentilTrait
-def: "A trait indicating total number of peduncles per plant" []
+def: "A trait indicating total number of peduncles per plant" [CO:curators]
 synonym: "NPPP" EXACT []
 is_a: CO_339:Agronomical_traits ! Agronomical_traits
+is_a: TO:0000582
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000100
 name: Number of peduncle per plant - Method
 namespace: LentilMethod
-def: "The mean number of peduncles on 10 representative plants" []
+def: "The mean number of peduncles on 10 representative plants" [CO:curators]
 relationship: method_of CO_339:0000099 ! Number of peduncles per plant
 
 [Term]
@@ -1340,32 +1374,34 @@ relationship: scale_of CO_339:0000100 ! Number of peduncle per plant - Method
 id: CO_339:0000102
 name: Number of pods per peduncle
 namespace: LentilTrait
-def: "A trait indicating number of pods per peduncle" []
+def: "A trait indicating number of pods per peduncle" [CO:curators]
 synonym: "NPPE" EXACT []
 is_a: CO_339:Agronomical_traits ! Agronomical_traits
+is_a: TO:0000894
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000103
 name: Number of pod per peduncle method
 namespace: LentilMethod
-def: "Maximum number of pods per peduncle on 10 representative plants" []
+def: "Maximum number of pods per peduncle on 10 representative plants" [CO:curators]
 relationship: method_of CO_339:0000102 ! Number of pods per peduncle
 
 [Term]
 id: CO_339:0000105
 name: Number of seeds per pod
 namespace: LentilTrait
-def: "A trait indicating number of seeds per pod" []
+def: "A trait indicating number of seeds per pod" [CO:curators]
 synonym: "NSPP" EXACT []
 is_a: CO_339:Agronomical_traits ! Agronomical_traits
+is_a: TO:0000445
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000106
 name: Number of seed per pod - method
 namespace: LentilMethod
-def: "Average number of seeds of 10 dry pods" []
+def: "Average number of seeds of 10 dry pods" [CO:curators]
 relationship: method_of CO_339:0000105 ! Number of seeds per pod
 
 [Term]
@@ -1378,16 +1414,17 @@ relationship: scale_of CO_339:0000106 ! Number of seed per pod - method
 id: CO_339:0000108
 name: Orobanche resistance
 namespace: LentilTrait
-def: "Plant resistance to Orobanche. Casative agent: Orobanche crenata." []
+def: "Plant resistance to Orobanche. Casative agent: Orobanche crenata." [CO:curators]
 synonym: "OROR" EXACT []
 is_a: CO_339:Biotic_Stress_traits ! Biotic_Stress_traits
+is_a: TO:0000444
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000109
 name: Screening method for Orobanche Resistance
 namespace: LentilMethod
-def: "1/ Count the number of broomrapes emerged in the four rows of faba bean surrounding each row of lentil plants. 2/ divide the number of broomrapes by the number of lentil plants to compute an average" []
+def: "1/ Count the number of broomrapes emerged in the four rows of faba bean surrounding each row of lentil plants. 2/ divide the number of broomrapes by the number of lentil plants to compute an average" [CO:curators]
 relationship: method_of CO_339:0000108 ! Orobanche resistance
 
 [Term]
@@ -1400,16 +1437,17 @@ relationship: scale_of CO_339:0000109 ! Screening method for Orobanche Resistanc
 id: CO_339:0000111
 name: Pattern of seed testa
 namespace: LentilTrait
-def: "A qualitative trait describing the pattern of seed testa" []
+def: "A qualitative trait describing the pattern of seed testa" [CO:curators]
 synonym: "PAST" EXACT []
 is_a: CO_339:Morphological_traits ! Morphological_traits
+is_a: TO:0000904
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000112
 name: Pattern of seed testa - method
 namespace: LentilMethod
-def: "Visual assessment of the pattern of the seed testa" []
+def: "Visual assessment of the pattern of the seed testa" [CO:curators]
 relationship: method_of CO_339:0000111 ! Pattern of seed testa
 
 [Term]
@@ -1457,33 +1495,35 @@ is_a: CO_339:0000113 ! 1 to 5 pattern scale
 id: CO_339:0000114
 name: Plant height
 namespace: LentilTrait
-def: "Height of the plant" []
+def: "Height of the plant" [CO:curators]
 synonym: "PLHGT" EXACT []
 is_a: CO_339:Agronomical_traits ! Agronomical_traits
+is_a: TO:0000207
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000115
 name: Plant height highest leaf - Method
 namespace: LentilMethod
-def: "Height of the plant measured from the ground to the tip of the extended foliage at maturity. Mean plant height (cm) of five representative plants from soil surface measured at the end of flowering" []
+def: "Height of the plant measured from the ground to the tip of the extended foliage at maturity. Mean plant height (cm) of five representative plants from soil surface measured at the end of flowering" [CO:curators]
 relationship: method_of CO_339:0000114 ! Plant height
 
 [Term]
 id: CO_339:0000117
 name: Plant pubescence
 namespace: LentilTrait
-def: "A qualitative trait describing extent of hairiness of the shoot" []
+def: "A qualitative trait describing extent of hairiness of the shoot" [CO:curators]
 synonym: "Plant hairiness" EXACT []
 synonym: "PLPUB" EXACT []
 is_a: CO_339:Morphological_traits ! Morphological_traits
+is_a: TO:0000879
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000118
 name: Plant pubescence - Method
 namespace: LentilMethod
-def: "Visual assessment of the plant pubescence" []
+def: "Visual assessment of the plant pubescence" [CO:curators]
 relationship: method_of CO_339:0000117 ! Plant pubescence
 
 [Term]
@@ -1517,17 +1557,18 @@ is_a: CO_339:0000119 ! 1 to 3 extent scale
 id: CO_339:0000120
 name: Plant structure
 namespace: LentilTrait
-def: "A qualitative trait describing the structure and branching pattern of the plant" []
+def: "A qualitative trait describing the structure and branching pattern of the plant" [CO:curators]
 synonym: "Plant artitecture" EXACT []
 synonym: "PSTR" EXACT []
 is_a: CO_339:Morphological_traits ! Morphological_traits
+is_a: TO:0002756
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000121
 name: Plant Structure - Method
 namespace: LentilMethod
-def: "Visual assessment of plant structure" []
+def: "Visual assessment of plant structure" [CO:curators]
 relationship: method_of CO_339:0000120 ! Plant structure
 
 [Term]
@@ -1575,16 +1616,17 @@ is_a: CO_339:0000122 ! 1 to 5 structure scale
 id: CO_339:0000123
 name: Pod borer resistance
 namespace: LentilTrait
-def: "Degree of tolerance to podborer.Helicoverpa armigera. Damage pods and seeds" []
+def: "Degree of tolerance to podborer.Helicoverpa armigera. Damage pods and seeds" [CO:curators]
 synonym: "PBR" EXACT []
 is_a: CO_339:Biotic_Stress_traits ! Biotic_Stress_traits
+is_a: TO:0000262
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000124
 name: Screening method for Pod borer resistance
 namespace: LentilMethod
-def: "Damage at pod stage measured by counting total pods and damaged pods and calculating proportion of damaged pods" []
+def: "Damage at pod stage measured by counting total pods and damaged pods and calculating proportion of damaged pods" [CO:curators]
 relationship: method_of CO_339:0000123 ! Pod borer resistance
 
 [Term]
@@ -1597,16 +1639,17 @@ relationship: scale_of CO_339:0000124 ! Screening method for Pod borer resistanc
 id: CO_339:0000126
 name: Pod dehiscence
 namespace: LentilTrait
-def: "Splitting of pods at maturity along its built in line of weakness in order to release seeds" []
+def: "Splitting of pods at maturity along its built in line of weakness in order to release seeds" [CO:curators]
 synonym: "PDEH" EXACT []
 is_a: CO_339:Agronomical_traits ! Agronomical_traits
+is_a: TO:0000930
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000127
 name: Pod dehiscence - Method
 namespace: LentilMethod
-def: "Visually assessed one week after maturity" []
+def: "Visually assessed one week after maturity" [CO:curators]
 relationship: method_of CO_339:0000126 ! Pod dehiscence
 
 [Term]
@@ -1682,16 +1725,17 @@ is_a: CO_339:0000128 ! 1 to 9 intensity scale
 id: CO_339:0000129
 name: Pod filling period
 namespace: LentilTrait
-def: "A quantitative trait indicating the time required for pod filling" []
+def: "A quantitative trait indicating the time required for pod filling" [CO:curators]
 synonym: "PFIP" EXACT []
 is_a: CO_339:Phenological_traits ! Phenological_traits
+is_a: TO:0000933
 created_by: Dr. Jitendra Kumar
 
 [Term]
 id: CO_339:0000130
 name: Pod filing per pod - Method
 namespace: LentilMethod
-def: "Counting up the duration of flowering and pod maturing period" []
+def: "Counting up the duration of flowering and pod maturing period" [CO:curators]
 relationship: method_of CO_339:0000129 ! Pod filling period
 
 [Term]
@@ -1704,16 +1748,17 @@ relationship: scale_of CO_339:0000130 ! Pod filing per pod - Method
 id: CO_339:0000132
 name: Pod shedding
 namespace: LentilTrait
-def: "Dropping of pods at maturity" []
+def: "Dropping of pods at maturity" [CO:curators]
 synonym: "PSHD" EXACT []
 is_a: CO_339:Agronomical_traits ! Agronomical_traits
+is_a: TO:0002633
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000133
 name: Pod shedding - method
 namespace: LentilMethod
-def: "Visually assessed after or during harvesting one week after maturity" []
+def: "Visually assessed after or during harvesting one week after maturity" [CO:curators]
 relationship: method_of CO_339:0000132 ! Pod shedding
 
 [Term]
@@ -1789,32 +1834,34 @@ is_a: CO_339:0000134 ! 1 to 9 intensity scale
 id: CO_339:0000135
 name: Pod weight
 namespace: LentilTrait
-def: "Weight of pods" []
+def: "Weight of pods" [CO:curators]
 synonym: "PDWT" EXACT []
 is_a: CO_339:Agronomical_traits ! Agronomical_traits
+is_a: TO:0002746
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000136
 name: Pod Weight - Method
 namespace: LentilMethod
-def: "Average weight from 3 or 5 randomly-selected plants at maturity,  from a plant grown in the pot or field." []
+def: "Average weight from 3 or 5 randomly-selected plants at maturity,  from a plant grown in the pot or field." [CO:curators]
 relationship: method_of CO_339:0000135 ! Pod weight
 
 [Term]
 id: CO_339:0000138
 name: Presence of Tendrils
 namespace: LentilTrait
-def: "A qualitative trait describing presence of tendrils" []
+def: "A qualitative trait describing presence of tendrils" [CO:curators]
 synonym: "PTEN" EXACT []
 is_a: CO_339:Morphological_traits ! Morphological_traits
+is_a: TO:0000768
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000139
 name: Presence of tendrils - Method
 namespace: LentilMethod
-def: "Visual observation of the presence and nature of tendrils" []
+def: "Visual observation of the presence and nature of tendrils" [CO:curators]
 relationship: method_of CO_339:0000138 ! Presence of Tendrils
 
 [Term]
@@ -1848,17 +1895,18 @@ is_a: CO_339:0000140 ! 1 to 3 presence scale
 id: CO_339:0000141
 name: Primary branches number
 namespace: LentilTrait
-def: "Number of basal primary branches per plant" []
+def: "Number of basal primary branches per plant" [CO:curators]
 synonym: "BPBR" EXACT []
 synonym: "Number of basal primary branches per plant" EXACT []
 is_a: CO_339:Agronomical_traits ! Agronomical_traits
+is_a: TO:0000547
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000142
 name: Primary Branch number - Method
 namespace: LentilMethod
-def: "Mean number of basal primary branches from 3 or 5 randomly selected plants at maturity" []
+def: "Mean number of basal primary branches from 3 or 5 randomly selected plants at maturity" [CO:curators]
 relationship: method_of CO_339:0000141 ! Primary branches number
 
 [Term]
@@ -1871,32 +1919,34 @@ relationship: scale_of CO_339:0000142 ! Primary Branch number - Method
 id: CO_339:0000144
 name: Root length
 namespace: LentilTrait
-def: "Cumulative root length of a sample" []
+def: "Cumulative root length of a sample" [CO:curators]
 synonym: "RL" EXACT []
 is_a: CO_339:Physiological_traits ! Physiological_traits
+is_a: TO:0000227
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000145
 name: Root length by Winrhizo - Method
 namespace: LentilMethod
-def: "Measured through winrhizo software from scanned image files" []
+def: "Measured through winrhizo software from scanned image files" [CO:curators]
 relationship: method_of CO_339:0000144 ! Root length
 
 [Term]
 id: CO_339:0000147
 name: Root length density
 namespace: LentilTrait
-def: "The length of roots present in a unit volume of soil" []
+def: "The length of roots present in a unit volume of soil" [CO:curators]
 synonym: "RLD" EXACT []
 is_a: CO_339:Physiological_traits ! Physiological_traits
+is_a: TO:0000227
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000148
 name: RLD measurement - method
 namespace: LentilMethod
-def: "Calculated using both root length measured and soil volume from where the root comes." []
+def: "Calculated using both root length measured and soil volume from where the root comes." [CO:curators]
 relationship: method_of CO_339:0000147 ! Root length density
 
 [Term]
@@ -1909,16 +1959,17 @@ relationship: scale_of CO_339:0000148 ! RLD measurement - method
 id: CO_339:0000150
 name: Rust resistance
 namespace: LentilTrait
-def: "Degree of resistance to rust disease. Causative agent : Uromyces viciae-faba. It produces lesions on stems and leaves which result leaf fall and premature plant death" []
+def: "Degree of resistance to rust disease. Causative agent : Uromyces viciae-faba. It produces lesions on stems and leaves which result leaf fall and premature plant death" [CO:curators]
 synonym: "RUSR" EXACT []
 is_a: CO_339:Biotic_Stress_traits ! Biotic_Stress_traits
+is_a: TO:0000442
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000151
 name: Screening method for Rust resistance
 namespace: LentilMethod
-def: "Quantification of symptoms development in leaves and stems" []
+def: "Quantification of symptoms development in leaves and stems" [CO:curators]
 relationship: method_of CO_339:0000150 ! Rust resistance
 
 [Term]
@@ -1987,16 +2038,17 @@ is_a: CO_339:0000152 ! 1 to 9 percentage scale
 id: CO_339:0000153
 name: Salinity tolerance
 namespace: LentilTrait
-def: "Degree of tolerance to salinity" []
+def: "Degree of tolerance to salinity" [CO:curators]
 synonym: "SALT" EXACT []
 is_a: CO_339:Abiotic_Stress_traits ! Abiotic_Stress_traits
+is_a: TO:0006001
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000154
 name: Screening method for Salinity tolerance
 namespace: LentilMethod
-def: "Visual estimation of leaf symptoms" []
+def: "Visual estimation of leaf symptoms" [CO:curators]
 relationship: method_of CO_339:0000153 ! Salinity tolerance
 
 [Term]
@@ -2044,17 +2096,18 @@ is_a: CO_339:0000155 ! 1 to 5 suceptibility scale
 id: CO_339:0000156
 name: Secondary branches number
 namespace: LentilTrait
-def: "Number of basal secondary branches per plant" []
+def: "Number of basal secondary branches per plant" [CO:curators]
 synonym: "BSBR" EXACT []
 synonym: "Number of basal secondary branches per plant" EXACT []
 is_a: CO_339:Agronomical_traits ! Agronomical_traits
+is_a: TO:0020019
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000157
 name: Secondary Branch number - Method
 namespace: LentilMethod
-def: "Mean number of basal secondary branches from 3 or 5 randomly selected plants at maturity" []
+def: "Mean number of basal secondary branches from 3 or 5 randomly selected plants at maturity" [CO:curators]
 relationship: method_of CO_339:0000156 ! Secondary branches number
 
 [Term]
@@ -2067,16 +2120,17 @@ relationship: scale_of CO_339:0000157 ! Secondary Branch number - Method
 id: CO_339:0000159
 name: Seed diameter
 namespace: LentilTrait
-def: "Seed diameter" []
+def: "Seed diameter" [CO:curators]
 synonym: "SDDIA" EXACT []
 is_a: CO_339:Agronomical_traits ! Agronomical_traits
+is_a: TO:0000391
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000160
 name: Seed diameter - Method
 namespace: LentilMethod
-def: "Diameter of fully dried seed is measured using vernier caliper" []
+def: "Diameter of fully dried seed is measured using vernier caliper" [CO:curators]
 relationship: method_of CO_339:0000159 ! Seed diameter
 
 [Term]
@@ -2089,48 +2143,51 @@ relationship: scale_of CO_339:0000160 ! Seed diameter - Method
 id: CO_339:0000162
 name: Grain protein content
 namespace: LentilTrait
-def: "Amount of protein in the seed" []
+def: "Amount of protein in the seed" [CO:curators]
 synonym: "PRT" EXACT []
 is_a: CO_339:Quality_traits ! Quality_traits
+is_a: TO:0000598
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000163
 name: Grain protein content analysis - Method
 namespace: LentilMethod
-def: "Seed nitrogen content which is multiplied by the factor 6.25" []
+def: "Seed nitrogen content which is multiplied by the factor 6.25" [CO:curators]
 relationship: method_of CO_339:0000162 ! Grain protein content
 
 [Term]
 id: CO_339:0000165
 name: Seed yield per plant
 namespace: LentilTrait
-def: "Seed yield from a single plant" []
+def: "Seed yield from a single plant" [CO:curators]
 synonym: "SYPL" EXACT []
 is_a: CO_339:Agronomical_traits ! Agronomical_traits
+is_a: TO:0000905
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000166
 name: SYPL measurment method
 namespace: LentilMethod
-def: "Yield of seeds after drying" []
+def: "Yield of seeds after drying" [CO:curators]
 relationship: method_of CO_339:0000165 ! Seed yield per plant
 
 [Term]
 id: CO_339:0000168
 name: Seed yield per area
 namespace: LentilTrait
-def: "Seed yield from a plot" []
+def: "Seed yield from a plot" [CO:curators]
 synonym: "SYPO" EXACT []
 is_a: CO_339:Agronomical_traits ! Agronomical_traits
+is_a: TO:0000906
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000169
 name: SYPO measurment method
 namespace: LentilMethod
-def: "Yield of seed after drying  (Plot basis)" []
+def: "Yield of seed after drying  (Plot basis)" [CO:curators]
 relationship: method_of CO_339:0000168 ! Seed yield per area
 
 [Term]
@@ -2143,16 +2200,17 @@ relationship: scale_of CO_339:0000169 ! SYPO measurment method
 id: CO_339:0000171
 name: Chlorophyll content
 namespace: LentilTrait
-def: "Proportions that indicate chlorophyll density and/or leaf thickness measured through a SPAD chlorophyll meter." []
+def: "Proportions that indicate chlorophyll density and/or leaf thickness measured through a SPAD chlorophyll meter." [CO:curators]
 synonym: "SCMR" EXACT []
 is_a: CO_339:Physiological_traits ! Physiological_traits
+is_a: TO:0000495
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000172
 name: Chlorophyll content measurement method
 namespace: LentilMethod
-def: "Measure using a SPAD chlorophil meter" []
+def: "Measure using a SPAD chlorophil meter" [CO:curators]
 relationship: method_of CO_339:0000171 ! Chlorophyll content
 
 [Term]
@@ -2165,32 +2223,34 @@ relationship: scale_of CO_339:0000172 ! Chlorophyll content measurement method
 id: CO_339:0000174
 name: Stem weevil resistance
 namespace: LentilTrait
-def: "Degree of tolerance to stem weevil.Sitona crinitus. Damage seedlings and root nodules" []
+def: "Degree of tolerance to stem weevil.Sitona crinitus. Damage seedlings and root nodules" [CO:curators]
 synonym: "SWVR" EXACT []
 is_a: CO_339:Biotic_Stress_traits ! Biotic_Stress_traits
+is_a: TO:0000263
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000175
 name: Screening method for Stem weevil resistance
 namespace: LentilMethod
-def: "Nodule damage was assessed in five plants randomly selected from each plot, uprooted with soil to recover most of the root system and then washed in laboratory" []
+def: "Nodule damage was assessed in five plants randomly selected from each plot, uprooted with soil to recover most of the root system and then washed in laboratory" [CO:curators]
 relationship: method_of CO_339:0000174 ! Stem weevil resistance
 
 [Term]
 id: CO_339:0000177
 name: Stemphylium blight resistance
 namespace: LentilTrait
-def: "Degree of tolerance to Stemphylium blight disease. Causative agent: Stemphylium botryosum. Small, light-beige lesions apper in the upper canopy. Leaves, pedicels, flowers and branches become necrotic resulting in a characteristic blighted appearance of lentil plants." []
+def: "Degree of tolerance to Stemphylium blight disease. Causative agent: Stemphylium botryosum. Small, light-beige lesions apper in the upper canopy. Leaves, pedicels, flowers and branches become necrotic resulting in a characteristic blighted appearance of lentil plants." [CO:curators]
 synonym: "SBLR" EXACT []
 is_a: CO_339:Biotic_Stress_traits ! Biotic_Stress_traits
+is_a: TO:0000443
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000178
 name: Screening method for Stemphylium blight resistance
 namespace: LentilMethod
-def: "Visual estimation of the resistance to weevil" []
+def: "Visual estimation of the resistance to weevil" [CO:curators]
 relationship: method_of CO_339:0000177 ! Stemphylium blight resistance
 
 [Term]
@@ -2266,16 +2326,17 @@ is_a: CO_339:0000179 ! 1 to 9 resistance scale
 id: CO_339:0000180
 name: Stomatal conductance
 namespace: LentilTrait
-def: "It is the measure of the rate of passage of carbon dioxide entering, or water vapour exiting through the stomata of a leaf." []
+def: "It is the measure of the rate of passage of carbon dioxide entering, or water vapour exiting through the stomata of a leaf." [CO:curators]
 synonym: "STCC" EXACT []
 is_a: CO_339:Physiological_traits ! Physiological_traits
+is_a: TO:0000522
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000181
 name: Stomatal conductance measurment - Method
 namespace: LentilMethod
-def: "Measured using a Porometer" []
+def: "Measured using a Porometer" [CO:curators]
 relationship: method_of CO_339:0000180 ! Stomatal conductance
 
 [Term]
@@ -2288,17 +2349,18 @@ relationship: scale_of CO_339:0000181 ! Stomatal conductance measurment - Method
 id: CO_339:0000183
 name: Tertiary branches number
 namespace: LentilTrait
-def: "Number of tertiary branches per plant" []
+def: "Number of tertiary branches per plant" [CO:curators]
 synonym: "Number of tertiary branches per plant" EXACT []
 synonym: "TRBR" EXACT []
 is_a: CO_339:Agronomical_traits ! Agronomical_traits
+is_a: TO:0020018
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000184
 name: Tertiary Branch number - Method
 namespace: LentilMethod
-def: "Mean number of tertiary branches from 3 or 5 randomly selected plants at maturity" []
+def: "Mean number of tertiary branches from 3 or 5 randomly selected plants at maturity" [CO:curators]
 relationship: method_of CO_339:0000183 ! Tertiary branches number
 
 [Term]
@@ -2311,16 +2373,17 @@ relationship: scale_of CO_339:0000184 ! Tertiary Branch number - Method
 id: CO_339:0000186
 name: Type of tendril
 namespace: LentilTrait
-def: "A qualitative trait discriminating different types of tendrils" []
+def: "A qualitative trait discriminating different types of tendrils" [CO:curators]
 synonym: "TTEN" EXACT []
 is_a: CO_339:Morphological_traits ! Morphological_traits
+is_a: TO:0000764
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000187
 name: Tendrils Type - Method
 namespace: LentilMethod
-def: "Visual assessment of the type of tendrils" []
+def: "Visual assessment of the type of tendrils" [CO:curators]
 relationship: method_of CO_339:0000186 ! Type of tendril
 
 [Term]
@@ -2354,48 +2417,51 @@ is_a: CO_339:0000188 ! 1 to 3 type scale
 id: CO_339:0000189
 name: Water logging tolerance
 namespace: LentilTrait
-def: "Degree of tolerance to waterlogging condition" []
+def: "Degree of tolerance to waterlogging condition" [CO:curators]
 synonym: "WLOT" EXACT []
 is_a: CO_339:Abiotic_Stress_traits ! Abiotic_Stress_traits
+is_a: TO:0000114
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000190
 name: Screening method for Water logging tolerance
 namespace: LentilMethod
-def: "Root and shoot growth ratio of plants grown under water logged conditions over  % of drained controls" []
+def: "Root and shoot growth ratio of plants grown under water logged conditions over  % of drained controls" [CO:curators]
 relationship: method_of CO_339:0000189 ! Water logging tolerance
 
 [Term]
 id: CO_339:0000192
 name: Winter survival
 namespace: LentilTrait
-def: "Proportion of the plants emerged prior to winter and survived through winter" []
+def: "Proportion of the plants emerged prior to winter and survived through winter" [CO:curators]
 synonym: "WSUR" EXACT []
 is_a: CO_339:Abiotic_Stress_traits ! Abiotic_Stress_traits
+is_a: TO:0000303
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000193
 name: Screening method for Winter survival
 namespace: LentilMethod
-def: "Plant stand counts recorded after complete emergence of seedlings survived through winter. Divide plant stand count by the number of emerged seedlings" []
+def: "Plant stand counts recorded after complete emergence of seedlings survived through winter. Divide plant stand count by the number of emerged seedlings" [CO:curators]
 relationship: method_of CO_339:0000192 ! Winter survival
 
 [Term]
 id: CO_339:0000195
 name: Time to flowering
 namespace: LentilTrait
-def: "Time elapsed between sowing to flowering" []
+def: "Time elapsed between sowing to flowering" [CO:curators]
 synonym: "TF" EXACT []
 is_a: CO_339:Phenological_traits ! Phenological_traits
+is_a: TO:0000344
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000196
 name: Root length measurement - Method
 namespace: LentilMethod
-def: "Measured maually using the ruler" []
+def: "Measured maually using the ruler" [CO:curators]
 relationship: method_of CO_339:0000144 ! Root length
 
 [Term]
