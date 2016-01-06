@@ -10,7 +10,7 @@ namespace: LentilTrait
 def: "Degree of tolerance to Anthracnose disease. Causative organism: Colletotrichum truncatum. Symptoms develop when plants start to flower. Necrotic lesions can be found on the lower leaflets and cause premature leaf senescence. Symptoms can also be found on stem starting from the base to the top of the plant" [CO:curators]
 synonym: "ANTR" EXACT []
 is_a: CO_339:Biotic_Stress_traits ! Biotic_Stress_traits
-is_a: TO:0000440
+is_a: TO:0000439
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
@@ -18,13 +18,13 @@ id: CO_339:0000001
 name: Scoring method for Anthracnose resistance
 namespace: LentilMethod
 def: "Quantification of symptoms development in leaves and stem" [CO:curators]
-relationship: method_of CO_339:0000000 ! Anthracnose resistance
+method_of: CO_339:0000000 ! Anthracnose resistance
 
 [Term]
 id: CO_339:0000002
 name: 1 to 9 symptom scale
 namespace: LentilScale
-relationship: scale_of CO_339:0000001 ! Scoring method for Anthracnose resistance
+scale_of CO_339:0000001 ! Scoring method for Anthracnose resistance
 
 [Term]
 id: CO_339:0000002:1
@@ -110,7 +110,7 @@ namespace: LentilTrait
 def: "Degree of resistance to Ascochyta blight . Causative agent: Ascochyta lentis (Didymella lentis). The pathogen infects leaves, stems, petioles, pods and seeds.  On leaves, young lesions with small necrotic spots of 3-5mm diameter can be found. Reddish brown to black pycnidia from in the middle of the mature lesions.  In severe infections, lesions gridle the stem, kill the epidermal and cortical cells and lead to stem breakage. Pods can also be infected and results seed infection. Heavily infected seeds look shrivelled and discoloured with a whitish mycelium and pycnidia." [CO:curators]
 synonym: "ABR" EXACT []
 is_a: CO_339:Biotic_Stress_traits ! Biotic_Stress_traits
-is_a: TO:0000441
+is_a: TO:0000439
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
@@ -817,7 +817,7 @@ namespace: LentilTrait
 def: "Degree of tolerance to Fusarium wilt disease.Causative organism: Fusarium oxysporum f. sp. lentis. Typical symptoms of wilt are first seen as sudden drooping of leaflets starting at the plant top and progressing downward. Leaflets close and do not shed prematurely, turning dull green . Finally the whole plant wilts . Wilting may be unilateral and confined to  individual branches. When wilt appears at flowering no seeds are produced." [CO:curators]
 synonym: "FWR" EXACT []
 is_a: CO_339:Biotic_Stress_traits ! Biotic_Stress_traits
-is_a: TO:0000442
+is_a: TO:0000439
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
@@ -1962,7 +1962,7 @@ namespace: LentilTrait
 def: "Degree of resistance to rust disease. Causative agent : Uromyces viciae-faba. It produces lesions on stems and leaves which result leaf fall and premature plant death" [CO:curators]
 synonym: "RUSR" EXACT []
 is_a: CO_339:Biotic_Stress_traits ! Biotic_Stress_traits
-is_a: TO:0000442
+is_a: TO:0000439
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
@@ -2243,7 +2243,7 @@ namespace: LentilTrait
 def: "Degree of tolerance to Stemphylium blight disease. Causative agent: Stemphylium botryosum. Small, light-beige lesions apper in the upper canopy. Leaves, pedicels, flowers and branches become necrotic resulting in a characteristic blighted appearance of lentil plants." [CO:curators]
 synonym: "SBLR" EXACT []
 is_a: CO_339:Biotic_Stress_traits ! Biotic_Stress_traits
-is_a: TO:0000443
+is_a: TO:0000439
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
