@@ -743,7 +743,7 @@ namespace: LentilTrait
 def: "Number of days from sowing to formation of first pod" [CO:curators]
 synonym: "DFPD" EXACT []
 is_a: CO_339:Phenological_traits ! Phenological_traits
-is_a: TO:0002640 (u)
+is_a: TO:0002640
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
