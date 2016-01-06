@@ -18,13 +18,13 @@ id: CO_339:0000001
 name: Scoring method for Anthracnose resistance
 namespace: LentilMethod
 def: "Quantification of symptoms development in leaves and stem" [CO:curators]
-method_of: CO_339:0000000 ! Anthracnose resistance
+relationship: method_of: CO_339:0000000 ! Anthracnose resistance
 
 [Term]
 id: CO_339:0000002
 name: 1 to 9 symptom scale
 namespace: LentilScale
-scale_of CO_339:0000001 ! Scoring method for Anthracnose resistance
+relationship: scale_of: CO_339:0000001 ! Scoring method for Anthracnose resistance
 
 [Term]
 id: CO_339:0000002:1
