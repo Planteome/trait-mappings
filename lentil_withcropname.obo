@@ -26,55 +26,6 @@ namespace: LentilScale
 relationship: scale_of: CO_339:0000001 ! Scoring method for Anthracnose resistance
 
 [Term]
-id: CO_339:0000002:1
-name: lentil no lesion
-namespace: LentilScale
-synonym: "1" EXACT []
-is_a: CO_339:0000002 ! 1 to 9 symptom scale
-
-[Term]
-id: CO_339:0000002:2
-name: lentil 
-namespace: LentilScale
-synonym: "2" EXACT []
-is_a: CO_339:0000002 ! 1 to 9 symptom scale
-
-[Term]
-id: CO_339:0000002:3
-name: lentil few small superficial lesions
-namespace: LentilScale
-synonym: "3" EXACT []
-is_a: CO_339:0000002 ! 1 to 9 symptom scale
-
-[Term]
-id: CO_339:0000002:5
-name: lentil few deep lesions, mostly superficial, no stem girdling
-namespace: LentilScale
-synonym: "5" EXACT []
-is_a: CO_339:0000002 ! 1 to 9 symptom scale
-
-[Term]
-id: CO_339:0000002:7
-name: lentil several deep stem lesions, mixture of deep and superficial, partial wilting
-namespace: LentilScale
-synonym: "7" EXACT []
-is_a: CO_339:0000002 ! 1 to 9 symptom scale
-
-[Term]
-id: CO_339:0000002:8
-name: lentil 
-namespace: LentilScale
-synonym: "8" EXACT []
-is_a: CO_339:0000002 ! 1 to 9 symptom scale
-
-[Term]
-id: CO_339:0000002:9
-name: lentil deep penetrating lesions coalesce, stem girdling, wilting
-namespace: LentilScale
-synonym: "9" EXACT []
-is_a: CO_339:0000002 ! 1 to 9 symptom scale
-
-[Term]
 id: CO_339:0000003
 name: lentil aphid resistance
 namespace: LentilTrait
@@ -122,55 +73,6 @@ id: CO_339:0000008
 name: lentil 1 to 9 symptom scale
 namespace: LentilScale
 relationship: scale_of CO_339:0000007 ! Scoring method for Ascochyta blight Resistance
-
-[Term]
-id: CO_339:0000008:1
-name: lentil no symptoms
-namespace: LentilScale
-synonym: "1" EXACT []
-is_a: CO_339:0000008 ! 1 to 9 symptom scale
-
-[Term]
-id: CO_339:0000008:2
-name: lentil 
-namespace: LentilScale
-synonym: "2" EXACT []
-is_a: CO_339:0000008 ! 1 to 9 symptom scale
-
-[Term]
-id: CO_339:0000008:3
-name: lentil small flecks or small lesions on leaves and chlorosis at leaf tips
-namespace: LentilScale
-synonym: "3" EXACT []
-is_a: CO_339:0000008 ! 1 to 9 symptom scale
-
-[Term]
-id: CO_339:0000008:5
-name: lentil many leaf lesions, leaf drop, stem flecks or small lesions
-namespace: LentilScale
-synonym: "5" EXACT []
-is_a: CO_339:0000008 ! 1 to 9 symptom scale
-
-[Term]
-id: CO_339:0000008:7
-name: lentil defoliation, extended stem lesions
-namespace: LentilScale
-synonym: "7" EXACT []
-is_a: CO_339:0000008 ! 1 to 9 symptom scale
-
-[Term]
-id: CO_339:0000008:8
-name: lentil 
-namespace: LentilScale
-synonym: "8" EXACT []
-is_a: CO_339:0000008 ! 1 to 9 symptom scale
-
-[Term]
-id: CO_339:0000008:9
-name: lentil stem girdling and or plant death
-namespace: LentilScale
-synonym: "9" EXACT []
-is_a: CO_339:0000008 ! 1 to 9 symptom scale
 
 [Term]
 id: CO_339:0000009
@@ -239,69 +141,6 @@ namespace: LentilScale
 relationship: scale_of CO_339:0000016 ! Screening method for Boron Deficiency
 
 [Term]
-id: CO_339:0000017:0
-name: lentil no symptoms of b deficiency
-namespace: LentilScale
-synonym: "0" EXACT []
-is_a: CO_339:0000017 ! 1 to 10 percentage scale
-
-[Term]
-id: CO_339:0000017:1
-name: lentil 10% of plants showing boron deficiency
-namespace: LentilScale
-synonym: "1" EXACT []
-is_a: CO_339:0000017 ! 1 to 10 percentage scale
-
-[Term]
-id: CO_339:0000017:2
-name: lentil 20% of plants showing boron deficiency
-namespace: LentilScale
-synonym: "2" EXACT []
-is_a: CO_339:0000017 ! 1 to 10 percentage scale
-
-[Term]
-id: CO_339:0000017:3
-name: lentil 30% of plants showing boron deficiency
-namespace: LentilScale
-synonym: "3" EXACT []
-is_a: CO_339:0000017 ! 1 to 10 percentage scale
-
-[Term]
-id: CO_339:0000017:4
-name: lentil 40% of plants showing boron deficiency
-namespace: LentilScale
-synonym: "4" EXACT []
-is_a: CO_339:0000017 ! 1 to 10 percentage scale
-
-[Term]
-id: CO_339:0000017:5
-name: lentil 50% of plants showing boron deficiency
-namespace: LentilScale
-synonym: "5" EXACT []
-is_a: CO_339:0000017 ! 1 to 10 percentage scale
-
-[Term]
-id: CO_339:0000017:6
-name: lentil 60% of plants showing boron deficiency
-namespace: LentilScale
-synonym: "6" EXACT []
-is_a: CO_339:0000017 ! 1 to 10 percentage scale
-
-[Term]
-id: CO_339:0000017:7
-name: lentil 70% of plants showing boron deficiency
-namespace: LentilScale
-synonym: "7" EXACT []
-is_a: CO_339:0000017 ! 1 to 10 percentage scale
-
-[Term]
-id: CO_339:0000017:8
-name: lentil 80% of plants showing boron deficiency
-namespace: LentilScale
-synonym: "8" EXACT []
-is_a: CO_339:0000017 ! 1 to 10 percentage scale
-
-[Term]
 id: CO_339:0000018
 name: lentil boron toxicity tolerance
 namespace: LentilTrait
@@ -324,69 +163,6 @@ namespace: LentilScale
 relationship: scale_of CO_339:0000019 ! Screening method for Boron toxicity tolerance
 
 [Term]
-id: CO_339:0000020:1
-name: lentil no symptoms of b toxicity
-namespace: LentilScale
-synonym: "1" EXACT []
-is_a: CO_339:0000020 ! 1 to 10 percentage scale
-
-[Term]
-id: CO_339:0000020:2
-name: lentil 20% of plants showing foliar damage
-namespace: LentilScale
-synonym: "2" EXACT []
-is_a: CO_339:0000020 ! 1 to 10 percentage scale
-
-[Term]
-id: CO_339:0000020:3
-name: lentil 30% of plants showing foliar damage
-namespace: LentilScale
-synonym: "3" EXACT []
-is_a: CO_339:0000020 ! 1 to 10 percentage scale
-
-[Term]
-id: CO_339:0000020:4
-name: lentil 40% of plants showing foliar damage
-namespace: LentilScale
-synonym: "4" EXACT []
-is_a: CO_339:0000020 ! 1 to 10 percentage scale
-
-[Term]
-id: CO_339:0000020:5
-name: lentil 50% of plants showing foliar damage
-namespace: LentilScale
-synonym: "5" EXACT []
-is_a: CO_339:0000020 ! 1 to 10 percentage scale
-
-[Term]
-id: CO_339:0000020:6
-name: lentil 60% of plants showing foliar damage
-namespace: LentilScale
-synonym: "6" EXACT []
-is_a: CO_339:0000020 ! 1 to 10 percentage scale
-
-[Term]
-id: CO_339:0000020:7
-name: lentil 70% of plants showing foliar damage
-namespace: LentilScale
-synonym: "7" EXACT []
-is_a: CO_339:0000020 ! 1 to 10 percentage scale
-
-[Term]
-id: CO_339:0000020:8
-name: lentil 80% of plants showing foliar damage
-namespace: LentilScale
-synonym: "8" EXACT []
-is_a: CO_339:0000020 ! 1 to 10 percentage scale
-
-[Term]
-id: CO_339:0000020:9
-name: lentil 90% of plants showing foliar damage
-namespace: LentilScale
-synonym: "9" EXACT []
-is_a: CO_339:0000020 ! 1 to 10 percentage scale
-
-[Term]
 id: CO_339:0000021
 name: lentil branching pattern
 namespace: LentilTrait
@@ -407,27 +183,6 @@ id: CO_339:0000023
 name: lentil 1 to 3 pattern scale
 namespace: LentilScale
 relationship: scale_of CO_339:0000022 ! Branching pattern - method
-
-[Term]
-id: CO_339:0000023:1
-name: lentil erect compact with a narrow branch angle
-namespace: LentilScale
-synonym: "1" EXACT []
-is_a: CO_339:0000023 ! 1 to 3 pattern scale
-
-[Term]
-id: CO_339:0000023:2
-name: lentil spreading
-namespace: LentilScale
-synonym: "2" EXACT []
-is_a: CO_339:0000023 ! 1 to 3 pattern scale
-
-[Term]
-id: CO_339:0000023:3
-name: lentil intermediate
-namespace: LentilScale
-synonym: "3" EXACT []
-is_a: CO_339:0000023 ! 1 to 3 pattern scale
 
 [Term]
 id: CO_339:0000024
@@ -495,41 +250,6 @@ namespace: LentilScale
 relationship: scale_of CO_339:0000031 ! Screening method for Cold Tolerance
 
 [Term]
-id: CO_339:0000032:1
-name: lentil no foliar damage
-namespace: LentilScale
-synonym: "1" EXACT []
-is_a: CO_339:0000032 ! 1 to 5 percentage scale
-
-[Term]
-id: CO_339:0000032:2
-name: lentil 30% of plants showing symptoms to low temperature stress
-namespace: LentilScale
-synonym: "2" EXACT []
-is_a: CO_339:0000032 ! 1 to 5 percentage scale
-
-[Term]
-id: CO_339:0000032:3
-name: lentil 50% of plants showing symptoms to low temperature stress
-namespace: LentilScale
-synonym: "3" EXACT []
-is_a: CO_339:0000032 ! 1 to 5 percentage scale
-
-[Term]
-id: CO_339:0000032:4
-name: lentil 70% of plants showing symptoms to low temperature stress
-namespace: LentilScale
-synonym: "4" EXACT []
-is_a: CO_339:0000032 ! 1 to 5 percentage scale
-
-[Term]
-id: CO_339:0000032:5
-name: lentil completely dead
-namespace: LentilScale
-synonym: "5" EXACT []
-is_a: CO_339:0000032 ! 1 to 5 percentage scale
-
-[Term]
 id: CO_339:0000033
 name: lentil collar rot resistance
 namespace: LentilTrait
@@ -550,48 +270,6 @@ id: CO_339:0000035
 name: lentil 1 to 10 percentage scale
 namespace: LentilScale
 relationship: scale_of CO_339:0000034 ! Screening method for Colar resistance
-
-[Term]
-id: CO_339:0000035:0
-name: lentil no mortality
-namespace: LentilScale
-synonym: "0" EXACT []
-is_a: CO_339:0000035 ! 1 to 10 percentage scale
-
-[Term]
-id: CO_339:0000035:1
-name: lentil less than 1% mortality
-namespace: LentilScale
-synonym: "1" EXACT []
-is_a: CO_339:0000035 ! 1 to 10 percentage scale
-
-[Term]
-id: CO_339:0000035:3
-name: lentil 1-10% mortality
-namespace: LentilScale
-synonym: "3" EXACT []
-is_a: CO_339:0000035 ! 1 to 10 percentage scale
-
-[Term]
-id: CO_339:0000035:5
-name: lentil 11-20% mortality
-namespace: LentilScale
-synonym: "5" EXACT []
-is_a: CO_339:0000035 ! 1 to 10 percentage scale
-
-[Term]
-id: CO_339:0000035:7
-name: lentil 21-50%mortality
-namespace: LentilScale
-synonym: "7" EXACT []
-is_a: CO_339:0000035 ! 1 to 10 percentage scale
-
-[Term]
-id: CO_339:0000035:9
-name: lentil 51% or more mortality
-namespace: LentilScale
-synonym: "9" EXACT []
-is_a: CO_339:0000035 ! 1 to 10 percentage scale
 
 [Term]
 id: CO_339:0000036
@@ -636,27 +314,6 @@ id: CO_339:0000041
 name: lentil 1 to 3 colour scale
 namespace: LentilScale
 relationship: scale_of CO_339:0000040 ! Cotyledon Colour - Method
-
-[Term]
-id: CO_339:0000041:1
-name: lentil yellow
-namespace: LentilScale
-synonym: "1" EXACT []
-is_a: CO_339:0000041 ! 1 to 3 colour scale
-
-[Term]
-id: CO_339:0000041:2
-name: lentil orange-red
-namespace: LentilScale
-synonym: "2" EXACT []
-is_a: CO_339:0000041 ! 1 to 3 colour scale
-
-[Term]
-id: CO_339:0000041:3
-name: lentil olive-green
-namespace: LentilScale
-synonym: "3" EXACT []
-is_a: CO_339:0000041 ! 1 to 3 colour scale
 
 [Term]
 id: CO_339:0000042
@@ -812,41 +469,6 @@ namespace: LentilScale
 relationship: scale_of CO_339:0000064 ! Screening method for Fusarium wilt resistance
 
 [Term]
-id: CO_339:0000065:1
-name: lentil highly resistant
-namespace: LentilScale
-synonym: "1" EXACT []
-is_a: CO_339:0000065 ! 1 to 5 resistance scale
-
-[Term]
-id: CO_339:0000065:2
-name: lentil resistant
-namespace: LentilScale
-synonym: "2" EXACT []
-is_a: CO_339:0000065 ! 1 to 5 resistance scale
-
-[Term]
-id: CO_339:0000065:3
-name: lentil moderately resistant
-namespace: LentilScale
-synonym: "3" EXACT []
-is_a: CO_339:0000065 ! 1 to 5 resistance scale
-
-[Term]
-id: CO_339:0000065:4
-name: lentil susceptible
-namespace: LentilScale
-synonym: "4" EXACT []
-is_a: CO_339:0000065 ! 1 to 5 resistance scale
-
-[Term]
-id: CO_339:0000065:5
-name: lentil highly susceptible
-namespace: LentilScale
-synonym: "5" EXACT []
-is_a: CO_339:0000065 ! 1 to 5 resistance scale
-
-[Term]
 id: CO_339:0000066
 name: lentil ground colour of seed testa
 namespace: LentilTrait
@@ -867,48 +489,6 @@ id: CO_339:0000068
 name: lentil 1 to 6 colour scale
 namespace: LentilScale
 relationship: scale_of CO_339:0000067 ! Seed coat color - Method
-
-[Term]
-id: CO_339:0000068:1
-name: lentil green
-namespace: LentilScale
-synonym: "1" EXACT []
-is_a: CO_339:0000068 ! 1 to 6 colour scale
-
-[Term]
-id: CO_339:0000068:2
-name: lentil grey
-namespace: LentilScale
-synonym: "2" EXACT []
-is_a: CO_339:0000068 ! 1 to 6 colour scale
-
-[Term]
-id: CO_339:0000068:3
-name: lentil brown
-namespace: LentilScale
-synonym: "3" EXACT []
-is_a: CO_339:0000068 ! 1 to 6 colour scale
-
-[Term]
-id: CO_339:0000068:4
-name: lentil black
-namespace: LentilScale
-synonym: "4" EXACT []
-is_a: CO_339:0000068 ! 1 to 6 colour scale
-
-[Term]
-id: CO_339:0000068:5
-name: lentil pink
-namespace: LentilScale
-synonym: "5" EXACT []
-is_a: CO_339:0000068 ! 1 to 6 colour scale
-
-[Term]
-id: CO_339:0000068:6
-name: lentil yellow
-namespace: LentilScale
-synonym: "6" EXACT []
-is_a: CO_339:0000068 ! 1 to 6 colour scale
 
 [Term]
 id: CO_339:0000069
@@ -932,41 +512,6 @@ id: CO_339:0000071
 name: lentil 1 to 5 habit scale
 namespace: LentilScale
 relationship: scale_of CO_339:0000070 ! Growth Habit - Method
-
-[Term]
-id: CO_339:0000071:1
-name: lentil erect (0-150 from vertical)
-namespace: LentilScale
-synonym: "1" EXACT []
-is_a: CO_339:0000071 ! 1 to 5 habit scale
-
-[Term]
-id: CO_339:0000071:2
-name: lentil semi-erect (16-250 from vertical)
-namespace: LentilScale
-synonym: "2" EXACT []
-is_a: CO_339:0000071 ! 1 to 5 habit scale
-
-[Term]
-id: CO_339:0000071:3
-name: lentil semi-spreading (26-600 from vertical)
-namespace: LentilScale
-synonym: "3" EXACT []
-is_a: CO_339:0000071 ! 1 to 5 habit scale
-
-[Term]
-id: CO_339:0000071:4
-name: lentil spreading (61-800 from vertical)
-namespace: LentilScale
-synonym: "4" EXACT []
-is_a: CO_339:0000071 ! 1 to 5 habit scale
-
-[Term]
-id: CO_339:0000071:5
-name: lentil prostrate (branches flat on the ground)
-namespace: LentilScale
-synonym: "5" EXACT []
-is_a: CO_339:0000071 ! 1 to 5 habit scale
 
 [Term]
 id: CO_339:0000072
@@ -1053,41 +598,6 @@ namespace: LentilScale
 relationship: scale_of CO_339:0000082 ! Screening method for Herbicide Tolerance
 
 [Term]
-id: CO_339:0000083:1
-name: lentil highly tolerant
-namespace: LentilScale
-synonym: "1" EXACT []
-is_a: CO_339:0000083 ! 1 to 5 tolerance scale
-
-[Term]
-id: CO_339:0000083:2
-name: lentil tolerant
-namespace: LentilScale
-synonym: "2" EXACT []
-is_a: CO_339:0000083 ! 1 to 5 tolerance scale
-
-[Term]
-id: CO_339:0000083:3
-name: lentil moderately tolerant
-namespace: LentilScale
-synonym: "3" EXACT []
-is_a: CO_339:0000083 ! 1 to 5 tolerance scale
-
-[Term]
-id: CO_339:0000083:4
-name: lentil sensitive
-namespace: LentilScale
-synonym: "4" EXACT []
-is_a: CO_339:0000083 ! 1 to 5 tolerance scale
-
-[Term]
-id: CO_339:0000083:5
-name: lentil highly sensitive
-namespace: LentilScale
-synonym: "5" EXACT []
-is_a: CO_339:0000083 ! 1 to 5 tolerance scale
-
-[Term]
 id: CO_339:0000084
 name: lentil seed weight
 namespace: LentilTrait
@@ -1134,69 +644,6 @@ namespace: LentilScale
 relationship: scale_of CO_339:0000088 ! Screening method for Iron Deficency
 
 [Term]
-id: CO_339:0000089:0
-name: lentil no symptoms of fe deficiency
-namespace: LentilScale
-synonym: "0" EXACT []
-is_a: CO_339:0000089 ! 0 to 9 percentage scale
-
-[Term]
-id: CO_339:0000089:1
-name: lentil 10% of plants showing fe deficiency
-namespace: LentilScale
-synonym: "1" EXACT []
-is_a: CO_339:0000089 ! 0 to 9 percentage scale
-
-[Term]
-id: CO_339:0000089:2
-name: lentil 20% of plants showing fe deficiency
-namespace: LentilScale
-synonym: "2" EXACT []
-is_a: CO_339:0000089 ! 0 to 9 percentage scale
-
-[Term]
-id: CO_339:0000089:3
-name: lentil 30% of plants showing fe deficiency
-namespace: LentilScale
-synonym: "3" EXACT []
-is_a: CO_339:0000089 ! 0 to 9 percentage scale
-
-[Term]
-id: CO_339:0000089:4
-name: lentil 40% of plants showing fe deficiency
-namespace: LentilScale
-synonym: "4" EXACT []
-is_a: CO_339:0000089 ! 0 to 9 percentage scale
-
-[Term]
-id: CO_339:0000089:5
-name: lentil 50% of plants showing fe deficiency
-namespace: LentilScale
-synonym: "5" EXACT []
-is_a: CO_339:0000089 ! 0 to 9 percentage scale
-
-[Term]
-id: CO_339:0000089:6
-name: lentil 60% of plants showing fe deficiency
-namespace: LentilScale
-synonym: "6" EXACT []
-is_a: CO_339:0000089 ! 0 to 9 percentage scale
-
-[Term]
-id: CO_339:0000089:7
-name: lentil 70% of plants showing fe deficiency
-namespace: LentilScale
-synonym: "7" EXACT []
-is_a: CO_339:0000089 ! 0 to 9 percentage scale
-
-[Term]
-id: CO_339:0000089:8
-name: lentil 80% of plants showing fe deficiency
-namespace: LentilScale
-synonym: "8" EXACT []
-is_a: CO_339:0000089 ! 0 to 9 percentage scale
-
-[Term]
 id: CO_339:0000090
 name: lentil lodging susceptibility
 namespace: LentilTrait
@@ -1217,62 +664,6 @@ id: CO_339:0000092
 name: lentil 1 to 7 incidence scale
 namespace: LentilScale
 relationship: scale_of CO_339:0000091 ! Lodgind susceptibility assessment - Method
-
-[Term]
-id: CO_339:0000092:0
-name: lentil none
-namespace: LentilScale
-synonym: "0" EXACT []
-is_a: CO_339:0000092 ! 1 to 7 incidence scale
-
-[Term]
-id: CO_339:0000092:1
-name: lentil 
-namespace: LentilScale
-synonym: "1" EXACT []
-is_a: CO_339:0000092 ! 1 to 7 incidence scale
-
-[Term]
-id: CO_339:0000092:2
-name: lentil 
-namespace: LentilScale
-synonym: "2" EXACT []
-is_a: CO_339:0000092 ! 1 to 7 incidence scale
-
-[Term]
-id: CO_339:0000092:3
-name: lentil low
-namespace: LentilScale
-synonym: "3" EXACT []
-is_a: CO_339:0000092 ! 1 to 7 incidence scale
-
-[Term]
-id: CO_339:0000092:4
-name: lentil 
-namespace: LentilScale
-synonym: "4" EXACT []
-is_a: CO_339:0000092 ! 1 to 7 incidence scale
-
-[Term]
-id: CO_339:0000092:5
-name: lentil medium
-namespace: LentilScale
-synonym: "5" EXACT []
-is_a: CO_339:0000092 ! 1 to 7 incidence scale
-
-[Term]
-id: CO_339:0000092:6
-name: lentil 
-namespace: LentilScale
-synonym: "6" EXACT []
-is_a: CO_339:0000092 ! 1 to 7 incidence scale
-
-[Term]
-id: CO_339:0000092:7
-name: lentil high
-namespace: LentilScale
-synonym: "7" EXACT []
-is_a: CO_339:0000092 ! 1 to 7 incidence scale
 
 [Term]
 id: CO_339:0000093
@@ -1419,41 +810,6 @@ namespace: LentilScale
 relationship: scale_of CO_339:0000112 ! Pattern of seed testa - method
 
 [Term]
-id: CO_339:0000113:1
-name: lentil absent
-namespace: LentilScale
-synonym: "1" EXACT []
-is_a: CO_339:0000113 ! 1 to 5 pattern scale
-
-[Term]
-id: CO_339:0000113:2
-name: lentil dotted
-namespace: LentilScale
-synonym: "2" EXACT []
-is_a: CO_339:0000113 ! 1 to 5 pattern scale
-
-[Term]
-id: CO_339:0000113:3
-name: lentil spotted
-namespace: LentilScale
-synonym: "3" EXACT []
-is_a: CO_339:0000113 ! 1 to 5 pattern scale
-
-[Term]
-id: CO_339:0000113:4
-name: lentil marbled
-namespace: LentilScale
-synonym: "4" EXACT []
-is_a: CO_339:0000113 ! 1 to 5 pattern scale
-
-[Term]
-id: CO_339:0000113:5
-name: lentil complex
-namespace: LentilScale
-synonym: "5" EXACT []
-is_a: CO_339:0000113 ! 1 to 5 pattern scale
-
-[Term]
 id: CO_339:0000114
 name: lentil plant height
 namespace: LentilTrait
@@ -1493,27 +849,6 @@ namespace: LentilScale
 relationship: scale_of CO_339:0000118 ! Plant pubescence - Method
 
 [Term]
-id: CO_339:0000119:1
-name: lentil low pubescence
-namespace: LentilScale
-synonym: "1" EXACT []
-is_a: CO_339:0000119 ! 1 to 3 extent scale
-
-[Term]
-id: CO_339:0000119:2
-name: lentil moderate pubescence
-namespace: LentilScale
-synonym: "2" EXACT []
-is_a: CO_339:0000119 ! 1 to 3 extent scale
-
-[Term]
-id: CO_339:0000119:3
-name: lentil high pubescence
-namespace: LentilScale
-synonym: "3" EXACT []
-is_a: CO_339:0000119 ! 1 to 3 extent scale
-
-[Term]
 id: CO_339:0000120
 name: lentil plant structure
 namespace: LentilTrait
@@ -1535,41 +870,6 @@ id: CO_339:0000122
 name: lentil 1 to 5 structure scale
 namespace: LentilScale
 relationship: scale_of CO_339:0000121 ! Plant Structure - Method
-
-[Term]
-id: CO_339:0000122:1
-name: lentil highly branched, bushy
-namespace: LentilScale
-synonym: "1" EXACT []
-is_a: CO_339:0000122 ! 1 to 5 structure scale
-
-[Term]
-id: CO_339:0000122:2
-name: lentil sparsely branched, tall erect
-namespace: LentilScale
-synonym: "2" EXACT []
-is_a: CO_339:0000122 ! 1 to 5 structure scale
-
-[Term]
-id: CO_339:0000122:3
-name: lentil moderately branched, semi-tall erect
-namespace: LentilScale
-synonym: "3" EXACT []
-is_a: CO_339:0000122 ! 1 to 5 structure scale
-
-[Term]
-id: CO_339:0000122:4
-name: lentil moderate to highly branched, semi-tall, subcompact
-namespace: LentilScale
-synonym: "4" EXACT []
-is_a: CO_339:0000122 ! 1 to 5 structure scale
-
-[Term]
-id: CO_339:0000122:5
-name: lentil moderate to highly branched, short, subcompact
-namespace: LentilScale
-synonym: "5" EXACT []
-is_a: CO_339:0000122 ! 1 to 5 structure scale
 
 [Term]
 id: CO_339:0000123
@@ -1616,69 +916,6 @@ namespace: LentilScale
 relationship: scale_of CO_339:0000127 ! Pod dehiscence - Method
 
 [Term]
-id: CO_339:0000128:0
-name: lentil none
-namespace: LentilScale
-synonym: "0" EXACT []
-is_a: CO_339:0000128 ! 1 to 9 intensity scale
-
-[Term]
-id: CO_339:0000128:1
-name: lentil 
-namespace: LentilScale
-synonym: "1" EXACT []
-is_a: CO_339:0000128 ! 1 to 9 intensity scale
-
-[Term]
-id: CO_339:0000128:2
-name: lentil 
-namespace: LentilScale
-synonym: "2" EXACT []
-is_a: CO_339:0000128 ! 1 to 9 intensity scale
-
-[Term]
-id: CO_339:0000128:3
-name: lentil low
-namespace: LentilScale
-synonym: "3" EXACT []
-is_a: CO_339:0000128 ! 1 to 9 intensity scale
-
-[Term]
-id: CO_339:0000128:4
-name: lentil 
-namespace: LentilScale
-synonym: "4" EXACT []
-is_a: CO_339:0000128 ! 1 to 9 intensity scale
-
-[Term]
-id: CO_339:0000128:5
-name: lentil medium
-namespace: LentilScale
-synonym: "5" EXACT []
-is_a: CO_339:0000128 ! 1 to 9 intensity scale
-
-[Term]
-id: CO_339:0000128:6
-name: lentil 
-namespace: LentilScale
-synonym: "6" EXACT []
-is_a: CO_339:0000128 ! 1 to 9 intensity scale
-
-[Term]
-id: CO_339:0000128:7
-name: lentil high
-namespace: LentilScale
-synonym: "7" EXACT []
-is_a: CO_339:0000128 ! 1 to 9 intensity scale
-
-[Term]
-id: CO_339:0000128:8
-name: lentil 
-namespace: LentilScale
-synonym: "8" EXACT []
-is_a: CO_339:0000128 ! 1 to 9 intensity scale
-
-[Term]
 id: CO_339:0000129
 name: lentil pod filling period
 namespace: LentilTrait
@@ -1723,69 +960,6 @@ namespace: LentilScale
 relationship: scale_of CO_339:0000133 ! Pod shedding - method
 
 [Term]
-id: CO_339:0000134:0
-name: lentil none
-namespace: LentilScale
-synonym: "0" EXACT []
-is_a: CO_339:0000134 ! 1 to 9 intensity scale
-
-[Term]
-id: CO_339:0000134:1
-name: lentil 
-namespace: LentilScale
-synonym: "1" EXACT []
-is_a: CO_339:0000134 ! 1 to 9 intensity scale
-
-[Term]
-id: CO_339:0000134:2
-name: lentil 
-namespace: LentilScale
-synonym: "2" EXACT []
-is_a: CO_339:0000134 ! 1 to 9 intensity scale
-
-[Term]
-id: CO_339:0000134:3
-name: lentil low
-namespace: LentilScale
-synonym: "3" EXACT []
-is_a: CO_339:0000134 ! 1 to 9 intensity scale
-
-[Term]
-id: CO_339:0000134:4
-name: lentil 
-namespace: LentilScale
-synonym: "4" EXACT []
-is_a: CO_339:0000134 ! 1 to 9 intensity scale
-
-[Term]
-id: CO_339:0000134:5
-name: lentil medium
-namespace: LentilScale
-synonym: "5" EXACT []
-is_a: CO_339:0000134 ! 1 to 9 intensity scale
-
-[Term]
-id: CO_339:0000134:6
-name: lentil 
-namespace: LentilScale
-synonym: "6" EXACT []
-is_a: CO_339:0000134 ! 1 to 9 intensity scale
-
-[Term]
-id: CO_339:0000134:7
-name: lentil high
-namespace: LentilScale
-synonym: "7" EXACT []
-is_a: CO_339:0000134 ! 1 to 9 intensity scale
-
-[Term]
-id: CO_339:0000134:8
-name: lentil 
-namespace: LentilScale
-synonym: "8" EXACT []
-is_a: CO_339:0000134 ! 1 to 9 intensity scale
-
-[Term]
 id: CO_339:0000135
 name: lentil pod weight
 namespace: LentilTrait
@@ -1822,27 +996,6 @@ id: CO_339:0000140
 name: lentil 1 to 3 presence scale
 namespace: LentilScale
 relationship: scale_of CO_339:0000139 ! Presence of tendrils - Method
-
-[Term]
-id: CO_339:0000140:1
-name: lentil absent
-namespace: LentilScale
-synonym: "1" EXACT []
-is_a: CO_339:0000140 ! 1 to 3 presence scale
-
-[Term]
-id: CO_339:0000140:2
-name: lentil rudimentary
-namespace: LentilScale
-synonym: "2" EXACT []
-is_a: CO_339:0000140 ! 1 to 3 presence scale
-
-[Term]
-id: CO_339:0000140:3
-name: lentil prominent
-namespace: LentilScale
-synonym: "3" EXACT []
-is_a: CO_339:0000140 ! 1 to 3 presence scale
 
 [Term]
 id: CO_339:0000141
@@ -1928,62 +1081,6 @@ namespace: LentilScale
 relationship: scale_of CO_339:0000151 ! Screening method for Rust resistance
 
 [Term]
-id: CO_339:0000152:1
-name: lentil 0-10% leaf area infected
-namespace: LentilScale
-synonym: "1" EXACT []
-is_a: CO_339:0000152 ! 1 to 9 percentage scale
-
-[Term]
-id: CO_339:0000152:3
-name: lentil 11-30% leaf area infected
-namespace: LentilScale
-synonym: "3" EXACT []
-is_a: CO_339:0000152 ! 1 to 9 percentage scale
-
-[Term]
-id: CO_339:0000152:4
-name: lentil 
-namespace: LentilScale
-synonym: "4" EXACT []
-is_a: CO_339:0000152 ! 1 to 9 percentage scale
-
-[Term]
-id: CO_339:0000152:5
-name: lentil 31-50% leaf area infected
-namespace: LentilScale
-synonym: "5" EXACT []
-is_a: CO_339:0000152 ! 1 to 9 percentage scale
-
-[Term]
-id: CO_339:0000152:6
-name: lentil 
-namespace: LentilScale
-synonym: "6" EXACT []
-is_a: CO_339:0000152 ! 1 to 9 percentage scale
-
-[Term]
-id: CO_339:0000152:7
-name: lentil 51-70% leaf area infected
-namespace: LentilScale
-synonym: "7" EXACT []
-is_a: CO_339:0000152 ! 1 to 9 percentage scale
-
-[Term]
-id: CO_339:0000152:8
-name: lentil 
-namespace: LentilScale
-synonym: "8" EXACT []
-is_a: CO_339:0000152 ! 1 to 9 percentage scale
-
-[Term]
-id: CO_339:0000152:9
-name: lentil more than 70% leaf area infected
-namespace: LentilScale
-synonym: "9" EXACT []
-is_a: CO_339:0000152 ! 1 to 9 percentage scale
-
-[Term]
 id: CO_339:0000153
 name: lentil salinity tolerance
 namespace: LentilTrait
@@ -2004,41 +1101,6 @@ id: CO_339:0000155
 name: lentil 1 to 5 suceptibility scale
 namespace: LentilScale
 relationship: scale_of CO_339:0000154 ! Screening method for Salinity tolerance
-
-[Term]
-id: CO_339:0000155:1
-name: lentil highly tolerant (100% healthy leaves)
-namespace: LentilScale
-synonym: "1" EXACT []
-is_a: CO_339:0000155 ! 1 to 5 suceptibility scale
-
-[Term]
-id: CO_339:0000155:2
-name: lentil tolerant (75% healthy leaves)
-namespace: LentilScale
-synonym: "2" EXACT []
-is_a: CO_339:0000155 ! 1 to 5 suceptibility scale
-
-[Term]
-id: CO_339:0000155:3
-name: lentil moderately tolerant (50% healthy leaves)
-namespace: LentilScale
-synonym: "3" EXACT []
-is_a: CO_339:0000155 ! 1 to 5 suceptibility scale
-
-[Term]
-id: CO_339:0000155:4
-name: lentil susceptible (25% healthy leaves)
-namespace: LentilScale
-synonym: "4" EXACT []
-is_a: CO_339:0000155 ! 1 to 5 suceptibility scale
-
-[Term]
-id: CO_339:0000155:5
-name: lentil highly susceptible (completely dead)
-namespace: LentilScale
-synonym: "5" EXACT []
-is_a: CO_339:0000155 ! 1 to 5 suceptibility scale
 
 [Term]
 id: CO_339:0000156
@@ -2200,69 +1262,6 @@ namespace: LentilScale
 relationship: scale_of CO_339:0000178 ! Screening method for Stemphylium blight resistance
 
 [Term]
-id: CO_339:0000179:1
-name: lentil 0-10% leaf area infected
-namespace: LentilScale
-synonym: "1" EXACT []
-is_a: CO_339:0000179 ! 1 to 9 resistance scale
-
-[Term]
-id: CO_339:0000179:2
-name: lentil 
-namespace: LentilScale
-synonym: "2" EXACT []
-is_a: CO_339:0000179 ! 1 to 9 resistance scale
-
-[Term]
-id: CO_339:0000179:3
-name: lentil 11-30% leaf area infected
-namespace: LentilScale
-synonym: "3" EXACT []
-is_a: CO_339:0000179 ! 1 to 9 resistance scale
-
-[Term]
-id: CO_339:0000179:4
-name: lentil 
-namespace: LentilScale
-synonym: "4" EXACT []
-is_a: CO_339:0000179 ! 1 to 9 resistance scale
-
-[Term]
-id: CO_339:0000179:5
-name: lentil 31-50% leaf area infected
-namespace: LentilScale
-synonym: "5" EXACT []
-is_a: CO_339:0000179 ! 1 to 9 resistance scale
-
-[Term]
-id: CO_339:0000179:6
-name: lentil 
-namespace: LentilScale
-synonym: "6" EXACT []
-is_a: CO_339:0000179 ! 1 to 9 resistance scale
-
-[Term]
-id: CO_339:0000179:7
-name: lentil 51-70% leaf area infected
-namespace: LentilScale
-synonym: "7" EXACT []
-is_a: CO_339:0000179 ! 1 to 9 resistance scale
-
-[Term]
-id: CO_339:0000179:8
-name: lentil 
-namespace: LentilScale
-synonym: "8" EXACT []
-is_a: CO_339:0000179 ! 1 to 9 resistance scale
-
-[Term]
-id: CO_339:0000179:9
-name: lentil more than 70% leaf area infected
-namespace: LentilScale
-synonym: "9" EXACT []
-is_a: CO_339:0000179 ! 1 to 9 resistance scale
-
-[Term]
 id: CO_339:0000180
 name: lentil stomatal conductance
 namespace: LentilTrait
@@ -2328,27 +1327,6 @@ id: CO_339:0000188
 name: lentil 1 to 3 type scale
 namespace: LentilScale
 relationship: scale_of CO_339:0000187 ! Tendrils Type - Method
-
-[Term]
-id: CO_339:0000188:1
-name: lentil bristle
-namespace: LentilScale
-synonym: "1" EXACT []
-is_a: CO_339:0000188 ! 1 to 3 type scale
-
-[Term]
-id: CO_339:0000188:2
-name: lentil simple
-namespace: LentilScale
-synonym: "2" EXACT []
-is_a: CO_339:0000188 ! 1 to 3 type scale
-
-[Term]
-id: CO_339:0000188:3
-name: lentil dichotomous
-namespace: LentilScale
-synonym: "3" EXACT []
-is_a: CO_339:0000188 ! 1 to 3 type scale
 
 [Term]
 id: CO_339:0000189
@@ -3012,11 +1990,6 @@ relationship: variable_of CO_339:0000192 ! Winter survival
 relationship: variable_of CO_339:0000193 ! Screening method for Winter survival
 relationship: variable_of CO_339:0000074 ! Ratio
 is_a: CO_339:0000192 ! Winter survival
-
-[Term]
-id: CO_339:Trait
-name: trait
-namespace: LentilTrait
 
 [Typedef]
 id: method_of
