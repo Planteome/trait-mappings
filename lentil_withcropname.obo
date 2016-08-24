@@ -1229,7 +1229,7 @@ name: lentil stem weevil resistance
 namespace: LentilTrait
 def: "Degree of tolerance to stem weevil.Sitona crinitus. Damage seedlings and root nodules" [CO:curators]
 synonym: "SWVR" EXACT []
-is_a: TO:0000263
+is_a: TO:0000050
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
