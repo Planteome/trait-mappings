@@ -1,0 +1,3889 @@
+format-version: 1.2
+auto-generated-by: java
+default-namespace: cco
+
+[Term]
+id: CO_336:0000000
+name: flowering time
+namespace: SoybeanTrait
+def: "Anthesis or flowering time is the period during which a flower is fully open and functional. Pollination and fertilization occur during this period." []
+synonym: "FlwT" EXACT []
+synonym: "Open flower" EXACT []
+is_a: CO_336:Phenological_traits ! Phenological_traits
+
+[Term]
+id: CO_336:0000001
+name: days to 50% flowering count
+namespace: SoybeanMethod
+def: "Count the number of days after sowing until 50% of the plants have one or more flowers" []
+is_a: CO_336:Counting ! Counting
+relationship: method_of CO_336:0000000 ! flowering time
+
+[Term]
+id: CO_336:0000002
+name: day
+namespace: SoybeanScale
+is_a: CO_336:Duration ! Duration
+relationship: scale_of CO_336:0000001 ! days to 50% flowering count
+relationship: scale_of CO_336:0000022 ! days to maturity count
+relationship: scale_of CO_336:0000061 ! reproductive period duration measurement
+relationship: scale_of CO_336:0000088 ! counting days of seed fill
+relationship: scale_of CO_336:0000157 ! plant germination count
+relationship: scale_of CO_336:0000166 ! first flower date method
+relationship: scale_of CO_336:0000166 ! first flower date method
+relationship: scale_of CO_336:0000172 ! maturity days count
+relationship: scale_of CO_336:0000175 ! full maturity count
+relationship: scale_of CO_336:0000175 ! full maturity count
+
+[Term]
+id: CO_336:0000003
+name: bacterial pustule
+namespace: SoybeanTrait
+def: "V-shaped chlorotic to necrotic foliar lesions,vascular blackening, Light colored, raised pustules which can coalesce into brown lesions, caused by Xanthomonas sp." []
+synonym: "Bacterial Pustule" EXACT []
+synonym: "BP" EXACT []
+is_a: CO_336:Biotic_stress_traits ! Biotic_stress_traits
+
+[Term]
+id: CO_336:0000004
+name: bacterial pustle assessment
+namespace: SoybeanMethod
+def: "visual assessment of 1-5 affected plants with bacterial pustule" []
+is_a: CO_336:Estimation ! Estimation
+relationship: method_of CO_336:0000003 ! bacterial pustule
+
+[Term]
+id: CO_336:0000005
+name: 1-5 infection score
+namespace: SoybeanScale
+is_a: CO_336:Ordinal ! Ordinal
+relationship: scale_of CO_336:0000004 ! bacterial pustle assessment
+
+[Term]
+id: CO_336:0000005:1
+name: 0% lesions on plants
+namespace: SoybeanScale
+synonym: "1" EXACT []
+is_a: CO_336:0000005 ! 1-5 infection score
+
+[Term]
+id: CO_336:0000005:2
+name: 1-10% lesions on plants
+namespace: SoybeanScale
+synonym: "2" EXACT []
+is_a: CO_336:0000005 ! 1-5 infection score
+
+[Term]
+id: CO_336:0000005:3
+name: 10-25% lesions on the plants
+namespace: SoybeanScale
+synonym: "3" EXACT []
+is_a: CO_336:0000005 ! 1-5 infection score
+
+[Term]
+id: CO_336:0000005:4
+name: 25-50% lesions on the plants
+namespace: SoybeanScale
+synonym: "4" EXACT []
+is_a: CO_336:0000005 ! 1-5 infection score
+
+[Term]
+id: CO_336:0000005:5
+name: >50% plants with lesions
+namespace: SoybeanScale
+synonym: "5" EXACT []
+is_a: CO_336:0000005 ! 1-5 infection score
+
+[Term]
+id: CO_336:0000006
+name: soybean rust
+namespace: SoybeanTrait
+def: "Tan and reddish brown lesions on leaves, pods or whole plant caused by Phakopsora Pachyrhizi" []
+synonym: "Asian rust" EXACT []
+synonym: "RUST" EXACT []
+is_a: CO_336:Biotic_stress_traits ! Biotic_stress_traits
+
+[Term]
+id: CO_336:0000007
+name: rust assessment
+namespace: SoybeanMethod
+def: "Visual assessment of 1-5 affected plants with rust" []
+is_a: CO_336:Estimation ! Estimation
+relationship: method_of CO_336:0000006 ! soybean rust
+
+[Term]
+id: CO_336:0000008
+name: 1-5 infection score
+namespace: SoybeanScale
+is_a: CO_336:Ordinal ! Ordinal
+relationship: scale_of CO_336:0000007 ! rust assessment
+
+[Term]
+id: CO_336:0000008:1
+name: 0% lesions on plants
+namespace: SoybeanScale
+synonym: "1" EXACT []
+is_a: CO_336:0000008 ! 1-5 infection score
+
+[Term]
+id: CO_336:0000008:2
+name: 1-10% lesions on plants
+namespace: SoybeanScale
+synonym: "2" EXACT []
+is_a: CO_336:0000008 ! 1-5 infection score
+
+[Term]
+id: CO_336:0000008:3
+name: 10-25% lesions on the plants
+namespace: SoybeanScale
+synonym: "3" EXACT []
+is_a: CO_336:0000008 ! 1-5 infection score
+
+[Term]
+id: CO_336:0000008:4
+name: 25-50% lesions on the plants
+namespace: SoybeanScale
+synonym: "4" EXACT []
+is_a: CO_336:0000008 ! 1-5 infection score
+
+[Term]
+id: CO_336:0000008:5
+name: >50% plants with lesions
+namespace: SoybeanScale
+synonym: "5" EXACT []
+is_a: CO_336:0000008 ! 1-5 infection score
+
+[Term]
+id: CO_336:0000009
+name: soybean mosaic virus
+namespace: SoybeanTrait
+def: "Stunting of plants and crinkled and mottling of leaves" []
+synonym: "SMV" EXACT []
+synonym: "Viral infection, SMV" EXACT []
+is_a: CO_336:Biotic_stress_traits ! Biotic_stress_traits
+
+[Term]
+id: CO_336:0000010
+name: smv assessment
+namespace: SoybeanMethod
+def: "Visual assessment of 1-5 affected plants / plot" []
+is_a: CO_336:Estimation ! Estimation
+relationship: method_of CO_336:0000009 ! soybean mosaic virus
+
+[Term]
+id: CO_336:0000011
+name: 1-5 infection score
+namespace: SoybeanScale
+is_a: CO_336:Ordinal ! Ordinal
+relationship: scale_of CO_336:0000010 ! smv assessment
+
+[Term]
+id: CO_336:0000011:1
+name: 0% virus symptom seen
+namespace: SoybeanScale
+synonym: "1" EXACT []
+is_a: CO_336:0000011 ! 1-5 infection score
+
+[Term]
+id: CO_336:0000011:2
+name: 1-10% occaional mild symptoms
+namespace: SoybeanScale
+synonym: "2" EXACT []
+is_a: CO_336:0000011 ! 1-5 infection score
+
+[Term]
+id: CO_336:0000011:3
+name: 10-25% moderate infection
+namespace: SoybeanScale
+synonym: "3" EXACT []
+is_a: CO_336:0000011 ! 1-5 infection score
+
+[Term]
+id: CO_336:0000011:4
+name: 25-50% severe and widespread symptoms
+namespace: SoybeanScale
+synonym: "4" EXACT []
+is_a: CO_336:0000011 ! 1-5 infection score
+
+[Term]
+id: CO_336:0000011:5
+name: >50% with likely loss in yield
+namespace: SoybeanScale
+synonym: "5" EXACT []
+is_a: CO_336:0000011 ! 1-5 infection score
+
+[Term]
+id: CO_336:0000012
+name: frogeye leafspot
+namespace: SoybeanTrait
+def: "Tan or brown, elliptical lesions with brown purple boarder on plant parts caused by Cercospora Sojina" []
+synonym: "FROGEYE" EXACT []
+synonym: "Frogeye" EXACT []
+is_a: CO_336:Biotic_stress_traits ! Biotic_stress_traits
+
+[Term]
+id: CO_336:0000013
+name: frog eye assessment
+namespace: SoybeanMethod
+def: "Visual assessment of 1-5 affected leaf area with frog eye" []
+is_a: CO_336:Estimation ! Estimation
+relationship: method_of CO_336:0000012 ! frogeye leafspot
+
+[Term]
+id: CO_336:0000014
+name: 1-5 infection score
+namespace: SoybeanScale
+is_a: CO_336:Ordinal ! Ordinal
+relationship: scale_of CO_336:0000013 ! frog eye assessment
+
+[Term]
+id: CO_336:0000014:1
+name: 0% leaf spot seen
+namespace: SoybeanScale
+synonym: "1" EXACT []
+is_a: CO_336:0000014 ! 1-5 infection score
+
+[Term]
+id: CO_336:0000014:2
+name: few spots on some plants
+namespace: SoybeanScale
+synonym: "2" EXACT []
+is_a: CO_336:0000014 ! 1-5 infection score
+
+[Term]
+id: CO_336:0000014:3
+name: 10-25% some spots on most plants
+namespace: SoybeanScale
+synonym: "3" EXACT []
+is_a: CO_336:0000014 ! 1-5 infection score
+
+[Term]
+id: CO_336:0000014:4
+name: 25-50% infection
+namespace: SoybeanScale
+synonym: "4" EXACT []
+is_a: CO_336:0000014 ! 1-5 infection score
+
+[Term]
+id: CO_336:0000014:5
+name: >50% infection with leaf abscision
+namespace: SoybeanScale
+synonym: "5" EXACT []
+is_a: CO_336:0000014 ! 1-5 infection score
+
+[Term]
+id: CO_336:0000015
+name: nodulation
+namespace: SoybeanTrait
+def: "Root nodule formation due to interaction with microorganisms." []
+synonym: "NODULE" EXACT []
+is_a: CO_336:Agronomical_traits ! Agronomical_traits
+
+[Term]
+id: CO_336:0000016
+name: nodulation proportion observation
+namespace: SoybeanMethod
+def: "Visual assessment of the proportion of nodules" []
+is_a: CO_336:Estimation ! Estimation
+relationship: method_of CO_336:0000015 ! nodulation
+
+[Term]
+id: CO_336:0000017
+name: 1 to 5 percentage scale
+namespace: SoybeanScale
+is_a: CO_336:Ordinal ! Ordinal
+relationship: scale_of CO_336:0000016 ! nodulation proportion observation
+
+[Term]
+id: CO_336:0000017:1
+name: 0% nodules
+namespace: SoybeanScale
+synonym: "1" EXACT []
+is_a: CO_336:0000017 ! 1 to 5 percentage scale
+
+[Term]
+id: CO_336:0000017:2
+name: 1-10%few nodules mostly small
+namespace: SoybeanScale
+synonym: "2" EXACT []
+is_a: CO_336:0000017 ! 1 to 5 percentage scale
+
+[Term]
+id: CO_336:0000017:3
+name: 10-25% nodules some large
+namespace: SoybeanScale
+synonym: "3" EXACT []
+is_a: CO_336:0000017 ! 1 to 5 percentage scale
+
+[Term]
+id: CO_336:0000017:4
+name: 25-50% nodules several large
+namespace: SoybeanScale
+synonym: "4" EXACT []
+is_a: CO_336:0000017 ! 1 to 5 percentage scale
+
+[Term]
+id: CO_336:0000017:5
+name: >50% nodules many large
+namespace: SoybeanScale
+synonym: "5" EXACT []
+is_a: CO_336:0000017 ! 1 to 5 percentage scale
+
+[Term]
+id: CO_336:0000018
+name: root knot nematode
+namespace: SoybeanTrait
+def: "Large galls or knots on the root system caused by Meloidogyne Spp" []
+synonym: "Root knot nematode" EXACT []
+synonym: "ROOTKNOT" EXACT []
+is_a: CO_336:Biotic_stress_traits ! Biotic_stress_traits
+
+[Term]
+id: CO_336:0000019
+name: root knot assessment
+namespace: SoybeanMethod
+def: "Visual assessment of 1-5 of nematode knots" []
+is_a: CO_336:Estimation ! Estimation
+relationship: method_of CO_336:0000018 ! root knot nematode
+
+[Term]
+id: CO_336:0000020
+name: 1-5 infection score
+namespace: SoybeanScale
+is_a: CO_336:Ordinal ! Ordinal
+relationship: scale_of CO_336:0000019 ! root knot assessment
+
+[Term]
+id: CO_336:0000020:1
+name: 0% root knot galling
+namespace: SoybeanScale
+synonym: "1" EXACT []
+is_a: CO_336:0000020 ! 1-5 infection score
+
+[Term]
+id: CO_336:0000020:2
+name: 1-10% few galls on some plants
+namespace: SoybeanScale
+synonym: "2" EXACT []
+is_a: CO_336:0000020 ! 1-5 infection score
+
+[Term]
+id: CO_336:0000020:3
+name: 10-25% galls on most plants
+namespace: SoybeanScale
+synonym: "3" EXACT []
+is_a: CO_336:0000020 ! 1-5 infection score
+
+[Term]
+id: CO_336:0000020:4
+name: 25-50% galls on most plants
+namespace: SoybeanScale
+synonym: "4" EXACT []
+is_a: CO_336:0000020 ! 1-5 infection score
+
+[Term]
+id: CO_336:0000020:5
+name: >50% galling with plants stunting
+namespace: SoybeanScale
+synonym: "5" EXACT []
+is_a: CO_336:0000020 ! 1-5 infection score
+
+[Term]
+id: CO_336:0000021
+name: maturity time
+namespace: SoybeanTrait
+def: "Time when pods have changed to final color." []
+synonym: "MatTime" EXACT []
+synonym: "Maturity" EXACT []
+is_a: CO_336:Phenological_traits ! Phenological_traits
+
+[Term]
+id: CO_336:0000022
+name: days to maturity count
+namespace: SoybeanMethod
+def: "Determine the number of days elapsed between sowing and when the pods have reached maturity" []
+is_a: CO_336:Counting ! Counting
+relationship: method_of CO_336:0000021 ! maturity time
+
+[Term]
+id: CO_336:0000024
+name: height of lowest pods
+namespace: SoybeanTrait
+def: "Height from soil surface to first pod" []
+synonym: "HLP" EXACT []
+is_a: CO_336:Morphological_traits ! Morphological_traits
+
+[Term]
+id: CO_336:0000025
+name: stalk height measurement
+namespace: SoybeanMethod
+def: "Length of stem" []
+is_a: CO_336:Measurement ! Measurement
+relationship: method_of CO_336:0000024 ! height of lowest pods
+
+[Term]
+id: CO_336:0000026
+name: cm
+namespace: SoybeanScale
+is_a: CO_336:Numerical ! Numerical
+relationship: scale_of CO_336:0000025 ! stalk height measurement
+relationship: scale_of CO_336:0000028 ! plant height measurement
+relationship: scale_of CO_336:0000163 ! height average of plants
+
+[Term]
+id: CO_336:0000027
+name: plant height
+namespace: SoybeanTrait
+def: "Height of the plant i.e., the length from the soil surface to top main stem (not petioles and leaves) node" []
+synonym: "Height" EXACT []
+synonym: "PTHT" EXACT []
+is_a: CO_336:Agronomical_traits ! Agronomical_traits
+
+[Term]
+id: CO_336:0000028
+name: plant height measurement
+namespace: SoybeanMethod
+def: "Length of the plant at harvest" []
+is_a: CO_336:Measurement ! Measurement
+relationship: method_of CO_336:0000027 ! plant height
+
+[Term]
+id: CO_336:0000030
+name: lodging
+namespace: SoybeanTrait
+def: "Tendency of plant to lodge" []
+synonym: "LODGING" EXACT []
+synonym: "Plants lying on the ground" EXACT []
+is_a: CO_336:Agronomical_traits ! Agronomical_traits
+
+[Term]
+id: CO_336:0000031
+name: lodging estimation
+namespace: SoybeanMethod
+def: "Estimate the proportion of plants lodged i.e., protrated on the ground" []
+is_a: CO_336:Estimation ! Estimation
+relationship: method_of CO_336:0000030 ! lodging
+
+[Term]
+id: CO_336:0000032
+name: 1 to 5 percentage scale
+namespace: SoybeanScale
+is_a: CO_336:Ordinal ! Ordinal
+relationship: scale_of CO_336:0000031 ! lodging estimation
+
+[Term]
+id: CO_336:0000032:1
+name: Almost all plants erect
+namespace: SoybeanScale
+synonym: "1" EXACT []
+is_a: CO_336:0000032 ! 1 to 5 percentage scale
+
+[Term]
+id: CO_336:0000032:2
+name: All plants leaning slightly or a few plants down
+namespace: SoybeanScale
+synonym: "2" EXACT []
+is_a: CO_336:0000032 ! 1 to 5 percentage scale
+
+[Term]
+id: CO_336:0000032:3
+name: All plants leaning moderately (45 degrees), or 25% - 50% of plants down
+namespace: SoybeanScale
+synonym: "3" EXACT []
+is_a: CO_336:0000032 ! 1 to 5 percentage scale
+
+[Term]
+id: CO_336:0000032:4
+name: All plants leaning considerably, or 50% - 80% of plants down
+namespace: SoybeanScale
+synonym: "4" EXACT []
+is_a: CO_336:0000032 ! 1 to 5 percentage scale
+
+[Term]
+id: CO_336:0000032:5
+name: Prostrate, almost all plants down
+namespace: SoybeanScale
+synonym: "5" EXACT []
+is_a: CO_336:0000032 ! 1 to 5 percentage scale
+
+[Term]
+id: CO_336:0000033
+name: plants harvested
+namespace: SoybeanTrait
+def: "The number of plants harvested contributing to the yield" []
+synonym: "PTHARV" EXACT []
+is_a: CO_336:Agronomical_traits ! Agronomical_traits
+
+[Term]
+id: CO_336:0000034
+name: number of plants harvested in the net plot, excluding the borders
+namespace: SoybeanMethod
+def: "Number of plants harvested in the net plot, excluding the borders" []
+is_a: CO_336:Counting ! Counting
+relationship: method_of CO_336:0000033 ! plants harvested
+
+[Term]
+id: CO_336:0000035
+name: Plant
+namespace: SoybeanScale
+is_a: CO_336:Numerical ! Numerical
+relationship: scale_of CO_336:0000034 ! number of plants harvested in the net plot, excluding the borders
+
+[Term]
+id: CO_336:0000036
+name: seed yield
+namespace: SoybeanTrait
+def: "Yield of a soybean field in terms of seed weight per unit area at a specified moisture content." []
+synonym: "Plot Yield, Seed weight" EXACT []
+synonym: "SdYld" EXACT []
+is_a: CO_336:Agronomical_traits ! Agronomical_traits
+
+[Term]
+id: CO_336:0000037
+name: weighing of grain per plot
+namespace: SoybeanMethod
+def: "Weigh the amount of harvested grains (excluding the borders) adjusted to 13% moisture," []
+is_a: CO_336:Measurement ! Measurement
+relationship: method_of CO_336:0000036 ! seed yield
+
+[Term]
+id: CO_336:0000038
+name: g/plot
+namespace: SoybeanScale
+is_a: CO_336:Numerical ! Numerical
+relationship: scale_of CO_336:0000037 ! weighing of grain per plot
+relationship: scale_of CO_336:0000040 ! weighing of fodder per plot
+
+[Term]
+id: CO_336:0000039
+name: fodder yield
+namespace: SoybeanTrait
+def: "Weight of harvested fodder i.e., haulm, stover per unit of area" []
+synonym: "FODDERWT" EXACT []
+synonym: "Haulm" EXACT []
+is_a: CO_336:Agronomical_traits ! Agronomical_traits
+
+[Term]
+id: CO_336:0000040
+name: weighing of fodder per plot
+namespace: SoybeanMethod
+def: "Measure the dry weight of stover, haulm harvested after threshing plants harvested from the plot excluing the borders." []
+is_a: CO_336:Measurement ! Measurement
+relationship: method_of CO_336:0000039 ! fodder yield
+
+[Term]
+id: CO_336:0000042
+name: early shattering
+namespace: SoybeanTrait
+def: "Proportion of open pods at harvest" []
+synonym: "Pods open" EXACT []
+synonym: "SHATEARLY" EXACT []
+is_a: CO_336:Agronomical_traits ! Agronomical_traits
+
+[Term]
+id: CO_336:0000043
+name: early pod shattering estimation
+namespace: SoybeanMethod
+def: "Estimate the proportion of open pods at harvest by shattering the pods left on the 1m at both ends of the plot after the net yield plot was harvested" []
+is_a: CO_336:Estimation ! Estimation
+relationship: method_of CO_336:0000042 ! early shattering
+relationship: method_of CO_336:0000248 ! pod shattering
+
+[Term]
+id: CO_336:0000044
+name: 1 to 5 percentage scale
+namespace: SoybeanScale
+is_a: CO_336:Ordinal ! Ordinal
+relationship: scale_of CO_336:0000043 ! early pod shattering estimation
+relationship: scale_of CO_336:0000043 ! early pod shattering estimation
+
+[Term]
+id: CO_336:0000044:1
+name: 0% pods shattered
+namespace: SoybeanScale
+synonym: "1" EXACT []
+is_a: CO_336:0000044 ! 1 to 5 percentage scale
+
+[Term]
+id: CO_336:0000044:2
+name: 1-10% pods shattered
+namespace: SoybeanScale
+synonym: "2" EXACT []
+is_a: CO_336:0000044 ! 1 to 5 percentage scale
+
+[Term]
+id: CO_336:0000044:3
+name: 11-25% pods shattered
+namespace: SoybeanScale
+synonym: "3" EXACT []
+is_a: CO_336:0000044 ! 1 to 5 percentage scale
+
+[Term]
+id: CO_336:0000044:4
+name: 26-50% pods shattered
+namespace: SoybeanScale
+synonym: "4" EXACT []
+is_a: CO_336:0000044 ! 1 to 5 percentage scale
+
+[Term]
+id: CO_336:0000044:5
+name: >50% pods shattered
+namespace: SoybeanScale
+synonym: "5" EXACT []
+is_a: CO_336:0000044 ! 1 to 5 percentage scale
+
+[Term]
+id: CO_336:0000045
+name: storability
+namespace: SoybeanTrait
+def: "Capacity of a seed to emerge when planted after being stored during a given amount of time." []
+synonym: "STORABILITY" EXACT []
+synonym: "Storage" EXACT []
+is_a: CO_336:Agronomical_traits ! Agronomical_traits
+
+[Term]
+id: CO_336:0000046
+name: germination in storage count
+namespace: SoybeanMethod
+def: "Count the number of seedlings emerged after 8 months in storage out of 100 planted seeds" []
+is_a: CO_336:Counting ! Counting
+relationship: method_of CO_336:0000045 ! storability
+
+[Term]
+id: CO_336:0000047
+name: Percentage
+namespace: SoybeanScale
+is_a: CO_336:Numerical ! Numerical
+relationship: scale_of CO_336:0000046 ! germination in storage count
+relationship: scale_of CO_336:0000049 ! seed oil content measurement in the lab
+relationship: scale_of CO_336:0000052 ! seed protein content measurement
+relationship: scale_of CO_336:0000106 ! linoleic acid content measurement
+relationship: scale_of CO_336:0000109 ! linolenic acid content measurement
+relationship: scale_of CO_336:0000112 ! palmitic acid content measurement
+relationship: scale_of CO_336:0000115 ! oleic acid content measurement
+relationship: scale_of CO_336:0000118 ! methionine content calculation
+relationship: scale_of CO_336:0000121 ! stearic acid content measurement
+relationship: scale_of CO_336:0000148 ! lysine context extraction method
+relationship: scale_of CO_336:0000154 ! isoflavone content measurement
+relationship: scale_of CO_336:0000193 ! fiber content measurement
+relationship: scale_of CO_336:0000196 ! moisture content measurement
+
+[Term]
+id: CO_336:0000048
+name: seed oil content
+namespace: SoybeanTrait
+def: "Oil content of soybean seed" []
+synonym: "%oil content, oil concentration" EXACT []
+synonym: "OIL" EXACT []
+is_a: CO_336:Biochemical_traits ! Biochemical_traits
+
+[Term]
+id: CO_336:0000049
+name: seed oil content measurement in the lab
+namespace: SoybeanMethod
+def: "Weigh the amount of extracted oil from seed after harvest and divide by the seed dry weight" []
+is_a: CO_336:Computation ! Computation
+relationship: method_of CO_336:0000048 ! seed oil content
+
+[Term]
+id: CO_336:0000051
+name: seed protein content
+namespace: SoybeanTrait
+def: "Protein content of seed" []
+synonym: "%protein content, protein concentration" EXACT []
+synonym: "PROTEIN" EXACT []
+is_a: CO_336:Biochemical_traits ! Biochemical_traits
+
+[Term]
+id: CO_336:0000052
+name: seed protein content measurement
+namespace: SoybeanMethod
+def: "After harvest, measure the protein content of the seed on a dry weight basis" []
+is_a: CO_336:Computation ! Computation
+relationship: method_of CO_336:0000051 ! seed protein content
+
+[Term]
+id: CO_336:0000054
+name: reaction to aphis glycines
+namespace: SoybeanTrait
+def: "The reaction of the plant or plant part to damage caused by Aphis glycines feeding." []
+synonym: "APHID" EXACT []
+synonym: "Soybean aphid" EXACT []
+is_a: CO_336:Biotic_stress_traits ! Biotic_stress_traits
+
+[Term]
+id: CO_336:0000055
+name: aphid attack assessment
+namespace: SoybeanMethod
+def: "Observe the plant parts that are yellowing and/or curling" []
+is_a: CO_336:Estimation ! Estimation
+relationship: method_of CO_336:0000054 ! reaction to aphis glycines
+
+[Term]
+id: CO_336:0000056
+name: Undefined scale
+namespace: SoybeanScale
+is_a: CO_336:Undefined ! Undefined
+relationship: scale_of CO_336:0000055 ! aphid attack assessment
+relationship: scale_of CO_336:0000073 ! flooding reaction of plants assessment
+relationship: scale_of CO_336:0000079 ! drought reaction of plants observation
+relationship: scale_of CO_336:0000082 ! herbicide reaction of plant assessment
+relationship: scale_of CO_336:0000100 ! cold reaction assessment
+relationship: scale_of CO_336:0000103 ! hot reaction assessment
+relationship: scale_of CO_336:0000181 ! primary root shape observation
+relationship: scale_of CO_336:0000184 ! primary root thickness measure
+relationship: scale_of CO_336:0000190 ! average stem diameter
+relationship: scale_of CO_336:0000202 ! downy mildew assessment method
+relationship: scale_of CO_336:0000208 ! lateral root thickness measure
+relationship: scale_of CO_336:0000214 ! starchyose measurement
+
+[Term]
+id: CO_336:0000057
+name: plant branching
+namespace: SoybeanTrait
+def: "Tendency of plant to form primary branches" []
+synonym: "BRANCHING" EXACT []
+synonym: "Branching" EXACT []
+is_a: CO_336:Morphological_traits ! Morphological_traits
+
+[Term]
+id: CO_336:0000058
+name: plant branching observation
+namespace: SoybeanMethod
+def: "At maturity, observe the abundance of primary branches" []
+is_a: CO_336:Estimation ! Estimation
+relationship: method_of CO_336:0000057 ! plant branching
+
+[Term]
+id: CO_336:0000059
+name: 1 to 5 branching scale
+namespace: SoybeanScale
+is_a: CO_336:Ordinal ! Ordinal
+relationship: scale_of CO_336:0000058 ! plant branching observation
+
+[Term]
+id: CO_336:0000059:1
+name: rarely branching
+namespace: SoybeanScale
+synonym: "1" EXACT []
+is_a: CO_336:0000059 ! 1 to 5 branching scale
+
+[Term]
+id: CO_336:0000059:2
+name: fair branching
+namespace: SoybeanScale
+synonym: "2" EXACT []
+is_a: CO_336:0000059 ! 1 to 5 branching scale
+
+[Term]
+id: CO_336:0000059:3
+name: moderatly branching
+namespace: SoybeanScale
+synonym: "3" EXACT []
+is_a: CO_336:0000059 ! 1 to 5 branching scale
+
+[Term]
+id: CO_336:0000059:4
+name: mostly branching
+namespace: SoybeanScale
+synonym: "4" EXACT []
+is_a: CO_336:0000059 ! 1 to 5 branching scale
+
+[Term]
+id: CO_336:0000059:5
+name: profusely branching
+namespace: SoybeanScale
+synonym: "5" EXACT []
+is_a: CO_336:0000059 ! 1 to 5 branching scale
+
+[Term]
+id: CO_336:0000060
+name: reproductive period
+namespace: SoybeanTrait
+def: "Time between the beginning of flowering (R1) and full maturity (R8)" []
+synonym: "REPROD" EXACT []
+synonym: "Reproductive stage length" EXACT []
+is_a: CO_336:Phenological_traits ! Phenological_traits
+
+[Term]
+id: CO_336:0000061
+name: reproductive period duration measurement
+namespace: SoybeanMethod
+def: "Count number of days from beginning of bloom (R1) to full maturity(R8)" []
+is_a: CO_336:Counting ! Counting
+relationship: method_of CO_336:0000060 ! reproductive period
+
+[Term]
+id: CO_336:0000063
+name: flower color
+namespace: SoybeanTrait
+def: "Color of the flower petals" []
+synonym: "FLWRCOLOR" EXACT []
+is_a: CO_336:Morphological_traits ! Morphological_traits
+
+[Term]
+id: CO_336:0000064
+name: flower color observation
+namespace: SoybeanMethod
+def: "At flowering, observe the color of flower" []
+is_a: CO_336:Estimation ! Estimation
+relationship: method_of CO_336:0000063 ! flower color
+
+[Term]
+id: CO_336:0000065
+name: 1 to 9 color scale
+namespace: SoybeanScale
+is_a: CO_336:Nominal ! Nominal
+relationship: scale_of CO_336:0000064 ! flower color observation
+
+[Term]
+id: CO_336:0000065:1
+name: blue
+namespace: SoybeanScale
+synonym: "1" EXACT []
+synonym: "B" EXACT []
+is_a: CO_336:0000065 ! 1 to 9 color scale
+
+[Term]
+id: CO_336:0000065:2
+name: dark purple
+namespace: SoybeanScale
+synonym: "2" EXACT []
+synonym: "Dp" EXACT []
+is_a: CO_336:0000065 ! 1 to 9 color scale
+
+[Term]
+id: CO_336:0000065:3
+name: light purple
+namespace: SoybeanScale
+synonym: "3" EXACT []
+synonym: "Lp" EXACT []
+is_a: CO_336:0000065 ! 1 to 9 color scale
+
+[Term]
+id: CO_336:0000065:4
+name: magenta
+namespace: SoybeanScale
+synonym: "4" EXACT []
+synonym: "M" EXACT []
+is_a: CO_336:0000065 ! 1 to 9 color scale
+
+[Term]
+id: CO_336:0000065:5
+name: near white
+namespace: SoybeanScale
+synonym: "5" EXACT []
+synonym: "Nw" EXACT []
+is_a: CO_336:0000065 ! 1 to 9 color scale
+
+[Term]
+id: CO_336:0000065:6
+name: white
+namespace: SoybeanScale
+synonym: "6" EXACT []
+synonym: "W" EXACT []
+is_a: CO_336:0000065 ! 1 to 9 color scale
+
+[Term]
+id: CO_336:0000065:7
+name: purple
+namespace: SoybeanScale
+synonym: "7" EXACT []
+synonym: "P" EXACT []
+is_a: CO_336:0000065 ! 1 to 9 color scale
+
+[Term]
+id: CO_336:0000065:8
+name: purple mutable
+namespace: SoybeanScale
+synonym: "8" EXACT []
+synonym: "Pm" EXACT []
+is_a: CO_336:0000065 ! 1 to 9 color scale
+
+[Term]
+id: CO_336:0000065:9
+name: dilute purple
+namespace: SoybeanScale
+synonym: "9" EXACT []
+synonym: "Pth" EXACT []
+is_a: CO_336:0000065 ! 1 to 9 color scale
+
+[Term]
+id: CO_336:0000066
+name: pod length
+namespace: SoybeanTrait
+def: "Length of the pod from the calyx to the pod tip in cm or mm" []
+synonym: "Fruit length" EXACT []
+synonym: "PODLENGTH" EXACT []
+is_a: CO_336:Morphological_traits ! Morphological_traits
+
+[Term]
+id: CO_336:0000067
+name: measure length of pod
+namespace: SoybeanMethod
+def: "Measure length of pod from caylx to pod tip using a length measuring instrument" []
+is_a: CO_336:Measurement ! Measurement
+relationship: method_of CO_336:0000066 ! pod length
+
+[Term]
+id: CO_336:0000068
+name: mm
+namespace: SoybeanScale
+is_a: CO_336:Numerical ! Numerical
+relationship: scale_of CO_336:0000067 ! measure length of pod
+
+[Term]
+id: CO_336:0000069
+name: twining date
+namespace: SoybeanTrait
+def: "Time when soybean twines" []
+synonym: "TWINNING" EXACT []
+is_a: CO_336:Phenological_traits ! Phenological_traits
+
+[Term]
+id: CO_336:0000070
+name: twinning date observation
+namespace: SoybeanMethod
+def: "Take note of the date when 50% of plants are twining" []
+is_a: CO_336:Estimation ! Estimation
+relationship: method_of CO_336:0000069 ! twining date
+
+[Term]
+id: CO_336:0000071
+name: mmdd
+namespace: SoybeanScale
+is_a: CO_336:Date ! Date
+relationship: scale_of CO_336:0000070 ! twinning date observation
+
+[Term]
+id: CO_336:0000072
+name: flooding tolerance
+namespace: SoybeanTrait
+def: "Response of plant to inundation by water of all or part of the plant" []
+synonym: "FLOODING" EXACT []
+synonym: "Submergence tolerance, waterlogging response" EXACT []
+is_a: CO_336:Abiotic_stress_traits ! Abiotic_stress_traits
+
+[Term]
+id: CO_336:0000073
+name: flooding reaction of plants assessment
+namespace: SoybeanMethod
+def: "Appearance of plants in response to flooding" []
+is_a: CO_336:Estimation ! Estimation
+relationship: method_of CO_336:0000072 ! flooding tolerance
+
+[Term]
+id: CO_336:0000075
+name: chlorosis
+namespace: SoybeanTrait
+def: "Reduction in chlorophyll in a plant or plant part as a result of nutrient deficiency" []
+synonym: "CHLOROSIS" EXACT []
+synonym: "Yellowing" EXACT []
+is_a: CO_336:Abiotic_stress_traits ! Abiotic_stress_traits
+
+[Term]
+id: CO_336:0000076
+name: chlorophyll content measurement
+namespace: SoybeanMethod
+def: "Measurement chlorophyll content using a SPAD meter and then compare to a reference" []
+is_a: CO_336:Estimation ! Estimation
+relationship: method_of CO_336:0000075 ! chlorosis
+
+[Term]
+id: CO_336:0000077
+name: SPAD unit
+namespace: SoybeanScale
+is_a: CO_336:Numerical ! Numerical
+relationship: scale_of CO_336:0000076 ! chlorophyll content measurement
+relationship: scale_of CO_336:0000151 ! chlorophyll content measurement
+
+[Term]
+id: CO_336:0000078
+name: drought tolerance
+namespace: SoybeanTrait
+def: "Resistance to damage by water restriction." []
+synonym: "DROUGHT" EXACT []
+is_a: CO_336:Abiotic_stress_traits ! Abiotic_stress_traits
+
+[Term]
+id: CO_336:0000079
+name: drought reaction of plants observation
+namespace: SoybeanMethod
+def: "Appearance of plants in response to limited water availability" []
+is_a: CO_336:Estimation ! Estimation
+relationship: method_of CO_336:0000078 ! drought tolerance
+
+[Term]
+id: CO_336:0000081
+name: herbicide sensitivity
+namespace: SoybeanTrait
+def: "Reaction of the plant or plant part to herbicide exposure" []
+synonym: "HERBSENSITIVE" EXACT []
+synonym: "sensitivity to herbicide toxicity" EXACT []
+is_a: CO_336:Abiotic_stress_traits ! Abiotic_stress_traits
+
+[Term]
+id: CO_336:0000082
+name: herbicide reaction of plant assessment
+namespace: SoybeanMethod
+def: "Appearance of plants in response to herbicides sprayed" []
+is_a: CO_336:Estimation ! Estimation
+relationship: method_of CO_336:0000081 ! herbicide sensitivity
+
+[Term]
+id: CO_336:0000084
+name: seed oil/protein content
+namespace: SoybeanTrait
+def: "Ratio of oil content to protein content of the seed" []
+synonym: "Oil to protein content" EXACT []
+synonym: "OILPROTEIN" EXACT []
+is_a: CO_336:Biochemical_traits ! Biochemical_traits
+
+[Term]
+id: CO_336:0000085
+name: oil content to protein content ratio
+namespace: SoybeanMethod
+def: "Divide the oil content by the protein content. For this calculation, the oil and protein contents must be expressed in the same unit" []
+is_a: CO_336:Computation ! Computation
+relationship: method_of CO_336:0000084 ! seed oil/protein content
+
+[Term]
+id: CO_336:0000086
+name: Ratio
+namespace: SoybeanScale
+is_a: CO_336:Numerical ! Numerical
+relationship: scale_of CO_336:0000085 ! oil content to protein content ratio
+
+[Term]
+id: CO_336:0000087
+name: seed filling period
+namespace: SoybeanTrait
+def: "Time when the seed grows in size and weight i.e., the period characterized by the beginning of R4 (full pod) and the end of R6 (full seed)." []
+synonym: "Seed fill" EXACT []
+synonym: "SEEDFILL" EXACT []
+is_a: CO_336:Phenological_traits ! Phenological_traits
+
+[Term]
+id: CO_336:0000088
+name: counting days of seed fill
+namespace: SoybeanMethod
+def: "Count number of days from full pod(R4) to full seed(R6) stages of growth" []
+is_a: CO_336:Counting ! Counting
+relationship: method_of CO_336:0000087 ! seed filling period
+
+[Term]
+id: CO_336:0000090
+name: pod color
+namespace: SoybeanTrait
+def: "Color of the pod." []
+synonym: "PODCOLOR" EXACT []
+is_a: CO_336:Morphological_traits ! Morphological_traits
+
+[Term]
+id: CO_336:0000091
+name: pod color observation
+namespace: SoybeanMethod
+def: "Take note of the color of the mature pod which are black, tan, brown and grey" []
+is_a: CO_336:Estimation ! Estimation
+relationship: method_of CO_336:0000090 ! pod color
+
+[Term]
+id: CO_336:0000092
+name: 1 to 4 color scale
+namespace: SoybeanScale
+is_a: CO_336:Ordinal ! Ordinal
+relationship: scale_of CO_336:0000091 ! pod color observation
+
+[Term]
+id: CO_336:0000092:1
+name: Black
+namespace: SoybeanScale
+synonym: "1" EXACT []
+synonym: "Bl" EXACT []
+is_a: CO_336:0000092 ! 1 to 4 color scale
+
+[Term]
+id: CO_336:0000092:2
+name: Tan
+namespace: SoybeanScale
+synonym: "2" EXACT []
+synonym: "T" EXACT []
+is_a: CO_336:0000092 ! 1 to 4 color scale
+
+[Term]
+id: CO_336:0000092:3
+name: Brown
+namespace: SoybeanScale
+synonym: "3" EXACT []
+synonym: "Br" EXACT []
+is_a: CO_336:0000092 ! 1 to 4 color scale
+
+[Term]
+id: CO_336:0000092:4
+name: Grey
+namespace: SoybeanScale
+synonym: "4" EXACT []
+synonym: "G" EXACT []
+is_a: CO_336:0000092 ! 1 to 4 color scale
+
+[Term]
+id: CO_336:0000093
+name: hilum color
+namespace: SoybeanTrait
+def: "Color of the soybean seed hilum (scar on the ovule produced by abscision of funiculus)" []
+synonym: "HILUMCOLOR" EXACT []
+synonym: "Seed hilum color" EXACT []
+is_a: CO_336:Morphological_traits ! Morphological_traits
+
+[Term]
+id: CO_336:0000094
+name: hilum color observation
+namespace: SoybeanMethod
+def: "Observe the colour of the hilum" []
+is_a: CO_336:Estimation ! Estimation
+relationship: method_of CO_336:0000093 ! hilum color
+
+[Term]
+id: CO_336:0000095
+name: 1 to 12 color scale
+namespace: SoybeanScale
+is_a: CO_336:Ordinal ! Ordinal
+relationship: scale_of CO_336:0000094 ! hilum color observation
+
+[Term]
+id: CO_336:0000095:1
+name: Buff
+namespace: SoybeanScale
+synonym: "1" EXACT []
+synonym: "Bf" EXACT []
+is_a: CO_336:0000095 ! 1 to 12 color scale
+
+[Term]
+id: CO_336:0000095:10
+name: Reddish brown
+namespace: SoybeanScale
+synonym: "10" EXACT []
+synonym: "Rbr" EXACT []
+is_a: CO_336:0000095 ! 1 to 12 color scale
+
+[Term]
+id: CO_336:0000095:11
+name: Tan
+namespace: SoybeanScale
+synonym: "11" EXACT []
+synonym: "Tn" EXACT []
+is_a: CO_336:0000095 ! 1 to 12 color scale
+
+[Term]
+id: CO_336:0000095:12
+name: Yellow
+namespace: SoybeanScale
+synonym: "12" EXACT []
+synonym: "Y" EXACT []
+is_a: CO_336:0000095 ! 1 to 12 color scale
+
+[Term]
+id: CO_336:0000095:2
+name: Black
+namespace: SoybeanScale
+synonym: "2" EXACT []
+synonym: "Bl" EXACT []
+is_a: CO_336:0000095 ! 1 to 12 color scale
+
+[Term]
+id: CO_336:0000095:3
+name: Black hilum with brown outer ring,
+namespace: SoybeanScale
+synonym: "3" EXACT []
+synonym: "Blbr" EXACT []
+is_a: CO_336:0000095 ! 1 to 12 color scale
+
+[Term]
+id: CO_336:0000095:4
+name: Brown
+namespace: SoybeanScale
+synonym: "4" EXACT []
+synonym: "Br" EXACT []
+is_a: CO_336:0000095 ! 1 to 12 color scale
+
+[Term]
+id: CO_336:0000095:5
+name: Dark shade
+namespace: SoybeanScale
+synonym: "5" EXACT []
+synonym: "D" EXACT []
+is_a: CO_336:0000095 ! 1 to 12 color scale
+
+[Term]
+id: CO_336:0000095:6
+name: Gray
+namespace: SoybeanScale
+synonym: "6" EXACT []
+synonym: "G" EXACT []
+is_a: CO_336:0000095 ! 1 to 12 color scale
+
+[Term]
+id: CO_336:0000095:7
+name: Green
+namespace: SoybeanScale
+synonym: "7" EXACT []
+synonym: "Gn" EXACT []
+is_a: CO_336:0000095 ! 1 to 12 color scale
+
+[Term]
+id: CO_336:0000095:8
+name: Reddish buff
+namespace: SoybeanScale
+synonym: "8" EXACT []
+synonym: "Rbf" EXACT []
+is_a: CO_336:0000095 ! 1 to 12 color scale
+
+[Term]
+id: CO_336:0000095:9
+name: Reddish black
+namespace: SoybeanScale
+synonym: "9" EXACT []
+synonym: "Rbl" EXACT []
+is_a: CO_336:0000095 ! 1 to 12 color scale
+
+[Term]
+id: CO_336:0000096
+name: seed quality
+namespace: SoybeanTrait
+def: "Overall quality of the seed based on defective seed coat, greenish or diseased seeds" []
+synonym: "Seed appearance" EXACT []
+synonym: "SEEDQUAL" EXACT []
+is_a: CO_336:Agronomical_traits ! Agronomical_traits
+
+[Term]
+id: CO_336:0000097
+name: seed quality visual assessment
+namespace: SoybeanMethod
+def: "Visual assessment of seed quality" []
+is_a: CO_336:Estimation ! Estimation
+relationship: method_of CO_336:0000096 ! seed quality
+
+[Term]
+id: CO_336:0000098
+name: 1 to 5 quality scale
+namespace: SoybeanScale
+is_a: CO_336:Ordinal ! Ordinal
+relationship: scale_of CO_336:0000097 ! seed quality visual assessment
+
+[Term]
+id: CO_336:0000098:1
+name: Good
+namespace: SoybeanScale
+synonym: "1" EXACT []
+is_a: CO_336:0000098 ! 1 to 5 quality scale
+
+[Term]
+id: CO_336:0000098:2
+name: moderatly good
+namespace: SoybeanScale
+synonym: "2" EXACT []
+is_a: CO_336:0000098 ! 1 to 5 quality scale
+
+[Term]
+id: CO_336:0000098:3
+name: fairly good
+namespace: SoybeanScale
+synonym: "3" EXACT []
+is_a: CO_336:0000098 ! 1 to 5 quality scale
+
+[Term]
+id: CO_336:0000098:4
+name: bad
+namespace: SoybeanScale
+synonym: "4" EXACT []
+is_a: CO_336:0000098 ! 1 to 5 quality scale
+
+[Term]
+id: CO_336:0000098:5
+name: poor
+namespace: SoybeanScale
+synonym: "5" EXACT []
+is_a: CO_336:0000098 ! 1 to 5 quality scale
+
+[Term]
+id: CO_336:0000099
+name: cold stress resistance
+namespace: SoybeanTrait
+def: "Resistance of a plant or plant part to damage by lower than normal temperatures" []
+synonym: "low temperature stress" EXACT []
+synonym: "LOWTEMP" EXACT []
+is_a: CO_336:Abiotic_stress_traits ! Abiotic_stress_traits
+
+[Term]
+id: CO_336:0000100
+name: cold reaction assessment
+namespace: SoybeanMethod
+def: "Appearance of plant or plant part in low temperature weather" []
+is_a: CO_336:Estimation ! Estimation
+relationship: method_of CO_336:0000099 ! cold stress resistance
+
+[Term]
+id: CO_336:0000102
+name: heat stress resistance
+namespace: SoybeanTrait
+def: "Resistance of a plant or plant part to damage by higher than normal temperatures" []
+synonym: "High temperature stress" EXACT []
+synonym: "HIGHTEMP" EXACT []
+is_a: CO_336:Abiotic_stress_traits ! Abiotic_stress_traits
+
+[Term]
+id: CO_336:0000103
+name: hot reaction assessment
+namespace: SoybeanMethod
+def: "Appearance of plant or plant part in high temperature weather" []
+is_a: CO_336:Estimation ! Estimation
+relationship: method_of CO_336:0000102 ! heat stress resistance
+
+[Term]
+id: CO_336:0000105
+name: seed linoleic acid content
+namespace: SoybeanTrait
+def: "Linoleic acid content of the seed oil i.e., linoleic acid weight per total oil weight of the seed" []
+synonym: "LINOLEIC" EXACT []
+synonym: "Linoleic acid, LA, C18:2, octadecadienoic acid" EXACT []
+is_a: CO_336:Biochemical_traits ! Biochemical_traits
+
+[Term]
+id: CO_336:0000106
+name: linoleic acid content measurement
+namespace: SoybeanMethod
+def: "Measure the content of linoleic acid in the oil extracted from the seed" []
+is_a: CO_336:Computation ! Computation
+relationship: method_of CO_336:0000105 ! seed linoleic acid content
+
+[Term]
+id: CO_336:0000108
+name: seed linolenic acid content
+namespace: SoybeanTrait
+def: "Linolenic acid content of the seed oil i.e., linolenic acid weight per total oil weight of the seed" []
+synonym: "LINOLENIC" EXACT []
+synonym: "Linolenic acid, ALA, alpha-lenolenic acid, C18:3" EXACT []
+is_a: CO_336:Biochemical_traits ! Biochemical_traits
+
+[Term]
+id: CO_336:0000109
+name: linolenic acid content measurement
+namespace: SoybeanMethod
+def: "Measure the content of linolenic acid in the oil extracted from the seed" []
+is_a: CO_336:Computation ! Computation
+relationship: method_of CO_336:0000108 ! seed linolenic acid content
+
+[Term]
+id: CO_336:0000111
+name: seed palmitic acid content
+namespace: SoybeanTrait
+def: "Palmitic acid content of the seed oil i.e., palmitic acid weight per total oil weight of the seed" []
+synonym: "PALMITIC" EXACT []
+synonym: "Palmitic acid, C16:0, hexadecanoic acid" EXACT []
+is_a: CO_336:Biochemical_traits ! Biochemical_traits
+
+[Term]
+id: CO_336:0000112
+name: palmitic acid content measurement
+namespace: SoybeanMethod
+def: "Measure the content of palmitic acid in the oil extracted from the seed" []
+is_a: CO_336:Computation ! Computation
+relationship: method_of CO_336:0000111 ! seed palmitic acid content
+
+[Term]
+id: CO_336:0000114
+name: seed oleic acid content
+namespace: SoybeanTrait
+def: "Oleic acid content of the seed oil i.e., palmitic acid weight per total oil weight of the seed" []
+synonym: "Oleic acid, 18:1 n-9, C18:1 n9, octadecanoic acid" EXACT []
+synonym: "OLIEC" EXACT []
+is_a: CO_336:Biochemical_traits ! Biochemical_traits
+
+[Term]
+id: CO_336:0000115
+name: oleic acid content measurement
+namespace: SoybeanMethod
+def: "Measure the content of oleic acid in the oil extracted from the seed" []
+is_a: CO_336:Computation ! Computation
+relationship: method_of CO_336:0000114 ! seed oleic acid content
+
+[Term]
+id: CO_336:0000117
+name: seed methionine content
+namespace: SoybeanTrait
+def: "The amount of total soybean seed protein that is composed of methionine" []
+synonym: "METHIONINE" EXACT []
+synonym: "Methionine, methionine amino acid" EXACT []
+is_a: CO_336:Biochemical_traits ! Biochemical_traits
+
+[Term]
+id: CO_336:0000118
+name: methionine content calculation
+namespace: SoybeanMethod
+def: "Measure the weight of methionine extracted from the seed sample and divide by the weight of protein extracted from the same sample." []
+is_a: CO_336:Computation ! Computation
+relationship: method_of CO_336:0000117 ! seed methionine content
+
+[Term]
+id: CO_336:0000120
+name: seed stearic acid content
+namespace: SoybeanTrait
+def: "Stearic acid content of the seed oil i.e., stearic acid weight per total oil weight of the seed" []
+synonym: "STEARIC" EXACT []
+synonym: "Stearic, C18:0, octadecoic acid, octadecanoic acid" EXACT []
+is_a: CO_336:Biochemical_traits ! Biochemical_traits
+
+[Term]
+id: CO_336:0000121
+name: stearic acid content measurement
+namespace: SoybeanMethod
+def: "Measure the content of stearic acid in the oil extracted from the seed" []
+is_a: CO_336:Computation ! Computation
+relationship: method_of CO_336:0000120 ! seed stearic acid content
+
+[Term]
+id: CO_336:0000123
+name: stem termination type
+namespace: SoybeanTrait
+def: "Termination type of the axial growth of a soybean plant." []
+synonym: "stem termination" EXACT []
+synonym: "STEMTERM" EXACT []
+is_a: CO_336:Morphological_traits ! Morphological_traits
+
+[Term]
+id: CO_336:0000124
+name: termination observation
+namespace: SoybeanMethod
+def: "Observe tapering of stem tip and presence or absence of terminal raceme." []
+is_a: CO_336:Estimation ! Estimation
+relationship: method_of CO_336:0000123 ! stem termination type
+
+[Term]
+id: CO_336:0000125
+name: 1 or 2 type scale
+namespace: SoybeanScale
+is_a: CO_336:Nominal ! Nominal
+relationship: scale_of CO_336:0000124 ! termination observation
+
+[Term]
+id: CO_336:0000125:1
+name: Determinate termination
+namespace: SoybeanScale
+synonym: "1" EXACT []
+is_a: CO_336:0000125 ! 1 or 2 type scale
+
+[Term]
+id: CO_336:0000125:2
+name: Indeterminate termination
+namespace: SoybeanScale
+synonym: "2" EXACT []
+is_a: CO_336:0000125 ! 1 or 2 type scale
+
+[Term]
+id: CO_336:0000126
+name: beet armyworm
+namespace: SoybeanTrait
+def: "Foliar feeding damage caused by beet armyworm(Spodoptera exigua)" []
+synonym: "BAW" EXACT []
+synonym: "Beet armyworm" EXACT []
+is_a: CO_336:Biotic_stress_traits ! Biotic_stress_traits
+
+[Term]
+id: CO_336:0000127
+name: foliar feeding assessment
+namespace: SoybeanMethod
+def: "Visual assessment on the percentage of leaves eaten up by beet armyworm on a scale of 1 to 5" []
+is_a: CO_336:Estimation ! Estimation
+relationship: method_of CO_336:0000126 ! beet armyworm
+
+[Term]
+id: CO_336:0000128
+name: 1 to 5 percentage scale
+namespace: SoybeanScale
+is_a: CO_336:Ordinal ! Ordinal
+relationship: scale_of CO_336:0000127 ! foliar feeding assessment
+
+[Term]
+id: CO_336:0000128:1
+name: 0-20% defoliated
+namespace: SoybeanScale
+synonym: "1" EXACT []
+is_a: CO_336:0000128 ! 1 to 5 percentage scale
+
+[Term]
+id: CO_336:0000128:2
+name: 21-40% defoliated
+namespace: SoybeanScale
+synonym: "2" EXACT []
+is_a: CO_336:0000128 ! 1 to 5 percentage scale
+
+[Term]
+id: CO_336:0000128:3
+name: 41-60% defoliated
+namespace: SoybeanScale
+synonym: "3" EXACT []
+is_a: CO_336:0000128 ! 1 to 5 percentage scale
+
+[Term]
+id: CO_336:0000128:4
+name: 61-80% defoliated
+namespace: SoybeanScale
+synonym: "4" EXACT []
+is_a: CO_336:0000128 ! 1 to 5 percentage scale
+
+[Term]
+id: CO_336:0000128:5
+name: 100% defoliated
+namespace: SoybeanScale
+synonym: "5" EXACT []
+synonym: "81" EXACT []
+is_a: CO_336:0000128 ! 1 to 5 percentage scale
+
+[Term]
+id: CO_336:0000129
+name: defoliation
+namespace: SoybeanTrait
+def: "Defoliation by chewing insects" []
+synonym: "DEFOL" EXACT []
+synonym: "Leaf chewing" EXACT []
+is_a: CO_336:Biotic_stress_traits ! Biotic_stress_traits
+
+[Term]
+id: CO_336:0000130
+name: defoliation assessment
+namespace: SoybeanMethod
+def: "Visuall assessment of the leaves eaten up by chewing insects" []
+is_a: CO_336:Estimation ! Estimation
+relationship: method_of CO_336:0000129 ! defoliation
+
+[Term]
+id: CO_336:0000131
+name: 1 to 5 percentage scale
+namespace: SoybeanScale
+is_a: CO_336:Ordinal ! Ordinal
+relationship: scale_of CO_336:0000130 ! defoliation assessment
+
+[Term]
+id: CO_336:0000131:1
+name: 0-20% defoliated
+namespace: SoybeanScale
+synonym: "1" EXACT []
+is_a: CO_336:0000131 ! 1 to 5 percentage scale
+
+[Term]
+id: CO_336:0000131:2
+name: 21-40% defoliated
+namespace: SoybeanScale
+synonym: "2" EXACT []
+is_a: CO_336:0000131 ! 1 to 5 percentage scale
+
+[Term]
+id: CO_336:0000131:3
+name: 41-60% defoliated
+namespace: SoybeanScale
+synonym: "3" EXACT []
+is_a: CO_336:0000131 ! 1 to 5 percentage scale
+
+[Term]
+id: CO_336:0000131:4
+name: 61-80% defoliated
+namespace: SoybeanScale
+synonym: "4" EXACT []
+is_a: CO_336:0000131 ! 1 to 5 percentage scale
+
+[Term]
+id: CO_336:0000131:5
+name: 100% defoliated
+namespace: SoybeanScale
+synonym: "5" EXACT []
+synonym: "81" EXACT []
+is_a: CO_336:0000131 ! 1 to 5 percentage scale
+
+[Term]
+id: CO_336:0000132
+name: late shattering score
+namespace: SoybeanTrait
+def: "Proportion of open pods 2 weeks after harvest" []
+synonym: "SHATLATE" EXACT []
+is_a: CO_336:Agronomical_traits ! Agronomical_traits
+
+[Term]
+id: CO_336:0000133
+name: late pod shattering assessment
+namespace: SoybeanMethod
+def: "Visual assessment of pod opening 2weeks after harvest" []
+is_a: CO_336:Estimation ! Estimation
+relationship: method_of CO_336:0000132 ! late shattering score
+relationship: method_of CO_336:0000248 ! pod shattering
+
+[Term]
+id: CO_336:0000134
+name: 1 to 5 percentage scale
+namespace: SoybeanScale
+is_a: CO_336:Ordinal ! Ordinal
+relationship: scale_of CO_336:0000133 ! late pod shattering assessment
+relationship: scale_of CO_336:0000133 ! late pod shattering assessment
+
+[Term]
+id: CO_336:0000134:1
+name: no pods shattered
+namespace: SoybeanScale
+synonym: "1" EXACT []
+is_a: CO_336:0000134 ! 1 to 5 percentage scale
+
+[Term]
+id: CO_336:0000134:2
+name: 1-10% of pods shattered
+namespace: SoybeanScale
+synonym: "2" EXACT []
+is_a: CO_336:0000134 ! 1 to 5 percentage scale
+
+[Term]
+id: CO_336:0000134:3
+name: 10-25% of pods shattered
+namespace: SoybeanScale
+synonym: "3" EXACT []
+is_a: CO_336:0000134 ! 1 to 5 percentage scale
+
+[Term]
+id: CO_336:0000134:4
+name: 25-50% of pods shattered
+namespace: SoybeanScale
+synonym: "4" EXACT []
+is_a: CO_336:0000134 ! 1 to 5 percentage scale
+
+[Term]
+id: CO_336:0000134:5
+name: >50% of pods shattered
+namespace: SoybeanScale
+synonym: "5" EXACT []
+is_a: CO_336:0000134 ! 1 to 5 percentage scale
+
+[Term]
+id: CO_336:0000135
+name: pubescence color
+namespace: SoybeanTrait
+def: "The color of soybean pubescence." []
+synonym: "PUBCOLOR" EXACT []
+is_a: CO_336:Morphological_traits ! Morphological_traits
+
+[Term]
+id: CO_336:0000136
+name: pubescence color assessment
+namespace: SoybeanMethod
+def: "Note colors of pubescence which include tawny, light tawny, near-grey and grey." []
+is_a: CO_336:Estimation ! Estimation
+relationship: method_of CO_336:0000135 ! pubescence color
+
+[Term]
+id: CO_336:0000137
+name: 1 to 4 color scale
+namespace: SoybeanScale
+is_a: CO_336:Nominal ! Nominal
+relationship: scale_of CO_336:0000136 ! pubescence color assessment
+
+[Term]
+id: CO_336:0000137:1
+name: Tawny
+namespace: SoybeanScale
+synonym: "1" EXACT []
+synonym: "T" EXACT []
+is_a: CO_336:0000137 ! 1 to 4 color scale
+
+[Term]
+id: CO_336:0000137:2
+name: Light tawny
+namespace: SoybeanScale
+synonym: "2" EXACT []
+synonym: "LT" EXACT []
+is_a: CO_336:0000137 ! 1 to 4 color scale
+
+[Term]
+id: CO_336:0000137:3
+name: Grey
+namespace: SoybeanScale
+synonym: "3" EXACT []
+synonym: "G" EXACT []
+is_a: CO_336:0000137 ! 1 to 4 color scale
+
+[Term]
+id: CO_336:0000137:4
+name: Near grey
+namespace: SoybeanScale
+synonym: "4" EXACT []
+synonym: "NG" EXACT []
+is_a: CO_336:0000137 ! 1 to 4 color scale
+
+[Term]
+id: CO_336:0000141
+name: maturity group
+namespace: SoybeanTrait
+def: "Maturity group designation of a germplasm." []
+synonym: "MATGROUP" EXACT []
+is_a: CO_336:Phenological_traits ! Phenological_traits
+
+[Term]
+id: CO_336:0000142
+name: maturity group classification
+namespace: SoybeanMethod
+def: "Relative classification based on maturity of cultivars in known maturity group" []
+is_a: CO_336:Counting ! Counting
+relationship: method_of CO_336:0000141 ! maturity group
+
+[Term]
+id: CO_336:0000143
+name: 1 to 13 maturity scale
+namespace: SoybeanScale
+is_a: CO_336:Nominal ! Nominal
+relationship: scale_of CO_336:0000142 ! maturity group classification
+
+[Term]
+id: CO_336:0000143:0
+name: maturity group 0 (extreme North)
+namespace: SoybeanScale
+synonym: "0" EXACT []
+is_a: CO_336:0000143 ! 1 to 13 maturity scale
+
+[Term]
+id: CO_336:0000143:1
+name: maturity group 00
+namespace: SoybeanScale
+synonym: "00" EXACT []
+synonym: "1" EXACT []
+is_a: CO_336:0000143 ! 1 to 13 maturity scale
+
+[Term]
+id: CO_336:0000143:10
+name: maturity group VII
+namespace: SoybeanScale
+synonym: "10" EXACT []
+synonym: "VII" EXACT []
+is_a: CO_336:0000143 ! 1 to 13 maturity scale
+
+[Term]
+id: CO_336:0000143:11
+name: maturity group VIII
+namespace: SoybeanScale
+synonym: "11" EXACT []
+synonym: "VIII" EXACT []
+is_a: CO_336:0000143 ! 1 to 13 maturity scale
+
+[Term]
+id: CO_336:0000143:12
+name: maturity group IX
+namespace: SoybeanScale
+synonym: "12" EXACT []
+synonym: "IX" EXACT []
+is_a: CO_336:0000143 ! 1 to 13 maturity scale
+
+[Term]
+id: CO_336:0000143:13
+name: maturity group X (extreme South)
+namespace: SoybeanScale
+synonym: "13" EXACT []
+synonym: "X" EXACT []
+is_a: CO_336:0000143 ! 1 to 13 maturity scale
+
+[Term]
+id: CO_336:0000143:3
+name: maturity group 000
+namespace: SoybeanScale
+synonym: "000" EXACT []
+synonym: "3" EXACT []
+is_a: CO_336:0000143 ! 1 to 13 maturity scale
+
+[Term]
+id: CO_336:0000143:4
+name: maturity group I
+namespace: SoybeanScale
+synonym: "4" EXACT []
+synonym: "I" EXACT []
+is_a: CO_336:0000143 ! 1 to 13 maturity scale
+
+[Term]
+id: CO_336:0000143:5
+name: maturity group II
+namespace: SoybeanScale
+synonym: "5" EXACT []
+synonym: "II" EXACT []
+is_a: CO_336:0000143 ! 1 to 13 maturity scale
+
+[Term]
+id: CO_336:0000143:6
+name: maturity group III
+namespace: SoybeanScale
+synonym: "6" EXACT []
+synonym: "III" EXACT []
+is_a: CO_336:0000143 ! 1 to 13 maturity scale
+
+[Term]
+id: CO_336:0000143:7
+name: maturity group IV
+namespace: SoybeanScale
+synonym: "7" EXACT []
+synonym: "IV" EXACT []
+is_a: CO_336:0000143 ! 1 to 13 maturity scale
+
+[Term]
+id: CO_336:0000143:8
+name: maturity group V
+namespace: SoybeanScale
+synonym: "8" EXACT []
+synonym: "V" EXACT []
+is_a: CO_336:0000143 ! 1 to 13 maturity scale
+
+[Term]
+id: CO_336:0000143:9
+name: maturity group VI
+namespace: SoybeanScale
+synonym: "9" EXACT []
+synonym: "VI" EXACT []
+is_a: CO_336:0000143 ! 1 to 13 maturity scale
+
+[Term]
+id: CO_336:0000144
+name: seed coat mottling
+namespace: SoybeanTrait
+def: "Surface of the seed coat discolored by mottling i.e. , the additional pigmentation that is observed on lines with yellow or green seed coats" []
+synonym: "MOTTLING" EXACT []
+is_a: CO_336:Morphological_traits ! Morphological_traits
+
+[Term]
+id: CO_336:0000145
+name: seed coat color observation
+namespace: SoybeanMethod
+def: "Observe the color of the seed coat" []
+is_a: CO_336:Estimation ! Estimation
+relationship: method_of CO_336:0000144 ! seed coat mottling
+
+[Term]
+id: CO_336:0000146
+name: 1 to 10 percentage scale
+namespace: SoybeanScale
+is_a: CO_336:Ordinal ! Ordinal
+relationship: scale_of CO_336:0000145 ! seed coat color observation
+
+[Term]
+id: CO_336:0000146:0
+name: less than 10% seed discolored
+namespace: SoybeanScale
+synonym: "0" EXACT []
+is_a: CO_336:0000146 ! 1 to 10 percentage scale
+
+[Term]
+id: CO_336:0000146:1
+name: 10-15% seed surface discolored
+namespace: SoybeanScale
+synonym: "1" EXACT []
+is_a: CO_336:0000146 ! 1 to 10 percentage scale
+
+[Term]
+id: CO_336:0000146:10
+name: more than 90% seed surface discolored
+namespace: SoybeanScale
+synonym: "10" EXACT []
+is_a: CO_336:0000146 ! 1 to 10 percentage scale
+
+[Term]
+id: CO_336:0000146:2
+name: 15-20% seed surface discolored
+namespace: SoybeanScale
+synonym: "2" EXACT []
+is_a: CO_336:0000146 ! 1 to 10 percentage scale
+
+[Term]
+id: CO_336:0000146:3
+name: 20-30% seed surface discolored
+namespace: SoybeanScale
+synonym: "3" EXACT []
+is_a: CO_336:0000146 ! 1 to 10 percentage scale
+
+[Term]
+id: CO_336:0000146:4
+name: 30-40% seed surface discolored
+namespace: SoybeanScale
+synonym: "4" EXACT []
+is_a: CO_336:0000146 ! 1 to 10 percentage scale
+
+[Term]
+id: CO_336:0000146:5
+name: 40-50% seed sueface discolored
+namespace: SoybeanScale
+synonym: "5" EXACT []
+is_a: CO_336:0000146 ! 1 to 10 percentage scale
+
+[Term]
+id: CO_336:0000146:6
+name: 50-60% seed surface discolored
+namespace: SoybeanScale
+synonym: "6" EXACT []
+is_a: CO_336:0000146 ! 1 to 10 percentage scale
+
+[Term]
+id: CO_336:0000146:7
+name: 60-70% seed surface discolored
+namespace: SoybeanScale
+synonym: "7" EXACT []
+is_a: CO_336:0000146 ! 1 to 10 percentage scale
+
+[Term]
+id: CO_336:0000146:8
+name: 70-80% seed surface discolored
+namespace: SoybeanScale
+synonym: "8" EXACT []
+is_a: CO_336:0000146 ! 1 to 10 percentage scale
+
+[Term]
+id: CO_336:0000146:9
+name: 80-90% seed surface discolored
+namespace: SoybeanScale
+synonym: "9" EXACT []
+is_a: CO_336:0000146 ! 1 to 10 percentage scale
+
+[Term]
+id: CO_336:0000147
+name: seed lysine content
+namespace: SoybeanTrait
+def: "The amount of total soybean seed protein that is composed of lysine" []
+synonym: "LYSINE" EXACT []
+synonym: "Lysine content, Lysine amino acid" EXACT []
+is_a: CO_336:Biochemical_traits ! Biochemical_traits
+
+[Term]
+id: CO_336:0000148
+name: lysine context extraction method
+namespace: SoybeanMethod
+def: "Measure the weight of lysine extracted from the seed sample and divide by the weight of protein extracted from the same sample." []
+is_a: CO_336:Computation ! Computation
+relationship: method_of CO_336:0000147 ! seed lysine content
+
+[Term]
+id: CO_336:0000150
+name: leaf chlorophyll content
+namespace: SoybeanTrait
+def: "The amount of chlorophyll normally found in a plant under normal environmental conditions" []
+synonym: "CHLOROPHYLL" EXACT []
+synonym: "Chlorophyll content" EXACT []
+is_a: CO_336:Biochemical_traits ! Biochemical_traits
+
+[Term]
+id: CO_336:0000151
+name: chlorophyll content measurement
+namespace: SoybeanMethod
+def: "Measure chlorophyll using a SPAD meter" []
+is_a: CO_336:Measurement ! Measurement
+relationship: method_of CO_336:0000150 ! leaf chlorophyll content
+
+[Term]
+id: CO_336:0000153
+name: seed isoflavone content
+namespace: SoybeanTrait
+def: "The total isoflavone content of a seed." []
+synonym: "ISOFLAVON" EXACT []
+synonym: "isoflavone concentration" EXACT []
+is_a: CO_336:Biochemical_traits ! Biochemical_traits
+
+[Term]
+id: CO_336:0000154
+name: isoflavone content measurement
+namespace: SoybeanMethod
+def: "Measurement of the amount of isoflavone out of seed weight" []
+is_a: CO_336:Computation ! Computation
+relationship: method_of CO_336:0000153 ! seed isoflavone content
+
+[Term]
+id: CO_336:0000156
+name: germination time
+namespace: SoybeanTrait
+def: "Time from planting soybean seed until hypocotyl emerges from the substrate" []
+synonym: "GERMINATIONTIME" EXACT []
+is_a: CO_336:Phenological_traits ! Phenological_traits
+
+[Term]
+id: CO_336:0000157
+name: plant germination count
+namespace: SoybeanMethod
+def: "Number of days from planting to emergence(VE)" []
+is_a: CO_336:Counting ! Counting
+relationship: method_of CO_336:0000156 ! germination time
+
+[Term]
+id: CO_336:0000159
+name: flower number
+namespace: SoybeanTrait
+def: "The number of flowers produced by a plant" []
+synonym: "FLWRNUMBER" EXACT []
+is_a: CO_336:Morphological_traits ! Morphological_traits
+
+[Term]
+id: CO_336:0000160
+name: flower number count
+namespace: SoybeanMethod
+def: "Number of flowers per plant" []
+is_a: CO_336:Counting ! Counting
+relationship: method_of CO_336:0000159 ! flower number
+
+[Term]
+id: CO_336:0000161
+name: flower
+namespace: SoybeanScale
+is_a: CO_336:Numerical ! Numerical
+relationship: scale_of CO_336:0000160 ! flower number count
+
+[Term]
+id: CO_336:0000162
+name: canopy height
+namespace: SoybeanTrait
+def: "Distance from growing medium to the top leaves" []
+synonym: "CANOPYHT" EXACT []
+is_a: CO_336:Agronomical_traits ! Agronomical_traits
+
+[Term]
+id: CO_336:0000163
+name: height average of plants
+namespace: SoybeanMethod
+def: "Wooden lath placed on each plot to measure average height above ground" []
+is_a: CO_336:Estimation ! Estimation
+relationship: method_of CO_336:0000162 ! canopy height
+
+[Term]
+id: CO_336:0000165
+name: first flower
+namespace: SoybeanTrait
+def: "Days from planting when there is an open flower on any node on the main stem" []
+synonym: "Fflr" EXACT []
+synonym: "FIRSTFLOWER" EXACT []
+is_a: CO_336:Phenological_traits ! Phenological_traits
+
+[Term]
+id: CO_336:0000166
+name: first flower date method
+namespace: SoybeanMethod
+def: "Number of days from emergence to beginning of bloom (R1)" []
+is_a: CO_336:Counting ! Counting
+relationship: method_of CO_336:0000000 ! flowering time
+relationship: method_of CO_336:0000165 ! first flower
+
+[Term]
+id: CO_336:0000168
+name: nodule number
+namespace: SoybeanTrait
+def: "The number of nodule on the root system usually compared to wild type" []
+synonym: "NODULENUMBER" EXACT []
+synonym: "Root nodule number" EXACT []
+is_a: CO_336:Morphological_traits ! Morphological_traits
+
+[Term]
+id: CO_336:0000169
+name: nodule number count
+namespace: SoybeanMethod
+def: "Count the number of nodules on a plant" []
+is_a: CO_336:Counting ! Counting
+relationship: method_of CO_336:0000168 ! nodule number
+
+[Term]
+id: CO_336:0000170
+name: nodule
+namespace: SoybeanScale
+is_a: CO_336:Numerical ! Numerical
+relationship: scale_of CO_336:0000169 ! nodule number count
+
+[Term]
+id: CO_336:0000171
+name: pod maturity date
+namespace: SoybeanTrait
+def: "Number of days past planting when pods are mature. This trait is synonymous with seed pod maturity.Maturity defined as pods have reached their final color." []
+synonym: "Days to maturity" EXACT []
+synonym: "PODMATURITY" EXACT []
+is_a: CO_336:Phenological_traits ! Phenological_traits
+
+[Term]
+id: CO_336:0000172
+name: maturity days count
+namespace: SoybeanMethod
+def: "Count days from planting to pod maturity R8" []
+is_a: CO_336:Counting ! Counting
+relationship: method_of CO_336:0000171 ! pod maturity date
+
+[Term]
+id: CO_336:0000174
+name: r8 full maturity
+namespace: SoybeanTrait
+def: "Number of days past planting when 95% of pods have reached their mature color." []
+synonym: "Full maturity" EXACT []
+synonym: "FULLMATURITY" EXACT []
+is_a: CO_336:Phenological_traits ! Phenological_traits
+
+[Term]
+id: CO_336:0000175
+name: full maturity count
+namespace: SoybeanMethod
+def: "Count days from planting to 95% pod maturity R8" []
+is_a: CO_336:Counting ! Counting
+relationship: method_of CO_336:0000021 ! maturity time
+relationship: method_of CO_336:0000174 ! r8 full maturity
+
+[Term]
+id: CO_336:0000177
+name: root nodule weight
+namespace: SoybeanTrait
+def: "Weight of root nodules" []
+synonym: "NODULEWEIGTH" EXACT []
+synonym: "Root nodule weigth" EXACT []
+is_a: CO_336:Morphological_traits ! Morphological_traits
+
+[Term]
+id: CO_336:0000178
+name: nodule weight measurement
+namespace: SoybeanMethod
+def: "Dig out, dry and weigh root nodules" []
+is_a: CO_336:Measurement ! Measurement
+relationship: method_of CO_336:0000177 ! root nodule weight
+
+[Term]
+id: CO_336:0000179
+name: g
+namespace: SoybeanScale
+is_a: CO_336:Numerical ! Numerical
+relationship: scale_of CO_336:0000178 ! nodule weight measurement
+relationship: scale_of CO_336:0000242 ! 100 weight
+
+[Term]
+id: CO_336:0000180
+name: primary root shape
+namespace: SoybeanTrait
+def: "The shape of the primary root at a stipulated range of the root" []
+synonym: "Primary root shape" EXACT []
+synonym: "PRIROOTSHAPE" EXACT []
+is_a: CO_336:Morphological_traits ! Morphological_traits
+
+[Term]
+id: CO_336:0000181
+name: primary root shape observation
+namespace: SoybeanMethod
+def: "Visually examine the primary root shape" []
+is_a: CO_336:Estimation ! Estimation
+relationship: method_of CO_336:0000180 ! primary root shape
+
+[Term]
+id: CO_336:0000183
+name: primary root size
+namespace: SoybeanTrait
+def: "The diameter of the main root measured at a stipulated level of the root" []
+synonym: "Primary Root thickness" EXACT []
+synonym: "PRIROOTSIZE" EXACT []
+is_a: CO_336:Morphological_traits ! Morphological_traits
+
+[Term]
+id: CO_336:0000184
+name: primary root thickness measure
+namespace: SoybeanMethod
+def: "Using a callipers measure diameter of primary root at stipulated point" []
+is_a: CO_336:Measurement ! Measurement
+relationship: method_of CO_336:0000183 ! primary root size
+
+[Term]
+id: CO_336:0000186
+name: leaf number
+namespace: SoybeanTrait
+def: "The number of leaves (petioles) originating from a node on a stem" []
+synonym: "LEAFNUMBER" EXACT []
+is_a: CO_336:Morphological_traits ! Morphological_traits
+
+[Term]
+id: CO_336:0000187
+name: leaf number count
+namespace: SoybeanMethod
+def: "Count Physically the number of leaves on a plant" []
+is_a: CO_336:Counting ! Counting
+relationship: method_of CO_336:0000186 ! leaf number
+
+[Term]
+id: CO_336:0000188
+name: leaf
+namespace: SoybeanScale
+is_a: CO_336:Numerical ! Numerical
+relationship: scale_of CO_336:0000187 ! leaf number count
+
+[Term]
+id: CO_336:0000189
+name: main stem diameter
+namespace: SoybeanTrait
+def: "The diameter of the main stem of soybean plant" []
+synonym: "STEMDIAM" EXACT []
+is_a: CO_336:Morphological_traits ! Morphological_traits
+
+[Term]
+id: CO_336:0000190
+name: average stem diameter
+namespace: SoybeanMethod
+def: "The average measurement with calipers midway between the unifoliate and the first trifoliate nodes for three mature plants per plot" []
+is_a: CO_336:Computation ! Computation
+relationship: method_of CO_336:0000189 ! main stem diameter
+
+[Term]
+id: CO_336:0000192
+name: fiber content
+namespace: SoybeanTrait
+def: "The amount of fiber in soybean seed" []
+synonym: "Seed fiber Content" EXACT []
+synonym: "SEEDFIBER" EXACT []
+is_a: CO_336:Biochemical_traits ! Biochemical_traits
+
+[Term]
+id: CO_336:0000193
+name: fiber content measurement
+namespace: SoybeanMethod
+def: "Measurement of the amount of fibre out of seed weight" []
+is_a: CO_336:Computation ! Computation
+relationship: method_of CO_336:0000192 ! fiber content
+
+[Term]
+id: CO_336:0000195
+name: seed moisture content
+namespace: SoybeanTrait
+def: "The amount of moisture of a mature seed" []
+synonym: "Moisture content" EXACT []
+synonym: "SEEDMOISTURE" EXACT []
+is_a: CO_336:Biochemical_traits ! Biochemical_traits
+
+[Term]
+id: CO_336:0000196
+name: moisture content measurement
+namespace: SoybeanMethod
+def: "Measurement of the moisture content of a mature seed of seed at harvest" []
+is_a: CO_336:Computation ! Computation
+relationship: method_of CO_336:0000195 ! seed moisture content
+
+[Term]
+id: CO_336:0000198
+name: seed sucrose content
+namespace: SoybeanTrait
+def: "The amount of total seed soluble carbohydrates that is sucrose." []
+synonym: "Sucrose" EXACT []
+synonym: "SUCROSS" EXACT []
+is_a: CO_336:Morphological_traits ! Morphological_traits
+
+[Term]
+id: CO_336:0000199
+name: sucrose content method
+namespace: SoybeanMethod
+def: "Measure amount of total seed soluble carbohydrates that is sucrose" []
+is_a: CO_336:Measurement ! Measurement
+relationship: method_of CO_336:0000198 ! seed sucrose content
+
+[Term]
+id: CO_336:0000200
+name: g/kg
+namespace: SoybeanScale
+is_a: CO_336:Numerical ! Numerical
+relationship: scale_of CO_336:0000199 ! sucrose content method
+
+[Term]
+id: CO_336:0000201
+name: downy mildew
+namespace: SoybeanTrait
+def: "Reaction of the plant or plant part to Peronospora manchurica infection." []
+synonym: "Downy mildew" EXACT []
+synonym: "DOWNYMILDEW" EXACT []
+is_a: CO_336:Biotic_stress_traits ! Biotic_stress_traits
+
+[Term]
+id: CO_336:0000202
+name: downy mildew assessment method
+namespace: SoybeanMethod
+def: "Look at how much of the plant or plant part is covered with small, discrete, pale to bright yellow spots" []
+is_a: CO_336:Estimation ! Estimation
+relationship: method_of CO_336:0000201 ! downy mildew
+
+[Term]
+id: CO_336:0000204
+name: soybean anthracnose
+namespace: SoybeanTrait
+def: "Reaction of the plant or plant part to infection by Colletotrichum dematiu" []
+synonym: "ANTHRACNOSE" EXACT []
+synonym: "Soybean anthracnose" EXACT []
+is_a: CO_336:Biotic_stress_traits ! Biotic_stress_traits
+
+[Term]
+id: CO_336:0000205
+name: anthracnose assessment
+namespace: SoybeanMethod
+def: "How much or the plant or plant part has been affected by irregulary shaped brown areas and/or black fruiting bodies on infected areas" []
+is_a: CO_336:Estimation ! Estimation
+relationship: method_of CO_336:0000204 ! soybean anthracnose
+
+[Term]
+id: CO_336:0000206
+name: 1-5 infection score
+namespace: SoybeanScale
+is_a: CO_336:Nominal ! Nominal
+relationship: scale_of CO_336:0000205 ! anthracnose assessment
+
+[Term]
+id: CO_336:0000206:1
+name: (R) resistant
+namespace: SoybeanScale
+synonym: "1" EXACT []
+is_a: CO_336:0000206 ! 1-5 infection score
+
+[Term]
+id: CO_336:0000206:2
+name: (S) sensitive
+namespace: SoybeanScale
+synonym: "2" EXACT []
+is_a: CO_336:0000206 ! 1-5 infection score
+
+[Term]
+id: CO_336:0000206:3
+name: (PR) partially sensitive
+namespace: SoybeanScale
+synonym: "3" EXACT []
+is_a: CO_336:0000206 ! 1-5 infection score
+
+[Term]
+id: CO_336:0000207
+name: lateral root size
+namespace: SoybeanTrait
+def: "The diameter of a lateral root measured at the proximal end of the root" []
+synonym: "Lateral root thickness" EXACT []
+synonym: "LATROOTSIZE" EXACT []
+is_a: CO_336:Morphological_traits ! Morphological_traits
+
+[Term]
+id: CO_336:0000208
+name: lateral root thickness measure
+namespace: SoybeanMethod
+def: "Using a callipers measure diameter of lateral root at stipulated point" []
+is_a: CO_336:Measurement ! Measurement
+relationship: method_of CO_336:0000207 ! lateral root size
+
+[Term]
+id: CO_336:0000210
+name: lateral root shape
+namespace: SoybeanTrait
+def: "The shape of the lateral root at a stipulated range of the roots" []
+synonym: "Lateral root shape" EXACT []
+synonym: "LATROOTSHAPE" EXACT []
+is_a: CO_336:Morphological_traits ! Morphological_traits
+
+[Term]
+id: CO_336:0000211
+name: lateral root shape observation
+namespace: SoybeanMethod
+def: "Visually observe the shape of the lateral root" []
+is_a: CO_336:Estimation ! Estimation
+relationship: method_of CO_336:0000210 ! lateral root shape
+
+[Term]
+id: CO_336:0000212
+name: 1 to 4 shape scale
+namespace: SoybeanScale
+is_a: CO_336:Nominal ! Nominal
+relationship: scale_of CO_336:0000211 ! lateral root shape observation
+
+[Term]
+id: CO_336:0000212:1
+name: round
+namespace: SoybeanScale
+synonym: "1" EXACT []
+is_a: CO_336:0000212 ! 1 to 4 shape scale
+
+[Term]
+id: CO_336:0000212:2
+name: flat
+namespace: SoybeanScale
+synonym: "2" EXACT []
+is_a: CO_336:0000212 ! 1 to 4 shape scale
+
+[Term]
+id: CO_336:0000212:3
+name: straight
+namespace: SoybeanScale
+synonym: "3" EXACT []
+is_a: CO_336:0000212 ! 1 to 4 shape scale
+
+[Term]
+id: CO_336:0000212:4
+name: curved
+namespace: SoybeanScale
+synonym: "4" EXACT []
+is_a: CO_336:0000212 ! 1 to 4 shape scale
+
+[Term]
+id: CO_336:0000213
+name: seed starchyose content
+namespace: SoybeanTrait
+def: "The amount of total seed soluble carbohydrates that is stachyose." []
+synonym: "Stachyose" EXACT []
+synonym: "STARCHYOSE" EXACT []
+is_a: CO_336:Biochemical_traits ! Biochemical_traits
+
+[Term]
+id: CO_336:0000214
+name: starchyose measurement
+namespace: SoybeanMethod
+def: "Measure amount of total seed soluble carbohydrates that is stachyose." []
+is_a: CO_336:Computation ! Computation
+relationship: method_of CO_336:0000213 ! seed starchyose content
+
+[Term]
+id: CO_336:0000216
+name: seed raffinose content
+namespace: SoybeanTrait
+def: "Raffinose content of a plant or plant part." []
+synonym: "RAFFINOSE" EXACT []
+synonym: "Raffinose" EXACT []
+is_a: CO_336:Biochemical_traits ! Biochemical_traits
+
+[Term]
+id: CO_336:0000217
+name: raffinose measurement
+namespace: SoybeanMethod
+def: "Measure amount of total seed soluble carbohydrates that is raffinose" []
+is_a: CO_336:Computation ! Computation
+relationship: method_of CO_336:0000216 ! seed raffinose content
+
+[Term]
+id: CO_336:0000218
+name: kg/kg
+namespace: SoybeanScale
+is_a: CO_336:Numerical ! Numerical
+relationship: scale_of CO_336:0000217 ! raffinose measurement
+
+[Term]
+id: CO_336:0000219
+name: leaflet shape
+namespace: SoybeanTrait
+def: "The shape of the leaflet. Remark: This trait has been incorrectly called Leaf shape." []
+synonym: "Leaf shape" EXACT []
+synonym: "LEAFSHAPE" EXACT []
+is_a: CO_336:Morphological_traits ! Morphological_traits
+
+[Term]
+id: CO_336:0000220
+name: leaf shape method
+namespace: SoybeanMethod
+def: "Elliptic Fourier descriptor measures 5 components, including aspect ratio of leaflet shape, location of centroid of leaflets along midrib, straightness or distortion of leaflet shape, and roundness of leaflet shape. Measured on central leaflets of fully expanded leaflets. Can also be measured as the ratio of leaflet width to leaflet length from upper third of plant." []
+is_a: CO_336:Computation ! Computation
+relationship: method_of CO_336:0000219 ! leaflet shape
+relationship: method_of CO_336:0000219 ! leaflet shape
+
+[Term]
+id: CO_336:0000221
+name: 1 to 4 shape scale
+namespace: SoybeanScale
+is_a: CO_336:Nominal ! Nominal
+relationship: scale_of CO_336:0000220 ! leaf shape method
+
+[Term]
+id: CO_336:0000221:1
+name: Lanceolate
+namespace: SoybeanScale
+synonym: "1" EXACT []
+is_a: CO_336:0000221 ! 1 to 4 shape scale
+
+[Term]
+id: CO_336:0000221:2
+name: triangular
+namespace: SoybeanScale
+synonym: "2" EXACT []
+is_a: CO_336:0000221 ! 1 to 4 shape scale
+
+[Term]
+id: CO_336:0000221:3
+name: pointed ovate
+namespace: SoybeanScale
+synonym: "3" EXACT []
+is_a: CO_336:0000221 ! 1 to 4 shape scale
+
+[Term]
+id: CO_336:0000221:4
+name: rounded ovate
+namespace: SoybeanScale
+synonym: "4" EXACT []
+is_a: CO_336:0000221 ! 1 to 4 shape scale
+
+[Term]
+id: CO_336:0000222
+name: pubescence form
+namespace: SoybeanTrait
+def: "Orientation of pubescence, generally on the leaf surface but pubsecence can be found on the stem" []
+synonym: "PUBFORM" EXACT []
+synonym: "Trichome form" EXACT []
+is_a: CO_336:Morphological_traits ! Morphological_traits
+
+[Term]
+id: CO_336:0000223
+name: pubescence form observation
+namespace: SoybeanMethod
+def: "Observation of the type of pubescence" []
+is_a: CO_336:Estimation ! Estimation
+relationship: method_of CO_336:0000222 ! pubescence form
+
+[Term]
+id: CO_336:0000224
+name: 1 to 8 shape scale
+namespace: SoybeanScale
+is_a: CO_336:Nominal ! Nominal
+relationship: scale_of CO_336:0000223 ! pubescence form observation
+
+[Term]
+id: CO_336:0000224:1
+name: Erect
+namespace: SoybeanScale
+synonym: "1" EXACT []
+is_a: CO_336:0000224 ! 1 to 8 shape scale
+
+[Term]
+id: CO_336:0000224:2
+name: semi-appressed
+namespace: SoybeanScale
+synonym: "2" EXACT []
+is_a: CO_336:0000224 ! 1 to 8 shape scale
+
+[Term]
+id: CO_336:0000224:3
+name: glaborus
+namespace: SoybeanScale
+synonym: "3" EXACT []
+is_a: CO_336:0000224 ! 1 to 8 shape scale
+
+[Term]
+id: CO_336:0000224:4
+name: appressed
+namespace: SoybeanScale
+synonym: "4" EXACT []
+is_a: CO_336:0000224 ! 1 to 8 shape scale
+
+[Term]
+id: CO_336:0000224:5
+name: normal
+namespace: SoybeanScale
+synonym: "5" EXACT []
+is_a: CO_336:0000224 ! 1 to 8 shape scale
+
+[Term]
+id: CO_336:0000224:6
+name: pubescent
+namespace: SoybeanScale
+synonym: "6" EXACT []
+is_a: CO_336:0000224 ! 1 to 8 shape scale
+
+[Term]
+id: CO_336:0000224:7
+name: puberulent
+namespace: SoybeanScale
+synonym: "7" EXACT []
+is_a: CO_336:0000224 ! 1 to 8 shape scale
+
+[Term]
+id: CO_336:0000224:8
+name: curly
+namespace: SoybeanScale
+synonym: "8" EXACT []
+is_a: CO_336:0000224 ! 1 to 8 shape scale
+
+[Term]
+id: CO_336:0000225
+name: pubescence tip type
+namespace: SoybeanTrait
+def: "The form of the tip of a soybean pubescence" []
+synonym: "PUBTIPTYPE" EXACT []
+synonym: "Trichome tip type" EXACT []
+is_a: CO_336:Morphological_traits ! Morphological_traits
+
+[Term]
+id: CO_336:0000226
+name: pubescence tip type observation
+namespace: SoybeanMethod
+def: "Observation of the type of the tip of the pubescence on the plant" []
+is_a: CO_336:Estimation ! Estimation
+relationship: method_of CO_336:0000225 ! pubescence tip type
+
+[Term]
+id: CO_336:0000227
+name: 1 or 2 type scale
+namespace: SoybeanScale
+is_a: CO_336:Nominal ! Nominal
+relationship: scale_of CO_336:0000226 ! pubescence tip type observation
+
+[Term]
+id: CO_336:0000227:1
+name: blunt
+namespace: SoybeanScale
+synonym: "1" EXACT []
+is_a: CO_336:0000227 ! 1 or 2 type scale
+
+[Term]
+id: CO_336:0000227:2
+name: Sharp
+namespace: SoybeanScale
+synonym: "2" EXACT []
+is_a: CO_336:0000227 ! 1 or 2 type scale
+
+[Term]
+id: CO_336:0000228
+name: flower form
+namespace: SoybeanTrait
+def: "Form of a flower." []
+synonym: "Flower Morphogenisis" EXACT []
+synonym: "FLOWERFORM" EXACT []
+is_a: CO_336:Morphological_traits ! Morphological_traits
+
+[Term]
+id: CO_336:0000229
+name: flower final form observation
+namespace: SoybeanMethod
+def: "Observe the form of a flower at the final development stage" []
+is_a: CO_336:Estimation ! Estimation
+relationship: method_of CO_336:0000228 ! flower form
+
+[Term]
+id: CO_336:0000230
+name: 1 or 2 form scale
+namespace: SoybeanScale
+is_a: CO_336:Nominal ! Nominal
+relationship: scale_of CO_336:0000229 ! flower final form observation
+
+[Term]
+id: CO_336:0000230:1
+name: cleistogamous  (closed, TO:0000882)
+namespace: SoybeanScale
+synonym: "1" EXACT []
+is_a: CO_336:0000230 ! 1 or 2 form scale
+
+[Term]
+id: CO_336:0000230:2
+name: chasmogamous (open, TO:0000883)
+namespace: SoybeanScale
+synonym: "2" EXACT []
+is_a: CO_336:0000230 ! 1 or 2 form scale
+
+[Term]
+id: CO_336:0000231
+name: pubescence presence
+namespace: SoybeanTrait
+def: "Presence or absence of pubescence on soybean plant" []
+synonym: "Pubescence presence" EXACT []
+synonym: "PUBPERSENCE" EXACT []
+is_a: CO_336:Morphological_traits ! Morphological_traits
+
+[Term]
+id: CO_336:0000232
+name: pubescence presence method
+namespace: SoybeanMethod
+def: "observation of presence or absence of trichome on the plant" []
+is_a: CO_336:Estimation ! Estimation
+relationship: method_of CO_336:0000231 ! pubescence presence
+
+[Term]
+id: CO_336:0000233
+name: 1 or 2 presence scale
+namespace: SoybeanScale
+is_a: CO_336:Nominal ! Nominal
+relationship: scale_of CO_336:0000232 ! pubescence presence method
+
+[Term]
+id: CO_336:0000233:1
+name: glabrous
+namespace: SoybeanScale
+synonym: "1" EXACT []
+is_a: CO_336:0000233 ! 1 or 2 presence scale
+
+[Term]
+id: CO_336:0000233:2
+name: normal
+namespace: SoybeanScale
+synonym: "2" EXACT []
+is_a: CO_336:0000233 ! 1 or 2 presence scale
+
+[Term]
+id: CO_336:0000236
+name: pod number
+namespace: SoybeanTrait
+def: "Number of pods per plant" []
+synonym: "Pod num" EXACT []
+synonym: "PODNUMBER" EXACT []
+is_a: CO_336:Morphological_traits ! Morphological_traits
+
+[Term]
+id: CO_336:0000237
+name: number of seeds
+namespace: SoybeanTrait
+def: "Number of seed per pod sampled" []
+synonym: "SEEDNUMBER" EXACT []
+is_a: CO_336:Morphological_traits ! Morphological_traits
+
+[Term]
+id: CO_336:0000238
+name: seed weight
+namespace: SoybeanTrait
+def: "Weight of the seed" []
+synonym: "SEEDWEIGHT" EXACT []
+is_a: CO_336:Morphological_traits ! Morphological_traits
+
+[Term]
+id: CO_336:0000239
+name: cercospora leaf spot
+namespace: SoybeanTrait
+def: "Reaction of the plant or plant part to infection by Cercopsora species." []
+synonym: "CERCOSLEAFSPOT" EXACT []
+synonym: "Cercospora Leaf spot disease" EXACT []
+is_a: CO_336:Biotic_stress_traits ! Biotic_stress_traits
+
+[Term]
+id: CO_336:0000240
+name: pod number count
+namespace: SoybeanMethod
+def: "count number of Pods on a plant" []
+is_a: CO_336:Measurement ! Measurement
+relationship: method_of CO_336:0000236 ! pod number
+
+[Term]
+id: CO_336:0000241
+name: seed number count
+namespace: SoybeanMethod
+def: "count the number of seeds on a pod" []
+is_a: CO_336:Measurement ! Measurement
+relationship: method_of CO_336:0000237 ! number of seeds
+
+[Term]
+id: CO_336:0000242
+name: 100 weight
+namespace: SoybeanMethod
+def: "Weigh 100 seeds" []
+is_a: CO_336:Measurement ! Measurement
+relationship: method_of CO_336:0000238 ! seed weight
+
+[Term]
+id: CO_336:0000243
+name: leaf disease
+namespace: SoybeanMethod
+def: "Number and density of spot on leaves" []
+is_a: CO_336:Estimation ! Estimation
+relationship: method_of CO_336:0000239 ! cercospora leaf spot
+
+[Term]
+id: CO_336:0000244
+name: pod
+namespace: SoybeanScale
+is_a: CO_336:Numerical ! Numerical
+relationship: scale_of CO_336:0000240 ! pod number count
+
+[Term]
+id: CO_336:0000245
+name: seed
+namespace: SoybeanScale
+is_a: CO_336:Numerical ! Numerical
+relationship: scale_of CO_336:0000241 ! seed number count
+
+[Term]
+id: CO_336:0000247
+name: 1-5 infection score
+namespace: SoybeanScale
+is_a: CO_336:Ordinal ! Ordinal
+relationship: scale_of CO_336:0000243 ! leaf disease
+
+[Term]
+id: CO_336:0000247:1
+name: 0% lesions on plants
+namespace: SoybeanScale
+synonym: "1" EXACT []
+is_a: CO_336:0000247 ! 1-5 infection score
+
+[Term]
+id: CO_336:0000247:2
+name: 1-10% lesions on plants
+namespace: SoybeanScale
+synonym: "2" EXACT []
+is_a: CO_336:0000247 ! 1-5 infection score
+
+[Term]
+id: CO_336:0000247:3
+name: 10-25% lesions on the plants
+namespace: SoybeanScale
+synonym: "3" EXACT []
+is_a: CO_336:0000247 ! 1-5 infection score
+
+[Term]
+id: CO_336:0000247:4
+name: 25-50% lesions on the plants
+namespace: SoybeanScale
+synonym: "4" EXACT []
+is_a: CO_336:0000247 ! 1-5 infection score
+
+[Term]
+id: CO_336:0000247:5
+name: >50% plants with lesions
+namespace: SoybeanScale
+synonym: "5" EXACT []
+is_a: CO_336:0000247 ! 1-5 infection score
+
+[Term]
+id: CO_336:0000248
+name: pod shattering
+namespace: SoybeanTrait
+def: "Proportion of open pods" []
+synonym: "Pods open" EXACT []
+synonym: "PodShat" EXACT []
+is_a: CO_336:Agronomical_traits ! Agronomical_traits
+
+[Term]
+id: CO_336:0000249
+name: FlwT_50Count_days
+namespace: SoybeanVariable
+synonym: "FLOWERDATE" EXACT []
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000000 ! flowering time
+relationship: variable_of CO_336:0000001 ! days to 50% flowering count
+relationship: variable_of CO_336:0000002 ! day
+
+[Term]
+id: CO_336:0000250
+name: BP_Est_1to5
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000003 ! bacterial pustule
+relationship: variable_of CO_336:0000004 ! bacterial pustle assessment
+relationship: variable_of CO_336:0000005 ! 1-5 infection score
+
+[Term]
+id: CO_336:0000251
+name: RUST_Est_1to5
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000006 ! soybean rust
+relationship: variable_of CO_336:0000007 ! rust assessment
+relationship: variable_of CO_336:0000008 ! 1-5 infection score
+
+[Term]
+id: CO_336:0000252
+name: SMV_Est_1to5
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000009 ! soybean mosaic virus
+relationship: variable_of CO_336:0000010 ! smv assessment
+relationship: variable_of CO_336:0000011 ! 1-5 infection score
+
+[Term]
+id: CO_336:0000253
+name: FROGEYE_Est_1to5
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000012 ! frogeye leafspot
+relationship: variable_of CO_336:0000013 ! frog eye assessment
+relationship: variable_of CO_336:0000014 ! 1-5 infection score
+
+[Term]
+id: CO_336:0000254
+name: RtNod_PropEst_1to5
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000015 ! nodulation
+relationship: variable_of CO_336:0000016 ! nodulation proportion observation
+relationship: variable_of CO_336:0000017 ! 1 to 5 percentage scale
+
+[Term]
+id: CO_336:0000255
+name: ROOTKNOT_Est_1to5
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000018 ! root knot nematode
+relationship: variable_of CO_336:0000019 ! root knot assessment
+relationship: variable_of CO_336:0000020 ! 1-5 infection score
+
+[Term]
+id: CO_336:0000256
+name: MatT_Count_day
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000002 ! day
+relationship: variable_of CO_336:0000021 ! maturity time
+relationship: variable_of CO_336:0000022 ! days to maturity count
+
+[Term]
+id: CO_336:0000257
+name: LPodHt_Meas_cm
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000024 ! height of lowest pods
+relationship: variable_of CO_336:0000025 ! stalk height measurement
+relationship: variable_of CO_336:0000026 ! cm
+
+[Term]
+id: CO_336:0000258
+name: PlntHt_Meas_cm
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000026 ! cm
+relationship: variable_of CO_336:0000027 ! plant height
+relationship: variable_of CO_336:0000028 ! plant height measurement
+
+[Term]
+id: CO_336:0000259
+name: Lodg_Est_1to5
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000030 ! lodging
+relationship: variable_of CO_336:0000031 ! lodging estimation
+relationship: variable_of CO_336:0000032 ! 1 to 5 percentage scale
+
+[Term]
+id: CO_336:0000260
+name: PlntHvst_Count_plant
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000033 ! plants harvested
+relationship: variable_of CO_336:0000034 ! number of plants harvested in the net plot, excluding the borders
+relationship: variable_of CO_336:0000035 ! Plant
+
+[Term]
+id: CO_336:0000261
+name: SdYld_MeasPerPlot_gPlot
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000036 ! seed yield
+relationship: variable_of CO_336:0000037 ! weighing of grain per plot
+relationship: variable_of CO_336:0000038 ! g/plot
+
+[Term]
+id: CO_336:0000262
+name: FodYld_MeasPerPlot_gPlot
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000038 ! g/plot
+relationship: variable_of CO_336:0000039 ! fodder yield
+relationship: variable_of CO_336:0000040 ! weighing of fodder per plot
+
+[Term]
+id: CO_336:0000263
+name: ShatEarly_EarlyEst_1to5
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000042 ! early shattering
+relationship: variable_of CO_336:0000043 ! early pod shattering estimation
+relationship: variable_of CO_336:0000044 ! 1 to 5 percentage scale
+
+[Term]
+id: CO_336:0000264
+name: PodShat_EarlyEst_1to5
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000043 ! early pod shattering estimation
+relationship: variable_of CO_336:0000044 ! 1 to 5 percentage scale
+relationship: variable_of CO_336:0000248 ! pod shattering
+
+[Term]
+id: CO_336:0000265
+name: Storab_Count_Pct
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000045 ! storability
+relationship: variable_of CO_336:0000046 ! germination in storage count
+relationship: variable_of CO_336:0000047 ! Percentage
+
+[Term]
+id: CO_336:0000266
+name: SdOilCt_Comp_pct
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000047 ! Percentage
+relationship: variable_of CO_336:0000048 ! seed oil content
+relationship: variable_of CO_336:0000049 ! seed oil content measurement in the lab
+
+[Term]
+id: CO_336:0000267
+name: SdProtCt_Comp_pct
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000047 ! Percentage
+relationship: variable_of CO_336:0000051 ! seed protein content
+relationship: variable_of CO_336:0000052 ! seed protein content measurement
+
+[Term]
+id: CO_336:0000268
+name: APHID_Est_Undefined
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000054 ! reaction to aphis glycines
+relationship: variable_of CO_336:0000055 ! aphid attack assessment
+relationship: variable_of CO_336:0000056 ! Undefined scale
+
+[Term]
+id: CO_336:0000269
+name: PlntBrnch_Est_1to5
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000057 ! plant branching
+relationship: variable_of CO_336:0000058 ! plant branching observation
+relationship: variable_of CO_336:0000059 ! 1 to 5 branching scale
+
+[Term]
+id: CO_336:0000270
+name: ReprodT_Count_day
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000002 ! day
+relationship: variable_of CO_336:0000060 ! reproductive period
+relationship: variable_of CO_336:0000061 ! reproductive period duration measurement
+
+[Term]
+id: CO_336:0000271
+name: FlwCol_Est_1to9
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000063 ! flower color
+relationship: variable_of CO_336:0000064 ! flower color observation
+relationship: variable_of CO_336:0000065 ! 1 to 9 color scale
+
+[Term]
+id: CO_336:0000272
+name: PodLng_Meas_mm
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000066 ! pod length
+relationship: variable_of CO_336:0000067 ! measure length of pod
+relationship: variable_of CO_336:0000068 ! mm
+
+[Term]
+id: CO_336:0000273
+name: TwinT_Est_mmdd
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000069 ! twining date
+relationship: variable_of CO_336:0000070 ! twinning date observation
+relationship: variable_of CO_336:0000071 ! mmdd
+
+[Term]
+id: CO_336:0000274
+name: Flood_Est_undefined
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000056 ! Undefined scale
+relationship: variable_of CO_336:0000072 ! flooding tolerance
+relationship: variable_of CO_336:0000073 ! flooding reaction of plants assessment
+
+[Term]
+id: CO_336:0000275
+name: Chlorosis_Est_SPAD
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000075 ! chlorosis
+relationship: variable_of CO_336:0000076 ! chlorophyll content measurement
+relationship: variable_of CO_336:0000077 ! SPAD unit
+
+[Term]
+id: CO_336:0000276
+name: Drought_Est_undefined
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000056 ! Undefined scale
+relationship: variable_of CO_336:0000078 ! drought tolerance
+relationship: variable_of CO_336:0000079 ! drought reaction of plants observation
+
+[Term]
+id: CO_336:0000277
+name: HerbSens_Est_undefined
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000056 ! Undefined scale
+relationship: variable_of CO_336:0000081 ! herbicide sensitivity
+relationship: variable_of CO_336:0000082 ! herbicide reaction of plant assessment
+
+[Term]
+id: CO_336:0000278
+name: SdOilProtRatio_Comp_pct
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000084 ! seed oil/protein content
+relationship: variable_of CO_336:0000085 ! oil content to protein content ratio
+relationship: variable_of CO_336:0000086 ! Ratio
+
+[Term]
+id: CO_336:0000279
+name: SdFillT_Count_day
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000002 ! day
+relationship: variable_of CO_336:0000087 ! seed filling period
+relationship: variable_of CO_336:0000088 ! counting days of seed fill
+
+[Term]
+id: CO_336:0000280
+name: PodCol_Est_1to4
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000090 ! pod color
+relationship: variable_of CO_336:0000091 ! pod color observation
+relationship: variable_of CO_336:0000092 ! 1 to 4 color scale
+
+[Term]
+id: CO_336:0000281
+name: HilumCol_Est_1to12
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000093 ! hilum color
+relationship: variable_of CO_336:0000094 ! hilum color observation
+relationship: variable_of CO_336:0000095 ! 1 to 12 color scale
+
+[Term]
+id: CO_336:0000282
+name: SdQual_Est_1to5
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000096 ! seed quality
+relationship: variable_of CO_336:0000097 ! seed quality visual assessment
+relationship: variable_of CO_336:0000098 ! 1 to 5 quality scale
+
+[Term]
+id: CO_336:0000283
+name: LowTemp_Est_undefined
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000056 ! Undefined scale
+relationship: variable_of CO_336:0000099 ! cold stress resistance
+relationship: variable_of CO_336:0000100 ! cold reaction assessment
+
+[Term]
+id: CO_336:0000284
+name: HighT_Est_undefined
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000056 ! Undefined scale
+relationship: variable_of CO_336:0000102 ! heat stress resistance
+relationship: variable_of CO_336:0000103 ! hot reaction assessment
+
+[Term]
+id: CO_336:0000285
+name: SdLinolncCt_Comp_pct
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000047 ! Percentage
+relationship: variable_of CO_336:0000105 ! seed linoleic acid content
+relationship: variable_of CO_336:0000106 ! linoleic acid content measurement
+
+[Term]
+id: CO_336:0000286
+name: SdLinolcCt_Comp_pct
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000047 ! Percentage
+relationship: variable_of CO_336:0000108 ! seed linolenic acid content
+relationship: variable_of CO_336:0000109 ! linolenic acid content measurement
+
+[Term]
+id: CO_336:0000287
+name: SdPalmiCt_Comp_pct
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000047 ! Percentage
+relationship: variable_of CO_336:0000111 ! seed palmitic acid content
+relationship: variable_of CO_336:0000112 ! palmitic acid content measurement
+
+[Term]
+id: CO_336:0000288
+name: SdOleicCt_Comp_pct
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000047 ! Percentage
+relationship: variable_of CO_336:0000114 ! seed oleic acid content
+relationship: variable_of CO_336:0000115 ! oleic acid content measurement
+
+[Term]
+id: CO_336:0000289
+name: SdMetCt_Comp_pct
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000047 ! Percentage
+relationship: variable_of CO_336:0000117 ! seed methionine content
+relationship: variable_of CO_336:0000118 ! methionine content calculation
+
+[Term]
+id: CO_336:0000290
+name: SdStearCt_Comp_pct
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000047 ! Percentage
+relationship: variable_of CO_336:0000120 ! seed stearic acid content
+relationship: variable_of CO_336:0000121 ! stearic acid content measurement
+
+[Term]
+id: CO_336:0000291
+name: StemTermTyp_Est_1or2
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000123 ! stem termination type
+relationship: variable_of CO_336:0000124 ! termination observation
+relationship: variable_of CO_336:0000125 ! 1 or 2 type scale
+
+[Term]
+id: CO_336:0000292
+name: BAW_Est_1to5
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000126 ! beet armyworm
+relationship: variable_of CO_336:0000127 ! foliar feeding assessment
+relationship: variable_of CO_336:0000128 ! 1 to 5 percentage scale
+
+[Term]
+id: CO_336:0000293
+name: DEFOL_Est_1to5
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000129 ! defoliation
+relationship: variable_of CO_336:0000130 ! defoliation assessment
+relationship: variable_of CO_336:0000131 ! 1 to 5 percentage scale
+
+[Term]
+id: CO_336:0000294
+name: ShatLate_LateEst_1to5
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000132 ! late shattering score
+relationship: variable_of CO_336:0000133 ! late pod shattering assessment
+relationship: variable_of CO_336:0000134 ! 1 to 5 percentage scale
+
+[Term]
+id: CO_336:0000295
+name: PodShat_LateEst_1to5
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000133 ! late pod shattering assessment
+relationship: variable_of CO_336:0000134 ! 1 to 5 percentage scale
+relationship: variable_of CO_336:0000248 ! pod shattering
+
+[Term]
+id: CO_336:0000296
+name: PubCol_Est_1to4
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000135 ! pubescence color
+relationship: variable_of CO_336:0000136 ! pubescence color assessment
+relationship: variable_of CO_336:0000137 ! 1 to 4 color scale
+
+[Term]
+id: CO_336:0000297
+name: MatGroup_Est_1to13
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000141 ! maturity group
+relationship: variable_of CO_336:0000142 ! maturity group classification
+relationship: variable_of CO_336:0000143 ! 1 to 13 maturity scale
+
+[Term]
+id: CO_336:0000299
+name: SdCoatMott_Est_1to10
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000144 ! seed coat mottling
+relationship: variable_of CO_336:0000145 ! seed coat color observation
+relationship: variable_of CO_336:0000146 ! 1 to 10 percentage scale
+
+[Term]
+id: CO_336:0000300
+name: SdLysCt_Comp_pct
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000047 ! Percentage
+relationship: variable_of CO_336:0000147 ! seed lysine content
+relationship: variable_of CO_336:0000148 ! lysine context extraction method
+
+[Term]
+id: CO_336:0000301
+name: LfChlphyll_Meas_SPAD
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000077 ! SPAD unit
+relationship: variable_of CO_336:0000150 ! leaf chlorophyll content
+relationship: variable_of CO_336:0000151 ! chlorophyll content measurement
+
+[Term]
+id: CO_336:0000302
+name: SdIsoflav_Comp_pct
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000047 ! Percentage
+relationship: variable_of CO_336:0000153 ! seed isoflavone content
+relationship: variable_of CO_336:0000154 ! isoflavone content measurement
+
+[Term]
+id: CO_336:0000303
+name: GermT_Count_day
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000002 ! day
+relationship: variable_of CO_336:0000156 ! germination time
+relationship: variable_of CO_336:0000157 ! plant germination count
+
+[Term]
+id: CO_336:0000304
+name: FlwNo_Count_flw
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000159 ! flower number
+relationship: variable_of CO_336:0000160 ! flower number count
+relationship: variable_of CO_336:0000161 ! flower
+
+[Term]
+id: CO_336:0000305
+name: CanoHt_Est_cm
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000026 ! cm
+relationship: variable_of CO_336:0000162 ! canopy height
+relationship: variable_of CO_336:0000163 ! height average of plants
+
+[Term]
+id: CO_336:0000306
+name: FFlw_1stCount_day
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000002 ! day
+relationship: variable_of CO_336:0000165 ! first flower
+relationship: variable_of CO_336:0000166 ! first flower date method
+
+[Term]
+id: CO_336:0000307
+name: FlwT_1stCount_day
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000000 ! flowering time
+relationship: variable_of CO_336:0000002 ! day
+relationship: variable_of CO_336:0000166 ! first flower date method
+
+[Term]
+id: CO_336:0000308
+name: RtNodNo_Count_nodule
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000168 ! nodule number
+relationship: variable_of CO_336:0000169 ! nodule number count
+relationship: variable_of CO_336:0000170 ! nodule
+
+[Term]
+id: CO_336:0000309
+name: PODMATURITY_Count_day
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000002 ! day
+relationship: variable_of CO_336:0000171 ! pod maturity date
+relationship: variable_of CO_336:0000172 ! maturity days count
+
+[Term]
+id: CO_336:0000310
+name: FULLMATURITYT_95Count_day
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000002 ! day
+relationship: variable_of CO_336:0000174 ! r8 full maturity
+relationship: variable_of CO_336:0000175 ! full maturity count
+
+[Term]
+id: CO_336:0000311
+name: MatT_95Count_day
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000002 ! day
+relationship: variable_of CO_336:0000021 ! maturity time
+relationship: variable_of CO_336:0000175 ! full maturity count
+
+[Term]
+id: CO_336:0000312
+name: RtNodWght_Meas_g
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000177 ! root nodule weight
+relationship: variable_of CO_336:0000178 ! nodule weight measurement
+relationship: variable_of CO_336:0000179 ! g
+
+[Term]
+id: CO_336:0000313
+name: PrimRtShp_Est_Undefined
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000056 ! Undefined scale
+relationship: variable_of CO_336:0000180 ! primary root shape
+relationship: variable_of CO_336:0000181 ! primary root shape observation
+
+[Term]
+id: CO_336:0000314
+name: PrimRtSz_Meas_Undefined
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000056 ! Undefined scale
+relationship: variable_of CO_336:0000183 ! primary root size
+relationship: variable_of CO_336:0000184 ! primary root thickness measure
+
+[Term]
+id: CO_336:0000315
+name: LfNo_Count_lf
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000186 ! leaf number
+relationship: variable_of CO_336:0000187 ! leaf number count
+relationship: variable_of CO_336:0000188 ! leaf
+
+[Term]
+id: CO_336:0000316
+name: StmDiam_Comp_Undefined
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000056 ! Undefined scale
+relationship: variable_of CO_336:0000189 ! main stem diameter
+relationship: variable_of CO_336:0000190 ! average stem diameter
+
+[Term]
+id: CO_336:0000317
+name: SdFibCt_Comp_pct
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000047 ! Percentage
+relationship: variable_of CO_336:0000192 ! fiber content
+relationship: variable_of CO_336:0000193 ! fiber content measurement
+
+[Term]
+id: CO_336:0000318
+name: SdMoistCt_Comp_pct
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000047 ! Percentage
+relationship: variable_of CO_336:0000195 ! seed moisture content
+relationship: variable_of CO_336:0000196 ! moisture content measurement
+
+[Term]
+id: CO_336:0000319
+name: SdSucrCt_Meas_gkg
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000198 ! seed sucrose content
+relationship: variable_of CO_336:0000199 ! sucrose content method
+relationship: variable_of CO_336:0000200 ! g/kg
+
+[Term]
+id: CO_336:0000320
+name: DMildew_Est_Undefined
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000056 ! Undefined scale
+relationship: variable_of CO_336:0000201 ! downy mildew
+relationship: variable_of CO_336:0000202 ! downy mildew assessment method
+
+[Term]
+id: CO_336:0000321
+name: ANTHR_Est_1to5
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000204 ! soybean anthracnose
+relationship: variable_of CO_336:0000205 ! anthracnose assessment
+relationship: variable_of CO_336:0000206 ! 1-5 infection score
+
+[Term]
+id: CO_336:0000322
+name: LatRtSz_Meas_Undefined
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000056 ! Undefined scale
+relationship: variable_of CO_336:0000207 ! lateral root size
+relationship: variable_of CO_336:0000208 ! lateral root thickness measure
+
+[Term]
+id: CO_336:0000323
+name: LatRtShp_Est_1to4
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000210 ! lateral root shape
+relationship: variable_of CO_336:0000211 ! lateral root shape observation
+relationship: variable_of CO_336:0000212 ! 1 to 4 shape scale
+
+[Term]
+id: CO_336:0000324
+name: SarchyCt_Comp_undefined
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000056 ! Undefined scale
+relationship: variable_of CO_336:0000213 ! seed starchyose content
+relationship: variable_of CO_336:0000214 ! starchyose measurement
+
+[Term]
+id: CO_336:0000325
+name: RaffinCt_Comp_gkg
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000216 ! seed raffinose content
+relationship: variable_of CO_336:0000217 ! raffinose measurement
+relationship: variable_of CO_336:0000218 ! kg/kg
+
+[Term]
+id: CO_336:0000326
+name: LfletShp_Comp_1to4
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000219 ! leaflet shape
+relationship: variable_of CO_336:0000220 ! leaf shape method
+relationship: variable_of CO_336:0000221 ! 1 to 4 shape scale
+
+[Term]
+id: CO_336:0000327
+name: PubescForm_Est_1to8
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000222 ! pubescence form
+relationship: variable_of CO_336:0000223 ! pubescence form observation
+relationship: variable_of CO_336:0000224 ! 1 to 8 shape scale
+
+[Term]
+id: CO_336:0000328
+name: PubescTipTyp_Est_1or2
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000225 ! pubescence tip type
+relationship: variable_of CO_336:0000226 ! pubescence tip type observation
+relationship: variable_of CO_336:0000227 ! 1 or 2 type scale
+
+[Term]
+id: CO_336:0000329
+name: FlwForm_Est_1or2
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000228 ! flower form
+relationship: variable_of CO_336:0000229 ! flower final form observation
+relationship: variable_of CO_336:0000230 ! 1 or 2 form scale
+
+[Term]
+id: CO_336:0000330
+name: PubescPres_Est_1or2
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000231 ! pubescence presence
+relationship: variable_of CO_336:0000232 ! pubescence presence method
+relationship: variable_of CO_336:0000233 ! 1 or 2 presence scale
+
+[Term]
+id: CO_336:0000331
+name: PodPerPlnt_Count_pod
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000236 ! pod number
+relationship: variable_of CO_336:0000240 ! pod number count
+relationship: variable_of CO_336:0000244 ! pod
+
+[Term]
+id: CO_336:0000332
+name: SdPerPod_Count_sd
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000237 ! number of seeds
+relationship: variable_of CO_336:0000241 ! seed number count
+relationship: variable_of CO_336:0000245 ! seed
+
+[Term]
+id: CO_336:0000333
+name: SdWt_Meas_g
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000179 ! g
+relationship: variable_of CO_336:0000238 ! seed weight
+relationship: variable_of CO_336:0000242 ! 100 weight
+
+[Term]
+id: CO_336:0000334
+name: CercoLfS_Est_1to5
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000239 ! cercospora leaf spot
+relationship: variable_of CO_336:0000243 ! leaf disease
+relationship: variable_of CO_336:0000247 ! 1-5 infection score
+
+[Term]
+id: CO_336:0000335
+name: grain yield calculation
+namespace: SoybeanMethod
+def: "Weigh the amount of harvested grains (excluding the borders) adjusted to 13% moisture, and then divided by the area of the plot" []
+is_a: CO_336:Computation ! Computation
+relationship: method_of CO_336:0000036 ! seed yield
+
+[Term]
+id: CO_336:0000336
+name: kg/ha
+namespace: SoybeanScale
+is_a: CO_336:Numerical ! Numerical
+relationship: scale_of CO_336:0000335 ! grain yield calculation
+relationship: scale_of CO_336:0000338 ! caclulation of fodder yield
+
+[Term]
+id: CO_336:0000337
+name: SdYld_CalcPerArea_kgha
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000036 ! seed yield
+relationship: variable_of CO_336:0000335 ! grain yield calculation
+relationship: variable_of CO_336:0000336 ! kg/ha
+
+[Term]
+id: CO_336:0000338
+name: caclulation of fodder yield
+namespace: SoybeanMethod
+def: "Measure the dry weight of stover, haulm harvested after threshing plants harvested from the plot excluing the borders. Then divide the measured harvested weight by the effectively harvested area of the plot" []
+is_a: CO_336:Computation ! Computation
+relationship: method_of CO_336:0000039 ! fodder yield
+
+[Term]
+id: CO_336:0000340
+name: FodYld_CalcPerArea_kgha
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000039 ! fodder yield
+relationship: variable_of CO_336:0000336 ! kg/ha
+relationship: variable_of CO_336:0000338 ! caclulation of fodder yield
+
+[Term]
+id: CO_336:0000341
+name: nodulation observation
+namespace: SoybeanMethod
+def: "Visual assessment of the presence of nodulation" []
+is_a: CO_336:Estimation ! Estimation
+relationship: method_of CO_336:0000015 ! nodulation
+
+[Term]
+id: CO_336:0000342
+name: 0 or 1 nodulation scale
+namespace: SoybeanScale
+is_a: CO_336:Ordinal ! Ordinal
+relationship: scale_of CO_336:0000341 ! nodulation observation
+
+[Term]
+id: CO_336:0000342:0 
+name: No nodulation
+namespace: SoybeanScale
+synonym: "0" EXACT []
+is_a: CO_336:0000342 ! 0 or 1 nodulation scale
+
+[Term]
+id: CO_336:0000342:1 
+name: Nodulation
+namespace: SoybeanScale
+synonym: "1" EXACT []
+is_a: CO_336:0000342 ! 0 or 1 nodulation scale
+
+[Term]
+id: CO_336:0000343
+name: RtNod_NodEst_0or1
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000015 ! nodulation
+relationship: variable_of CO_336:0000341 ! nodulation observation
+relationship: variable_of CO_336:0000342 ! 0 or 1 nodulation scale
+
+[Term]
+id: CO_336:0000344
+name: 1 or 2 shape scale
+namespace: SoybeanScale
+is_a: CO_336:Nominal ! Nominal
+relationship: scale_of CO_336:0000220 ! leaf shape method
+
+[Term]
+id: CO_336:0000344:1
+name: broad
+namespace: SoybeanScale
+synonym: "1" EXACT []
+is_a: CO_336:0000344 ! 1 or 2 shape scale
+
+[Term]
+id: CO_336:0000344:2
+name: narrow
+namespace: SoybeanScale
+synonym: "2" EXACT []
+is_a: CO_336:0000344 ! 1 or 2 shape scale
+
+[Term]
+id: CO_336:0000345
+name: LfletShp_Comp_1to4
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000219 ! leaflet shape
+relationship: variable_of CO_336:0000220 ! leaf shape method
+relationship: variable_of CO_336:0000344 ! 1 or 2 shape scale
+
+[Term]
+id: CO_336:0000346
+name: pubescence form on leaflet
+namespace: SoybeanTrait
+def: "Orientation of pubescence on the surface of the leaflet" []
+synonym: "PUBFORM" EXACT []
+synonym: "Trichome form" EXACT []
+is_a: CO_336:Morphological_traits ! Morphological_traits
+
+[Term]
+id: CO_336:0000347
+name: pubescence form observation
+namespace: SoybeanMethod
+def: "Observation of the type of pubescence" []
+is_a: CO_336:Estimation ! Estimation
+relationship: method_of CO_336:0000346 ! pubescence form on leaflet
+
+[Term]
+id: CO_336:0000348
+name: 1 to 3 shape scale
+namespace: SoybeanScale
+is_a: CO_336:Nominal ! Nominal
+relationship: scale_of CO_336:0000347 ! pubescence form observation
+
+[Term]
+id: CO_336:0000348:1
+name: Erect
+namespace: SoybeanScale
+synonym: "1" EXACT []
+is_a: CO_336:0000348 ! 1 to 3 shape scale
+
+[Term]
+id: CO_336:0000348:2
+name: semi-appressed
+namespace: SoybeanScale
+synonym: "2" EXACT []
+is_a: CO_336:0000348 ! 1 to 3 shape scale
+
+[Term]
+id: CO_336:0000348:3
+name: appressed
+namespace: SoybeanScale
+synonym: "3" EXACT []
+is_a: CO_336:0000348 ! 1 to 3 shape scale
+
+[Term]
+id: CO_336:0000349
+name: PubescFormLf_Est_1to3
+namespace: SoybeanVariable
+is_a: CO_336:Variable ! Variable
+relationship: variable_of CO_336:0000346 ! pubescence form on leaflet
+relationship: variable_of CO_336:0000347 ! pubescence form observation
+relationship: variable_of CO_336:0000348 ! 1 to 3 shape scale
+
+[Term]
+id: CO_336:Abiotic_stress_traits
+name: Abiotic_stress_traits
+namespace: SoybeanTrait
+is_a: CO_336:Trait ! Trait
+
+[Term]
+id: CO_336:Agronomical_traits
+name: Agronomical_traits
+namespace: SoybeanTrait
+is_a: CO_336:Trait ! Trait
+
+[Term]
+id: CO_336:Biochemical_traits
+name: Biochemical_traits
+namespace: SoybeanTrait
+is_a: CO_336:Trait ! Trait
+
+[Term]
+id: CO_336:Biotic_stress_traits
+name: Biotic_stress_traits
+namespace: SoybeanTrait
+is_a: CO_336:Trait ! Trait
+
+[Term]
+id: CO_336:Computation
+name: Computation
+namespace: SoybeanMethod
+is_a: CO_336:Method ! Method
+
+[Term]
+id: CO_336:Counting
+name: Counting
+namespace: SoybeanMethod
+is_a: CO_336:Method ! Method
+
+[Term]
+id: CO_336:Date
+name: Date
+namespace: SoybeanScale
+is_a: CO_336:Scale ! Scale
+
+[Term]
+id: CO_336:Duration
+name: Duration
+namespace: SoybeanScale
+is_a: CO_336:Scale ! Scale
+
+[Term]
+id: CO_336:Estimation
+name: Estimation
+namespace: SoybeanMethod
+is_a: CO_336:Method ! Method
+
+[Term]
+id: CO_336:Measurement
+name: Measurement
+namespace: SoybeanMethod
+is_a: CO_336:Method ! Method
+
+[Term]
+id: CO_336:Method
+name: Method
+namespace: SoybeanMethod
+
+[Term]
+id: CO_336:Morphological_traits
+name: Morphological_traits
+namespace: SoybeanTrait
+is_a: CO_336:Trait ! Trait
+
+[Term]
+id: CO_336:Nominal
+name: Nominal
+namespace: SoybeanScale
+is_a: CO_336:Scale ! Scale
+
+[Term]
+id: CO_336:Numerical
+name: Numerical
+namespace: SoybeanScale
+is_a: CO_336:Scale ! Scale
+
+[Term]
+id: CO_336:Ordinal
+name: Ordinal
+namespace: SoybeanScale
+is_a: CO_336:Scale ! Scale
+
+[Term]
+id: CO_336:Phenological_traits
+name: Phenological_traits
+namespace: SoybeanTrait
+is_a: CO_336:Trait ! Trait
+
+[Term]
+id: CO_336:Scale
+name: Scale
+namespace: SoybeanScale
+
+[Term]
+id: CO_336:Trait
+name: Trait
+namespace: SoybeanTrait
+
+[Term]
+id: CO_336:Undefined
+name: Undefined
+namespace: SoybeanScale
+is_a: CO_336:Scale ! Scale
+
+[Term]
+id: CO_336:Variable
+name: Variable
+namespace: SoybeanVariable
+
+[Typedef]
+id: method_of
+name: method_of
+
+[Typedef]
+id: scale_of
+name: scale_of
+
+[Typedef]
+id: variable_of
+name: variable_of
+
