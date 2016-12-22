@@ -343,6 +343,8 @@ namespace: SoybeanTrait
 def: "Capacity of a seed to emerge when planted after being stored during a given amount of time." [CO:curators]
 synonym: "STORABILITY" EXACT []
 synonym: "Storage" EXACT []
+
+[Term]
 id: CO_336:0000046
 name: soybean germination in storage count
 namespace: SoybeanMethod
