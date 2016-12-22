@@ -257,6 +257,8 @@ name: soybean plants harvested
 namespace: SoybeanTrait
 def: "The number of plants harvested contributing to the yield" [CO:curators]
 synonym: "PTHARV" EXACT []
+
+[Term]
 id: CO_336:0000034
 name: soybean number of plants harvested in the net plot, excluding the borders
 namespace: SoybeanMethod
