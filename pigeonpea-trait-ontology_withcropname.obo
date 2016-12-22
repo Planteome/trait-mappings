@@ -314,6 +314,8 @@ name: pigeonpea visual selection scores at podding stage
 namespace: PigeonpeaTrait
 def: "Visual selection scores recorded at the time of podding" [CO:curators]
 synonym: "VSP" EXACT []
+
+[Term]
 id: CO_341:0000049
 name: pigeonpea visual selection scores at podding stage - method
 namespace: PigeonpeaMethod
@@ -332,6 +334,8 @@ name: pigeonpea visual selection scores at maturity stage
 namespace: PigeonpeaTrait
 def: "Visual selection scores recorded at the time of maturity" [CO:curators]
 synonym: "VSM" EXACT []
+
+[Term]
 id: CO_341:0000052
 name: pigeonpea visual selection scores at maturity stage - method
 namespace: PigeonpeaMethod
