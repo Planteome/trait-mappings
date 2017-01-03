@@ -656,7 +656,7 @@ id: CO_336:0000088
 name: soybean counting days of seed fill
 namespace: SoybeanMethod
 def: "Count number of days from full pod(R4) to full seed(R6) stages of growth" [CO:curators]
-relationship: method_of CO_336:0000087 ! seed oil/protein content
+relationship: method_of CO_336:0000087 ! seed filling period
 
 [Term]
 id: CO_336:0000090
@@ -1957,9 +1957,9 @@ id: CO_336:0000279
 name: soybean sdfillt_count_day
 namespace: SoybeanVariable
 relationship: variable_of CO_336:0000002 ! day
-relationship: variable_of CO_336:0000087 ! Seed filling period
+relationship: variable_of CO_336:0000087 ! seed filling period
 relationship: variable_of CO_336:0000088 ! counting days of seed fill
-is_a: CO_336:0000087 ! Seed filling period
+is_a: CO_336:0000087 ! seed filling period
 
 [Term]
 id: CO_336:0000280
