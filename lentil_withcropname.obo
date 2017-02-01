@@ -1,11 +1,11 @@
 format-version: 1.2
 auto-generated-by: java
-default-namespace: LentilTrait
+default-namespace: CO_339_lentil
 ontology: co_339
 
 [Term]
 id: CO_339:0000000
-name: lentil anthracnose resistance
+name: lentil anthracnose resistance trait
 def: "Degree of tolerance to Anthracnose disease. Causative organism: Colletotrichum truncatum. Symptoms develop when plants start to flower. Necrotic lesions can be found on the lower leaflets and cause premature leaf senescence. Symptoms can also be found on stem starting from the base to the top of the plant" [CO:curators]
 synonym: "ANTR" EXACT []
 is_a: TO:0000439
@@ -24,7 +24,7 @@ relationship: scale_of: CO_339:0000001 ! Scoring method for Anthracnose resistan
 
 [Term]
 id: CO_339:0000003
-name: lentil aphid resistance
+name: lentil aphid resistance trait
 def: "Degree of tolerance to Aphids. Acrythosiphon pisum. Suck sap from tender parts of plants and it is the vector of viral diseases." [CO:curators]
 synonym: "APHR" EXACT []
 is_a: TO:0006067
@@ -38,7 +38,7 @@ relationship: method_of CO_339:0000003 ! Aphid resistance
 
 [Term]
 id: CO_339:0000005
-name: lentil percentage
+name: lentil percentage scale
 relationship: scale_of CO_339:0000004 ! Screening method for Aphid Resitance
 relationship: scale_of CO_339:0000025 ! Screening method for Bruchid Resistance
 relationship: scale_of CO_339:0000043 ! Straw protein content analysis - Method
@@ -48,7 +48,7 @@ relationship: scale_of CO_339:0000175 ! Screening method for Stem weevil resista
 
 [Term]
 id: CO_339:0000006
-name: lentil lentil ascochyta blight resistance
+name: lentil ascochyta blight resistance trait
 def: "Degree of resistance to Ascochyta blight . Causative agent: Ascochyta lentis (Didymella lentis). The pathogen infects leaves, stems, petioles, pods and seeds.  On leaves, young lesions with small necrotic spots of 3-5mm diameter can be found. Reddish brown to black pycnidia from in the middle of the mature lesions.  In severe infections, lesions gridle the stem, kill the epidermal and cortical cells and lead to stem breakage. Pods can also be infected and results seed infection. Heavily infected seeds look shrivelled and discoloured with a whitish mycelium and pycnidia." [CO:curators]
 synonym: "ABR" EXACT []
 is_a: TO:0000439
@@ -67,7 +67,7 @@ relationship: scale_of CO_339:0000007 ! Scoring method for Ascochyta blight Resi
 
 [Term]
 id: CO_339:0000009
-name: lentil lentil biological yield per plant
+name: lentil biological yield per plant trait
 def: "The total biological yield of a plant (seed yield + straw yield)" [CO:curators]
 synonym: "BYPL" EXACT []
 is_a: TO:0000457
@@ -81,12 +81,12 @@ relationship: method_of CO_339:0000009 ! Biological yield per plant
 
 [Term]
 id: CO_339:0000011
-name: lentil g/plant
+name: lentil g/plant scale
 relationship: scale_of CO_339:0000010 ! Method of measuring BYPL
 
 [Term]
 id: CO_339:0000012
-name: lentil biological yield per area
+name: lentil biological yield per area trait
 def: "The total biological yield (seed yield + straw yield) of plants in a plot" [CO:curators]
 synonym: "BYPO" EXACT []
 is_a: TO:0000458
@@ -100,12 +100,12 @@ relationship: method_of CO_339:0000012 ! Biological yield per area
 
 [Term]
 id: CO_339:0000014
-name: lentil g/plot
+name: lentil g/plot scale
 relationship: scale_of CO_339:0000013 ! Method of measuring BYPO
 
 [Term]
 id: CO_339:0000015
-name: lentil boron deficiency
+name: lentil boron deficiency trait
 def: "Deficiency of Boron in the plant" [CO:curators]
 synonym: "BORD" EXACT []
 is_a: TO:0000018
@@ -124,7 +124,7 @@ relationship: scale_of CO_339:0000016 ! Screening method for Boron Deficiency
 
 [Term]
 id: CO_339:0000018
-name: lentil boron toxicity tolerance
+name: lentil boron toxicity tolerance trait
 def: "Degree of tolerance to boron toxicity" [CO:curators]
 synonym: "BORT" EXACT []
 is_a: TO:0000018
@@ -143,7 +143,7 @@ relationship: scale_of CO_339:0000019 ! Screening method for Boron toxicity tole
 
 [Term]
 id: CO_339:0000021
-name: lentil branching pattern
+name: lentil branching pattern trait
 def: "A qualitative trait describing the branching pattern of plant" [CO:curators]
 synonym: "BRPT" EXACT []
 is_a: TO:0002639
@@ -162,7 +162,7 @@ relationship: scale_of CO_339:0000022 ! Branching pattern - method
 
 [Term]
 id: CO_339:0000024
-name: lentil bruchid resistance
+name: lentil bruchid resistance trait
 def: "Degree of tolerance to Bruchids.Callosobruchus analis. Damage flowers, pods and seeds" [CO:curators]
 synonym: "BRUR" EXACT []
 is_a: TO:0000261
@@ -176,7 +176,7 @@ relationship: method_of CO_339:0000024 ! Bruchid resistance
 
 [Term]
 id: CO_339:0000027
-name: lentil canopy width
+name: lentil canopy width trait
 def: "Width of the canopy" [CO:curators]
 synonym: "CANW" EXACT []
 is_a: TO:0006062
@@ -190,7 +190,7 @@ relationship: method_of CO_339:0000027 ! Canopy width
 
 [Term]
 id: CO_339:0000029
-name: lentil cm
+name: lentil cm scale
 relationship: scale_of CO_339:0000028 ! Canopy Width - method
 relationship: scale_of CO_339:0000061 ! Early growth vigour - Method
 relationship: scale_of CO_339:0000079 ! Height of the lowest pod - Method
@@ -200,7 +200,7 @@ relationship: scale_of CO_339:0000196 ! Root length measurement - Method
 
 [Term]
 id: CO_339:0000030
-name: lentil cold tolerance
+name: lentil cold tolerance trait
 def: "Tolerance to damage caused to aerial plant parts by cold stress." [CO:curators]
 synonym: "CTOL" EXACT []
 is_a: TO:0000303
@@ -219,7 +219,7 @@ relationship: scale_of CO_339:0000031 ! Screening method for Cold Tolerance
 
 [Term]
 id: CO_339:0000033
-name: lentil collar rot resistance
+name: lentil collar rot resistance trait
 def: "Degree of tolerance to collar rot. Causative agent: Sclerotium rolfsii." [CO:curators]
 synonym: "COLRR" EXACT []
 is_a: TO:0000439
@@ -238,7 +238,7 @@ relationship: scale_of CO_339:0000034 ! Screening method for Colar resistance
 
 [Term]
 id: CO_339:0000036
-name: lentil cooking time
+name: lentil cooking time trait
 def: "Time needed for lentil sample to cook" [CO:curators]
 synonym: "CKT" EXACT []
 is_a: TO:0000667
@@ -252,12 +252,12 @@ relationship: method_of CO_339:0000036 ! Cooking time
 
 [Term]
 id: CO_339:0000038
-name: lentil minutes
+name: lentil minutes scale
 relationship: scale_of CO_339:0000037 ! Cooking time - Method
 
 [Term]
 id: CO_339:0000039
-name: lentil cotyledon colour
+name: lentil cotyledon colour trait
 def: "A trait describing the colour of cotyledon" [CO:curators]
 synonym: "CTLC" EXACT []
 is_a: TO:0000980
@@ -276,7 +276,7 @@ relationship: scale_of CO_339:0000040 ! Cotyledon Colour - Method
 
 [Term]
 id: CO_339:0000042
-name: lentil straw protein content
+name: lentil straw protein content trait
 def: "The amount of protein content in the straw" [CO:curators]
 synonym: "STRP" EXACT []
 is_a: TO:0000598
@@ -290,7 +290,7 @@ relationship: method_of CO_339:0000042 ! Straw protein content
 
 [Term]
 id: CO_339:0000045
-name: lentil days to 50% flowering
+name: lentil days to 50% flowering trait
 def: "Number of days from sowing to when 50% of the plants have started flowering" [CO:curators]
 synonym: "DFTFL" EXACT []
 is_a: TO:0000344
@@ -305,7 +305,7 @@ relationship: method_of CO_339:0000195 ! Time to flowering
 
 [Term]
 id: CO_339:0000047
-name: lentil days
+name: lentil days scale
 relationship: scale_of CO_339:0000046 ! DFTFL calculation method
 relationship: scale_of CO_339:0000046 ! DFTFL calculation method
 relationship: scale_of CO_339:0000049 ! DFFL calculation method
@@ -315,7 +315,7 @@ relationship: scale_of CO_339:0000055 ! Time to maturity - method
 
 [Term]
 id: CO_339:0000048
-name: lentil days to first flowering
+name: lentil days to first flowering trait
 def: "Number of days from sowing to when first flower started to occur" [CO:curators]
 synonym: "DFFL" EXACT []
 is_a: TO:0000344
@@ -330,7 +330,7 @@ relationship: method_of CO_339:0000195 ! Time to flowering
 
 [Term]
 id: CO_339:0000051
-name: lentil time to first pod formation
+name: lentil time to first pod formation trait
 def: "Number of days from sowing to formation of first pod" [CO:curators]
 synonym: "DFPD" EXACT []
 is_a: TO:0002640
@@ -344,7 +344,7 @@ relationship: method_of CO_339:0000051 ! Time to first pod formation
 
 [Term]
 id: CO_339:0000054
-name: lentil time to maturity
+name: lentil time to maturity trait
 def: "A quantitative trait describing the physiological maturity of plant" [CO:curators]
 synonym: "DM" EXACT []
 is_a: TO:0000469
@@ -358,7 +358,7 @@ relationship: method_of CO_339:0000054 ! Time to maturity
 
 [Term]
 id: CO_339:0000057
-name: lentil drought tolerance
+name: lentil drought tolerance trait
 def: "Degree of tolerance to drought stress" [CO:curators]
 synonym: "DRTL" EXACT []
 is_a: TO:0000276
@@ -372,12 +372,12 @@ relationship: method_of CO_339:0000057 ! Drought tolerance
 
 [Term]
 id: CO_339:0000059
-name: lentil index
+name: lentil index scale
 relationship: scale_of CO_339:0000058 ! Screening method for Drought tolerance
 
 [Term]
 id: CO_339:0000060
-name: lentil early growth vigour
+name: lentil early growth vigour trait
 def: "A quantitative traits desrcibing the growth of seedlings" [CO:curators]
 synonym: "EGV" EXACT []
 is_a: TO:0000280
@@ -391,7 +391,7 @@ relationship: method_of CO_339:0000060 ! Early growth vigour
 
 [Term]
 id: CO_339:0000063
-name: lentil fusarium wilt resistance
+name: lentil fusarium wilt resistance trait
 def: "Degree of tolerance to Fusarium wilt disease.Causative organism: Fusarium oxysporum f. sp. lentis. Typical symptoms of wilt are first seen as sudden drooping of leaflets starting at the plant top and progressing downward. Leaflets close and do not shed prematurely, turning dull green . Finally the whole plant wilts . Wilting may be unilateral and confined to  individual branches. When wilt appears at flowering no seeds are produced." [CO:curators]
 synonym: "FWR" EXACT []
 is_a: TO:0000439
@@ -410,7 +410,7 @@ relationship: scale_of CO_339:0000064 ! Screening method for Fusarium wilt resis
 
 [Term]
 id: CO_339:0000066
-name: lentil ground colour of seed testa
+name: lentil ground colour of seed testa trait
 def: "A qualitative trait indicating seed coat color." [CO:curators]
 synonym: "CSTA" EXACT []
 is_a: TO:0000190
@@ -429,7 +429,7 @@ relationship: scale_of CO_339:0000067 ! Seed coat color - Method
 
 [Term]
 id: CO_339:0000069
-name: lentil growth habit
+name: lentil growth habit trait
 def: "A qualitative description of the growth habit of the plant." [CO:curators]
 synonym: "GRH" EXACT []
 synonym: "Plant growth habit" EXACT []
@@ -449,7 +449,7 @@ relationship: scale_of CO_339:0000070 ! Growth Habit - Method
 
 [Term]
 id: CO_339:0000072
-name: lentil harvest index
+name: lentil harvest index trait
 def: "A measurement of crop yield, the weight of the harvested product as a percentage of the total plant weight of a crop" [CO:curators]
 synonym: "HI" EXACT []
 is_a: TO:0000128
@@ -463,14 +463,14 @@ relationship: method_of CO_339:0000072 ! Harvest Index
 
 [Term]
 id: CO_339:0000074
-name: lentil ratio
+name: lentil ratio scale
 relationship: scale_of CO_339:0000073 ! Harvest Index - Method
 relationship: scale_of CO_339:0000190 ! Screening method for Water logging tolerance
 relationship: scale_of CO_339:0000193 ! Screening method for Winter survival
 
 [Term]
 id: CO_339:0000075
-name: lentil heat tolerance
+name: lentil heat tolerance trait
 def: "Degree of tolerance to high temperature" [CO:curators]
 synonym: "HTOL" EXACT []
 is_a: TO:0000259
@@ -484,12 +484,12 @@ relationship: method_of CO_339:0000075 ! Heat tolerance
 
 [Term]
 id: CO_339:0000077
-name: lentil number of pods
+name: lentil number of pods scale
 relationship: scale_of CO_339:0000076 ! Screening method for Heat tolerance
 
 [Term]
 id: CO_339:0000078
-name: lentil height of the lowest pod
+name: lentil height of the lowest pod trait
 def: "Height above ground of the lowest pod" [CO:curators]
 synonym: "HLPD" EXACT []
 is_a: TO:1000011
@@ -503,7 +503,7 @@ relationship: method_of CO_339:0000078 ! Height of the lowest pod
 
 [Term]
 id: CO_339:0000081
-name: lentil herbicide tolerance
+name: lentil herbicide tolerance trait
 def: "The plant ability to resist the toxic effects of herbicides." [CO:curators]
 synonym: "HERBT" EXACT []
 is_a: TO:0000058
@@ -522,7 +522,7 @@ relationship: scale_of CO_339:0000082 ! Screening method for Herbicide Tolerance
 
 [Term]
 id: CO_339:0000084
-name: lentil seed weight
+name: lentil seed weight trait
 def: "Weight of seeds" [CO:curators]
 synonym: "HSW" EXACT []
 is_a: TO:0000181
@@ -536,14 +536,14 @@ relationship: method_of CO_339:0000084 ! Seed weight
 
 [Term]
 id: CO_339:0000086
-name: lentil g
+name: lentil g scale
 relationship: scale_of CO_339:0000085 ! 100 seed weight - Method
 relationship: scale_of CO_339:0000136 ! Pod Weight - Method
 relationship: scale_of CO_339:0000166 ! SYPL measurment method
 
 [Term]
 id: CO_339:0000087
-name: lentil iron (fe) deficiency
+name: lentil iron (fe) deficiency trait
 def: "Deficiency of Iron (Fe) in the plant measured at flowering stage" [CO:curators]
 synonym: "IRND" EXACT []
 is_a: TO:0006049
@@ -562,7 +562,7 @@ relationship: scale_of CO_339:0000088 ! Screening method for Iron Deficency
 
 [Term]
 id: CO_339:0000090
-name: lentil lodging susceptibility
+name: lentil lodging susceptibility trait
 def: "A trait describing status of susceptibilty of genotypes to lodging" [CO:curators]
 synonym: "LOSP" EXACT []
 is_a: TO:0000068
@@ -581,7 +581,7 @@ relationship: scale_of CO_339:0000091 ! Lodgind susceptibility assessment - Meth
 
 [Term]
 id: CO_339:0000093
-name: lentil micro nutrient content
+name: lentil micro nutrient content trait
 def: "The amount of micro-nutrient including Fe and Zn in the seed" [CO:curators]
 synonym: "Micro-nutrient content in the grain" EXACT []
 synonym: "MNCG" EXACT []
@@ -596,7 +596,7 @@ relationship: method_of CO_339:0000093 ! Micro nutrient content
 
 [Term]
 id: CO_339:0000096
-name: lentil number of pods per plant
+name: lentil number of pods per plant trait
 def: "A trait indicating total number of pods per plant" [CO:curators]
 synonym: "NPDPL" EXACT []
 is_a: TO:0000871
@@ -610,13 +610,13 @@ relationship: method_of CO_339:0000096 ! Number of pods per plant
 
 [Term]
 id: CO_339:0000098
-name: lentil pod
+name: lentil pod scale
 relationship: scale_of CO_339:0000097 ! Number of Pod per Plant -  method
 relationship: scale_of CO_339:0000103 ! Number of pod per peduncle method
 
 [Term]
 id: CO_339:0000099
-name: lentil number of peduncles per plant
+name: lentil number of peduncles per plant trait
 def: "A trait indicating total number of peduncles per plant" [CO:curators]
 synonym: "NPPP" EXACT []
 is_a: TO:0000582
@@ -630,12 +630,12 @@ relationship: method_of CO_339:0000099 ! Number of peduncles per plant
 
 [Term]
 id: CO_339:0000101
-name: lentil peduncle
+name: lentil peduncle scale
 relationship: scale_of CO_339:0000100 ! Number of peduncle per plant - Method
 
 [Term]
 id: CO_339:0000102
-name: lentil number of pods per peduncle
+name: lentil number of pods per peduncle trait
 def: "A trait indicating number of pods per peduncle" [CO:curators]
 synonym: "NPPE" EXACT []
 is_a: TO:0000894
@@ -649,7 +649,7 @@ relationship: method_of CO_339:0000102 ! Number of pods per peduncle
 
 [Term]
 id: CO_339:0000105
-name: lentil number of seeds per pod
+name: lentil number of seeds per pod trait
 def: "A trait indicating number of seeds per pod" [CO:curators]
 synonym: "NSPP" EXACT []
 is_a: TO:0000445
@@ -663,12 +663,12 @@ relationship: method_of CO_339:0000105 ! Number of seeds per pod
 
 [Term]
 id: CO_339:0000107
-name: lentil seed
+name: lentil seed scale
 relationship: scale_of CO_339:0000106 ! Number of seed per pod - method
 
 [Term]
 id: CO_339:0000108
-name: lentil orobanche resistance
+name: lentil orobanche resistance trait
 def: "Plant resistance to Orobanche. Casative agent: Orobanche crenata." [CO:curators]
 synonym: "OROR" EXACT []
 is_a: TO:0000444
@@ -682,12 +682,12 @@ relationship: method_of CO_339:0000108 ! Orobanche resistance
 
 [Term]
 id: CO_339:0000110
-name: lentil orobranch/lentil plant
+name: lentil orobranch/lentil plant scale
 relationship: scale_of CO_339:0000109 ! Screening method for Orobanche Resistance
 
 [Term]
 id: CO_339:0000111
-name: lentil pattern of seed testa
+name: lentil pattern of seed testa trait
 def: "A qualitative trait describing the pattern of seed testa" [CO:curators]
 synonym: "PAST" EXACT []
 is_a: TO:0000904
@@ -706,7 +706,7 @@ relationship: scale_of CO_339:0000112 ! Pattern of seed testa - method
 
 [Term]
 id: CO_339:0000114
-name: lentil plant height
+name: lentil plant height trait
 def: "Height of the plant" [CO:curators]
 synonym: "PLHGT" EXACT []
 is_a: TO:0000207
@@ -720,7 +720,7 @@ relationship: method_of CO_339:0000114 ! Plant height
 
 [Term]
 id: CO_339:0000117
-name: lentil plant pubescence
+name: lentil plant pubescence trait
 def: "A qualitative trait describing extent of hairiness of the shoot" [CO:curators]
 synonym: "Plant hairiness" EXACT []
 synonym: "PLPUB" EXACT []
@@ -740,7 +740,7 @@ relationship: scale_of CO_339:0000118 ! Plant pubescence - Method
 
 [Term]
 id: CO_339:0000120
-name: lentil plant structure
+name: lentil plant structure trait
 def: "A qualitative trait describing the structure and branching pattern of the plant" [CO:curators]
 synonym: "Plant artitecture" EXACT []
 synonym: "PSTR" EXACT []
@@ -760,7 +760,7 @@ relationship: scale_of CO_339:0000121 ! Plant Structure - Method
 
 [Term]
 id: CO_339:0000123
-name: lentil pod borer resistance
+name: lentil pod borer resistance trait
 def: "Degree of tolerance to podborer.Helicoverpa armigera. Damage pods and seeds" [CO:curators]
 synonym: "PBR" EXACT []
 is_a: TO:0000262
@@ -774,12 +774,12 @@ relationship: method_of CO_339:0000123 ! Pod borer resistance
 
 [Term]
 id: CO_339:0000125
-name: lentil percentage of pod damage
+name: lentil percentage of pod damage scale
 relationship: scale_of CO_339:0000124 ! Screening method for Pod borer resistance
 
 [Term]
 id: CO_339:0000126
-name: lentil pod dehiscence
+name: lentil pod dehiscence trait
 def: "Splitting of pods at maturity along its built in line of weakness in order to release seeds" [CO:curators]
 synonym: "PDEH" EXACT []
 is_a: TO:0000930
@@ -798,7 +798,7 @@ relationship: scale_of CO_339:0000127 ! Pod dehiscence - Method
 
 [Term]
 id: CO_339:0000129
-name: lentil pod filling period
+name: lentil pod filling period trait
 def: "A quantitative trait indicating the time required for pod filling" [CO:curators]
 synonym: "PFIP" EXACT []
 is_a: TO:0000933
@@ -812,12 +812,12 @@ relationship: method_of CO_339:0000129 ! Pod filling period
 
 [Term]
 id: CO_339:0000131
-name: lentil day
+name: lentil day scale
 relationship: scale_of CO_339:0000130 ! Pod filing per pod - Method
 
 [Term]
 id: CO_339:0000132
-name: lentil pod shedding
+name: lentil pod shedding trait
 def: "Dropping of pods at maturity" [CO:curators]
 synonym: "PSHD" EXACT []
 is_a: TO:0002633
@@ -836,7 +836,7 @@ relationship: scale_of CO_339:0000133 ! Pod shedding - method
 
 [Term]
 id: CO_339:0000135
-name: lentil pod weight
+name: lentil pod weight trait
 def: "Weight of pods" [CO:curators]
 synonym: "PDWT" EXACT []
 is_a: TO:0002746
@@ -850,7 +850,7 @@ relationship: method_of CO_339:0000135 ! Pod weight
 
 [Term]
 id: CO_339:0000138
-name: lentil presence of tendrils
+name: lentil presence of tendrils trait
 def: "A qualitative trait describing presence of tendrils" [CO:curators]
 synonym: "PTEN" EXACT []
 is_a: TO:0000768
@@ -869,7 +869,7 @@ relationship: scale_of CO_339:0000139 ! Presence of tendrils - Method
 
 [Term]
 id: CO_339:0000141
-name: lentil primary branches number
+name: lentil primary branches number trait
 def: "Number of basal primary branches per plant" [CO:curators]
 synonym: "BPBR" EXACT []
 synonym: "Number of basal primary branches per plant" EXACT []
@@ -884,12 +884,12 @@ relationship: method_of CO_339:0000141 ! Primary branches number
 
 [Term]
 id: CO_339:0000143
-name: lentil primary branch
+name: lentil primary branch scale
 relationship: scale_of CO_339:0000142 ! Primary Branch number - Method
 
 [Term]
 id: CO_339:0000144
-name: lentil root length
+name: lentil root length trait
 def: "Cumulative root length of a sample" [CO:curators]
 synonym: "RL" EXACT []
 is_a: TO:0000227
@@ -903,7 +903,7 @@ relationship: method_of CO_339:0000144 ! Root length
 
 [Term]
 id: CO_339:0000147
-name: lentil root length density
+name: lentil root length density trait
 def: "The length of roots present in a unit volume of soil" [CO:curators]
 synonym: "RLD" EXACT []
 is_a: TO:0000227
@@ -917,12 +917,12 @@ relationship: method_of CO_339:0000147 ! Root length density
 
 [Term]
 id: CO_339:0000149
-name: lentil cm cm-3
+name: lentil cm cm-3 scale
 relationship: scale_of CO_339:0000148 ! RLD measurement - method
 
 [Term]
 id: CO_339:0000150
-name: lentil rust resistance
+name: lentil rust resistance trait
 def: "Degree of resistance to rust disease. Causative agent : Uromyces viciae-faba. It produces lesions on stems and leaves which result leaf fall and premature plant death" [CO:curators]
 synonym: "RUSR" EXACT []
 is_a: TO:0000439
@@ -930,7 +930,7 @@ created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
 id: CO_339:0000151
-name: lentil screening method for rust resistance
+name: lentil screening method for rust resistance scale
 def: "Quantification of symptoms development in leaves and stems" [CO:curators]
 relationship: method_of CO_339:0000150 ! Rust resistance
 
@@ -941,7 +941,7 @@ relationship: scale_of CO_339:0000151 ! Screening method for Rust resistance
 
 [Term]
 id: CO_339:0000153
-name: lentil salinity tolerance
+name: lentil salinity tolerance trait
 def: "Degree of tolerance to salinity" [CO:curators]
 synonym: "SALT" EXACT []
 is_a: TO:0006001
@@ -960,7 +960,7 @@ relationship: scale_of CO_339:0000154 ! Screening method for Salinity tolerance
 
 [Term]
 id: CO_339:0000156
-name: lentil secondary branches number
+name: lentil secondary branches number trait
 def: "Number of basal secondary branches per plant" [CO:curators]
 synonym: "BSBR" EXACT []
 synonym: "Number of basal secondary branches per plant" EXACT []
@@ -975,12 +975,12 @@ relationship: method_of CO_339:0000156 ! Secondary branches number
 
 [Term]
 id: CO_339:0000158
-name: lentil secondary branch
+name: lentil secondary branch scale
 relationship: scale_of CO_339:0000157 ! Secondary Branch number - Method
 
 [Term]
 id: CO_339:0000159
-name: lentil seed diameter
+name: lentil seed diameter trait
 def: "Seed diameter" [CO:curators]
 synonym: "SDDIA" EXACT []
 is_a: TO:0000391
@@ -994,12 +994,12 @@ relationship: method_of CO_339:0000159 ! Seed diameter
 
 [Term]
 id: CO_339:0000161
-name: lentil mm
+name: lentil mm scale
 relationship: scale_of CO_339:0000160 ! Seed diameter - Method
 
 [Term]
 id: CO_339:0000162
-name: lentil grain protein content
+name: lentil grain protein content trait
 def: "Amount of protein in the seed" [CO:curators]
 synonym: "PRT" EXACT []
 is_a: TO:0000598
@@ -1013,7 +1013,7 @@ relationship: method_of CO_339:0000162 ! Grain protein content
 
 [Term]
 id: CO_339:0000165
-name: lentil seed yield per plant
+name: lentil seed yield per plant trait
 def: "Seed yield from a single plant" [CO:curators]
 synonym: "SYPL" EXACT []
 is_a: TO:0000905
@@ -1027,7 +1027,7 @@ relationship: method_of CO_339:0000165 ! Seed yield per plant
 
 [Term]
 id: CO_339:0000168
-name: lentil seed yield per area
+name: lentil seed yield per area trait
 def: "Seed yield from a plot" [CO:curators]
 synonym: "SYPO" EXACT []
 is_a: TO:0000906
@@ -1041,12 +1041,12 @@ relationship: method_of CO_339:0000168 ! Seed yield per area
 
 [Term]
 id: CO_339:0000170
-name: lentil kg/m2
+name: lentil kg/m2 scale
 relationship: scale_of CO_339:0000169 ! SYPO measurment method
 
 [Term]
 id: CO_339:0000171
-name: lentil chlorophyll content
+name: lentil chlorophyll content trait
 def: "Proportions that indicate chlorophyll density and/or leaf thickness measured through a SPAD chlorophyll meter." [CO:curators]
 synonym: "SCMR" EXACT []
 is_a: TO:0000495
@@ -1060,12 +1060,12 @@ relationship: method_of CO_339:0000171 ! Chlorophyll content
 
 [Term]
 id: CO_339:0000173
-name: lentil spad unit
+name: lentil spad unit scale
 relationship: scale_of CO_339:0000172 ! Chlorophyll content measurement method
 
 [Term]
 id: CO_339:0000174
-name: lentil stem weevil resistance
+name: lentil stem weevil resistance trait
 def: "Degree of tolerance to stem weevil (Sitona crinitus). Damage seedlings and root nodules" [CO:curators]
 synonym: "SWVR" EXACT []
 is_a: TO:0000262
@@ -1079,7 +1079,7 @@ relationship: method_of CO_339:0000174 ! Stem weevil resistance
 
 [Term]
 id: CO_339:0000177
-name: lentil stemphylium blight resistance
+name: lentil stemphylium blight resistance trait
 def: "Degree of tolerance to Stemphylium blight disease. Causative agent: Stemphylium botryosum. Small, light-beige lesions apper in the upper canopy. Leaves, pedicels, flowers and branches become necrotic resulting in a characteristic blighted appearance of lentil plants." [CO:curators]
 synonym: "SBLR" EXACT []
 is_a: TO:0000439
@@ -1098,7 +1098,7 @@ relationship: scale_of CO_339:0000178 ! Screening method for Stemphylium blight 
 
 [Term]
 id: CO_339:0000180
-name: lentil stomatal conductance
+name: lentil stomatal conductance trait
 def: "It is the measure of the rate of passage of carbon dioxide entering, or water vapour exiting through the stomata of a leaf." [CO:curators]
 synonym: "STCC" EXACT []
 is_a: TO:0000522
@@ -1112,12 +1112,12 @@ relationship: method_of CO_339:0000180 ! Stomatal conductance
 
 [Term]
 id: CO_339:0000182
-name: lentil reading of porometer
+name: lentil reading of porometer scale
 relationship: scale_of CO_339:0000181 ! Stomatal conductance measurment - Method
 
 [Term]
 id: CO_339:0000183
-name: lentil tertiary branches number
+name: lentil tertiary branches number trait
 def: "Number of tertiary branches per plant" [CO:curators]
 synonym: "Number of tertiary branches per plant" EXACT []
 synonym: "TRBR" EXACT []
@@ -1132,12 +1132,12 @@ relationship: method_of CO_339:0000183 ! Tertiary branches number
 
 [Term]
 id: CO_339:0000185
-name: lentil tertiary branch
+name: lentil tertiary branch scale
 relationship: scale_of CO_339:0000184 ! Tertiary Branch number - Method
 
 [Term]
 id: CO_339:0000186
-name: lentil type of tendril
+name: lentil type of tendril trait
 def: "A qualitative trait discriminating different types of tendrils" [CO:curators]
 synonym: "TTEN" EXACT []
 is_a: TO:0000764
@@ -1156,7 +1156,7 @@ relationship: scale_of CO_339:0000187 ! Tendrils Type - Method
 
 [Term]
 id: CO_339:0000189
-name: lentil water logging tolerance
+name: lentil water logging tolerance trait
 def: "Degree of tolerance to waterlogging condition" [CO:curators]
 synonym: "WLOT" EXACT []
 is_a: TO:0000114
@@ -1170,7 +1170,7 @@ relationship: method_of CO_339:0000189 ! Water logging tolerance
 
 [Term]
 id: CO_339:0000192
-name: lentil winter survival
+name: lentil winter survival trait
 def: "Proportion of the plants emerged prior to winter and survived through winter" [CO:curators]
 synonym: "WSUR" EXACT []
 is_a: TO:0000303
@@ -1184,7 +1184,7 @@ relationship: method_of CO_339:0000192 ! Winter survival
 
 [Term]
 id: CO_339:0000195
-name: lentil time to flowering
+name: lentil time to flowering trait
 def: "Time elapsed between sowing to flowering" [CO:curators]
 synonym: "TF" EXACT []
 is_a: TO:0000344
@@ -1198,7 +1198,7 @@ relationship: method_of CO_339:0000144 ! Root length
 
 [Term]
 id: CO_339:0000197
-name: AnthrRes_Est_1to9
+name: AnthrRes_Est_1to9 variable
 relationship: variable_of CO_339:0000000 ! Anthracnose resistance
 relationship: variable_of CO_339:0000001 ! Scoring method for Anthracnose resistance
 relationship: variable_of CO_339:0000002 ! 1 to 9 symptom scale
@@ -1206,7 +1206,7 @@ is_a: CO_339:0000000 ! Anthracnose resistance
 
 [Term]
 id: CO_339:0000198
-name: AphRes_Est_pct
+name: AphRes_Est_pct variable
 relationship: variable_of CO_339:0000003 ! Aphid resistance
 relationship: variable_of CO_339:0000004 ! Screening method for Aphid Resitance
 relationship: variable_of CO_339:0000005 ! Percentage
@@ -1214,7 +1214,7 @@ is_a: CO_339:0000003 ! Aphid resistance
 
 [Term]
 id: CO_339:0000199
-name: AscBltRes_Est_1to9
+name: AscBltRes_Est_1to9 variable
 relationship: variable_of CO_339:0000006 ! Ascochyta blight resistance
 relationship: variable_of CO_339:0000007 ! Scoring method for Ascochyta blight Resistance
 relationship: variable_of CO_339:0000008 ! 1 to 9 symptom scale
@@ -1222,7 +1222,7 @@ is_a: CO_339:0000006 ! Ascochyta blight resistance
 
 [Term]
 id: CO_339:0000200
-name: BYPL_Meas_gplnt
+name: BYPL_Meas_gplnt variable
 relationship: variable_of CO_339:0000009 ! Biological yield per plant
 relationship: variable_of CO_339:0000010 ! Method of measuring BYPL
 relationship: variable_of CO_339:0000011 ! g/plant
@@ -1230,7 +1230,7 @@ is_a: CO_339:0000009 ! Biological yield per plant
 
 [Term]
 id: CO_339:0000201
-name: BYPL_Meas_gplot
+name: BYPL_Meas_gplot variable
 relationship: variable_of CO_339:0000012 ! Biological yield per area
 relationship: variable_of CO_339:0000013 ! Method of measuring BYPO
 relationship: variable_of CO_339:0000014 ! g/plot
@@ -1238,7 +1238,7 @@ is_a: CO_339:0000012 ! Biological yield per area
 
 [Term]
 id: CO_339:0000202
-name: BDef_Est_0to9
+name: BDef_Est_0to9 variable
 relationship: variable_of CO_339:0000015 ! Boron deficiency
 relationship: variable_of CO_339:0000016 ! Screening method for Boron Deficiency
 relationship: variable_of CO_339:0000017 ! 1 to 10 percentage scale
@@ -1246,7 +1246,7 @@ is_a: CO_339:0000015 ! Boron deficiency
 
 [Term]
 id: CO_339:0000203
-name: BToxRes_Est_1to10
+name: BToxRes_Est_1to10 variable
 relationship: variable_of CO_339:0000018 ! Boron toxicity tolerance
 relationship: variable_of CO_339:0000019 ! Screening method for Boron toxicity tolerance
 relationship: variable_of CO_339:0000020 ! 1 to 10 percentage scale
@@ -1254,7 +1254,7 @@ is_a: CO_339:0000018 ! Boron toxicity tolerance
 
 [Term]
 id: CO_339:0000204
-name: BranchPat_Est_1to3
+name: BranchPat_Est_1to3 variable
 relationship: variable_of CO_339:0000021 ! Branching pattern
 relationship: variable_of CO_339:0000022 ! Branching pattern - method
 relationship: variable_of CO_339:0000023 ! 1 to 3 pattern scale
@@ -1262,7 +1262,7 @@ is_a: CO_339:0000021 ! Branching pattern
 
 [Term]
 id: CO_339:0000205
-name: BruRes_Comp_pct
+name: BruRes_Comp_pct variable
 relationship: variable_of CO_339:0000024 ! Bruchid resistance
 relationship: variable_of CO_339:0000025 ! Screening method for Bruchid Resistance
 relationship: variable_of CO_339:0000005 ! Percentage
@@ -1270,7 +1270,7 @@ is_a: CO_339:0000024 ! Bruchid resistance
 
 [Term]
 id: CO_339:0000206
-name: CanWid_Est_Cm
+name: CanWid_Est_Cm variable
 relationship: variable_of CO_339:0000027 ! Canopy width
 relationship: variable_of CO_339:0000028 ! Canopy Width - method
 relationship: variable_of CO_339:0000029 ! cm
@@ -1278,7 +1278,7 @@ is_a: CO_339:0000027 ! Canopy width
 
 [Term]
 id: CO_339:0000207
-name: CoTol_Est_1to5
+name: CoTol_Est_1to5 variable
 relationship: variable_of CO_339:0000030 ! Cold tolerance
 relationship: variable_of CO_339:0000031 ! Screening method for Cold Tolerance
 relationship: variable_of CO_339:0000032 ! 1 to 5 percentage scale
@@ -1286,7 +1286,7 @@ is_a: CO_339:0000030 ! Cold tolerance
 
 [Term]
 id: CO_339:0000208
-name: CollRotRes_Est_1to5
+name: CollRotRes_Est_1to5 variable
 relationship: variable_of CO_339:0000033 ! Collar rot resistance
 relationship: variable_of CO_339:0000034 ! Screening method for Colar resistance
 relationship: variable_of CO_339:0000035 ! 1 to 10 percentage scale
@@ -1294,7 +1294,7 @@ is_a: CO_339:0000033 ! Collar rot resistance
 
 [Term]
 id: CO_339:0000209
-name: CookT_Meas_min
+name: CookT_Meas_min variable
 relationship: variable_of CO_339:0000036 ! Cooking time
 relationship: variable_of CO_339:0000037 ! Cooking time - Method
 relationship: variable_of CO_339:0000038 ! Minutes
@@ -1302,7 +1302,7 @@ is_a: CO_339:0000036 ! Cooking time
 
 [Term]
 id: CO_339:0000210
-name: CotCol_Est_1to3
+name: CotCol_Est_1to3 variable
 relationship: variable_of CO_339:0000039 ! Cotyledon colour
 relationship: variable_of CO_339:0000040 ! Cotyledon Colour - Method
 relationship: variable_of CO_339:0000041 ! 1 to 3 colour scale
@@ -1310,7 +1310,7 @@ is_a: CO_339:0000039 ! Cotyledon colour
 
 [Term]
 id: CO_339:0000211
-name: StrProtCont_Meas_Ptc
+name: StrProtCont_Meas_Ptc variable
 relationship: variable_of CO_339:0000042 ! Straw protein content
 relationship: variable_of CO_339:0000043 ! Straw protein content analysis - Method
 relationship: variable_of CO_339:0000005 ! Percentage
@@ -1318,7 +1318,7 @@ is_a: CO_339:0000042 ! Straw protein content
 
 [Term]
 id: CO_339:0000212
-name: DFTFL_Meas_Days
+name: DFTFL_Meas_Days variable
 relationship: variable_of CO_339:0000045 ! Days to 50% flowering
 relationship: variable_of CO_339:0000046 ! DFTFL calculation method
 relationship: variable_of CO_339:0000047 ! Days
@@ -1326,7 +1326,7 @@ is_a: CO_339:0000045 ! Days to 50% flowering
 
 [Term]
 id: CO_339:0000213
-name: DFFL_Meas_Days
+name: DFFL_Meas_Days variable
 relationship: variable_of CO_339:0000048 ! Days to first flowering
 relationship: variable_of CO_339:0000049 ! DFFL calculation method
 relationship: variable_of CO_339:0000047 ! Days
@@ -1334,7 +1334,7 @@ is_a: CO_339:0000048 ! Days to first flowering
 
 [Term]
 id: CO_339:0000214
-name: TFlw_CountTo50Flow_d
+name: TFlw_CountTo50Flow_d variable
 synonym: "DFTFL, DFFL" EXACT []
 relationship: variable_of CO_339:0000195 ! Time to flowering
 relationship: variable_of CO_339:0000046 ! DFTFL calculation method
@@ -1343,7 +1343,7 @@ is_a: CO_339:0000195 ! Time to flowering
 
 [Term]
 id: CO_339:0000215
-name: TFlow_CountTo1F_d
+name: TFlow_CountTo1F_d variable
 synonym: "DFTFL, DFFL" EXACT []
 relationship: variable_of CO_339:0000195 ! Time to flowering
 relationship: variable_of CO_339:0000049 ! DFFL calculation method
@@ -1352,7 +1352,7 @@ is_a: CO_339:0000195 ! Time to flowering
 
 [Term]
 id: CO_339:0000216
-name: Tto1Pod_Count_d
+name: Tto1Pod_Count_d variable
 relationship: variable_of CO_339:0000051 ! Time to first pod formation
 relationship: variable_of CO_339:0000052 ! Time to first pod formation - method
 relationship: variable_of CO_339:0000047 ! Days
@@ -1360,7 +1360,7 @@ is_a: CO_339:0000051 ! Time to first pod formation
 
 [Term]
 id: CO_339:0000217
-name: TtoMat_Count_d
+name: TtoMat_Count_d variable
 relationship: variable_of CO_339:0000054 ! Time to maturity
 relationship: variable_of CO_339:0000055 ! Time to maturity - method
 relationship: variable_of CO_339:0000047 ! Days
@@ -1368,7 +1368,7 @@ is_a: CO_339:0000054 ! Time to maturity
 
 [Term]
 id: CO_339:0000218
-name: DrghtTol_Comp_idx
+name: DrghtTol_Comp_idx variable
 relationship: variable_of CO_339:0000057 ! Drought tolerance
 relationship: variable_of CO_339:0000058 ! Screening method for Drought tolerance
 relationship: variable_of CO_339:0000059 ! Index
@@ -1376,7 +1376,7 @@ is_a: CO_339:0000057 ! Drought tolerance
 
 [Term]
 id: CO_339:0000219
-name: GrthVig_Meas_cm
+name: GrthVig_Meas_cm variable
 relationship: variable_of CO_339:0000060 ! Early growth vigour
 relationship: variable_of CO_339:0000061 ! Early growth vigour - Method
 relationship: variable_of CO_339:0000029 ! cm
@@ -1384,7 +1384,7 @@ is_a: CO_339:0000060 ! Early growth vigour
 
 [Term]
 id: CO_339:0000220
-name: FusWiRes_Est_1to5
+name: FusWiRes_Est_1to5 variable
 relationship: variable_of CO_339:0000063 ! Fusarium wilt resistance
 relationship: variable_of CO_339:0000064 ! Screening method for Fusarium wilt resistance
 relationship: variable_of CO_339:0000065 ! 1 to 5 resistance scale
@@ -1392,7 +1392,7 @@ is_a: CO_339:0000063 ! Fusarium wilt resistance
 
 [Term]
 id: CO_339:0000221
-name: SdCol_VisClsn_1to6
+name: SdCol_VisClsn_1to6 variable
 relationship: variable_of CO_339:0000066 ! Ground colour of seed testa
 relationship: variable_of CO_339:0000067 ! Seed coat color - Method
 relationship: variable_of CO_339:0000068 ! 1 to 6 colour scale
@@ -1400,7 +1400,7 @@ is_a: CO_339:0000066 ! Ground colour of seed testa
 
 [Term]
 id: CO_339:0000222
-name: GwthHab_Est_1to5
+name: GwthHab_Est_1to5 variable
 relationship: variable_of CO_339:0000069 ! Growth habit
 relationship: variable_of CO_339:0000070 ! Growth Habit - Method
 relationship: variable_of CO_339:0000071 ! 1 to 5 habit scale
@@ -1408,7 +1408,7 @@ is_a: CO_339:0000069 ! Growth habit
 
 [Term]
 id: CO_339:0000223
-name: HarvInx_Comp_ratio
+name: HarvInx_Comp_ratio variable
 relationship: variable_of CO_339:0000072 ! Harvest Index
 relationship: variable_of CO_339:0000073 ! Harvest Index - Method
 relationship: variable_of CO_339:0000074 ! Ratio
@@ -1416,7 +1416,7 @@ is_a: CO_339:0000072 ! Harvest Index
 
 [Term]
 id: CO_339:0000224
-name: HeatTol_Cont_nbPod
+name: HeatTol_Cont_nbPod variable
 relationship: variable_of CO_339:0000075 ! Heat tolerance
 relationship: variable_of CO_339:0000076 ! Screening method for Heat tolerance
 relationship: variable_of CO_339:0000077 ! Number of pods
@@ -1424,7 +1424,7 @@ is_a: CO_339:0000075 ! Heat tolerance
 
 [Term]
 id: CO_339:0000225
-name: HghtPod_Est_cm
+name: HghtPod_Est_cm variable
 relationship: variable_of CO_339:0000078 ! Height of the lowest pod
 relationship: variable_of CO_339:0000079 ! Height of the lowest pod - Method
 relationship: variable_of CO_339:0000029 ! cm
@@ -1432,7 +1432,7 @@ is_a: CO_339:0000078 ! Height of the lowest pod
 
 [Term]
 id: CO_339:0000226
-name: HerbTol_Est_1to5
+name: HerbTol_Est_1to5 variable
 relationship: variable_of CO_339:0000081 ! Herbicide tolerance
 relationship: variable_of CO_339:0000082 ! Screening method for Herbicide Tolerance
 relationship: variable_of CO_339:0000083 ! 1 to 5 tolerance scale
@@ -1440,7 +1440,7 @@ is_a: CO_339:0000081 ! Herbicide tolerance
 
 [Term]
 id: CO_339:0000227
-name: SdWt_Comp_g
+name: SdWt_Comp_g variable
 relationship: variable_of CO_339:0000084 ! Seed weight
 relationship: variable_of CO_339:0000085 ! 100 seed weight - Method
 relationship: variable_of CO_339:0000086 ! g
@@ -1448,7 +1448,7 @@ is_a: CO_339:0000084 ! Seed weight
 
 [Term]
 id: CO_339:0000228
-name: IrDef_Est_0to8
+name: IrDef_Est_0to8 variable
 relationship: variable_of CO_339:0000087 ! Iron (Fe) deficiency
 relationship: variable_of CO_339:0000088 ! Screening method for Iron Deficency
 relationship: variable_of CO_339:0000089 ! 0 to 9 percentage scale
@@ -1456,7 +1456,7 @@ is_a: CO_339:0000087 ! Iron (Fe) deficiency
 
 [Term]
 id: CO_339:0000229
-name: LodgSuscp_Est_1to7
+name: LodgSuscp_Est_1to7 variable
 relationship: variable_of CO_339:0000090 ! Lodging susceptibility
 relationship: variable_of CO_339:0000091 ! Lodgind susceptibility assessment - Method
 relationship: variable_of CO_339:0000092 ! 1 to 7 incidence scale
@@ -1464,7 +1464,7 @@ is_a: CO_339:0000090 ! Lodging susceptibility
 
 [Term]
 id: CO_339:0000230
-name: SdMcrNutCont_Meas_Ptc
+name: SdMcrNutCont_Meas_Ptc variable
 relationship: variable_of CO_339:0000093 ! Micro nutrient content
 relationship: variable_of CO_339:0000094 ! Micro nutrient content analysis -Method
 relationship: variable_of CO_339:0000005 ! Percentage
@@ -1472,7 +1472,7 @@ is_a: CO_339:0000093 ! Micro nutrient content
 
 [Term]
 id: CO_339:0000231
-name: NbPodpPlnt_Calc_Pod
+name: NbPodpPlnt_Calc_Pod variable
 relationship: variable_of CO_339:0000096 ! Number of pods per plant
 relationship: variable_of CO_339:0000097 ! Number of Pod per Plant -  method
 relationship: variable_of CO_339:0000098 ! Pod
@@ -1480,7 +1480,7 @@ is_a: CO_339:0000096 ! Number of pods per plant
 
 [Term]
 id: CO_339:0000232
-name: NbPedpPlnt_Calc_Ped
+name: NbPedpPlnt_Calc_Ped variable
 relationship: variable_of CO_339:0000099 ! Number of peduncles per plant
 relationship: variable_of CO_339:0000100 ! Number of peduncle per plant - Method
 relationship: variable_of CO_339:0000101 ! Peduncle
@@ -1488,7 +1488,7 @@ is_a: CO_339:0000099 ! Number of peduncles per plant
 
 [Term]
 id: CO_339:0000233
-name: NbPodpPed_Calc_Pod
+name: NbPodpPed_Calc_Pod variable
 relationship: variable_of CO_339:0000102 ! Number of pods per peduncle
 relationship: variable_of CO_339:0000103 ! Number of pod per peduncle method
 relationship: variable_of CO_339:0000098 ! Pod
@@ -1496,7 +1496,7 @@ is_a: CO_339:0000102 ! Number of pods per peduncle
 
 [Term]
 id: CO_339:0000234
-name: NbSdpPod_Calc_Sd
+name: NbSdpPod_Calc_Sd variable
 relationship: variable_of CO_339:0000105 ! Number of seeds per pod
 relationship: variable_of CO_339:0000106 ! Number of seed per pod - method
 relationship: variable_of CO_339:0000107 ! Seed
@@ -1504,7 +1504,7 @@ is_a: CO_339:0000105 ! Number of seeds per pod
 
 [Term]
 id: CO_339:0000235
-name: OroRes_Comp_oroPlnt
+name: OroRes_Comp_oroPlnt variable
 relationship: variable_of CO_339:0000108 ! Orobanche resistance
 relationship: variable_of CO_339:0000109 ! Screening method for Orobanche Resistance
 relationship: variable_of CO_339:0000110 ! orobranch/lentil plant
@@ -1512,7 +1512,7 @@ is_a: CO_339:0000108 ! Orobanche resistance
 
 [Term]
 id: CO_339:0000236
-name: TesPat_Est_1to5
+name: TesPat_Est_1to5 variable
 relationship: variable_of CO_339:0000111 ! Pattern of seed testa
 relationship: variable_of CO_339:0000112 ! Pattern of seed testa - method
 relationship: variable_of CO_339:0000113 ! 1 to 5 pattern scale
@@ -1520,7 +1520,7 @@ is_a: CO_339:0000111 ! Pattern of seed testa
 
 [Term]
 id: CO_339:0000237
-name: PlntH_ToLeafMeas_cm
+name: PlntH_ToLeafMeas_cm variable
 relationship: variable_of CO_339:0000114 ! Plant height
 relationship: variable_of CO_339:0000029 ! cm
 relationship: variable_of CO_339:0000115 ! Plant height highest leaf - Method
@@ -1528,7 +1528,7 @@ is_a: CO_339:0000114 ! Plant height
 
 [Term]
 id: CO_339:0000238
-name: PlntPub_Est_1to3
+name: PlntPub_Est_1to3 variable
 relationship: variable_of CO_339:0000117 ! Plant pubescence
 relationship: variable_of CO_339:0000118 ! Plant pubescence - Method
 relationship: variable_of CO_339:0000119 ! 1 to 3 extent scale
@@ -1536,7 +1536,7 @@ is_a: CO_339:0000117 ! Plant pubescence
 
 [Term]
 id: CO_339:0000239
-name: PlntArch_Est_1to5
+name: PlntArch_Est_1to5 variable
 relationship: variable_of CO_339:0000120 ! Plant structure
 relationship: variable_of CO_339:0000121 ! Plant Structure - Method
 relationship: variable_of CO_339:0000122 ! 1 to 5 structure scale
@@ -1544,7 +1544,7 @@ is_a: CO_339:0000120 ! Plant structure
 
 [Term]
 id: CO_339:0000240
-name: PodBrRes_Comp_perc
+name: PodBrRes_Comp_perc variable
 relationship: variable_of CO_339:0000123 ! Pod borer resistance
 relationship: variable_of CO_339:0000124 ! Screening method for Pod borer resistance
 relationship: variable_of CO_339:0000125 ! percentage of pod damage
@@ -1552,7 +1552,7 @@ is_a: CO_339:0000123 ! Pod borer resistance
 
 [Term]
 id: CO_339:0000241
-name: PodDhsce_Est_1to9
+name: PodDhsce_Est_1to9 variable
 relationship: variable_of CO_339:0000126 ! Pod dehiscence
 relationship: variable_of CO_339:0000127 ! Pod dehiscence - Method
 relationship: variable_of CO_339:0000128 ! 1 to 9 intensity scale
@@ -1560,7 +1560,7 @@ is_a: CO_339:0000126 ! Pod dehiscence
 
 [Term]
 id: CO_339:0000242
-name: PodFillPerd_Count_Day
+name: PodFillPerd_Count_Day variable
 relationship: variable_of CO_339:0000129 ! Pod filling period
 relationship: variable_of CO_339:0000130 ! Pod filing per pod - Method
 relationship: variable_of CO_339:0000131 ! day
@@ -1568,7 +1568,7 @@ is_a: CO_339:0000129 ! Pod filling period
 
 [Term]
 id: CO_339:0000243
-name: PodShg_Est_1to9
+name: PodShg_Est_1to9 variable
 relationship: variable_of CO_339:0000132 ! Pod shedding
 relationship: variable_of CO_339:0000133 ! Pod shedding - method
 relationship: variable_of CO_339:0000134 ! 1 to 9 intensity scale
@@ -1576,7 +1576,7 @@ is_a: CO_339:0000132 ! Pod shedding
 
 [Term]
 id: CO_339:0000244
-name: PodWght_Calc_g
+name: PodWght_Calc_g variable
 relationship: variable_of CO_339:0000135 ! Pod weight
 relationship: variable_of CO_339:0000136 ! Pod Weight - Method
 relationship: variable_of CO_339:0000086 ! g
@@ -1584,7 +1584,7 @@ is_a: CO_339:0000135 ! Pod weight
 
 [Term]
 id: CO_339:0000245
-name: PrnscTan_Est_1to3
+name: PrnscTan_Est_1to3 variable
 relationship: variable_of CO_339:0000138 ! Presence of Tendrils
 relationship: variable_of CO_339:0000139 ! Presence of tendrils - Method
 relationship: variable_of CO_339:0000140 ! 1 to 3 presence scale
@@ -1592,7 +1592,7 @@ is_a: CO_339:0000138 ! Presence of Tendrils
 
 [Term]
 id: CO_339:0000246
-name: PrimBrchNb_Calc_PrimBrch
+name: PrimBrchNb_Calc_PrimBrch variable
 relationship: variable_of CO_339:0000141 ! Primary branches number
 relationship: variable_of CO_339:0000142 ! Primary Branch number - Method
 relationship: variable_of CO_339:0000143 ! Primary branch
@@ -1600,7 +1600,7 @@ is_a: CO_339:0000141 ! Primary branches number
 
 [Term]
 id: CO_339:0000247
-name: RtLng_WinMeas_cm
+name: RtLng_WinMeas_cm variable
 relationship: variable_of CO_339:0000144 ! Root length
 relationship: variable_of CO_339:0000145 ! Root length by Winrhizo - Method
 relationship: variable_of CO_339:0000029 ! cm
@@ -1608,7 +1608,7 @@ is_a: CO_339:0000144 ! Root length
 
 [Term]
 id: CO_339:0000248
-name: RtLng_RulMeas_cm
+name: RtLng_RulMeas_cm variable
 relationship: variable_of CO_339:0000144 ! Root length
 relationship: variable_of CO_339:0000196 ! Root length measurement - Method
 relationship: variable_of CO_339:0000029 ! cm
@@ -1616,7 +1616,7 @@ is_a: CO_339:0000144 ! Root length
 
 [Term]
 id: CO_339:0000249
-name: RtLngDen_Comp_cmcm3
+name: RtLngDen_Comp_cmcm3 variable
 relationship: variable_of CO_339:0000147 ! Root length density
 relationship: variable_of CO_339:0000148 ! RLD measurement - method
 relationship: variable_of CO_339:0000149 ! cm cm-3
@@ -1624,7 +1624,7 @@ is_a: CO_339:0000147 ! Root length density
 
 [Term]
 id: CO_339:0000250
-name: RustRes_Est_1to9
+name: RustRes_Est_1to9 variable
 relationship: variable_of CO_339:0000150 ! Rust resistance
 relationship: variable_of CO_339:0000151 ! Screening method for Rust resistance
 relationship: variable_of CO_339:0000152 ! 1 to 9 percentage scale
@@ -1632,7 +1632,7 @@ is_a: CO_339:0000150 ! Rust resistance
 
 [Term]
 id: CO_339:0000251
-name: SalTol_Est_1to5
+name: SalTol_Est_1to5 variable
 relationship: variable_of CO_339:0000153 ! Salinity tolerance
 relationship: variable_of CO_339:0000154 ! Screening method for Salinity tolerance
 relationship: variable_of CO_339:0000155 ! 1 to 5 suceptibility scale
@@ -1640,7 +1640,7 @@ is_a: CO_339:0000153 ! Salinity tolerance
 
 [Term]
 id: CO_339:0000252
-name: SecBrchNb_Calc_SecBrch
+name: SecBrchNb_Calc_SecBrch variable
 relationship: variable_of CO_339:0000156 ! Secondary branches number
 relationship: variable_of CO_339:0000157 ! Secondary Branch number - Method
 relationship: variable_of CO_339:0000158 ! Secondary Branch
@@ -1648,7 +1648,7 @@ is_a: CO_339:0000156 ! Secondary branches number
 
 [Term]
 id: CO_339:0000253
-name: SeedDiam_Meas_mm
+name: SeedDiam_Meas_mm variable
 relationship: variable_of CO_339:0000159 ! Seed diameter
 relationship: variable_of CO_339:0000160 ! Seed diameter - Method
 relationship: variable_of CO_339:0000161 ! mm
@@ -1656,7 +1656,7 @@ is_a: CO_339:0000159 ! Seed diameter
 
 [Term]
 id: CO_339:0000254
-name: GrPrtCent_Comp_Ptc
+name: GrPrtCent_Comp_Ptc variable
 relationship: variable_of CO_339:0000162 ! Grain protein content
 relationship: variable_of CO_339:0000163 ! Grain protein content analysis - Method
 relationship: variable_of CO_339:0000005 ! Percentage
@@ -1664,7 +1664,7 @@ is_a: CO_339:0000162 ! Grain protein content
 
 [Term]
 id: CO_339:0000255
-name: SYPL_Meas_g
+name: SYPL_Meas_g variable
 relationship: variable_of CO_339:0000165 ! Seed yield per plant
 relationship: variable_of CO_339:0000166 ! SYPL measurment method
 relationship: variable_of CO_339:0000086 ! g
@@ -1672,7 +1672,7 @@ is_a: CO_339:0000165 ! Seed yield per plant
 
 [Term]
 id: CO_339:0000256
-name: SYPO_Meas_kgm2
+name: SYPO_Meas_kgm2 variable
 relationship: variable_of CO_339:0000168 ! Seed yield per area
 relationship: variable_of CO_339:0000169 ! SYPO measurment method
 relationship: variable_of CO_339:0000170 ! kg/m2
@@ -1680,7 +1680,7 @@ is_a: CO_339:0000168 ! Seed yield per area
 
 [Term]
 id: CO_339:0000257
-name: ChlCont_Meas_SPAD
+name: ChlCont_Meas_SPAD variable
 relationship: variable_of CO_339:0000171 ! Chlorophyll content
 relationship: variable_of CO_339:0000172 ! Chlorophyll content measurement method
 relationship: variable_of CO_339:0000173 ! SPAD unit
@@ -1688,7 +1688,7 @@ is_a: CO_339:0000171 ! Chlorophyll content
 
 [Term]
 id: CO_339:0000258
-name: StmWeeRes_Comp_pct
+name: StmWeeRes_Comp_pct variable
 relationship: variable_of CO_339:0000174 ! Stem weevil resistance
 relationship: variable_of CO_339:0000175 ! Screening method for Stem weevil resistance
 relationship: variable_of CO_339:0000005 ! Percentage
@@ -1697,7 +1697,7 @@ is_a: CO_339:0000174 ! Stem weevil resistance
 
 [Term]
 id: CO_339:0000259
-name: StBli_Est_1to9
+name: StBli_Est_1to9 variable
 relationship: variable_of CO_339:0000177 ! Stemphylium blight resistance
 relationship: variable_of CO_339:0000178 ! Screening method for Stemphylium blight resistance
 relationship: variable_of CO_339:0000179 ! 1 to 9 resistance scale
@@ -1705,7 +1705,7 @@ is_a: CO_339:0000177 ! Stemphylium blight resistance
 
 [Term]
 id: CO_339:0000260
-name: StoCond_Meas_poromUnit
+name: StoCond_Meas_poromUnit variable
 relationship: variable_of CO_339:0000180 ! Stomatal conductance
 relationship: variable_of CO_339:0000181 ! Stomatal conductance measurment - Method
 relationship: variable_of CO_339:0000182 ! Reading of porometer
@@ -1713,7 +1713,7 @@ is_a: CO_339:0000180 ! Stomatal conductance
 
 [Term]
 id: CO_339:0000261
-name: TerBrchNb_Comp_TerBrch
+name: TerBrchNb_Comp_TerBrch variable
 relationship: variable_of CO_339:0000183 ! Tertiary branches number
 relationship: variable_of CO_339:0000184 ! Tertiary Branch number - Method
 relationship: variable_of CO_339:0000185 ! Tertiary Branch
@@ -1721,7 +1721,7 @@ is_a: CO_339:0000183 ! Tertiary branches number
 
 [Term]
 id: CO_339:0000262
-name: TanTyp_Est_1to3
+name: TanTyp_Est_1to3 variable
 relationship: variable_of CO_339:0000186 ! Type of tendril
 relationship: variable_of CO_339:0000187 ! Tendrils Type - Method
 relationship: variable_of CO_339:0000188 ! 1 to 3 type scale
@@ -1729,7 +1729,7 @@ is_a: CO_339:0000186 ! Type of tendril
 
 [Term]
 id: CO_339:0000263
-name: WatLogTol_Calc_ratio
+name: WatLogTol_Calc_ratio variable
 relationship: variable_of CO_339:0000189 ! Water logging tolerance
 relationship: variable_of CO_339:0000190 ! Screening method for Water logging tolerance
 relationship: variable_of CO_339:0000074 ! Ratio
@@ -1737,7 +1737,7 @@ is_a: CO_339:0000189 ! Water logging tolerance
 
 [Term]
 id: CO_339:0000264
-name: WintSurv_Comp_ratio
+name: WintSurv_Comp_ratio variable
 relationship: variable_of CO_339:0000192 ! Winter survival
 relationship: variable_of CO_339:0000193 ! Screening method for Winter survival
 relationship: variable_of CO_339:0000074 ! Ratio
@@ -1754,4 +1754,3 @@ name: scale_of
 [Typedef]
 id: variable_of
 name: variable_of
-
