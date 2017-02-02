@@ -1,12 +1,11 @@
 format-version: 1.2
 auto-generated-by: java
-default-namespace: cco
+default-namespace: CO_341_pigeonpea
 ontology: co_341
 
 [Term]
 id: CO_341:0000000
-name: pigeonpea flowering pattern
-namespace: PigeonpeaTrait
+name: pigeonpea flowering pattern trait
 def: "Flowering pattern like DT (determinate) vs NDT (non determinate)" [CO:curators]
 synonym: "FP" EXACT []
 is_a: TO:0002616
@@ -14,20 +13,17 @@ is_a: TO:0002616
 [Term]
 id: CO_341:0000001
 name: pigeonpea flowering pattern - method
-namespace: PigeonpeaMethod
 def: "On the basis of visual observation at the time of flowering" [CO:curators]
 relationship: method_of CO_341:0000000 ! flowering pattern
 
 [Term]
 id: CO_341:0000002
 name: pigeonpea visual observation flowering pattern scale
-namespace: PigeonpeaScale
 relationship: scale_of CO_341:0000001 ! flowering pattern - method
 
 [Term]
 id: CO_341:0000003
-name: pigeonpea maturity group
-namespace: PigeonpeaTrait
+name: pigeonpea maturity group trait
 def: "Maturity group based on days to 50 % flowering" [CO:curators]
 synonym: "MTG" EXACT []
 is_a: TO:0000344
@@ -35,20 +31,17 @@ is_a: TO:0000344
 [Term]
 id: CO_341:0000004
 name: pigeonpea maturity group - method
-namespace: PigeonpeaMethod
 def: "Groups are formed on the basis of days to 50 % flowering" [CO:curators]
 relationship: method_of CO_341:0000003 ! maturity group
 
 [Term]
 id: CO_341:0000005
-name: pigeonpea days required to 50 % flowering
-namespace: PigeonpeaScale
+name: pigeonpea days required to 50 % flowering scale
 relationship: scale_of CO_341:0000004 ! maturity group - method
 
 [Term]
 id: CO_341:0000006
-name: pigeonpea days to 50 % flowering
-namespace: PigeonpeaTrait
+name: pigeonpea days to 50 % flowering trait
 def: "Number of days required to flower 50 % population in a plot" [CO:curators]
 synonym: "DF" EXACT []
 is_a: TO:0000344
@@ -56,14 +49,12 @@ is_a: TO:0000344
 [Term]
 id: CO_341:0000007
 name: pigeonpea days to 50 % flowering - method
-namespace: PigeonpeaMethod
 def: "Days required from planting to flower 50 % of the plant population" [CO:curators]
 relationship: method_of CO_341:0000006 ! days to 50 % flowering
 
 [Term]
 id: CO_341:0000009
-name: pigeonpea days to 75 % maturity
-namespace: PigeonpeaTrait
+name: pigeonpea days to 75 % maturity trait
 def: "Number of days required to mature 75 % of the population" [CO:curators]
 synonym: "MT" EXACT []
 is_a: TO:0000469
@@ -71,14 +62,12 @@ is_a: TO:0000469
 [Term]
 id: CO_341:0000010
 name: pigeonpea days to maturity - method
-namespace: PigeonpeaMethod
 def: "Days required from planting to mature 75 % of the population" [CO:curators]
 relationship: method_of CO_341:0000009 ! days to 75 % maturity
 
 [Term]
 id: CO_341:0000012
-name: pigeonpea number of productive branches
-namespace: PigeonpeaTrait
+name: pigeonpea number of productive branches trait
 def: "Number of productive branches counted per plant" [CO:curators]
 synonym: "PBR" EXACT []
 is_a: TO:0000547
@@ -86,14 +75,12 @@ is_a: TO:0000547
 [Term]
 id: CO_341:0000013
 name: pigeonpea number of productive branches - method
-namespace: PigeonpeaMethod
 def: "Number of branches that bears pods out of total branches" [CO:curators]
 relationship: method_of CO_341:0000012 ! number of productive branches
 
 [Term]
 id: CO_341:0000015
-name: pigeonpea number of primary branches
-namespace: PigeonpeaTrait
+name: pigeonpea number of primary branches trait
 def: "Number of primary branches counted per plant" [CO:curators]
 synonym: "PRB" EXACT []
 is_a: TO:0000547
@@ -101,14 +88,12 @@ is_a: TO:0000547
 [Term]
 id: CO_341:0000016
 name: pigeonpea number of primary branches count - method
-namespace: PigeonpeaMethod
 def: "Number of branches that arise from main stem" [CO:curators]
 relationship: method_of CO_341:0000015 ! number of primary branches
 
 [Term]
 id: CO_341:0000018
-name: pigeonpea number of secondary branches
-namespace: PigeonpeaTrait
+name: pigeonpea number of secondary branches trait
 def: "Number of secondary branches counted per plant" [CO:curators]
 synonym: "SBR" EXACT []
 is_a: TO:0000557
@@ -116,14 +101,12 @@ is_a: TO:0000557
 [Term]
 id: CO_341:0000019
 name: pigeonpea number of secondary branches - method
-namespace: PigeonpeaMethod
 def: "Number of branches that arise from primary branches" [CO:curators]
 relationship: method_of CO_341:0000018 ! number of secondary branches
 
 [Term]
 id: CO_341:0000020
-name: pigeonpea branches
-namespace: PigeonpeaScale
+name: pigeonpea branches scale
 relationship: scale_of CO_341:0000013 ! number of productive branches - method
 relationship: scale_of CO_341:0000016 ! number of primary branches count - method
 relationship: scale_of CO_341:0000019 ! number of secondary branches - method
@@ -132,8 +115,7 @@ relationship: scale_of CO_341:0000178 ! number of primary branches average - met
 
 [Term]
 id: CO_341:0000021
-name: pigeonpea plant height
-namespace: PigeonpeaTrait
+name: pigeonpea plant height trait
 def: "Plant height recorded per plant" [CO:curators]
 synonym: "PHT" EXACT []
 is_a: TO:0000207
@@ -141,34 +123,29 @@ is_a: TO:0000207
 [Term]
 id: CO_341:0000022
 name: pigeonpea plant height average - method
-namespace: PigeonpeaMethod
 def: "Average height of randomly selected 5 plants recorded from the base of the plant to the tip of plant at maturity." [CO:curators]
 relationship: method_of CO_341:0000021 ! plant height
 
 [Term]
 id: CO_341:0000024
-name: pigeonpea plant stand
-namespace: PigeonpeaTrait
+name: pigeonpea plant stand trait
 def: "Number of plants per plot" [CO:curators]
 synonym: "PST" EXACT []
 
 [Term]
 id: CO_341:0000025
 name: pigeonpea plant stand - method
-namespace: PigeonpeaMethod
 def: "Total number of plants in a plot recorded at the time of maturity" [CO:curators]
 relationship: method_of CO_341:0000024 ! plant stand
 
 [Term]
 id: CO_341:0000026
-name: pigeonpea plants
-namespace: PigeonpeaScale
+name: pigeonpea plants scale
 relationship: scale_of CO_341:0000025 ! plant stand - method
 
 [Term]
 id: CO_341:0000027
-name: pigeonpea pod bearing length
-namespace: PigeonpeaTrait
+name: pigeonpea pod bearing length trait
 def: "Distance between uppermost and lowermost pod present on plant" [CO:curators]
 synonym: "PBL" EXACT []
 is_a: TO:0002626
@@ -176,14 +153,12 @@ is_a: TO:0002626
 [Term]
 id: CO_341:0000028
 name: pigeonpea pod bearing length - method
-namespace: PigeonpeaMethod
 def: "Length between upper most and lower most pod present on plant recorded and averaged for 5 randomly selected plants" [CO:curators]
 relationship: method_of CO_341:0000027 ! pod bearing length
 
 [Term]
 id: CO_341:0000030
-name: pigeonpea seed weight
-namespace: PigeonpeaTrait
+name: pigeonpea seed weight trait
 def: "Weight of seeds" [CO:curators]
 synonym: "Seed size, Grain weight" EXACT []
 synonym: "SWT" EXACT []
@@ -192,20 +167,17 @@ is_a: TO:0000181
 [Term]
 id: CO_341:0000031
 name: pigeonpea seed size - method
-namespace: PigeonpeaMethod
 def: "Categorize seed size based on the seed weight of air dried 100 seeds" [CO:curators]
 relationship: method_of CO_341:0000030 ! seed weight
 
 [Term]
 id: CO_341:0000032
 name: pigeonpea seed size 1 to 4 scale
-namespace: PigeonpeaScale
 relationship: scale_of CO_341:0000031 ! seed size - method
 
 [Term]
 id: CO_341:0000033
-name: pigeonpea pods per cluster
-namespace: PigeonpeaTrait
+name: pigeonpea pods per cluster trait
 def: "Number of pods per cluster" [CO:curators]
 synonym: "PPC" EXACT []
 is_a: TO:0000894
@@ -213,20 +185,17 @@ is_a: TO:0000894
 [Term]
 id: CO_341:0000034
 name: pigeonpea pods per cluster - method
-namespace: PigeonpeaMethod
 def: "Total number of pods present on plant divided by number of clusters and recorded for 5 randomly selected plants" [CO:curators]
 relationship: method_of CO_341:0000033 ! pods per cluster
 
 [Term]
 id: CO_341:0000035
-name: pigeonpea pod/cluster
-namespace: PigeonpeaScale
+name: pigeonpea pod/cluster scale
 relationship: scale_of CO_341:0000034 ! pods per cluster - method
 
 [Term]
 id: CO_341:0000036
-name: pigeonpea pods per plant
-namespace: PigeonpeaTrait
+name: pigeonpea pods per plant trait
 def: "Number of pods per plant" [CO:curators]
 synonym: "PPL" EXACT []
 is_a: TO:0000894
@@ -234,21 +203,18 @@ is_a: TO:0000894
 [Term]
 id: CO_341:0000037
 name: pigeonpea pods per plant - method
-namespace: PigeonpeaMethod
 def: "Average number of pods recorded for 5 randomly selected plants in a plot" [CO:curators]
 relationship: method_of CO_341:0000036 ! pods per plant
 
 [Term]
 id: CO_341:0000038
-name: pigeonpea pod/plant
-namespace: PigeonpeaScale
+name: pigeonpea pod/plant scale
 relationship: scale_of CO_341:0000037 ! pods per plant - method
 relationship: scale_of CO_341:0000270 ! pods per plant count - method
 
 [Term]
 id: CO_341:0000039
-name: pigeonpea seeds per pod
-namespace: PigeonpeaTrait
+name: pigeonpea seeds per pod trait
 def: "Number of seeds per pod" [CO:curators]
 synonym: "SPP" EXACT []
 is_a: TO:0000445
@@ -256,21 +222,18 @@ is_a: TO:0000445
 [Term]
 id: CO_341:0000040
 name: pigeonpea seeds per pod average - method
-namespace: PigeonpeaMethod
 def: "Average number of seeds present in a pod for 10 randomly selected pods" [CO:curators]
 relationship: method_of CO_341:0000039 ! seeds per pod
 
 [Term]
 id: CO_341:0000041
-name: pigeonpea seed/pod
-namespace: PigeonpeaScale
+name: pigeonpea seed/pod scale
 relationship: scale_of CO_341:0000040 ! seeds per pod average - method
 relationship: scale_of CO_341:0000176 ! seeds per pod count - method
 
 [Term]
 id: CO_341:0000042
-name: pigeonpea seeds per plant
-namespace: PigeonpeaTrait
+name: pigeonpea seeds per plant trait
 def: "Number of seeds per plant" [CO:curators]
 synonym: "SPL" EXACT []
 is_a: TO:0000184
@@ -278,20 +241,17 @@ is_a: TO:0000184
 [Term]
 id: CO_341:0000043
 name: pigeonpea seeds per plant - method
-namespace: PigeonpeaMethod
 def: "Average number of seeds counted for 5 randomly selected plants in a plot at maturity" [CO:curators]
 relationship: method_of CO_341:0000042 ! seeds per plant
 
 [Term]
 id: CO_341:0000044
-name: pigeonpea seed/plant
-namespace: PigeonpeaScale
+name: pigeonpea seed/plant scale
 relationship: scale_of CO_341:0000043 ! seeds per plant - method
 
 [Term]
 id: CO_341:0000045
-name: pigeonpea visual selection scores at flowering stage
-namespace: PigeonpeaTrait
+name: pigeonpea visual selection scores at flowering stage trait
 def: "Visual selection scores recorded at the time of flowering" [CO:curators]
 synonym: "Selection scores" EXACT []
 synonym: "VSF" EXACT []
@@ -299,60 +259,51 @@ synonym: "VSF" EXACT []
 [Term]
 id: CO_341:0000046
 name: pigeonpea visual selection scores at flowering stage - method
-namespace: PigeonpeaMethod
 def: "Visual scores given at the time of flowering considering check varieties as the middle level of the scale" [CO:curators]
 relationship: method_of CO_341:0000045 ! visual selection scores at flowering stage
 
 [Term]
 id: CO_341:0000047
 name: pigeonpea visual scores in 1-5 scale
-namespace: PigeonpeaScale
 relationship: scale_of CO_341:0000046 ! visual selection scores at flowering stage - method
 
 [Term]
 id: CO_341:0000048
-name: pigeonpea visual selection scores at podding stage
-namespace: PigeonpeaTrait
+name: pigeonpea visual selection scores at podding stage trait
 def: "Visual selection scores recorded at the time of podding" [CO:curators]
 synonym: "VSP" EXACT []
 
 [Term]
 id: CO_341:0000049
 name: pigeonpea visual selection scores at podding stage - method
-namespace: PigeonpeaMethod
 def: "Visual scores given at the time of flowering considering check varieties as the middle level of the scale" [CO:curators]
 relationship: method_of CO_341:0000048 ! visual selection scores at podding stage
 
 [Term]
 id: CO_341:0000050
 name: pigeonpea visual scores in 1-5 scale
-namespace: PigeonpeaScale
 relationship: scale_of CO_341:0000049 ! visual selection scores at podding stage - method
 
 [Term]
 id: CO_341:0000051
-name: pigeonpea visual selection scores at maturity stage
-namespace: PigeonpeaTrait
+name: pigeonpea visual selection scores at maturity stage trait
 def: "Visual selection scores recorded at the time of maturity" [CO:curators]
 synonym: "VSM" EXACT []
 
 [Term]
 id: CO_341:0000052
 name: pigeonpea visual selection scores at maturity stage - method
-namespace: PigeonpeaMethod
 def: "Visual scores given at the time of maturity considering check varieties as the middle level of the scale" [CO:curators]
 relationship: method_of CO_341:0000051 ! visual selection scores at maturity stage
 
 [Term]
 id: CO_341:0000053
 name: pigeonpea visual scores in 1-5 scale
-namespace: PigeonpeaScale
 relationship: scale_of CO_341:0000052 ! visual selection scores at maturity stage - method
 
 [Term]
 id: CO_341:0000054
-name: pigeonpea fusarium wilt incidence
-namespace: PigeonpeaTrait
+name: pigeonpea fusarium wilt incidence trait
 def: "Plants infected with fusarium wilt disease in a plot" [CO:curators]
 synonym: "FW" EXACT []
 is_a: TO:0000439
@@ -360,14 +311,12 @@ is_a: TO:0000439
 [Term]
 id: CO_341:0000055
 name: pigeonpea fusarium wilt - method
-namespace: PigeonpeaMethod
 def: "Recorded in percentage as the number of infected plants / Total number of plants X 100" [CO:curators]
 relationship: method_of CO_341:0000054 ! fusarium wilt incidence
 
 [Term]
 id: CO_341:0000057
-name: pigeonpea sterility mosaic incidence
-namespace: PigeonpeaTrait
+name: pigeonpea sterility mosaic incidence trait
 def: "Plants infected with sterility mosaic disease in a plot" [CO:curators]
 synonym: "SM" EXACT []
 is_a: TO:0000148
@@ -375,14 +324,12 @@ is_a: TO:0000148
 [Term]
 id: CO_341:0000058
 name: pigeonpea sterility mosaic - method
-namespace: PigeonpeaMethod
 def: "Recorded in percentage as the number of infected plants / total number of plants X 100" [CO:curators]
 relationship: method_of CO_341:0000057 ! sterility mosaic incidence
 
 [Term]
 id: CO_341:0000059
-name: pigeonpea percent
-namespace: PigeonpeaScale
+name: pigeonpea percent scale
 relationship: scale_of CO_341:0000055 ! fusarium wilt - method
 relationship: scale_of CO_341:0000058 ! sterility mosaic - method
 relationship: scale_of CO_341:0000061 ! moisture content - method
@@ -394,8 +341,7 @@ relationship: scale_of CO_341:0000148 ! fertility fertility assessment - method
 
 [Term]
 id: CO_341:0000060
-name: pigeonpea seed moisture content
-namespace: PigeonpeaTrait
+name: pigeonpea seed moisture content trait
 def: "Moisture content" [CO:curators]
 synonym: "MC" EXACT []
 is_a: TO:0000228
@@ -403,14 +349,12 @@ is_a: TO:0000228
 [Term]
 id: CO_341:0000061
 name: pigeonpea moisture content - method
-namespace: PigeonpeaMethod
 def: "Recorded in percentage as dry weight / Fresh weight X 100" [CO:curators]
 relationship: method_of CO_341:0000060 ! seed moisture content
 
 [Term]
 id: CO_341:0000063
-name: pigeonpea harvest index
-namespace: PigeonpeaTrait
+name: pigeonpea harvest index trait
 def: "Proportion of (economically significant) biomass over total (biological) biomass" [CO:curators]
 synonym: "HI" EXACT []
 synonym: "Plant biomass partitioning" EXACT []
@@ -419,14 +363,12 @@ is_a: TO:0000128
 [Term]
 id: CO_341:0000064
 name: pigeonpea harvest index - method
-namespace: PigeonpeaMethod
 def: "Recorded in percentage as seed yield / total biological yield x 100" [CO:curators]
 relationship: method_of CO_341:0000063 ! harvest index
 
 [Term]
 id: CO_341:0000066
-name: pigeonpea leaf chlorophyll content
-namespace: PigeonpeaTrait
+name: pigeonpea leaf chlorophyll content trait
 def: "Leaf chlorophyll content" [CO:curators]
 synonym: "SPAD" EXACT []
 is_a: TO:0012002
@@ -434,20 +376,17 @@ is_a: TO:0012002
 [Term]
 id: CO_341:0000067
 name: pigeonpea spad chlorophyll index - method
-namespace: PigeonpeaMethod
 def: "Average number recorded for 5 randomly selected plants in a plot with SPAD device before noon" [CO:curators]
 relationship: method_of CO_341:0000066 ! leaf chlorophyll content
 
 [Term]
 id: CO_341:0000068
-name: pigeonpea cci
-namespace: PigeonpeaScale
+name: pigeonpea cci scale
 relationship: scale_of CO_341:0000067 ! spad chlorophyll index - method
 
 [Term]
 id: CO_341:0000069
-name: pigeonpea radicle length
-namespace: PigeonpeaTrait
+name: pigeonpea radicle length trait
 def: "Length of radicle" [CO:curators]
 synonym: "RADL" EXACT []
 is_a: TO:0000227
@@ -455,14 +394,12 @@ is_a: TO:0000227
 [Term]
 id: CO_341:0000070
 name: pigeonpea radicle length - method
-namespace: PigeonpeaMethod
 def: "Average length of radicle for 50 seeds incubated for 10 days at 25 degree celcius in paper towel method" [CO:curators]
 relationship: method_of CO_341:0000069 ! radicle length
 
 [Term]
 id: CO_341:0000071
-name: pigeonpea cm
-namespace: PigeonpeaScale
+name: pigeonpea cm scale
 relationship: scale_of CO_341:0000022 ! plant height average - method
 relationship: scale_of CO_341:0000028 ! pod bearing length - method
 relationship: scale_of CO_341:0000070 ! radicle length - method
@@ -472,8 +409,7 @@ relationship: scale_of CO_341:0000180 ! plant height measured - method
 
 [Term]
 id: CO_341:0000072
-name: pigeonpea plumule length
-namespace: PigeonpeaTrait
+name: pigeonpea plumule length trait
 def: "Length of plumule" [CO:curators]
 synonym: "PLUL" EXACT []
 is_a: TO:0000739
@@ -481,14 +417,12 @@ is_a: TO:0000739
 [Term]
 id: CO_341:0000073
 name: pigeonpea plumule length - method
-namespace: PigeonpeaMethod
 def: "Average length of plumule for 50 seeds incubated for 10 days at 25 degree celcius in paper towel method" [CO:curators]
 relationship: method_of CO_341:0000072 ! plumule length
 
 [Term]
 id: CO_341:0000075
-name: pigeonpea seed germination
-namespace: PigeonpeaTrait
+name: pigeonpea seed germination trait
 def: "Propertion of grains that germinate under proper condition" [CO:curators]
 synonym: "GP" EXACT []
 is_a: TO:0000202
@@ -496,14 +430,12 @@ is_a: TO:0000202
 [Term]
 id: CO_341:0000076
 name: pigeonpea germination percentage - method
-namespace: PigeonpeaMethod
 def: "Number of seeds germinated / Total number of seeds X 100" [CO:curators]
 relationship: method_of CO_341:0000075 ! seed germination
 
 [Term]
 id: CO_341:0000078
-name: pigeonpea seed base colour
-namespace: PigeonpeaTrait
+name: pigeonpea seed base colour trait
 def: "Seed base color" [CO:curators]
 synonym: "SBC" EXACT []
 is_a: TO:0000486
@@ -511,20 +443,17 @@ is_a: TO:0000486
 [Term]
 id: CO_341:0000079
 name: pigeonpea seed base colour - method
-namespace: PigeonpeaMethod
 def: "Recorded visually based on the Royal Horticultural Society (RHS) colour codes" [CO:curators]
 relationship: method_of CO_341:0000078 ! seed base colour
 
 [Term]
 id: CO_341:0000080
-name: pigeonpea rhs color chart
-namespace: PigeonpeaScale
+name: pigeonpea rhs color chart scale
 relationship: scale_of CO_341:0000079 ! seed base colour - method
 
 [Term]
 id: CO_341:0000081
-name: pigeonpea stem color
-namespace: PigeonpeaTrait
+name: pigeonpea stem color trait
 def: "Color of the stem" [CO:curators]
 synonym: "SC" EXACT []
 is_a: TO:0000056
@@ -532,20 +461,17 @@ is_a: TO:0000056
 [Term]
 id: CO_341:0000082
 name: pigeonpea stem color - method
-namespace: PigeonpeaMethod
 def: "Recorded visually at 50 % flowering stage" [CO:curators]
 relationship: method_of CO_341:0000081 ! stem color
 
 [Term]
 id: CO_341:0000083
 name: pigeonpea visual stem color scale
-namespace: PigeonpeaScale
 relationship: scale_of CO_341:0000082 ! stem color - method
 
 [Term]
 id: CO_341:0000084
-name: pigeonpea leaf shape
-namespace: PigeonpeaTrait
+name: pigeonpea leaf shape trait
 def: "Leaf shape" [CO:curators]
 synonym: "LS" EXACT []
 is_a: TO:0000492
@@ -553,20 +479,17 @@ is_a: TO:0000492
 [Term]
 id: CO_341:0000085
 name: pigeonpea leaf shape - method
-namespace: PigeonpeaMethod
 def: "Recorded visually at 50 % flowering stage" [CO:curators]
 relationship: method_of CO_341:0000084 ! leaf shape
 
 [Term]
 id: CO_341:0000086
 name: pigeonpea visual leaf shape scale
-namespace: PigeonpeaScale
 relationship: scale_of CO_341:0000085 ! leaf shape - method
 
 [Term]
 id: CO_341:0000087
-name: pigeonpea leaf pubescence
-namespace: PigeonpeaTrait
+name: pigeonpea leaf pubescence trait
 def: "Leaf pubescence (hair like structure on leaf)" [CO:curators]
 synonym: "LFP" EXACT []
 is_a: TO:0002722
@@ -574,20 +497,17 @@ is_a: TO:0002722
 [Term]
 id: CO_341:0000088
 name: pigeonpea leaf pubescence - method
-namespace: PigeonpeaMethod
 def: "Recorded visually at flowering stage" [CO:curators]
 relationship: method_of CO_341:0000087 ! leaf pubescence
 
 [Term]
 id: CO_341:0000089
 name: pigeonpea visual absent-present scale
-namespace: PigeonpeaScale
 relationship: scale_of CO_341:0000088 ! leaf pubescence - method
 
 [Term]
 id: CO_341:0000090
-name: pigeonpea flower color
-namespace: PigeonpeaTrait
+name: pigeonpea flower color trait
 def: "Color of the flower" [CO:curators]
 synonym: "FCL" EXACT []
 is_a: TO:0000537
@@ -595,20 +515,17 @@ is_a: TO:0000537
 [Term]
 id: CO_341:0000091
 name: pigeonpea flower color - method
-namespace: PigeonpeaMethod
 def: "Recorded visually at 50% flowering stage" [CO:curators]
 relationship: method_of CO_341:0000090 ! flower color
 
 [Term]
 id: CO_341:0000092
 name: pigeonpea visual flower color scale
-namespace: PigeonpeaScale
 relationship: scale_of CO_341:0000091 ! flower color - method
 
 [Term]
 id: CO_341:0000093
-name: pigeonpea pod color
-namespace: PigeonpeaTrait
+name: pigeonpea pod color trait
 def: "Pod color" [CO:curators]
 synonym: "PCL" EXACT []
 is_a: TO:0002617
@@ -616,20 +533,17 @@ is_a: TO:0002617
 [Term]
 id: CO_341:0000094
 name: pigeonpea pod color - method
-namespace: PigeonpeaMethod
 def: "Recorded visually at premature dough stage" [CO:curators]
 relationship: method_of CO_341:0000093 ! pod color
 
 [Term]
 id: CO_341:0000095
 name: pigeonpea visual pod color scale
-namespace: PigeonpeaScale
 relationship: scale_of CO_341:0000094 ! pod color - method
 
 [Term]
 id: CO_341:0000096
-name: pigeonpea pod pubescence
-namespace: PigeonpeaTrait
+name: pigeonpea pod pubescence trait
 def: "Pod pubescence" [CO:curators]
 synonym: "PPB" EXACT []
 is_a: TO:0000851
@@ -637,20 +551,17 @@ is_a: TO:0000851
 [Term]
 id: CO_341:0000097
 name: pigeonpea pod pubescence - method
-namespace: PigeonpeaMethod
 def: "Recorded visually at maturity stage" [CO:curators]
 relationship: method_of CO_341:0000096 ! pod pubescence
 
 [Term]
 id: CO_341:0000098
 name: pigeonpea visual absent-present scale
-namespace: PigeonpeaScale
 relationship: scale_of CO_341:0000097 ! pod pubescence - method
 
 [Term]
 id: CO_341:0000099
-name: pigeonpea pod wax
-namespace: PigeonpeaTrait
+name: pigeonpea pod wax trait
 def: "Pod wax" [CO:curators]
 synonym: "Pod waxiness" EXACT []
 synonym: "PW" EXACT []
@@ -659,20 +570,17 @@ is_a: TO:0002629
 [Term]
 id: CO_341:0000100
 name: pigeonpea pod wax - method
-namespace: PigeonpeaMethod
 def: "Recorded visually at premature dough stage" [CO:curators]
 relationship: method_of CO_341:0000099 ! pod wax
 
 [Term]
 id: CO_341:0000101
 name: pigeonpea visual absent-present scale
-namespace: PigeonpeaScale
 relationship: scale_of CO_341:0000100 ! pod wax - method
 
 [Term]
 id: CO_341:0000102
-name: pigeonpea pod size
-namespace: PigeonpeaTrait
+name: pigeonpea pod size trait
 def: "Pod size" [CO:curators]
 synonym: "Pod length" EXACT []
 synonym: "PSZ" EXACT []
@@ -681,22 +589,19 @@ is_a: TO:0002625
 [Term]
 id: CO_341:0000103
 name: pigeonpea pod size - method
-namespace: PigeonpeaMethod
 def: "Categorize pod size based on the average length of 20 pods" [CO:curators]
 relationship: method_of CO_341:0000102 ! pod size
 relationship: method_of CO_341:0000141 ! pod length
 
 [Term]
 id: CO_341:0000104
-name: pigeonpea pod size in cm
-namespace: PigeonpeaScale
+name: pigeonpea pod size in cm scale
 relationship: scale_of CO_341:0000103 ! pod size - method
 relationship: scale_of CO_341:0000103 ! pod size - method
 
 [Term]
 id: CO_341:0000105
-name: pigeonpea seed protein content
-namespace: PigeonpeaTrait
+name: pigeonpea seed protein content trait
 def: "Protein content of seed" [CO:curators]
 synonym: "PC" EXACT []
 is_a: TO:0000490
@@ -704,14 +609,12 @@ is_a: TO:0000490
 [Term]
 id: CO_341:0000106
 name: pigeonpea protein content - method
-namespace: PigeonpeaMethod
 def: "Whole seed crude protein percentage based on dry weight using the dye-binding method or automatic protein analyzer" [CO:curators]
 relationship: method_of CO_341:0000105 ! seed protein content
 
 [Term]
 id: CO_341:0000108
-name: pigeonpea seed milling fraction
-namespace: PigeonpeaTrait
+name: pigeonpea seed milling fraction trait
 def: "Milling fraction of fully dried seeds" [CO:curators]
 synonym: "MP" EXACT []
 is_a: TO:0000931
@@ -719,14 +622,12 @@ is_a: TO:0000931
 [Term]
 id: CO_341:0000109
 name: pigeonpea milling percentage - method
-namespace: PigeonpeaMethod
 def: "Percentage of dehusked split peas after milling" [CO:curators]
 relationship: method_of CO_341:0000108 ! seed milling fraction
 
 [Term]
 id: CO_341:0000111
-name: pigeonpea cooking quality of dhal
-namespace: PigeonpeaTrait
+name: pigeonpea cooking quality of dhal trait
 def: "Cooking quality of dhal" [CO:curators]
 synonym: "CKD" EXACT []
 is_a: TO:0000667
@@ -734,14 +635,12 @@ is_a: TO:0000667
 [Term]
 id: CO_341:0000112
 name: pigeonpea cooking quality of dhal - method
-namespace: PigeonpeaMethod
 def: "Recording of the increase in volume (v/v) after soaking 24 hrs and boiling for 25 min" [CO:curators]
 relationship: method_of CO_341:0000111 ! cooking quality of dhal
 
 [Term]
 id: CO_341:0000114
-name: pigeonpea cooking quality of seed
-namespace: PigeonpeaTrait
+name: pigeonpea cooking quality of seed trait
 def: "Cooking quality of seed" [CO:curators]
 synonym: "CKS" EXACT []
 is_a: TO:0000667
@@ -749,21 +648,18 @@ is_a: TO:0000667
 [Term]
 id: CO_341:0000115
 name: pigeonpea cooking quality of seed - method
-namespace: PigeonpeaMethod
 def: "Recording of increase in volume (v/v) after soaking for 24 hrs and boiling for 25 min" [CO:curators]
 relationship: method_of CO_341:0000114 ! cooking quality of seed
 
 [Term]
 id: CO_341:0000116
-name: pigeonpea index
-namespace: PigeonpeaScale
+name: pigeonpea index scale
 relationship: scale_of CO_341:0000112 ! cooking quality of dhal - method
 relationship: scale_of CO_341:0000115 ! cooking quality of seed - method
 
 [Term]
 id: CO_341:0000117
-name: pigeonpea weight of 100 seeds
-namespace: PigeonpeaTrait
+name: pigeonpea weight of 100 seeds trait
 def: "Weight of 100 (sun dried) seeds" [CO:curators]
 synonym: "SWT100" EXACT []
 synonym: "Test weight, Seed weight" EXACT []
@@ -772,15 +668,13 @@ is_a: TO:0000269
 [Term]
 id: CO_341:0000118
 name: pigeonpea weight of 100 seeds - method
-namespace: PigeonpeaMethod
 def: "Count 100 seeds (air dried at approx. 10% moisture) randomly taken from harvested seed and then record weight." [CO:curators]
 relationship: method_of CO_341:0000030 ! seed weight
 relationship: method_of CO_341:0000117 ! weight of 100 seeds
 
 [Term]
 id: CO_341:0000120
-name: pigeonpea grain weight per plot
-namespace: PigeonpeaTrait
+name: pigeonpea grain weight per plot trait
 def: "Grain weight per plot" [CO:curators]
 synonym: "GWPT" EXACT []
 is_a: TO:0002746
@@ -788,15 +682,13 @@ is_a: TO:0002746
 [Term]
 id: CO_341:0000121
 name: pigeonpea grain weight per plot - method
-namespace: PigeonpeaMethod
 def: "Grain weight harvested form a plot excluding border plants and border rows" [CO:curators]
 relationship: method_of CO_341:0000120 ! grain weight per plot
 relationship: method_of CO_341:0000126 ! seed yield
 
 [Term]
 id: CO_341:0000122
-name: pigeonpea g
-namespace: PigeonpeaScale
+name: pigeonpea g scale
 relationship: scale_of CO_341:0000118 ! weight of 100 seeds - method
 relationship: scale_of CO_341:0000118 ! weight of 100 seeds - method
 relationship: scale_of CO_341:0000121 ! grain weight per plot - method
@@ -804,8 +696,7 @@ relationship: scale_of CO_341:0000121 ! grain weight per plot - method
 
 [Term]
 id: CO_341:0000123
-name: pigeonpea grain weight per plant
-namespace: PigeonpeaTrait
+name: pigeonpea grain weight per plant trait
 def: "Grain weight per plant" [CO:curators]
 synonym: "GWPL" EXACT []
 is_a: TO:0002746
@@ -813,21 +704,18 @@ is_a: TO:0002746
 [Term]
 id: CO_341:0000124
 name: pigeonpea average grain weight per plant - method
-namespace: PigeonpeaMethod
 def: "Average seed yield recorded for randomly selected 5 plants in a plot" [CO:curators]
 relationship: method_of CO_341:0000123 ! grain weight per plant
 
 [Term]
 id: CO_341:0000125
-name: pigeonpea g/plant
-namespace: PigeonpeaScale
+name: pigeonpea g/plant scale
 relationship: scale_of CO_341:0000124 ! average grain weight per plant - method
 relationship: scale_of CO_341:0000175 ! grain weight of single plant - method
 
 [Term]
 id: CO_341:0000126
-name: pigeonpea seed yield
-namespace: PigeonpeaTrait
+name: pigeonpea seed yield trait
 def: "Seed yield" [CO:curators]
 synonym: "YLD" EXACT []
 is_a: TO:0000905
@@ -835,20 +723,17 @@ is_a: TO:0000905
 [Term]
 id: CO_341:0000127
 name: pigeonpea seed yield (kg/ha) - method
-namespace: PigeonpeaMethod
 def: "Harvested seed weight / plot area" [CO:curators]
 relationship: method_of CO_341:0000126 ! seed yield
 
 [Term]
 id: CO_341:0000128
-name: pigeonpea kg/ha
-namespace: PigeonpeaScale
+name: pigeonpea kg/ha scale
 relationship: scale_of CO_341:0000127 ! seed yield (kg/ha) - method
 
 [Term]
 id: CO_341:0000129
-name: pigeonpea plant senescence
-namespace: PigeonpeaTrait
+name: pigeonpea plant senescence trait
 def: "Plant senescence" [CO:curators]
 synonym: "SEN" EXACT []
 is_a: TO:0000928
@@ -856,20 +741,17 @@ is_a: TO:0000928
 [Term]
 id: CO_341:0000130
 name: pigeonpea senescence score - method
-namespace: PigeonpeaMethod
 def: "Visual scoring of plant senescence" [CO:curators]
 relationship: method_of CO_341:0000129 ! plant senescence
 
 [Term]
 id: CO_341:0000131
-name: pigeonpea visual scoring senescence 0 to 2
-namespace: PigeonpeaScale
+name: pigeonpea visual scoring senescence 0 to 2 scale
 relationship: scale_of CO_341:0000130 ! senescence score - method
 
 [Term]
 id: CO_341:0000132
-name: pigeonpea plant vigour
-namespace: PigeonpeaTrait
+name: pigeonpea plant vigour trait
 def: "Plant vigour" [CO:curators]
 synonym: "VIGOUR" EXACT []
 is_a: TO:0000250
@@ -877,20 +759,17 @@ is_a: TO:0000250
 [Term]
 id: CO_341:0000133
 name: pigeonpea vigour score - method
-namespace: PigeonpeaMethod
 def: "Visual scoring considering the check varieties as the middle level of the scale" [CO:curators]
 relationship: method_of CO_341:0000132 ! plant vigour
 
 [Term]
 id: CO_341:0000134
 name: pigeonpea visual scores in 1-5 scale
-namespace: PigeonpeaScale
 relationship: scale_of CO_341:0000133 ! vigour score - method
 
 [Term]
 id: CO_341:0000135
-name: pigeonpea seedling vigour
-namespace: PigeonpeaTrait
+name: pigeonpea seedling vigour trait
 def: "Seedling vigour" [CO:curators]
 synonym: "SVI" EXACT []
 is_a: TO:0000250
@@ -898,20 +777,17 @@ is_a: TO:0000250
 [Term]
 id: CO_341:0000136
 name: pigeonpea seedling vigour index - method
-namespace: PigeonpeaMethod
 def: "Index calculated as (length of radicle + length of plumule) x germination percentage" [CO:curators]
 relationship: method_of CO_341:0000135 ! seedling vigour
 
 [Term]
 id: CO_341:0000137
-name: pigeonpea index
-namespace: PigeonpeaScale
+name: pigeonpea index scale
 relationship: scale_of CO_341:0000136 ! seedling vigour index - method
 
 [Term]
 id: CO_341:0000138
-name: pigeonpea days to first flower
-namespace: PigeonpeaTrait
+name: pigeonpea days to first flower trait
 def: "Number of days elapsed before the first plant flowers" [CO:curators]
 synonym: "DFF" EXACT []
 is_a: TO:0000344
@@ -919,22 +795,19 @@ is_a: TO:0000344
 [Term]
 id: CO_341:0000139
 name: pigeonpea days to first flower - method
-namespace: PigeonpeaMethod
 def: "Days required from planting to open first flower on a plant" [CO:curators]
 relationship: method_of CO_341:0000138 ! days to first flower
 
 [Term]
 id: CO_341:0000140
-name: pigeonpea days
-namespace: PigeonpeaScale
+name: pigeonpea days scale
 relationship: scale_of CO_341:0000007 ! days to 50 % flowering - method
 relationship: scale_of CO_341:0000010 ! days to maturity - method
 relationship: scale_of CO_341:0000139 ! days to first flower - method
 
 [Term]
 id: CO_341:0000141
-name: pigeonpea pod length
-namespace: PigeonpeaTrait
+name: pigeonpea pod length trait
 def: "Pod length" [CO:curators]
 synonym: "PL" EXACT []
 synonym: "Pod size" EXACT []
@@ -943,14 +816,12 @@ is_a: TO:0002626
 [Term]
 id: CO_341:0000142
 name: pigeonpea pod length - method
-namespace: PigeonpeaMethod
 def: "Average length recorded for a sample of 10 pods" [CO:curators]
 relationship: method_of CO_341:0000141 ! pod length
 
 [Term]
 id: CO_341:0000144
-name: pigeonpea number of clusters
-namespace: PigeonpeaTrait
+name: pigeonpea number of clusters trait
 def: "Number of pod clusters per plant" [CO:curators]
 synonym: "NCP" EXACT []
 is_a: TO:0000920
@@ -958,21 +829,18 @@ is_a: TO:0000920
 [Term]
 id: CO_341:0000145
 name: pigeonpea number of clusters average- method
-namespace: PigeonpeaMethod
 def: "Average number of clusters recorded for 5 randomly selected plants at the time of maturity" [CO:curators]
 relationship: method_of CO_341:0000144 ! number of clusters
 
 [Term]
 id: CO_341:0000146
-name: pigeonpea cluster/plant
-namespace: PigeonpeaScale
+name: pigeonpea cluster/plant scale
 relationship: scale_of CO_341:0000145 ! number of clusters average- method
 relationship: scale_of CO_341:0000181 ! number of clusters count - method
 
 [Term]
 id: CO_341:0000147
-name: pigeonpea plant fertility
-namespace: PigeonpeaTrait
+name: pigeonpea plant fertility trait
 def: "Proportion of plants with fertile pollen grains" [CO:curators]
 synonym: "FRT" EXACT []
 is_a: TO:0000420
@@ -980,7 +848,6 @@ is_a: TO:0000420
 [Term]
 id: CO_341:0000148
 name: pigeonpea fertility fertility assessment - method
-namespace: PigeonpeaMethod
 def: "Recorded with microscope the plants producing fertile pollen grains out of the total plants" [CO:curators]
 relationship: method_of CO_341:0000147 ! plant fertility
 relationship: method_of CO_341:0000147 ! plant fertility
@@ -988,101 +855,88 @@ relationship: method_of CO_341:0000147 ! plant fertility
 [Term]
 id: CO_341:0000149
 name: pigeonpea sterile/fertile scale
-namespace: PigeonpeaScale
 relationship: scale_of CO_341:0000148 ! fertility fertility assessment - method
 
 [Term]
 id: CO_341:0000151
-name: pigeonpea soil salinity stress susceptibility
-namespace: PigeonpeaTrait
+name: pigeonpea soil salinity stress susceptibility trait
 def: "Soil salinity stress susceptibility" [CO:curators]
 synonym: "SSS" EXACT []
 is_a: TO:0000168
 
 [Term]
 id: CO_341:0000152
-name: pigeonpea soil acidity stress susceptibility
-namespace: PigeonpeaTrait
+name: pigeonpea soil acidity stress susceptibility trait
 def: "Soil acidity stress susceptibility" [CO:curators]
 synonym: "SAS" EXACT []
 is_a: TO:0000168
 
 [Term]
 id: CO_341:0000153
-name: pigeonpea pod wasp susceptibility
-namespace: PigeonpeaTrait
+name: pigeonpea pod wasp susceptibility trait
 def: "Susceptibility to pod wasp (Tanaostigmodes cajaninae)" [CO:curators]
 synonym: "PWasp" EXACT []
 is_a: TO:0000261
 
 [Term]
 id: CO_341:0000154
-name: pigeonpea pod fly susceptibility
-namespace: PigeonpeaTrait
+name: pigeonpea pod fly susceptibility trait
 def: "Susceptibility to pod fly (Melanagromyza btusa )" [CO:curators]
 synonym: "PF" EXACT []
 is_a: TO:0000261
 
 [Term]
 id: CO_341:0000155
-name: pigeonpea pod borers susceptibility
-namespace: PigeonpeaTrait
+name: pigeonpea pod borers susceptibility trait
 def: "Susceptibility to pod borer insects (Helicoverpa armigera, Etiella zinckenella, Maruca testulalis)" [CO:curators]
 synonym: "PB" EXACT []
 is_a: TO:0000261
 
 [Term]
 id: CO_341:0000156
-name: pigeonpea phytophthora blight disease susceptibility
-namespace: PigeonpeaTrait
+name: pigeonpea phytophthora blight disease susceptibility trait
 def: "Susecptibility to disease caused by agent Phytophthora blight (Phytophthora drechsleri f.sp. Cajani)" [CO:curators]
 synonym: "DPB" EXACT []
 is_a: TO:0000439
 
 [Term]
 id: CO_341:0000157
-name: pigeonpea nematodes susceptibility
-namespace: PigeonpeaTrait
+name: pigeonpea nematodes susceptibility trait
 def: "Susecptibility to nematodes (Heterodera cajani, Meloidogyne incognita, Rotylenchus reniformis)" [CO:curators]
 synonym: "Nem" EXACT []
 is_a: TO:0000384
 
 [Term]
 id: CO_341:0000158
-name: pigeonpea low temperature stress susceptibility
-namespace: PigeonpeaTrait
+name: pigeonpea low temperature stress susceptibility trait
 def: "Low temperature stress susceptibility" [CO:curators]
 synonym: "LTS" EXACT []
 is_a: TO:0000303
 
 [Term]
 id: CO_341:0000159
-name: pigeonpea leaf tier susceptibility
-namespace: PigeonpeaTrait
+name: pigeonpea leaf tier susceptibility trait
 def: "Susceptibility to leaf tier (Grapholita critica)" [CO:curators]
 synonym: "LT" EXACT []
 is_a: TO:0000261
 
 [Term]
 id: CO_341:0000160
-name: pigeonpea high temperature stress susceptibility
-namespace: PigeonpeaTrait
+name: pigeonpea high temperature stress susceptibility trait
 def: "High temperature stress susceptibility" [CO:curators]
 synonym: "HTS" EXACT []
 is_a: TO:0000259
 
 [Term]
 id: CO_341:0000161
-name: pigeonpea drought stress susceptibility
-namespace: PigeonpeaTrait
+name: pigeonpea drought stress susceptibility trait
 def: "Drought stress susceptibility" [CO:curators]
 synonym: "DS" EXACT []
 is_a: TO:0000188
 
 [Term]
 id: CO_341:0000162
-name: pigeonpea alternaria blight disease susceptibility
-namespace: PigeonpeaTrait
+name: pigeonpea alternaria blight disease susceptibility trait
 def: "Susceptibility to disease caused by agent Alternaria blight (Alternaria alternata)" [CO:curators]
 synonym: "DAB" EXACT []
 is_a: TO:0000439
@@ -1090,205 +944,174 @@ is_a: TO:0000439
 [Term]
 id: CO_341:0000163
 name: pigeonpea soil salinity stress susceptibility - method
-namespace: PigeonpeaMethod
 def: "Visual scoring of the susceptibility to soil salinity stress" [CO:curators]
 relationship: method_of CO_341:0000151 ! soil salinity stress susceptibility
 
 [Term]
 id: CO_341:0000164
 name: pigeonpea soil acidity stress susceptibility - method
-namespace: PigeonpeaMethod
 def: "Visual scoring of the susceptibility to soil acidity stress" [CO:curators]
 relationship: method_of CO_341:0000152 ! soil acidity stress susceptibility
 
 [Term]
 id: CO_341:0000165
 name: pigeonpea pod wasp susceptibility - method
-namespace: PigeonpeaMethod
 def: "Visual scoring of the susceptibility to pod wasp" [CO:curators]
 relationship: method_of CO_341:0000153 ! pod wasp susceptibility
 
 [Term]
 id: CO_341:0000166
 name: pigeonpea pod fly susceptibility - method
-namespace: PigeonpeaMethod
 def: "Visual scoring of the susceptibility to pod fly" [CO:curators]
 relationship: method_of CO_341:0000154 ! pod fly susceptibility
 
 [Term]
 id: CO_341:0000167
 name: pigeonpea pod borers susceptibility - method
-namespace: PigeonpeaMethod
 def: "Visual scoring of the susceptibility to pod borers" [CO:curators]
 relationship: method_of CO_341:0000155 ! pod borers susceptibility
 
 [Term]
 id: CO_341:0000168
 name: pigeonpea disease phytophthora blight susceptibility - method
-namespace: PigeonpeaMethod
 def: "Visual scoring of the susceptibility to Phytophthora blight disease" [CO:curators]
 relationship: method_of CO_341:0000156 ! phytophthora blight disease susceptibility
 
 [Term]
 id: CO_341:0000169
 name: pigeonpea nematodes susceptibility - method
-namespace: PigeonpeaMethod
 def: "Visual scoring of the susceptibility to nematodes" [CO:curators]
 relationship: method_of CO_341:0000157 ! nematodes susceptibility
 
 [Term]
 id: CO_341:0000170
 name: pigeonpea low temperature stress susceptibility - method
-namespace: PigeonpeaMethod
 def: "Visual scoring of the susceptibility to low temperature stress" [CO:curators]
 relationship: method_of CO_341:0000158 ! low temperature stress susceptibility
 
 [Term]
 id: CO_341:0000171
 name: pigeonpea leaf tier susceptibility - method
-namespace: PigeonpeaMethod
 def: "Visual scoring of the susceptibility to leaf tier" [CO:curators]
 relationship: method_of CO_341:0000159 ! leaf tier susceptibility
 
 [Term]
 id: CO_341:0000172
 name: pigeonpea high temperature stress susceptibility - method
-namespace: PigeonpeaMethod
 def: "Visual scoring of the susceptibility to high temperature stress" [CO:curators]
 relationship: method_of CO_341:0000160 ! high temperature stress susceptibility
 
 [Term]
 id: CO_341:0000173
 name: pigeonpea drought stress susceptibility - method
-namespace: PigeonpeaMethod
 def: "Visual scoring of the susceptibility to drought stress" [CO:curators]
 relationship: method_of CO_341:0000161 ! drought stress susceptibility
 
 [Term]
 id: CO_341:0000174
 name: pigeonpea disease alternaria blight susceptibility - method
-namespace: PigeonpeaMethod
 def: "Visual scoring of the susceptibility to Alternaria blight disease" [CO:curators]
 relationship: method_of CO_341:0000162 ! alternaria blight disease susceptibility
 
 [Term]
 id: CO_341:0000175
 name: pigeonpea grain weight of single plant - method
-namespace: PigeonpeaMethod
 def: "Weight of seed harvested from a plant" [CO:curators]
 relationship: method_of CO_341:0000123 ! grain weight per plant
 
 [Term]
 id: CO_341:0000176
 name: pigeonpea seeds per pod count - method
-namespace: PigeonpeaMethod
 def: "Count the number of seeds present in a pod" [CO:curators]
 relationship: method_of CO_341:0000039 ! seeds per pod
 
 [Term]
 id: CO_341:0000177
 name: pigeonpea average number of secondary branches - method
-namespace: PigeonpeaMethod
 def: "Average number of branches that arise from primary branches" [CO:curators]
 relationship: method_of CO_341:0000018 ! number of secondary branches
 
 [Term]
 id: CO_341:0000178
 name: pigeonpea number of primary branches average - method
-namespace: PigeonpeaMethod
 def: "Average number of branches that arise from main stem" [CO:curators]
 relationship: method_of CO_341:0000015 ! number of primary branches
 
 [Term]
 id: CO_341:0000180
 name: pigeonpea plant height measured - method
-namespace: PigeonpeaMethod
 def: "Height of a randomly selected plant recorded from the base of the plant to the tip of plant at maturity." [CO:curators]
 relationship: method_of CO_341:0000021 ! plant height
 
 [Term]
 id: CO_341:0000181
 name: pigeonpea number of clusters count - method
-namespace: PigeonpeaMethod
 def: "Count the number of clusters of a randomly selected plant at the time of maturity" [CO:curators]
 relationship: method_of CO_341:0000144 ! number of clusters
 
 [Term]
 id: CO_341:0000182
 name: pigeonpea abiotic stress suscetibility 1-9 scale
-namespace: PigeonpeaScale
 relationship: scale_of CO_341:0000163 ! soil salinity stress susceptibility - method
 
 [Term]
 id: CO_341:0000183
 name: pigeonpea abiotic stress suscetibility 1-9 scale
-namespace: PigeonpeaScale
 relationship: scale_of CO_341:0000164 ! soil acidity stress susceptibility - method
 
 [Term]
 id: CO_341:0000184
 name: pigeonpea biotic stress suscetibility 1-9 scale
-namespace: PigeonpeaScale
 relationship: scale_of CO_341:0000165 ! pod wasp susceptibility - method
 
 [Term]
 id: CO_341:0000185
 name: pigeonpea biotic stress suscetibility 1-9 scale
-namespace: PigeonpeaScale
 relationship: scale_of CO_341:0000166 ! pod fly susceptibility - method
 
 [Term]
 id: CO_341:0000186
 name: pigeonpea biotic stress suscetibility 1-9 scale
-namespace: PigeonpeaScale
 relationship: scale_of CO_341:0000167 ! pod borers susceptibility - method
 
 [Term]
 id: CO_341:0000187
 name: pigeonpea biotic stress suscetibility 1-9 scale
-namespace: PigeonpeaScale
 relationship: scale_of CO_341:0000168 ! disease phytophthora blight susceptibility - method
 
 [Term]
 id: CO_341:0000188
 name: pigeonpea biotic stress suscetibility 1-9 scale
-namespace: PigeonpeaScale
 relationship: scale_of CO_341:0000169 ! nematodes susceptibility - method
 
 [Term]
 id: CO_341:0000189
 name: pigeonpea abiotic stress suscetibility 1-9 scale
-namespace: PigeonpeaScale
 relationship: scale_of CO_341:0000170 ! low temperature stress susceptibility - method
 
 [Term]
 id: CO_341:0000190
 name: pigeonpea biotic stress suscetibility 1-9 scale
-namespace: PigeonpeaScale
 relationship: scale_of CO_341:0000171 ! leaf tier susceptibility - method
 
 [Term]
 id: CO_341:0000191
 name: pigeonpea abiotic stress suscetibility 1-9 scale
-namespace: PigeonpeaScale
 relationship: scale_of CO_341:0000172 ! high temperature stress susceptibility - method
 
 [Term]
 id: CO_341:0000192
 name: pigeonpea abiotic stress suscetibility 1-9 scale
-namespace: PigeonpeaScale
 relationship: scale_of CO_341:0000173 ! drought stress susceptibility - method
 
 [Term]
 id: CO_341:0000193
 name: pigeonpea biotic stress suscetibility 1-9 scale
-namespace: PigeonpeaScale
 relationship: scale_of CO_341:0000174 ! disease alternaria blight susceptibility - method
 
 [Term]
 id: CO_341:0000194
-name: pigeonpea sm_comp_pct
-namespace: PigeonpeaVariable
+name: pigeonpea sm_comp_pct variable
 relationship: variable_of CO_341:0000057 ! sterility mosaic incidence
 relationship: variable_of CO_341:0000058 ! sterility mosaic - method
 relationship: variable_of CO_341:0000059 ! Percent
@@ -1296,8 +1119,7 @@ is_a: CO_341:0000057 ! sterility mosaic incidence
 
 [Term]
 id: CO_341:0000195
-name: pigeonpea stemclr_visclsn_1to4
-namespace: PigeonpeaVariable
+name: pigeonpea stemclr_visclsn_1to4 variable
 relationship: variable_of CO_341:0000081 ! stem color
 relationship: variable_of CO_341:0000082 ! stem color - method
 relationship: variable_of CO_341:0000083 ! visual stem color scale
@@ -1305,8 +1127,7 @@ is_a: CO_341:0000081 ! stem color
 
 [Term]
 id: CO_341:0000196
-name: pigeonpea soilsal_suscp_1to9
-namespace: PigeonpeaVariable
+name: pigeonpea soilsal_suscp_1to9 variable
 relationship: variable_of CO_341:0000151 ! soil salinity stress susceptibility
 relationship: variable_of CO_341:0000163 ! soil salinity stress susceptibility - method
 relationship: variable_of CO_341:0000182 ! abiotic stress suscetibility 1-9 scale
@@ -1314,8 +1135,7 @@ is_a: CO_341:0000151 ! soil salinity stress susceptibility
 
 [Term]
 id: CO_341:0000197
-name: pigeonpea soilacid_suscp_1to9
-namespace: PigeonpeaVariable
+name: pigeonpea soilacid_suscp_1to9 variable
 relationship: variable_of CO_341:0000152 ! soil acidity stress susceptibility
 relationship: variable_of CO_341:0000164 ! soil acidity stress susceptibility - method
 relationship: variable_of CO_341:0000183 ! abiotic stress suscetibility 1-9 scale
@@ -1323,8 +1143,7 @@ is_a: CO_341:0000152 ! soil acidity stress susceptibility
 
 [Term]
 id: CO_341:0000198
-name: pigeonpea svi_comp_idx
-namespace: PigeonpeaVariable
+name: pigeonpea svi_comp_idx variable
 relationship: variable_of CO_341:0000135 ! seedling vigour
 relationship: variable_of CO_341:0000136 ! seedling vigour index - method
 relationship: variable_of CO_341:0000137 ! Index
@@ -1332,8 +1151,7 @@ is_a: CO_341:0000135 ! seedling vigour
 
 [Term]
 id: CO_341:0000199
-name: pigeonpea sbc_visclsn_1to10
-namespace: PigeonpeaVariable
+name: pigeonpea sbc_visclsn_1to10 variable
 relationship: variable_of CO_341:0000078 ! seed base colour
 relationship: variable_of CO_341:0000079 ! seed base colour - method
 relationship: variable_of CO_341:0000080 ! rhs color chart
@@ -1341,8 +1159,7 @@ is_a: CO_341:0000078 ! seed base colour
 
 [Term]
 id: CO_341:0000200
-name: pigeonpea gwpl_meas_gplnt
-namespace: PigeonpeaVariable
+name: pigeonpea gwpl_meas_gplnt variable
 relationship: variable_of CO_341:0000123 ! grain weight per plant
 relationship: variable_of CO_341:0000125 ! g/plant
 relationship: variable_of CO_341:0000175 ! grain weight of single plant - method
@@ -1350,8 +1167,7 @@ is_a: CO_341:0000123 ! grain weight per plant
 
 [Term]
 id: CO_341:0000202
-name: pigeonpea yield_yld_kgha
-namespace: PigeonpeaVariable
+name: pigeonpea yield_yld_kgha variable
 relationship: variable_of CO_341:0000126 ! seed yield
 relationship: variable_of CO_341:0000127 ! seed yield (kg/ha) - method
 relationship: variable_of CO_341:0000128 ! kg/ha
@@ -1359,8 +1175,7 @@ is_a: CO_341:0000126 ! seed yield
 
 [Term]
 id: CO_341:0000203
-name: pigeonpea yld_wtperplot_g
-namespace: PigeonpeaVariable
+name: pigeonpea yld_wtperplot_g variable
 synonym: "GWPL_Av_g" EXACT []
 relationship: variable_of CO_341:0000121 ! grain weight per plot - method
 relationship: variable_of CO_341:0000122 ! g
@@ -1369,8 +1184,7 @@ is_a: CO_341:0000126 ! seed yield
 
 [Term]
 id: CO_341:0000204
-name: pigeonpea gwpl_avg_gplnt
-namespace: PigeonpeaVariable
+name: pigeonpea gwpl_avg_gplnt variable
 relationship: variable_of CO_341:0000123 ! grain weight per plant
 relationship: variable_of CO_341:0000124 ! average grain weight per plant - method
 relationship: variable_of CO_341:0000125 ! g/plant
@@ -1378,8 +1192,7 @@ is_a: CO_341:0000123 ! grain weight per plant
 
 [Term]
 id: CO_341:0000205
-name: pigeonpea gwpt_wgh_g
-namespace: PigeonpeaVariable
+name: pigeonpea gwpt_wgh_g variable
 synonym: "YLD_WTPerPlot_g" EXACT []
 relationship: variable_of CO_341:0000120 ! grain weight per plot
 relationship: variable_of CO_341:0000121 ! grain weight per plot - method
@@ -1388,8 +1201,7 @@ is_a: CO_341:0000120 ! grain weight per plot
 
 [Term]
 id: CO_341:0000206
-name: pigeonpea swt_wgh_g
-namespace: PigeonpeaVariable
+name: pigeonpea swt_wgh_g variable
 relationship: variable_of CO_341:0000117 ! weight of 100 seeds
 relationship: variable_of CO_341:0000118 ! weight of 100 seeds - method
 relationship: variable_of CO_341:0000122 ! g
@@ -1397,8 +1209,7 @@ is_a: CO_341:0000117 ! weight of 100 seeds
 
 [Term]
 id: CO_341:0000207
-name: pigeonpea cks_volinc_idx
-namespace: PigeonpeaVariable
+name: pigeonpea cks_volinc_idx variable
 relationship: variable_of CO_341:0000114 ! cooking quality of seed
 relationship: variable_of CO_341:0000115 ! cooking quality of seed - method
 relationship: variable_of CO_341:0000116 ! index
@@ -1406,8 +1217,7 @@ is_a: CO_341:0000114 ! cooking quality of seed
 
 [Term]
 id: CO_341:0000208
-name: pigeonpea millp_comp_pct
-namespace: PigeonpeaVariable
+name: pigeonpea millp_comp_pct variable
 synonym: "Milling percentage" EXACT []
 relationship: variable_of CO_341:0000059 ! Percent
 relationship: variable_of CO_341:0000108 ! seed milling fraction
@@ -1416,8 +1226,7 @@ is_a: CO_341:0000108 ! seed milling fraction
 
 [Term]
 id: CO_341:0000209
-name: pigeonpea protnc_meas_pct
-namespace: PigeonpeaVariable
+name: pigeonpea protnc_meas_pct variable
 relationship: variable_of CO_341:0000059 ! Percent
 relationship: variable_of CO_341:0000105 ! seed protein content
 relationship: variable_of CO_341:0000106 ! protein content - method
@@ -1425,8 +1234,7 @@ is_a: CO_341:0000105 ! seed protein content
 
 [Term]
 id: CO_341:0000210
-name: pigeonpea germp_comp_pct
-namespace: PigeonpeaVariable
+name: pigeonpea germp_comp_pct variable
 synonym: "Germination percentage" EXACT []
 relationship: variable_of CO_341:0000059 ! Percent
 relationship: variable_of CO_341:0000075 ! seed germination
@@ -1435,8 +1243,7 @@ is_a: CO_341:0000075 ! seed germination
 
 [Term]
 id: CO_341:0000211
-name: pigeonpea mc_comp_pct
-namespace: PigeonpeaVariable
+name: pigeonpea mc_comp_pct variable
 relationship: variable_of CO_341:0000059 ! Percent
 relationship: variable_of CO_341:0000060 ! seed moisture content
 relationship: variable_of CO_341:0000061 ! moisture content - method
@@ -1444,8 +1251,7 @@ is_a: CO_341:0000060 ! seed moisture content
 
 [Term]
 id: CO_341:0000212
-name: pigeonpea spl_avg_seedplnt
-namespace: PigeonpeaVariable
+name: pigeonpea spl_avg_seedplnt variable
 relationship: variable_of CO_341:0000042 ! seeds per plant
 relationship: variable_of CO_341:0000043 ! seeds per plant - method
 relationship: variable_of CO_341:0000044 ! seed/plant
@@ -1453,8 +1259,7 @@ is_a: CO_341:0000042 ! seeds per plant
 
 [Term]
 id: CO_341:0000213
-name: pigeonpea spp_avg_seedpod
-namespace: PigeonpeaVariable
+name: pigeonpea spp_avg_seedpod variable
 relationship: variable_of CO_341:0000039 ! seeds per pod
 relationship: variable_of CO_341:0000040 ! seeds per pod average - method
 relationship: variable_of CO_341:0000041 ! seed/pod
@@ -1462,8 +1267,7 @@ is_a: CO_341:0000039 ! seeds per pod
 
 [Term]
 id: CO_341:0000214
-name: pigeonpea spp_count_seedpod
-namespace: PigeonpeaVariable
+name: pigeonpea spp_count_seedpod variable
 relationship: variable_of CO_341:0000039 ! seeds per pod
 relationship: variable_of CO_341:0000041 ! seed/pod
 relationship: variable_of CO_341:0000176 ! seeds per pod count - method
@@ -1471,8 +1275,7 @@ is_a: CO_341:0000039 ! seeds per pod
 
 [Term]
 id: CO_341:0000215
-name: pigeonpea sw_wgh_g
-namespace: PigeonpeaVariable
+name: pigeonpea sw_wgh_g variable
 relationship: variable_of CO_341:0000030 ! seed weight
 relationship: variable_of CO_341:0000118 ! weight of 100 seeds - method
 relationship: variable_of CO_341:0000122 ! g
@@ -1480,8 +1283,7 @@ is_a: CO_341:0000030 ! seed weight
 
 [Term]
 id: CO_341:0000216
-name: pigeonpea sw_scr_1to4
-namespace: PigeonpeaVariable
+name: pigeonpea sw_scr_1to4 variable
 relationship: variable_of CO_341:0000030 ! seed weight
 relationship: variable_of CO_341:0000031 ! seed size - method
 relationship: variable_of CO_341:0000032 ! seed size 1 to 4 scale
@@ -1489,8 +1291,7 @@ is_a: CO_341:0000030 ! seed weight
 
 [Term]
 id: CO_341:0000217
-name: pigeonpea nsbr_count_nbr
-namespace: PigeonpeaVariable
+name: pigeonpea nsbr_count_nbr variable
 relationship: variable_of CO_341:0000018 ! number of secondary branches
 relationship: variable_of CO_341:0000019 ! number of secondary branches - method
 relationship: variable_of CO_341:0000020 ! branches
@@ -1498,8 +1299,7 @@ is_a: CO_341:0000018 ! number of secondary branches
 
 [Term]
 id: CO_341:0000218
-name: pigeonpea nsbr_av_nbr
-namespace: PigeonpeaVariable
+name: pigeonpea nsbr_av_nbr variable
 relationship: variable_of CO_341:0000018 ! number of secondary branches
 relationship: variable_of CO_341:0000020 ! branches
 relationship: variable_of CO_341:0000177 ! average number of secondary branches - method
@@ -1507,8 +1307,7 @@ is_a: CO_341:0000018 ! number of secondary branches
 
 [Term]
 id: CO_341:0000219
-name: pigeonpea radl_avg_cm
-namespace: PigeonpeaVariable
+name: pigeonpea radl_avg_cm variable
 relationship: variable_of CO_341:0000069 ! radicle length
 relationship: variable_of CO_341:0000070 ! radicle length - method
 relationship: variable_of CO_341:0000071 ! cm
@@ -1516,8 +1315,7 @@ is_a: CO_341:0000069 ! radicle length
 
 [Term]
 id: CO_341:0000220
-name: pigeonpea npbr_count_nbr
-namespace: PigeonpeaVariable
+name: pigeonpea npbr_count_nbr variable
 relationship: variable_of CO_341:0000012 ! number of productive branches
 relationship: variable_of CO_341:0000013 ! number of productive branches - method
 relationship: variable_of CO_341:0000020 ! branches
@@ -1525,8 +1323,7 @@ is_a: CO_341:0000012 ! number of productive branches
 
 [Term]
 id: CO_341:0000221
-name: pigeonpea nprb_count_nbr
-namespace: PigeonpeaVariable
+name: pigeonpea nprb_count_nbr variable
 relationship: variable_of CO_341:0000015 ! number of primary branches
 relationship: variable_of CO_341:0000016 ! number of primary branches count - method
 relationship: variable_of CO_341:0000020 ! branches
@@ -1534,8 +1331,7 @@ is_a: CO_341:0000015 ! number of primary branches
 
 [Term]
 id: CO_341:0000222
-name: pigeonpea nprb_av_nbr
-namespace: PigeonpeaVariable
+name: pigeonpea nprb_av_nbr variable
 relationship: variable_of CO_341:0000015 ! number of primary branches
 relationship: variable_of CO_341:0000020 ! branches
 relationship: variable_of CO_341:0000178 ! number of primary branches average - method
@@ -1543,8 +1339,7 @@ is_a: CO_341:0000015 ! number of primary branches
 
 [Term]
 id: CO_341:0000223
-name: pigeonpea pw_suscp_1to9
-namespace: PigeonpeaVariable
+name: pigeonpea pw_suscp_1to9 variable
 relationship: variable_of CO_341:0000153 ! pod wasp susceptibility
 relationship: variable_of CO_341:0000165 ! pod wasp susceptibility - method
 relationship: variable_of CO_341:0000184 ! biotic stress suscetibility 1-9 scale
@@ -1552,8 +1347,7 @@ is_a: CO_341:0000153 ! pod wasp susceptibility
 
 [Term]
 id: CO_341:0000224
-name: pigeonpea mtg_suscp_1to9
-namespace: PigeonpeaVariable
+name: pigeonpea mtg_suscp_1to9 variable
 relationship: variable_of CO_341:0000154 ! pod fly susceptibility
 relationship: variable_of CO_341:0000166 ! pod fly susceptibility - method
 relationship: variable_of CO_341:0000185 ! biotic stress suscetibility 1-9 scale
@@ -1561,8 +1355,7 @@ is_a: CO_341:0000154 ! pod fly susceptibility
 
 [Term]
 id: CO_341:0000225
-name: pigeonpea podbor_suscp_1to9
-namespace: PigeonpeaVariable
+name: pigeonpea podbor_suscp_1to9 variable
 relationship: variable_of CO_341:0000155 ! pod borers susceptibility
 relationship: variable_of CO_341:0000167 ! pod borers susceptibility - method
 relationship: variable_of CO_341:0000186 ! biotic stress suscetibility 1-9 scale
@@ -1570,8 +1363,7 @@ is_a: CO_341:0000155 ! pod borers susceptibility
 
 [Term]
 id: CO_341:0000228
-name: pigeonpea ppc_count_podplnt
-namespace: PigeonpeaVariable
+name: pigeonpea ppc_count_podplnt variable
 relationship: variable_of CO_341:0000036 ! pods per plant
 relationship: variable_of CO_341:0000038 ! pod/plant
 relationship: variable_of CO_341:0000270 ! pods per plant count - method
@@ -1579,8 +1371,7 @@ is_a: CO_341:0000036 ! pods per plant
 
 [Term]
 id: CO_341:0000229
-name: pigeonpea podlenth_avg_cm
-namespace: PigeonpeaVariable
+name: pigeonpea podlenth_avg_cm variable
 relationship: variable_of CO_341:0000071 ! cm
 relationship: variable_of CO_341:0000141 ! pod length
 relationship: variable_of CO_341:0000142 ! pod length - method
@@ -1588,8 +1379,7 @@ is_a: CO_341:0000141 ! pod length
 
 [Term]
 id: CO_341:0000230
-name: pigeonpea podsize_scr_1to3
-namespace: PigeonpeaVariable
+name: pigeonpea podsize_scr_1to3 variable
 synonym: "PSZ_Score_1to3" EXACT []
 relationship: variable_of CO_341:0000103 ! pod size - method
 relationship: variable_of CO_341:0000104 ! pod size in cm
@@ -1598,8 +1388,7 @@ is_a: CO_341:0000141 ! pod length
 
 [Term]
 id: CO_341:0000231
-name: pigeonpea psz_scr_1to3
-namespace: PigeonpeaVariable
+name: pigeonpea psz_scr_1to3 variable
 synonym: "PL_Score_1to3" EXACT []
 relationship: variable_of CO_341:0000102 ! pod size
 relationship: variable_of CO_341:0000103 ! pod size - method
@@ -1608,8 +1397,7 @@ is_a: CO_341:0000102 ! pod size
 
 [Term]
 id: CO_341:0000232
-name: pigeonpea pwax_visclsn_0or1
-namespace: PigeonpeaVariable
+name: pigeonpea pwax_visclsn_0or1 variable
 relationship: variable_of CO_341:0000099 ! pod wax
 relationship: variable_of CO_341:0000100 ! pod wax - method
 relationship: variable_of CO_341:0000101 ! visual absent-present scale
@@ -1617,8 +1405,7 @@ is_a: CO_341:0000099 ! pod wax
 
 [Term]
 id: CO_341:0000233
-name: pigeonpea ppub_visclsn_0or1
-namespace: PigeonpeaVariable
+name: pigeonpea ppub_visclsn_0or1 variable
 relationship: variable_of CO_341:0000096 ! pod pubescence
 relationship: variable_of CO_341:0000097 ! pod pubescence - method
 relationship: variable_of CO_341:0000098 ! visual absent-present scale
@@ -1626,8 +1413,7 @@ is_a: CO_341:0000096 ! pod pubescence
 
 [Term]
 id: CO_341:0000234
-name: pigeonpea podcl_visclsn_1to5
-namespace: PigeonpeaVariable
+name: pigeonpea podcl_visclsn_1to5 variable
 relationship: variable_of CO_341:0000093 ! pod color
 relationship: variable_of CO_341:0000094 ! pod color - method
 relationship: variable_of CO_341:0000095 ! visual pod color scale
@@ -1635,8 +1421,7 @@ is_a: CO_341:0000093 ! pod color
 
 [Term]
 id: CO_341:0000235
-name: pigeonpea ppl_avg_podplnt
-namespace: PigeonpeaVariable
+name: pigeonpea ppl_avg_podplnt variable
 relationship: variable_of CO_341:0000036 ! pods per plant
 relationship: variable_of CO_341:0000037 ! pods per plant - method
 relationship: variable_of CO_341:0000038 ! pod/plant
@@ -1644,8 +1429,7 @@ is_a: CO_341:0000036 ! pods per plant
 
 [Term]
 id: CO_341:0000236
-name: pigeonpea ppc_avg_podclust
-namespace: PigeonpeaVariable
+name: pigeonpea ppc_avg_podclust variable
 relationship: variable_of CO_341:0000033 ! pods per cluster
 relationship: variable_of CO_341:0000034 ! pods per cluster - method
 relationship: variable_of CO_341:0000035 ! pod/cluster
@@ -1653,8 +1437,7 @@ is_a: CO_341:0000033 ! pods per cluster
 
 [Term]
 id: CO_341:0000237
-name: pigeonpea plul_avg_cm
-namespace: PigeonpeaVariable
+name: pigeonpea plul_avg_cm variable
 relationship: variable_of CO_341:0000071 ! cm
 relationship: variable_of CO_341:0000072 ! plumule length
 relationship: variable_of CO_341:0000073 ! plumule length - method
@@ -1662,8 +1445,7 @@ is_a: CO_341:0000072 ! plumule length
 
 [Term]
 id: CO_341:0000238
-name: pigeonpea frt_meas_pct
-namespace: PigeonpeaVariable
+name: pigeonpea frt_meas_pct variable
 synonym: "Fertility percent" EXACT []
 relationship: variable_of CO_341:0000059 ! Percent
 relationship: variable_of CO_341:0000147 ! plant fertility
@@ -1672,8 +1454,7 @@ is_a: CO_341:0000147 ! plant fertility
 
 [Term]
 id: CO_341:0000239
-name: pigeonpea frt_meas_0or1
-namespace: PigeonpeaVariable
+name: pigeonpea frt_meas_0or1 variable
 relationship: variable_of CO_341:0000147 ! plant fertility
 relationship: variable_of CO_341:0000148 ! fertility fertility assessment - method
 relationship: variable_of CO_341:0000149 ! sterile/fertile scale
@@ -1681,8 +1462,7 @@ is_a: CO_341:0000147 ! plant fertility
 
 [Term]
 id: CO_341:0000240
-name: pigeonpea dff_count_days
-namespace: PigeonpeaVariable
+name: pigeonpea dff_count_days variable
 relationship: variable_of CO_341:0000138 ! days to first flower
 relationship: variable_of CO_341:0000139 ! days to first flower - method
 relationship: variable_of CO_341:0000140 ! days
@@ -1690,8 +1470,7 @@ is_a: CO_341:0000138 ! days to first flower
 
 [Term]
 id: CO_341:0000241
-name: pigeonpea vigour_vissc_1to5
-namespace: PigeonpeaVariable
+name: pigeonpea vigour_vissc_1to5 variable
 relationship: variable_of CO_341:0000132 ! plant vigour
 relationship: variable_of CO_341:0000133 ! vigour score - method
 relationship: variable_of CO_341:0000134 ! visual scores in 1-5 scale
@@ -1699,8 +1478,7 @@ is_a: CO_341:0000132 ! plant vigour
 
 [Term]
 id: CO_341:0000242
-name: pigeonpea sen_vissc_1to3
-namespace: PigeonpeaVariable
+name: pigeonpea sen_vissc_1to3 variable
 relationship: variable_of CO_341:0000129 ! plant senescence
 relationship: variable_of CO_341:0000130 ! senescence score - method
 relationship: variable_of CO_341:0000131 ! visual scoring senescence 0 to 2
@@ -1708,8 +1486,7 @@ is_a: CO_341:0000129 ! plant senescence
 
 [Term]
 id: CO_341:0000243
-name: pigeonpea hi_comp_idx
-namespace: PigeonpeaVariable
+name: pigeonpea hi_comp_idx variable
 relationship: variable_of CO_341:0000059 ! Percent
 relationship: variable_of CO_341:0000063 ! harvest index
 relationship: variable_of CO_341:0000064 ! harvest index - method
@@ -1717,8 +1494,7 @@ is_a: CO_341:0000063 ! harvest index
 
 [Term]
 id: CO_341:0000244
-name: pigeonpea vsm_scr_1to5
-namespace: PigeonpeaVariable
+name: pigeonpea vsm_scr_1to5 variable
 relationship: variable_of CO_341:0000051 ! visual selection scores at maturity stage
 relationship: variable_of CO_341:0000052 ! visual selection scores at maturity stage - method
 relationship: variable_of CO_341:0000053 ! visual scores in 1-5 scale
@@ -1726,8 +1502,7 @@ is_a: CO_341:0000051 ! visual selection scores at maturity stage
 
 [Term]
 id: CO_341:0000245
-name: pigeonpea vsp_scr_1to5
-namespace: PigeonpeaVariable
+name: pigeonpea vsp_scr_1to5 variable
 relationship: variable_of CO_341:0000048 ! visual selection scores at podding stage
 relationship: variable_of CO_341:0000049 ! visual selection scores at podding stage - method
 relationship: variable_of CO_341:0000050 ! visual scores in 1-5 scale
@@ -1735,8 +1510,7 @@ is_a: CO_341:0000048 ! visual selection scores at podding stage
 
 [Term]
 id: CO_341:0000246
-name: pigeonpea vsf_scr_1to5
-namespace: PigeonpeaVariable
+name: pigeonpea vsf_scr_1to5 variable
 relationship: variable_of CO_341:0000045 ! visual selection scores at flowering stage
 relationship: variable_of CO_341:0000046 ! visual selection scores at flowering stage - method
 relationship: variable_of CO_341:0000047 ! visual scores in 1-5 scale
@@ -1744,8 +1518,7 @@ is_a: CO_341:0000045 ! visual selection scores at flowering stage
 
 [Term]
 id: CO_341:0000247
-name: pigeonpea pbl_avg_cm
-namespace: PigeonpeaVariable
+name: pigeonpea pbl_avg_cm variable
 relationship: variable_of CO_341:0000027 ! pod bearing length
 relationship: variable_of CO_341:0000028 ! pod bearing length - method
 relationship: variable_of CO_341:0000071 ! cm
@@ -1753,8 +1526,7 @@ is_a: CO_341:0000027 ! pod bearing length
 
 [Term]
 id: CO_341:0000248
-name: pigeonpea pst_count_plnt
-namespace: PigeonpeaVariable
+name: pigeonpea pst_count_plnt variable
 relationship: variable_of CO_341:0000024 ! plant stand
 relationship: variable_of CO_341:0000025 ! plant stand - method
 relationship: variable_of CO_341:0000026 ! plants
@@ -1762,8 +1534,7 @@ is_a: CO_341:0000024 ! plant stand
 
 [Term]
 id: CO_341:0000249
-name: pigeonpea pht_avg_cm
-namespace: PigeonpeaVariable
+name: pigeonpea pht_avg_cm variable
 relationship: variable_of CO_341:0000021 ! plant height
 relationship: variable_of CO_341:0000022 ! plant height average - method
 relationship: variable_of CO_341:0000071 ! cm
@@ -1771,8 +1542,7 @@ is_a: CO_341:0000021 ! plant height
 
 [Term]
 id: CO_341:0000250
-name: pigeonpea pht_meas_cm
-namespace: PigeonpeaVariable
+name: pigeonpea pht_meas_cm variable
 relationship: variable_of CO_341:0000021 ! plant height
 relationship: variable_of CO_341:0000071 ! cm
 relationship: variable_of CO_341:0000180 ! plant height measured - method
@@ -1780,8 +1550,7 @@ is_a: CO_341:0000021 ! plant height
 
 [Term]
 id: CO_341:0000251
-name: pigeonpea mt_count_days
-namespace: PigeonpeaVariable
+name: pigeonpea mt_count_days variable
 relationship: variable_of CO_341:0000009 ! days to 75 % maturity
 relationship: variable_of CO_341:0000010 ! days to maturity - method
 relationship: variable_of CO_341:0000140 ! days
@@ -1789,8 +1558,7 @@ is_a: CO_341:0000009 ! days to 75 % maturity
 
 [Term]
 id: CO_341:0000252
-name: pigeonpea flow50_count_days
-namespace: PigeonpeaVariable
+name: pigeonpea flow50_count_days variable
 relationship: variable_of CO_341:0000006 ! days to 50 % flowering
 relationship: variable_of CO_341:0000007 ! days to 50 % flowering - method
 relationship: variable_of CO_341:0000140 ! days
@@ -1798,8 +1566,7 @@ is_a: CO_341:0000006 ! days to 50 % flowering
 
 [Term]
 id: CO_341:0000253
-name: pigeonpea mtg_class_1to12
-namespace: PigeonpeaVariable
+name: pigeonpea mtg_class_1to12 variable
 relationship: variable_of CO_341:0000003 ! maturity group
 relationship: variable_of CO_341:0000004 ! maturity group - method
 relationship: variable_of CO_341:0000005 ! days required to 50 % flowering
@@ -1807,8 +1574,7 @@ is_a: CO_341:0000003 ! maturity group
 
 [Term]
 id: CO_341:0000254
-name: pigeonpea fp_visclsn_1to2
-namespace: PigeonpeaVariable
+name: pigeonpea fp_visclsn_1to2 variable
 relationship: variable_of CO_341:0000000 ! flowering pattern
 relationship: variable_of CO_341:0000001 ! flowering pattern - method
 relationship: variable_of CO_341:0000002 ! visual observation flowering pattern scale
@@ -1816,8 +1582,7 @@ is_a: CO_341:0000000 ! flowering pattern
 
 [Term]
 id: CO_341:0000255
-name: pigeonpea ppblight_suscp_1to9
-namespace: PigeonpeaVariable
+name: pigeonpea ppblight_suscp_1to9 variable
 relationship: variable_of CO_341:0000156 ! phytophthora blight disease susceptibility
 relationship: variable_of CO_341:0000168 ! disease phytophthora blight susceptibility - method
 relationship: variable_of CO_341:0000187 ! biotic stress suscetibility 1-9 scale
@@ -1825,8 +1590,7 @@ is_a: CO_341:0000156 ! phytophthora blight disease susceptibility
 
 [Term]
 id: CO_341:0000256
-name: pigeonpea nematode_suscp_1to9
-namespace: PigeonpeaVariable
+name: pigeonpea nematode_suscp_1to9 variable
 relationship: variable_of CO_341:0000157 ! nematodes susceptibility
 relationship: variable_of CO_341:0000169 ! nematodes susceptibility - method
 relationship: variable_of CO_341:0000188 ! biotic stress suscetibility 1-9 scale
@@ -1834,8 +1598,7 @@ is_a: CO_341:0000157 ! nematodes susceptibility
 
 [Term]
 id: CO_341:0000257
-name: pigeonpea ltemp_suscp_1to9
-namespace: PigeonpeaVariable
+name: pigeonpea ltemp_suscp_1to9 variable
 relationship: variable_of CO_341:0000158 ! low temperature stress susceptibility
 relationship: variable_of CO_341:0000170 ! low temperature stress susceptibility - method
 relationship: variable_of CO_341:0000189 ! abiotic stress suscetibility 1-9 scale
@@ -1843,8 +1606,7 @@ is_a: CO_341:0000158 ! low temperature stress susceptibility
 
 [Term]
 id: CO_341:0000258
-name: pigeonpea lt_suscp_1to9
-namespace: PigeonpeaVariable
+name: pigeonpea lt_suscp_1to9 variable
 relationship: variable_of CO_341:0000159 ! leaf tier susceptibility
 relationship: variable_of CO_341:0000171 ! leaf tier susceptibility - method
 relationship: variable_of CO_341:0000190 ! biotic stress suscetibility 1-9 scale
@@ -1852,8 +1614,7 @@ is_a: CO_341:0000159 ! leaf tier susceptibility
 
 [Term]
 id: CO_341:0000259
-name: pigeonpea lfpub_visclsn_0or1
-namespace: PigeonpeaVariable
+name: pigeonpea lfpub_visclsn_0or1 variable
 relationship: variable_of CO_341:0000087 ! leaf pubescence
 relationship: variable_of CO_341:0000088 ! leaf pubescence - method
 relationship: variable_of CO_341:0000089 ! visual absent-present scale
@@ -1861,8 +1622,7 @@ is_a: CO_341:0000087 ! leaf pubescence
 
 [Term]
 id: CO_341:0000260
-name: pigeonpea lshape_visclsn_1to5
-namespace: PigeonpeaVariable
+name: pigeonpea lshape_visclsn_1to5 variable
 relationship: variable_of CO_341:0000084 ! leaf shape
 relationship: variable_of CO_341:0000085 ! leaf shape - method
 relationship: variable_of CO_341:0000086 ! visual leaf shape scale
@@ -1870,8 +1630,7 @@ is_a: CO_341:0000084 ! leaf shape
 
 [Term]
 id: CO_341:0000261
-name: pigeonpea spad_avg_cci
-namespace: PigeonpeaVariable
+name: pigeonpea spad_avg_cci variable
 relationship: variable_of CO_341:0000066 ! leaf chlorophyll content
 relationship: variable_of CO_341:0000067 ! spad chlorophyll index - method
 relationship: variable_of CO_341:0000068 ! CCI
@@ -1879,8 +1638,7 @@ is_a: CO_341:0000066 ! leaf chlorophyll content
 
 [Term]
 id: CO_341:0000262
-name: pigeonpea htemp_suscp_1to9
-namespace: PigeonpeaVariable
+name: pigeonpea htemp_suscp_1to9 variable
 relationship: variable_of CO_341:0000160 ! high temperature stress susceptibility
 relationship: variable_of CO_341:0000172 ! high temperature stress susceptibility - method
 relationship: variable_of CO_341:0000191 ! abiotic stress suscetibility 1-9 scale
@@ -1888,8 +1646,7 @@ is_a: CO_341:0000160 ! high temperature stress susceptibility
 
 [Term]
 id: CO_341:0000263
-name: pigeonpea fw_comp_pct
-namespace: PigeonpeaVariable
+name: pigeonpea fw_comp_pct variable
 relationship: variable_of CO_341:0000054 ! fusarium wilt incidence
 relationship: variable_of CO_341:0000055 ! fusarium wilt - method
 relationship: variable_of CO_341:0000059 ! Percent
@@ -1897,8 +1654,7 @@ is_a: CO_341:0000054 ! fusarium wilt incidence
 
 [Term]
 id: CO_341:0000264
-name: pigeonpea fcl_visclsn_1to5
-namespace: PigeonpeaVariable
+name: pigeonpea fcl_visclsn_1to5 variable
 relationship: variable_of CO_341:0000090 ! flower color
 relationship: variable_of CO_341:0000091 ! flower color - method
 relationship: variable_of CO_341:0000092 ! visual flower color scale
@@ -1906,8 +1662,7 @@ is_a: CO_341:0000090 ! flower color
 
 [Term]
 id: CO_341:0000265
-name: pigeonpea drought_suscp_1to9
-namespace: PigeonpeaVariable
+name: pigeonpea drought_suscp_1to9 variable
 relationship: variable_of CO_341:0000161 ! drought stress susceptibility
 relationship: variable_of CO_341:0000173 ! drought stress susceptibility - method
 relationship: variable_of CO_341:0000192 ! abiotic stress suscetibility 1-9 scale
@@ -1915,8 +1670,7 @@ is_a: CO_341:0000161 ! drought stress susceptibility
 
 [Term]
 id: CO_341:0000266
-name: pigeonpea ckd_volincr_idx
-namespace: PigeonpeaVariable
+name: pigeonpea ckd_volincr_idx variable
 relationship: variable_of CO_341:0000111 ! cooking quality of dhal
 relationship: variable_of CO_341:0000112 ! cooking quality of dhal - method
 relationship: variable_of CO_341:0000116 ! index
@@ -1924,8 +1678,7 @@ is_a: CO_341:0000111 ! cooking quality of dhal
 
 [Term]
 id: CO_341:0000267
-name: pigeonpea nclp_avg_clustplnt
-namespace: PigeonpeaVariable
+name: pigeonpea nclp_avg_clustplnt variable
 relationship: variable_of CO_341:0000144 ! number of clusters
 relationship: variable_of CO_341:0000145 ! number of clusters average- method
 relationship: variable_of CO_341:0000146 ! cluster/plant
@@ -1933,8 +1686,7 @@ is_a: CO_341:0000144 ! number of clusters
 
 [Term]
 id: CO_341:0000268
-name: pigeonpea nclp_count_clustplnt
-namespace: PigeonpeaVariable
+name: pigeonpea nclp_count_clustplnt variable
 relationship: variable_of CO_341:0000144 ! number of clusters
 relationship: variable_of CO_341:0000146 ! cluster/plant
 relationship: variable_of CO_341:0000181 ! number of clusters count - method
@@ -1942,8 +1694,7 @@ is_a: CO_341:0000144 ! number of clusters
 
 [Term]
 id: CO_341:0000269
-name: pigeonpea altbl_suscp_1to9
-namespace: PigeonpeaVariable
+name: pigeonpea altbl_suscp_1to9 variable
 relationship: variable_of CO_341:0000162 ! alternaria blight disease susceptibility
 relationship: variable_of CO_341:0000174 ! disease alternaria blight susceptibility - method
 relationship: variable_of CO_341:0000193 ! biotic stress suscetibility 1-9 scale
@@ -1952,7 +1703,6 @@ is_a: CO_341:0000162 ! alternaria blight disease susceptibility
 [Term]
 id: CO_341:0000270
 name: pigeonpea pods per plant count - method
-namespace: PigeonpeaMethod
 def: "Count the number of pods on a plant" [CO:curators]
 relationship: method_of CO_341:0000036 ! pods per plant
 
