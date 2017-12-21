@@ -1,0 +1,3824 @@
+format-version: 1.2
+auto-generated-by: java
+default-namespace: CO_324_sorghum
+ontology: co_324
+
+[Term]
+id: CO_324:0000002
+name: sorghum flag leaf weight trait
+def: "Weight of the flag leaf." [CO:curators]
+synonym: "FlgLfW" EXACT []
+is_a: TO:0000832
+
+[Term]
+id: CO_324:0000003
+name: sorghum rest of leaves weight trait
+def: "Total leaf weight without flag leaf weight." [CO:curators]
+synonym: "LFWT1" EXACT []
+
+[Term]
+id: CO_324:0000004
+name: sorghum leaf biomass dry matter basis yield trait
+def: "The leaf biomass expressed in dry matter basis that was harvested per unit area." [CO:curators]
+synonym: "LfDMYld" EXACT []
+is_a: TO:0000371
+
+[Term]
+id: CO_324:0000006
+name: sorghum grain dry matter basis yield trait
+def: "The weight of grain expressed in dry matter basis that was harvested per unit area." [CO:curators]
+synonym: "GDMYld" EXACT []
+is_a: TO:0000396
+
+[Term]
+id: CO_324:0000009
+name: sorghum grain number per panicle trait
+def: "Number of grains per panicle." [CO:curators]
+synonym: "GNoPcle" EXACT []
+is_a: TO:0002759
+
+[Term]
+id: CO_324:0000012
+name: sorghum panicle harvest index trait
+def: "Proportion of harvested panicle weight over whole above ground biomass weight." [CO:curators]
+synonym: "Panicle partitioning" EXACT []
+synonym: "PcleHI" EXACT []
+is_a: TO:0000128
+
+[Term]
+id: CO_324:0000013
+name: sorghum panicle number trait
+def: "Number of panicles." [CO:curators]
+synonym: "PcleNo" EXACT []
+
+[Term]
+id: CO_324:0000014
+name: sorghum panicle weight without grain trait
+def: "Weight of the panicle without grain." [CO:curators]
+synonym: "PCleWWoG" EXACT []
+is_a: TO:0000014
+
+[Term]
+id: CO_324:0000016
+name: sorghum stover nitrogen digestibility trait
+def: "Stover Nitrogen digestibility value." [CO:curators]
+synonym: "StoND" EXACT []
+is_a: TO:0020080
+
+[Term]
+id: CO_324:0000019
+name: sorghum grain harvest index trait
+def: "Proportion of harvested grain weight over whole above ground biomass weight." [CO:curators]
+synonym: "Biomass partitioning" EXACT []
+synonym: "HI" EXACT []
+is_a: TO:0000895
+
+[Term]
+id: CO_324:0000020
+name: sorghum whole above ground biomass dry matter basis yield trait
+def: "The whole above ground biomass expressed in dry matter basis that was harvested per unit area." [CO:curators]
+synonym: "Whole above ground biomass" EXACT []
+is_a: TO:0000327
+
+[Term]
+id: CO_324:0000022
+name: sorghum stem biomass yield at harvest trait
+def: "The stem biomass expressed fresh (field) basis that was harvested per unit area." [CO:curators]
+synonym: "StmHvYld" EXACT []
+is_a: TO:0000371
+
+[Term]
+id: CO_324:0000024
+name: sorghum stem sodium content trait
+def: "The content of sodium ion content measured in the stems." [CO:curators]
+synonym: "StmNa" EXACT []
+is_a: TO:0020004
+
+[Term]
+id: CO_324:0000025
+name: sorghum stem potassium content trait
+def: "The content of potassium ion measured in the stems." [CO:curators]
+synonym: "StmK" EXACT []
+is_a: TO:0020003
+
+[Term]
+id: CO_324:0000027
+name: sorghum flowering time trait
+def: "Flowering time." [CO:curators]
+synonym: "Flo" EXACT []
+is_a: TO:0002616
+
+[Term]
+id: CO_324:0000028
+name: sorghum leaf to stem weight ratio trait
+def: "The ratio of leaves weight over stem weight." [CO:curators]
+synonym: "LfStmWRatio" EXACT []
+is_a: TO:0000077
+
+[Term]
+id: CO_324:0000031
+name: sorghum stover organic matter digestibility trait
+def: "Organic matter digestibility value derived from chemical analysis of dried and ground stover, usually using Near Infrared Reflectance Spectrophotometry (NIRS)." [CO:curators]
+synonym: "StoOMD" EXACT []
+
+[Term]
+id: CO_324:0000035
+name: sorghum harvest time trait
+def: "Harvest time." [CO:curators]
+synonym: "Hvst" EXACT []
+
+[Term]
+id: CO_324:0000036
+name: sorghum stover metabolised energy trait
+def: "Metabolised energy value derived from chemical analysis of dried and ground stover." [CO:curators]
+synonym: "StoEng" EXACT []
+
+[Term]
+id: CO_324:0000039
+name: sorghum stem nodal tiller number trait
+def: "Number of nodal tillers arising from the upper nodes in sorghum stem." [CO:curators]
+synonym: "StmNdlTNo" EXACT []
+is_a: TO:0000361
+
+[Term]
+id: CO_324:0000040
+name: sorghum plant basal tiller number trait
+def: "Number of basal tillers." [CO:curators]
+synonym: "PBTNo" EXACT []
+is_a: TO:0001004
+
+[Term]
+id: CO_324:0000042
+name: sorghum panicle width trait
+def: "Width of the panicle." [CO:curators]
+synonym: "PcleWid" EXACT []
+is_a: TO:0006032
+
+[Term]
+id: CO_324:0000044
+name: sorghum grain subcoat presence trait
+def: "Presence or absence of a seed subcoat." [CO:curators]
+synonym: "GSCoat" EXACT []
+is_a: TO:0002629
+
+[Term]
+id: CO_324:0000045
+name: sorghum grain color trait
+def: "Color of the grain." [CO:curators]
+synonym: "GCol" EXACT []
+is_a: TO:0002617
+
+[Term]
+id: CO_324:0000046
+name: sorghum grain size trait
+def: "The size of the grain." [CO:curators]
+synonym: "GSz" EXACT []
+is_a: TO:0000397
+
+[Term]
+id: CO_324:0000047
+name: sorghum grain lustre trait
+def: "Grain lustre." [CO:curators]
+synonym: "GLstr" EXACT []
+is_a: TO:0002629
+
+[Term]
+id: CO_324:0000049
+name: sorghum panicle exertion trait
+def: "Length of peduncle emerged from the flag leaf sheath." [CO:curators]
+synonym: "PcleEx" EXACT []
+
+[Term]
+id: CO_324:0000050
+name: sorghum panicle compactness and shape trait
+def: "Compactness and shape of the panicle." [CO:curators]
+synonym: "PcleCpt" EXACT []
+is_a: TO:0020001
+
+[Term]
+id: CO_324:0000055
+name: sorghum leaf color trait
+def: "Leaf color." [CO:curators]
+synonym: "LfCol" EXACT []
+is_a: TO:0000326
+
+[Term]
+id: CO_324:0000056
+name: sorghum leaf vein color trait
+def: "Pigmentation of the leaf-vein." [CO:curators]
+synonym: "LfVCol" EXACT []
+is_a: TO:0000719
+
+[Term]
+id: CO_324:0000057
+name: sorghum leaf midrib color trait
+def: "Leaf midrib color." [CO:curators]
+synonym: "LfMRCol" EXACT []
+is_a: TO:0000720
+
+[Term]
+id: CO_324:0000061
+name: sorghum sorghum downy mildew incidence trait
+def: "Sorghum downy mildew incidence on sorghum plants. Caused by Peronospora sp." [CO:curators]
+synonym: "SDMInc" EXACT []
+is_a: TO:0000439
+
+[Term]
+id: CO_324:0000063
+name: sorghum sorghum rust incidence trait
+def: "Incidence of rust on sorghum plants. Causative agent: Puccinia purpurea." [CO:curators]
+synonym: "RustInc" EXACT []
+is_a: TO:0000439
+
+[Term]
+id: CO_324:0000065
+name: sorghum insect damage trait
+def: "Damage caused by insects on plants." [CO:curators]
+synonym: "InsDmg" EXACT []
+is_a: TO:0000261
+
+[Term]
+id: CO_324:0000067
+name: sorghum sorghum shoot fly incidence trait
+def: "Shoot fly (Atherigona soccata) incidence on sorghum plants." [CO:curators]
+synonym: "SSFlyInc" EXACT []
+is_a: TO:0000261
+
+[Term]
+id: CO_324:0000068
+name: sorghum sorghum stem borer incidence trait
+def: "Stem borer (Chilo partellus) incidence on sorghum plants." [CO:curators]
+synonym: "SBorerInc" EXACT []
+is_a: TO:0020005
+
+[Term]
+id: CO_324:0000071
+name: sorghum grain number per panicle - computation method
+def: "Calculate using the formula." [CO:curators]
+relationship: method_of CO_324:0000009 ! grain number per panicle
+
+[Term]
+id: CO_324:0000072
+name: sorghum grain/panicle scale
+relationship: scale_of CO_324:0000071 ! grain number per panicle - computation
+
+[Term]
+id: CO_324:0000073
+name: sorghum grain weight per panicle trait
+def: "The weight of grains per panicle." [CO:curators]
+synonym: "GWPcle" EXACT []
+is_a: TO:0002746
+
+[Term]
+id: CO_324:0000074
+name: sorghum grain weight per panicle - computation method
+def: "Calculate using the formula." [CO:curators]
+relationship: method_of CO_324:0000073 ! grain weight per panicle
+
+[Term]
+id: CO_324:0000075
+name: sorghum g/panicle scale
+relationship: scale_of CO_324:0000074 ! grain weight per panicle - computation
+relationship: scale_of CO_324:0000318 ! panicles weight without grain - measurement
+
+[Term]
+id: CO_324:0000076
+name: sorghum panicle yield at harvest trait
+def: "The weight of panicles expressed fresh (field) basis that was harvested per unit area." [CO:curators]
+synonym: "PcleHvYld" EXACT []
+is_a: TO:0000371
+
+[Term]
+id: CO_324:0000077
+name: sorghum panicle yield at harvest - measurement method
+def: "Record panicle weight after harvest." [CO:curators]
+relationship: method_of CO_324:0000076 ! panicle yield at harvest
+
+[Term]
+id: CO_324:0000078
+name: sorghum g/plot scale
+relationship: scale_of CO_324:0000077 ! panicle yield at harvest - measurement
+relationship: scale_of CO_324:0000083 ! stover biomass dry matter basis yield (g/plot) - computation
+relationship: scale_of CO_324:0000134 ! grain yield at harvest - measurement
+relationship: scale_of CO_324:0000304 ! flag leaf weight - estimation
+relationship: scale_of CO_324:0000308 ! leaf biomass dry matter basis yield (g/plot) - computation
+relationship: scale_of CO_324:0000324 ! whole above ground biomass dry matter basis yield (g/plot) - computation
+relationship: scale_of CO_324:0000326 ! stem biomass yield at harvest - measurement
+relationship: scale_of CO_324:0000398 ! grain dry matter basis yield (g/plot) - computation
+relationship: scale_of CO_324:0000443 ! leaf biomass yield at harvest - measurement
+relationship: scale_of CO_324:0000463 ! panicle dry matter basis yield (g/plot) - computation
+relationship: scale_of CO_324:0000497 ! stem biomass dry matter basis yield (g/plot) - computation
+relationship: scale_of CO_324:0000527 ! stover biomass yield at harvest - measurement
+relationship: scale_of CO_324:0000558 ! whole above ground biomass yield at harvest - measurement
+
+[Term]
+id: CO_324:0000079
+name: sorghum grain weight trait
+def: "The weight of grain per sample (single, 100, 200, 1000)." [CO:curators]
+synonym: "GW" EXACT []
+is_a: TO:0002746
+
+[Term]
+id: CO_324:0000080
+name: sorghum thousand grain weight - measurement method
+def: "Count and weigh 1000 grains." [CO:curators]
+relationship: method_of CO_324:0000079 ! grain weight
+
+[Term]
+id: CO_324:0000081
+name: sorghum g scale
+relationship: scale_of CO_324:0000080 ! thousand grain weight - measurement
+relationship: scale_of CO_324:0000143 ! stem juice weight - measurement
+relationship: scale_of CO_324:0000306 ! rest of leaves weight - computation
+relationship: scale_of CO_324:0000425 ! hundred grain weight - measurement
+relationship: scale_of CO_324:0000660 ! decorticated grain weight - measurement
+
+[Term]
+id: CO_324:0000082
+name: sorghum stover biomass dry matter basis yield trait
+def: "The stover biomass yield expressed as a quantity of dry matter harvested per unit area." [CO:curators]
+synonym: "StoDMYld" EXACT []
+is_a: TO:0000327
+
+[Term]
+id: CO_324:0000083
+name: sorghum stover biomass dry matter basis yield (g/plot) - computation method
+def: "Calculate using the formula." [CO:curators]
+relationship: method_of CO_324:0000082 ! stover biomass dry matter basis yield
+
+[Term]
+id: CO_324:0000085
+name: sorghum maturity time trait
+def: "Maturity time." [CO:curators]
+synonym: "Mat" EXACT []
+
+[Term]
+id: CO_324:0000086
+name: sorghum maturity date - estimation method
+def: "Record maturity date, observed as onset of black spot on the bottom of the grain panicle." [CO:curators]
+relationship: method_of CO_324:0000085 ! maturity time
+relationship: method_of CO_324:0000085 ! maturity time
+
+[Term]
+id: CO_324:0000087
+name: sorghum julian day scale
+relationship: scale_of CO_324:0000086 ! maturity date - estimation
+relationship: scale_of CO_324:0000119 ! flowering date - estimation
+relationship: scale_of CO_324:0000122 ! heading date - estimation
+relationship: scale_of CO_324:0000281 ! flag leaf ligulation - date estimation
+relationship: scale_of CO_324:0000645 ! harvest date - measurement
+
+[Term]
+id: CO_324:0000088
+name: sorghum plant height trait
+def: "Length of the main stalk from the base of the stalk to the tip of the panicle." [CO:curators]
+synonym: "PH" EXACT []
+is_a: TO:0000207
+
+[Term]
+id: CO_324:0000089
+name: sorghum plant height - measurement method
+def: "Measure plant height, usually recorded in several plants 15 to 20 days after the end of flowering." [CO:curators]
+relationship: method_of CO_324:0000088 ! plant height
+
+[Term]
+id: CO_324:0000090
+name: sorghum cm scale
+relationship: scale_of CO_324:0000089 ! plant height - measurement
+relationship: scale_of CO_324:0000095 ! panicle length - measurement
+relationship: scale_of CO_324:0000140 ! stem internodes length - computation
+relationship: scale_of CO_324:0000272 ! peduncle length - measurement
+relationship: scale_of CO_324:0000346 ! panicle width - measurement
+relationship: scale_of CO_324:0000356 ! panicle exertion - measurement
+relationship: scale_of CO_324:0000626 ! stem length - measurement
+
+[Term]
+id: CO_324:0000091
+name: sorghum grain covering trait
+def: "Proportion of grain surface covered by glumes" [CO:curators]
+synonym: "GCov" EXACT []
+
+[Term]
+id: CO_324:0000092
+name: sorghum grain covering - estimation method
+def: "Visual observation of covering of grain by glumes." [CO:curators]
+relationship: method_of CO_324:0000091 ! grain covering
+relationship: method_of CO_324:0000091 ! grain covering
+
+[Term]
+id: CO_324:0000093
+name: sorghum gcov score (1-5) scale
+relationship: scale_of CO_324:0000092 ! grain covering - estimation
+
+[Term]
+id: CO_324:0000094
+name: sorghum panicle length trait
+def: "Length of the panicle." [CO:curators]
+synonym: "PcleLng" EXACT []
+is_a: TO:0000040
+
+[Term]
+id: CO_324:0000095
+name: sorghum panicle length - measurement method
+def: "Measure length of the panicle from the first primary branch to the top." [CO:curators]
+relationship: method_of CO_324:0000094 ! panicle length
+
+[Term]
+id: CO_324:0000097
+name: sorghum glume color trait
+def: "Color of the glumes." [CO:curators]
+synonym: "GlmCol" EXACT []
+is_a: TO:0000221
+
+[Term]
+id: CO_324:0000098
+name: sorghum glume color - estimation method
+def: "Observe glumes color." [CO:curators]
+relationship: method_of CO_324:0000097 ! glume color
+
+[Term]
+id: CO_324:0000099
+name: sorghum glmcol score (1-4) scale
+relationship: scale_of CO_324:0000098 ! glume color - estimation
+
+[Term]
+id: CO_324:0000100
+name: sorghum panicle threshability trait
+def: "The threshability of the panicle, either difficult to thresh, freely threshable or partly threshable." [CO:curators]
+synonym: "PcleThrs" EXACT []
+is_a: TO:0000406
+
+[Term]
+id: CO_324:0000101
+name: sorghum panicle threshability - estimation method
+def: "At the time of threshing, visually estimate the percentage of grains and glumes adhering to assign a score corresponding." [CO:curators]
+relationship: method_of CO_324:0000100 ! panicle threshability
+
+[Term]
+id: CO_324:0000102
+name: sorghum pclethrs score (1-9) scale
+relationship: scale_of CO_324:0000101 ! panicle threshability - estimation
+
+[Term]
+id: CO_324:0000103
+name: sorghum grain mold severity trait
+def: "Grain mold severity caused by agents Aspergillus spp and/or Penicillium spp." [CO:curators]
+synonym: "GMoldSev" EXACT []
+is_a: TO:0020008
+
+[Term]
+id: CO_324:0000104
+name: sorghum grain mold severity - estimation method
+def: "Record severity as extent of grain surface covered with mold, usually observed when majority of grains in the middle part of panicle have matured. Molded grain show pink, orange, gray, white or black discoloration depending on the fungus involved." [CO:curators]
+relationship: method_of CO_324:0000103 ! grain mold severity
+relationship: method_of CO_324:0000103 ! grain mold severity
+
+[Term]
+id: CO_324:0000105
+name: sorghum gmoldinc score (1-9) scale
+relationship: scale_of CO_324:0000104 ! grain mold severity - estimation
+
+[Term]
+id: CO_324:0000106
+name: sorghum grain anthracnose severity trait
+def: "Grain anthracnose severity on grain caused by Colletotrichum graminicola." [CO:curators]
+synonym: "GAnthrSev" EXACT []
+is_a: TO:0000439
+
+[Term]
+id: CO_324:0000107
+name: sorghum grain anthracnose severity - estimation method
+def: "Record disease severity at maturity on a sample of 5 panicles or more." [CO:curators]
+relationship: method_of CO_324:0000106 ! grain anthracnose severity
+
+[Term]
+id: CO_324:0000108
+name: sorghum ganthrsev score (1-5) scale
+relationship: scale_of CO_324:0000107 ! grain anthracnose severity - estimation
+
+[Term]
+id: CO_324:0000109
+name: sorghum foliar anthracnose severity trait
+def: "Foliar anthracnose severity on Sorghum, disease caused by Colletotrichum graminicola." [CO:curators]
+synonym: "FAnthrSev" EXACT []
+is_a: TO:0000439
+
+[Term]
+id: CO_324:0000110
+name: sorghum foliar anthracnose severity - estimation method
+def: "Record disease severity at the soft-dough stage on the top four leaves that contribute most to grain development or on all plant." [CO:curators]
+relationship: method_of CO_324:0000109 ! foliar anthracnose severity
+relationship: method_of CO_324:0000569 ! foliar anthracnose response
+
+[Term]
+id: CO_324:0000111
+name: sorghum fanthrsev score (1-9) scale
+relationship: scale_of CO_324:0000110 ! foliar anthracnose severity - estimation
+
+[Term]
+id: CO_324:0000112
+name: sorghum plant agronomic appreciation trait
+def: "Plant type desirability." [CO:curators]
+synonym: "AgApp" EXACT []
+
+[Term]
+id: CO_324:0000113
+name: sorghum plant agronomic appreciation - estimation method
+def: "Observation of the morphology of the variety to give an agronomic score." [CO:curators]
+relationship: method_of CO_324:0000112 ! plant agronomic appreciation
+
+[Term]
+id: CO_324:0000114
+name: sorghum agapp score (1-5) scale
+relationship: scale_of CO_324:0000113 ! plant agronomic appreciation - estimation
+
+[Term]
+id: CO_324:0000119
+name: sorghum flowering date - estimation method
+def: "Record date when 50% of plants in a plot reach the flowering stage." [CO:curators]
+relationship: method_of CO_324:0000027 ! flowering time
+relationship: method_of CO_324:0000027 ! flowering time
+
+[Term]
+id: CO_324:0000121
+name: sorghum heading time trait
+def: "Heading time." [CO:curators]
+synonym: "Hd" EXACT []
+
+[Term]
+id: CO_324:0000122
+name: sorghum heading date - estimation method
+def: "Record the date when 50% of plants show panicle emerged from boot." [CO:curators]
+relationship: method_of CO_324:0000121 ! heading time
+relationship: method_of CO_324:0000121 ! heading time
+
+[Term]
+id: CO_324:0000124
+name: sorghum sowing time trait
+def: "Sowing time." [CO:curators]
+synonym: "Sow" EXACT []
+
+[Term]
+id: CO_324:0000125
+name: sorghum sowing date - measurement method
+def: "Record the date of sowing." [CO:curators]
+relationship: method_of CO_324:0000124 ! sowing time
+
+[Term]
+id: CO_324:0000127
+name: sorghum variety farmer preference trait
+def: "Farmer choice of the variety." [CO:curators]
+synonym: "FP" EXACT []
+is_a: TO:0000322
+
+[Term]
+id: CO_324:0000128
+name: sorghum variety farmer preference - estimation method
+def: "The farmer observes the different plots and assigns a preference score using a scale predefined." [CO:curators]
+relationship: method_of CO_324:0000127 ! variety farmer preference
+
+[Term]
+id: CO_324:0000129
+name: sorghum fp score (1-3) scale
+relationship: scale_of CO_324:0000128 ! variety farmer preference - estimation
+
+[Term]
+id: CO_324:0000130
+name: sorghum grain desirability trait
+def: "Grain desirability of the variety." [CO:curators]
+synonym: "GD" EXACT []
+is_a: TO:0000162
+
+[Term]
+id: CO_324:0000131
+name: sorghum grain desirability - estimation method
+def: "Record desirable grain appearance, size (if it matters), presence and absence of mold and testa of the grain." [CO:curators]
+relationship: method_of CO_324:0000130 ! grain desirability
+
+[Term]
+id: CO_324:0000132
+name: sorghum gd score (1-5) scale
+relationship: scale_of CO_324:0000131 ! grain desirability - estimation
+
+[Term]
+id: CO_324:0000133
+name: sorghum grain yield at harvest trait
+def: "The weight of grain expressed fresh (field) basis that was harvested per unit area." [CO:curators]
+synonym: "GHvYld" EXACT []
+is_a: TO:0000396
+
+[Term]
+id: CO_324:0000134
+name: sorghum grain yield at harvest - measurement method
+def: "Record grain weight after harvest." [CO:curators]
+relationship: method_of CO_324:0000133 ! grain yield at harvest
+
+[Term]
+id: CO_324:0000136
+name: sorghum plant vigor trait
+def: "Adult plant vigor assessment." [CO:curators]
+synonym: "Plant vigor, PVIG" EXACT []
+synonym: "PVig" EXACT []
+is_a: TO:0000250
+
+[Term]
+id: CO_324:0000137
+name: sorghum plant vigor - estimation method
+def: "Comparative visual observation of the biomass of plants (length, width, number of leaves)." [CO:curators]
+relationship: method_of CO_324:0000136 ! plant vigor
+
+[Term]
+id: CO_324:0000138
+name: sorghum vigor score (1-5) scale
+relationship: scale_of CO_324:0000137 ! plant vigor - estimation
+relationship: scale_of CO_324:0000191 ! seedling vigor - estimation
+
+[Term]
+id: CO_324:0000139
+name: sorghum stem internodes length trait
+def: "The length of the internodes of the stem." [CO:curators]
+synonym: "InterNodLng" EXACT []
+is_a: TO:0000145
+
+[Term]
+id: CO_324:0000140
+name: sorghum stem internodes length - computation method
+def: "Use formula to compute stem internodes length." [CO:curators]
+relationship: method_of CO_324:0000139 ! stem internodes length
+
+[Term]
+id: CO_324:0000142
+name: sorghum stem juice weight trait
+def: "Weight of sorghum stem juice." [CO:curators]
+synonym: "StmJW" EXACT []
+is_a: TO:0000361
+
+[Term]
+id: CO_324:0000143
+name: sorghum stem juice weight - measurement method
+def: "Weight of the total amount of juice collected after pressing sorghum stems." [CO:curators]
+relationship: method_of CO_324:0000142 ! stem juice weight
+
+[Term]
+id: CO_324:0000145
+name: sorghum cytoplasmic male sterility trait
+def: "An assessment of male sterility on the panicle." [CO:curators]
+synonym: "CMS" EXACT []
+synonym: "Cytoplasm system" EXACT []
+is_a: TO:0000437
+
+[Term]
+id: CO_324:0000146
+name: sorghum cytoplasmic male sterility - estimation method
+def: "Field observation of panicles for the presence of infertility by observing the shape of the anthers." [CO:curators]
+relationship: method_of CO_324:0000145 ! cytoplasmic male sterility
+
+[Term]
+id: CO_324:0000147
+name: sorghum cms score (1-3) scale
+relationship: scale_of CO_324:0000146 ! cytoplasmic male sterility - estimation
+
+[Term]
+id: CO_324:0000148
+name: sorghum variety maturity appreciation trait
+def: "Appreciation of maturity time of the variety by comparing to local check variety." [CO:curators]
+synonym: "MatApp" EXACT []
+is_a: TO:0000322
+
+[Term]
+id: CO_324:0000149
+name: sorghum variety maturity appreciation - estimation method
+def: "Comparing the flowering date of the test varieties against a local variety check by considering a 'normal season'." [CO:curators]
+relationship: method_of CO_324:0000148 ! variety maturity appreciation
+
+[Term]
+id: CO_324:0000150
+name: sorghum matapp score (1-5) scale
+relationship: scale_of CO_324:0000149 ! variety maturity appreciation - estimation
+
+[Term]
+id: CO_324:0000151
+name: sorghum striga maximum vigor trait
+def: "Assessment of the Striga mean vigor." [CO:curators]
+synonym: "StrigaMaxVig" EXACT []
+is_a: TO:0000347
+
+[Term]
+id: CO_324:0000152
+name: sorghum maximum striga vigor - estimation method
+def: "Rate the maximum vigor (biomass) of Striga plants in the plot." [CO:curators]
+relationship: method_of CO_324:0000151 ! striga maximum vigor
+
+[Term]
+id: CO_324:0000153
+name: sorghum strigavigor score (0-9) scale
+relationship: scale_of CO_324:0000152 ! maximum striga vigor - estimation
+relationship: scale_of CO_324:0000155 ! mean striga vigor - estimation
+
+[Term]
+id: CO_324:0000154
+name: sorghum striga mean vigor trait
+def: "Assessment of the Striga maximum vigor." [CO:curators]
+synonym: "StrigaMeanVig" EXACT []
+is_a: TO:0000347
+
+[Term]
+id: CO_324:0000155
+name: sorghum mean striga vigor - estimation method
+def: "Rate the mean vigor (biomass) of Striga plants in the plot." [CO:curators]
+relationship: method_of CO_324:0000154 ! striga mean vigor
+
+[Term]
+id: CO_324:0000157
+name: sorghum midge incidence trait
+def: "Midge incidence as grain abortion on the panicles." [CO:curators]
+synonym: "Grain incidence" EXACT []
+synonym: "MidgeInc" EXACT []
+is_a: TO:0000261
+
+[Term]
+id: CO_324:0000158
+name: sorghum midge incidence - estimation method
+def: "Observe and record incidence/damage caused by midges." [CO:curators]
+relationship: method_of CO_324:0000157 ! midge incidence
+
+[Term]
+id: CO_324:0000159
+name: sorghum midgeinc score (1-5) scale
+relationship: scale_of CO_324:0000158 ! midge incidence - estimation
+
+[Term]
+id: CO_324:0000160
+name: sorghum empty panicle number trait
+def: "Number of empty or missing panicles, mainly due biotic or abiotic stresses, as heat, frost, bird or midge damage." [CO:curators]
+synonym: "EPcleNo" EXACT []
+is_a: TO:0000152
+
+[Term]
+id: CO_324:0000161
+name: sorghum empty panicle number - counting method
+def: "Visually asset losses of grain in harvested panicles, damage usually caused by birds, insects, midges, breakages, etc." [CO:curators]
+relationship: method_of CO_324:0000160 ! empty panicle number
+
+[Term]
+id: CO_324:0000162
+name: sorghum panicle/plot scale
+relationship: scale_of CO_324:0000161 ! empty panicle number - counting
+relationship: scale_of CO_324:0000167 ! panicle harvested number - counting
+relationship: scale_of CO_324:0000170 ! panicle off type number - counting
+relationship: scale_of CO_324:0000316 ! panicle number - counting
+
+[Term]
+id: CO_324:0000163
+name: sorghum number of harvested hills trait
+def: "Number of harvested hills in the plot." [CO:curators]
+synonym: "NHH" EXACT []
+
+[Term]
+id: CO_324:0000164
+name: sorghum harvested hills - counting method
+def: "Count the number of planting holes harvested effectively." [CO:curators]
+relationship: method_of CO_324:0000163 ! number of harvested hills
+
+[Term]
+id: CO_324:0000165
+name: sorghum hill scale
+relationship: scale_of CO_324:0000164 ! harvested hills - counting
+relationship: scale_of CO_324:0000173 ! number of hills at seedling - counting
+
+[Term]
+id: CO_324:0000166
+name: sorghum panicle harvested number trait
+def: "Number of effectively harvested panicles." [CO:curators]
+synonym: "PcleHNo" EXACT []
+
+[Term]
+id: CO_324:0000167
+name: sorghum panicle harvested number - counting method
+def: "Count the number of panicles in the plot actually harvested." [CO:curators]
+relationship: method_of CO_324:0000166 ! panicle harvested number
+
+[Term]
+id: CO_324:0000169
+name: sorghum panicle off type number trait
+def: "Panicle off-type number." [CO:curators]
+synonym: "Off type number" EXACT []
+synonym: "PcleOTNo" EXACT []
+is_a: TO:0000152
+
+[Term]
+id: CO_324:0000170
+name: sorghum panicle off type number - counting method
+def: "Count the number of off-types panicles." [CO:curators]
+relationship: method_of CO_324:0000169 ! panicle off type number
+
+[Term]
+id: CO_324:0000172
+name: sorghum number of seedling hills trait
+def: "Number of hills with plants at seedling stage." [CO:curators]
+synonym: "NSH" EXACT []
+
+[Term]
+id: CO_324:0000173
+name: sorghum number of hills at seedling - counting method
+def: "Count the number of planting holes with plants 5-10 days after emergence." [CO:curators]
+relationship: method_of CO_324:0000172 ! number of seedling hills
+
+[Term]
+id: CO_324:0000175
+name: sorghum seedling number trait
+def: "Seedling number after thinning." [CO:curators]
+synonym: "SdlgNo" EXACT []
+is_a: TO:0000751
+
+[Term]
+id: CO_324:0000176
+name: sorghum seedling number - counting method
+def: "Count the total number of plants in the plot after thinning." [CO:curators]
+relationship: method_of CO_324:0000175 ! seedling number
+
+[Term]
+id: CO_324:0000177
+name: sorghum plant/plot scale
+relationship: scale_of CO_324:0000176 ! seedling number - counting
+relationship: scale_of CO_324:0000182 ! striga plant number - counting
+relationship: scale_of CO_324:0000486 ! plant number - counting
+
+[Term]
+id: CO_324:0000178
+name: sorghum panicle selected number trait
+def: "Number of selected panicles selected in breeding nursery." [CO:curators]
+synonym: "NSPcle" EXACT []
+
+[Term]
+id: CO_324:0000179
+name: sorghum panicle selected number - counting method
+def: "Count selected panicles per progeny." [CO:curators]
+relationship: method_of CO_324:0000178 ! panicle selected number
+
+[Term]
+id: CO_324:0000180
+name: sorghum panicle scale
+relationship: scale_of CO_324:0000179 ! panicle selected number - counting
+
+[Term]
+id: CO_324:0000181
+name: sorghum striga plant number trait
+def: "Striga plant number." [CO:curators]
+synonym: "StrigaNo" EXACT []
+is_a: TO:0000347
+
+[Term]
+id: CO_324:0000182
+name: sorghum striga plant number - counting method
+def: "Count Striga plant number in the plot or area, usually performed at maturity of sorghum or on regular intervals during the vegetative stages of sorghum." [CO:curators]
+relationship: method_of CO_324:0000181 ! striga plant number
+
+[Term]
+id: CO_324:0000184
+name: sorghum panicle desirability trait
+def: "Desirability of the panicle shape." [CO:curators]
+synonym: "PcleDsirblty" EXACT []
+is_a: TO:0000597
+
+[Term]
+id: CO_324:0000185
+name: sorghum panicle desirability - estimation method
+def: "Observe shape, density and grain amount per panicle before harvest or on harvested panicles and record desirability." [CO:curators]
+relationship: method_of CO_324:0000184 ! panicle desirability
+
+[Term]
+id: CO_324:0000186
+name: sorghum pcledsirblty score (1-5) scale
+relationship: scale_of CO_324:0000185 ! panicle desirability - estimation
+
+[Term]
+id: CO_324:0000187
+name: sorghum panicle density trait
+def: "Panicle density." [CO:curators]
+synonym: "PcleDen" EXACT []
+is_a: TO:0000970
+
+[Term]
+id: CO_324:0000188
+name: sorghum panicle density - estimation method
+def: "Observe panicle length, distance between branches and the number of spikelets with grain and record panicle density." [CO:curators]
+relationship: method_of CO_324:0000187 ! panicle density
+
+[Term]
+id: CO_324:0000189
+name: sorghum pcleden score (1-5) scale
+relationship: scale_of CO_324:0000188 ! panicle density - estimation
+
+[Term]
+id: CO_324:0000190
+name: sorghum seedling vigor trait
+def: "Seedling vigor assessment." [CO:curators]
+synonym: "SdlgVig" EXACT []
+is_a: TO:0000280
+
+[Term]
+id: CO_324:0000191
+name: sorghum seedling vigor - estimation method
+def: "Comparative visual observation of plant biomass (length, width, number of leaves) 15 days after sowing." [CO:curators]
+relationship: method_of CO_324:0000190 ! seedling vigor
+
+[Term]
+id: CO_324:0000193
+name: sorghum striga incidence trait
+def: "Striga incidence on Sorghum plants." [CO:curators]
+synonym: "StrigaInc" EXACT []
+is_a: TO:0000347
+
+[Term]
+id: CO_324:0000194
+name: sorghum striga incidence - estimation method
+def: "Observe and record striga incidence on sorghum plants." [CO:curators]
+relationship: method_of CO_324:0000193 ! striga incidence
+
+[Term]
+id: CO_324:0000195
+name: sorghum strigainc score (1-5) scale
+relationship: scale_of CO_324:0000194 ! striga incidence - estimation
+
+[Term]
+id: CO_324:0000196
+name: sorghum stem juice sugar content trait
+def: "Sugar content in sorghum stem juice." [CO:curators]
+synonym: "StmJSC" EXACT []
+is_a: TO:0000333
+
+[Term]
+id: CO_324:0000197
+name: sorghum stem juice sugar content brix method - measurement method
+def: "Using refractometer (or hydrometer) to determine the Brix." [CO:curators]
+relationship: method_of CO_324:0000196 ! stem juice sugar content
+
+[Term]
+id: CO_324:0000198
+name: sorghum % scale
+relationship: scale_of CO_324:0000197 ! stem juice sugar content brix method - measurement
+relationship: scale_of CO_324:0000212 ! grain decortication yield - computation
+relationship: scale_of CO_324:0000245 ! grain amylose content by dsc - measurement
+relationship: scale_of CO_324:0000248 ! lipid content soxhlet - measurement
+relationship: scale_of CO_324:0000251 ! protein content kjeldahl - measurement
+relationship: scale_of CO_324:0000278 ! grain hardness psi - measurement
+relationship: scale_of CO_324:0000314 ! panicle harvest index - computation
+relationship: scale_of CO_324:0000320 ! nitrogen digestibility nirs - measurement
+relationship: scale_of CO_324:0000322 ! grain harvest index - computation
+relationship: scale_of CO_324:0000328 ! stem sodium content - measurement
+relationship: scale_of CO_324:0000330 ! stem potassium content - measurement
+relationship: scale_of CO_324:0000334 ! leaf to stem weight ratio - computation
+relationship: scale_of CO_324:0000336 ! organic matter digestibility nirs - measurement
+relationship: scale_of CO_324:0000366 ! sorghum downy mildew incidence - computation
+relationship: scale_of CO_324:0000368 ! rust incidence - computation
+relationship: scale_of CO_324:0000372 ! sorghum shoot fly incidence - computation
+relationship: scale_of CO_324:0000374 ! sorghum stem borer incidence - computation
+relationship: scale_of CO_324:0000381 ! grain amylose content by nirs - measurement
+relationship: scale_of CO_324:0000383 ! lipid content nirs - measurement
+relationship: scale_of CO_324:0000385 ! protein content nirs - measurement
+relationship: scale_of CO_324:0000395 ! grain dry matter content - measurement
+relationship: scale_of CO_324:0000406 ! grain moisture content - computation
+relationship: scale_of CO_324:0000410 ! grain moisture content - measurement
+relationship: scale_of CO_324:0000431 ! leaf biomass dry matter content - measurement
+relationship: scale_of CO_324:0000447 ! leaf biomass moisture content - computation
+relationship: scale_of CO_324:0000451 ! leaf biomass moisture content - measurement
+relationship: scale_of CO_324:0000460 ! panicle dry matter content - measurement
+relationship: scale_of CO_324:0000474 ! panicle moisture content - computation
+relationship: scale_of CO_324:0000478 ! panicle moisture content - measurement
+relationship: scale_of CO_324:0000493 ! stem biomass dry matter content - measurement
+relationship: scale_of CO_324:0000507 ! stem biomass moisture content - computation
+relationship: scale_of CO_324:0000511 ! stem biomass moisture content - measurement
+relationship: scale_of CO_324:0000515 ! stover biomass dry matter content - measurement
+relationship: scale_of CO_324:0000531 ! stover biomass moisture content - computation
+relationship: scale_of CO_324:0000535 ! stover biomass moisture content - measurement
+relationship: scale_of CO_324:0000543 ! whole above ground biomass dry matter content - measurement
+relationship: scale_of CO_324:0000562 ! whole above ground biomass moisture content - computation
+relationship: scale_of CO_324:0000566 ! whole above ground biomass moisture content - measurement
+
+[Term]
+id: CO_324:0000199
+name: sorghum grain yield trait
+def: "The amount (weight) of grain that was harvested per unit area." [CO:curators]
+synonym: "GYld" EXACT []
+is_a: TO:0000396
+
+[Term]
+id: CO_324:0000200
+name: sorghum grain yield score - estimation method
+def: "Estimate the yield of the variety, after the harvest of panicles spread on the ground, usually scored by the farmer." [CO:curators]
+relationship: method_of CO_324:0000199 ! grain yield
+
+[Term]
+id: CO_324:0000201
+name: sorghum general score (1-5) scale
+relationship: scale_of CO_324:0000200 ! grain yield score - estimation
+
+[Term]
+id: CO_324:0000202
+name: sorghum stem juice volume trait
+def: "Juice volume extracted from stem." [CO:curators]
+synonym: "Juice quantity" EXACT []
+synonym: "StmJQ" EXACT []
+is_a: TO:0000361
+
+[Term]
+id: CO_324:0000203
+name: sorghum stem juice volume - measurement method
+def: "Measuring the volume of juice collected after pressing sorghum stem." [CO:curators]
+relationship: method_of CO_324:0000202 ! stem juice volume
+
+[Term]
+id: CO_324:0000204
+name: sorghum ml scale
+relationship: scale_of CO_324:0000203 ! stem juice volume - measurement
+
+[Term]
+id: CO_324:0000205
+name: sorghum endosperm color trait
+def: "Color of endosperm." [CO:curators]
+synonym: "EndoCol" EXACT []
+is_a: TO:0000487
+
+[Term]
+id: CO_324:0000206
+name: sorghum endosperm color - estimation method
+def: "In a sample, cut grains lengthwise and observe the color of the endosperm." [CO:curators]
+relationship: method_of CO_324:0000205 ! endosperm color
+
+[Term]
+id: CO_324:0000207
+name: sorghum endocol score (1-2) scale
+relationship: scale_of CO_324:0000206 ! endosperm color - estimation
+
+[Term]
+id: CO_324:0000209
+name: sorghum grain color - estimation method
+def: "Visual observation of grain color." [CO:curators]
+relationship: method_of CO_324:0000045 ! grain color
+relationship: method_of CO_324:0000045 ! grain color
+
+[Term]
+id: CO_324:0000210
+name: sorghum gcol score (1-6) scale
+relationship: scale_of CO_324:0000209 ! grain color - estimation
+
+[Term]
+id: CO_324:0000211
+name: sorghum grain decortication yield trait
+def: "Proportion of remaining grain after decortication." [CO:curators]
+synonym: "GDecYld" EXACT []
+is_a: TO:0000396
+
+[Term]
+id: CO_324:0000212
+name: sorghum grain decortication yield - computation method
+def: "Calculate the ratio of the weight of a sample of grain after decortication using a Tangential Abrasive Dehulling Device (TADD) to the weight of the sample of grain before decortication." [CO:curators]
+relationship: method_of CO_324:0000211 ! grain decortication yield
+
+[Term]
+id: CO_324:0000214
+name: sorghum plant anthocyanin presence trait
+def: "Presence of anthocyanin in the plant." [CO:curators]
+synonym: "Antho" EXACT []
+is_a: TO:0000071
+
+[Term]
+id: CO_324:0000215
+name: sorghum plant anthocyanin presence - estimation method
+def: "Visual observation of plants for presence of anthocyanin." [CO:curators]
+relationship: method_of CO_324:0000214 ! plant anthocyanin presence
+
+[Term]
+id: CO_324:0000216
+name: sorghum antho score (0-2) scale
+relationship: scale_of CO_324:0000215 ! plant anthocyanin presence - estimation
+
+[Term]
+id: CO_324:0000217
+name: sorghum sooty stripe disease presence trait
+def: "Sooty Stripe (Ramulispora sorghi) disease symptoms presence/absence." [CO:curators]
+synonym: "SootStr" EXACT []
+is_a: TO:0000439
+
+[Term]
+id: CO_324:0000218
+name: sorghum sooty stripe disease presence - estimation method
+def: "Observe and record the presence/absence of sooty stripe disease symptoms." [CO:curators]
+relationship: method_of CO_324:0000217 ! sooty stripe disease presence
+
+[Term]
+id: CO_324:0000219
+name: sorghum sootstr score (0-1) scale
+relationship: scale_of CO_324:0000218 ! sooty stripe disease presence - estimation
+
+[Term]
+id: CO_324:0000220
+name: sorghum helminthosporiose disease presence trait
+def: "Helmenthosoriose disease symptoms presence/absence." [CO:curators]
+synonym: "Helminth" EXACT []
+is_a: TO:0000439
+
+[Term]
+id: CO_324:0000221
+name: sorghum helminthosporiose disease presence - estimation method
+def: "Observe and record the presence/absence of Helminthosporiose symptoms." [CO:curators]
+relationship: method_of CO_324:0000220 ! helminthosporiose disease presence
+
+[Term]
+id: CO_324:0000222
+name: sorghum helminth score (0-1) scale
+relationship: scale_of CO_324:0000221 ! helminthosporiose disease presence - estimation
+
+[Term]
+id: CO_324:0000223
+name: sorghum grain density trait
+def: "Density of the grain." [CO:curators]
+synonym: "GDen" EXACT []
+synonym: "Grain specific weight" EXACT []
+is_a: TO:0000612
+
+[Term]
+id: CO_324:0000224
+name: sorghum grain density - measurement method
+def: "Measure the weight of a volume of grains." [CO:curators]
+relationship: method_of CO_324:0000223 ! grain density
+
+[Term]
+id: CO_324:0000225
+name: sorghum kg/hl scale
+relationship: scale_of CO_324:0000224 ! grain density - measurement
+
+[Term]
+id: CO_324:0000226
+name: sorghum glume awnedness trait
+def: "Presence of an awn on the glumes." [CO:curators]
+synonym: "GlmAwn" EXACT []
+is_a: TO:0000869
+
+[Term]
+id: CO_324:0000227
+name: sorghum glume awnedness - estimation method
+def: "Observe presence of awn on glumes." [CO:curators]
+relationship: method_of CO_324:0000226 ! glume awnedness
+
+[Term]
+id: CO_324:0000228
+name: sorghum glmawn score (0-2) scale
+relationship: scale_of CO_324:0000227 ! glume awnedness - estimation
+
+[Term]
+id: CO_324:0000230
+name: sorghum grain dry matter basis yield (kg/ha) - computation method
+def: "Calculate using the formula." [CO:curators]
+relationship: method_of CO_324:0000006 ! grain dry matter basis yield
+
+[Term]
+id: CO_324:0000231
+name: sorghum kg/ha scale
+relationship: scale_of CO_324:0000230 ! grain dry matter basis yield (kg/ha) - computation
+relationship: scale_of CO_324:0000233 ! stem biomass yield at harvest (kg/ha) - computation
+relationship: scale_of CO_324:0000269 ! panicle dry matter basis yield (kg/ha) - computation
+relationship: scale_of CO_324:0000401 ! grain yield at harvest (kg/ha) - computation
+relationship: scale_of CO_324:0000416 ! grain standardized yield (kg/ha) - computation
+relationship: scale_of CO_324:0000435 ! leaf biomass dry matter basis yield (kg/ha) - computation
+relationship: scale_of CO_324:0000439 ! leaf biomass yield at harvest (kg/ha) - computation
+relationship: scale_of CO_324:0000469 ! panicle yield at harvest (kg/ha) - computation
+relationship: scale_of CO_324:0000501 ! stem biomass dry matter basis yield (kg/ha) - computation
+relationship: scale_of CO_324:0000519 ! stover biomass dry matter basis yield (kg/ha) - computation
+relationship: scale_of CO_324:0000523 ! stover biomass yield at harvest (kg/ha) - computation
+relationship: scale_of CO_324:0000547 ! whole above ground biomass dry matter basis yield (kg/ha) - computation
+relationship: scale_of CO_324:0000554 ! whole above ground biomass yield at harvest (kg/ha) - computation
+
+[Term]
+id: CO_324:0000233
+name: sorghum stem biomass yield at harvest (kg/ha) - computation method
+def: "Calculate using the formula." [CO:curators]
+relationship: method_of CO_324:0000022 ! stem biomass yield at harvest
+
+[Term]
+id: CO_324:0000235
+name: sorghum stem elongated internodes number trait
+def: "Number of elongated internodes on the main stem." [CO:curators]
+synonym: "InterNodNo" EXACT []
+is_a: TO:0000756
+
+[Term]
+id: CO_324:0000236
+name: sorghum stem elongated internodes number - counting method
+def: "Count of the number of elongated internodes at maturity on the main stem." [CO:curators]
+relationship: method_of CO_324:0000235 ! stem elongated internodes number
+
+[Term]
+id: CO_324:0000237
+name: sorghum internode scale
+relationship: scale_of CO_324:0000236 ! stem elongated internodes number - counting
+
+[Term]
+id: CO_324:0000238
+name: sorghum variety photoperiod sensitivity coefficient trait
+def: "Coefficient of sensitivity to photoperiod of the variety." [CO:curators]
+synonym: "Kp" EXACT []
+is_a: TO:0000229
+
+[Term]
+id: CO_324:0000239
+name: sorghum photoperiod sensitivity coefficient - computation method
+def: "Calculated from flowering data at two different sowing dates as: ([DFLF1]-[DFLF2])/([Sowing2]-[Sowing1]) where DFLF1= date of flag leaf appearance for sowing date 1, DFLF2= date of flag leaf appearance for sowing date 2" [CO:curators]
+relationship: method_of CO_324:0000238 ! variety photoperiod sensitivity coefficient
+
+[Term]
+id: CO_324:0000240
+name: sorghum index scale
+relationship: scale_of CO_324:0000239 ! photoperiod sensitivity coefficient - computation
+
+[Term]
+id: CO_324:0000241
+name: sorghum green leaves number trait
+def: "Number of green leaves." [CO:curators]
+synonym: "GLNo" EXACT []
+is_a: TO:0000241
+
+[Term]
+id: CO_324:0000242
+name: sorghum green leaves number - counting method
+def: "Count of number of green leaves." [CO:curators]
+relationship: method_of CO_324:0000241 ! green leaves number
+
+[Term]
+id: CO_324:0000243
+name: sorghum leaf/plant scale
+relationship: scale_of CO_324:0000242 ! green leaves number - counting
+
+[Term]
+id: CO_324:0000244
+name: sorghum grain amylose content trait
+def: "Amylose content of whole grain." [CO:curators]
+synonym: "GAmy" EXACT []
+is_a: TO:0000196
+
+[Term]
+id: CO_324:0000245
+name: sorghum grain amylose content by dsc - measurement method
+def: "Whole grain is ground and 10mg of flour is used for measurement by Differential Scanning Calorimetry (DSC) of the enthalpy change of the formation of complexes between amylose and phospholipid observed during cooling." [CO:curators]
+relationship: method_of CO_324:0000244 ! grain amylose content
+
+[Term]
+id: CO_324:0000247
+name: sorghum grain lipid content trait
+def: "Lipid content of the whole grain." [CO:curators]
+synonym: "GLip" EXACT []
+is_a: TO:0000604
+
+[Term]
+id: CO_324:0000248
+name: sorghum lipid content soxhlet - measurement method
+def: "Soxhlet ether extraction from 5 g of flour." [CO:curators]
+relationship: method_of CO_324:0000247 ! grain lipid content
+
+[Term]
+id: CO_324:0000250
+name: sorghum grain protein content trait
+def: "Protein content of whole grain." [CO:curators]
+synonym: "GProt" EXACT []
+is_a: TO:0000598
+
+[Term]
+id: CO_324:0000251
+name: sorghum protein content kjeldahl - measurement method
+def: "Mineralization of 1g of flour and titration of nitration content." [CO:curators]
+relationship: method_of CO_324:0000250 ! grain protein content
+
+[Term]
+id: CO_324:0000253
+name: sorghum to color trait
+def: "Color of TO porridge prepared from the sorghum grain." [CO:curators]
+synonym: "ToCol" EXACT []
+synonym: "TÃ´ color" EXACT []
+
+[Term]
+id: CO_324:0000254
+name: sorghum to color - estimation method
+def: "Visual assessment of color of a TO sample prepared from sorghum flour after decortication." [CO:curators]
+relationship: method_of CO_324:0000253 ! to color
+
+[Term]
+id: CO_324:0000255
+name: sorghum tocol score (1-5) scale
+relationship: scale_of CO_324:0000254 ! to color - estimation
+
+[Term]
+id: CO_324:0000256
+name: sorghum to consistency trait
+def: "Consistency of TO porridge prepared from the sorghum grain." [CO:curators]
+synonym: "ToCons" EXACT []
+synonym: "TÃ´ consistency" EXACT []
+
+[Term]
+id: CO_324:0000257
+name: sorghum to consistency - estimation method
+def: "Manual assessment of consistency on a TO sample prepared from sorghum flour after decortication." [CO:curators]
+relationship: method_of CO_324:0000256 ! to consistency
+
+[Term]
+id: CO_324:0000258
+name: sorghum tocons score (1-5) scale
+relationship: scale_of CO_324:0000257 ! to consistency - estimation
+
+[Term]
+id: CO_324:0000259
+name: sorghum endosperm texture trait
+def: "Proportion of vitreous endosperm." [CO:curators]
+synonym: "EndoT" EXACT []
+is_a: TO:0000587
+
+[Term]
+id: CO_324:0000260
+name: sorghum endosperm texture - estimation method
+def: "Visual assessment of vitreous endosperm on a grain section." [CO:curators]
+relationship: method_of CO_324:0000259 ! endosperm texture
+
+[Term]
+id: CO_324:0000261
+name: sorghum endot score (1-5) scale
+relationship: scale_of CO_324:0000260 ! endosperm texture - estimation
+
+[Term]
+id: CO_324:0000262
+name: sorghum grain roundness trait
+def: "Roundness of the grain." [CO:curators]
+synonym: "GRnd" EXACT []
+is_a: TO:0002730
+
+[Term]
+id: CO_324:0000263
+name: sorghum grain roundness - measurement method
+def: "Roundness of grain estimated by image analysis. Roundness of the grain is defined as the ratio of the Minor Axis length to Major Axis length deduced from an ellipse fitted to the shape of the grain." [CO:curators]
+relationship: method_of CO_324:0000262 ! grain roundness
+
+[Term]
+id: CO_324:0000264
+name: sorghum number scale
+relationship: scale_of CO_324:0000263 ! grain roundness - measurement
+
+[Term]
+id: CO_324:0000265
+name: sorghum pericarp thickness trait
+def: "Thickness of sorghum grain pericarp" [CO:curators]
+synonym: "PerThk" EXACT []
+is_a: TO:0000945
+
+[Term]
+id: CO_324:0000266
+name: sorghum pericarp thickness - estimation method
+def: "The thickness of pericarp is visually estimated." [CO:curators]
+relationship: method_of CO_324:0000265 ! pericarp thickness
+
+[Term]
+id: CO_324:0000267
+name: sorghum perthk score (0-2) scale
+relationship: scale_of CO_324:0000266 ! pericarp thickness - estimation
+
+[Term]
+id: CO_324:0000268
+name: sorghum panicle dry matter basis yield trait
+def: "The panicle yield expressed as a quantity of dry matter harvested per unit area." [CO:curators]
+synonym: "PcleDMYld" EXACT []
+is_a: TO:0000371
+
+[Term]
+id: CO_324:0000269
+name: sorghum panicle dry matter basis yield (kg/ha) - computation method
+def: "Calculate using the formula." [CO:curators]
+relationship: method_of CO_324:0000268 ! panicle dry matter basis yield
+
+[Term]
+id: CO_324:0000271
+name: sorghum peduncle length trait
+def: "Length of the peduncle to panicle base." [CO:curators]
+synonym: "PedLng" EXACT []
+is_a: TO:0002691
+
+[Term]
+id: CO_324:0000272
+name: sorghum peduncle length - measurement method
+def: "Measure length of the peduncle to the first primary branch of panicle." [CO:curators]
+relationship: method_of CO_324:0000271 ! peduncle length
+
+[Term]
+id: CO_324:0000274
+name: sorghum flag leaf ligulation time trait
+def: "Flag leaf ligulation time or flag leaf emergence." [CO:curators]
+synonym: "FLLf" EXACT []
+
+[Term]
+id: CO_324:0000275
+name: sorghum days to flag leaf ligulation - computation method
+def: "Compute number of days required from sowing to ligulation of the flag leaf." [CO:curators]
+relationship: method_of CO_324:0000274 ! flag leaf ligulation time
+
+[Term]
+id: CO_324:0000276
+name: sorghum day scale
+relationship: scale_of CO_324:0000275 ! days to flag leaf ligulation - computation
+relationship: scale_of CO_324:0000332 ! days to flowering - computation
+relationship: scale_of CO_324:0000338 ! days to harvest - computation
+relationship: scale_of CO_324:0000639 ! days to heading - computation
+relationship: scale_of CO_324:0000652 ! days to maturity - computation
+
+[Term]
+id: CO_324:0000277
+name: sorghum grain hardness trait
+def: "Whole grain hardness." [CO:curators]
+synonym: "GHrd" EXACT []
+is_a: TO:0000162
+
+[Term]
+id: CO_324:0000278
+name: sorghum grain hardness psi - measurement method
+def: "Twenty grams of grain is milled in a Falling Number KT 30 mill and sifted for 1 min through a 250-µm sieve using an air jet sifter (Alpine 200LS). PSI is determined as the proportion of milled grain passing through the sieve." [CO:curators]
+relationship: method_of CO_324:0000277 ! grain hardness
+
+[Term]
+id: CO_324:0000281
+name: sorghum flag leaf ligulation - date estimation method
+def: "Record date when 50% of the plants in a plot reached fag leaf ligulation stage." [CO:curators]
+relationship: method_of CO_324:0000274 ! flag leaf ligulation time
+relationship: method_of CO_324:0000274 ! flag leaf ligulation time
+
+[Term]
+id: CO_324:0000283
+name: sorghum plant lodging incidence trait
+def: "Plant lodging incidence." [CO:curators]
+synonym: "LodgInc" EXACT []
+is_a: TO:0000068
+
+[Term]
+id: CO_324:0000284
+name: sorghum plant lodging incidence - estimation method
+def: "Visual assessment of lodging incidence." [CO:curators]
+relationship: method_of CO_324:0000283 ! plant lodging incidence
+
+[Term]
+id: CO_324:0000285
+name: sorghum lodginc score (1-5) scale
+relationship: scale_of CO_324:0000284 ! plant lodging incidence - estimation
+
+[Term]
+id: CO_324:0000286
+name: sorghum glume opening trait
+def: "Glumes opening." [CO:curators]
+synonym: "GlmOp" EXACT []
+is_a: TO:0000474
+
+[Term]
+id: CO_324:0000287
+name: sorghum glume opening - estimation method
+def: "Visual assessment of glumes opening." [CO:curators]
+relationship: method_of CO_324:0000286 ! glume opening
+
+[Term]
+id: CO_324:0000288
+name: sorghum glmop score (0-2) scale
+relationship: scale_of CO_324:0000287 ! glume opening - estimation
+
+[Term]
+id: CO_324:0000289
+name: sorghum grain rotation trait
+def: "Grain rotation." [CO:curators]
+synonym: "GRotation" EXACT []
+
+[Term]
+id: CO_324:0000290
+name: sorghum grain rotation - estimation method
+def: "Visual assessment of grain rotation." [CO:curators]
+relationship: method_of CO_324:0000289 ! grain rotation
+
+[Term]
+id: CO_324:0000291
+name: sorghum grotation score (0-2) scale
+relationship: scale_of CO_324:0000290 ! grain rotation - estimation
+
+[Term]
+id: CO_324:0000292
+name: sorghum grain shape in dorsal view trait
+def: "Grain shape in dorsal view." [CO:curators]
+synonym: "GShpDors" EXACT []
+is_a: TO:0002730
+
+[Term]
+id: CO_324:0000293
+name: sorghum grain shape in dorsal view - estimation method
+def: "Visual assessment of grain shape." [CO:curators]
+relationship: method_of CO_324:0000292 ! grain shape in dorsal view
+
+[Term]
+id: CO_324:0000294
+name: sorghum gshpdors score (1-3) scale
+relationship: scale_of CO_324:0000293 ! grain shape in dorsal view - estimation
+
+[Term]
+id: CO_324:0000295
+name: sorghum glume adhesion trait
+def: "Glumes adhesion." [CO:curators]
+synonym: "GlmAd" EXACT []
+is_a: TO:0000869
+
+[Term]
+id: CO_324:0000296
+name: sorghum glume adhesion - estimation method
+def: "Assessment of glumes adhesion." [CO:curators]
+relationship: method_of CO_324:0000295 ! glume adhesion
+
+[Term]
+id: CO_324:0000297
+name: sorghum glmad score (1-5) scale
+relationship: scale_of CO_324:0000296 ! glume adhesion - estimation
+
+[Term]
+id: CO_324:0000298
+name: sorghum coleoptile color trait
+def: "The color of the coleoptile." [CO:curators]
+synonym: "ColeopCol" EXACT []
+is_a: TO:0000244
+
+[Term]
+id: CO_324:0000299
+name: sorghum coleoptile color - estimation method
+def: "Observe coleoptile color." [CO:curators]
+relationship: method_of CO_324:0000298 ! coleoptile color
+
+[Term]
+id: CO_324:0000300
+name: sorghum coleopcol score (1-2) scale
+relationship: scale_of CO_324:0000299 ! coleoptile color - estimation
+
+[Term]
+id: CO_324:0000304
+name: sorghum flag leaf weight - estimation method
+def: "Measure flag leaves weight." [CO:curators]
+relationship: method_of CO_324:0000002 ! flag leaf weight
+
+[Term]
+id: CO_324:0000306
+name: sorghum rest of leaves weight - computation method
+def: "Calculate by subtracting flag leaves weight from total leaves weight." [CO:curators]
+relationship: method_of CO_324:0000003 ! rest of leaves weight
+
+[Term]
+id: CO_324:0000308
+name: sorghum leaf biomass dry matter basis yield (g/plot) - computation method
+def: "Calculate using the formula." [CO:curators]
+relationship: method_of CO_324:0000004 ! leaf biomass dry matter basis yield
+
+[Term]
+id: CO_324:0000312
+name: sorghum grain number - computation method
+def: "Calculate using the formula." [CO:curators]
+relationship: method_of CO_324:0000009 ! grain number per panicle
+
+[Term]
+id: CO_324:0000313
+name: sorghum grain/m2 scale
+relationship: scale_of CO_324:0000312 ! grain number - computation
+
+[Term]
+id: CO_324:0000314
+name: sorghum panicle harvest index - computation method
+def: "Calculate using the formula." [CO:curators]
+relationship: method_of CO_324:0000012 ! panicle harvest index
+
+[Term]
+id: CO_324:0000316
+name: sorghum panicle number - counting method
+def: "Harvest the panicles in the plot and count the number of panicles harvested." [CO:curators]
+relationship: method_of CO_324:0000013 ! panicle number
+
+[Term]
+id: CO_324:0000318
+name: sorghum panicles weight without grain - measurement method
+def: "Record the weight of panicle without grain." [CO:curators]
+relationship: method_of CO_324:0000014 ! panicle weight without grain
+
+[Term]
+id: CO_324:0000320
+name: sorghum nitrogen digestibility nirs - measurement method
+def: "Value derived from the analysis of stover using Near Infrared Reflectance Spectrophotometry (NIRS)." [CO:curators]
+relationship: method_of CO_324:0000016 ! stover nitrogen digestibility
+
+[Term]
+id: CO_324:0000322
+name: sorghum grain harvest index - computation method
+def: "Compute proportion of harvested grain weight over whole above ground biomass weight." [CO:curators]
+relationship: method_of CO_324:0000019 ! grain harvest index
+
+[Term]
+id: CO_324:0000324
+name: sorghum whole above ground biomass dry matter basis yield (g/plot) - computation method
+def: "Calculate using the formula." [CO:curators]
+relationship: method_of CO_324:0000020 ! whole above ground biomass dry matter basis yield
+
+[Term]
+id: CO_324:0000326
+name: sorghum stem biomass yield at harvest - measurement method
+def: "Record stem biomass weight." [CO:curators]
+relationship: method_of CO_324:0000022 ! stem biomass yield at harvest
+
+[Term]
+id: CO_324:0000328
+name: sorghum stem sodium content - measurement method
+def: "Determination of Sodium content by using nitric acid digestion method (AAS & ICP-OES)." [CO:curators]
+relationship: method_of CO_324:0000024 ! stem sodium content
+
+[Term]
+id: CO_324:0000330
+name: sorghum stem potassium content - measurement method
+def: "Determination of Potassium content by using nitric acid digestion method (AAS & ICP-OES)." [CO:curators]
+relationship: method_of CO_324:0000025 ! stem potassium content
+
+[Term]
+id: CO_324:0000332
+name: sorghum days to flowering - computation method
+def: "Compute number of days required from sowing to flowering." [CO:curators]
+relationship: method_of CO_324:0000027 ! flowering time
+
+[Term]
+id: CO_324:0000334
+name: sorghum leaf to stem weight ratio - computation method
+def: "Compute leaf to stem weight ratio." [CO:curators]
+relationship: method_of CO_324:0000028 ! leaf to stem weight ratio
+
+[Term]
+id: CO_324:0000336
+name: sorghum organic matter digestibility nirs - measurement method
+def: "Value derived from chemical analysis of dried and ground stover, using Near Infrared Reflectance Spectrophotometry (NIRS)." [CO:curators]
+relationship: method_of CO_324:0000031 ! stover organic matter digestibility
+
+[Term]
+id: CO_324:0000338
+name: sorghum days to harvest - computation method
+def: "Compute number of days required from sowing (or emergence) to harvest." [CO:curators]
+relationship: method_of CO_324:0000035 ! harvest time
+
+[Term]
+id: CO_324:0000340
+name: sorghum stover metabolised energy - measurement method
+def: "Standard method for metabolised energy." [CO:curators]
+relationship: method_of CO_324:0000036 ! stover metabolised energy
+
+[Term]
+id: CO_324:0000341
+name: sorghum mj/kg scale
+relationship: scale_of CO_324:0000340 ! stover metabolised energy - measurement
+
+[Term]
+id: CO_324:0000342
+name: sorghum stem nodal tiller number - counting method
+def: "Counting of stem nodal tiller number." [CO:curators]
+relationship: method_of CO_324:0000039 ! stem nodal tiller number
+
+[Term]
+id: CO_324:0000344
+name: sorghum plant basal tiller number - counting method
+def: "Counting of plant basal tiller number." [CO:curators]
+relationship: method_of CO_324:0000040 ! plant basal tiller number
+
+[Term]
+id: CO_324:0000346
+name: sorghum panicle width - measurement method
+def: "Measure the width of the panicle at the widest position." [CO:curators]
+relationship: method_of CO_324:0000042 ! panicle width
+
+[Term]
+id: CO_324:0000348
+name: sorghum grain subcoat presence - estimation method
+def: "Observe presence or absence of subcoat in cut grains." [CO:curators]
+relationship: method_of CO_324:0000044 ! grain subcoat presence
+
+[Term]
+id: CO_324:0000349
+name: sorghum absent-present score (0-1) scale
+relationship: scale_of CO_324:0000348 ! grain subcoat presence - estimation
+relationship: scale_of CO_324:0000354 ! grain lustre - estimation
+
+[Term]
+id: CO_324:0000351
+name: sorghum gcol score (1-9) scale
+relationship: scale_of CO_324:0000209 ! grain color - estimation
+
+[Term]
+id: CO_324:0000352
+name: sorghum grain size - estimation method
+def: "Visual observation for grain boldness." [CO:curators]
+relationship: method_of CO_324:0000046 ! grain size
+
+[Term]
+id: CO_324:0000353
+name: sorghum gsz score (1-5) scale
+relationship: scale_of CO_324:0000352 ! grain size - estimation
+
+[Term]
+id: CO_324:0000354
+name: sorghum grain lustre - estimation method
+def: "Visual observation for seed lustrousness." [CO:curators]
+relationship: method_of CO_324:0000047 ! grain lustre
+
+[Term]
+id: CO_324:0000356
+name: sorghum panicle exertion - measurement method
+def: "Measure length of the peduncle emerged from flag leaf sheath to base of the panicle." [CO:curators]
+relationship: method_of CO_324:0000049 ! panicle exertion
+relationship: method_of CO_324:0000049 ! panicle exertion
+
+[Term]
+id: CO_324:0000358
+name: sorghum panicle compactness and shape - estimation method
+def: "Observe the overall shape of the panicle and its compactness based on florets density." [CO:curators]
+relationship: method_of CO_324:0000050 ! panicle compactness and shape
+
+[Term]
+id: CO_324:0000359
+name: sorghum pclecpt score (1-13) scale
+relationship: scale_of CO_324:0000358 ! panicle compactness and shape - estimation
+
+[Term]
+id: CO_324:0000360
+name: sorghum leaf color - estimation method
+def: "Observe leaf color." [CO:curators]
+relationship: method_of CO_324:0000055 ! leaf color
+
+[Term]
+id: CO_324:0000361
+name: sorghum lfcol score (1-2) scale
+relationship: scale_of CO_324:0000360 ! leaf color - estimation
+
+[Term]
+id: CO_324:0000362
+name: sorghum leaf vein color - estimation method
+def: "Observe leaf vein color." [CO:curators]
+relationship: method_of CO_324:0000056 ! leaf vein color
+
+[Term]
+id: CO_324:0000363
+name: sorghum lfvcol score (1-2) scale
+relationship: scale_of CO_324:0000362 ! leaf vein color - estimation
+
+[Term]
+id: CO_324:0000364
+name: sorghum leaf midrib color - estimation method
+def: "Observe leaf midrib color." [CO:curators]
+relationship: method_of CO_324:0000057 ! leaf midrib color
+
+[Term]
+id: CO_324:0000365
+name: sorghum lfmrcol score (1-5) scale
+relationship: scale_of CO_324:0000364 ! leaf midrib color - estimation
+
+[Term]
+id: CO_324:0000366
+name: sorghum sorghum downy mildew incidence - computation method
+def: "Calculate downy mildew incidence on plants." [CO:curators]
+relationship: method_of CO_324:0000061 ! sorghum downy mildew incidence
+
+[Term]
+id: CO_324:0000368
+name: sorghum rust incidence - computation method
+def: "Calculate rust incidence on plants." [CO:curators]
+relationship: method_of CO_324:0000063 ! sorghum rust incidence
+
+[Term]
+id: CO_324:0000370
+name: sorghum insect damage - estimation method
+def: "Observe and record damage caused by insects." [CO:curators]
+relationship: method_of CO_324:0000065 ! insect damage
+
+[Term]
+id: CO_324:0000371
+name: sorghum insdmg score (1-9) scale
+relationship: scale_of CO_324:0000370 ! insect damage - estimation
+
+[Term]
+id: CO_324:0000372
+name: sorghum sorghum shoot fly incidence - computation method
+def: "Calculate incidence of shoot fly on plants." [CO:curators]
+relationship: method_of CO_324:0000067 ! sorghum shoot fly incidence
+
+[Term]
+id: CO_324:0000374
+name: sorghum sorghum stem borer incidence - computation method
+def: "Calculate incidence of stem borer on plants." [CO:curators]
+relationship: method_of CO_324:0000068 ! sorghum stem borer incidence
+
+[Term]
+id: CO_324:0000376
+name: sorghum gmoldinc score (1-5) scale
+relationship: scale_of CO_324:0000104 ! grain mold severity - estimation
+
+[Term]
+id: CO_324:0000380
+name: sorghum fanthrres score (1-5) scale
+relationship: scale_of CO_324:0000110 ! foliar anthracnose severity - estimation
+
+[Term]
+id: CO_324:0000381
+name: sorghum grain amylose content by nirs - measurement method
+def: "A NIRS spectrum is acquired from a flour sample or a whole grain sample and the amylose content is predicted using an appropriate calibration based on the reference method." [CO:curators]
+relationship: method_of CO_324:0000244 ! grain amylose content
+
+[Term]
+id: CO_324:0000383
+name: sorghum lipid content nirs - measurement method
+def: "A NIRS spectrum is acquired from a flour sample or a whole grain sample and the lipid content is predicted using an appropriate calibration based on the reference method." [CO:curators]
+relationship: method_of CO_324:0000247 ! grain lipid content
+
+[Term]
+id: CO_324:0000385
+name: sorghum protein content nirs - measurement method
+def: "A NIRS spectrum is acquired from a flour sample or a whole grain sample and the protein content is predicted using an appropriate calibration based on the reference method." [CO:curators]
+relationship: method_of CO_324:0000250 ! grain protein content
+
+[Term]
+id: CO_324:0000387
+name: sorghum agapp_e_1to5 variable
+synonym: "AGAPP_1_5" EXACT []
+relationship: variable_of CO_324:0000112 ! plant agronomic appreciation
+relationship: variable_of CO_324:0000113 ! plant agronomic appreciation - estimation
+relationship: variable_of CO_324:0000114 ! agapp score (1-5)
+is_a: CO_324:0000112 ! plant agronomic appreciation
+
+[Term]
+id: CO_324:0000388
+name: sorghum epcleno_ct_pcleplot variable
+synonym: "NEP_pcle" EXACT []
+relationship: variable_of CO_324:0000160 ! empty panicle number
+relationship: variable_of CO_324:0000161 ! empty panicle number - counting
+relationship: variable_of CO_324:0000162 ! panicle/plot
+is_a: CO_324:0000160 ! empty panicle number
+
+[Term]
+id: CO_324:0000389
+name: sorghum effective tiller number trait
+def: "Number of tillers bearing a panicle." [CO:curators]
+synonym: "ETN" EXACT []
+is_a: TO:0000346
+
+[Term]
+id: CO_324:0000390
+name: sorghum effective tiller number - counting method
+def: "Count effective tiller number." [CO:curators]
+relationship: method_of CO_324:0000389 ! effective tiller number
+
+[Term]
+id: CO_324:0000391
+name: sorghum tiller/plant scale
+relationship: scale_of CO_324:0000390 ! effective tiller number - counting
+
+[Term]
+id: CO_324:0000392
+name: sorghum etno_ct_tllrplnt variable
+synonym: "ETN_tillers" EXACT []
+relationship: variable_of CO_324:0000389 ! effective tiller number
+relationship: variable_of CO_324:0000390 ! effective tiller number - counting
+relationship: variable_of CO_324:0000391 ! tiller/plant
+is_a: CO_324:0000389 ! effective tiller number
+
+[Term]
+id: CO_324:0000393
+name: sorghum fp_e_1to3 variable
+synonym: "FP_1_3" EXACT []
+relationship: variable_of CO_324:0000127 ! variety farmer preference
+relationship: variable_of CO_324:0000128 ! variety farmer preference - estimation
+relationship: variable_of CO_324:0000129 ! fp score (1-3)
+is_a: CO_324:0000127 ! variety farmer preference
+
+[Term]
+id: CO_324:0000394
+name: sorghum grain dry matter content trait
+def: "Grain dry matter content." [CO:curators]
+synonym: "GDMC" EXACT []
+is_a: TO:0002629
+
+[Term]
+id: CO_324:0000395
+name: sorghum grain dry matter content - measurement method
+def: "Measure or calculate dry matter content of a sample by calculating the ratio of the weight of the sample after complete desiccation to the initial weight of the sample." [CO:curators]
+relationship: method_of CO_324:0000394 ! grain dry matter content
+
+[Term]
+id: CO_324:0000397
+name: sorghum gdmc_m_pct variable
+relationship: variable_of CO_324:0000198 ! %
+relationship: variable_of CO_324:0000394 ! grain dry matter content
+relationship: variable_of CO_324:0000395 ! grain dry matter content - measurement
+is_a: CO_324:0000394 ! grain dry matter content
+
+[Term]
+id: CO_324:0000398
+name: sorghum grain dry matter basis yield (g/plot) - computation method
+def: "Calculate using the formula." [CO:curators]
+relationship: method_of CO_324:0000006 ! grain dry matter basis yield
+
+[Term]
+id: CO_324:0000399
+name: sorghum gdmyld_c_gplot variable
+relationship: variable_of CO_324:0000006 ! grain dry matter basis yield
+relationship: variable_of CO_324:0000078 ! g/plot
+relationship: variable_of CO_324:0000398 ! grain dry matter basis yield (g/plot) - computation
+is_a: CO_324:0000006 ! grain dry matter basis yield
+
+[Term]
+id: CO_324:0000400
+name: sorghum gdmyld_c_kgha variable
+relationship: variable_of CO_324:0000006 ! grain dry matter basis yield
+relationship: variable_of CO_324:0000230 ! grain dry matter basis yield (kg/ha) - computation
+relationship: variable_of CO_324:0000231 ! kg/ha
+is_a: CO_324:0000006 ! grain dry matter basis yield
+
+[Term]
+id: CO_324:0000401
+name: sorghum grain yield at harvest (kg/ha) - computation method
+def: "Calculate using the formula." [CO:curators]
+relationship: method_of CO_324:0000133 ! grain yield at harvest
+
+[Term]
+id: CO_324:0000403
+name: sorghum ghvyld_c_kgha variable
+relationship: variable_of CO_324:0000133 ! grain yield at harvest
+relationship: variable_of CO_324:0000231 ! kg/ha
+relationship: variable_of CO_324:0000401 ! grain yield at harvest (kg/ha) - computation
+is_a: CO_324:0000133 ! grain yield at harvest
+
+[Term]
+id: CO_324:0000404
+name: sorghum ghvyld_m_gplot variable
+relationship: variable_of CO_324:0000078 ! g/plot
+relationship: variable_of CO_324:0000133 ! grain yield at harvest
+relationship: variable_of CO_324:0000134 ! grain yield at harvest - measurement
+is_a: CO_324:0000133 ! grain yield at harvest
+
+[Term]
+id: CO_324:0000405
+name: sorghum grain moisture content trait
+def: "Grain moisture content." [CO:curators]
+synonym: "GMoi" EXACT []
+is_a: TO:0000057
+
+[Term]
+id: CO_324:0000406
+name: sorghum grain moisture content - computation method
+def: "Calculate using the formula." [CO:curators]
+relationship: method_of CO_324:0000405 ! grain moisture content
+
+[Term]
+id: CO_324:0000408
+name: sorghum gmoi_c_pct variable
+relationship: variable_of CO_324:0000198 ! %
+relationship: variable_of CO_324:0000405 ! grain moisture content
+relationship: variable_of CO_324:0000406 ! grain moisture content - computation
+is_a: CO_324:0000405 ! grain moisture content
+
+[Term]
+id: CO_324:0000410
+name: sorghum grain moisture content - measurement method
+def: "Measure humidity content of a sample using humidity sensor." [CO:curators]
+relationship: method_of CO_324:0000405 ! grain moisture content
+
+[Term]
+id: CO_324:0000412
+name: sorghum gmoi_m_pct variable
+relationship: variable_of CO_324:0000198 ! %
+relationship: variable_of CO_324:0000405 ! grain moisture content
+relationship: variable_of CO_324:0000410 ! grain moisture content - measurement
+is_a: CO_324:0000405 ! grain moisture content
+
+[Term]
+id: CO_324:0000413
+name: sorghum gno_c_grnm2 variable
+synonym: "GRNO_grn_m2" EXACT []
+relationship: variable_of CO_324:0000009 ! grain number per panicle
+relationship: variable_of CO_324:0000312 ! grain number - computation
+relationship: variable_of CO_324:0000313 ! grain/m2
+is_a: CO_324:0000009 ! grain number per panicle
+
+[Term]
+id: CO_324:0000414
+name: sorghum gnopcle_c_grnpcle variable
+synonym: "NBGPAN_grn_pcle" EXACT []
+relationship: variable_of CO_324:0000009 ! grain number per panicle
+relationship: variable_of CO_324:0000071 ! grain number per panicle - computation
+relationship: variable_of CO_324:0000072 ! grain/panicle
+is_a: CO_324:0000009 ! grain number per panicle
+
+[Term]
+id: CO_324:0000415
+name: sorghum grain standardized yield trait
+def: "The weight of grain adjusted to a standard moisture content (14%) that was harvested per unit area." [CO:curators]
+synonym: "GStdYld" EXACT []
+is_a: TO:0000396
+
+[Term]
+id: CO_324:0000416
+name: sorghum grain standardized yield (kg/ha) - computation method
+def: "Calculate using the formula." [CO:curators]
+relationship: method_of CO_324:0000415 ! grain standardized yield
+
+[Term]
+id: CO_324:0000418
+name: sorghum gstdyld_c_kgha variable
+relationship: variable_of CO_324:0000231 ! kg/ha
+relationship: variable_of CO_324:0000415 ! grain standardized yield
+relationship: variable_of CO_324:0000416 ! grain standardized yield (kg/ha) - computation
+is_a: CO_324:0000415 ! grain standardized yield
+
+[Term]
+id: CO_324:0000420
+name: sorghum grain standardized yield (kg/plot) - computation method
+def: "Calculate using the formula." [CO:curators]
+relationship: method_of CO_324:0000415 ! grain standardized yield
+
+[Term]
+id: CO_324:0000421
+name: sorghum kg/plot scale
+relationship: scale_of CO_324:0000420 ! grain standardized yield (kg/plot) - computation
+
+[Term]
+id: CO_324:0000422
+name: sorghum gstdyld_c_kgplot variable
+relationship: variable_of CO_324:0000415 ! grain standardized yield
+relationship: variable_of CO_324:0000420 ! grain standardized yield (kg/plot) - computation
+relationship: variable_of CO_324:0000421 ! kg/plot
+is_a: CO_324:0000415 ! grain standardized yield
+
+[Term]
+id: CO_324:0000424
+name: sorghum gw_1000grnm_g variable
+synonym: "W1000G_g" EXACT []
+relationship: variable_of CO_324:0000079 ! grain weight
+relationship: variable_of CO_324:0000080 ! thousand grain weight - measurement
+relationship: variable_of CO_324:0000081 ! g
+is_a: CO_324:0000079 ! grain weight
+
+[Term]
+id: CO_324:0000425
+name: sorghum hundred grain weight - measurement method
+def: "Count and weigh 100 grains." [CO:curators]
+relationship: method_of CO_324:0000079 ! grain weight
+
+[Term]
+id: CO_324:0000426
+name: sorghum gw_100grnm_g variable
+synonym: "W100G_g" EXACT []
+relationship: variable_of CO_324:0000079 ! grain weight
+relationship: variable_of CO_324:0000081 ! g
+relationship: variable_of CO_324:0000425 ! hundred grain weight - measurement
+is_a: CO_324:0000079 ! grain weight
+
+[Term]
+id: CO_324:0000427
+name: sorghum gwpcle_c_gpcle variable
+synonym: "GWPP_g" EXACT []
+relationship: variable_of CO_324:0000073 ! grain weight per panicle
+relationship: variable_of CO_324:0000074 ! grain weight per panicle - computation
+relationship: variable_of CO_324:0000075 ! g/panicle
+is_a: CO_324:0000073 ! grain weight per panicle
+
+[Term]
+id: CO_324:0000428
+name: sorghum gyld_e_1to5 variable
+synonym: "YLDSCORE_1_5" EXACT []
+relationship: variable_of CO_324:0000199 ! grain yield
+relationship: variable_of CO_324:0000200 ! grain yield score - estimation
+relationship: variable_of CO_324:0000201 ! general score (1-5)
+is_a: CO_324:0000199 ! grain yield
+
+[Term]
+id: CO_324:0000429
+name: sorghum hi_c_pct variable
+synonym: "HI_pct" EXACT []
+relationship: variable_of CO_324:0000019 ! grain harvest index
+relationship: variable_of CO_324:0000198 ! %
+relationship: variable_of CO_324:0000322 ! grain harvest index - computation
+is_a: CO_324:0000019 ! grain harvest index
+
+[Term]
+id: CO_324:0000430
+name: sorghum leaf biomass dry matter content trait
+def: "Leaf biomass dry matter content." [CO:curators]
+synonym: "LfDMC" EXACT []
+is_a: TO:0000493
+
+[Term]
+id: CO_324:0000431
+name: sorghum leaf biomass dry matter content - measurement method
+def: "Measure or calculate dry matter content of a sample by calculating the ratio of the weight of the sample after complete desiccation to the initial weight of the sample." [CO:curators]
+relationship: method_of CO_324:0000430 ! leaf biomass dry matter content
+
+[Term]
+id: CO_324:0000433
+name: sorghum lfdmc_m_pct variable
+relationship: variable_of CO_324:0000198 ! %
+relationship: variable_of CO_324:0000430 ! leaf biomass dry matter content
+relationship: variable_of CO_324:0000431 ! leaf biomass dry matter content - measurement
+is_a: CO_324:0000430 ! leaf biomass dry matter content
+
+[Term]
+id: CO_324:0000434
+name: sorghum lfdmyld_c_gplot variable
+synonym: "LFWT_g" EXACT []
+relationship: variable_of CO_324:0000004 ! leaf biomass dry matter basis yield
+relationship: variable_of CO_324:0000078 ! g/plot
+relationship: variable_of CO_324:0000308 ! leaf biomass dry matter basis yield (g/plot) - computation
+is_a: CO_324:0000004 ! leaf biomass dry matter basis yield
+
+[Term]
+id: CO_324:0000435
+name: sorghum leaf biomass dry matter basis yield (kg/ha) - computation method
+def: "Calculate using the formula." [CO:curators]
+relationship: method_of CO_324:0000004 ! leaf biomass dry matter basis yield
+
+[Term]
+id: CO_324:0000437
+name: sorghum lfdmyld_c_kgha variable
+relationship: variable_of CO_324:0000004 ! leaf biomass dry matter basis yield
+relationship: variable_of CO_324:0000231 ! kg/ha
+relationship: variable_of CO_324:0000435 ! leaf biomass dry matter basis yield (kg/ha) - computation
+is_a: CO_324:0000004 ! leaf biomass dry matter basis yield
+
+[Term]
+id: CO_324:0000438
+name: sorghum leaf biomass yield at harvest trait
+def: "The leaf biomass expressed fresh (field) basis that was harvested per unit area." [CO:curators]
+synonym: "LfHvYld" EXACT []
+
+[Term]
+id: CO_324:0000439
+name: sorghum leaf biomass yield at harvest (kg/ha) - computation method
+def: "Calculate using the formula." [CO:curators]
+relationship: method_of CO_324:0000438 ! leaf biomass yield at harvest
+
+[Term]
+id: CO_324:0000441
+name: sorghum lfhvyld_c_kgha variable
+relationship: variable_of CO_324:0000231 ! kg/ha
+relationship: variable_of CO_324:0000438 ! leaf biomass yield at harvest
+relationship: variable_of CO_324:0000439 ! leaf biomass yield at harvest (kg/ha) - computation
+is_a: CO_324:0000438 ! leaf biomass yield at harvest
+
+[Term]
+id: CO_324:0000443
+name: sorghum leaf biomass yield at harvest - measurement method
+def: "Record Leaf Biomass weight after harvest." [CO:curators]
+relationship: method_of CO_324:0000438 ! leaf biomass yield at harvest
+
+[Term]
+id: CO_324:0000445
+name: sorghum lfhvyld_m_gplot variable
+relationship: variable_of CO_324:0000078 ! g/plot
+relationship: variable_of CO_324:0000438 ! leaf biomass yield at harvest
+relationship: variable_of CO_324:0000443 ! leaf biomass yield at harvest - measurement
+is_a: CO_324:0000438 ! leaf biomass yield at harvest
+
+[Term]
+id: CO_324:0000446
+name: sorghum leaf biomass moisture content trait
+def: "Leaf biomass moisture content." [CO:curators]
+synonym: "LfMoi" EXACT []
+is_a: TO:0000748
+
+[Term]
+id: CO_324:0000447
+name: sorghum leaf biomass moisture content - computation method
+def: "Calculate using the formula." [CO:curators]
+relationship: method_of CO_324:0000446 ! leaf biomass moisture content
+
+[Term]
+id: CO_324:0000449
+name: sorghum lfmoi_c_pct variable
+relationship: variable_of CO_324:0000198 ! %
+relationship: variable_of CO_324:0000446 ! leaf biomass moisture content
+relationship: variable_of CO_324:0000447 ! leaf biomass moisture content - computation
+is_a: CO_324:0000446 ! leaf biomass moisture content
+
+[Term]
+id: CO_324:0000451
+name: sorghum leaf biomass moisture content - measurement method
+def: "Measure humidity content of a sample using humidity sensor." [CO:curators]
+relationship: method_of CO_324:0000446 ! leaf biomass moisture content
+
+[Term]
+id: CO_324:0000453
+name: sorghum lfmoi_m_pct variable
+relationship: variable_of CO_324:0000198 ! %
+relationship: variable_of CO_324:0000446 ! leaf biomass moisture content
+relationship: variable_of CO_324:0000451 ! leaf biomass moisture content - measurement
+is_a: CO_324:0000446 ! leaf biomass moisture content
+
+[Term]
+id: CO_324:0000454
+name: sorghum lodginc_e_1to5 variable
+synonym: "LODG_1_5" EXACT []
+relationship: variable_of CO_324:0000283 ! plant lodging incidence
+relationship: variable_of CO_324:0000284 ! plant lodging incidence - estimation
+relationship: variable_of CO_324:0000285 ! lodginc score (1-5)
+is_a: CO_324:0000283 ! plant lodging incidence
+
+[Term]
+id: CO_324:0000455
+name: sorghum ms_e_1to3 variable
+synonym: "MS_1_3" EXACT []
+relationship: variable_of CO_324:0000145 ! cytoplasmic male sterility
+relationship: variable_of CO_324:0000146 ! cytoplasmic male sterility - estimation
+relationship: variable_of CO_324:0000147 ! cms score (1-3)
+is_a: CO_324:0000145 ! cytoplasmic male sterility
+
+[Term]
+id: CO_324:0000456
+name: sorghum nhh_ct_hill variable
+synonym: "NHH_hills" EXACT []
+relationship: variable_of CO_324:0000163 ! number of harvested hills
+relationship: variable_of CO_324:0000164 ! harvested hills - counting
+relationship: variable_of CO_324:0000165 ! hill
+is_a: CO_324:0000163 ! number of harvested hills
+
+[Term]
+id: CO_324:0000457
+name: sorghum nselpcle_ct_pcle variable
+synonym: "NSP_pcle" EXACT []
+relationship: variable_of CO_324:0000178 ! panicle selected number
+relationship: variable_of CO_324:0000179 ! panicle selected number - counting
+relationship: variable_of CO_324:0000180 ! panicle
+is_a: CO_324:0000178 ! panicle selected number
+
+[Term]
+id: CO_324:0000458
+name: sorghum nsh_ct_hill variable
+synonym: "NSH_plants" EXACT []
+relationship: variable_of CO_324:0000165 ! hill
+relationship: variable_of CO_324:0000172 ! number of seedling hills
+relationship: variable_of CO_324:0000173 ! number of hills at seedling - counting
+is_a: CO_324:0000165 ! hill
+
+[Term]
+id: CO_324:0000459
+name: sorghum panicle dry matter content trait
+def: "Panicle dry matter content." [CO:curators]
+synonym: "PcleDMC" EXACT []
+is_a: TO:0000847
+
+[Term]
+id: CO_324:0000460
+name: sorghum panicle dry matter content - measurement method
+def: "Measure or calculate dry matter content of a sample by calculating the ratio of the weight of the sample after complete desiccation to the initial weight of the sample." [CO:curators]
+relationship: method_of CO_324:0000459 ! panicle dry matter content
+
+[Term]
+id: CO_324:0000462
+name: sorghum pcledmc_m_pct variable
+relationship: variable_of CO_324:0000198 ! %
+relationship: variable_of CO_324:0000459 ! panicle dry matter content
+relationship: variable_of CO_324:0000460 ! panicle dry matter content - measurement
+is_a: CO_324:0000459 ! panicle dry matter content
+
+[Term]
+id: CO_324:0000463
+name: sorghum panicle dry matter basis yield (g/plot) - computation method
+def: "Calculate using the formula." [CO:curators]
+relationship: method_of CO_324:0000268 ! panicle dry matter basis yield
+
+[Term]
+id: CO_324:0000465
+name: sorghum pcledmyld_c_gplot variable
+relationship: variable_of CO_324:0000078 ! g/plot
+relationship: variable_of CO_324:0000268 ! panicle dry matter basis yield
+relationship: variable_of CO_324:0000463 ! panicle dry matter basis yield (g/plot) - computation
+is_a: CO_324:0000268 ! panicle dry matter basis yield
+
+[Term]
+id: CO_324:0000466
+name: sorghum pcledmyld_c_kgha variable
+relationship: variable_of CO_324:0000231 ! kg/ha
+relationship: variable_of CO_324:0000268 ! panicle dry matter basis yield
+relationship: variable_of CO_324:0000269 ! panicle dry matter basis yield (kg/ha) - computation
+is_a: CO_324:0000268 ! panicle dry matter basis yield
+
+[Term]
+id: CO_324:0000467
+name: sorghum pclehi_c_pct variable
+synonym: "PHI_pct" EXACT []
+relationship: variable_of CO_324:0000012 ! panicle harvest index
+relationship: variable_of CO_324:0000198 ! %
+relationship: variable_of CO_324:0000314 ! panicle harvest index - computation
+is_a: CO_324:0000012 ! panicle harvest index
+
+[Term]
+id: CO_324:0000468
+name: sorghum pclehvno_ct_pcleplot variable
+synonym: "NHP_pcle" EXACT []
+relationship: variable_of CO_324:0000162 ! panicle/plot
+relationship: variable_of CO_324:0000166 ! panicle harvested number
+relationship: variable_of CO_324:0000167 ! panicle harvested number - counting
+is_a: CO_324:0000166 ! panicle harvested number
+
+[Term]
+id: CO_324:0000469
+name: sorghum panicle yield at harvest (kg/ha) - computation method
+def: "Calculate using the formula." [CO:curators]
+relationship: method_of CO_324:0000076 ! panicle yield at harvest
+
+[Term]
+id: CO_324:0000471
+name: sorghum pclehvyld_c_kgha variable
+relationship: variable_of CO_324:0000076 ! panicle yield at harvest
+relationship: variable_of CO_324:0000231 ! kg/ha
+relationship: variable_of CO_324:0000469 ! panicle yield at harvest (kg/ha) - computation
+is_a: CO_324:0000076 ! panicle yield at harvest
+
+[Term]
+id: CO_324:0000472
+name: sorghum pclehvyld_m_gplot variable
+relationship: variable_of CO_324:0000076 ! panicle yield at harvest
+relationship: variable_of CO_324:0000077 ! panicle yield at harvest - measurement
+relationship: variable_of CO_324:0000078 ! g/plot
+is_a: CO_324:0000076 ! panicle yield at harvest
+
+[Term]
+id: CO_324:0000473
+name: sorghum panicle moisture content trait
+def: "Panicle moisture content." [CO:curators]
+synonym: "PcleMoi" EXACT []
+is_a: TO:0000847
+
+[Term]
+id: CO_324:0000474
+name: sorghum panicle moisture content - computation method
+def: "Calculate using the formula." [CO:curators]
+relationship: method_of CO_324:0000473 ! panicle moisture content
+
+[Term]
+id: CO_324:0000476
+name: sorghum pclemoi_c_pct variable
+relationship: variable_of CO_324:0000198 ! %
+relationship: variable_of CO_324:0000473 ! panicle moisture content
+relationship: variable_of CO_324:0000474 ! panicle moisture content - computation
+is_a: CO_324:0000473 ! panicle moisture content
+
+[Term]
+id: CO_324:0000478
+name: sorghum panicle moisture content - measurement method
+def: "Measure humidity content of a sample using humidity sensor." [CO:curators]
+relationship: method_of CO_324:0000473 ! panicle moisture content
+
+[Term]
+id: CO_324:0000480
+name: sorghum pclemoi_m_pct variable
+relationship: variable_of CO_324:0000198 ! %
+relationship: variable_of CO_324:0000473 ! panicle moisture content
+relationship: variable_of CO_324:0000478 ! panicle moisture content - measurement
+is_a: CO_324:0000473 ! panicle moisture content
+
+[Term]
+id: CO_324:0000481
+name: sorghum pcleno_ct_pcleplot variable
+synonym: "NBPN_pcle" EXACT []
+relationship: variable_of CO_324:0000013 ! panicle number
+relationship: variable_of CO_324:0000162 ! panicle/plot
+relationship: variable_of CO_324:0000316 ! panicle number - counting
+is_a: CO_324:0000013 ! panicle number
+
+[Term]
+id: CO_324:0000482
+name: sorghum pcleotno_ct_pcleplot variable
+synonym: "NOTP_pcle" EXACT []
+relationship: variable_of CO_324:0000162 ! panicle/plot
+relationship: variable_of CO_324:0000169 ! panicle off type number
+relationship: variable_of CO_324:0000170 ! panicle off type number - counting
+is_a: CO_324:0000169 ! panicle off type number
+
+[Term]
+id: CO_324:0000483
+name: sorghum pclethrs_e_1to9 variable
+synonym: "PANTHRS_1_9" EXACT []
+relationship: variable_of CO_324:0000100 ! panicle threshability
+relationship: variable_of CO_324:0000101 ! panicle threshability - estimation
+relationship: variable_of CO_324:0000102 ! pclethrs score (1-9)
+is_a: CO_324:0000100 ! panicle threshability
+
+[Term]
+id: CO_324:0000484
+name: sorghum pclewwog_m_gpcle variable
+synonym: "PWTMG_g" EXACT []
+relationship: variable_of CO_324:0000014 ! panicle weight without grain
+relationship: variable_of CO_324:0000075 ! g/panicle
+relationship: variable_of CO_324:0000318 ! panicles weight without grain - measurement
+is_a: CO_324:0000014 ! panicle weight without grain
+
+[Term]
+id: CO_324:0000485
+name: sorghum plant number trait
+def: "Plant number per plot." [CO:curators]
+synonym: "PNo" EXACT []
+
+[Term]
+id: CO_324:0000486
+name: sorghum plant number - counting method
+def: "Count plants in an area or plot." [CO:curators]
+relationship: method_of CO_324:0000485 ! plant number
+
+[Term]
+id: CO_324:0000488
+name: sorghum pno_ct_plntplot variable
+synonym: "PNP_plants" EXACT []
+relationship: variable_of CO_324:0000177 ! plant/plot
+relationship: variable_of CO_324:0000485 ! plant number
+relationship: variable_of CO_324:0000486 ! plant number - counting
+is_a: CO_324:0000485 ! plant number
+
+[Term]
+id: CO_324:0000489
+name: sorghum pvig_e_1to5 variable
+synonym: "GV_1_5" EXACT []
+relationship: variable_of CO_324:0000136 ! plant vigor
+relationship: variable_of CO_324:0000137 ! plant vigor - estimation
+relationship: variable_of CO_324:0000138 ! vigor score (1-5)
+is_a: CO_324:0000136 ! plant vigor
+
+[Term]
+id: CO_324:0000490
+name: sorghum sdlgno_ct_plntplot variable
+synonym: "NSPLT_plants" EXACT []
+relationship: variable_of CO_324:0000175 ! seedling number
+relationship: variable_of CO_324:0000176 ! seedling number - counting
+relationship: variable_of CO_324:0000177 ! plant/plot
+is_a: CO_324:0000175 ! seedling number
+
+[Term]
+id: CO_324:0000491
+name: sorghum sdlgvig_e_1to5 variable
+synonym: "SVIG_1_5" EXACT []
+relationship: variable_of CO_324:0000138 ! vigor score (1-5)
+relationship: variable_of CO_324:0000190 ! seedling vigor
+relationship: variable_of CO_324:0000191 ! seedling vigor - estimation
+is_a: CO_324:0000190 ! seedling vigor
+
+[Term]
+id: CO_324:0000492
+name: sorghum stem biomass dry matter content trait
+def: "Stem biomass dry matter content." [CO:curators]
+synonym: "StmDMC" EXACT []
+is_a: TO:0000952
+
+[Term]
+id: CO_324:0000493
+name: sorghum stem biomass dry matter content - measurement method
+def: "Measure or calculate dry matter content of a sample by calculating the ratio of the weight of the sample after complete desiccation to the initial weight of the sample." [CO:curators]
+relationship: method_of CO_324:0000492 ! stem biomass dry matter content
+
+[Term]
+id: CO_324:0000495
+name: sorghum stmdmc_m_pct variable
+relationship: variable_of CO_324:0000198 ! %
+relationship: variable_of CO_324:0000492 ! stem biomass dry matter content
+relationship: variable_of CO_324:0000493 ! stem biomass dry matter content - measurement
+is_a: CO_324:0000492 ! stem biomass dry matter content
+
+[Term]
+id: CO_324:0000496
+name: sorghum stem biomass dry matter basis yield trait
+def: "The stem biomass yield expressed as a quantity of dry matter harvested per unit area." [CO:curators]
+synonym: "StmDMYld" EXACT []
+is_a: TO:0000371
+
+[Term]
+id: CO_324:0000497
+name: sorghum stem biomass dry matter basis yield (g/plot) - computation method
+def: "Calculate using the formula." [CO:curators]
+relationship: method_of CO_324:0000496 ! stem biomass dry matter basis yield
+
+[Term]
+id: CO_324:0000499
+name: sorghum stmdmyld_c_gplot variable
+relationship: variable_of CO_324:0000078 ! g/plot
+relationship: variable_of CO_324:0000496 ! stem biomass dry matter basis yield
+relationship: variable_of CO_324:0000497 ! stem biomass dry matter basis yield (g/plot) - computation
+is_a: CO_324:0000496 ! stem biomass dry matter basis yield
+
+[Term]
+id: CO_324:0000501
+name: sorghum stem biomass dry matter basis yield (kg/ha) - computation method
+def: "Calculate using the formula." [CO:curators]
+relationship: method_of CO_324:0000496 ! stem biomass dry matter basis yield
+
+[Term]
+id: CO_324:0000503
+name: sorghum stmdmyld_c_kgha variable
+relationship: variable_of CO_324:0000231 ! kg/ha
+relationship: variable_of CO_324:0000496 ! stem biomass dry matter basis yield
+relationship: variable_of CO_324:0000501 ! stem biomass dry matter basis yield (kg/ha) - computation
+is_a: CO_324:0000496 ! stem biomass dry matter basis yield
+
+[Term]
+id: CO_324:0000504
+name: sorghum stmhvyld_c_kgha variable
+synonym: "SYLD_kg_ha" EXACT []
+relationship: variable_of CO_324:0000022 ! stem biomass yield at harvest
+relationship: variable_of CO_324:0000231 ! kg/ha
+relationship: variable_of CO_324:0000233 ! stem biomass yield at harvest (kg/ha) - computation
+is_a: CO_324:0000022 ! stem biomass yield at harvest
+
+[Term]
+id: CO_324:0000505
+name: sorghum stmhvyld_m_gplot variable
+relationship: variable_of CO_324:0000022 ! stem biomass yield at harvest
+relationship: variable_of CO_324:0000078 ! g/plot
+relationship: variable_of CO_324:0000326 ! stem biomass yield at harvest - measurement
+is_a: CO_324:0000022 ! stem biomass yield at harvest
+
+[Term]
+id: CO_324:0000506
+name: sorghum stem biomass moisture content trait
+def: "Stem biomass moisture content." [CO:curators]
+synonym: "StmMoi" EXACT []
+is_a: TO:0000228
+
+[Term]
+id: CO_324:0000507
+name: sorghum stem biomass moisture content - computation method
+def: "Calculate using the formula." [CO:curators]
+relationship: method_of CO_324:0000506 ! stem biomass moisture content
+
+[Term]
+id: CO_324:0000509
+name: sorghum stmmoi_c_pct variable
+relationship: variable_of CO_324:0000198 ! %
+relationship: variable_of CO_324:0000506 ! stem biomass moisture content
+relationship: variable_of CO_324:0000507 ! stem biomass moisture content - computation
+is_a: CO_324:0000506 ! stem biomass moisture content
+
+[Term]
+id: CO_324:0000511
+name: sorghum stem biomass moisture content - measurement method
+def: "Measure humidity content of a sample using humidity sensor." [CO:curators]
+relationship: method_of CO_324:0000506 ! stem biomass moisture content
+
+[Term]
+id: CO_324:0000513
+name: sorghum stmmoi_m_pct variable
+relationship: variable_of CO_324:0000198 ! %
+relationship: variable_of CO_324:0000506 ! stem biomass moisture content
+relationship: variable_of CO_324:0000511 ! stem biomass moisture content - measurement
+is_a: CO_324:0000506 ! stem biomass moisture content
+
+[Term]
+id: CO_324:0000514
+name: sorghum stover biomass dry matter content trait
+def: "Stover biomass dry matter content." [CO:curators]
+synonym: "StoDMC" EXACT []
+is_a: TO:0000327
+
+[Term]
+id: CO_324:0000515
+name: sorghum stover biomass dry matter content - measurement method
+def: "Measure or calculate dry matter content of a sample by calculating the ratio of the weight of the sample after complete desiccation to the initial weight of the sample." [CO:curators]
+relationship: method_of CO_324:0000514 ! stover biomass dry matter content
+
+[Term]
+id: CO_324:0000517
+name: sorghum stodmc_m_pct variable
+relationship: variable_of CO_324:0000198 ! %
+relationship: variable_of CO_324:0000514 ! stover biomass dry matter content
+relationship: variable_of CO_324:0000515 ! stover biomass dry matter content - measurement
+is_a: CO_324:0000514 ! stover biomass dry matter content
+
+[Term]
+id: CO_324:0000518
+name: sorghum stodmyld_c_gplot variable
+relationship: variable_of CO_324:0000078 ! g/plot
+relationship: variable_of CO_324:0000082 ! stover biomass dry matter basis yield
+relationship: variable_of CO_324:0000083 ! stover biomass dry matter basis yield (g/plot) - computation
+is_a: CO_324:0000082 ! stover biomass dry matter basis yield
+
+[Term]
+id: CO_324:0000519
+name: sorghum stover biomass dry matter basis yield (kg/ha) - computation method
+def: "Calculate using the formula." [CO:curators]
+relationship: method_of CO_324:0000082 ! stover biomass dry matter basis yield
+
+[Term]
+id: CO_324:0000521
+name: sorghum stodmyld_c_kgha variable
+relationship: variable_of CO_324:0000082 ! stover biomass dry matter basis yield
+relationship: variable_of CO_324:0000231 ! kg/ha
+relationship: variable_of CO_324:0000519 ! stover biomass dry matter basis yield (kg/ha) - computation
+is_a: CO_324:0000082 ! stover biomass dry matter basis yield
+
+[Term]
+id: CO_324:0000522
+name: sorghum stover biomass yield at harvest trait
+def: "The stover biomass expressed fresh (field) basis that was harvested per unit area." [CO:curators]
+synonym: "StoHvYld" EXACT []
+
+[Term]
+id: CO_324:0000523
+name: sorghum stover biomass yield at harvest (kg/ha) - computation method
+def: "Calculate using the formula." [CO:curators]
+relationship: method_of CO_324:0000522 ! stover biomass yield at harvest
+
+[Term]
+id: CO_324:0000525
+name: sorghum stohvyld_c_kgha variable
+relationship: variable_of CO_324:0000231 ! kg/ha
+relationship: variable_of CO_324:0000522 ! stover biomass yield at harvest
+relationship: variable_of CO_324:0000523 ! stover biomass yield at harvest (kg/ha) - computation
+is_a: CO_324:0000522 ! stover biomass yield at harvest
+
+[Term]
+id: CO_324:0000527
+name: sorghum stover biomass yield at harvest - measurement method
+def: "Record Stover Biomass weight after harvest." [CO:curators]
+relationship: method_of CO_324:0000522 ! stover biomass yield at harvest
+
+[Term]
+id: CO_324:0000529
+name: sorghum stohvyld_m_gplot variable
+relationship: variable_of CO_324:0000078 ! g/plot
+relationship: variable_of CO_324:0000522 ! stover biomass yield at harvest
+relationship: variable_of CO_324:0000527 ! stover biomass yield at harvest - measurement
+is_a: CO_324:0000522 ! stover biomass yield at harvest
+
+[Term]
+id: CO_324:0000530
+name: sorghum stover biomass moisture content trait
+def: "Stover biomass moisture content." [CO:curators]
+synonym: "StoMoi" EXACT []
+is_a: TO:0000228
+
+[Term]
+id: CO_324:0000531
+name: sorghum stover biomass moisture content - computation method
+def: "Calculate using the formula." [CO:curators]
+relationship: method_of CO_324:0000530 ! stover biomass moisture content
+
+[Term]
+id: CO_324:0000533
+name: sorghum stomoi_c_pct variable
+relationship: variable_of CO_324:0000198 ! %
+relationship: variable_of CO_324:0000530 ! stover biomass moisture content
+relationship: variable_of CO_324:0000531 ! stover biomass moisture content - computation
+is_a: CO_324:0000530 ! stover biomass moisture content
+
+[Term]
+id: CO_324:0000535
+name: sorghum stover biomass moisture content - measurement method
+def: "Measure humidity content of a sample using humidity sensor." [CO:curators]
+relationship: method_of CO_324:0000530 ! stover biomass moisture content
+
+[Term]
+id: CO_324:0000537
+name: sorghum stomoi_m_pct variable
+relationship: variable_of CO_324:0000198 ! %
+relationship: variable_of CO_324:0000530 ! stover biomass moisture content
+relationship: variable_of CO_324:0000535 ! stover biomass moisture content - measurement
+is_a: CO_324:0000530 ! stover biomass moisture content
+
+[Term]
+id: CO_324:0000538
+name: sorghum plant vegetative growth rate trait
+def: "Vegetative growth rate." [CO:curators]
+synonym: "VGR" EXACT []
+is_a: TO:0000296
+
+[Term]
+id: CO_324:0000539
+name: sorghum plant vegetative growth rate - computation method
+def: "Calculate vegetative growth rate." [CO:curators]
+relationship: method_of CO_324:0000538 ! plant vegetative growth rate
+
+[Term]
+id: CO_324:0000540
+name: sorghum g/m2 /day scale
+relationship: scale_of CO_324:0000539 ! plant vegetative growth rate - computation
+
+[Term]
+id: CO_324:0000541
+name: sorghum vgr_c_gm2day variable
+synonym: "VGR_g_m2_day" EXACT []
+relationship: variable_of CO_324:0000538 ! plant vegetative growth rate
+relationship: variable_of CO_324:0000539 ! plant vegetative growth rate - computation
+relationship: variable_of CO_324:0000540 ! g/m2 /day
+is_a: CO_324:0000538 ! plant vegetative growth rate
+
+[Term]
+id: CO_324:0000542
+name: sorghum whole above ground biomass dry matter content trait
+def: "Whole above ground biomass dry matter content." [CO:curators]
+synonym: "WAGBDMC" EXACT []
+is_a: TO:0000077
+
+[Term]
+id: CO_324:0000543
+name: sorghum whole above ground biomass dry matter content - measurement method
+def: "Measure or calculate dry matter content of a sample by calculating the ratio of the weight of the sample after complete desiccation to the initial weight of the sample." [CO:curators]
+relationship: method_of CO_324:0000542 ! whole above ground biomass dry matter content
+
+[Term]
+id: CO_324:0000545
+name: sorghum wagbdmc_m_pct variable
+relationship: variable_of CO_324:0000198 ! %
+relationship: variable_of CO_324:0000542 ! whole above ground biomass dry matter content
+relationship: variable_of CO_324:0000543 ! whole above ground biomass dry matter content - measurement
+is_a: CO_324:0000542 ! whole above ground biomass dry matter content
+
+[Term]
+id: CO_324:0000546
+name: sorghum wagbdmyld_c_gplot variable
+relationship: variable_of CO_324:0000020 ! whole above ground biomass dry matter basis yield
+relationship: variable_of CO_324:0000078 ! g/plot
+relationship: variable_of CO_324:0000324 ! whole above ground biomass dry matter basis yield (g/plot) - computation
+is_a: CO_324:0000020 ! whole above ground biomass dry matter basis yield
+
+[Term]
+id: CO_324:0000547
+name: sorghum whole above ground biomass dry matter basis yield (kg/ha) - computation method
+def: "Calculate using the formula." [CO:curators]
+relationship: method_of CO_324:0000020 ! whole above ground biomass dry matter basis yield
+
+[Term]
+id: CO_324:0000549
+name: sorghum wagbdmyld_c_kgha variable
+relationship: variable_of CO_324:0000020 ! whole above ground biomass dry matter basis yield
+relationship: variable_of CO_324:0000231 ! kg/ha
+relationship: variable_of CO_324:0000547 ! whole above ground biomass dry matter basis yield (kg/ha) - computation
+is_a: CO_324:0000020 ! whole above ground biomass dry matter basis yield
+
+[Term]
+id: CO_324:0000550
+name: sorghum whole above ground dry matter biomass yield (t/ha) - computation method
+def: "Calculate using the formula." [CO:curators]
+relationship: method_of CO_324:0000020 ! whole above ground biomass dry matter basis yield
+
+[Term]
+id: CO_324:0000551
+name: sorghum t/ha scale
+relationship: scale_of CO_324:0000550 ! whole above ground dry matter biomass yield (t/ha) - computation
+
+[Term]
+id: CO_324:0000552
+name: sorghum wagbdmyld_c_tha variable
+synonym: "BM_t_ha" EXACT []
+relationship: variable_of CO_324:0000020 ! whole above ground biomass dry matter basis yield
+relationship: variable_of CO_324:0000550 ! whole above ground dry matter biomass yield (t/ha) - computation
+relationship: variable_of CO_324:0000551 ! t/ha
+is_a: CO_324:0000020 ! whole above ground biomass dry matter basis yield
+
+[Term]
+id: CO_324:0000553
+name: sorghum whole above ground biomass yield at harvest trait
+def: "The whole above ground biomass expressed fresh (field) basis that was harvested per unit area." [CO:curators]
+synonym: "WAGBHvYld" EXACT []
+is_a: TO:0000327
+
+[Term]
+id: CO_324:0000554
+name: sorghum whole above ground biomass yield at harvest (kg/ha) - computation method
+def: "Calculate using the formula." [CO:curators]
+relationship: method_of CO_324:0000553 ! whole above ground biomass yield at harvest
+
+[Term]
+id: CO_324:0000556
+name: sorghum wagbhvyld_c_kgha variable
+relationship: variable_of CO_324:0000231 ! kg/ha
+relationship: variable_of CO_324:0000553 ! whole above ground biomass yield at harvest
+relationship: variable_of CO_324:0000554 ! whole above ground biomass yield at harvest (kg/ha) - computation
+is_a: CO_324:0000553 ! whole above ground biomass yield at harvest
+
+[Term]
+id: CO_324:0000558
+name: sorghum whole above ground biomass yield at harvest - measurement method
+def: "Record Whole Above Ground Biomass weight after harvest." [CO:curators]
+relationship: method_of CO_324:0000553 ! whole above ground biomass yield at harvest
+
+[Term]
+id: CO_324:0000560
+name: sorghum wagbhvyld_m_gplot variable
+relationship: variable_of CO_324:0000078 ! g/plot
+relationship: variable_of CO_324:0000553 ! whole above ground biomass yield at harvest
+relationship: variable_of CO_324:0000558 ! whole above ground biomass yield at harvest - measurement
+is_a: CO_324:0000553 ! whole above ground biomass yield at harvest
+
+[Term]
+id: CO_324:0000561
+name: sorghum whole above ground biomass moisture content trait
+def: "Whole above ground biomass moisture content." [CO:curators]
+synonym: "WAGBMoi" EXACT []
+is_a: TO:0000228
+
+[Term]
+id: CO_324:0000562
+name: sorghum whole above ground biomass moisture content - computation method
+def: "Calculate using the formula." [CO:curators]
+relationship: method_of CO_324:0000561 ! whole above ground biomass moisture content
+
+[Term]
+id: CO_324:0000564
+name: sorghum wagbmoi_c_pct variable
+relationship: variable_of CO_324:0000198 ! %
+relationship: variable_of CO_324:0000561 ! whole above ground biomass moisture content
+relationship: variable_of CO_324:0000562 ! whole above ground biomass moisture content - computation
+is_a: CO_324:0000561 ! whole above ground biomass moisture content
+
+[Term]
+id: CO_324:0000566
+name: sorghum whole above ground biomass moisture content - measurement method
+def: "Measure humidity content of a sample using humidity sensor." [CO:curators]
+relationship: method_of CO_324:0000561 ! whole above ground biomass moisture content
+
+[Term]
+id: CO_324:0000568
+name: sorghum wagbmoi_m_pct variable
+relationship: variable_of CO_324:0000198 ! %
+relationship: variable_of CO_324:0000561 ! whole above ground biomass moisture content
+relationship: variable_of CO_324:0000566 ! whole above ground biomass moisture content - measurement
+is_a: CO_324:0000561 ! whole above ground biomass moisture content
+
+[Term]
+id: CO_324:0000569
+name: sorghum foliar anthracnose response trait
+def: "Foliar anthracnose response on Sorghum, disease caused by Colletotrichum graminicola." [CO:curators]
+synonym: "FAnthrRes" EXACT []
+is_a: TO:0000439
+
+[Term]
+id: CO_324:0000570
+name: sorghum fanthrres_e_1to5 variable
+synonym: "FANTH_1_5" EXACT []
+relationship: variable_of CO_324:0000110 ! foliar anthracnose severity - estimation
+relationship: variable_of CO_324:0000380 ! fanthrres score (1-5)
+relationship: variable_of CO_324:0000569 ! foliar anthracnose response
+is_a: CO_324:0000569 ! foliar anthracnose response
+
+[Term]
+id: CO_324:0000571
+name: sorghum fanthrsev_e_1to9 variable
+synonym: "FANTH_1_9" EXACT []
+relationship: variable_of CO_324:0000109 ! foliar anthracnose severity
+relationship: variable_of CO_324:0000110 ! foliar anthracnose severity - estimation
+relationship: variable_of CO_324:0000111 ! fanthrsev score (1-9)
+is_a: CO_324:0000109 ! foliar anthracnose severity
+
+[Term]
+id: CO_324:0000572
+name: sorghum ganthrsev_e_1to5 variable
+synonym: "GANTH_1_5" EXACT []
+relationship: variable_of CO_324:0000106 ! grain anthracnose severity
+relationship: variable_of CO_324:0000107 ! grain anthracnose severity - estimation
+relationship: variable_of CO_324:0000108 ! ganthrsev score (1-5)
+is_a: CO_324:0000106 ! grain anthracnose severity
+
+[Term]
+id: CO_324:0000573
+name: sorghum gmoldsev_e_1to5 variable
+synonym: "PGMR_1_5" EXACT []
+relationship: variable_of CO_324:0000103 ! grain mold severity
+relationship: variable_of CO_324:0000104 ! grain mold severity - estimation
+relationship: variable_of CO_324:0000376 ! gmoldinc score (1-5)
+is_a: CO_324:0000103 ! grain mold severity
+
+[Term]
+id: CO_324:0000574
+name: sorghum gmoldsev_e_1to9 variable
+synonym: "PGMR_1_9" EXACT []
+relationship: variable_of CO_324:0000103 ! grain mold severity
+relationship: variable_of CO_324:0000104 ! grain mold severity - estimation
+relationship: variable_of CO_324:0000105 ! gmoldinc score (1-9)
+is_a: CO_324:0000103 ! grain mold severity
+
+[Term]
+id: CO_324:0000575
+name: sorghum helminth_e_0to1 variable
+synonym: "HELMINTH_0_1" EXACT []
+relationship: variable_of CO_324:0000220 ! helminthosporiose disease presence
+relationship: variable_of CO_324:0000221 ! helminthosporiose disease presence - estimation
+relationship: variable_of CO_324:0000222 ! helminth score (0-1)
+is_a: CO_324:0000220 ! helminthosporiose disease presence
+
+[Term]
+id: CO_324:0000576
+name: sorghum insdmg_e_1to9 variable
+synonym: "INSD_1_9" EXACT []
+relationship: variable_of CO_324:0000065 ! insect damage
+relationship: variable_of CO_324:0000370 ! insect damage - estimation
+relationship: variable_of CO_324:0000371 ! insdmg score (1-9)
+is_a: CO_324:0000065 ! insect damage
+
+[Term]
+id: CO_324:0000577
+name: sorghum midgeinc_e_1to5 variable
+synonym: "MSCORE_1_5" EXACT []
+relationship: variable_of CO_324:0000157 ! midge incidence
+relationship: variable_of CO_324:0000158 ! midge incidence - estimation
+relationship: variable_of CO_324:0000159 ! midgeinc score (1-5)
+is_a: CO_324:0000157 ! midge incidence
+
+[Term]
+id: CO_324:0000578
+name: sorghum rustinc_c_pct variable
+synonym: "RUST_pct" EXACT []
+relationship: variable_of CO_324:0000063 ! sorghum rust incidence
+relationship: variable_of CO_324:0000198 ! %
+relationship: variable_of CO_324:0000368 ! rust incidence - computation
+is_a: CO_324:0000063 ! sorghum rust incidence
+
+[Term]
+id: CO_324:0000579
+name: sorghum sborerinc_c_pct variable
+synonym: "SB_pct" EXACT []
+relationship: variable_of CO_324:0000068 ! sorghum stem borer incidence
+relationship: variable_of CO_324:0000198 ! %
+relationship: variable_of CO_324:0000374 ! sorghum stem borer incidence - computation
+is_a: CO_324:0000068 ! sorghum stem borer incidence
+
+[Term]
+id: CO_324:0000580
+name: sorghum sdminc_c_pct variable
+synonym: "SDMF_pct" EXACT []
+relationship: variable_of CO_324:0000061 ! sorghum downy mildew incidence
+relationship: variable_of CO_324:0000198 ! %
+relationship: variable_of CO_324:0000366 ! sorghum downy mildew incidence - computation
+is_a: CO_324:0000061 ! sorghum downy mildew incidence
+
+[Term]
+id: CO_324:0000581
+name: sorghum sootstr_e_0to1 variable
+synonym: "SOOTSTR_0_1" EXACT []
+relationship: variable_of CO_324:0000217 ! sooty stripe disease presence
+relationship: variable_of CO_324:0000218 ! sooty stripe disease presence - estimation
+relationship: variable_of CO_324:0000219 ! sootstr score (0-1)
+is_a: CO_324:0000217 ! sooty stripe disease presence
+
+[Term]
+id: CO_324:0000582
+name: sorghum ssflyinc_c_pct variable
+synonym: "SSFLY_pct" EXACT []
+relationship: variable_of CO_324:0000067 ! sorghum shoot fly incidence
+relationship: variable_of CO_324:0000198 ! %
+relationship: variable_of CO_324:0000372 ! sorghum shoot fly incidence - computation
+is_a: CO_324:0000067 ! sorghum shoot fly incidence
+
+[Term]
+id: CO_324:0000583
+name: sorghum strigano_ct_plntplot variable
+synonym: "NSTRIGA_plants" EXACT []
+relationship: variable_of CO_324:0000177 ! plant/plot
+relationship: variable_of CO_324:0000181 ! striga plant number
+relationship: variable_of CO_324:0000182 ! striga plant number - counting
+is_a: CO_324:0000181 ! striga plant number
+
+[Term]
+id: CO_324:0000584
+name: sorghum strigainc_e_1to5 variable
+synonym: "STRSE_1_5" EXACT []
+relationship: variable_of CO_324:0000193 ! striga incidence
+relationship: variable_of CO_324:0000194 ! striga incidence - estimation
+relationship: variable_of CO_324:0000195 ! strigainc score (1-5)
+is_a: CO_324:0000193 ! striga incidence
+
+[Term]
+id: CO_324:0000585
+name: sorghum strigamaxvig_e_0to9 variable
+synonym: "MAXVSP_0_9" EXACT []
+relationship: variable_of CO_324:0000151 ! striga maximum vigor
+relationship: variable_of CO_324:0000152 ! maximum striga vigor - estimation
+relationship: variable_of CO_324:0000153 ! strigavigor score (0-9)
+is_a: CO_324:0000151 ! striga maximum vigor
+
+[Term]
+id: CO_324:0000586
+name: sorghum strigameanvig_e_0to9 variable
+synonym: "MVSP_0_9" EXACT []
+relationship: variable_of CO_324:0000153 ! strigavigor score (0-9)
+relationship: variable_of CO_324:0000154 ! striga mean vigor
+relationship: variable_of CO_324:0000155 ! mean striga vigor - estimation
+is_a: CO_324:0000154 ! striga mean vigor
+
+[Term]
+id: CO_324:0000587
+name: sorghum antho_e_0to2 variable
+synonym: "ANTHO_0_2" EXACT []
+relationship: variable_of CO_324:0000214 ! plant anthocyanin presence
+relationship: variable_of CO_324:0000215 ! plant anthocyanin presence - estimation
+relationship: variable_of CO_324:0000216 ! antho score (0-2)
+is_a: CO_324:0000214 ! plant anthocyanin presence
+
+[Term]
+id: CO_324:0000588
+name: sorghum coleopcol_e_1to2 variable
+synonym: "Colcol_1_2" EXACT []
+relationship: variable_of CO_324:0000298 ! coleoptile color
+relationship: variable_of CO_324:0000299 ! coleoptile color - estimation
+relationship: variable_of CO_324:0000300 ! coleopcol score (1-2)
+is_a: CO_324:0000298 ! coleoptile color
+
+[Term]
+id: CO_324:0000589
+name: sorghum flglfw_dw_gplot variable
+synonym: "FLGWT_g" EXACT []
+relationship: variable_of CO_324:0000002 ! flag leaf weight
+relationship: variable_of CO_324:0000078 ! g/plot
+relationship: variable_of CO_324:0000304 ! flag leaf weight - estimation
+is_a: CO_324:0000002 ! flag leaf weight
+
+[Term]
+id: CO_324:0000590
+name: sorghum gcov score (0-5) scale
+relationship: scale_of CO_324:0000092 ! grain covering - estimation
+
+[Term]
+id: CO_324:0000591
+name: sorghum gcov_e_0to9 variable
+relationship: variable_of CO_324:0000091 ! grain covering
+relationship: variable_of CO_324:0000092 ! grain covering - estimation
+relationship: variable_of CO_324:0000590 ! gcov score (0-5)
+is_a: CO_324:0000091 ! grain covering
+
+[Term]
+id: CO_324:0000592
+name: sorghum gcov_e_1to5 variable
+synonym: "GRNCOV_1_5" EXACT []
+relationship: variable_of CO_324:0000091 ! grain covering
+relationship: variable_of CO_324:0000092 ! grain covering - estimation
+relationship: variable_of CO_324:0000093 ! gcov score (1-5)
+is_a: CO_324:0000091 ! grain covering
+
+[Term]
+id: CO_324:0000593
+name: sorghum glmad_e_1to5 variable
+synonym: "GLUMAD_score" EXACT []
+relationship: variable_of CO_324:0000295 ! glume adhesion
+relationship: variable_of CO_324:0000296 ! glume adhesion - estimation
+relationship: variable_of CO_324:0000297 ! glmad score (1-5)
+is_a: CO_324:0000295 ! glume adhesion
+
+[Term]
+id: CO_324:0000594
+name: sorghum glmawn_e_0to2 variable
+synonym: "GLUAWN_0_2" EXACT []
+relationship: variable_of CO_324:0000226 ! glume awnedness
+relationship: variable_of CO_324:0000227 ! glume awnedness - estimation
+relationship: variable_of CO_324:0000228 ! glmawn score (0-2)
+is_a: CO_324:0000226 ! glume awnedness
+
+[Term]
+id: CO_324:0000595
+name: sorghum glmcol_e_1to4 variable
+synonym: "GLUMCOL_1_4" EXACT []
+relationship: variable_of CO_324:0000097 ! glume color
+relationship: variable_of CO_324:0000098 ! glume color - estimation
+relationship: variable_of CO_324:0000099 ! glmcol score (1-4)
+is_a: CO_324:0000097 ! glume color
+
+[Term]
+id: CO_324:0000596
+name: sorghum glmop_e_0to2 variable
+synonym: "GLUMOP_0_2" EXACT []
+relationship: variable_of CO_324:0000286 ! glume opening
+relationship: variable_of CO_324:0000287 ! glume opening - estimation
+relationship: variable_of CO_324:0000288 ! glmop score (0-2)
+is_a: CO_324:0000286 ! glume opening
+
+[Term]
+id: CO_324:0000597
+name: sorghum glno_ct_lfplnt variable
+synonym: "NBGRLV_leaves" EXACT []
+relationship: variable_of CO_324:0000241 ! green leaves number
+relationship: variable_of CO_324:0000242 ! green leaves number - counting
+relationship: variable_of CO_324:0000243 ! leaf/plant
+is_a: CO_324:0000241 ! green leaves number
+
+[Term]
+id: CO_324:0000598
+name: sorghum grotation_e_0to2 variable
+synonym: "GRROT_0_2" EXACT []
+relationship: variable_of CO_324:0000289 ! grain rotation
+relationship: variable_of CO_324:0000290 ! grain rotation - estimation
+relationship: variable_of CO_324:0000291 ! grotation score (0-2)
+is_a: CO_324:0000289 ! grain rotation
+
+[Term]
+id: CO_324:0000599
+name: sorghum gshpdors_e_1to3 variable
+synonym: "GRSHP_score" EXACT []
+relationship: variable_of CO_324:0000292 ! grain shape in dorsal view
+relationship: variable_of CO_324:0000293 ! grain shape in dorsal view - estimation
+relationship: variable_of CO_324:0000294 ! gshpdors score (1-3)
+is_a: CO_324:0000292 ! grain shape in dorsal view
+
+[Term]
+id: CO_324:0000600
+name: sorghum grain shape in profile view trait
+def: "Grain shape in profile view." [CO:curators]
+synonym: "GShpProf" EXACT []
+is_a: TO:0002730
+
+[Term]
+id: CO_324:0000601
+name: sorghum grain shape in profile view - estimation method
+def: "Visual assessment of grain shape." [CO:curators]
+relationship: method_of CO_324:0000600 ! grain shape in profile view
+
+[Term]
+id: CO_324:0000602
+name: sorghum gshpprof score (1-3) scale
+relationship: scale_of CO_324:0000601 ! grain shape in profile view - estimation
+
+[Term]
+id: CO_324:0000603
+name: sorghum gshpprof_e_1to3 variable
+synonym: "GRSHPPROF_1_3" EXACT []
+relationship: variable_of CO_324:0000600 ! grain shape in profile view
+relationship: variable_of CO_324:0000601 ! grain shape in profile view - estimation
+relationship: variable_of CO_324:0000602 ! gshpprof score (1-3)
+is_a: CO_324:0000600 ! grain shape in profile view
+
+[Term]
+id: CO_324:0000604
+name: sorghum internodlng_m_cm variable
+synonym: "SIL_cm" EXACT []
+relationship: variable_of CO_324:0000090 ! cm
+relationship: variable_of CO_324:0000139 ! stem internodes length
+relationship: variable_of CO_324:0000140 ! stem internodes length - computation
+is_a: CO_324:0000139 ! stem internodes length
+
+[Term]
+id: CO_324:0000605
+name: sorghum internodno_ct_internod variable
+synonym: "INTNN_internodes" EXACT []
+relationship: variable_of CO_324:0000235 ! stem elongated internodes number
+relationship: variable_of CO_324:0000236 ! stem elongated internodes number - counting
+relationship: variable_of CO_324:0000237 ! internode
+is_a: CO_324:0000235 ! stem elongated internodes number
+
+[Term]
+id: CO_324:0000606
+name: sorghum lfcol_e_1to2 variable
+synonym: "LCLR_1_2" EXACT []
+relationship: variable_of CO_324:0000055 ! leaf color
+relationship: variable_of CO_324:0000360 ! leaf color - estimation
+relationship: variable_of CO_324:0000361 ! lfcol score (1-2)
+is_a: CO_324:0000055 ! leaf color
+
+[Term]
+id: CO_324:0000607
+name: sorghum lfmrcol_e_1to5 variable
+synonym: "LMC_1_5" EXACT []
+relationship: variable_of CO_324:0000057 ! leaf midrib color
+relationship: variable_of CO_324:0000364 ! leaf midrib color - estimation
+relationship: variable_of CO_324:0000365 ! lfmrcol score (1-5)
+is_a: CO_324:0000057 ! leaf midrib color
+
+[Term]
+id: CO_324:0000608
+name: sorghum lfstmwratio_c_pct variable
+synonym: "LOST_pct" EXACT []
+relationship: variable_of CO_324:0000028 ! leaf to stem weight ratio
+relationship: variable_of CO_324:0000198 ! %
+relationship: variable_of CO_324:0000334 ! leaf to stem weight ratio - computation
+is_a: CO_324:0000028 ! leaf to stem weight ratio
+
+[Term]
+id: CO_324:0000609
+name: sorghum lfvcol_e_1to2 variable
+synonym: "LVC_1_2" EXACT []
+relationship: variable_of CO_324:0000056 ! leaf vein color
+relationship: variable_of CO_324:0000362 ! leaf vein color - estimation
+relationship: variable_of CO_324:0000363 ! lfvcol score (1-2)
+is_a: CO_324:0000056 ! leaf vein color
+
+[Term]
+id: CO_324:0000610
+name: sorghum tiller scale
+relationship: scale_of CO_324:0000342 ! stem nodal tiller number - counting
+relationship: scale_of CO_324:0000344 ! plant basal tiller number - counting
+
+[Term]
+id: CO_324:0000611
+name: sorghum ndltno_e_tllr variable
+synonym: "NDLT_1_5" EXACT []
+relationship: variable_of CO_324:0000039 ! stem nodal tiller number
+relationship: variable_of CO_324:0000342 ! stem nodal tiller number - counting
+relationship: variable_of CO_324:0000610 ! tiller
+is_a: CO_324:0000039 ! stem nodal tiller number
+
+[Term]
+id: CO_324:0000613
+name: sorghum pbtno_ct_tllr variable
+relationship: variable_of CO_324:0000040 ! plant basal tiller number
+relationship: variable_of CO_324:0000344 ! plant basal tiller number - counting
+relationship: variable_of CO_324:0000610 ! tiller
+is_a: CO_324:0000040 ! plant basal tiller number
+
+[Term]
+id: CO_324:0000614
+name: sorghum pclecptsh_e_1to9 variable
+synonym: "PCPT_1_9" EXACT []
+relationship: variable_of CO_324:0000050 ! panicle compactness and shape
+relationship: variable_of CO_324:0000358 ! panicle compactness and shape - estimation
+relationship: variable_of CO_324:0000359 ! pclecpt score (1-13)
+is_a: CO_324:0000050 ! panicle compactness and shape
+
+[Term]
+id: CO_324:0000615
+name: sorghum pcleden_e_1to5 variable
+synonym: "PDEN_1_5" EXACT []
+relationship: variable_of CO_324:0000187 ! panicle density
+relationship: variable_of CO_324:0000188 ! panicle density - estimation
+relationship: variable_of CO_324:0000189 ! pcleden score (1-5)
+is_a: CO_324:0000187 ! panicle density
+
+[Term]
+id: CO_324:0000616
+name: sorghum pcledsirblty_e_1to5 variable
+synonym: "PD_1_5" EXACT []
+relationship: variable_of CO_324:0000184 ! panicle desirability
+relationship: variable_of CO_324:0000185 ! panicle desirability - estimation
+relationship: variable_of CO_324:0000186 ! pcledsirblty score (1-5)
+is_a: CO_324:0000184 ! panicle desirability
+
+[Term]
+id: CO_324:0000617
+name: sorghum pcleex score (1-4) scale
+relationship: scale_of CO_324:0000356 ! panicle exertion - measurement
+
+[Term]
+id: CO_324:0000618
+name: sorghum pcleex_e_1to4 variable
+relationship: variable_of CO_324:0000049 ! panicle exertion
+relationship: variable_of CO_324:0000356 ! panicle exertion - measurement
+relationship: variable_of CO_324:0000617 ! pcleex score (1-4)
+is_a: CO_324:0000049 ! panicle exertion
+
+[Term]
+id: CO_324:0000619
+name: sorghum pcleex_m_cm variable
+synonym: "PEXC_cm" EXACT []
+relationship: variable_of CO_324:0000049 ! panicle exertion
+relationship: variable_of CO_324:0000090 ! cm
+relationship: variable_of CO_324:0000356 ! panicle exertion - measurement
+is_a: CO_324:0000049 ! panicle exertion
+
+[Term]
+id: CO_324:0000620
+name: sorghum pclelng_m_cm variable
+synonym: "PANL_cm" EXACT []
+relationship: variable_of CO_324:0000090 ! cm
+relationship: variable_of CO_324:0000094 ! panicle length
+relationship: variable_of CO_324:0000095 ! panicle length - measurement
+is_a: CO_324:0000094 ! panicle length
+
+[Term]
+id: CO_324:0000621
+name: sorghum pclewid_m_cm variable
+synonym: "PWDTH_cm" EXACT []
+relationship: variable_of CO_324:0000042 ! panicle width
+relationship: variable_of CO_324:0000090 ! cm
+relationship: variable_of CO_324:0000346 ! panicle width - measurement
+is_a: CO_324:0000042 ! panicle width
+
+[Term]
+id: CO_324:0000622
+name: sorghum pedlng_m_cm variable
+synonym: "PEDL_cm" EXACT []
+relationship: variable_of CO_324:0000090 ! cm
+relationship: variable_of CO_324:0000271 ! peduncle length
+relationship: variable_of CO_324:0000272 ! peduncle length - measurement
+is_a: CO_324:0000271 ! peduncle length
+
+[Term]
+id: CO_324:0000623
+name: sorghum ph_m_cm variable
+synonym: "PH_cm" EXACT []
+relationship: variable_of CO_324:0000088 ! plant height
+relationship: variable_of CO_324:0000089 ! plant height - measurement
+relationship: variable_of CO_324:0000090 ! cm
+is_a: CO_324:0000088 ! plant height
+
+[Term]
+id: CO_324:0000624
+name: sorghum restlfw_c_g variable
+synonym: "LFWT1_g" EXACT []
+relationship: variable_of CO_324:0000003 ! rest of leaves weight
+relationship: variable_of CO_324:0000081 ! g
+relationship: variable_of CO_324:0000306 ! rest of leaves weight - computation
+is_a: CO_324:0000003 ! rest of leaves weight
+
+[Term]
+id: CO_324:0000625
+name: sorghum stem length trait
+def: "Length of the main stem." [CO:curators]
+synonym: "StmLng" EXACT []
+is_a: TO:0000576
+
+[Term]
+id: CO_324:0000626
+name: sorghum stem length - measurement method
+def: "Measure length of the stem from the base of the first elongated internode to the base of the peduncle" [CO:curators]
+relationship: method_of CO_324:0000625 ! stem length
+
+[Term]
+id: CO_324:0000627
+name: sorghum stmlng_m_cm variable
+relationship: variable_of CO_324:0000090 ! cm
+relationship: variable_of CO_324:0000625 ! stem length
+relationship: variable_of CO_324:0000626 ! stem length - measurement
+is_a: CO_324:0000625 ! stem length
+
+[Term]
+id: CO_324:0000628
+name: sorghum hvst_dto_day variable
+synonym: "DTHV_day" EXACT []
+relationship: variable_of CO_324:0000035 ! harvest time
+relationship: variable_of CO_324:0000276 ! day
+relationship: variable_of CO_324:0000338 ! days to harvest - computation
+is_a: CO_324:0000035 ! harvest time
+
+[Term]
+id: CO_324:0000629
+name: sorghum yyymmdd scale
+relationship: scale_of CO_324:0000086 ! maturity date - estimation
+relationship: scale_of CO_324:0000119 ! flowering date - estimation
+relationship: scale_of CO_324:0000122 ! heading date - estimation
+relationship: scale_of CO_324:0000125 ! sowing date - measurement
+relationship: scale_of CO_324:0000281 ! flag leaf ligulation - date estimation
+relationship: scale_of CO_324:0000648 ! harvest date - measurement
+
+[Term]
+id: CO_324:0000630
+name: sorghum sow_date_ymd variable
+synonym: "DS_date_ymd" EXACT []
+relationship: variable_of CO_324:0000124 ! sowing time
+relationship: variable_of CO_324:0000125 ! sowing date - measurement
+relationship: variable_of CO_324:0000629 ! yyymmdd
+is_a: CO_324:0000124 ! sowing time
+
+[Term]
+id: CO_324:0000631
+name: sorghum flfl_c_day variable
+synonym: "FLT_dto_day" EXACT []
+relationship: variable_of CO_324:0000274 ! flag leaf ligulation time
+relationship: variable_of CO_324:0000275 ! days to flag leaf ligulation - computation
+relationship: variable_of CO_324:0000276 ! day
+is_a: CO_324:0000274 ! flag leaf ligulation time
+
+[Term]
+id: CO_324:0000632
+name: sorghum flfl_date_jd variable
+synonym: "FLT_date_jd" EXACT []
+relationship: variable_of CO_324:0000087 ! Julian day
+relationship: variable_of CO_324:0000274 ! flag leaf ligulation time
+relationship: variable_of CO_324:0000281 ! flag leaf ligulation - date estimation
+is_a: CO_324:0000274 ! flag leaf ligulation time
+
+[Term]
+id: CO_324:0000634
+name: sorghum flfl_date_ymd variable
+synonym: "FLT_date_ymd" EXACT []
+relationship: variable_of CO_324:0000274 ! flag leaf ligulation time
+relationship: variable_of CO_324:0000281 ! flag leaf ligulation - date estimation
+relationship: variable_of CO_324:0000629 ! yyymmdd
+is_a: CO_324:0000274 ! flag leaf ligulation time
+
+[Term]
+id: CO_324:0000635
+name: sorghum flo_c_day variable
+synonym: "FLW_dto_day" EXACT []
+relationship: variable_of CO_324:0000027 ! flowering time
+relationship: variable_of CO_324:0000276 ! day
+relationship: variable_of CO_324:0000332 ! days to flowering - computation
+is_a: CO_324:0000027 ! flowering time
+
+[Term]
+id: CO_324:0000636
+name: sorghum flo_date_jd variable
+synonym: "FLW_date_jd" EXACT []
+relationship: variable_of CO_324:0000027 ! flowering time
+relationship: variable_of CO_324:0000087 ! Julian day
+relationship: variable_of CO_324:0000119 ! flowering date - estimation
+is_a: CO_324:0000027 ! flowering time
+
+[Term]
+id: CO_324:0000638
+name: sorghum flo_date_ymd variable
+synonym: "FLW_date_ymd" EXACT []
+relationship: variable_of CO_324:0000027 ! flowering time
+relationship: variable_of CO_324:0000119 ! flowering date - estimation
+relationship: variable_of CO_324:0000629 ! yyymmdd
+is_a: CO_324:0000027 ! flowering time
+
+[Term]
+id: CO_324:0000639
+name: sorghum days to heading - computation method
+def: "Compute number of days required from sowing to heading" [CO:curators]
+relationship: method_of CO_324:0000121 ! heading time
+
+[Term]
+id: CO_324:0000640
+name: sorghum hd_c_day variable
+relationship: variable_of CO_324:0000121 ! heading time
+relationship: variable_of CO_324:0000276 ! day
+relationship: variable_of CO_324:0000639 ! days to heading - computation
+is_a: CO_324:0000121 ! heading time
+
+[Term]
+id: CO_324:0000641
+name: sorghum hd_date_jd variable
+synonym: "HD_jd" EXACT []
+relationship: variable_of CO_324:0000087 ! Julian day
+relationship: variable_of CO_324:0000121 ! heading time
+relationship: variable_of CO_324:0000122 ! heading date - estimation
+is_a: CO_324:0000121 ! heading time
+
+[Term]
+id: CO_324:0000643
+name: sorghum hd_date_ymd variable
+synonym: "HD_date_ymd" EXACT []
+relationship: variable_of CO_324:0000121 ! heading time
+relationship: variable_of CO_324:0000122 ! heading date - estimation
+relationship: variable_of CO_324:0000629 ! yyymmdd
+is_a: CO_324:0000121 ! heading time
+
+[Term]
+id: CO_324:0000645
+name: sorghum harvest date - measurement method
+def: "Record the date of harvest" [CO:curators]
+relationship: method_of CO_324:0000035 ! harvest time
+
+[Term]
+id: CO_324:0000646
+name: sorghum hvst_date_jd variable
+relationship: variable_of CO_324:0000035 ! harvest time
+relationship: variable_of CO_324:0000087 ! Julian day
+relationship: variable_of CO_324:0000645 ! harvest date - measurement
+is_a: CO_324:0000035 ! harvest time
+
+[Term]
+id: CO_324:0000648
+name: sorghum harvest date - measurement method
+def: "Record the date of harvest" [CO:curators]
+relationship: method_of CO_324:0000035 ! harvest time
+
+[Term]
+id: CO_324:0000650
+name: sorghum hvst_date_ymd variable
+relationship: variable_of CO_324:0000035 ! harvest time
+relationship: variable_of CO_324:0000629 ! yyymmdd
+relationship: variable_of CO_324:0000648 ! harvest date - measurement
+is_a: CO_324:0000035 ! harvest time
+
+[Term]
+id: CO_324:0000651
+name: sorghum kp_c_index variable
+synonym: "Kp_index" EXACT []
+relationship: variable_of CO_324:0000238 ! variety photoperiod sensitivity coefficient
+relationship: variable_of CO_324:0000239 ! photoperiod sensitivity coefficient - computation
+relationship: variable_of CO_324:0000240 ! index
+is_a: CO_324:0000238 ! variety photoperiod sensitivity coefficient
+
+[Term]
+id: CO_324:0000652
+name: sorghum days to maturity - computation method
+def: "Compute number of days required from sowing (or emergence) to maturity." [CO:curators]
+relationship: method_of CO_324:0000085 ! maturity time
+
+[Term]
+id: CO_324:0000654
+name: sorghum mat_c_day variable
+synonym: "DTMAT_day" EXACT []
+relationship: variable_of CO_324:0000085 ! maturity time
+relationship: variable_of CO_324:0000276 ! day
+relationship: variable_of CO_324:0000652 ! days to maturity - computation
+is_a: CO_324:0000085 ! maturity time
+
+[Term]
+id: CO_324:0000655
+name: sorghum mat_date_jd variable
+synonym: "DMAT_jd" EXACT []
+relationship: variable_of CO_324:0000085 ! maturity time
+relationship: variable_of CO_324:0000086 ! maturity date - estimation
+relationship: variable_of CO_324:0000087 ! Julian day
+is_a: CO_324:0000085 ! maturity time
+
+[Term]
+id: CO_324:0000657
+name: sorghum mat_date_ymd variable
+synonym: "DMAT_date_ymd" EXACT []
+relationship: variable_of CO_324:0000085 ! maturity time
+relationship: variable_of CO_324:0000086 ! maturity date - estimation
+relationship: variable_of CO_324:0000629 ! yyymmdd
+is_a: CO_324:0000085 ! maturity time
+
+[Term]
+id: CO_324:0000658
+name: sorghum matapp_e_1to5 variable
+synonym: "MA_1_5" EXACT []
+relationship: variable_of CO_324:0000148 ! variety maturity appreciation
+relationship: variable_of CO_324:0000149 ! variety maturity appreciation - estimation
+relationship: variable_of CO_324:0000150 ! matapp score (1-5)
+is_a: CO_324:0000148 ! variety maturity appreciation
+
+[Term]
+id: CO_324:0000659
+name: sorghum decorticated grain weight trait
+def: "Grain weight after decortication." [CO:curators]
+synonym: "DecGW" EXACT []
+is_a: TO:0000590
+
+[Term]
+id: CO_324:0000660
+name: sorghum decorticated grain weight - measurement method
+def: "Record the decorticated grain weight of a sample after dehulling." [CO:curators]
+relationship: method_of CO_324:0000659 ! decorticated grain weight
+
+[Term]
+id: CO_324:0000662
+name: sorghum decgw_m_g variable
+synonym: "GDWT_g" EXACT []
+relationship: variable_of CO_324:0000081 ! g
+relationship: variable_of CO_324:0000659 ! decorticated grain weight
+relationship: variable_of CO_324:0000660 ! decorticated grain weight - measurement
+is_a: CO_324:0000659 ! decorticated grain weight
+
+[Term]
+id: CO_324:0000663
+name: sorghum endocol_e_1to2 variable
+synonym: "ENDCOL_1_2" EXACT []
+relationship: variable_of CO_324:0000205 ! endosperm color
+relationship: variable_of CO_324:0000206 ! endosperm color - estimation
+relationship: variable_of CO_324:0000207 ! endocol score (1-2)
+is_a: CO_324:0000205 ! endosperm color
+
+[Term]
+id: CO_324:0000664
+name: sorghum endot_e_1to5 variable
+synonym: "ET_1_5" EXACT []
+relationship: variable_of CO_324:0000259 ! endosperm texture
+relationship: variable_of CO_324:0000260 ! endosperm texture - estimation
+relationship: variable_of CO_324:0000261 ! endot score (1-5)
+is_a: CO_324:0000259 ! endosperm texture
+
+[Term]
+id: CO_324:0000665
+name: sorghum gamy_dsc_pct variable
+synonym: "AMY_pct__DSC" EXACT []
+relationship: variable_of CO_324:0000198 ! %
+relationship: variable_of CO_324:0000244 ! grain amylose content
+relationship: variable_of CO_324:0000245 ! grain amylose content by dsc - measurement
+is_a: CO_324:0000244 ! grain amylose content
+
+[Term]
+id: CO_324:0000666
+name: sorghum gamy_nirs_pct variable
+synonym: "AMY_pct__NIRS" EXACT []
+relationship: variable_of CO_324:0000198 ! %
+relationship: variable_of CO_324:0000244 ! grain amylose content
+relationship: variable_of CO_324:0000381 ! grain amylose content by nirs - measurement
+is_a: CO_324:0000244 ! grain amylose content
+
+[Term]
+id: CO_324:0000667
+name: sorghum gcol_e_1to6 variable
+synonym: "GRNCOL_1_6" EXACT []
+relationship: variable_of CO_324:0000045 ! grain color
+relationship: variable_of CO_324:0000209 ! grain color - estimation
+relationship: variable_of CO_324:0000210 ! gcol score (1-6)
+is_a: CO_324:0000045 ! grain color
+
+[Term]
+id: CO_324:0000668
+name: sorghum gcol_e_1to9 variable
+synonym: "SDCLR_1_9" EXACT []
+relationship: variable_of CO_324:0000045 ! grain color
+relationship: variable_of CO_324:0000209 ! grain color - estimation
+relationship: variable_of CO_324:0000351 ! gcol score (1-9)
+is_a: CO_324:0000045 ! grain color
+
+[Term]
+id: CO_324:0000669
+name: sorghum gd_e_1to5 variable
+synonym: "GD_1_5" EXACT []
+relationship: variable_of CO_324:0000130 ! grain desirability
+relationship: variable_of CO_324:0000131 ! grain desirability - estimation
+relationship: variable_of CO_324:0000132 ! gd score (1-5)
+is_a: CO_324:0000130 ! grain desirability
+
+[Term]
+id: CO_324:0000670
+name: sorghum gdecyld_c_pct variable
+synonym: "GDYD_pct" EXACT []
+relationship: variable_of CO_324:0000198 ! %
+relationship: variable_of CO_324:0000211 ! grain decortication yield
+relationship: variable_of CO_324:0000212 ! grain decortication yield - computation
+is_a: CO_324:0000211 ! grain decortication yield
+
+[Term]
+id: CO_324:0000671
+name: sorghum gden_m_kghl variable
+synonym: "GDENS_g" EXACT []
+relationship: variable_of CO_324:0000223 ! grain density
+relationship: variable_of CO_324:0000224 ! grain density - measurement
+relationship: variable_of CO_324:0000225 ! kg/hl
+is_a: CO_324:0000223 ! grain density
+
+[Term]
+id: CO_324:0000672
+name: sorghum ghrd_m_pct variable
+synonym: "GHD_pct" EXACT []
+relationship: variable_of CO_324:0000198 ! %
+relationship: variable_of CO_324:0000277 ! grain hardness
+relationship: variable_of CO_324:0000278 ! grain hardness psi - measurement
+is_a: CO_324:0000277 ! grain hardness
+
+[Term]
+id: CO_324:0000673
+name: sorghum glip_nirs_pct variable
+synonym: "LIP_pct__NIRS" EXACT []
+relationship: variable_of CO_324:0000198 ! %
+relationship: variable_of CO_324:0000247 ! grain lipid content
+relationship: variable_of CO_324:0000383 ! lipid content nirs - measurement
+is_a: CO_324:0000247 ! grain lipid content
+
+[Term]
+id: CO_324:0000674
+name: sorghum glip_sox_pct variable
+synonym: "LIP_pct__SOX" EXACT []
+relationship: variable_of CO_324:0000198 ! %
+relationship: variable_of CO_324:0000247 ! grain lipid content
+relationship: variable_of CO_324:0000248 ! lipid content soxhlet - measurement
+is_a: CO_324:0000247 ! grain lipid content
+
+[Term]
+id: CO_324:0000675
+name: sorghum glstr_e_0to1 variable
+relationship: variable_of CO_324:0000047 ! grain lustre
+relationship: variable_of CO_324:0000349 ! absent-present score (0-1)
+relationship: variable_of CO_324:0000354 ! grain lustre - estimation
+is_a: CO_324:0000047 ! grain lustre
+
+[Term]
+id: CO_324:0000676
+name: sorghum gprot_kjdl_pct variable
+synonym: "PROT_pct__KJE" EXACT []
+relationship: variable_of CO_324:0000198 ! %
+relationship: variable_of CO_324:0000250 ! grain protein content
+relationship: variable_of CO_324:0000251 ! protein content kjeldahl - measurement
+is_a: CO_324:0000250 ! grain protein content
+
+[Term]
+id: CO_324:0000677
+name: sorghum gprot_nirs_pct variable
+synonym: "PROT_pct__NIRS" EXACT []
+relationship: variable_of CO_324:0000198 ! %
+relationship: variable_of CO_324:0000250 ! grain protein content
+relationship: variable_of CO_324:0000385 ! protein content nirs - measurement
+is_a: CO_324:0000250 ! grain protein content
+
+[Term]
+id: CO_324:0000678
+name: sorghum grnd_m_num variable
+synonym: "GRNRD_num" EXACT []
+relationship: variable_of CO_324:0000262 ! grain roundness
+relationship: variable_of CO_324:0000263 ! grain roundness - measurement
+relationship: variable_of CO_324:0000264 ! Number
+is_a: CO_324:0000262 ! grain roundness
+
+[Term]
+id: CO_324:0000679
+name: sorghum gscoat_e_0to1 variable
+synonym: "SSCT_0_1" EXACT []
+relationship: variable_of CO_324:0000044 ! grain subcoat presence
+relationship: variable_of CO_324:0000348 ! grain subcoat presence - estimation
+relationship: variable_of CO_324:0000349 ! absent-present score (0-1)
+is_a: CO_324:0000044 ! grain subcoat presence
+
+[Term]
+id: CO_324:0000680
+name: sorghum gsz_e_1to5 variable
+synonym: "SSZE_1_5" EXACT []
+relationship: variable_of CO_324:0000046 ! grain size
+relationship: variable_of CO_324:0000352 ! grain size - estimation
+relationship: variable_of CO_324:0000353 ! gsz score (1-5)
+is_a: CO_324:0000046 ! grain size
+
+[Term]
+id: CO_324:0000681
+name: sorghum perthk_e_0to2 variable
+synonym: "PERTH_0_2" EXACT []
+relationship: variable_of CO_324:0000265 ! pericarp thickness
+relationship: variable_of CO_324:0000266 ! pericarp thickness - estimation
+relationship: variable_of CO_324:0000267 ! perthk score (0-2)
+is_a: CO_324:0000265 ! pericarp thickness
+
+[Term]
+id: CO_324:0000682
+name: sorghum stmjq_m_ml variable
+synonym: "JQ_ml" EXACT []
+relationship: variable_of CO_324:0000202 ! stem juice volume
+relationship: variable_of CO_324:0000203 ! stem juice volume - measurement
+relationship: variable_of CO_324:0000204 ! ml
+is_a: CO_324:0000202 ! stem juice volume
+
+[Term]
+id: CO_324:0000683
+name: sorghum stmjsc_pct variable
+synonym: "SC_pct" EXACT []
+relationship: variable_of CO_324:0000196 ! stem juice sugar content
+relationship: variable_of CO_324:0000197 ! stem juice sugar content brix method - measurement
+relationship: variable_of CO_324:0000198 ! %
+is_a: CO_324:0000196 ! stem juice sugar content
+
+[Term]
+id: CO_324:0000684
+name: sorghum stmjw_m_g variable
+synonym: "JW_g" EXACT []
+relationship: variable_of CO_324:0000081 ! g
+relationship: variable_of CO_324:0000142 ! stem juice weight
+relationship: variable_of CO_324:0000143 ! stem juice weight - measurement
+is_a: CO_324:0000142 ! stem juice weight
+
+[Term]
+id: CO_324:0000685
+name: sorghum stmk_m_pct variable
+synonym: "STK_pct" EXACT []
+relationship: variable_of CO_324:0000025 ! stem potassium content
+relationship: variable_of CO_324:0000198 ! %
+relationship: variable_of CO_324:0000330 ! stem potassium content - measurement
+is_a: CO_324:0000025 ! stem potassium content
+
+[Term]
+id: CO_324:0000686
+name: sorghum stmna_m_pct variable
+synonym: "SOD_pct" EXACT []
+relationship: variable_of CO_324:0000024 ! stem sodium content
+relationship: variable_of CO_324:0000198 ! %
+relationship: variable_of CO_324:0000328 ! stem sodium content - measurement
+is_a: CO_324:0000024 ! stem sodium content
+
+[Term]
+id: CO_324:0000687
+name: sorghum stoeng_m_mjkg variable
+synonym: "ENG_MJ_kg" EXACT []
+relationship: variable_of CO_324:0000036 ! stover metabolised energy
+relationship: variable_of CO_324:0000340 ! stover metabolised energy - measurement
+relationship: variable_of CO_324:0000341 ! MJ/kg
+is_a: CO_324:0000036 ! stover metabolised energy
+
+[Term]
+id: CO_324:0000688
+name: sorghum stond_nirs_pct variable
+synonym: "NDG_pct" EXACT []
+relationship: variable_of CO_324:0000016 ! stover nitrogen digestibility
+relationship: variable_of CO_324:0000198 ! %
+relationship: variable_of CO_324:0000320 ! nitrogen digestibility nirs - measurement
+is_a: CO_324:0000016 ! stover nitrogen digestibility
+
+[Term]
+id: CO_324:0000689
+name: sorghum stoomd_nirs_pct variable
+synonym: "ODG_pct" EXACT []
+relationship: variable_of CO_324:0000031 ! stover organic matter digestibility
+relationship: variable_of CO_324:0000198 ! %
+relationship: variable_of CO_324:0000336 ! organic matter digestibility nirs - measurement
+is_a: CO_324:0000031 ! stover organic matter digestibility
+
+[Term]
+id: CO_324:0000690
+name: sorghum tocol_e_1to5 variable
+synonym: "TOCOL_1_5" EXACT []
+relationship: variable_of CO_324:0000253 ! to color
+relationship: variable_of CO_324:0000254 ! to color - estimation
+relationship: variable_of CO_324:0000255 ! tocol score (1-5)
+is_a: CO_324:0000253 ! to color
+
+[Term]
+id: CO_324:0000691
+name: sorghum tocons_e_1to5 variable
+synonym: "TOCONS_1_5" EXACT []
+relationship: variable_of CO_324:0000256 ! to consistency
+relationship: variable_of CO_324:0000257 ! to consistency - estimation
+relationship: variable_of CO_324:0000258 ! tocons score (1-5)
+is_a: CO_324:0000256 ! to consistency
+
+[Term]
+id: TO:0000469
+is_a: CO_324:0000085 ! maturity time
+
+[Typedef]
+id: method_of
+name: method_of
+
+[Typedef]
+id: scale_of
+name: scale_of
+
+[Typedef]
+id: variable_of
+name: variable_of
+
