@@ -241,7 +241,7 @@ id: CO_339:0000036
 name: lentil cooking time trait
 def: "Time needed for lentil sample to cook" [CO:curators]
 synonym: "CKT" EXACT []
-is_a: TO:0000667
+is_a: TO:0001069
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
