@@ -630,7 +630,7 @@ id: CO_341:0000111
 name: pigeonpea cooking quality of dhal trait
 def: "Cooking quality of dhal" [CO:curators]
 synonym: "CKD" EXACT []
-is_a: TO:0000667
+is_a: TO:0001069
 
 [Term]
 id: CO_341:0000112
@@ -643,7 +643,7 @@ id: CO_341:0000114
 name: pigeonpea cooking quality of seed trait
 def: "Cooking quality of seed" [CO:curators]
 synonym: "CKS" EXACT []
-is_a: TO:0000667
+is_a: TO:0001069
 
 [Term]
 id: CO_341:0000115
