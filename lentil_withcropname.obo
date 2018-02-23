@@ -782,7 +782,7 @@ id: CO_339:0000126
 name: lentil pod dehiscence trait
 def: "Splitting of pods at maturity along its built in line of weakness in order to release seeds" [CO:curators]
 synonym: "PDEH" EXACT []
-is_a: TO:0000930
+is_a: TO:0001074
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
