@@ -279,7 +279,7 @@ name: soybean early shattering trait
 def: "Proportion of open pods at harvest" [CO:curators]
 synonym: "Pods open" EXACT []
 synonym: "SHATEARLY" EXACT []
-is_a: TO:0000473
+is_a: TO:0001074
 xref: SOY:0001348
 
 [Term]
@@ -821,7 +821,7 @@ id: CO_336:0000132
 name: soybean late shattering score trait
 def: "Proportion of open pods 2 weeks after harvest" [CO:curators]
 synonym: "SHATLATE" EXACT []
-is_a: TO:0000473
+is_a: TO:0001074
 xref: SOY:0001377
 
 [Term]
@@ -1469,7 +1469,7 @@ name: soybean pod shattering trait
 def: "Proportion of open pods" [CO:curators]
 synonym: "Pods open" EXACT []
 synonym: "PodShat" EXACT []
-is_a: TO:0000473
+is_a: TO:0001074
 xref: SOY:0001348
 
 [Term]
