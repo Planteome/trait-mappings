@@ -8,7 +8,7 @@ id: CO_341:0000000
 name: pigeonpea flowering pattern trait
 def: "Flowering pattern like DT (determinate) vs NDT (non determinate)" [CO:curators]
 synonym: "FP" EXACT []
-is_a: TO:0002616
+is_a: TO:0002616 ! flowering time trait
 
 [Term]
 id: CO_341:0000001
@@ -26,7 +26,7 @@ id: CO_341:0000003
 name: pigeonpea maturity group trait
 def: "Maturity group based on days to 50 % flowering" [CO:curators]
 synonym: "MTG" EXACT []
-is_a: TO:0000344
+is_a: TO:0000344 ! days to flowering trait
 
 [Term]
 id: CO_341:0000004
@@ -57,7 +57,7 @@ id: CO_341:0000009
 name: pigeonpea days to 75 % maturity trait
 def: "Number of days required to mature 75 % of the population" [CO:curators]
 synonym: "MT" EXACT []
-is_a: TO:0000469
+is_a: TO:0000469 ! days to maturity
 
 [Term]
 id: CO_341:0000010
@@ -70,7 +70,7 @@ id: CO_341:0000012
 name: pigeonpea number of productive branches trait
 def: "Number of productive branches counted per plant" [CO:curators]
 synonym: "PBR" EXACT []
-is_a: TO:0000547
+is_a: TO:0000547 ! primary branch number
 
 [Term]
 id: CO_341:0000013
@@ -128,7 +128,7 @@ relationship: method_of CO_341:0000021 ! plant height
 
 [Term]
 id: CO_341:0000024
-name: pigeonpea plant stand trait
+name: pigeonpea plant stand
 def: "Number of plants per plot" [CO:curators]
 synonym: "PST" EXACT []
 
@@ -148,7 +148,7 @@ id: CO_341:0000027
 name: pigeonpea pod bearing length trait
 def: "Distance between uppermost and lowermost pod present on plant" [CO:curators]
 synonym: "PBL" EXACT []
-is_a: TO:0002626
+is_a: TO:0002626 ! fruit length
 
 [Term]
 id: CO_341:0000028
@@ -236,7 +236,7 @@ id: CO_341:0000042
 name: pigeonpea seeds per plant trait
 def: "Number of seeds per plant" [CO:curators]
 synonym: "SPL" EXACT []
-is_a: TO:0000184
+is_a: TO:0000184 ! seed morphology trait
 
 [Term]
 id: CO_341:0000043
@@ -255,6 +255,7 @@ name: pigeonpea visual selection scores at flowering stage trait
 def: "Visual selection scores recorded at the time of flowering" [CO:curators]
 synonym: "Selection scores" EXACT []
 synonym: "VSF" EXACT []
+is_a:  TO:0000322 ! phenotypic acceptability
 
 [Term]
 id: CO_341:0000046
@@ -272,6 +273,7 @@ id: CO_341:0000048
 name: pigeonpea visual selection scores at podding stage trait
 def: "Visual selection scores recorded at the time of podding" [CO:curators]
 synonym: "VSP" EXACT []
+is_a:  TO:0000322 ! phenotypic acceptability
 
 [Term]
 id: CO_341:0000049
@@ -289,6 +291,7 @@ id: CO_341:0000051
 name: pigeonpea visual selection scores at maturity stage trait
 def: "Visual selection scores recorded at the time of maturity" [CO:curators]
 synonym: "VSM" EXACT []
+is_a: TO:0000322 ! phenotypic acceptability
 
 [Term]
 id: CO_341:0000052
