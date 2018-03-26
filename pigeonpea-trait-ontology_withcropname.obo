@@ -862,14 +862,14 @@ id: CO_341:0000151
 name: pigeonpea soil salinity stress susceptibility trait
 def: "Soil salinity stress susceptibility" [CO:curators]
 synonym: "SSS" EXACT []
-is_a: TO:0000168
+is_a: TO:0000429 ! salt sensitivity
 
 [Term]
 id: CO_341:0000152
 name: pigeonpea soil acidity stress susceptibility trait
 def: "Soil acidity stress susceptibility" [CO:curators]
 synonym: "SAS" EXACT []
-is_a: TO:0000168
+is_a: TO:0000178  ! acid soil sensitivity
 
 [Term]
 id: CO_341:0000153
