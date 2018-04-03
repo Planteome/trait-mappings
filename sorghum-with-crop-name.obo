@@ -709,7 +709,7 @@ relationship: scale_of CO_324:0000149 ! variety maturity appreciation - estimati
 [Term]
 id: CO_324:0000151
 name: sorghum striga maximum vigor
-def: "Assessment of the Striga mean vigor." [CO:curators]
+def: "Assessment of the Striga maximum vigor." [CO:curators]
 synonym: "StrigaMaxVig" EXACT []
 is_a: TO:0000347
 
@@ -728,7 +728,7 @@ relationship: scale_of CO_324:0000155 ! mean striga vigor - estimation
 [Term]
 id: CO_324:0000154
 name: sorghum striga mean vigor
-def: "Assessment of the Striga maximum vigor." [CO:curators]
+def: "Assessment of the Striga mean vigor." [CO:curators]
 synonym: "StrigaMeanVig" EXACT []
 is_a: TO:0000347
 
