@@ -8,34 +8,36 @@ id: CO_324:0000002
 name: sorghum flag leaf weight trait
 def: "Weight of the flag leaf." [CO:curators]
 synonym: "FlgLfW" EXACT []
-is_a: TO:0000832
+is_a: TO:0000832 ! flag leaf morphology trait
 
 [Term]
 id: CO_324:0000003
 name: sorghum rest of leaves weight trait
 def: "Total leaf weight without flag leaf weight." [CO:curators]
 synonym: "LFWT1" EXACT []
+is_a: TO:0000505 ! leaf weight
+
 
 [Term]
 id: CO_324:0000004
 name: sorghum leaf biomass dry matter basis yield trait
 def: "The leaf biomass expressed in dry matter basis that was harvested per unit area." [CO:curators]
 synonym: "LfDMYld" EXACT []
-is_a: TO:0000371
+is_a: TO:0000870 ! leaf yield trait
 
 [Term]
 id: CO_324:0000006
 name: sorghum grain dry matter basis yield trait
 def: "The weight of grain expressed in dry matter basis that was harvested per unit area." [CO:curators]
 synonym: "GDMYld" EXACT []
-is_a: TO:0000396
+is_a: TO:0000396 ! grain yield trait
 
 [Term]
 id: CO_324:0000009
 name: sorghum grain number per panicle trait
 def: "Number of grains per panicle." [CO:curators]
 synonym: "GNoPcle" EXACT []
-is_a: TO:0002759
+is_a: TO:0002759 ! grain number
 
 [Term]
 id: CO_324:0000012
@@ -43,27 +45,28 @@ name: sorghum panicle harvest index trait
 def: "Proportion of harvested panicle weight over whole above ground biomass weight." [CO:curators]
 synonym: "Panicle partitioning" EXACT []
 synonym: "PcleHI" EXACT []
-is_a: TO:0000128
+is_a: TO:0000128 ! harvest index
 
 [Term]
 id: CO_324:0000013
 name: sorghum panicle number trait
 def: "Number of panicles." [CO:curators]
 synonym: "PcleNo" EXACT []
+is_a: TO:0000152 ! panicle number
 
 [Term]
 id: CO_324:0000014
 name: sorghum panicle weight without grain trait
 def: "Weight of the panicle without grain." [CO:curators]
 synonym: "PCleWWoG" EXACT []
-is_a: TO:0000014
+is_a: TO:0000014 ! panicle weight
 
 [Term]
 id: CO_324:0000016
 name: sorghum stover nitrogen digestibility trait
 def: "Stover Nitrogen digestibility value." [CO:curators]
 synonym: "StoND" EXACT []
-is_a: TO:0020080
+is_a: TO:0020080 ! stover organic matter digestability
 
 [Term]
 id: CO_324:0000019
@@ -78,60 +81,63 @@ id: CO_324:0000020
 name: sorghum whole above ground biomass dry matter basis yield trait
 def: "The whole above ground biomass expressed in dry matter basis that was harvested per unit area." [CO:curators]
 synonym: "Whole above ground biomass" EXACT []
-is_a: TO:0000327
+is_a: TO:0000327 ! shoot system yield trait
 
 [Term]
 id: CO_324:0000022
 name: sorghum stem biomass yield at harvest trait
 def: "The stem biomass expressed fresh (field) basis that was harvested per unit area." [CO:curators]
 synonym: "StmHvYld" EXACT []
-is_a: TO:0000371
+is_a: TO:0000327 ! shoot system yield trait
 
 [Term]
 id: CO_324:0000024
 name: sorghum stem sodium content trait
 def: "The content of sodium ion content measured in the stems." [CO:curators]
 synonym: "StmNa" EXACT []
-is_a: TO:0020004
+is_a: TO:0020004 ! shoot system sodium content
 
 [Term]
 id: CO_324:0000025
 name: sorghum stem potassium content trait
 def: "The content of potassium ion measured in the stems." [CO:curators]
 synonym: "StmK" EXACT []
-is_a: TO:0020003
+is_a: TO:0020003 ! shoot system potassium content
 
 [Term]
 id: CO_324:0000027
 name: sorghum flowering time trait
 def: "Flowering time." [CO:curators]
 synonym: "Flo" EXACT []
-is_a: TO:0002616
+is_a: TO:0002616 ! flowering time trait
 
 [Term]
 id: CO_324:0000028
 name: sorghum leaf to stem weight ratio trait
 def: "The ratio of leaves weight over stem weight." [CO:curators]
 synonym: "LfStmWRatio" EXACT []
-is_a: TO:0000077
+is_a: TO:0000077 ! shoot system morphology trait
 
 [Term]
 id: CO_324:0000031
 name: sorghum stover organic matter digestibility trait
 def: "Organic matter digestibility value derived from chemical analysis of dried and ground stover, usually using Near Infrared Reflectance Spectrophotometry (NIRS)." [CO:curators]
 synonym: "StoOMD" EXACT []
+is_a: TO:0020080 ! stover organic matter digestibility
 
 [Term]
 id: CO_324:0000035
 name: sorghum harvest time trait
 def: "Harvest time." [CO:curators]
 synonym: "Hvst" EXACT []
+is_a: TO:0000469 ! days to maturity
 
 [Term]
 id: CO_324:0000036
 name: sorghum stover metabolised energy trait
 def: "Metabolised energy value derived from chemical analysis of dried and ground stover." [CO:curators]
 synonym: "StoEng" EXACT []
+is_a: TO:0020081 ! metabolized energy of stover
 
 [Term]
 id: CO_324:0000039
@@ -187,6 +193,7 @@ id: CO_324:0000049
 name: sorghum panicle exertion trait
 def: "Length of peduncle emerged from the flag leaf sheath." [CO:curators]
 synonym: "PcleEx" EXACT []
+is_a: TO:0002691 ! peduncle length
 
 [Term]
 id: CO_324:0000050
@@ -218,17 +225,17 @@ is_a: TO:0000720
 
 [Term]
 id: CO_324:0000061
-name: sorghum sorghum downy mildew incidence trait
+name: sorghum downy mildew incidence trait
 def: "Sorghum downy mildew incidence on sorghum plants. Caused by Peronospora sp." [CO:curators]
 synonym: "SDMInc" EXACT []
-is_a: TO:0000439
+is_a: TO:0020010 ! sorghum downy mildew resistance
 
 [Term]
 id: CO_324:0000063
-name: sorghum sorghum rust incidence trait
+name: sorghum rust incidence trait
 def: "Incidence of rust on sorghum plants. Causative agent: Puccinia purpurea." [CO:curators]
 synonym: "RustInc" EXACT []
-is_a: TO:0000439
+is_a: TO:0020009 ! sorghum rust resistance
 
 [Term]
 id: CO_324:0000065
@@ -239,17 +246,17 @@ is_a: TO:0000261
 
 [Term]
 id: CO_324:0000067
-name: sorghum sorghum shoot fly incidence trait
+name: sorghum shoot fly incidence trait
 def: "Shoot fly (Atherigona soccata) incidence on sorghum plants." [CO:curators]
 synonym: "SSFlyInc" EXACT []
-is_a: TO:0000261
+is_a: TO:0020007 ! sorghum shoot fly resistance
 
 [Term]
 id: CO_324:0000068
-name: sorghum sorghum stem borer incidence trait
+name: sorghum stem borer incidence trait
 def: "Stem borer (Chilo partellus) incidence on sorghum plants." [CO:curators]
 synonym: "SBorerInc" EXACT []
-is_a: TO:0020005
+is_a: TO:0020005 ! sorghum stem borer resistance
 
 [Term]
 id: CO_324:0000071
@@ -286,7 +293,7 @@ id: CO_324:0000076
 name: sorghum panicle yield at harvest trait
 def: "The weight of panicles expressed fresh (field) basis that was harvested per unit area." [CO:curators]
 synonym: "PcleHvYld" EXACT []
-is_a: TO:0000371
+is_a: TO:0000327 ! shoot system yield trait
 
 [Term]
 id: CO_324:0000077
@@ -316,7 +323,7 @@ id: CO_324:0000079
 name: sorghum grain weight trait
 def: "The weight of grain per sample (single, 100, 200, 1000)." [CO:curators]
 synonym: "GW" EXACT []
-is_a: TO:0002746
+is_a: TO:0000589 ! average grain weight
 
 [Term]
 id: CO_324:0000080
@@ -338,7 +345,7 @@ id: CO_324:0000082
 name: sorghum stover biomass dry matter basis yield trait
 def: "The stover biomass yield expressed as a quantity of dry matter harvested per unit area." [CO:curators]
 synonym: "StoDMYld" EXACT []
-is_a: TO:0000327
+is_a: TO:0000327 ! shoot system yield trait
 
 [Term]
 id: CO_324:0000083
@@ -351,6 +358,7 @@ id: CO_324:0000085
 name: sorghum maturity time trait
 def: "Maturity time." [CO:curators]
 synonym: "Mat" EXACT []
+is_a: TO:0000469 ! days to maturity
 
 [Term]
 id: CO_324:0000086
@@ -397,6 +405,7 @@ id: CO_324:0000091
 name: sorghum grain covering trait
 def: "Proportion of grain surface covered by glumes" [CO:curators]
 synonym: "GCov" EXACT []
+is_a: TO:0001000 ! glume cover
 
 [Term]
 id: CO_324:0000092
@@ -464,7 +473,7 @@ id: CO_324:0000103
 name: sorghum grain mold severity trait
 def: "Grain mold severity caused by agents Aspergillus spp and/or Penicillium spp." [CO:curators]
 synonym: "GMoldSev" EXACT []
-is_a: TO:0020008
+is_a: TO:0020008 ! sorghum grain mold
 
 [Term]
 id: CO_324:0000104
@@ -520,6 +529,7 @@ id: CO_324:0000112
 name: sorghum plant agronomic appreciation trait
 def: "Plant type desirability." [CO:curators]
 synonym: "AgApp" EXACT []
+is_a: TO:0000322 ! phenotypic acceptability
 
 [Term]
 id: CO_324:0000113
@@ -665,7 +675,7 @@ name: sorghum cytoplasmic male sterility trait
 def: "An assessment of male sterility on the panicle." [CO:curators]
 synonym: "CMS" EXACT []
 synonym: "Cytoplasm system" EXACT []
-is_a: TO:0000437
+is_a: TO:0000580 ! cytoplasmic male sterility trait
 
 [Term]
 id: CO_324:0000146
@@ -683,7 +693,7 @@ id: CO_324:0000148
 name: sorghum variety maturity appreciation trait
 def: "Appreciation of maturity time of the variety by comparing to local check variety." [CO:curators]
 synonym: "MatApp" EXACT []
-is_a: TO:0000322
+is_a: TO:0000469 ! days to maturity
 
 [Term]
 id: CO_324:0000149
@@ -698,7 +708,7 @@ relationship: scale_of CO_324:0000149 ! variety maturity appreciation - estimati
 
 [Term]
 id: CO_324:0000151
-name: sorghum striga maximum vigor trait
+name: sorghum striga maximum vigor
 def: "Assessment of the Striga mean vigor." [CO:curators]
 synonym: "StrigaMaxVig" EXACT []
 is_a: TO:0000347
@@ -717,7 +727,7 @@ relationship: scale_of CO_324:0000155 ! mean striga vigor - estimation
 
 [Term]
 id: CO_324:0000154
-name: sorghum striga mean vigor trait
+name: sorghum striga mean vigor
 def: "Assessment of the Striga maximum vigor." [CO:curators]
 synonym: "StrigaMeanVig" EXACT []
 is_a: TO:0000347
@@ -752,7 +762,7 @@ id: CO_324:0000160
 name: sorghum empty panicle number trait
 def: "Number of empty or missing panicles, mainly due biotic or abiotic stresses, as heat, frost, bird or midge damage." [CO:curators]
 synonym: "EPcleNo" EXACT []
-is_a: TO:0000152
+is_a: TO:0000152 ! panicle number
 
 [Term]
 id: CO_324:0000161
@@ -770,7 +780,7 @@ relationship: scale_of CO_324:0000316 ! panicle number - counting
 
 [Term]
 id: CO_324:0000163
-name: sorghum number of harvested hills trait
+name: sorghum number of harvested hills
 def: "Number of harvested hills in the plot." [CO:curators]
 synonym: "NHH" EXACT []
 
@@ -791,6 +801,7 @@ id: CO_324:0000166
 name: sorghum panicle harvested number trait
 def: "Number of effectively harvested panicles." [CO:curators]
 synonym: "PcleHNo" EXACT []
+is_a: TO:0000152 ! panicle number
 
 [Term]
 id: CO_324:0000167
@@ -804,7 +815,7 @@ name: sorghum panicle off type number trait
 def: "Panicle off-type number." [CO:curators]
 synonym: "Off type number" EXACT []
 synonym: "PcleOTNo" EXACT []
-is_a: TO:0000152
+is_a: TO:0000152 ! panicle number
 
 [Term]
 id: CO_324:0000170
@@ -829,7 +840,6 @@ id: CO_324:0000175
 name: sorghum seedling number trait
 def: "Seedling number after thinning." [CO:curators]
 synonym: "SdlgNo" EXACT []
-is_a: TO:0000751
 
 [Term]
 id: CO_324:0000176
@@ -846,7 +856,7 @@ relationship: scale_of CO_324:0000486 ! plant number - counting
 
 [Term]
 id: CO_324:0000178
-name: sorghum panicle selected number trait
+name: sorghum panicle selected number
 def: "Number of selected panicles selected in breeding nursery." [CO:curators]
 synonym: "NSPcle" EXACT []
 
@@ -863,10 +873,10 @@ relationship: scale_of CO_324:0000179 ! panicle selected number - counting
 
 [Term]
 id: CO_324:0000181
-name: sorghum striga plant number trait
+name: sorghum striga plant number
 def: "Striga plant number." [CO:curators]
 synonym: "StrigaNo" EXACT []
-is_a: TO:0000347
+
 
 [Term]
 id: CO_324:0000182
@@ -879,7 +889,7 @@ id: CO_324:0000184
 name: sorghum panicle desirability trait
 def: "Desirability of the panicle shape." [CO:curators]
 synonym: "PcleDsirblty" EXACT []
-is_a: TO:0000597
+is_a: TO:0000089 !	panicle inflorescence type
 
 [Term]
 id: CO_324:0000185
@@ -928,7 +938,7 @@ id: CO_324:0000193
 name: sorghum striga incidence trait
 def: "Striga incidence on Sorghum plants." [CO:curators]
 synonym: "StrigaInc" EXACT []
-is_a: TO:0000347
+is_a: TO:0000347 ! weed damage
 
 [Term]
 id: CO_324:0000194
@@ -1020,7 +1030,7 @@ name: sorghum stem juice volume trait
 def: "Juice volume extracted from stem." [CO:curators]
 synonym: "Juice quantity" EXACT []
 synonym: "StmJQ" EXACT []
-is_a: TO:0000361
+is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_324:0000203
@@ -1291,10 +1301,11 @@ relationship: method_of CO_324:0000250 ! grain protein content
 
 [Term]
 id: CO_324:0000253
-name: sorghum to color trait
+name: sorghum To color trait
 def: "Color of TO porridge prepared from the sorghum grain." [CO:curators]
 synonym: "ToCol" EXACT []
 synonym: "TÃ´ color" EXACT []
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_324:0000254
@@ -1309,10 +1320,11 @@ relationship: scale_of CO_324:0000254 ! to color - estimation
 
 [Term]
 id: CO_324:0000256
-name: sorghum to consistency trait
+name: sorghum TO consistency trait
 def: "Consistency of TO porridge prepared from the sorghum grain." [CO:curators]
 synonym: "ToCons" EXACT []
 synonym: "TÃ´ consistency" EXACT []
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_324:0000257
@@ -1384,7 +1396,7 @@ id: CO_324:0000268
 name: sorghum panicle dry matter basis yield trait
 def: "The panicle yield expressed as a quantity of dry matter harvested per unit area." [CO:curators]
 synonym: "PcleDMYld" EXACT []
-is_a: TO:0000371
+is_a: TO:0000327 ! shoot system yield trait
 
 [Term]
 id: CO_324:0000269
@@ -1410,6 +1422,7 @@ id: CO_324:0000274
 name: sorghum flag leaf ligulation time trait
 def: "Flag leaf ligulation time or flag leaf emergence." [CO:curators]
 synonym: "FLLf" EXACT []
+is_a: TO:0001008 ! days to flag leaf emergence
 
 [Term]
 id: CO_324:0000275
@@ -1522,7 +1535,7 @@ id: CO_324:0000295
 name: sorghum glume adhesion trait
 def: "Glumes adhesion." [CO:curators]
 synonym: "GlmAd" EXACT []
-is_a: TO:0000869
+is_a: TO:0000657 ! spikelet morphology trait
 
 [Term]
 id: CO_324:0000296
@@ -1896,7 +1909,7 @@ id: CO_324:0000394
 name: sorghum grain dry matter content trait
 def: "Grain dry matter content." [CO:curators]
 synonym: "GDMC" EXACT []
-is_a: TO:0002629
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_324:0000395
@@ -2105,7 +2118,7 @@ id: CO_324:0000430
 name: sorghum leaf biomass dry matter content trait
 def: "Leaf biomass dry matter content." [CO:curators]
 synonym: "LfDMC" EXACT []
-is_a: TO:0000493
+is_a: TO:0000493 ! leaf composition trait
 
 [Term]
 id: CO_324:0000431
@@ -2149,6 +2162,7 @@ id: CO_324:0000438
 name: sorghum leaf biomass yield at harvest trait
 def: "The leaf biomass expressed fresh (field) basis that was harvested per unit area." [CO:curators]
 synonym: "LfHvYld" EXACT []
+is_a: TO:0000870 ! leaf yield trait
 
 [Term]
 id: CO_324:0000439
@@ -2183,7 +2197,7 @@ id: CO_324:0000446
 name: sorghum leaf biomass moisture content trait
 def: "Leaf biomass moisture content." [CO:curators]
 synonym: "LfMoi" EXACT []
-is_a: TO:0000748
+iis_a: TO:0000493 ! leaf composition trait
 
 [Term]
 id: CO_324:0000447
@@ -2465,7 +2479,7 @@ id: CO_324:0000492
 name: sorghum stem biomass dry matter content trait
 def: "Stem biomass dry matter content." [CO:curators]
 synonym: "StmDMC" EXACT []
-is_a: TO:0000952
+is_a: TO:0000327 ! shoot system yield trait
 
 [Term]
 id: CO_324:0000493
@@ -2486,7 +2500,7 @@ id: CO_324:0000496
 name: sorghum stem biomass dry matter basis yield trait
 def: "The stem biomass yield expressed as a quantity of dry matter harvested per unit area." [CO:curators]
 synonym: "StmDMYld" EXACT []
-is_a: TO:0000371
+is_a: TO:0000327 ! shoot system yield trait
 
 [Term]
 id: CO_324:0000497
@@ -2573,7 +2587,7 @@ id: CO_324:0000514
 name: sorghum stover biomass dry matter content trait
 def: "Stover biomass dry matter content." [CO:curators]
 synonym: "StoDMC" EXACT []
-is_a: TO:0000327
+is_a: TO:0000327 ! shoot system yield trait
 
 [Term]
 id: CO_324:0000515
@@ -2616,6 +2630,7 @@ id: CO_324:0000522
 name: sorghum stover biomass yield at harvest trait
 def: "The stover biomass expressed fresh (field) basis that was harvested per unit area." [CO:curators]
 synonym: "StoHvYld" EXACT []
+is_a: TO:0000327 ! shoot system yield trait
 
 [Term]
 id: CO_324:0000523
@@ -2712,7 +2727,7 @@ id: CO_324:0000542
 name: sorghum whole above ground biomass dry matter content trait
 def: "Whole above ground biomass dry matter content." [CO:curators]
 synonym: "WAGBDMC" EXACT []
-is_a: TO:0000077
+is_a: TO:0000327 ! shoot system yield trait
 
 [Term]
 id: CO_324:0000543
@@ -2775,7 +2790,7 @@ id: CO_324:0000553
 name: sorghum whole above ground biomass yield at harvest trait
 def: "The whole above ground biomass expressed fresh (field) basis that was harvested per unit area." [CO:curators]
 synonym: "WAGBHvYld" EXACT []
-is_a: TO:0000327
+is_a: TO:0000327 ! shoot system yield trait
 
 [Term]
 id: CO_324:0000554
