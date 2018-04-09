@@ -705,7 +705,6 @@ id: CO_324:0000151
 name: sorghum striga maximum vigor
 def: "Assessment of the Striga maximum vigor." [CO:curators]
 synonym: "StrigaMaxVig" EXACT []
-is_a: TO:0000347 ! weed damage
 
 [Term]
 id: CO_324:0000152
@@ -724,7 +723,6 @@ id: CO_324:0000154
 name: sorghum striga mean vigor
 def: "Assessment of the Striga mean vigor." [CO:curators]
 synonym: "StrigaMeanVig" EXACT []
-is_a: TO:0000347 ! weed damage
 
 [Term]
 id: CO_324:0000155
@@ -795,7 +793,7 @@ id: CO_324:0000166
 name: sorghum panicle harvested number trait
 def: "Number of effectively harvested panicles." [CO:curators]
 synonym: "PcleHNo" EXACT []
-is_a: TO:0000152 ! panicle number
+is_a: TO:0000327 ! shoot system yield trait
 
 [Term]
 id: CO_324:0000167
@@ -819,7 +817,7 @@ relationship: method_of CO_324:0000169 ! sorghum panicle off type number trait
 
 [Term]
 id: CO_324:0000172
-name: sorghum number of seedling hills trait
+name: sorghum number of seedling hills
 def: "Number of hills with plants at seedling stage." [CO:curators]
 synonym: "NSH" EXACT []
 
@@ -1491,6 +1489,7 @@ id: CO_324:0000289
 name: sorghum grain rotation trait
 def: "Grain rotation." [CO:curators]
 synonym: "GRotation" EXACT []
+is_a: TO:0002629 ! fruit morphology trait
 
 [Term]
 id: CO_324:0000290
