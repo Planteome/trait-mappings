@@ -333,7 +333,7 @@ id: CO_339:0000051
 name: lentil time to first pod formation trait
 def: "Number of days from sowing to formation of first pod" [CO:curators]
 synonym: "DFPD" EXACT []
-is_a: TO:0002640
+is_a: TO:0000852 ! fruit set trait
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
