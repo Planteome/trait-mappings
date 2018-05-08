@@ -301,6 +301,7 @@ name: soybean storability trait
 def: "Capacity of a seed to emerge when planted after being stored during a given amount of time." [CO:curators]
 synonym: "STORABILITY" EXACT []
 synonym: "Storage" EXACT []
+is_a: TO:0000597 ! plant quality trait
 
 [Term]
 id: CO_336:0000046
