@@ -3810,10 +3810,6 @@ relationship: variable_of CO_324:0000256 ! sorghum TO consistency trait
 relationship: variable_of CO_324:0000257 ! sorghum to consistency - estimation method
 relationship: variable_of CO_324:0000258 ! sorghum tocons score (1-5) scale
 
-[Term]
-id: TO:0000469 ! days to maturity
-is_a: CO_324:0000085 ! sorghum maturity time trait
-
 [Typedef]
 id: method_of
 name: method_of
