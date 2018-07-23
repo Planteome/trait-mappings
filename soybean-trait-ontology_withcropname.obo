@@ -223,7 +223,7 @@ relationship: scale_of CO_336:0000031 ! lodging estimation
 
 [Term]
 id: CO_336:0000033
-name: soybean plants harvested trait
+name: soybean plants harvested
 def: "The number of plants harvested contributing to the yield" [CO:curators]
 synonym: "PTHARV" EXACT []
 
