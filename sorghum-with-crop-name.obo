@@ -273,7 +273,7 @@ id: CO_324:0000073
 name: sorghum grain weight per panicle trait
 def: "The weight of grains per panicle." [CO:curators]
 synonym: "GWPcle" EXACT []
-is_a: TO:0002746 ! fruit weight
+ is_a: TO:0000919 ! grain weight
 
 [Term]
 id: CO_324:0000074
