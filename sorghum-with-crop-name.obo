@@ -322,7 +322,7 @@ id: CO_324:0000079
 name: sorghum grain weight trait
 def: "The weight of grain per sample (single, 100, 200, 1000)." [CO:curators]
 synonym: "GW" EXACT []
-is_a: TO:0000589 ! average grain weight
+is_a: TO:0000919 ! grain weight
 
 [Term]
 id: CO_324:0000080
