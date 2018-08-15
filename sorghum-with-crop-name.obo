@@ -164,7 +164,7 @@ id: CO_324:0000044
 name: sorghum grain subcoat presence trait
 def: "Presence or absence of a seed subcoat." [CO:curators]
 synonym: "GSCoat" EXACT []
-is_a: TO:0002629 ! fruit morphology trait
+is_a: TO:0001079 ! caryopsis fruit morphology trait
 
 [Term]
 id: CO_324:0000045
@@ -185,7 +185,7 @@ id: CO_324:0000047
 name: sorghum grain lustre trait
 def: "Grain lustre." [CO:curators]
 synonym: "GLstr" EXACT []
-is_a: TO:0002629 ! fruit morphology trait
+is_a: TO:0001079 ! caryopsis fruit morphology trait
 
 [Term]
 id: CO_324:0000049
@@ -1489,7 +1489,7 @@ id: CO_324:0000289
 name: sorghum grain rotation trait
 def: "Grain rotation." [CO:curators]
 synonym: "GRotation" EXACT []
-is_a: TO:0002629 ! fruit morphology trait
+is_a: TO:0001079 ! caryopsis fruit morphology trait
 
 [Term]
 id: CO_324:0000290
