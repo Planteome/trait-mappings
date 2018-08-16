@@ -568,7 +568,7 @@ name: pigeonpea pod wax trait
 def: "Pod wax" [CO:curators]
 synonym: "Pod waxiness" EXACT []
 synonym: "PW" EXACT []
-is_a: TO:0002629 ! fruit morphology trait
+is_a: TO:0001082 ! legume fruit morphology trait
 
 [Term]
 id: CO_341:0000100
