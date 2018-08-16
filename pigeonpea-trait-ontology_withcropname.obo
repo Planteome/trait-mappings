@@ -679,7 +679,7 @@ id: CO_341:0000120
 name: pigeonpea grain weight per plot trait
 def: "Grain weight per plot" [CO:curators]
 synonym: "GWPT" EXACT []
-is_a: TO:0000919 ! grain weight
+is_a: TO:0000181 ! seed weight
 
 [Term]
 id: CO_341:0000121
@@ -699,7 +699,7 @@ id: CO_341:0000123
 name: pigeonpea grain weight per plant trait
 def: "Grain weight per plant" [CO:curators]
 synonym: "GWPL" EXACT []
-is_a: TO:0000919 ! grain weight
+is_a: TO:0000181 ! seed weight
 
 [Term]
 id: CO_341:0000124
