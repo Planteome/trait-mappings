@@ -665,7 +665,7 @@ name: pigeonpea weight of 100 seeds trait
 def: "Weight of 100 (sun dried) seeds" [CO:curators]
 synonym: "SWT100" EXACT []
 synonym: "Test weight, Seed weight" EXACT []
-is_a: TO:0000269 ! 100-seed weight
+is_a: TO:0000181 ! seed weight
 
 [Term]
 id: CO_341:0000118
