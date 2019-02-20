@@ -171,7 +171,7 @@ id: CO_324:0000045
 name: sorghum grain color trait
 def: "Color of the grain." [CO:curators]
 synonym: "GCol" EXACT []
-is_a: TO:0002617 ! fruit color
+is_a: TO:0001109 ! grain color trait	
 
 [Term]
 id: CO_324:0000046
