@@ -1049,7 +1049,7 @@ id: CO_339:0000171
 name: lentil chlorophyll content trait
 def: "Proportions that indicate chlorophyll density and/or leaf thickness measured through a SPAD chlorophyll meter." [CO:curators]
 synonym: "SCMR" EXACT []
-is_a: TO:0000495
+is_a: TO:0012002 ! leaf chlorophyll content
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
