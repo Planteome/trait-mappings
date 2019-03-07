@@ -192,7 +192,7 @@ id: CO_324:0000049
 name: sorghum panicle exertion trait
 def: "Length of peduncle emerged from the flag leaf sheath." [CO:curators]
 synonym: "PcleEx" EXACT []
-is_a: TO:0002691 ! peduncle length
+is_a: TO:0001002 ! inflorescence exsertion
 
 [Term]
 id: CO_324:0000050
@@ -273,7 +273,7 @@ id: CO_324:0000073
 name: sorghum grain weight per panicle trait
 def: "The weight of grains per panicle." [CO:curators]
 synonym: "GWPcle" EXACT []
- is_a: TO:0000919 ! grain weight
+ is_a: TO:0000973 ! infructescence yield trait
 
 [Term]
 id: CO_324:0000074
@@ -292,7 +292,7 @@ id: CO_324:0000076
 name: sorghum panicle yield at harvest trait
 def: "The weight of panicles expressed fresh (field) basis that was harvested per unit area." [CO:curators]
 synonym: "PcleHvYld" EXACT []
-is_a: TO:0000327 ! shoot system yield trait
+is_a: TO:0000973 ! infructescence yield trait
 
 [Term]
 id: CO_324:0000077
@@ -655,7 +655,7 @@ id: CO_324:0000142
 name: sorghum stem juice weight trait
 def: "Weight of sorghum stem juice." [CO:curators]
 synonym: "StmJW" EXACT []
-is_a: TO:0000361 ! stem morphology trait
+is_a: TO:0000327 ! shoot system yield trait
 
 [Term]
 id: CO_324:0000143
@@ -793,7 +793,7 @@ id: CO_324:0000166
 name: sorghum panicle harvested number trait
 def: "Number of effectively harvested panicles." [CO:curators]
 synonym: "PcleHNo" EXACT []
-is_a: TO:0000327 ! shoot system yield trait
+is_a: TO:0000973 ! infructescence yield trait
 
 [Term]
 id: CO_324:0000167
@@ -1386,7 +1386,7 @@ id: CO_324:0000268
 name: sorghum panicle dry matter basis yield trait
 def: "The panicle yield expressed as a quantity of dry matter harvested per unit area." [CO:curators]
 synonym: "PcleDMYld" EXACT []
-is_a: TO:0000327 ! shoot system yield trait
+is_a: TO:0000973 ! infructescence yield trait
 
 [Term]
 id: CO_324:0000269
@@ -1434,7 +1434,7 @@ id: CO_324:0000277
 name: sorghum grain hardness trait
 def: "Whole grain hardness." [CO:curators]
 synonym: "GHrd" EXACT []
-is_a: TO:0000162 ! grain quality trait
+is_a: TO:0000689 ! grain tenderness
 
 [Term]
 id: CO_324:0000278
@@ -2107,7 +2107,7 @@ id: CO_324:0000430
 name: sorghum leaf biomass dry matter content trait
 def: "Leaf biomass dry matter content." [CO:curators]
 synonym: "LfDMC" EXACT []
-is_a: TO:0000493 ! leaf composition trait
+is_a: TO:0001014 ! leaf dry weight
 
 [Term]
 id: CO_324:0000431
@@ -2186,7 +2186,7 @@ id: CO_324:0000446
 name: sorghum leaf biomass moisture content trait
 def: "Leaf biomass moisture content." [CO:curators]
 synonym: "LfMoi" EXACT []
-is_a: TO:0000493 ! leaf composition trait
+is_a: TO:0000228 ! moisture content trait
 
 [Term]
 id: CO_324:0000447
