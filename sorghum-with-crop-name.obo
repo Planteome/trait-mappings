@@ -273,7 +273,7 @@ id: CO_324:0000073
 name: sorghum grain weight per panicle trait
 def: "The weight of grains per panicle." [CO:curators]
 synonym: "GWPcle" EXACT []
- is_a: TO:0000973 ! infructescence yield trait
+ is_a: TO:0000936 ! infructescence yield trait
 
 [Term]
 id: CO_324:0000074
@@ -292,7 +292,7 @@ id: CO_324:0000076
 name: sorghum panicle yield at harvest trait
 def: "The weight of panicles expressed fresh (field) basis that was harvested per unit area." [CO:curators]
 synonym: "PcleHvYld" EXACT []
-is_a: TO:0000973 ! infructescence yield trait
+is_a: TO:0000936 ! infructescence yield trait
 
 [Term]
 id: CO_324:0000077
@@ -793,7 +793,7 @@ id: CO_324:0000166
 name: sorghum panicle harvested number trait
 def: "Number of effectively harvested panicles." [CO:curators]
 synonym: "PcleHNo" EXACT []
-is_a: TO:0000973 ! infructescence yield trait
+is_a: TO:0000936 ! infructescence yield trait
 
 [Term]
 id: CO_324:0000167
@@ -1386,7 +1386,7 @@ id: CO_324:0000268
 name: sorghum panicle dry matter basis yield trait
 def: "The panicle yield expressed as a quantity of dry matter harvested per unit area." [CO:curators]
 synonym: "PcleDMYld" EXACT []
-is_a: TO:0000973 ! infructescence yield trait
+is_a: TO:0000936 ! infructescence yield trait
 
 [Term]
 id: CO_324:0000269
