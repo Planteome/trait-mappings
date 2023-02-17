@@ -1397,7 +1397,7 @@ name: soybean pod number trait
 def: "Number of pods per plant" [CO:curators]
 synonym: "Pod num" EXACT []
 synonym: "PODNUMBER" EXACT []
-is_a: TO:0000894
+is_a: TO:0001125 ! pod number trait
 xref: SOY:0001741
 
 [Term]
