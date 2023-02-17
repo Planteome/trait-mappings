@@ -180,7 +180,7 @@ id: CO_341:0000033
 name: pigeonpea pods per cluster trait
 def: "Number of pods per cluster" [CO:curators]
 synonym: "PPC" EXACT []
-is_a: TO:0000894 ! fruit number trait
+is_a: TO:0001125 ! pod number trait
 
 [Term]
 id: CO_341:0000034
@@ -198,7 +198,7 @@ id: CO_341:0000036
 name: pigeonpea pods per plant trait
 def: "Number of pods per plant" [CO:curators]
 synonym: "PPL" EXACT []
-is_a: TO:0000894 ! fruit number trait
+is_a: TO:0001125 ! pod number trait
 
 [Term]
 id: CO_341:0000037
