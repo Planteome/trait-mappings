@@ -689,7 +689,7 @@ name: soybean seed linolenic acid content trait
 def: "Linolenic acid content of the seed oil i.e., linolenic acid weight per total oil weight of the seed" [CO:curators]
 synonym: "LINOLENIC" EXACT []
 synonym: "Linolenic acid, ALA, alpha-lenolenic acid, C18:3" EXACT []
-is_a: TO:0005004
+is_a: TO:0005005 ! alpha-linolenic acid content
 xref: SOY:0001392
 
 [Term]
@@ -704,7 +704,7 @@ name: soybean seed palmitic acid content trait
 def: "Palmitic acid content of the seed oil i.e., palmitic acid weight per total oil weight of the seed" [CO:curators]
 synonym: "PALMITIC" EXACT []
 synonym: "Palmitic acid, C16:0, hexadecanoic acid" EXACT []
-is_a: TO:0000604
+is_a: TO:1000075 ! palmitic acid content
 xref: SOY:0001673
 
 [Term]
