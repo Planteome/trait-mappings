@@ -1297,7 +1297,7 @@ name: soybean leaflet shape trait
 def: "The shape of the leaflet. Remark: This trait has been incorrectly called Leaf shape." [CO:curators]
 synonym: "Leaf shape" EXACT []
 synonym: "LEAFSHAPE" EXACT []
-is_a: TO:0000754
+is_a: TO:0001116 ! leaflet shape
 xref: SOY:0001389
 
 [Term]
