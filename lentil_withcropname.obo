@@ -599,7 +599,7 @@ id: CO_339:0000096
 name: lentil number of pods per plant trait
 def: "A trait indicating total number of pods per plant" [CO:curators]
 synonym: "NPDPL" EXACT []
-is_a: TO:0000871
+is_a: TO:0001125 ! pod number trait
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
@@ -638,7 +638,7 @@ id: CO_339:0000102
 name: lentil number of pods per peduncle trait
 def: "A trait indicating number of pods per peduncle" [CO:curators]
 synonym: "NPPE" EXACT []
-is_a: TO:0000894
+is_a: TO:0001125 ! pod number trait
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
