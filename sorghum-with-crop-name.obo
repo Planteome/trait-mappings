@@ -1281,7 +1281,7 @@ id: CO_324:0000250
 name: sorghum grain protein content trait
 def: "Protein content of whole grain." [CO:curators]
 synonym: "GProt" EXACT []
-is_a: TO:0000598 ! protein content
+is_a: TO:0001136 ! grain protein content 
 
 [Term]
 id: CO_324:0000251
