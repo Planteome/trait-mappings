@@ -999,10 +999,10 @@ relationship: scale_of CO_339:0000160 ! Seed diameter - Method
 
 [Term]
 id: CO_339:0000162
-name: lentil grain protein content trait
+name: lentil seed protein content trait
 def: "Amount of protein in the seed" [CO:curators]
 synonym: "PRT" EXACT []
-is_a: TO:0000598
+is_a: TO:0000490 ! seed protein content
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
