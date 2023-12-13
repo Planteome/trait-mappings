@@ -6,8 +6,8 @@ ontology: co_339
 [Term]
 id: CO_339:0000000
 name: lentil anthracnose resistance trait
-def: "Degree of tolerance to Anthracnose disease. Causative organism: Colletotrichum truncatum". [CO:curators, NCBITaxon:5467]
-comment: "Symptoms develop when plants start to flower. Necrotic lesions can be found on the lower leaflets and cause premature leaf senescence. Symptoms can also be found on stem starting from the base to the top of the plant" 
+def: "Degree of tolerance to Anthracnose disease. Causative organism: Colletotrichum truncatum." [CO:curators, NCBITaxon:5467]
+comment: "Symptoms develop when plants start to flower. Necrotic lesions can be found on the lower leaflets and cause premature leaf senescence. Symptoms can also be found on stem starting from the base to the top of the plant." 
 synonym: "ANTR" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 created_by: Karthika Rajendran & Shiv Kumar
@@ -50,7 +50,7 @@ relationship: scale_of CO_339:0000175 ! Screening method for Stem weevil resista
 [Term]
 id: CO_339:0000006
 name: lentil ascochyta blight resistance trait
-def: "Degree of resistance to Ascochyta blight . Causative agent: Ascochyta lentis (Didymella lentis)."  [CO:curators, NCBITaxon:205686]
+def: "Degree of resistance to Ascochyta blight. Causative agent: Ascochyta lentis (Didymella lentis)."  [CO:curators, NCBITaxon:205686]
 comment: "The pathogen infects leaves, stems, petioles, pods and seeds. On leaves, young lesions with small necrotic spots of 3-5mm diameter can be found. Reddish brown to black pycnidia from in the middle of the mature lesions.  In severe infections, lesions gridle the stem, kill the epidermal and cortical cells and lead to stem breakage. Pods can also be infected and results seed infection. Heavily infected seeds look shrivelled and discoloured with a whitish mycelium and pycnidia."
 synonym: "ABR" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
@@ -927,7 +927,7 @@ relationship: scale_of CO_339:0000148 ! RLD measurement - method
 id: CO_339:0000150
 name: lentil rust resistance trait
 def: "Degree of resistance to rust disease. Causative agent : Uromyces viciae-faba." [CO:curators, NCBITaxon:55588]
-comment: "It produces lesions on stems and leaves which result leaf fall and premature plant death" 
+comment: "It produces lesions on stems and leaves which result leaf fall and premature plant death." 
 synonym: "RUSR" EXACT []
 is_a: TO:0001146 ! Basidiomycete fungal disease response
 created_by: Karthika Rajendran & Shiv Kumar
