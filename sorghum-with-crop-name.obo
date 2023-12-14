@@ -488,7 +488,7 @@ id: CO_324:0000106
 name: sorghum grain anthracnose severity trait
 def: "Grain anthracnose severity on grain caused by Colletotrichum graminicola." [CO:curators]
 synonym: "GAnthrSev" EXACT []
-is_a: TO:0000439 ! fungal disease resistance
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_324:0000107
@@ -506,7 +506,7 @@ id: CO_324:0000109
 name: sorghum foliar anthracnose severity trait
 def: "Foliar anthracnose severity on Sorghum, disease caused by Colletotrichum graminicola." [CO:curators]
 synonym: "FAnthrSev" EXACT []
-is_a: TO:0000439 ! fungal disease resistance
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_324:0000110
@@ -1099,7 +1099,7 @@ id: CO_324:0000217
 name: sorghum sooty stripe disease presence trait
 def: "Sooty Stripe (Ramulispora sorghi) disease symptoms presence/absence." [CO:curators]
 synonym: "SootStr" EXACT []
-is_a: TO:0000439 ! fungal disease resistance
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_324:0000218
@@ -1117,7 +1117,7 @@ id: CO_324:0000220
 name: sorghum helminthosporiose disease presence trait
 def: "Helmenthosoriose disease symptoms presence/absence." [CO:curators]
 synonym: "Helminth" EXACT []
-is_a: TO:0000439 ! fungal disease resistance
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_324:0000221
@@ -2849,7 +2849,7 @@ id: CO_324:0000569
 name: sorghum foliar anthracnose response trait
 def: "Foliar anthracnose response on Sorghum, disease caused by Colletotrichum graminicola." [CO:curators]
 synonym: "FAnthrRes" EXACT []
-is_a: TO:0000439 ! fungal disease resistance
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_324:0000570
