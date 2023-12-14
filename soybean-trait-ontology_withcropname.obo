@@ -55,10 +55,10 @@ relationship: scale_of CO_336:0000004 ! bacterial pustle assessment
 [Term]
 id: CO_336:0000006
 name: soybean rust trait
-def: "Tan and reddish brown lesions on leaves, pods or whole plant caused by Phakopsora Pachyrhizi" [CO:curators]
+def: "Tan and reddish brown lesions on leaves, pods or whole plant caused by Phakopsora pachyrhizi" [CO:curators, NCBITaxon:170000]
 synonym: "Asian rust" EXACT []
 synonym: "RUST" EXACT []
-is_a: TO:0000439
+is_a: TO:0001146 ! Basidiomycete fungal disease response
 xref: SOY:0001472
 
 [Term]
@@ -95,10 +95,10 @@ relationship: scale_of CO_336:0000010 ! smv assessment
 [Term]
 id: CO_336:0000012
 name: soybean frogeye leafspot trait
-def: "Tan or brown, elliptical lesions with brown purple boarder on plant parts caused by Cercospora Sojina" [CO:curators]
+def: "Tan or brown, elliptical lesions with brown purple boarder on plant parts caused by Cercospora sojina" [CO:curators, NCBITaxon:438356]
 synonym: "FROGEYE" EXACT []
 synonym: "Frogeye" EXACT []
-is_a: TO:0000439
+is_a: TO:0001145 ! Ascomycete fungal disease response
 xref: SOY:0001655
 
 [Term]
@@ -1189,10 +1189,10 @@ relationship: scale_of CO_336:0000199 ! sucrose content method
 [Term]
 id: CO_336:0000201
 name: soybean downy mildew trait
-def: "Reaction of the plant or plant part to Peronospora manchurica infection." [CO:curators]
+def: "Reaction of the plant or plant part to Peronospora manchurica infection." [CO:curators, NCBITaxon:86334]
 synonym: "Downy mildew" EXACT []
 synonym: "DOWNYMILDEW" EXACT []
-is_a: TO:0000439
+is_a: TO:0001144 ! Oomycete disease response
 xref: SOY:0001580
 
 [Term]
@@ -1204,10 +1204,10 @@ relationship: method_of CO_336:0000201 ! downy mildew
 [Term]
 id: CO_336:0000204
 name: soybean anthracnose trait
-def: "Reaction of the plant or plant part to infection by Colletotrichum dematiu" [CO:curators]
+def: "Reaction of the plant or plant part to infection by Colletotrichum dematiu" [CO:curators, NCBITaxon:34405]
 synonym: "ANTHRACNOSE" EXACT []
 synonym: "Soybean anthracnose" EXACT []
-is_a: TO:0000439
+is_a: TO:0001145 ! Ascomycete fungal disease response
 xref: SOY:0001574
 
 [Term]
