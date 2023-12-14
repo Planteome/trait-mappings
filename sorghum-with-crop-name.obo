@@ -486,7 +486,7 @@ relationship: scale_of CO_324:0000104 ! sorghum grain mold severity - estimation
 [Term]
 id: CO_324:0000106
 name: sorghum grain anthracnose severity trait
-def: "Grain anthracnose severity on grain caused by Colletotrichum graminicola." [CO:curators]
+def: "Grain anthracnose severity on grain caused by Colletotrichum graminicola." [CO:curators, NCBITaxon:31870]
 synonym: "GAnthrSev" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
@@ -504,7 +504,7 @@ relationship: scale_of CO_324:0000107 ! sorghum grain anthracnose severity - est
 [Term]
 id: CO_324:0000109
 name: sorghum foliar anthracnose severity trait
-def: "Foliar anthracnose severity on Sorghum, disease caused by Colletotrichum graminicola." [CO:curators]
+def: "Foliar anthracnose severity on Sorghum, disease caused by Colletotrichum graminicola." [CO:curators, NCBITaxon:31870]
 synonym: "FAnthrSev" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
@@ -1097,7 +1097,7 @@ relationship: scale_of CO_324:0000215 ! sorghum plant anthocyanin presence - est
 [Term]
 id: CO_324:0000217
 name: sorghum sooty stripe disease presence trait
-def: "Sooty Stripe (Ramulispora sorghi) disease symptoms presence/absence." [CO:curators]
+def: "Sooty Stripe (Ramulispora sorghi) disease symptoms presence/absence." [CO:curators, NCBITaxon:135778]
 synonym: "SootStr" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
@@ -1115,7 +1115,7 @@ relationship: scale_of CO_324:0000218 ! sorghum sooty stripe disease presence - 
 [Term]
 id: CO_324:0000220
 name: sorghum helminthosporiose disease presence trait
-def: "Helmenthosoriose disease symptoms presence/absence." [CO:curators]
+def: "Helmenthosoriose disease symptoms presence/absence." [CO:curators, NCBITaxon:58127]
 synonym: "Helminth" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
@@ -2847,7 +2847,7 @@ relationship: variable_of CO_324:0000566 ! sorghum whole above ground biomass mo
 [Term]
 id: CO_324:0000569
 name: sorghum foliar anthracnose response trait
-def: "Foliar anthracnose response on Sorghum, disease caused by Colletotrichum graminicola." [CO:curators]
+def: "Foliar anthracnose response on Sorghum, disease caused by Colletotrichum graminicola." [CO:curators, NCBITaxon:31870]
 synonym: "FAnthrRes" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
