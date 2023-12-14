@@ -309,7 +309,7 @@ id: CO_341:0000054
 name: pigeonpea fusarium wilt incidence trait
 def: "Plants infected with fusarium wilt disease in a plot" [CO:curators]
 synonym: "FW" EXACT []
-is_a: TO:0000439 ! fungal disease resistance
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_341:0000055
@@ -880,7 +880,7 @@ is_a: TO:0000261 ! insect damage resistance
 [Term]
 id: CO_341:0000154
 name: pigeonpea pod fly susceptibility trait
-def: "Susceptibility to pod fly (Melanagromyza btusa )" [CO:curators]
+def: "Susceptibility to pod fly (Melanagromyza btusa )" [CO:curators, NCBITaxon:5507]
 synonym: "PF" EXACT []
 is_a: TO:0000261 ! insect damage resistance
 
@@ -894,9 +894,9 @@ is_a: TO:0000261 ! insect damage resistance
 [Term]
 id: CO_341:0000156
 name: pigeonpea phytophthora blight disease susceptibility trait
-def: "Susecptibility to disease caused by agent Phytophthora blight (Phytophthora drechsleri f.sp. Cajani)" [CO:curators]
+def: "Susecptibility to disease caused by agent Phytophthora blight (Phytophthora drechsleri f.sp. Cajani)" [CO:curators, NCBITaxon:1490529]
 synonym: "DPB" EXACT []
-is_a: TO:0000439 ! fungal disease resistance
+is_a: TO:0001144 ! Oomycete disease response
 
 [Term]
 id: CO_341:0000157
@@ -936,9 +936,9 @@ is_a: TO:0000188 ! drought sensitivity
 [Term]
 id: CO_341:0000162
 name: pigeonpea alternaria blight disease susceptibility trait
-def: "Susceptibility to disease caused by agent Alternaria blight (Alternaria alternata)" [CO:curators]
+def: "Susceptibility to disease caused by agent Alternaria blight (Alternaria alternata)" [CO:curators, NCBITaxon:5599]
 synonym: "DAB" EXACT []
-is_a: TO:0000439 ! fungal disease resistance
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_341:0000163
