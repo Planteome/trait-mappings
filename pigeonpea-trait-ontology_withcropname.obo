@@ -880,42 +880,42 @@ is_a: TO:0000261 ! insect damage resistance
 [Term]
 id: CO_341:0000154
 name: pigeonpea pod fly susceptibility trait
-def: "Susceptibility to pod fly (Melanagromyza btusa )" [CO:curators, NCBITaxon:5507]
+def: "Susceptibility to pod fly (Melanagromyza btusa)." [CO:curators, NCBITaxon:5507]
 synonym: "PF" EXACT []
 is_a: TO:0000261 ! insect damage resistance
 
 [Term]
 id: CO_341:0000155
 name: pigeonpea pod borers susceptibility trait
-def: "Susceptibility to pod borer insects (Helicoverpa armigera, Etiella zinckenella, Maruca testulalis)" [CO:curators]
+def: "Susceptibility to pod borer insects (Helicoverpa armigera, Etiella zinckenella, Maruca testulalis)." [CO:curators]
 synonym: "PB" EXACT []
 is_a: TO:0000261 ! insect damage resistance
 
 [Term]
 id: CO_341:0000156
 name: pigeonpea phytophthora blight disease susceptibility trait
-def: "Susecptibility to disease caused by agent Phytophthora blight (Phytophthora drechsleri f.sp. Cajani)" [CO:curators, NCBITaxon:1490529]
+def: "Susecptibility to disease caused by agent Phytophthora blight (Phytophthora drechsleri f.sp. Cajani)." [CO:curators, NCBITaxon:1490529]
 synonym: "DPB" EXACT []
 is_a: TO:0001144 ! Oomycete disease response
 
 [Term]
 id: CO_341:0000157
 name: pigeonpea nematodes susceptibility trait
-def: "Susecptibility to nematodes (Heterodera cajani, Meloidogyne incognita, Rotylenchus reniformis)" [CO:curators]
+def: "Susecptibility to nematodes (Heterodera cajani, Meloidogyne incognita, Rotylenchus reniformis)." [CO:curators]
 synonym: "Nem" EXACT []
 is_a: TO:0000384 ! nematode damage resistance
 
 [Term]
 id: CO_341:0000158
 name: pigeonpea low temperature stress susceptibility trait
-def: "Low temperature stress susceptibility" [CO:curators]
+def: "Low temperature stress susceptibility." [CO:curators]
 synonym: "LTS" EXACT []
 is_a: TO:0000303 ! cold tolerance
 
 [Term]
 id: CO_341:0000159
 name: pigeonpea leaf tier susceptibility trait
-def: "Susceptibility to leaf tier (Grapholita critica)" [CO:curators]
+def: "Susceptibility to leaf tier (Grapholita critica)." [CO:curators]
 synonym: "LT" EXACT []
 is_a: TO:0000261 ! insect damage resistance
 
