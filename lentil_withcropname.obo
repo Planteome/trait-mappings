@@ -1085,7 +1085,7 @@ relationship: method_of CO_339:0000174 ! Stem weevil resistance
 id: CO_339:0000177
 name: lentil Stemphylium blight resistance trait
 def: "Degree of tolerance to Stemphylium blight disease. Causative agent: Stemphylium botryosum." [CO:curators, NCBITaxon:120510]
-Comment: Small, light-beige lesions apper in the upper canopy. Leaves, pedicels, flowers and branches become necrotic resulting in a characteristic blighted appearance of lentil plants.
+comment: Small, light-beige lesions apper in the upper canopy. Leaves, pedicels, flowers and branches become necrotic resulting in a characteristic blighted appearance of lentil plants.
 synonym: "SBLR" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 created_by: Karthika Rajendran & Shiv Kumar
