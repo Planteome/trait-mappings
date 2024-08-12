@@ -1178,7 +1178,7 @@ id: CO_339:0000192
 name: lentil winter survival trait
 def: "Proportion of the plants emerged prior to winter and survived through winter" [CO:curators]
 synonym: "WSUR" EXACT []
-is_a: TO:0000303
+is_a: TO:0001153 ! survival rate after freezing temperature stress
 created_by: Karthika Rajendran & Shiv Kumar
 
 [Term]
