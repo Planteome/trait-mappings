@@ -94,16 +94,16 @@ relationship: scale_of CO_336:0000010 ! smv assessment
 
 [Term]
 id: CO_336:0000012
-name: soybean frogeye leafspot trait
+name: soybean frogeye leaf spot trait
 def: "Tan or brown, elliptical lesions with brown purple boarder on plant parts caused by Cercospora sojina" [CO:curators, NCBITaxon:438356]
 synonym: "FROGEYE" EXACT []
 synonym: "Frogeye" EXACT []
-is_a: TO:0001145 ! Ascomycete fungal disease response
+is_a: TO:0002702 ! Cercospora leaf spot response
 xref: SOY:0001655
 
 [Term]
 id: CO_336:0000013
-name: soybean frog eye assessment method
+name: soybean frogeye assessment method
 def: "Visual assessment of 1-5 affected leaf area with frog eye" [CO:curators]
 relationship: method_of CO_336:0000012 ! frogeye leafspot
 
