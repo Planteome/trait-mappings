@@ -4403,58 +4403,58 @@ is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_343:0100083
-name: Boiled yam sweetness trait
+name: boiled yam sweetness trait
 def: "Basic light sugary taste like a little glucose or sucrose in water solution" [CO:curators]
 synonym: "BoilYamSweet" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_343:0100084
-name: Boiled yam bitterness
+name: boiled yam bitterness
 def: "Basic bitter taste like small quantity of quinine or caffeine in water" [CO:curators]
 synonym: "BoilYamBitt" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_343:0100085
-name: Boiled yam bitter after taste
+name: boiled yam bitter after taste
 def: "During chewing, bitter taste after swallowing, eg there is a light bitter aftertaste" [CO:curators]
 synonym: "BoilYamBitteraft" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_343:0100200
-name: earliness of emergence trait
+name: yam earliness of emergence trait
 def: "Elapsed time between planting date and date of 50% emergence sprouts in a plot." [CO:curators]
 is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_343:0100203
-name: latency before emergence trait
+name: yam latency before emergence trait
 def: "Elapsed time between planting date and date of 5th percentile emergence sprouts in a plot." [CO:curators]
 is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_343:0100206
-name: Emergence vigor trait
+name: yam emergence vigor trait
 def: "Elapsed time between time of 5th and 95th percentiles emergence sprouts in a plot." [CO:curators]
 is_a: TO:0000250 ! plant vigor trait
 
 [Term]
 id: CO_343:0100209
-name: Heterophylly presence trait
+name: yam heterophylly presence trait
 def: "Presence of cataphylles during early stage." [CO:curators]
 is_a: TO:0000739 ! shoot axis morphology trait
 
 [Term]
 id: CO_343:0100212
-name: Number of nodes carrying cataphylles trait
+name: yam number of nodes carrying cataphylles trait
 def: "Mean number of nodes carrying cataphylles on main stem of 5 plants choosen randomly." [CO:curators]
 is_a: TO:0000739 ! shoot axis morphology trait
 
 [Term]
 id: CO_343:0100216
-name: Duration from emergence to first true leaf trait
+name: yam duration from emergence to first true leaf trait
 def: "Mean duration between fisrt emergence and first true leaf apprearance on main stem of 5 plants choosen randomly." [CO:curators]
 is_a: TO:0000933 ! plant phenological trait
 
