@@ -26,7 +26,7 @@ is_a: TO:0000894 ! fruit number trait
 
 [Term]
 id: CO_343:0000009
-name: yam fruits harvested number
+name: yam fruits harvested number trait
 def: "Number of harvested fruits per cross after physiological maturity." [CO:curators]
 synonym: "FrtHvstN" EXACT []
 synonym: "Matured fruit" EXACT []
@@ -111,13 +111,6 @@ synonym: "RKNSev" EXACT []
 is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
-id: CO_343:0000054
-name: yam tubers planted
-def: "Number of seed tubers planted in a plot or unit area" [CO:curators]
-synonym: "NTP" EXACT []
-synonym: "seed yam" EXACT []
-
-[Term]
 id: CO_343:0000057
 name: yam weight of planted tubers trait
 def: "Weight of seed tubers (whole seed yams or setts ) planted in a plot  or per unit area. Planting  material from a tuber is called sett. Seed tuber could be either small, healthy whole tuber or large tubers cut into pieces (sett)" [CO:curators]
@@ -199,13 +192,6 @@ synonym: "TIMFlrin" EXACT []
 is_a: TO:0002616 ! flowering time trait
 
 [Term]
-id: CO_343:0000093
-name: yam plant sex
-def: "Predominat plant or flower sex" [CO:curators]
-synonym: "flower sex" EXACT []
-synonym: "Sex" EXACT []
-
-[Term]
 id: CO_343:0000096
 name: yam flowering intensity trait
 def: "Abundance or degree of flowering" [CO:curators]
@@ -258,12 +244,6 @@ def: "Yield of vine bulbils or aerial tubers harvest" [CO:curators]
 synonym: "Aerial tuber yield" EXACT []
 synonym: "Bulbwtpl" EXACT []
 is_a: TO:0000327 ! shoot system yield trait
-
-[Term]
-id: CO_343:0000123
-name: yam stand harvested number
-def: "Number of plants harvested" [CO:curators]
-synonym: "NPH" EXACT []
 
 [Term]
 id: CO_343:0000126
@@ -405,15 +385,6 @@ name: yam taste of pounded yam trait
 def: "Taste of pounded yam when eaten without any additional complementary food" [CO:curators]
 synonym: "TastePndedYam" EXACT []
 is_a: TO:0001068 ! processing quality trait
-
-[Term]
-id: CO_343:0000196
-name: yam tubers planted counting/plot variable
-synonym: "Sett-N" EXACT []
-is_a: CO_343:0000054 ! yam tubers planted
-relationship: variable_of CO_343:0000054 ! yam tubers planted
-relationship: variable_of CO_343:0010000 ! yam tubers (seed yams or setts) planted - counting method
-relationship: variable_of CO_343:0100000 ! yam number of tubers scale
 
 [Term]
 id: CO_343:0000197
@@ -863,21 +834,6 @@ relationship: variable_of CO_343:0010035 ! yam end of flowering time - computati
 relationship: variable_of CO_343:0100003 ! yam days scale
 
 [Term]
-id: CO_343:0000252
-name: yam crossing date
-def: "Date crossing or pollination attempted" [CO:curators]
-synonym: "datcross" EXACT []
-
-[Term]
-id: CO_343:0000253
-name: yam crossing date esimation in yy/mm/dd variable
-synonym: "Polldate" EXACT []
-is_a: CO_343:0000252 ! yam crossing date
-relationship: variable_of CO_343:0000252 ! yam crossing date
-relationship: variable_of CO_343:0010036 ! yam date crossing-estimation method
-relationship: variable_of CO_343:0100002 ! yam date (yyyymmdd) scale
-
-[Term]
 id: CO_343:0000254
 name: yam pollinated florets counting variable
 is_a: CO_343:0000000 ! yam pollinated florets number trait
@@ -974,15 +930,6 @@ is_a: CO_343:0000264 ! yam pollination type trait
 relationship: variable_of CO_343:0000264 ! yam pollination type trait
 relationship: variable_of CO_343:0010044 ! yam pollination type-estimation method
 relationship: variable_of CO_343:0100023 ! yam 1-4 scale
-
-[Term]
-id: CO_343:0000266
-name: yam plant sex estimation 0-4 variable
-synonym: "plntsex, flrsex" EXACT []
-is_a: CO_343:0000093 ! yam plant sex
-relationship: variable_of CO_343:0000093 ! yam plant sex
-relationship: variable_of CO_343:0010045 ! yam plant or flower sex-estimation method
-relationship: variable_of CO_343:0100024 ! yam 0-4 scale
 
 [Term]
 id: CO_343:0000267
@@ -1151,20 +1098,6 @@ relationship: variable_of CO_343:0010059 ! yam seed index method
 relationship: variable_of CO_343:0100028 ! yam number of seed scale
 
 [Term]
-id: CO_343:0000288
-name: yam seeds sown
-def: "Quantity of botanical or true seeds sown per family or cross" [CO:curators]
-synonym: "Sdsown" EXACT []
-
-[Term]
-id: CO_343:0000289
-name: yam seeds sown/family counting variable
-is_a: CO_343:0000288 ! yam seeds sown
-relationship: variable_of CO_343:0000288 ! yam seeds sown
-relationship: variable_of CO_343:0010060 ! yam number of true seeds sown-counting method
-relationship: variable_of CO_343:0100028 ! yam number of seed scale
-
-[Term]
 id: CO_343:0000290
 name: yam seeds germination start time trait
 def: "Time the first seed germination occurred" [CO:curators]
@@ -1245,20 +1178,6 @@ is_a: CO_343:0000298 ! yam seedling transplant survival rate trait
 relationship: variable_of CO_343:0000298 ! yam seedling transplant survival rate trait
 relationship: variable_of CO_343:0010066 ! yam seedling tranplant survival rate-computation method
 relationship: variable_of CO_343:0100006 ! yam % scale
-
-[Term]
-id: CO_343:0000300
-name: yam vine cuttings planted
-def: "Vine cuttings planted" [CO:curators]
-synonym: "NVP" EXACT []
-
-[Term]
-id: CO_343:0000301
-name: yam vine cuttings planted count variable
-is_a: CO_343:0000300 ! yam vine cuttings planted
-relationship: variable_of CO_343:0000300 ! yam vine cuttings planted
-relationship: variable_of CO_343:0010067 ! yam vine cuttings planted -counting method
-relationship: variable_of CO_343:0100030 ! yam number of plant scale
 
 [Term]
 id: CO_343:0000302
@@ -1620,15 +1539,6 @@ is_a: CO_343:0000105 ! yam presence of bulbil trait
 relationship: variable_of CO_343:0000105 ! yam presence of bulbil trait
 relationship: variable_of CO_343:0010099 ! yam presence of bulbil  - estimation method
 relationship: variable_of CO_343:0100007 ! yam 0-1 scale
-
-[Term]
-id: CO_343:0000346
-name: yam plant stand harvested count variable
-synonym: "No_stdh" EXACT []
-is_a: CO_343:0000123 ! yam stand harvested number
-relationship: variable_of CO_343:0000123 ! yam stand harvested number
-relationship: variable_of CO_343:0010100 ! yam plant harvested number - counting method
-relationship: variable_of CO_343:0100041 ! yam plant per plot scale
 
 [Term]
 id: CO_343:0000347
@@ -3065,12 +2975,6 @@ def: "Computing the number of days required from 50% of sprout emergence to when
 relationship: method_of CO_343:0000247 ! yam time to end of flowering trait
 
 [Term]
-id: CO_343:0010036
-name: yam date crossing-estimation method
-def: "Record the date crossing made in particular flower of a plant." [CO:curators]
-relationship: method_of CO_343:0000252 ! yam crossing date
-
-[Term]
 id: CO_343:0010037
 name: yam floret pollinated number - counting method
 def: "Count the number of pollinated florets per female parent per cross" [CO:curators]
@@ -3117,12 +3021,6 @@ id: CO_343:0010044
 name: yam pollination type-estimation method
 def: "Record the method used to transfer the pollen grains from the anther of a flower to the stigma of a flower of the same or different plant of the same species" [CO:curators]
 relationship: method_of CO_343:0000264 ! yam pollination type trait
-
-[Term]
-id: CO_343:0010045
-name: yam plant or flower sex-estimation method
-def: "Scoring the most frequent flower sex type when more than 50% of the plants are flowered" [CO:curators]
-relationship: method_of CO_343:0000093 ! yam plant sex
 
 [Term]
 id: CO_343:0010046
@@ -3209,12 +3107,6 @@ def: "Compute the ratio of pollinated florets developing seeds" [CO:curators]
 relationship: method_of CO_343:0000286 ! yam seed index trait
 
 [Term]
-id: CO_343:0010060
-name: yam number of true seeds sown-counting method
-def: "Record the number of true seeds sown per cross or family" [CO:curators]
-relationship: method_of CO_343:0000288 ! yam seeds sown
-
-[Term]
 id: CO_343:0010061
 name: yam time of first seed germination-estimation method
 def: "Record date the first seed germination observed per cross or family" [CO:curators]
@@ -3249,12 +3141,6 @@ id: CO_343:0010066
 name: yam seedling tranplant survival rate-computation method
 def: "Compute the proportion of seedlings survived or established well after transplant operation" [CO:curators]
 relationship: method_of CO_343:0000298 ! yam seedling transplant survival rate trait
-
-[Term]
-id: CO_343:0010067
-name: yam vine cuttings planted -counting method
-def: "Count the numeber vine cuttings planted" [CO:curators]
-relationship: method_of CO_343:0000300 ! yam vine cuttings planted
 
 [Term]
 id: CO_343:0010068
@@ -4134,11 +4020,6 @@ relationship: scale_of CO_343:0010125 ! yam position of root appearance on tuber
 relationship: scale_of CO_343:0010127 ! yam tuber surface appearance - estimation method
 relationship: scale_of CO_343:0010157 ! yam tuber flesh oxidation color-estimation method
 relationship: scale_of CO_343:0010176 ! yam vein color - estimation method
-
-[Term]
-id: CO_343:0100024
-name: yam 0-4 scale
-relationship: scale_of CO_343:0010045 ! yam plant or flower sex-estimation method
 
 [Term]
 id: CO_343:0100025
