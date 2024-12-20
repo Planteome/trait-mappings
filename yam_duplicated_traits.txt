@@ -1,0 +1,50 @@
+[Term]
+id: CO_343:0100277
+name: pounded yam stickiness trait
+def: "This is when the pounded yam sticks or adhere to the fingers when it is touched with fingers or during moulding into bolus for swallowing" [CO:curators]
+is_a: TO:0001068 ! processing quality trait
+
+[Term]
+id: CO_343:0000191
+name: yam stickiness of pounded yam trait
+def: "The degree to which the pounded yam is adhesive or stick to the fingure, mouth surface and teeth" [CO:curators]
+synonym: "StickPndedYam" EXACT []
+is_a: TO:0001068 ! processing quality trait
+-------------------
+[Term]
+id: CO_343:0100054
+name: pounded yam color trait
+def: "Optical color or pigmentation of pounded yam" [CO:curators]
+synonym: "colpoundedyam" EXACT []
+is_a: TO:0001068 ! processing quality trait
+
+[Term]
+id: CO_343:0100274
+name: pounded yam colour trait
+def: "The degree of whiteness of the pounded yam sample like a plain white paper or white flip chart/colour of boiled egg albumen, or colour of the pounded yam comparable to that of Soymilk or “Eba” from white “Gaari”, or colour of Pounded yam comparable to that of greyness covering a boiled egg yolk, or colour of pounded yam, or colour of pounded yam comparable to that of evaporated liquid milk such as Peak milk, or colour of pounded yam comparable to boiled egg yolk that is light in colour, or colour of Pounded yam comparable to deep colour of Yellow maize, or colour of pounded yam comparable to the colour whole wheat meal or colour of pounded yam comparable to the colour of carton paper" [CO:curators]
+is_a: TO:0001068 ! processing quality trait
+-----------------------
+CO_343:0003010 mouldability of pounded yam
+CO_343:0100276 pounded yam mouldability/cohesiveness trait
+-----------------------
+
+CO_343:0100278
+CO_343:0003005
+-----------------------
+
+CO_343:0100279
+CO_343:0000448
+-----------------------
+CO_343:0000150 yam tuber flesh oxidation trait
+CO_343:0100283 yam tuber flesh oxidation trait
+CO_343:0000442 yam tuber flesh oxidation color trait
+CO_343:0000437 yam tuber flesh oxidation intensity trait 
+-----------------------
+CO_343:0003036 yam tuber appearance quality
+CO_343:0000188 yam tuber appearance trait
+-----------------------
+CO_343:0100238 yam tuber flesh color
+CO_343:0000147 yam tuber flesh color trait
+-----------------------
+CO_343:0000396 yam tuber thorniness intensity trait
+CO_343:0000144 yam tuber thorniness trait 
