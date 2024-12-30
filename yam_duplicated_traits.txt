@@ -1,4 +1,15 @@
 [Term]
+id: CO_343:0000503
+name: yam starch breakdown trait
+def: "The breakdown of yam starch extracted from fresh tubers were determined using a Rapid Visco-Analyser (RVA-TecMaster, Perten Instruments, Australia)." [CO:curators]
+
+[Term]
+id: CO_343:0002003
+name: yam starch breakdown trait
+def: "Indicates the resistance of the starch paste to heat and shear." [CO:curators]
+synonym: "brkdown" EXACT []
+-----------------------
+[Term]
 id: CO_343:0100277
 name: pounded yam stickiness trait
 def: "This is when the pounded yam sticks or adhere to the fingers when it is touched with fingers or during moulding into bolus for swallowing" [CO:curators]
@@ -72,6 +83,7 @@ synonym: "Tfoxd" EXACT [
 id: CO_343:0100283
 name: yam tuber flesh oxidation trait
 def: "Oxidation ratio of flesh" [CO:curators]
+-----------------------
 
 [Term]
 id: CO_343:0000442
