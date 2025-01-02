@@ -4214,70 +4214,70 @@ is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_343:0100073
-name: Boiled yam brownness
+name: boiled yam brownness
 def: "Brown colour of product after cooking" [CO:curators]
 synonym: "BoilYamBrow" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_343:0100074
-name: Boiled yam purpleness
+name: boiled yam purpleness
 def: "Purple colour tending to pink after cooking" [CO:curators]
 synonym: "BoilYamPurp" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_343:0100075
-name: Boiled yam surface black points presence
+name: boiled yam surface black points presence
 def: "Refers to the presence of small black points on the surface of product" [CO:curators]
 synonym: "BoilYamBlackspo" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_343:0100076
-name: Boiled yam stickness
+name: boiled yam stickness
 def: "Property related to the adhesion of the product between the fingers" [CO:curators]
 synonym: "BoilYamHdStick" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_343:0100077
-name: Boiled yam hardness
+name: boiled yam hardness
 def: "Force required to cut/break with fork" [CO:curators]
 synonym: "BoilYamHdHard" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_343:0100078
-name: Boiled yam crumbness
+name: boiled yam crumbness
 def: "Property of the product to crumble or break between the fingers" [CO:curators]
 synonym: "BoilYamHdCrum" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_343:0100079
-name: Boiled yam fibrousness
+name: boiled yam fibrousness
 def: "Refers to the presence of fine fibers between the fingers and visible to the eye" [CO:curators]
 synonym: "BoilYamHdFibr" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_343:0100080
-name: Boiled yam granuleness
+name: boiled yam granuleness
 def: "Refers to the presence of small grains during chewing" [CO:curators]
 synonym: "BoilYamMthGran" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_343:0100081
-name: Boiled yam easiness to chew
+name: boiled yam easiness to chew
 def: "Property related to the number of chews necessary to swallow the product" [CO:curators]
 synonym: "BoilYamMthChew" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_343:0100082
-name: Boiled yam flavor
+name: boiled yam flavor
 def: "Odour of boiled yam" [CO:curators]
 synonym: "BoilYamOdor" EXACT []
 is_a: TO:0001069 ! cooking quality trait
