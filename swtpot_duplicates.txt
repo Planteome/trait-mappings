@@ -1,0 +1,93 @@
+[Term]
+id: CO_331:0000357
+name: sweetpotato reaction to sweetpotato wire worms trait
+def: "Reaction to Sweet potato wire worms" [CO:curators]
+synonym: "RnSPWW" EXACT []
+is_a: TO:0000261 ! insect damage resistance
+
+[Term]
+id: CO_331:0000358
+name: sweetpotato reaction to wire worms trait
+def: "Reaction to Wire worms" [CO:curators]
+synonym: "RnWW" EXACT []
+is_a: TO:0000261 ! insect damage resistance
+
+_________________________________________________
+[Term]
+id: CO_331:0000359
+name: sweetpotato reaction to sweet potato flea beetles trait
+def: "Reaction to Sweet potato flea beetles" [CO:curators]
+synonym: "RnSPFB" EXACT []
+is_a: TO:0000261 ! insect damage resistance
+
+[Term]
+id: CO_331:0000360
+name: sweetpotato reaction to flea beetles trait
+def: "Reaction to flea beetles" [CO:curators]
+synonym: "RnFB" EXACT []
+is_a: TO:0000261 ! insect damage resistance
+_________________________________________________
+
+[Term]
+id: CO_331:0000367
+name: sweetpotato reaction to sweet potato moth trait
+def: "Reaction to Sweet potato moth" [CO:curators]
+synonym: "RnSPMth" EXACT []
+is_a: TO:0000261 ! insect damage response
+
+[Term]
+id: CO_331:0000368
+name: sweetpotato reaction to moth trait
+def: "Reaction to Moth" [CO:curators]
+synonym: "RnMth" EXACT []
+is_a: TO:0000261 ! insect damage response
+_________________________________________________
+
+[Term]
+id: CO_331:0000082
+name: sweetpotato yield of total roots trait
+def: "Yield evaluated in the harvest" [CO:curators]
+synonym: "RtYld" EXACT [CO:curators]
+is_a: TO:0001041 ! root yield
+
+[Term]
+id: CO_331:0000309
+name: sweetpotato yield of total roots trait
+def: "Yield of total roots calculated after harvest" [CO:curators]
+synonym: "RtYPP" EXACT [CO:curators]
+is_a: TO:0001041 ! root yield
+_________________________________________________
+
+[Term]
+id: CO_331:0000079
+name: sweetpotato total number of root trait
+def: "Total number of root after harvest" [CO:curators]
+synonym: "RtTtN" EXACT [CO:curators]
+is_a: TO:0000084 ! root number
+
+[Term]
+id: CO_331:0001079
+name: sweetpotato total number of storage roots
+namespace: SweetpotatoTrait
+def: "The total number of storage roots" [CO:curators]
+synonym: "RtTN" EXACT [CO:curators]
+_________________________________________________
+[Term]
+id: CO_331:0001073
+name: sweetpotato storage root starch content
+namespace: SweetpotatoTrait
+def: "Starch content in raw storage root" [CO:curators]
+synonym: "RwRtSta" EXACT [CO:curators]
+
+
+[Term]
+id: CO_331:0002055
+name: storage root starch content in fresh weight basis
+namespace: SweetpotatoTrait
+def: "Starch content in fresh weight basis of the storage root" [CO:curators]
+synonym: "RtStaFw" EXACT [CO:curators]
+
+
+
+
+
