@@ -79,7 +79,6 @@ namespace: SweetpotatoTrait
 def: "Starch content in raw storage root" [CO:curators]
 synonym: "RwRtSta" EXACT [CO:curators]
 
-
 [Term]
 id: CO_331:0002055
 name: storage root starch content in fresh weight basis
@@ -87,7 +86,26 @@ namespace: SweetpotatoTrait
 def: "Starch content in fresh weight basis of the storage root" [CO:curators]
 synonym: "RtStaFw" EXACT [CO:curators]
 
+_________________________________________________
 
+[Term]
+id: CO_331:0000100
+name: sweetpotato protein content trait
+def: "Protein content of the root" [CO:curators]
+synonym: "RtFlsPrt" EXACT [CO:curators]
+is_a: TO:0000598 ! protein content
 
+[Term]
+id: CO_331:0002078
+name: storage root protein content in fresh weight basis
+namespace: SweetpotatoTrait
+def: "Protein content in fresh weight basis of the storage root" [CO:curators]
+synonym: "RtPrtFw" EXACT [CO:curators]
+is_a: CO_331:1000007 ! Quality_trait
 
+_________________________________________________
+CO_331:0001108	Canopy temperature	The temperature of the canopy by plot with a thermal image taken for a infrared thermografic camera	CT
 
+CO_331:2000029	canopy temperature	The canopy temperature by plot	CnpTp EXACT
+
+_________________________________________________
