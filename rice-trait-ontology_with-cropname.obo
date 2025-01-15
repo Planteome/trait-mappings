@@ -172,11 +172,6 @@ property_value: exactMatch TO:0000427
 is_a: TO:0000427
 
 [Term]
-id: CO_320:00000321
-name: rice Culm strength scale SES scale
-relationship: scale_of CO_320:0000320
-
-[Term]
 id: CO_320:0000033
 name: rice panicle length trait
 def: "Length of panicle defined as the distance from the base to the tip of the panicle when the main axis of the panicle is held straight" []
@@ -1004,25 +999,10 @@ def: "Measure five anthers exposed at anthesis and calculate their average" []
 relationship: method_of CO_320:0000150
 
 [Term]
-id: CO_320:0000221
-name: rice mm scale
-relationship: scale_of CO_320:0000220
-
-[Term]
 id: CO_320:0000222
 name: rice average sterile lemma length - shorter method
 def: "Measure the average length of the sterile lemmas of five spikelets. If the two sterile lemmas on each spikelet differ in length, measure only the shorter one." []
 relationship: method_of CO_320:0000042
-
-[Term]
-id: CO_320:0000223
-name: rice mm scale
-relationship: scale_of CO_320:0000222
-
-[Term]
-id: CO_320:0000224
-name: rice sterile lemma length scale scale
-relationship: scale_of CO_320:0000222
 
 [Term]
 id: CO_320:0000225
@@ -1031,20 +1011,10 @@ def: "Using a hand lens, examine the colour of the stigmata when the florets are
 relationship: method_of CO_320:0000038
 
 [Term]
-id: CO_320:0000226
-name: rice stigma color scale 1 scale
-relationship: scale_of CO_320:0000225
-
-[Term]
 id: CO_320:0000227
 name: rice average seedling height method
 def: "Measure the height of 10 seedlings from the base of the shoot to the tip of the tallest leaf blade, and calculate the average" []
 relationship: method_of CO_320:0000218
-
-[Term]
-id: CO_320:0000228
-name: rice seedling height scale scale
-relationship: scale_of CO_320:0000227
 
 [Term]
 id: CO_320:0000229
@@ -1053,30 +1023,10 @@ def: "Measure distance from soil surface to base of panicle on the main culm of 
 relationship: method_of CO_320:0000030
 
 [Term]
-id: CO_320:0000230
-name: rice culm length scale scale
-relationship: scale_of CO_320:0000229
-
-[Term]
 id: CO_320:0000231
 name: rice culm diameter average - cult method
 def: "Cultivated species: compute the average diameter of the basal portion of the main culm on three representative plants" []
 relationship: method_of CO_320:0000155
-
-[Term]
-id: CO_320:0000232
-name: rice culm diameter scale cult scale
-relationship: scale_of CO_320:0000416
-
-[Term]
-id: CO_320:0000233
-name: rice cm scale
-relationship: scale_of CO_320:0000227
-
-[Term]
-id: CO_320:0000234
-name: rice cm scale
-relationship: scale_of CO_320:0000229
 
 [Term]
 id: CO_320:0000235
@@ -1091,25 +1041,10 @@ def: "Calculate the average length of the awns on 10 randomly selected spikelets
 relationship: method_of CO_320:0000146
 
 [Term]
-id: CO_320:0000237
-name: rice mm scale
-relationship: scale_of CO_320:0000236
-
-[Term]
-id: CO_320:0000238
-name: rice awn length scale cult scale
-relationship: scale_of CO_320:0000527
-
-[Term]
 id: CO_320:0000239
 name: rice number of panicles per plant estimation method
 def: "Estimate the average number of panicles per plant." []
 relationship: method_of CO_320:0000009
-
-[Term]
-id: CO_320:0000240
-name: rice number of panicles per plant scale scale
-relationship: scale_of CO_320:0000239
 
 [Term]
 id: CO_320:0000241
@@ -1118,25 +1053,10 @@ def: "Measure the length of main axis of the mature panicle on the main culm of 
 relationship: method_of CO_320:0000033
 
 [Term]
-id: CO_320:0000242
-name: rice panicle length scale scale
-relationship: scale_of CO_320:0000241
-
-[Term]
-id: CO_320:0000243
-name: rice cm scale
-relationship: scale_of CO_320:0000241
-
-[Term]
 id: CO_320:0000244
 name: rice gel consistency lab measurement method
 def: "Place 0.1g ground rice in a test tube with thymol blue (0.025% in ethanol, 0.2 ml) and KOH (0.2N, 2 ml). Shake the tube to mix contents, boil (8 min), rest (5 min) and then place in an ice-bath (15 min). Lay cooled tubes flat on graph paper for 1 hour, and then measure the distance that the gel travels . Included standards, as the age of the rice, degree of milling and operator skill affect reproducibility: IR48 (85?90 mm), IR32 (72-75 mm) and IR42 (30-32 mm)." []
 relationship: method_of CO_320:0000106
-
-[Term]
-id: CO_320:0000245
-name: rice gel consistency scale scale
-relationship: scale_of CO_320:0000244
 
 [Term]
 id: CO_320:0000246
@@ -1145,20 +1065,10 @@ def: "Examine the colour of the outside of the basal leaf sheath against a colou
 relationship: method_of CO_320:0000023
 
 [Term]
-id: CO_320:0000247
-name: rice basal leaf sheath color scale 1 scale
-relationship: scale_of CO_320:0000246
-
-[Term]
 id: CO_320:0000250
 name: rice leaf blade anthocyanin presence method
 def: "Estimate visually the presence or absence of a purplish colour attributable to anthocyanin on the penultimate leaf blade anywhere on the the leaf lamina/blade" []
 relationship: method_of CO_320:0000502
-
-[Term]
-id: CO_320:0000251
-name: rice leaf blade anthocyanin presence scale scale
-relationship: scale_of CO_320:0000250
 
 [Term]
 id: CO_320:0000252
@@ -1167,20 +1077,10 @@ def: "Cultivated species: assess the hairiness of the surface of the penultimate
 relationship: method_of CO_320:0000013
 
 [Term]
-id: CO_320:0000253
-name: rice leaf blade pubescence scale IRRI cult scale
-relationship: scale_of CO_320:0000252
-
-[Term]
 id: CO_320:0000254
 name: rice auricle color examination method
 def: "Examine the colour of the auricles against a colour chart or colour-accurate photographs of references." []
 relationship: method_of CO_320:0000029
-
-[Term]
-id: CO_320:0000255
-name: rice auricle color scale scale
-relationship: scale_of CO_320:0000254
 
 [Term]
 id: CO_320:0000256
@@ -1189,20 +1089,10 @@ def: "Observe the colour of the leaf collar against a colour chart or colour-acc
 relationship: method_of CO_320:0000028
 
 [Term]
-id: CO_320:0000257
-name: rice collar color scale RD scale
-relationship: scale_of CO_320:0000256
-
-[Term]
 id: CO_320:0000258
 name: rice average ligule length method
 def: "Measure the distance from the base of the collar to the tip of the ligule on the penultimate leaf of five plants, and calculate the average" []
 relationship: method_of CO_320:0000025
-
-[Term]
-id: CO_320:0000259
-name: rice mm scale
-relationship: scale_of CO_320:0000258
 
 [Term]
 id: CO_320:0000260
@@ -1211,20 +1101,10 @@ def: "Visually compare the shape of ligules with a diagram or photographs repres
 relationship: method_of CO_320:0000027
 
 [Term]
-id: CO_320:0000261
-name: rice ligule shape scale cult RD scale
-relationship: scale_of CO_320:0000260
-
-[Term]
 id: CO_320:0000262
 name: rice ligule pubescence estimation method
 def: "Assess pubescence (hairiness) of the ligules under a hand lens." []
 relationship: method_of CO_320:0000132
-
-[Term]
-id: CO_320:0000263
-name: rice ligule pubescence scale 1 scale
-relationship: scale_of CO_320:0000262
 
 [Term]
 id: CO_320:0000264
@@ -1233,30 +1113,10 @@ def: "Cultivated species: visually estimate the colour of ligules at late vegeta
 relationship: method_of CO_320:0000026
 
 [Term]
-id: CO_320:0000265
-name: rice ligule color scale cult scale
-relationship: scale_of CO_320:0000264
-
-[Term]
 id: CO_320:0000266
 name: rice average leaf length method
 def: "Measure length of the penultimate leaf on the main culm, from the ligule to the tip of the blade, on five representative plants. Calculate average" []
 relationship: method_of CO_320:0000011
-
-[Term]
-id: CO_320:0000267
-name: rice cm scale
-relationship: scale_of CO_320:0000266
-
-[Term]
-id: CO_320:0000268
-name: rice leaf length scale scale
-relationship: scale_of CO_320:0000266
-
-[Term]
-id: CO_320:0000269
-name: rice No scale name found scale
-relationship: scale_of CO_320:0000235
 
 [Term]
 id: CO_320:0000270
@@ -1265,20 +1125,10 @@ def: "Measure length of the flag leaf, from the ligule to the tip of the blade, 
 relationship: method_of CO_320:0000138
 
 [Term]
-id: CO_320:0000271
-name: rice cm scale
-relationship: scale_of CO_320:0000270
-
-[Term]
 id: CO_320:0000272
 name: rice average flag leaf width method
 def: "Measure width at the widest portion of the flag leaf on five representative plants. Calculate average" []
 relationship: method_of CO_320:0000137
-
-[Term]
-id: CO_320:0000273
-name: rice cm scale
-relationship: scale_of CO_320:0000272
 
 [Term]
 id: CO_320:0000274
@@ -1287,20 +1137,10 @@ def: "Cultivated species: at anthesis, estimate the angle of attachment between 
 relationship: method_of CO_320:0000017
 
 [Term]
-id: CO_320:0000275
-name: rice flag leaf angle scale cult early scale
-relationship: scale_of CO_320:0000274
-
-[Term]
 id: CO_320:0000276
 name: rice culm angle estimation method
 def: "Estimate by eye the average angle of inclination of the base of the main culm from vertical" []
 relationship: method_of CO_320:0000031
-
-[Term]
-id: CO_320:0000277
-name: rice culm angle UPOV scale scale
-relationship: scale_of CO_320:0000276
 
 [Term]
 id: CO_320:0000278
@@ -1309,20 +1149,10 @@ def: "Examine the presence and distribution of purple colour from anthocyanin, o
 relationship: method_of CO_320:0000016
 
 [Term]
-id: CO_320:0000279
-name: rice culm internode anthocyanin scale scale
-relationship: scale_of CO_320:0000278
-
-[Term]
 id: CO_320:0000280
 name: rice culm strength estimation - rd method
 def: "Gently push tillers back and forth a few times, at a distance of 30 cm from the ground" []
 relationship: method_of CO_320:0000084
-
-[Term]
-id: CO_320:0000281
-name: rice Culm strength scale RD scale
-relationship: scale_of CO_320:0000280
 
 [Term]
 id: CO_320:0000282
@@ -1331,20 +1161,10 @@ def: "Estimate by observing all leaves below the flag leaf for their retention o
 relationship: method_of CO_320:0000085
 
 [Term]
-id: CO_320:0000283
-name: rice leaf senescence harvest scale scale
-relationship: scale_of CO_320:0000282
-
-[Term]
 id: CO_320:0000284
 name: rice rhizome formation observation method
 def: "Wild species: observe the presence of rhizomes, stolons and/or tubers around the base of a potted plant when it is ready for harvest" []
 relationship: method_of CO_320:0000124
-
-[Term]
-id: CO_320:0000285
-name: rice rhizome formation scale 1 scale
-relationship: scale_of CO_320:0000284
 
 [Term]
 id: CO_320:0000286
@@ -1353,20 +1173,10 @@ def: "Visually determinate the colour of the lemma and palea before the grain ri
 relationship: method_of CO_320:0000039
 
 [Term]
-id: CO_320:0000287
-name: rice immature lemma and palea colour scale scale
-relationship: scale_of CO_320:0000286
-
-[Term]
 id: CO_320:0000288
 name: rice awn presence method
 def: "Observe the presence or absence of awns on maturing spikelets" []
 relationship: method_of CO_320:0000156
-
-[Term]
-id: CO_320:0000289
-name: rice awn presence scale UPOV scale
-relationship: scale_of CO_320:0000288
 
 [Term]
 id: CO_320:0000290
@@ -1375,20 +1185,10 @@ def: "Examine the colour of the awns after anthesis against a colour chart or co
 relationship: method_of CO_320:0000036
 
 [Term]
-id: CO_320:0000291
-name: rice awn color scale immature IRRI scale
-relationship: scale_of CO_320:0000290
-
-[Term]
 id: CO_320:0000292
 name: rice average awn thickness method
 def: "Measure the average thickness of 10 representative spikelets, 1 cm from the apiculus of the spikelet." []
 relationship: method_of CO_320:0000144
-
-[Term]
-id: CO_320:0000293
-name: rice mm scale
-relationship: scale_of CO_320:0000292
 
 [Term]
 id: CO_320:0000294
@@ -1397,20 +1197,10 @@ def: "Cultivated species: grasp a panicle with a hand, apply a slight rolling pr
 relationship: method_of CO_320:0000078
 
 [Term]
-id: CO_320:0000295
-name: rice panicle threshability scale RD scale
-relationship: scale_of CO_320:0000294
-
-[Term]
 id: CO_320:0000296
 name: rice lemma and palea pubescence evaluation method
 def: "Using a hand lens, visually assess and evaluate the presence, distribution and type of hairs on the lemmas and paleas" []
 relationship: method_of CO_320:0000040
-
-[Term]
-id: CO_320:0000297
-name: rice lemma and palea pubescence scale IRRI scale
-relationship: scale_of CO_320:0000296
 
 [Term]
 id: CO_320:0000298
@@ -1419,20 +1209,10 @@ def: "Examine the shape of sterile lemmas" []
 relationship: method_of CO_320:0000121
 
 [Term]
-id: CO_320:0000299
-name: rice Sterile lemma shape scale scale
-relationship: scale_of CO_320:0000298
-
-[Term]
 id: CO_320:0000300
 name: rice sterile lemma color examination cult method
 def: "Examine the colour of the sterile lemmas of five representive spikelets against a colour chart or colour-accurate photographs of references." []
 relationship: method_of CO_320:0000041
-
-[Term]
-id: CO_320:0000301
-name: rice sterile lemma color scale cult scale
-relationship: scale_of CO_320:0000300
 
 [Term]
 id: CO_320:0000302
@@ -1441,20 +1221,10 @@ def: "Press spikelets between fingers to check which have filled grains inside. 
 relationship: method_of CO_320:0000090
 
 [Term]
-id: CO_320:0000303
-name: rice spikelet fertility scale RD scale
-relationship: scale_of CO_320:0000302
-
-[Term]
 id: CO_320:0000304
 name: rice average grain length method
 def: "Use calliper, photo-enlarger or high-resolution (true 2400dpi) images to measure the distance from the base of the lowermost sterile lemma to the tip (apiculus) of the fertile lemma or palea. In the case of awned varieties, measure to a point comparable to the tip of the apiculus, i.e. excluding the awn. Calculate the mean of 10 representative grains" []
 relationship: method_of CO_320:0000004
-
-[Term]
-id: CO_320:0000305
-name: rice mm scale
-relationship: scale_of CO_320:0000304
 
 [Term]
 id: CO_320:0000306
@@ -1463,20 +1233,10 @@ def: "Use calliper, photo-enlarger or high-resolution (true 2400dpi) images to m
 relationship: method_of CO_320:0000005
 
 [Term]
-id: CO_320:0000307
-name: rice mm scale
-relationship: scale_of CO_320:0000306
-
-[Term]
 id: CO_320:0000308
 name: rice average grain thickness method
 def: "Wild species: using a calliper or photo-enlarger, measure the average of 10 representative grains" []
 relationship: method_of CO_320:0000020
-
-[Term]
-id: CO_320:0000309
-name: rice mm scale
-relationship: scale_of CO_320:0000308
 
 [Term]
 id: CO_320:0000310
@@ -1485,20 +1245,10 @@ def: "Cultivated species: take a random sample of 100 well-developed, whole grai
 relationship: method_of CO_320:0000100
 
 [Term]
-id: CO_320:0000311
-name: rice g scale
-relationship: scale_of CO_320:0000310
-
-[Term]
 id: CO_320:0000312
 name: rice vegetative vigor method
 def: "Assess the vigor of plants in early vegetative stage" []
 relationship: method_of CO_320:0000077
-
-[Term]
-id: CO_320:0000313
-name: rice vegetative vigor scale scale
-relationship: scale_of CO_320:0000312
 
 [Term]
 id: CO_320:0000314
@@ -1507,31 +1257,16 @@ def: "Count all tillers arising from representative plants and compute the avera
 relationship: method_of CO_320:0000079
 
 [Term]
-id: CO_320:0000315
-name: rice Tillering scale scale
-relationship: scale_of CO_320:0000314
-
-[Term]
 id: CO_320:0000316
 name: rice panicle exsertion estimation method
 def: "Observe the extent to which panicles are exserted above the flag leaf sheath" []
 relationship: method_of CO_320:0000074
 
 [Term]
-id: CO_320:0000317
-name: rice panicle exsertion scale scale
-relationship: scale_of CO_320:0000316
-
-[Term]
 id: CO_320:0000318
 name: rice panicle threshability estimation ses method
 def: "Grasp a panicle with a hand, apply a slight rolling pressure with the palm and fingers, and assess the percentage of grains that are removed by the action" []
 relationship: method_of CO_320:0000078
-
-[Term]
-id: CO_320:0000319
-name: rice panicle threshability scale SES scale
-relationship: scale_of CO_320:0000318
 
 [Term]
 id: CO_320:0000320
@@ -1546,31 +1281,16 @@ def: "Before starting to score phenotypic acceptability, define what is excellen
 relationship: method_of CO_320:0000075
 
 [Term]
-id: CO_320:0000323
-name: rice phenotypic acceptability scale scale
-relationship: scale_of CO_320:0000322
-
-[Term]
 id: CO_320:0000324
 name: rice male sterility group assignment method
 def: "? No info in SES on how to identify the group" []
 relationship: method_of CO_320:0000091
 
 [Term]
-id: CO_320:0000325
-name: rice No scale name found scale
-relationship: scale_of CO_320:0000324
-
-[Term]
 id: CO_320:0000326
 name: rice pollen sterility calculation method
 def: "Collect pollen from at least ten florets at anthesis, fix in 70% alcohol. Place 2-3 anthers from each of five florets on a glass slide, and squeeze the pollen out in a drop of 1% iodine potassium iodide (I2-KI) solution with a spear-shaped needle. Fertile pollen grains will be round and well stained, sterile pollen grains will be unstained or partially stained, and withered or round. Using a microscope at magnification 10x10, count fertile and sterile grains in at least three microscopic fields, calculate the proportion that are sterile" []
 relationship: method_of CO_320:0000158
-
-[Term]
-id: CO_320:0000327
-name: rice pollen sterility scale scale
-relationship: scale_of CO_320:0000326
 
 [Term]
 id: CO_320:0000328
@@ -1591,20 +1311,10 @@ def: "Collect florets and fix in 3:1 Acetic acid:alcohol solution. Squeeze out p
 relationship: method_of CO_320:0000092
 
 [Term]
-id: CO_320:0000331
-name: rice abortion pattern scale scale
-relationship: scale_of CO_320:0000330
-
-[Term]
 id: CO_320:0000334
 name: rice stigma exsertion calculation method
 def: "Count the number of florets that have completed anthesis on a given day and the number of those florets that have exserted stigma on one or both sides of the floret. Calculate the proportion of florets with exserted stigma" []
 relationship: method_of CO_320:0000093
-
-[Term]
-id: CO_320:0000335
-name: rice stigma exsertion scale scale
-relationship: scale_of CO_320:0000334
 
 [Term]
 id: CO_320:0000336
@@ -1613,20 +1323,10 @@ def: "Assess the vigor of seedlings" []
 relationship: method_of CO_320:0000077
 
 [Term]
-id: CO_320:0000337
-name: rice seedling vigor scale scale
-relationship: scale_of CO_320:0000336
-
-[Term]
 id: CO_320:0000338
 name: rice fertility restoration evaluation method
 def: "Step 1 (pollen fertility: see pollen sterility score): Collect pollen from at least ten florets at anthesis, fix in 70% alcohol. Place 2-3 anthers from each of five florets on a glass slide, and squeeze the pollen out in a drop of 1% iodine potassium iodide (I2-KI) solution with a spear-shaped needle. Using a microscope at magnification 10x10, count fertile and sterile grains in at least three microscopic fields, calculate the percentage that are fertile, and score. Step 2 (spikelet fertility): count the number of filled grains andtotal spikelets per panicle and convert into percentage fertile. Score the combination of pollen fertility with spikelet fertility" []
 relationship: method_of CO_320:0000098
-
-[Term]
-id: CO_320:0000339
-name: rice fertility restoration scale scale
-relationship: scale_of CO_320:0000338
 
 [Term]
 id: CO_320:0000340
@@ -1635,20 +1335,10 @@ def: "Assess the type of lesion and the proportion of leaf area affected by leaf
 relationship: method_of CO_320:0000176
 
 [Term]
-id: CO_320:0000341
-name: rice leaf blast damage scale scale
-relationship: scale_of CO_320:0000340
-
-[Term]
 id: CO_320:0000342
 name: rice brown spot damage estimation method
 def: "Estimate the % leaf area diseased" []
 relationship: method_of CO_320:0000177
-
-[Term]
-id: CO_320:0000343
-name: rice brown spot damage scale scale
-relationship: scale_of CO_320:0000342
 
 [Term]
 id: CO_320:0000344
@@ -1657,31 +1347,16 @@ def: "Estimate the % leaf area diseased" []
 relationship: method_of CO_320:0000182
 
 [Term]
-id: CO_320:0000345
-name: rice narrow brown leaf spot scale scale
-relationship: scale_of CO_320:0000344
-
-[Term]
 id: CO_320:0000346
 name: rice leaf scald damage estimation method
 def: "Estimate the proportion and distribution of leaf area diseased" []
 relationship: method_of CO_320:0000181
 
 [Term]
-id: CO_320:0000347
-name: rice leaf scald damage scale scale
-relationship: scale_of CO_320:0000346
-
-[Term]
 id: CO_320:0000348
 name: rice bacterial blight damage estimation greenhouse method
 def: "Estimate the % leaf area diseased in a greenhouse test" []
 relationship: method_of CO_320:0000173
-
-[Term]
-id: CO_320:0000349
-name: rice bacterial blight damage scale greenhouse scale
-relationship: scale_of CO_320:0000348
 
 [Term]
 id: CO_320:0000350
@@ -1696,20 +1371,10 @@ def: "Estimate the stunting, tillering, spots and discoloration" []
 relationship: method_of CO_320:0000179
 
 [Term]
-id: CO_320:0000353
-name: rice grassy stunt 1 disease scale scale
-relationship: scale_of CO_320:0000352
-
-[Term]
 id: CO_320:0000354
 name: rice sheath blight relative height estimation method
 def: "Estimate the relative lesion height, as the average height above the soil of the uppermost lesion on a leaf blade or leaf sheath expressed as a percentage of the average plant height." []
 relationship: method_of CO_320:0000189
-
-[Term]
-id: CO_320:0000355
-name: rice sheath blight relative height scale scale
-relationship: scale_of CO_320:0000354
 
 [Term]
 id: CO_320:0000356
@@ -1718,31 +1383,16 @@ def: "Estimate the type and severity of symptoms" []
 relationship: method_of CO_320:0000192
 
 [Term]
-id: CO_320:0000357
-name: rice yellow mottle disease scale scale
-relationship: scale_of CO_320:0000356
-
-[Term]
 id: CO_320:0000358
 name: rice hoja blanca vegetative disease estimation method
 def: "Estimate the proportion of young plants with leaves showing symptoms" []
 relationship: method_of CO_320:0000193
 
 [Term]
-id: CO_320:0000359
-name: rice hoja blanca vegetative disease scale scale
-relationship: scale_of CO_320:0000358
-
-[Term]
 id: CO_320:0000360
 name: rice sheath rot incidence estimation method
 def: "Estimate the proportion of tillers that are diseased" []
 relationship: method_of CO_320:0000185
-
-[Term]
-id: CO_320:0000361
-name: rice sheath rot incidence scale scale
-relationship: scale_of CO_320:0000360
 
 [Term]
 id: CO_320:0000362
@@ -1757,20 +1407,10 @@ def: "Estimate the proportion of tillers that are infected" []
 relationship: method_of CO_320:0000194
 
 [Term]
-id: CO_320:0000365
-name: rice udbatta disease incidence scale scale
-relationship: scale_of CO_320:0000364
-
-[Term]
 id: CO_320:0000366
 name: rice stem rot incidence estimation method
 def: "Estimate the propotion of tillers that are infected" []
 relationship: method_of CO_320:0000186
-
-[Term]
-id: CO_320:0000367
-name: rice stem rot incidence scale scale
-relationship: scale_of CO_320:0000366
 
 [Term]
 id: CO_320:0000368
@@ -1779,20 +1419,10 @@ def: "Estimate the proportion of tillers that show visible symptoms of infection
 relationship: method_of CO_320:0000187
 
 [Term]
-id: CO_320:0000369
-name: rice ufra incidence scale scale
-relationship: scale_of CO_320:0000368
-
-[Term]
 id: CO_320:0000370
 name: rice brown planthopper injury assessment greenhouse method
 def: "Sow plants in a greenhouse with a uniform high population of brown planthoppers and observe the damage on the seedlings" []
 relationship: method_of CO_320:0000196
-
-[Term]
-id: CO_320:0000371
-name: rice brown planthopper injury scale greenhouse scale
-relationship: scale_of CO_320:0000370
 
 [Term]
 id: CO_320:0000372
@@ -1800,10 +1430,6 @@ name: rice green leafhopper injury assessment greenhouse method
 def: "Sow plants in a greenhouse with a uniform high population of green leafhopper, and observe the damage on the seedlings" []
 relationship: method_of CO_320:0000200
 
-[Term]
-id: CO_320:0000373
-name: rice green leafhopper injury scale greenhouse scale
-relationship: scale_of CO_320:0000372
 
 [Term]
 id: CO_320:0000374
@@ -1812,20 +1438,10 @@ def: "Sow plants in a greenhouse with a uniform high population of green leafhop
 relationship: method_of CO_320:0000211
 
 [Term]
-id: CO_320:0000375
-name: rice whitebacked planthopper injury scale greenhouse scale
-relationship: scale_of CO_320:0000374
-
-[Term]
 id: CO_320:0000378
 name: rice yellow stem borer deadheart damage assessment method
 def: "At maximum tillering, observe the proportion of tillers that have stems with deadheart caused by Scirpophaga incertulas. Use an augmented experimental design with a susceptible check replicated at intervals across the whole trial. Dissect stems from 10 hills of susceptible checks at maximum tillering, panicle initiation and late ripening, in order to identify the SB species. The test is considered a valid test for resistance if the susceptible check has more than 20% of tillers with deadheart" []
 relationship: method_of CO_320:0000208
-
-[Term]
-id: CO_320:0000379
-name: rice yellow stem borer deadheart damage scale scale
-relationship: scale_of CO_320:0000378
 
 [Term]
 id: CO_320:0000380
@@ -1834,20 +1450,10 @@ def: "Use an augmented experimental design, with a susceptible and resistant che
 relationship: method_of CO_320:0000201
 
 [Term]
-id: CO_320:0000381
-name: rice leaf folder injury scale field scale
-relationship: scale_of CO_320:0000380
-
-[Term]
 id: CO_320:0000382
 name: rice gall midge injury assessment field method
 def: "In a field test, observe the proportion of infected tillers. For the field test to be considered a valid measure of resistance, more than 60% of the plants of the susceptible check should be affected with not less than 15% silver shoot" []
 relationship: method_of CO_320:0000199
-
-[Term]
-id: CO_320:0000383
-name: rice gall midge injury scale field scale
-relationship: scale_of CO_320:0000382
 
 [Term]
 id: CO_320:0000384
@@ -1856,20 +1462,10 @@ def: "Estimate the % of leaf area that have been scraped by case worms" []
 relationship: method_of CO_320:0000197
 
 [Term]
-id: CO_320:0000385
-name: rice case worm damage scale scale
-relationship: scale_of CO_320:0000384
-
-[Term]
 id: CO_320:0000386
 name: rice rice whorl maggot damage assessment method
 def: "Observe the severity of damage caused by rice whorl maggot" []
 relationship: method_of CO_320:0000206
-
-[Term]
-id: CO_320:0000387
-name: rice rice whorl maggot damage scale scale
-relationship: scale_of CO_320:0000386
 
 [Term]
 id: CO_320:0000388
@@ -1877,10 +1473,6 @@ name: rice rice bug damage assessment method
 def: "Observe the proportion of injured grains per panicle caused by rice bug" []
 relationship: method_of CO_320:0000203
 
-[Term]
-id: CO_320:0000389
-name: rice rice bug damage scale scale
-relationship: scale_of CO_320:0000388
 
 [Term]
 id: CO_320:0000390
@@ -1889,25 +1481,10 @@ def: "Estimate the severity of damage caused by thrips" []
 relationship: method_of CO_320:0000210
 
 [Term]
-id: CO_320:0000391
-name: rice thrips damage scale scale
-relationship: scale_of CO_320:0000390
-
-[Term]
-id: CO_320:0000393
-name: rice iron injury scale scale
-relationship: scale_of CO_320:0000759
-
-[Term]
 id: CO_320:0000394
 name: rice phosphorus deficiency tillering greenhouse method
 def: "In a greenhouse test, grow each line in culture solution under two conditions: 0.5ppm P (low P) and 10ppm P (standard P). Estimate the propoprtion of tillers that develop in low P out of the number that develop in standard P" []
 relationship: method_of CO_320:0000065
-
-[Term]
-id: CO_320:0000395
-name: rice phosphorus deficiency tillering greenhouse scale scale
-relationship: scale_of CO_320:0000394
 
 [Term]
 id: CO_320:0000396
@@ -1916,20 +1493,10 @@ def: "Observe growth in a growing medium with a deficiency of zinc" []
 relationship: method_of CO_320:0000069
 
 [Term]
-id: CO_320:0000397
-name: rice zinc deficiency injury scale scale
-relationship: scale_of CO_320:0000396
-
-[Term]
 id: CO_320:0000398
 name: rice seedling cold injury method
 def: "Observe the vigor, leaf colour and damage to seedlings grown at 10 degrees C" []
 relationship: method_of CO_320:0000057
-
-[Term]
-id: CO_320:0000399
-name: rice seedling cold injury scale scale
-relationship: scale_of CO_320:0000398
 
 [Term]
 id: CO_320:0000400
@@ -1938,20 +1505,10 @@ def: "Estimate the % spikelet fertility of plants exposed to high temperature du
 relationship: method_of CO_320:0000062
 
 [Term]
-id: CO_320:0000401
-name: rice flowering heat injury scale scale
-relationship: scale_of CO_320:0000400
-
-[Term]
 id: CO_320:0000402
 name: rice drought estimation leaf rolling method
 def: "Estimate the extent of leaf rolling on exposure to drought" []
 relationship: method_of CO_320:0000060
-
-[Term]
-id: CO_320:0000403
-name: rice drought scale leaf rolling scale
-relationship: scale_of CO_320:0000402
 
 [Term]
 id: CO_320:0000404
@@ -1960,20 +1517,10 @@ def: "10 days after soaking rain or watering ends a period of drought, estimate 
 relationship: method_of CO_320:0000058
 
 [Term]
-id: CO_320:0000405
-name: rice drought recovery scale scale
-relationship: scale_of CO_320:0000404
-
-[Term]
 id: CO_320:0000406
 name: rice stem elongation estimation method
 def: "Estimate the ability of stems to elongate based on comparison with check varieties. Specify water depth under which the data was recorded" []
 relationship: method_of CO_320:0000061
-
-[Term]
-id: CO_320:0000407
-name: rice stem elongation scale scale
-relationship: scale_of CO_320:0000406
 
 [Term]
 id: CO_320:0000408
@@ -1982,20 +1529,10 @@ def: "Field evaluation: estimate the proportion of plants that survive submergen
 relationship: method_of CO_320:0000067
 
 [Term]
-id: CO_320:0000409
-name: rice submergence survival scale scale
-relationship: scale_of CO_320:0000408
-
-[Term]
 id: CO_320:0000410
 name: rice kneeing ability estimation ses method
 def: "Estimate the tiller angle at the point of kneeing" []
 relationship: method_of CO_320:0000064
-
-[Term]
-id: CO_320:0000411
-name: rice kneeing ability scale SES scale
-relationship: scale_of CO_320:0000410
 
 [Term]
 id: CO_320:0000412
@@ -2004,20 +1541,10 @@ def: "Visually determination" []
 relationship: method_of CO_320:0000006
 
 [Term]
-id: CO_320:0000413
-name: rice No scale name found scale
-relationship: scale_of CO_320:0000412
-
-[Term]
 id: CO_320:0000414
 name: rice leaf angle method
 def: "Estimate the position of the tip of the penultimate leaf blade relative to its base" []
 relationship: method_of CO_320:0000014
-
-[Term]
-id: CO_320:0000415
-name: rice leaf angle scale scale
-relationship: scale_of CO_320:0000414
 
 [Term]
 id: CO_320:0000416
@@ -2026,20 +1553,10 @@ def: "Cultivated species: measure the diameter of the basal portion of the main 
 relationship: method_of CO_320:0000155
 
 [Term]
-id: CO_320:0000417
-name: rice mm scale
-relationship: scale_of CO_320:0000416
-
-[Term]
 id: CO_320:0000418
 name: rice panicle type assessment method
 def: "Estimate the orientation of primary branches on representative panicles by comparing them with a diagram of the categories or with photographs of the reference variety for each category" []
 relationship: method_of CO_320:0000018
-
-[Term]
-id: CO_320:0000419
-name: rice No scale name found scale
-relationship: scale_of CO_320:0000418
 
 [Term]
 id: CO_320:0000420
@@ -2048,20 +1565,10 @@ def: "Observe the abundance and distribution of spikelets borne on secondary bra
 relationship: method_of CO_320:0000034
 
 [Term]
-id: CO_320:0000421
-name: rice secondary panicle branching scale scale
-relationship: scale_of CO_320:0000420
-
-[Term]
 id: CO_320:0000422
 name: rice panicle axis observation method
 def: "Observe the attitude of the main axis of the panicle" []
 relationship: method_of CO_320:0000035
-
-[Term]
-id: CO_320:0000423
-name: rice No scale name found scale
-relationship: scale_of CO_320:0000422
 
 [Term]
 id: CO_320:0000424
@@ -2070,20 +1577,10 @@ def: "Estimate the presence, distribution and length of awns" []
 relationship: method_of CO_320:0000015
 
 [Term]
-id: CO_320:0000425
-name: rice awning scale SES scale
-relationship: scale_of CO_320:0000424
-
-[Term]
 id: CO_320:0000426
 name: rice immature apiculus color examination method
 def: "Examine the colour of the apiculus of immature lemmas against a colour chart or colour-accurate photographs of references" []
 relationship: method_of CO_320:0000037
-
-[Term]
-id: CO_320:0000427
-name: rice immature apiculus color UPOV scale scale
-relationship: scale_of CO_320:0000426
 
 [Term]
 id: CO_320:0000428
@@ -2092,25 +1589,10 @@ def: "Polish a sample of rice and evaluate a representative sample visually. Est
 relationship: method_of CO_320:0000104
 
 [Term]
-id: CO_320:0000429
-name: rice chalkiness 0-9 scale scale
-relationship: scale_of CO_320:0000428
-
-[Term]
 id: CO_320:0000430
 name: rice caryopsis length measurement method
 def: "Use calliper, photo-enlarger or scale images to measure the length of ten caryopses and calculate the average" []
 relationship: method_of CO_320:0000110
-
-[Term]
-id: CO_320:0000431
-name: rice Caryopsis length UPOV scale scale
-relationship: scale_of CO_320:0000430
-
-[Term]
-id: CO_320:0000432
-name: rice mm scale
-relationship: scale_of CO_320:0000430
 
 [Term]
 id: CO_320:0000433
@@ -2119,20 +1601,10 @@ def: "Compute the length/width ratio" []
 relationship: method_of CO_320:0000109
 
 [Term]
-id: CO_320:0000434
-name: rice Caryopsis length/width ratio scale SES scale
-relationship: scale_of CO_320:0000433
-
-[Term]
 id: CO_320:0000435
 name: rice pericarp colour examination method
 def: "Examine the colour of the pericarp against a colour chart or colour-accurate photographs of references." []
 relationship: method_of CO_320:0000115
-
-[Term]
-id: CO_320:0000436
-name: rice pericarp colour UPOV scale scale
-relationship: scale_of CO_320:0000435
 
 [Term]
 id: CO_320:0000437
@@ -2141,20 +1613,10 @@ def: "An indirect indicator of approximate gelatinization temperature. Incubate 
 relationship: method_of CO_320:0000107
 
 [Term]
-id: CO_320:0000438
-name: rice alkali digestion scale scale
-relationship: scale_of CO_320:0000437
-
-[Term]
 id: CO_320:0000439
 name: rice 1000 grain (14%mc)weight measurement method
 def: "Weigh a random sample of 1000 well-developed, whole grains dried to 14% moisture content" []
 relationship: method_of CO_320:0000100
-
-[Term]
-id: CO_320:0000440
-name: rice 1000 grain weight scale scale
-relationship: scale_of CO_320:0000439
 
 [Term]
 id: CO_320:0000443
@@ -2163,20 +1625,10 @@ def: "Calculate as the difference between the main heading date and the date of 
 relationship: method_of CO_320:0000088
 
 [Term]
-id: CO_320:0000444
-name: rice Days scale
-relationship: scale_of CO_320:0000443
-
-[Term]
 id: CO_320:0000445
 name: rice maturity days after seeding method
 def: "Monitor daily , note the date when 80-85% of grains on panicles are mature, and count the number of days lapsed since the date of effective seeding" []
 relationship: method_of CO_320:0000082
-
-[Term]
-id: CO_320:0000446
-name: rice Days scale
-relationship: scale_of CO_320:0000445
 
 [Term]
 id: CO_320:0000453
@@ -2185,25 +1637,10 @@ def: "Wild species: 7 days after anthesis, estimate the angle of attachment betw
 relationship: method_of CO_320:0000017
 
 [Term]
-id: CO_320:0000454
-name: rice flag leaf angle scale wild scale
-relationship: scale_of CO_320:0000453
-
-[Term]
-id: CO_320:0000456
-name: rice mm scale
-relationship: scale_of CO_320:0000244
-
-[Term]
 id: CO_320:0000457
 name: rice peak temperature method
 def: "Gradually heat a sample of milled rice using a Differential Scanning Calorimeter (DSC), which measures the energy expended to raise the temperature of starch crystals as they gelatinize and melt. The temperature at which energy expenditure is maximum (peak temperature) provides a precise measure of gelatinization temperature." []
 relationship: method_of CO_320:0000107
-
-[Term]
-id: CO_320:0000458
-name: rice degrees C scale
-relationship: scale_of CO_320:0000457
 
 [Term]
 id: CO_320:0000459
@@ -2212,20 +1649,10 @@ def: "Measure the mean distance from the base of the lowermost sterile lemma to 
 relationship: method_of CO_320:0000004
 
 [Term]
-id: CO_320:0000460
-name: rice Grain length score scale
-relationship: scale_of CO_320:0000304
-
-[Term]
 id: CO_320:0000463
 name: rice caryopsis shape upov method
 def: "Observe the shape of the caryopsis in lateral view" []
 relationship: method_of CO_320:0000109
-
-[Term]
-id: CO_320:0000464
-name: rice Caryopsis shape scale UPOV scale
-relationship: scale_of CO_320:0000463
 
 [Term]
 id: CO_320:0000467
@@ -2234,20 +1661,10 @@ def: "Measure the distance across the fertile lemma and the palea at the widest 
 relationship: method_of CO_320:0000005
 
 [Term]
-id: CO_320:0000468
-name: rice grain width UPOV scale scale
-relationship: scale_of CO_320:0000467
-
-[Term]
 id: CO_320:0000469
 name: rice yield measurement method
 def: "Harvest grain from at least 5 m2/plot, discarding at least three border rows. Thresh, dry the rough (paddy) rice to 14% moisture content, and weigh." []
 relationship: method_of CO_320:0000073
-
-[Term]
-id: CO_320:0000470
-name: rice kg per ha scale
-relationship: scale_of CO_320:0000469
 
 [Term]
 id: CO_320:0000471
@@ -2256,20 +1673,10 @@ def: "Dehull and mill (polish) a sample of grains (paddy). Weigh the whole sampl
 relationship: method_of CO_320:0000108
 
 [Term]
-id: CO_320:0000472
-name: rice % scale
-relationship: scale_of CO_320:0000471
-
-[Term]
 id: CO_320:0000473
 name: rice lodging incidence % method
 def: "Indicate % of plants that lodged" []
 relationship: method_of CO_320:0000080
-
-[Term]
-id: CO_320:0000474
-name: rice % of plants that lodged scale
-relationship: scale_of CO_320:0000473
 
 [Term]
 id: CO_320:0000475
@@ -2278,31 +1685,16 @@ def: "Measure the length of main axis of the immature panicle on the main culm o
 relationship: method_of CO_320:0000033
 
 [Term]
-id: CO_320:0000476
-name: rice cm scale
-relationship: scale_of CO_320:0000475
-
-[Term]
 id: CO_320:0000479
 name: rice plant height measurement method
 def: "Measure the height from the soil surface to hightest point of the plant" []
 relationship: method_of CO_320:0000076
 
 [Term]
-id: CO_320:0000480
-name: rice No scale name found scale
-relationship: scale_of CO_320:0000479
-
-[Term]
 id: CO_320:0000481
 name: rice spikelet fertility estimation ses method
 def: "Press spikelets between fingers to check which have filled grains inside. Test five representative panicles to estimate the percentage of spikelets that are filled" []
 relationship: method_of CO_320:0000090
-
-[Term]
-id: CO_320:0000482
-name: rice spikelet fertility scale SES scale
-relationship: scale_of CO_320:0000302
 
 [Term]
 id: CO_320:0000486
@@ -2882,261 +2274,6 @@ id: CO_320:0000573
 name: rice stem borer deadheart damage assessment method
 def: "At maximum tillering, observe the proportion of tillers that have stems with deadheart. Use an augmented experimental design with a susceptible check replicated at intervals across the whole trial. Dissect stems from 10 hills of susceptible checks at maximum tillering, panicle initiation and late ripening, in order to identify the SB species. The test is considered a valid test for resistance if the susceptible check has more than 20% of tillers with deadheart" []
 relationship: method_of CO_320:0000208
-
-[Term]
-id: CO_320:0000574
-name: rice kernel smut incidence scale scale
-relationship: scale_of CO_320:0000762
-
-[Term]
-id: CO_320:0000575
-name: rice kneeing ability presence scale scale
-relationship: scale_of CO_320:0000763
-
-[Term]
-id: CO_320:0000576
-name: rice leaf blade anthocyanin distribution scale scale
-relationship: scale_of CO_320:0000764
-
-[Term]
-id: CO_320:0000577
-name: rice leaf blade greenness scale scale
-relationship: scale_of CO_320:0000765
-
-[Term]
-id: CO_320:0000578
-name: rice leaf blade pubescence scale wild scale
-relationship: scale_of CO_320:0000766
-
-[Term]
-id: CO_320:0000579
-name: rice % leaf area affected scale
-relationship: scale_of CO_320:0000767
-
-[Term]
-id: CO_320:0000580
-name: rice leaf blast damage type scale scale
-relationship: scale_of CO_320:0000768
-
-[Term]
-id: CO_320:0000581
-name: rice leaf margin pubescence scale scale
-relationship: scale_of CO_320:0000769
-
-[Term]
-id: CO_320:0000582
-name: rice leaffolder single leaf injury scale scale
-relationship: scale_of CO_320:0000770
-
-[Term]
-id: CO_320:0000583
-name: rice % scale
-relationship: scale_of CO_320:0000771
-
-[Term]
-id: CO_320:0000584
-name: rice mature lemma and palea ornamentation scale UPOV scale
-relationship: scale_of CO_320:0000772
-
-[Term]
-id: CO_320:0000585
-name: rice lemma phenol reaction scale scale
-relationship: scale_of CO_320:0000773
-
-[Term]
-id: CO_320:0000586
-name: rice ligule color scale wild scale
-relationship: scale_of CO_320:0000774
-
-[Term]
-id: CO_320:0000587
-name: rice Code scale
-relationship: scale_of CO_320:0000775
-
-[Term]
-id: CO_320:0000588
-name: rice ligule margin shape scale scale
-relationship: scale_of CO_320:0000776
-
-[Term]
-id: CO_320:0000589
-name: rice ligule shape scale UPOV scale
-relationship: scale_of CO_320:0000777
-
-[Term]
-id: CO_320:0000590
-name: rice ligule shape scale wild scale
-relationship: scale_of CO_320:0000778
-
-[Term]
-id: CO_320:0000591
-name: rice Lodging incidence scale scale
-relationship: scale_of CO_320:0000779
-
-[Term]
-id: CO_320:0000592
-name: rice outcrossing scale scale
-relationship: scale_of CO_320:0000780
-
-[Term]
-id: CO_320:0000593
-name: rice Panicle axis texture scale scale
-relationship: scale_of CO_320:0000781
-
-[Term]
-id: CO_320:0000594
-name: rice Branches per panicle scale
-relationship: scale_of CO_320:0000782
-
-[Term]
-id: CO_320:0000595
-name: rice panicle blast damage scale scale
-relationship: scale_of CO_320:0000783
-
-[Term]
-id: CO_320:0000596
-name: rice % scale
-relationship: scale_of CO_320:0000784
-
-[Term]
-id: CO_320:0000597
-name: rice panicle blast incidence scale scale
-relationship: scale_of CO_320:0000785
-
-[Term]
-id: CO_320:0000598
-name: rice Panicle branch arrangement scale scale
-relationship: scale_of CO_320:0000786
-
-[Term]
-id: CO_320:0000599
-name: rice mm scale
-relationship: scale_of CO_320:0000787
-
-[Term]
-id: CO_320:0000600
-name: rice panicle exsertion male sterile scale scale
-relationship: scale_of CO_320:0000788
-
-[Term]
-id: CO_320:0000601
-name: rice Panicles per plant scale
-relationship: scale_of CO_320:0000789
-
-[Term]
-id: CO_320:0000602
-name: rice panicle shattering scale scale
-relationship: scale_of CO_320:0000790
-
-[Term]
-id: CO_320:0000603
-name: rice phosphorus deficiency tillering field scale scale
-relationship: scale_of CO_320:0000791
-
-[Term]
-id: CO_320:0000604
-name: rice cm scale
-relationship: scale_of CO_320:0000792
-
-[Term]
-id: CO_320:0000605
-name: rice male sterility scale scale
-relationship: scale_of CO_320:0000793
-
-[Term]
-id: CO_320:0000606
-name: rice % scale
-relationship: scale_of CO_320:0000794
-
-[Term]
-id: CO_320:0000607
-name: rice ragged stunt disease scale scale
-relationship: scale_of CO_320:0000795
-
-[Term]
-id: CO_320:0000608
-name: rice rat damage incidence scale scale
-relationship: scale_of CO_320:0000796
-
-[Term]
-id: CO_320:0000609
-name: rice rice delphacid injury scale greenhouse scale
-relationship: scale_of CO_320:0000797
-
-[Term]
-id: CO_320:0000610
-name: rice rice delphacid injury scale field scale
-relationship: scale_of CO_320:0000798
-
-[Term]
-id: CO_320:0000611
-name: rice salt injury scale scale
-relationship: scale_of CO_320:0000799
-
-[Term]
-id: CO_320:0000612
-name: rice sensed aroma cooked scale scale
-relationship: scale_of CO_320:0000800
-
-[Term]
-id: CO_320:0000613
-name: rice sensed aroma uncooked scale scale
-relationship: scale_of CO_320:0000801
-
-[Term]
-id: CO_320:0000614
-name: rice % scale
-relationship: scale_of CO_320:0000802
-
-[Term]
-id: CO_320:0000615
-name: rice ISO Date (yyyy-mm-dd) scale
-relationship: scale_of CO_320:0000803
-
-[Term]
-id: CO_320:0000616
-name: rice stem borer whitehead damage scale scale
-relationship: scale_of CO_320:0000804
-
-[Term]
-id: CO_320:0000617
-name: rice stem borer deepwater damage scale scale
-relationship: scale_of CO_320:0000805
-
-[Term]
-id: CO_320:0000618
-name: rice longer sterile lemma length scale scale
-relationship: scale_of CO_320:0000806
-
-[Term]
-id: CO_320:0000619
-name: rice submergence relative survival scale scale
-relationship: scale_of CO_320:0000807
-
-[Term]
-id: CO_320:0000620
-name: rice whitebacked planthopper injury scale field scale
-relationship: scale_of CO_320:0000808
-
-[Term]
-id: CO_320:0000621
-name: rice yellow dwarf disease scale scale
-relationship: scale_of CO_320:0000809
-
-[Term]
-id: CO_320:0000622
-name: rice ligule shape scale cult SES scale
-relationship: scale_of CO_320:0000260
-
-[Term]
-id: CO_320:0000623
-name: rice stem borer deadheart damage scale scale
-relationship: scale_of CO_320:0000573
-
-[Term]
-id: CO_320:0000624
-name: rice No of chromosomes scale
-relationship: scale_of CO_320:0000545
 
 [Term]
 id: CO_320:0000625
@@ -5632,461 +4769,6 @@ synonym: "ApAnth" EXACT []
 is_a: TO:0000071 ! anthocyanin content
 
 [Term]
-id: CO_320:0000897
-name: rice cm scale
-relationship: scale_of CO_320:0000235
-
-[Term]
-id: CO_320:0000898
-name: rice awn length scale wild scale
-relationship: scale_of CO_320:0000548
-
-[Term]
-id: CO_320:0000899
-name: rice panicle length UPOV scale scale
-relationship: scale_of CO_320:0000241
-
-[Term]
-id: CO_320:0000900
-name: rice leaf blade pubescence scale UPOV scale
-relationship: scale_of CO_320:0000252
-
-[Term]
-id: CO_320:0000901
-name: rice Code scale
-relationship: scale_of CO_320:0000256
-
-[Term]
-id: CO_320:0000902
-name: rice culm angle SES scale scale
-relationship: scale_of CO_320:0000276
-
-[Term]
-id: CO_320:0000903
-name: rice culm internode anthocyanin presence scale scale
-relationship: scale_of CO_320:0000278
-
-[Term]
-id: CO_320:0000904
-name: rice awn color scale immature SES scale
-relationship: scale_of CO_320:0000290
-
-[Term]
-id: CO_320:0000905
-name: rice awn color scale anthesis UPOV scale
-relationship: scale_of CO_320:0000290
-
-[Term]
-id: CO_320:0000906
-name: rice lemma and palea pubescence scale UPOV scale
-relationship: scale_of CO_320:0000296
-
-[Term]
-id: CO_320:0000907
-name: rice sterile lemma color scale wild scale
-relationship: scale_of CO_320:0000571
-
-[Term]
-id: CO_320:0000908
-name: rice % scale
-relationship: scale_of CO_320:0000329
-
-[Term]
-id: CO_320:0000909
-name: rice rice tungro disease scale scale
-relationship: scale_of CO_320:0000350
-
-[Term]
-id: CO_320:0000910
-name: rice % scale
-relationship: scale_of CO_320:0000572
-
-[Term]
-id: CO_320:0000911
-name: rice leaf angle scale scale
-relationship: scale_of CO_320:0000414
-
-[Term]
-id: CO_320:0000912
-name: rice panicle type scale UPOV scale
-relationship: scale_of CO_320:0000418
-
-[Term]
-id: CO_320:0000913
-name: rice panicle axis scale UPOV scale
-relationship: scale_of CO_320:0000422
-
-[Term]
-id: CO_320:0000914
-name: rice immature apiculus color IRRI scale scale
-relationship: scale_of CO_320:0000426
-
-[Term]
-id: CO_320:0000915
-name: rice pericarp colour IRRI scale scale
-relationship: scale_of CO_320:0000435
-
-[Term]
-id: CO_320:0000916
-name: rice maturity scale UPOV scale
-relationship: scale_of CO_320:0000445
-
-[Term]
-id: CO_320:0000917
-name: rice alkali injury scale scale
-relationship: scale_of CO_320:0000516
-
-[Term]
-id: CO_320:0000918
-name: rice anther colour scale scale
-relationship: scale_of CO_320:0000517
-
-[Term]
-id: CO_320:0000919
-name: rice anthocyanin below apiculus scale immature scale
-relationship: scale_of CO_320:0000518
-
-[Term]
-id: CO_320:0000920
-name: rice anthocyanin below apiculus scale mature scale
-relationship: scale_of CO_320:0000519
-
-[Term]
-id: CO_320:0000921
-name: rice immature apiculus anthocyanin scale scale
-relationship: scale_of CO_320:0000520
-
-[Term]
-id: CO_320:0000922
-name: rice mature apiculus anthocyanin scale scale
-relationship: scale_of CO_320:0000521
-
-[Term]
-id: CO_320:0000923
-name: rice apiculus color scale mature scale
-relationship: scale_of CO_320:0000522
-
-[Term]
-id: CO_320:0000924
-name: rice apiculus color SES scale scale
-relationship: scale_of CO_320:0000522
-
-[Term]
-id: CO_320:0000925
-name: rice apiculus shape scale scale
-relationship: scale_of CO_320:0000523
-
-[Term]
-id: CO_320:0000926
-name: rice auricle anthocyanin presence scale scale
-relationship: scale_of CO_320:0000524
-
-[Term]
-id: CO_320:0000927
-name: rice awn color scale mature UPOV scale
-relationship: scale_of CO_320:0000525
-
-[Term]
-id: CO_320:0000928
-name: rice awn color scale mature IRRI scale
-relationship: scale_of CO_320:0000525
-
-[Term]
-id: CO_320:0000929
-name: rice Awn distribution scale scale
-relationship: scale_of CO_320:0000526
-
-[Term]
-id: CO_320:0000930
-name: rice awn presence scale wild scale
-relationship: scale_of CO_320:0000528
-
-[Term]
-id: CO_320:0000931
-name: rice bacterial blight race 1 damage scale field scale
-relationship: scale_of CO_320:0000529
-
-[Term]
-id: CO_320:0000932
-name: rice bacterial blight race 2 damage scale field scale
-relationship: scale_of CO_320:0000530
-
-[Term]
-id: CO_320:0000933
-name: rice bacterial blight damage scale field scale
-relationship: scale_of CO_320:0000531
-
-[Term]
-id: CO_320:0000934
-name: rice bacterial leaf streak damage scale scale
-relationship: scale_of CO_320:0000532
-
-[Term]
-id: CO_320:0000935
-name: rice bakanae disease incidence scale scale
-relationship: scale_of CO_320:0000533
-
-[Term]
-id: CO_320:0000936
-name: rice basal leaf sheath anthocyanin presence scale scale
-relationship: scale_of CO_320:0000534
-
-[Term]
-id: CO_320:0000937
-name: rice basal leaf sheath anthocyanin scale scale
-relationship: scale_of CO_320:0000534
-
-[Term]
-id: CO_320:0000938
-name: rice bird damage incidence scale scale
-relationship: scale_of CO_320:0000535
-
-[Term]
-id: CO_320:0000939
-name: rice brown planthopper injury scale field scale
-relationship: scale_of CO_320:0000536
-
-[Term]
-id: CO_320:0000940
-name: rice brown planthopper biotype 1 injury scale scale
-relationship: scale_of CO_320:0000537
-
-[Term]
-id: CO_320:0000941
-name: rice brown planthopper biotype 2 injury scale scale
-relationship: scale_of CO_320:0000538
-
-[Term]
-id: CO_320:0000942
-name: rice brown planthopper biotype 3 injury scale scale
-relationship: scale_of CO_320:0000539
-
-[Term]
-id: CO_320:0000943
-name: rice % scale
-relationship: scale_of CO_320:0000540
-
-[Term]
-id: CO_320:0000944
-name: rice Caryopsis length SES scale scale
-relationship: scale_of CO_320:0000542
-
-[Term]
-id: CO_320:0000945
-name: rice mm scale
-relationship: scale_of CO_320:0000543
-
-[Term]
-id: CO_320:0000946
-name: rice Caryopsis width scale scale
-relationship: scale_of CO_320:0000543
-
-[Term]
-id: CO_320:0000947
-name: rice degrees scale
-relationship: scale_of CO_320:0000544
-
-[Term]
-id: CO_320:0000948
-name: rice glume opening scale scale
-relationship: scale_of CO_320:0000544
-
-[Term]
-id: CO_320:0000949
-name: rice mature lemma and palea color scale UPOV scale
-relationship: scale_of CO_320:0000545
-
-[Term]
-id: CO_320:0000950
-name: rice mature lemma and palea color scale IRRI scale
-relationship: scale_of CO_320:0000545
-
-[Term]
-id: CO_320:0000951
-name: rice mature lemma and palea color scale SES scale
-relationship: scale_of CO_320:0000545
-
-[Term]
-id: CO_320:0000952
-name: rice vegetative cold injury scale scale
-relationship: scale_of CO_320:0000547
-
-[Term]
-id: CO_320:0000953
-name: rice collar anthocyanin presence scale scale
-relationship: scale_of CO_320:0000549
-
-[Term]
-id: CO_320:0000954
-name: rice culm diameter scale UPOV scale
-relationship: scale_of CO_320:0000550
-
-[Term]
-id: CO_320:0000955
-name: rice culm diameter scale wild scale
-relationship: scale_of CO_320:0000551
-
-[Term]
-id: CO_320:0000956
-name: rice mm scale
-relationship: scale_of CO_320:0000551
-
-[Term]
-id: CO_320:0000957
-name: rice No scale name found scale
-relationship: scale_of CO_320:0000552
-
-[Term]
-id: CO_320:0000958
-name: rice culm internode underlying colour scale scale
-relationship: scale_of CO_320:0000553
-
-[Term]
-id: CO_320:0000959
-name: rice culm node anthocyanin presence scale scale
-relationship: scale_of CO_320:0000554
-
-[Term]
-id: CO_320:0000960
-name: rice culm node anthocyanin intensity scale scale
-relationship: scale_of CO_320:0000555
-
-[Term]
-id: CO_320:0000961
-name: rice culm node anthocyanin scale scale
-relationship: scale_of CO_320:0000556
-
-[Term]
-id: CO_320:0000962
-name: rice culm node underlying colour scale scale
-relationship: scale_of CO_320:0000557
-
-[Term]
-id: CO_320:0000963
-name: rice number of tillers scale
-relationship: scale_of CO_320:0000558
-
-[Term]
-id: CO_320:0000964
-name: rice Time of 50% heading scale scale
-relationship: scale_of CO_320:0000559
-
-[Term]
-id: CO_320:0000965
-name: rice drought scale leaf drying scale
-relationship: scale_of CO_320:0000560
-
-[Term]
-id: CO_320:0000966
-name: rice drought scale spikelet sterility scale
-relationship: scale_of CO_320:0000561
-
-[Term]
-id: CO_320:0000967
-name: rice Endosperm type scale scale
-relationship: scale_of CO_320:0000562
-
-[Term]
-id: CO_320:0000968
-name: rice flag leaf angle scale cult late scale
-relationship: scale_of CO_320:0000563
-
-[Term]
-id: CO_320:0000969
-name: rice ISO Date (yyyy-mm-dd) scale
-relationship: scale_of CO_320:0000564
-
-[Term]
-id: CO_320:0000970
-name: rice ISO Date (yyyy-mm-dd) scale
-relationship: scale_of CO_320:0000565
-
-[Term]
-id: CO_320:0000971
-name: rice gall midge injury scale greenhouse scale
-relationship: scale_of CO_320:0000566
-
-[Term]
-id: CO_320:0000972
-name: rice grain discoloration incidence scale scale
-relationship: scale_of CO_320:0000567
-
-[Term]
-id: CO_320:0000973
-name: rice cm/cm scale
-relationship: scale_of CO_320:0000568
-
-[Term]
-id: CO_320:0000974
-name: rice g scale
-relationship: scale_of CO_320:0000569
-
-[Term]
-id: CO_320:0000975
-name: rice g per plot scale
-relationship: scale_of CO_320:0000570
-
-[Term]
-id: CO_320:0000976
-name: rice Cervitec reading scale
-relationship: scale_of CO_320:0001555
-
-[Term]
-id: CO_320:0000977
-name: rice flowering cold injury scale scale
-relationship: scale_of CO_320:0000546
-
-[Term]
-id: CO_320:0000978
-name: rice coleoptile anthocyanin scale scale
-relationship: scale_of CO_320:0000548
-
-[Term]
-id: CO_320:0000979
-name: rice % scale
-relationship: scale_of CO_320:0000753
-
-[Term]
-id: CO_320:0000980
-name: rice leaffolder injury scale greenhouse scale
-relationship: scale_of CO_320:0000753
-
-[Term]
-id: CO_320:0000981
-name: rice % scale
-relationship: scale_of CO_320:0000754
-
-[Term]
-id: CO_320:0000982
-name: rice % scale
-relationship: scale_of CO_320:0000755
-
-[Term]
-id: CO_320:0000983
-name: rice grassy stunt 2 disease scale scale
-relationship: scale_of CO_320:0000756
-
-[Term]
-id: CO_320:0000984
-name: rice green leafhopper injury scale field scale
-relationship: scale_of CO_320:0000757
-
-[Term]
-id: CO_320:0000985
-name: rice hoja blanca reproductive disease scale scale
-relationship: scale_of CO_320:0000758
-
-[Term]
-id: CO_320:0000986
-name: rice Keel anthocyanin immature scale scale
-relationship: scale_of CO_320:0000760
-
-[Term]
-id: CO_320:0000987
-name: rice Keel anthocyanin mature scale scale
-relationship: scale_of CO_320:0000761
-
-[Term]
 id: CO_320:0000988
 name: rice HdR_Comp_Perc variable
 synonym: "HDR" EXACT []
@@ -6646,11 +5328,6 @@ relationship: variable_of CO_320:0000445
 relationship: variable_of CO_320:0000916
 relationship: variable_of CO_320:0000082
 created_by: Jeffrey Detras
-
-[Term]
-id: CO_320:0001045
-name: rice false smut incidence scale scale
-relationship: scale_of CO_320:0000362
 
 [Term]
 id: CO_320:0001046
@@ -8208,676 +6885,6 @@ def: "Take representative panicles, measure temperature near panicle surface wit
 relationship: method_of CO_320:0001055
 
 [Term]
-id: CO_320:0001288
-name: rice spikelet sterility scale scale
-relationship: scale_of CO_320:0000328
-
-[Term]
-id: CO_320:0001289
-name: rice square millimeter scale
-relationship: scale_of CO_320:0001157
-
-[Term]
-id: CO_320:0001290
-name: rice millimeter scale
-relationship: scale_of CO_320:0001158
-
-[Term]
-id: CO_320:0001291
-name: rice Aerenchyma scale
-relationship: scale_of CO_320:0001159
-
-[Term]
-id: CO_320:0001292
-name: rice square millimeter scale
-relationship: scale_of CO_320:0001160
-
-[Term]
-id: CO_320:0001293
-name: rice centimeter scale
-relationship: scale_of CO_320:0001161
-
-[Term]
-id: CO_320:0001294
-name: rice square millimeter scale
-relationship: scale_of CO_320:0001162
-
-[Term]
-id: CO_320:0001295
-name: rice mm/mm scale
-relationship: scale_of CO_320:0001163
-
-[Term]
-id: CO_320:0001296
-name: rice millimeter scale
-relationship: scale_of CO_320:0001164
-
-[Term]
-id: CO_320:0001297
-name: rice millimeter scale
-relationship: scale_of CO_320:0001165
-
-[Term]
-id: CO_320:0001298
-name: rice millimeter scale
-relationship: scale_of CO_320:0001166
-
-[Term]
-id: CO_320:0001299
-name: rice millimeter scale
-relationship: scale_of CO_320:0001167
-
-[Term]
-id: CO_320:0001300
-name: rice millimeter scale
-relationship: scale_of CO_320:0001168
-
-[Term]
-id: CO_320:0001301
-name: rice millimeter scale
-relationship: scale_of CO_320:0001169
-
-[Term]
-id: CO_320:0001302
-name: rice Partial porosity ratio scale
-relationship: scale_of CO_320:0001170
-
-[Term]
-id: CO_320:0001303
-name: rice Specific porosity ratio scale
-relationship: scale_of CO_320:0001171
-
-[Term]
-id: CO_320:0001304
-name: rice Total porosity ratio scale
-relationship: scale_of CO_320:0001172
-
-[Term]
-id: CO_320:0001305
-name: rice millimeter scale
-relationship: scale_of CO_320:0001173
-
-[Term]
-id: CO_320:0001306
-name: rice square millimeter scale
-relationship: scale_of CO_320:0001174
-
-[Term]
-id: CO_320:0001307
-name: rice day scale
-relationship: scale_of CO_320:0001175
-
-[Term]
-id: CO_320:0001308
-name: rice day scale
-relationship: scale_of CO_320:0001176
-
-[Term]
-id: CO_320:0001309
-name: rice day scale
-relationship: scale_of CO_320:0001177
-
-[Term]
-id: CO_320:0001310
-name: rice day scale
-relationship: scale_of CO_320:0001178
-
-[Term]
-id: CO_320:0001311
-name: rice grams per square meter scale
-relationship: scale_of CO_320:0001179
-
-[Term]
-id: CO_320:0001312
-name: rice Internodes scale
-relationship: scale_of CO_320:0001180
-
-[Term]
-id: CO_320:0001313
-name: rice square centimeter scale
-relationship: scale_of CO_320:0001181
-
-[Term]
-id: CO_320:0001314
-name: rice gram scale
-relationship: scale_of CO_320:0001182
-
-[Term]
-id: CO_320:0001315
-name: rice gram scale
-relationship: scale_of CO_320:0001183
-
-[Term]
-id: CO_320:0001316
-name: rice cm2 g-1 scale
-relationship: scale_of CO_320:0001184
-
-[Term]
-id: CO_320:0001317
-name: rice cm2 cm-2 scale
-relationship: scale_of CO_320:0001185
-
-[Term]
-id: CO_320:0001318
-name: rice cm2 g-1 scale
-relationship: scale_of CO_320:0001186
-
-[Term]
-id: CO_320:0001319
-name: rice square centimeter scale
-relationship: scale_of CO_320:0001187
-
-[Term]
-id: CO_320:0001320
-name: rice gram scale
-relationship: scale_of CO_320:0001188
-
-[Term]
-id: CO_320:0001321
-name: rice centimeter scale
-relationship: scale_of CO_320:0001189
-
-[Term]
-id: CO_320:0001322
-name: rice cm2 g-1 scale
-relationship: scale_of CO_320:0001190
-
-[Term]
-id: CO_320:0001323
-name: rice centimeter scale
-relationship: scale_of CO_320:0001191
-
-[Term]
-id: CO_320:0001324
-name: rice kilogram per hectare scale
-relationship: scale_of CO_320:0001192
-
-[Term]
-id: CO_320:0001325
-name: rice grams per square meter scale
-relationship: scale_of CO_320:0001193
-
-[Term]
-id: CO_320:0001326
-name: rice Green leaves per plant scale
-relationship: scale_of CO_320:0001194
-
-[Term]
-id: CO_320:0001327
-name: rice kg per kg scale
-relationship: scale_of CO_320:0001195
-
-[Term]
-id: CO_320:0001328
-name: rice g per 100 spikelets scale
-relationship: scale_of CO_320:0001196
-
-[Term]
-id: CO_320:0001329
-name: rice Leaves per plant scale
-relationship: scale_of CO_320:0001197
-
-[Term]
-id: CO_320:0001330
-name: rice millimolar trolox equivalent scale
-relationship: scale_of CO_320:0001198
-
-[Term]
-id: CO_320:0001331
-name: rice centimeter scale
-relationship: scale_of CO_320:0001199
-
-[Term]
-id: CO_320:0001332
-name: rice Panicles per hill scale
-relationship: scale_of CO_320:0001200
-
-[Term]
-id: CO_320:0001333
-name: rice Panicles per m2 scale
-relationship: scale_of CO_320:0001201
-
-[Term]
-id: CO_320:0001334
-name: rice centimeter scale
-relationship: scale_of CO_320:0001202
-
-[Term]
-id: CO_320:0001335
-name: rice square millimeter scale
-relationship: scale_of CO_320:0001203
-
-[Term]
-id: CO_320:0001336
-name: rice millimeter scale
-relationship: scale_of CO_320:0001204
-
-[Term]
-id: CO_320:0001337
-name: rice millimeter scale
-relationship: scale_of CO_320:0001205
-
-[Term]
-id: CO_320:0001338
-name: rice millimeter scale
-relationship: scale_of CO_320:0001206
-
-[Term]
-id: CO_320:0001339
-name: rice centimeter scale
-relationship: scale_of CO_320:0001207
-
-[Term]
-id: CO_320:0001340
-name: rice percent scale
-relationship: scale_of CO_320:0000328
-
-[Term]
-id: CO_320:0001341
-name: rice Spikelets per panicle scale
-relationship: scale_of CO_320:0001208
-
-[Term]
-id: CO_320:0001342
-name: rice count scale
-relationship: scale_of CO_320:0001209
-
-[Term]
-id: CO_320:0001343
-name: rice percent scale
-relationship: scale_of CO_320:0001210
-
-[Term]
-id: CO_320:0001344
-name: rice Spikelets per hill scale
-relationship: scale_of CO_320:0001211
-
-[Term]
-id: CO_320:0001345
-name: rice Spikelets per panicle scale
-relationship: scale_of CO_320:0001212
-
-[Term]
-id: CO_320:0001346
-name: rice count scale
-relationship: scale_of CO_320:0001213
-
-[Term]
-id: CO_320:0001347
-name: rice count scale
-relationship: scale_of CO_320:0001214
-
-[Term]
-id: CO_320:0001348
-name: rice percent scale
-relationship: scale_of CO_320:0001215
-
-[Term]
-id: CO_320:0001349
-name: rice millimeter scale
-relationship: scale_of CO_320:0001216
-
-[Term]
-id: CO_320:0001350
-name: rice millimeter scale
-relationship: scale_of CO_320:0001217
-
-[Term]
-id: CO_320:0001351
-name: rice millimeter scale
-relationship: scale_of CO_320:0001218
-
-[Term]
-id: CO_320:0001352
-name: rice grams per square meter scale
-relationship: scale_of CO_320:0001219
-
-[Term]
-id: CO_320:0001353
-name: rice g per 1000 spikelets scale
-relationship: scale_of CO_320:0001220
-
-[Term]
-id: CO_320:0001354
-name: rice Tillers per hill scale
-relationship: scale_of CO_320:0001221
-
-[Term]
-id: CO_320:0001355
-name: rice Tillers per m2 scale
-relationship: scale_of CO_320:0001222
-
-[Term]
-id: CO_320:0001356
-name: rice percent scale
-relationship: scale_of CO_320:0001223
-
-[Term]
-id: CO_320:0001357
-name: rice millibars scale
-relationship: scale_of CO_320:0001224
-
-[Term]
-id: CO_320:0001358
-name: rice millimeter scale
-relationship: scale_of CO_320:0001225
-
-[Term]
-id: CO_320:0001359
-name: rice centimeter scale
-relationship: scale_of CO_320:0001226
-
-[Term]
-id: CO_320:0001360
-name: rice square centimeter scale
-relationship: scale_of CO_320:0001227
-
-[Term]
-id: CO_320:0001361
-name: rice cubic centimeter scale
-relationship: scale_of CO_320:0001228
-
-[Term]
-id: CO_320:0001362
-name: rice parts per million scale
-relationship: scale_of CO_320:0001229
-
-[Term]
-id: CO_320:0001363
-name: rice micromol CO2 m-2 s-1 scale
-relationship: scale_of CO_320:0001230
-
-[Term]
-id: CO_320:0001364
-name: rice mmol H2O m-2 s-1 scale
-relationship: scale_of CO_320:0001231
-
-[Term]
-id: CO_320:0001365
-name: rice mol H2O m-2 s-1 scale
-relationship: scale_of CO_320:0001232
-
-[Term]
-id: CO_320:0001366
-name: rice square meter per second per mol of water scale
-relationship: scale_of CO_320:0001233
-
-[Term]
-id: CO_320:0001367
-name: rice degree Celsius scale
-relationship: scale_of CO_320:0001234
-
-[Term]
-id: CO_320:0001368
-name: rice drought grade 1-5 scale
-relationship: scale_of CO_320:0001235
-
-[Term]
-id: CO_320:0001369
-name: rice percent scale
-relationship: scale_of CO_320:0001236
-
-[Term]
-id: CO_320:0001370
-name: rice day scale
-relationship: scale_of CO_320:0001237
-
-[Term]
-id: CO_320:0001371
-name: rice grams per square meter scale
-relationship: scale_of CO_320:0001238
-
-[Term]
-id: CO_320:0001372
-name: rice grams per square meter scale
-relationship: scale_of CO_320:0001239
-
-[Term]
-id: CO_320:0001373
-name: rice millimeter scale
-relationship: scale_of CO_320:0001240
-
-[Term]
-id: CO_320:0001374
-name: rice millimeter scale
-relationship: scale_of CO_320:0001241
-
-[Term]
-id: CO_320:0001375
-name: rice millimeter scale
-relationship: scale_of CO_320:0001242
-
-[Term]
-id: CO_320:0001376
-name: rice length to width ratio scale
-relationship: scale_of CO_320:0001243
-
-[Term]
-id: CO_320:0001377
-name: rice percent scale
-relationship: scale_of CO_320:0001244
-
-[Term]
-id: CO_320:0001378
-name: rice percent scale
-relationship: scale_of CO_320:0001245
-
-[Term]
-id: CO_320:0001379
-name: rice percent scale
-relationship: scale_of CO_320:0001246
-
-[Term]
-id: CO_320:0001380
-name: rice percent scale
-relationship: scale_of CO_320:0001247
-
-[Term]
-id: CO_320:0001381
-name: rice percent scale
-relationship: scale_of CO_320:0001248
-
-[Term]
-id: CO_320:0001382
-name: rice day scale
-relationship: scale_of CO_320:0001249
-
-[Term]
-id: CO_320:0001383
-name: rice day scale
-relationship: scale_of CO_320:0001250
-
-[Term]
-id: CO_320:0001384
-name: rice Tillers per plant scale
-relationship: scale_of CO_320:0000314
-
-[Term]
-id: CO_320:0001385
-name: rice Panicles per plant scale
-relationship: scale_of CO_320:0001251
-
-[Term]
-id: CO_320:0001386
-name: rice gram scale
-relationship: scale_of CO_320:0001252
-
-[Term]
-id: CO_320:0001387
-name: rice gram scale
-relationship: scale_of CO_320:0001253
-
-[Term]
-id: CO_320:0001388
-name: rice gram scale
-relationship: scale_of CO_320:0001254
-
-[Term]
-id: CO_320:0001389
-name: rice gram per plant scale
-relationship: scale_of CO_320:0001255
-
-[Term]
-id: CO_320:0001390
-name: rice Spikelets per panicle scale
-relationship: scale_of CO_320:0001256
-
-[Term]
-id: CO_320:0001391
-name: rice Spikelets per panicle scale
-relationship: scale_of CO_320:0001257
-
-[Term]
-id: CO_320:0001392
-name: rice day scale
-relationship: scale_of CO_320:0001258
-
-[Term]
-id: CO_320:0001393
-name: rice millimeter scale
-relationship: scale_of CO_320:0001259
-
-[Term]
-id: CO_320:0001394
-name: rice Porosity ratio scale
-relationship: scale_of CO_320:0001260
-
-[Term]
-id: CO_320:0001395
-name: rice g per 1000 spikelets scale
-relationship: scale_of CO_320:0001261
-
-[Term]
-id: CO_320:0001396
-name: rice g per 1000 spikelets scale
-relationship: scale_of CO_320:0001262
-
-[Term]
-id: CO_320:0001397
-name: rice percent scale
-relationship: scale_of CO_320:0001263
-
-[Term]
-id: CO_320:0001398
-name: rice percent scale
-relationship: scale_of CO_320:0001264
-
-[Term]
-id: CO_320:0001399
-name: rice Spikelets per panicle scale
-relationship: scale_of CO_320:0001265
-
-[Term]
-id: CO_320:0001400
-name: rice Spikelets per panicle scale
-relationship: scale_of CO_320:0001266
-
-[Term]
-id: CO_320:0001401
-name: rice mg g-1 dry matter scale
-relationship: scale_of CO_320:0001267
-
-[Term]
-id: CO_320:0001402
-name: rice mg g-1 dry matter scale
-relationship: scale_of CO_320:0001268
-
-[Term]
-id: CO_320:0001403
-name: rice mg g-1 dry matter scale
-relationship: scale_of CO_320:0001269
-
-[Term]
-id: CO_320:0001404
-name: rice mg g-1 dry matter scale
-relationship: scale_of CO_320:0001270
-
-[Term]
-id: CO_320:0001405
-name: rice mg g-1 dry matter scale
-relationship: scale_of CO_320:0001271
-
-[Term]
-id: CO_320:0001406
-name: rice mg g-1 dry matter scale
-relationship: scale_of CO_320:0001272
-
-[Term]
-id: CO_320:0001407
-name: rice mg g-1 dry matter scale
-relationship: scale_of CO_320:0001273
-
-[Term]
-id: CO_320:0001408
-name: rice mg g-1 dry matter scale
-relationship: scale_of CO_320:0001274
-
-[Term]
-id: CO_320:0001409
-name: rice mg g-1 dry matter scale
-relationship: scale_of CO_320:0001275
-
-[Term]
-id: CO_320:0001410
-name: rice mg g-1 dry matter scale
-relationship: scale_of CO_320:0001276
-
-[Term]
-id: CO_320:0001411
-name: rice Spikelets per panicle scale
-relationship: scale_of CO_320:0001277
-
-[Term]
-id: CO_320:0001412
-name: rice SPAD unit scale
-relationship: scale_of CO_320:0001278
-
-[Term]
-id: CO_320:0001413
-name: rice gram scale
-relationship: scale_of CO_320:0001279
-
-[Term]
-id: CO_320:0001414
-name: rice gram scale
-relationship: scale_of CO_320:0001280
-
-[Term]
-id: CO_320:0001415
-name: rice grams per square meter scale
-relationship: scale_of CO_320:0001281
-
-[Term]
-id: CO_320:0001416
-name: rice Tillers per plant scale
-relationship: scale_of CO_320:0001282
-
-[Term]
-id: CO_320:0001417
-name: rice degree Celsius scale
-relationship: scale_of CO_320:0001283
-
-[Term]
-id: CO_320:0001418
-name: rice gram per plant scale
-relationship: scale_of CO_320:0001284
-
-[Term]
-id: CO_320:0001419
-name: rice grams per day scale
-relationship: scale_of CO_320:0001285
-
-[Term]
-id: CO_320:0001420
-name: rice gram per plant scale
-relationship: scale_of CO_320:0001286
-
-[Term]
-id: CO_320:0001421
-name: rice degree Celsius scale
-relationship: scale_of CO_320:0001287
-
-[Term]
 id: CO_320:0001422
 name: rice AerA_IA_mm2 variable
 is_a: CO_320:0001049
@@ -10097,11 +8104,6 @@ relationship: variable_of CO_320:0000908
 created_by: Cécile Grenier
 
 [Term]
-id: CO_320:0001557
-name: rice chalkiness 0-5 scale scale
-relationship: scale_of CO_320:0000428
-
-[Term]
 id: CO_320:0001558
 name: rice Clk_Vis_0to5 variable
 is_a: CO_320:0000104
@@ -10120,11 +8122,6 @@ id: CO_320:0001560
 name: rice zinc content - xrf fluorescence analyser method
 def: "Use standard laboratory procedure (XRF- Fluorescence Analyzer) to determine the zinc content in a sample of polished grain. The recommended sample size is 10g." []
 relationship: method_of CO_320:0001559
-
-[Term]
-id: CO_320:0001561
-name: rice ppm scale
-relationship: scale_of CO_320:0001560
 
 [Term]
 id: CO_320:0001562
