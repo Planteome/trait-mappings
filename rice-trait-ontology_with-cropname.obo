@@ -858,7 +858,7 @@ is_a: TO:0000088 ! rice yellow mottle virus resistance
 [Term]
 id: CO_320:0000193
 name: rice hoja blanca disease trait
-def: "The type and severity of hoja blanca disease symptoms caused by rice hoja blanca virus (RHBV) causing hoja blanca. Symptoms: cream colored to yellow spots, elongating and coalescing fo form longitudinal yellowish green to pale green striations. Streaks may coalesce to cover the whole leaf. Brown and sterile glumes with typical "parrot beak" shape of deformation." [CO:curators]
+def: "The type and severity of hoja blanca disease symptoms caused by rice hoja blanca virus (RHBV) causing hoja blanca. Symptoms: cream colored to yellow spots, elongating and coalescing fo form longitudinal yellowish green to pale green striations. Streaks may coalesce to cover the whole leaf. Brown and sterile glumes with typical 'parrot beak' shape of deformation." [CO:curators]
 synonym: "HojaBlancaSev" EXACT []
 property_value: exactMatch TO:0000147
 is_a: TO:0000147 ! rice hoja blanca disease resistance
