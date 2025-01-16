@@ -143,7 +143,7 @@ is_a: TO:0000250 ! plant vigor trait
 [Term]
 id: CO_343:0000069
 name: yam proportion of established plants trait
-def: "Proportion of plants in a plot well established (plantsgrowing with good vigour and without severe constraints)" [CO:curators]
+def: "Proportion of plants in a plot well established (plants growing with good vigour and without severe constraints)" [CO:curators]
 synonym: "Plant establishement ratio" EXACT []
 synonym: "STRATE" EXACT []
 is_a: TO:0000250 ! plant vigor trait
@@ -159,7 +159,7 @@ is_a: TO:0000953 ! stem number
 id: CO_343:0000075
 name: yam anthracnose disease incidence trait
 def: "Anthracnose incidence caused by the pathogen Colletotricum gloeosporioides." [CO:curators, NCBITaxon:474922]
-comment: % of anthracnose ‘blight’ or ''leaf spot''affected plants in a plot
+comment: % of anthracnose ‘blight’ or ‘leaf spot’ affected plants in a plot.
 synonym: "YADI" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
@@ -387,29 +387,11 @@ synonym: "TastePndedYam" EXACT []
 is_a: TO:0001068 ! processing quality trait
 
 [Term]
-id: CO_343:0000197
-name: yam weight of planted tubers computation/ gm variable
-synonym: "SETW" EXACT []
-is_a: CO_343:0000057 ! yam weight of planted tubers trait
-relationship: variable_of CO_343:0000057 ! yam weight of planted tubers trait
-relationship: variable_of CO_343:0010001 ! yam setts or seed yams planted weight - computation method
-relationship: variable_of CO_343:0100001 ! yam gm/sett scale
-
-[Term]
 id: CO_343:0000198
 name: yam first sprout emergence time trait
 def: "Time to the  first sprout (plant) emerge in a plot" [CO:curators]
 synonym: "TIMFSE" EXACT []
 is_a: TO:0000933 ! plant phenological trait
-
-[Term]
-id: CO_343:0000199
-name: yam first sprout emergence time estimation in yy/mm/dd variable
-synonym: "Emerdt" EXACT []
-is_a: CO_343:0000198 ! yam first sprout emergence time trait
-relationship: variable_of CO_343:0000198 ! yam first sprout emergence time trait
-relationship: variable_of CO_343:0010002 ! yam time first sprout emergence-estimation method
-relationship: variable_of CO_343:0100002 ! yam date (yyyymmdd) scale
 
 [Term]
 id: CO_343:0000200
@@ -419,55 +401,11 @@ synonym: "TIMSE" EXACT []
 is_a: TO:0000933 ! plant phenological trait
 
 [Term]
-id: CO_343:0000201
-name: yam 50% sprout emergence time estimation in yy/mm/dd variable
-synonym: "DtFemer" EXACT []
-is_a: CO_343:0000200 ! yam 50% sprout emergence time trait
-relationship: variable_of CO_343:0000200 ! yam 50% sprout emergence time trait
-relationship: variable_of CO_343:0010003 ! yam time 50% of sprout emergence-estimation method
-relationship: variable_of CO_343:0100002 ! yam date (yyyymmdd) scale
-
-[Term]
-id: CO_343:0000202
-name: yam first sprout emergence time computation in days variable
-synonym: "Emerday" EXACT []
-is_a: CO_343:0000198 ! yam first sprout emergence time trait
-relationship: variable_of CO_343:0000198 ! yam first sprout emergence time trait
-relationship: variable_of CO_343:0010004 ! yam times to first sprout emergence-computation method
-relationship: variable_of CO_343:0100003 ! yam days scale
-
-[Term]
-id: CO_343:0000203
-name: yam 50% sprout emergence time computation in days variable
-synonym: "DyFemer" EXACT []
-is_a: CO_343:0000200 ! yam 50% sprout emergence time trait
-relationship: variable_of CO_343:0000200 ! yam 50% sprout emergence time trait
-relationship: variable_of CO_343:0010005 ! yam times to 50% spout emergence-computation method
-relationship: variable_of CO_343:0100003 ! yam days scale
-
-[Term]
 id: CO_343:0000204
 name: yam number of emerged plants trait
 def: "Number of an emerged plants (sprouts) in a plot" [CO:curators]
 synonym: "NEP" EXACT []
 is_a: TO:0000250 ! plant vigor trait
-
-[Term]
-id: CO_343:0000205
-name: yam emerged plants counting/plot variable
-is_a: CO_343:0000204 ! yam number of emerged plants trait
-relationship: variable_of CO_343:0000204 ! yam number of emerged plants trait
-relationship: variable_of CO_343:0010006 ! yam emerged sprouts -counting method
-relationship: variable_of CO_343:0100004 ! yam plants per plot scale
-
-[Term]
-id: CO_343:0000206
-name: yam proportion of emerged plants (sprouts) computation/% variable
-synonym: "Ratiosp" EXACT []
-is_a: CO_343:0000066 ! yam proportion of emerged plants trait
-relationship: variable_of CO_343:0000066 ! yam proportion of emerged plants trait
-relationship: variable_of CO_343:0010007 ! yam emerged sprouts or plants proportion-computation method
-relationship: variable_of CO_343:0100005 ! yam percentage scale
 
 [Term]
 id: CO_343:0000207
@@ -477,56 +415,11 @@ synonym: "NESP" EXACT []
 is_a: TO:0000250 ! plant vigor trait
 
 [Term]
-id: CO_343:0000208
-name: yam established plants counting/plot variable
-synonym: "Estbp-N" EXACT []
-is_a: CO_343:0000207 ! yam established plants trait
-relationship: variable_of CO_343:0000207 ! yam established plants trait
-relationship: variable_of CO_343:0010008 ! yam number of well established plants -counting method
-relationship: variable_of CO_343:0100004 ! yam plants per plot scale
-
-[Term]
-id: CO_343:0000209
-name: yam field establishment rate compuation in % variable
-synonym: "Estbp-ratio" EXACT []
-is_a: CO_343:0000069 ! yam proportion of established plants trait
-relationship: variable_of CO_343:0000069 ! yam proportion of established plants trait
-relationship: variable_of CO_343:0010009 ! yam field establishment-computation method
-relationship: variable_of CO_343:0100006 ! yam % scale
-
-[Term]
-id: CO_343:0000210
-name: yam secondary sprouting estimation nominal 0&1 variable
-synonym: "SECSP" EXACT []
-is_a: CO_343:0000087 ! yam secondary sprouting trait
-relationship: variable_of CO_343:0000087 ! yam secondary sprouting trait
-relationship: variable_of CO_343:0010010 ! yam secondary sprouting - estimation method
-relationship: variable_of CO_343:0100007 ! yam 0-1 scale
-
-[Term]
-id: CO_343:0000211
-name: yam sprout color estimation 1-5 variable
-synonym: "SPCOLO" EXACT []
-is_a: CO_343:0000063 ! yam sprout color trait
-relationship: variable_of CO_343:0000063 ! yam sprout color trait
-relationship: variable_of CO_343:0010011 ! yam sprout color - estimation method
-relationship: variable_of CO_343:0100008 ! yam 1-5 scale
-
-[Term]
 id: CO_343:0000212
 name: yam sprout length trait
 def: "Length of sprouted shoots (vines)" [CO:curators]
 synonym: "Spleng" EXACT []
 is_a: TO:0000739 ! shoot axis morphology trait
-
-[Term]
-id: CO_343:0000213
-name: yam sprout length measurement in cm variable
-synonym: "SPRTL" EXACT []
-is_a: CO_343:0000212 ! yam sprout length trait
-relationship: variable_of CO_343:0000212 ! yam sprout length trait
-relationship: variable_of CO_343:0010012 ! yam sprout length-computation method
-relationship: variable_of CO_343:0100009 ! yam cm scale
 
 [Term]
 id: CO_343:0000214
@@ -536,27 +429,11 @@ synonym: "SPBCOL" EXACT []
 is_a: TO:0000876 ! spine leaf morphology trait
 
 [Term]
-id: CO_343:0000215
-name: yam spine base color estimation nominal 0&1 variable
-is_a: CO_343:0000214 ! yam presence of spot on spine base trait
-relationship: variable_of CO_343:0000214 ! yam presence of spot on spine base trait
-relationship: variable_of CO_343:0010013 ! yam colored spots on spine base-estimation method
-relationship: variable_of CO_343:0100007 ! yam 0-1 scale
-
-[Term]
 id: CO_343:0000216
 name: yam spines on sprout presence trait
 def: "Presence of spines on sprout (vines)" [CO:curators]
 synonym: "SPNSP" EXACT []
 is_a: TO:0000739 ! shoot axis morphology trait
-
-[Term]
-id: CO_343:0000217
-name: yam spines on sprout presence estimation nominal 0&1 variable
-is_a: CO_343:0000216 ! yam spines on sprout presence trait
-relationship: variable_of CO_343:0000216 ! yam spines on sprout presence trait
-relationship: variable_of CO_343:0010014 ! yam spines on sprout base-estimation method
-relationship: variable_of CO_343:0100007 ! yam 0-1 scale
 
 [Term]
 id: CO_343:0000218
@@ -566,35 +443,11 @@ synonym: "HAIRSP" EXACT []
 is_a: TO:0000739 ! shoot axis morphology trait
 
 [Term]
-id: CO_343:0000219
-name: yam sprout hairiness estimation nominal 0&2 variable
-is_a: CO_343:0000218 ! yam sprout hairiness trait
-relationship: variable_of CO_343:0000218 ! yam sprout hairiness trait
-relationship: variable_of CO_343:0010015 ! yam hairiness of sprout - estimation method
-relationship: variable_of CO_343:0100010 ! yam 0-2 scale
-
-[Term]
 id: CO_343:0000220
 name: yam time to first leaf emergence trait
 def: "Time to the first leaf emergence on a plant or sprouted shoot (vine) in a plot" [CO:curators]
 synonym: "TIMLE" EXACT []
 is_a: TO:0000933 ! plant phenological trait
-
-[Term]
-id: CO_343:0000221
-name: yam first leaf emergence time estimation in yy/mm/dd variable
-is_a: CO_343:0000220 ! yam time to first leaf emergence trait
-relationship: variable_of CO_343:0000220 ! yam time to first leaf emergence trait
-relationship: variable_of CO_343:0010016 ! yam time of  first leaf emergence on sprouted shoot (vines)-estimation method
-relationship: variable_of CO_343:0100002 ! yam date (yyyymmdd) scale
-
-[Term]
-id: CO_343:0000222
-name: yam time to first leaf emergence computation variable
-is_a: CO_343:0000220 ! yam time to first leaf emergence trait
-relationship: variable_of CO_343:0000220 ! yam time to first leaf emergence trait
-relationship: variable_of CO_343:0010017 ! yam times to the first leaf emergence on sprouted shoot (vines)-computation method
-relationship: variable_of CO_343:0100003 ! yam days scale
 
 [Term]
 id: CO_343:0000223
@@ -604,36 +457,11 @@ synonym: "Lfapx" EXACT []
 is_a: TO:0000754 ! cardinal organ part morphology trait
 
 [Term]
-id: CO_343:0000224
-name: yam leaf apex shape estimation 1-3 variable
-is_a: CO_343:0000223 ! yam leaf apex shape trait
-relationship: variable_of CO_343:0000223 ! yam leaf apex shape trait
-relationship: variable_of CO_343:0010018 ! yam leaf apex shape-estimation method
-relationship: variable_of CO_343:0100011 ! yam 1-3 general scale
-
-[Term]
 id: CO_343:0000225
 name: yam leaf shape trait
 def: "Leaf shape of plants" [CO:curators]
 synonym: "Lfshp" EXACT []
 is_a: TO:0000492 ! leaf shape
-
-[Term]
-id: CO_343:0000226
-name: yam leaf shape estimation 1-7 variable
-is_a: CO_343:0000225 ! yam leaf shape trait
-relationship: variable_of CO_343:0000225 ! yam leaf shape trait
-relationship: variable_of CO_343:0010019 ! yam leaf shape-estimation method
-relationship: variable_of CO_343:0100012 ! yam 1-7 general scale
-
-[Term]
-id: CO_343:0000227
-name: yam stems per plant computation per plant variable
-synonym: "stnp" EXACT []
-is_a: CO_343:0000072 ! yam stems per plant trait
-relationship: variable_of CO_343:0000072 ! yam stems per plant trait
-relationship: variable_of CO_343:0010020 ! yam number of stems per plant-computation method
-relationship: variable_of CO_343:0100013 ! yam number of stem scale
 
 [Term]
 id: CO_343:0000228
@@ -643,29 +471,11 @@ synonym: "STMDM" EXACT []
 is_a: TO:0020083 ! stem diameter
 
 [Term]
-id: CO_343:0000229
-name: yam stem diameter computation in mm variable
-synonym: "stemdim" EXACT []
-is_a: CO_343:0000228 ! yam stem diameter trait
-relationship: variable_of CO_343:0000228 ! yam stem diameter trait
-relationship: variable_of CO_343:0010021 ! yam stem diameter-computation method
-relationship: variable_of CO_343:0100014 ! yam mm scale
-
-[Term]
 id: CO_343:0000230
 name: yam internode length trait
 def: "Stem internode length of a mature plant (5 to 6 month old plant)" [CO:curators]
 synonym: "Inodlgth" EXACT []
 is_a: TO:0000145 ! internode length
-
-[Term]
-id: CO_343:0000231
-name: yam internode length computation in cm variable
-synonym: "INODL" EXACT []
-is_a: CO_343:0000230 ! yam internode length trait
-relationship: variable_of CO_343:0000230 ! yam internode length trait
-relationship: variable_of CO_343:0010022 ! yam internode length -computation method
-relationship: variable_of CO_343:0100009 ! yam cm scale
 
 [Term]
 id: CO_343:0000232
@@ -675,27 +485,11 @@ synonym: "NINFB" EXACT []
 is_a: TO:0000756 ! stem internode morphology trait
 
 [Term]
-id: CO_343:0000233
-name: yam number of internodes to first branching computation/plot variable
-is_a: CO_343:0000232 ! yam number of internodes to first branching trait
-relationship: variable_of CO_343:0000232 ! yam number of internodes to first branching trait
-relationship: variable_of CO_343:0010023 ! yam number of internode-computation method
-relationship: variable_of CO_343:0100015 ! yam number of internode scale
-
-[Term]
 id: CO_343:0000234
 name: yam spines on stem density trait
 def: "Intensity of spines on stem (vine) above base of mature plant (5 to 6 month old plant)" [CO:curators]
 synonym: "SPNAB" EXACT []
 is_a: TO:0000739  ! shoot axis morphology trait
-
-[Term]
-id: CO_343:0000235
-name: yam spines on stem estimation 0-2 variable
-is_a: CO_343:0000234 ! yam spines on stem density trait
-relationship: variable_of CO_343:0000234 ! yam spines on stem density trait
-relationship: variable_of CO_343:0010024 ! yam density of spines on stem base of a plant-etimation method
-relationship: variable_of CO_343:0100010 ! yam 0-2 scale
 
 [Term]
 id: CO_343:0000236
@@ -706,48 +500,12 @@ synonym: "Plntype" EXACT []
 is_a: TO:0000947 ! whole plant growth and development trait
 
 [Term]
-id: CO_343:0000237
-name: yam plant type estimation 1-3 variable
-synonym: "GH" EXACT []
-is_a: CO_343:0000236 ! yam plant type trait
-relationship: variable_of CO_343:0000236 ! yam plant type trait
-relationship: variable_of CO_343:0010025 ! yam plant type-estimation method
-relationship: variable_of CO_343:0100011 ! yam 1-3 general scale
-
-[Term]
-id: CO_343:0000238
-name: yam canopy architecture estimation 1-4 variable
-synonym: "Canopy" EXACT []
-is_a: CO_343:0000030 ! yam canopy architecture trait
-relationship: variable_of CO_343:0000030 ! yam canopy architecture trait
-relationship: variable_of CO_343:0010026 ! yam canopy architecture - estimation method
-relationship: variable_of CO_343:0100016 ! yam 1-4 general scale
-
-[Term]
-id: CO_343:0000239
-name: yam plant vigor estimation 1-3 variable
-synonym: "PLNV" EXACT []
-is_a: CO_343:0000060 ! yam plant vigor trait
-relationship: variable_of CO_343:0000060 ! yam plant vigor trait
-relationship: variable_of CO_343:0010027 ! yam plant vigor - estimation method
-relationship: variable_of CO_343:0100011 ! yam 1-3 general scale
-
-[Term]
 id: CO_343:0000240
 name: yam twining habit trait
 def: "Tendency of climbing or trailling" [CO:curators]
 synonym: "trailling, climbing habit" EXACT []
 synonym: "TWNH" EXACT []
 is_a: TO:0000947 ! whole plant growth and development trait
-
-[Term]
-id: CO_343:0000241
-name: yam twining habit estimation 0-1 variable
-synonym: "TWNH" EXACT []
-is_a: CO_343:0000240 ! yam twining habit trait
-relationship: variable_of CO_343:0000240 ! yam twining habit trait
-relationship: variable_of CO_343:0010028 ! yam twining habit-estimation method
-relationship: variable_of CO_343:0100017 ! yam 0-1 nominal scale
 
 [Term]
 id: CO_343:0000242
@@ -758,37 +516,11 @@ synonym: "vine climbing direction" EXACT []
 is_a: TO:0000947 ! whole plant growth and development trait
 
 [Term]
-id: CO_343:0000243
-name: yam twining direction estimation 1-2 variable
-is_a: CO_343:0000242 ! yam twining direction trait
-relationship: variable_of CO_343:0000242 ! yam twining direction trait
-relationship: variable_of CO_343:0010029 ! yam twining direction-estimation method
-relationship: variable_of CO_343:0100018 ! yam 1-2 nominal scale
-
-[Term]
-id: CO_343:0000244
-name: yam flower initiation time estimation in yy/mm/dd variable
-synonym: "DtFlrin" EXACT []
-is_a: CO_343:0000090 ! yam time to flower initiation trait
-relationship: variable_of CO_343:0000090 ! yam time to flower initiation trait
-relationship: variable_of CO_343:0010030 ! yam flower initaition time - estimation method
-relationship: variable_of CO_343:0100002 ! yam date (yyyymmdd) scale
-
-[Term]
 id: CO_343:0000245
 name: yam time to 50% flowering trait
 def: "Time when 50% of the plants flower in a plot" [CO:curators]
 synonym: "TIMFL" EXACT []
 is_a: TO:0002616 ! flowering time trait
-
-[Term]
-id: CO_343:0000246
-name: yam flowering time estimation in yy/mm/dd variable
-synonym: "DtFFlr" EXACT []
-is_a: CO_343:0000245 ! yam time to 50% flowering trait
-relationship: variable_of CO_343:0000245 ! yam time to 50% flowering trait
-relationship: variable_of CO_343:0010031 ! yam 50% flowering time - estimation method
-relationship: variable_of CO_343:0100002 ! yam date (yyyymmdd) scale
 
 [Term]
 id: CO_343:0000247
@@ -798,68 +530,6 @@ synonym: "TIMEF" EXACT []
 is_a: TO:0002616 ! flowering time trait
 
 [Term]
-id: CO_343:0000248
-name: yam end of flowering time estimation in yy/mm/dd variable
-synonym: "DtendFlr" EXACT []
-is_a: CO_343:0000247 ! yam time to end of flowering trait
-relationship: variable_of CO_343:0000247 ! yam time to end of flowering trait
-relationship: variable_of CO_343:0010032 ! yam end of flowering time - estimation method
-relationship: variable_of CO_343:0100002 ! yam date (yyyymmdd) scale
-
-[Term]
-id: CO_343:0000249
-name: yam fower initiation time computation in days variable
-synonym: "Dayflrin" EXACT []
-is_a: CO_343:0000090 ! yam time to flower initiation trait
-relationship: variable_of CO_343:0000090 ! yam time to flower initiation trait
-relationship: variable_of CO_343:0010033 ! yam flower initaition time - computation method
-relationship: variable_of CO_343:0100003 ! yam days scale
-
-[Term]
-id: CO_343:0000250
-name: yam flowering time computation in days variable
-synonym: "DF" EXACT []
-is_a: CO_343:0000245 ! yam time to 50% flowering trait
-relationship: variable_of CO_343:0000245 ! yam time to 50% flowering trait
-relationship: variable_of CO_343:0010034 ! yam 50% flowering time - computation method
-relationship: variable_of CO_343:0100003 ! yam days scale
-
-[Term]
-id: CO_343:0000251
-name: yam end of flowering time computation in days variable
-synonym: "Dayendflr" EXACT []
-is_a: CO_343:0000247 ! yam time to end of flowering trait
-relationship: variable_of CO_343:0000247 ! yam time to end of flowering trait
-relationship: variable_of CO_343:0010035 ! yam end of flowering time - computation method
-relationship: variable_of CO_343:0100003 ! yam days scale
-
-[Term]
-id: CO_343:0000254
-name: yam pollinated florets counting variable
-is_a: CO_343:0000000 ! yam pollinated florets number trait
-relationship: variable_of CO_343:0000000 ! yam pollinated florets number trait
-relationship: variable_of CO_343:0010037 ! yam floret pollinated number - counting method
-relationship: variable_of CO_343:0100019 ! yam number of florets scale
-
-[Term]
-id: CO_343:0000255
-name: yam pollinated spikes counting variable
-synonym: "NPOLS" EXACT []
-is_a: CO_343:0000003 ! yam pollinated spikes number trait
-relationship: variable_of CO_343:0000003 ! yam pollinated spikes number trait
-relationship: variable_of CO_343:0010038 ! yam pollinated spike number - estimation method
-relationship: variable_of CO_343:0100020 ! yam number of spikes scale
-
-[Term]
-id: CO_343:0000256
-name: yam flowering intensity estimation 0-9 variable
-synonym: "FLRI" EXACT []
-is_a: CO_343:0000096 ! yam flowering intensity trait
-relationship: variable_of CO_343:0000096 ! yam flowering intensity trait
-relationship: variable_of CO_343:0010039 ! yam flowering intensity - estimation method
-relationship: variable_of CO_343:0100021 ! yam 0-9 scale
-
-[Term]
 id: CO_343:0000257
 name: yam inflorescence initiation time trait
 def: "Time of first inflorescence initiation" [CO:curators]
@@ -867,35 +537,11 @@ synonym: "Datinflor" EXACT []
 is_a: TO:0002616 ! flowering time trait
 
 [Term]
-id: CO_343:0000258
-name: yam first inflorescence initiation time estimation in yy/mm/dd variable
-is_a: CO_343:0000257 ! yam inflorescence initiation time trait
-relationship: variable_of CO_343:0000257 ! yam inflorescence initiation time trait
-relationship: variable_of CO_343:0010040 ! yam first inflorescence time - estimation method
-relationship: variable_of CO_343:0100002 ! yam date (yyyymmdd) scale
-
-[Term]
-id: CO_343:0000259
-name: yam first inflorescence initiation time computation variable
-is_a: CO_343:0000257 ! yam inflorescence initiation time trait
-relationship: variable_of CO_343:0000257 ! yam inflorescence initiation time trait
-relationship: variable_of CO_343:0010041 ! yam first inflorescence time - compuation method
-relationship: variable_of CO_343:0100003 ! yam days scale
-
-[Term]
 id: CO_343:0000260
 name: yam inflorescence type trait
 def: "The arrangement of flowers on stem or twig of a plant" [CO:curators]
 synonym: "Inft" EXACT []
 is_a: TO:0000267 ! inflorescence type
-
-[Term]
-id: CO_343:0000261
-name: yam inflorescence type estimation variable
-is_a: CO_343:0000260 ! yam inflorescence type trait
-relationship: variable_of CO_343:0000260 ! yam inflorescence type trait
-relationship: variable_of CO_343:0010042 ! yam inflorescence type-estimation method
-relationship: variable_of CO_343:0100022 ! yam 1-3 scale
 
 [Term]
 id: CO_343:0000262
@@ -906,39 +552,12 @@ synonym: "fflrint" EXACT []
 is_a: TO:0000987 ! pistillate flower number trait
 
 [Term]
-id: CO_343:0000263
-name: yam female flowering intensity per spike estimation 1-4 variable
-synonym: "fflrab" EXACT []
-is_a: CO_343:0000262 ! yam female flowering intensity trait
-relationship: variable_of CO_343:0000262 ! yam female flowering intensity trait
-relationship: variable_of CO_343:0010043 ! yam femal flowers abundance or intensity per inflorescence-estimation method
-relationship: variable_of CO_343:0100016 ! yam 1-4 general scale
-
-[Term]
 id: CO_343:0000264
 name: yam pollination type trait
 def: "Mode of plant to plant pollen transfer" [CO:curators]
 synonym: "Mechanism of pollination" EXACT []
 synonym: "Polltyp" EXACT []
 is_a: TO:0000420 ! fertility related trait
-
-[Term]
-id: CO_343:0000265
-name: yam pollination type estimation 1-4 variable
-synonym: "Pollmech" EXACT []
-is_a: CO_343:0000264 ! yam pollination type trait
-relationship: variable_of CO_343:0000264 ! yam pollination type trait
-relationship: variable_of CO_343:0010044 ! yam pollination type-estimation method
-relationship: variable_of CO_343:0100023 ! yam 1-4 scale
-
-[Term]
-id: CO_343:0000267
-name: yam fruits developed per cross counting variable
-synonym: "FrtN" EXACT []
-is_a: CO_343:0000006 ! yam fruit developed number trait
-relationship: variable_of CO_343:0000006 ! yam fruit developed number trait
-relationship: variable_of CO_343:0010046 ! yam fruits developed number - counting method
-relationship: variable_of CO_343:0100025 ! yam fruits/cross scale
 
 [Term]
 id: CO_343:0000268
@@ -948,45 +567,11 @@ synonym: "Datfrtset" EXACT []
 is_a: TO:0000933 ! plant phenological trait
 
 [Term]
-id: CO_343:0000269
-name: yam fruit setting time estimation in yy/mm/dd variable
-is_a: CO_343:0000268 ! yam time to fruit setting trait
-relationship: variable_of CO_343:0000268 ! yam time to fruit setting trait
-relationship: variable_of CO_343:0010047 ! yam 50% fruit set time-estimation method
-relationship: variable_of CO_343:0100002 ! yam date (yyyymmdd) scale
-
-[Term]
-id: CO_343:0000270
-name: yam fruit setting estimation 0&1 variable
-synonym: "frtform" EXACT []
-is_a: CO_343:0000268 ! yam time to fruit setting trait
-relationship: variable_of CO_343:0000268 ! yam time to fruit setting trait
-relationship: variable_of CO_343:0010048 ! yam ability to set or form fruts-estimation method
-relationship: variable_of CO_343:0100007 ! yam 0-1 scale
-
-[Term]
-id: CO_343:0000271
-name: yam fruits harvested per cross counting variable
-synonym: "Matfrt" EXACT []
-is_a: CO_343:0000009 ! yam fruits harvested number
-relationship: variable_of CO_343:0000009 ! yam fruits harvested number
-relationship: variable_of CO_343:0010049 ! yam fruits harvested number - counting method
-relationship: variable_of CO_343:0100026 ! yam number of fruits scale
-
-[Term]
 id: CO_343:0000272
 name: yam time to fruit harvesting trait
 def: "Time of fruit harvesting" [CO:curators]
 synonym: "DateFH" EXACT []
 is_a: TO:0000366 ! reproductive growth time
-
-[Term]
-id: CO_343:0000273
-name: yam fruit harvest time estimation in yy/mm/dd variable
-is_a: CO_343:0000272 ! yam time to fruit harvesting trait
-relationship: variable_of CO_343:0000272 ! yam time to fruit harvesting trait
-relationship: variable_of CO_343:0010050 ! yam fruit harvesting time- estimation method
-relationship: variable_of CO_343:0100002 ! yam date (yyyymmdd) scale
 
 [Term]
 id: CO_343:0000274
@@ -996,61 +581,11 @@ synonym: "TIMFrtM" EXACT []
 is_a: TO:0000469 ! days to maturity
 
 [Term]
-id: CO_343:0000275
-name: yam fruit maturity time estimation in yy/mm/dd variable
-is_a: CO_343:0000274 ! yam time to fruit maturity trait
-relationship: variable_of CO_343:0000274 ! yam time to fruit maturity trait
-relationship: variable_of CO_343:0010051 ! yam fruit maturity time - estimation method
-relationship: variable_of CO_343:0100002 ! yam date (yyyymmdd) scale
-
-[Term]
-id: CO_343:0000276
-name: yam times to fruit maturity computation in days variable
-synonym: "DFM" EXACT []
-is_a: CO_343:0000274 ! yam time to fruit maturity trait
-relationship: variable_of CO_343:0000274 ! yam time to fruit maturity trait
-relationship: variable_of CO_343:0010052 ! yam fruit maturity time - computation method
-relationship: variable_of CO_343:0100003 ! yam days scale
-
-[Term]
-id: CO_343:0000277
-name: yam fruit set number estimation 1-3 variable
-synonym: "FRTINT" EXACT []
-is_a: CO_343:0000099 ! yam fruit set number trait
-relationship: variable_of CO_343:0000099 ! yam fruit set number trait
-relationship: variable_of CO_343:0010053 ! yam fruit set number - estimation method
-relationship: variable_of CO_343:0100022 ! yam 1-3 scale
-
-[Term]
-id: CO_343:0000278
-name: yam fruit set number percentage variable
-is_a: CO_343:0000099 ! yam fruit set number trait
-relationship: variable_of CO_343:0000099 ! yam fruit set number trait
-relationship: variable_of CO_343:0010054 ! yam fruit set number - computation method
-relationship: variable_of CO_343:0100006 ! yam % scale
-
-[Term]
 id: CO_343:0000279
 name: yam status of fruit development trait
 def: "Fruit development status on monoecious and female flower of dioecious yam plant" [CO:curators]
 synonym: "FrtDev" EXACT []
 is_a: TO:0000852 ! fruit set trait 
-
-[Term]
-id: CO_343:0000280
-name: yam fruit development status estimation 1-2 variable
-is_a: CO_343:0000279 ! yam status of fruit development trait
-relationship: variable_of CO_343:0000279 ! yam status of fruit development trait
-relationship: variable_of CO_343:0010055 ! yam fruit development intensity-estimation method
-relationship: variable_of CO_343:0100027 ! yam 1-2 scale
-
-[Term]
-id: CO_343:0000281
-name: yam seeds set/fruit computation variable
-is_a: CO_343:0000180 ! yam seeds set per fruit trait
-relationship: variable_of CO_343:0000180 ! yam seeds set per fruit trait
-relationship: variable_of CO_343:0010056 ! yam seeds set - comp method
-relationship: variable_of CO_343:0100028 ! yam number of seed scale
 
 [Term]
 id: CO_343:0000282
@@ -1061,41 +596,16 @@ synonym: "Tsdh" EXACT []
 is_a: TO:0000905 ! seed yield trait
 
 [Term]
-id: CO_343:0000283
-name: yam true seeds harvested/cross counting variable
-synonym: "Botseed" EXACT []
-is_a: CO_343:0000282 ! yam true seeds harvested trait
-relationship: variable_of CO_343:0000282 ! yam true seeds harvested trait
-relationship: variable_of CO_343:0010057 ! yam quantity of true seed harvested -counting method
-relationship: variable_of CO_343:0100028 ! yam number of seed scale
-
-[Term]
 id: CO_343:0000284
 name: yam fruit index trait
 def: "Fruit index is an estimation of pollinated flowers developing physiologically mature fruits" [CO:curators]
 is_a: TO:0000895 ! fruit harvest index
 
 [Term]
-id: CO_343:0000285
-name: yam fruit index computation 0 to 1 variable
-is_a: CO_343:0000284 ! yam fruit index trait
-relationship: variable_of CO_343:0000284 ! yam fruit index trait
-relationship: variable_of CO_343:0010058 ! yam fruit index method
-relationship: variable_of CO_343:0100029 ! yam number of fruit scale
-
-[Term]
 id: CO_343:0000286
 name: yam seed index trait
 def: "Seed index is an estimation of pollinated flowers producing seeds" [CO:curators]
 is_a: TO:0000897 ! seed harvest index
-
-[Term]
-id: CO_343:0000287
-name: yam seed index computation 0 to 1 variable
-is_a: CO_343:0000286 ! yam seed index trait
-relationship: variable_of CO_343:0000286 ! yam seed index trait
-relationship: variable_of CO_343:0010059 ! yam seed index method
-relationship: variable_of CO_343:0100028 ! yam number of seed scale
 
 [Term]
 id: CO_343:0000290
@@ -1106,39 +616,12 @@ synonym: "germstart" EXACT []
 is_a: TO:0006061 ! days to germinate
 
 [Term]
-id: CO_343:0000291
-name: yam seeds germination start time estimation in yy/mm/dd variable
-synonym: "DAFGR" EXACT []
-is_a: CO_343:0000290 ! yam seeds germination start time trait
-relationship: variable_of CO_343:0000290 ! yam seeds germination start time trait
-relationship: variable_of CO_343:0010061 ! yam time of first seed germination-estimation method
-relationship: variable_of CO_343:0100002 ! yam date (yyyymmdd) scale
-
-[Term]
 id: CO_343:0000292
 name: yam seeds germination end time trait
 def: "Time last seed germination occurred" [CO:curators]
 synonym: "Date end of seed germination" EXACT []
 synonym: "germend" EXACT []
 is_a: TO:0006061 ! days to germinate
-
-[Term]
-id: CO_343:0000293
-name: yam end of seeds germination time estiamtion in yy/mm/dd variable
-synonym: "DAEGR" EXACT []
-is_a: CO_343:0000292 ! yam seeds germination end time trait
-relationship: variable_of CO_343:0000292 ! yam seeds germination end time trait
-relationship: variable_of CO_343:0010062 ! yam date end of seed germination-estimation method
-relationship: variable_of CO_343:0100002 ! yam date (yyyymmdd) scale
-
-[Term]
-id: CO_343:0000294
-name: yam seed germination rate percentage variable
-synonym: "GR" EXACT []
-is_a: CO_343:0000012 ! yam seed germination rate trait
-relationship: variable_of CO_343:0000012 ! yam seed germination rate trait
-relationship: variable_of CO_343:0010063 ! yam germination rate - computation method
-relationship: variable_of CO_343:0100006 ! yam % scale
 
 [Term]
 id: CO_343:0000295
@@ -1148,23 +631,6 @@ synonym: "sdgerm" EXACT []
 is_a: TO:0000250 ! plant vigor trait
 
 [Term]
-id: CO_343:0000296
-name: yam seeds germinated counting variable
-is_a: CO_343:0000295 ! yam seeds germinated trait
-relationship: variable_of CO_343:0000295 ! yam seeds germinated trait
-relationship: variable_of CO_343:0010064 ! yam number of germinated seedling-counting method
-relationship: variable_of CO_343:0100028 ! yam number of seed scale
-
-[Term]
-id: CO_343:0000297
-name: yam seedling establishment rate percentage variable
-synonym: "sder" EXACT []
-is_a: CO_343:0000015 ! yam seedling establishment rate trait
-relationship: variable_of CO_343:0000015 ! yam seedling establishment rate trait
-relationship: variable_of CO_343:0010065 ! yam seedling establishment rate-computation method
-relationship: variable_of CO_343:0100006 ! yam % scale
-
-[Term]
 id: CO_343:0000298
 name: yam seedling transplant survival rate trait
 def: "Establishment rate of seedlings four weeks after transplanting operation" [CO:curators]
@@ -1172,27 +638,11 @@ synonym: "Tsurvrat" EXACT []
 is_a: TO:0000250 ! plant vigor trait
 
 [Term]
-id: CO_343:0000299
-name: yam seedling survival rate percentage variable
-is_a: CO_343:0000298 ! yam seedling transplant survival rate trait
-relationship: variable_of CO_343:0000298 ! yam seedling transplant survival rate trait
-relationship: variable_of CO_343:0010066 ! yam seedling tranplant survival rate-computation method
-relationship: variable_of CO_343:0100006 ! yam % scale
-
-[Term]
 id: CO_343:0000302
 name: yam vine cutting establishment rate trait
 def: "Proportion of vine cuttings established well that producing shoots" [CO:curators]
 synonym: "Vestrat" EXACT []
 is_a: TO:0000250 ! plant vigor trait
-
-[Term]
-id: CO_343:0000303
-name: yam vine cutting establishment rate percentage variable
-is_a: CO_343:0000302 ! yam vine cutting establishment rate trait
-relationship: variable_of CO_343:0000302 ! yam vine cutting establishment rate trait
-relationship: variable_of CO_343:0010068 ! yam vines established-computation method
-relationship: variable_of CO_343:0100006 ! yam % scale
 
 [Term]
 id: CO_343:0000304
@@ -1203,48 +653,12 @@ synonym: "Partial senescence time" EXACT []
 is_a: TO:0012012 ! leaf senescence duration
 
 [Term]
-id: CO_343:0000305
-name: yam time to 50% foliage senescence estimation in yy/mm/dd variable
-synonym: "DATS" EXACT []
-is_a: CO_343:0000304 ! yam time to 50% foliage senescence trait
-relationship: variable_of CO_343:0000304 ! yam time to 50% foliage senescence trait
-relationship: variable_of CO_343:0010069 ! yam time to 50% foliage senescence time - estimation method
-relationship: variable_of CO_343:0100002 ! yam date (yyyymmdd) scale
-
-[Term]
 id: CO_343:0000306
 name: yam foliage senescence time trait
 def: "Time to all plants in a plot or unit area show full or complete foliage senescence" [CO:curators]
 synonym: "Complete senescence time" EXACT []
 synonym: "Datfsen" EXACT []
 is_a: TO:0000369
-
-[Term]
-id: CO_343:0000307
-name: yam foliage senescence time estimation in yy/mm/dd variable
-synonym: "DateHS" EXACT []
-is_a: CO_343:0000306 ! yam foliage senescence time trait
-relationship: variable_of CO_343:0000306 ! yam foliage senescence time trait
-relationship: variable_of CO_343:0010070 ! yam foliage senescence time - estimation method
-relationship: variable_of CO_343:0100002 ! yam date (yyyymmdd) scale
-
-[Term]
-id: CO_343:0000308
-name: yam time to 50% foliage senescence computation in days variable
-synonym: "DM" EXACT []
-is_a: CO_343:0000304 ! yam time to 50% foliage senescence trait
-relationship: variable_of CO_343:0000304 ! yam time to 50% foliage senescence trait
-relationship: variable_of CO_343:0010071 ! yam time to 50% foliage senescence time - computation method
-relationship: variable_of CO_343:0100003 ! yam days scale
-
-[Term]
-id: CO_343:0000309
-name: yam foliage senescence time computation in days variable
-synonym: "DAYHS" EXACT []
-is_a: CO_343:0000111 ! yam foliage senescence time trait
-relationship: variable_of CO_343:0000111 ! yam foliage senescence time trait
-relationship: variable_of CO_343:0010072 ! yam foliage senescence time - computation method
-relationship: variable_of CO_343:0100003 ! yam days scale
 
 [Term]
 id: CO_343:0000310
@@ -1255,29 +669,12 @@ synonym: "Mat" EXACT []
 is_a: TO:0000469 ! days to maturity
 
 [Term]
-id: CO_343:0000311
-name: yam maturity time estimation ggd variable
-is_a: CO_343:0000310 ! yam time to maturity trait
-relationship: variable_of CO_343:0000310 ! yam time to maturity trait
-relationship: variable_of CO_343:0010073 ! yam growing degere days to maturity-estimation method
-relationship: variable_of CO_343:0100031 ! yam gdd°c scale
-
-[Term]
 id: CO_343:0000312
 name: yam senescenece class trait
 def: "Foliage senescence or maturity class" [CO:curators]
 synonym: "Maturity class" EXACT []
 synonym: "SE" EXACT []
 is_a: TO:0000469  ! days to maturity
-
-[Term]
-id: CO_343:0000313
-name: yam senescence class estimation 1-9 variable
-synonym: "MatC" EXACT []
-is_a: CO_343:0000312 ! yam senescenece class trait
-relationship: variable_of CO_343:0000312 ! yam senescenece class trait
-relationship: variable_of CO_343:0010074 ! yam maturity class - estimation method
-relationship: variable_of CO_343:0100032 ! yam 1-9 scale
 
 [Term]
 id: CO_343:0000314
@@ -1287,162 +684,11 @@ synonym: "Dryrot" EXACT []
 is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
-id: CO_343:0000315
-name: yam presence of tuber dry rot estimation in 0&1 variable
-is_a: CO_343:0000314 ! yam tuber dry rot presence trait
-relationship: variable_of CO_343:0000314 ! yam tuber dry rot presence trait
-relationship: variable_of CO_343:0010075 ! yam dry rot presence on harvested tubers-estimation method
-relationship: variable_of CO_343:0100007 ! yam 0-1 scale
-
-[Term]
 id: CO_343:0000316
 name: yam tuber dry rot incidence trait
 def: "Dry rot caused by nematodes (Scutellonema bradys and Practylenchus spp.) in tubers at harvest" [CO:curators]
 synonym: "Dryrot" EXACT []
 is_a: TO:0000384 ! nematode damage response trait
-
-[Term]
-id: CO_343:0000317
-name: yam number of dry rot tubers  count variable
-is_a: CO_343:0000316 ! yam tuber dry rot incidence trait
-relationship: variable_of CO_343:0000316 ! yam tuber dry rot incidence trait
-relationship: variable_of CO_343:0010076 ! yam dry rot tuber number-counting method
-relationship: variable_of CO_343:0100033 ! yam number scale
-
-[Term]
-id: CO_343:0000318
-name: yam tuber dry rot incidence computation in % variable
-synonym: "S_Bri" EXACT []
-is_a: CO_343:0000042 ! yam tuber dry rot incidence trait
-relationship: variable_of CO_343:0000042 ! yam tuber dry rot incidence trait
-relationship: variable_of CO_343:0010077 ! yam tuber dry rot incidence - computation method
-relationship: variable_of CO_343:0100006 ! yam % scale
-
-[Term]
-id: CO_343:0000319
-name: yam tuber dry rot severity estimation 0-4 variable
-synonym: "S_Brs" EXACT []
-is_a: CO_343:0000045 ! yam tuber dry rot severity trait
-relationship: variable_of CO_343:0000045 ! yam tuber dry rot severity trait
-relationship: variable_of CO_343:0010078 ! yam tuber dry rot severity - estimation method
-relationship: variable_of CO_343:0100034 ! yam 0-4 general scale
-
-[Term]
-id: CO_343:0000320
-name: yam leaf beetle damage incidence computation % variable
-synonym: "Btl_I" EXACT []
-is_a: CO_343:0000153 ! yam leaf beetle damage incidence trait
-relationship: variable_of CO_343:0000153 ! yam leaf beetle damage incidence trait
-relationship: variable_of CO_343:0010079 ! yam leaf beetle incidence - computation method
-relationship: variable_of CO_343:0100006 ! yam % scale
-
-[Term]
-id: CO_343:0000321
-name: yam leaf beetle damage severity estimation in 1-5 variable
-synonym: "Btl_S" EXACT []
-is_a: CO_343:0000156 ! yam leaf beetle damage severity trait
-relationship: variable_of CO_343:0000156 ! yam leaf beetle damage severity trait
-relationship: variable_of CO_343:0010080 ! yam leaf beetle severity - estimation method
-relationship: variable_of CO_343:0100008 ! yam 1-5 scale
-
-[Term]
-id: CO_343:0000322
-name: yam mealybug incidence computation % variable
-synonym: "M_Bi" EXACT []
-is_a: CO_343:0000159 ! yam mealybug tuber infestation incidence trait
-relationship: variable_of CO_343:0000159 ! yam mealybug tuber infestation incidence trait
-relationship: variable_of CO_343:0010081 ! yam mealybug tuber incidence - computation method
-relationship: variable_of CO_343:0100006 ! yam % scale
-
-[Term]
-id: CO_343:0000323
-name: yam mealybug severity estimation in 1-5 variable
-synonym: "M_Bs" EXACT []
-is_a: CO_343:0000162 ! yam mealybug tuber infestation severity trait
-relationship: variable_of CO_343:0000162 ! yam mealybug tuber infestation severity trait
-relationship: variable_of CO_343:0010082 ! yam mealybug tuber severity - estimation method
-relationship: variable_of CO_343:0100008 ! yam 1-5 scale
-
-[Term]
-id: CO_343:0000324
-name: yam root knot nematode incidence computation % variable
-synonym: "R_Kni" EXACT []
-is_a: CO_343:0000048 ! yam root knot nematode incidence trait
-relationship: variable_of CO_343:0000048 ! yam root knot nematode incidence trait
-relationship: variable_of CO_343:0010083 ! yam root knot nematode incidence - computation method
-relationship: variable_of CO_343:0100006 ! yam % scale
-
-[Term]
-id: CO_343:0000325
-name: yam root knot nematode severity estimation in 1-5 variable
-synonym: "R_kns" EXACT []
-is_a: CO_343:0000051 ! yam root knot nematode severity trait
-relationship: variable_of CO_343:0000051 ! yam root knot nematode severity trait
-relationship: variable_of CO_343:0010084 ! yam root knot nematode severity - estimation method
-relationship: variable_of CO_343:0100008 ! yam 1-5 scale
-
-[Term]
-id: CO_343:0000326
-name: yam tuber beetle incidence computation % variable
-synonym: "Tbeti" EXACT []
-is_a: CO_343:0000165 ! yam tuber beetle incidence trait
-relationship: variable_of CO_343:0000165 ! yam tuber beetle incidence trait
-relationship: variable_of CO_343:0010085 ! yam tuber beetle incidence - computation method
-relationship: variable_of CO_343:0100006 ! yam % scale
-
-[Term]
-id: CO_343:0000327
-name: yam tuber beetle severity estimation in 1-5 variable
-synonym: "Tbets" EXACT []
-is_a: CO_343:0000168 ! yam tuber beetle severity trait
-relationship: variable_of CO_343:0000168 ! yam tuber beetle severity trait
-relationship: variable_of CO_343:0010086 ! yam tuber beetle severity - estimation method
-relationship: variable_of CO_343:0100008 ! yam 1-5 scale
-
-[Term]
-id: CO_343:0000328
-name: yam virus incidence computation % variable
-synonym: "VRSI" EXACT []
-is_a: CO_343:0000081 ! yam virus incidence trait
-relationship: variable_of CO_343:0000081 ! yam virus incidence trait
-relationship: variable_of CO_343:0010087 ! yam viruses infection incidence - computation method
-relationship: variable_of CO_343:0100006 ! yam % scale
-
-[Term]
-id: CO_343:0000329
-name: yam virus severity estimation in 1-5 variable
-synonym: "VRSS" EXACT []
-is_a: CO_343:0000084 ! yam virus severity trait
-relationship: variable_of CO_343:0000084 ! yam virus severity trait
-relationship: variable_of CO_343:0010088 ! yam viruses infection severity - estimation method
-relationship: variable_of CO_343:0100008 ! yam 1-5 scale
-
-[Term]
-id: CO_343:0000330
-name: yam anthracnose disease incidence computation % variable
-synonym: "AnthracInc" EXACT []
-is_a: CO_343:0000075 ! yam anthracnose disease incidence trait
-relationship: variable_of CO_343:0000075 ! yam anthracnose disease incidence trait
-relationship: variable_of CO_343:0010089 ! yam anthracnose incidence - estimation method
-relationship: variable_of CO_343:0100006 ! yam % scale
-
-[Term]
-id: CO_343:0000331
-name: yam anthracnose disease severity estimation in 1-5 variable
-synonym: "AnthracSev" EXACT []
-is_a: CO_343:0000021 ! yam anthracnose disease severity trait
-relationship: variable_of CO_343:0000021 ! yam anthracnose disease severity trait
-relationship: variable_of CO_343:0010090 ! yam anthracnose severity - estimation method
-relationship: variable_of CO_343:0100035 ! yam 1-5 general scale
-
-[Term]
-id: CO_343:0000332
-name: yam bulbils per plot count variable
-synonym: "Aetbrp" EXACT []
-is_a: CO_343:0000117 ! yam number of bulbil trait
-relationship: variable_of CO_343:0000117 ! yam number of bulbil trait
-relationship: variable_of CO_343:0010091 ! yam number of bulbil - counting method
-relationship: variable_of CO_343:0100036 ! yam number of bulbils scale
 
 [Term]
 id: CO_343:0000333
@@ -1453,30 +699,12 @@ synonym: "Number of aerial tuber" EXACT []
 is_a: TO:0001071 ! shoot axis tuber yield
 
 [Term]
-id: CO_343:0000334
-name: yam bulbils per plant computation variable
-synonym: "Aetbrpl" EXACT []
-is_a: CO_343:0000333 ! yam number of bulbil trait
-relationship: variable_of CO_343:0000333 ! yam number of bulbil trait
-relationship: variable_of CO_343:0010092 ! yam number of bulbil - computation method
-relationship: variable_of CO_343:0100037 ! yam bulbil/plant scale
-
-[Term]
 id: CO_343:0000335
 name: yam bulbil shape trait
 def: "Predominant shape of the bulbils" [CO:curators]
 synonym: "Aerial tuber shape" EXACT []
 synonym: "Bulbsp" EXACT []
 is_a: TO:0000739 ! shoot axis morphology trait
-
-[Term]
-id: CO_343:0000336
-name: yam shape of bulbil estimation 1-4 variable
-synonym: "Aetbrshap" EXACT []
-is_a: CO_343:0000335 ! yam bulbil shape trait
-relationship: variable_of CO_343:0000335 ! yam bulbil shape trait
-relationship: variable_of CO_343:0010093 ! yam bulbil shape-estimation method
-relationship: variable_of CO_343:0100016 ! yam 1-4 general scale
 
 [Term]
 id: CO_343:0000337
@@ -1487,74 +715,12 @@ synonym: "Bulbwtp" EXACT []
 is_a: TO:0001071 ! shoot axis tuber yield
 
 [Term]
-id: CO_343:0000338
-name: yam bulbil weight per plot measurement in kg variable
-synonym: "Aetubwtp" EXACT []
-is_a: CO_343:0000337 ! yam bulbil weight trait
-relationship: variable_of CO_343:0000337 ! yam bulbil weight trait
-relationship: variable_of CO_343:0010094 ! yam bulbil yield (plot weight) - measurement method
-relationship: variable_of CO_343:0100038 ! yam kg scale
-
-[Term]
-id: CO_343:0000340
-name: yam bulbil yield per plant measurement in kg variable
-synonym: "AetbrwtPl" EXACT []
-is_a: CO_343:0000120 ! yam bulbil yield trait
-relationship: variable_of CO_343:0000120 ! yam bulbil yield trait
-relationship: variable_of CO_343:0010095 ! yam bulbil yield (fresh weight) per plant-computation method
-relationship: variable_of CO_343:0100039 ! yam kg/plant scale
-
-[Term]
-id: CO_343:0000341
-name: yam bulbil yield estimation in t/ha variable
-synonym: "AetbrYld" EXACT []
-is_a: CO_343:0000120 ! yam bulbil yield trait
-relationship: variable_of CO_343:0000120 ! yam bulbil yield trait
-relationship: variable_of CO_343:0010096 ! yam bulbil yield (fresh weight) per hectar- computation method
-relationship: variable_of CO_343:0100040 ! yam tons/ha scale
-
-[Term]
-id: CO_343:0000342
-name: yam bulbil initiation time estimation in yy/mm/dd variable
-synonym: "Aetbrin" EXACT []
-is_a: CO_343:0000108 ! yam time to bulbil initiation trait
-relationship: variable_of CO_343:0000108 ! yam time to bulbil initiation trait
-relationship: variable_of CO_343:0010097 ! yam bulbil initiaition time - estimation method
-relationship: variable_of CO_343:0100002 ! yam date (yyyymmdd) scale
-
-[Term]
-id: CO_343:0000344
-name: yam times to bulbil initiation computation variable
-synonym: "Dayaetbrin" EXACT []
-is_a: CO_343:0000108 ! yam time to bulbil initiation trait
-relationship: variable_of CO_343:0000108 ! yam time to bulbil initiation trait
-relationship: variable_of CO_343:0010098 ! yam bulbil initiation time - computation method
-relationship: variable_of CO_343:0100003 ! yam days scale
-
-[Term]
-id: CO_343:0000345
-name: yam bulbil presence estimation 0&1 variable
-synonym: "AeTuber" EXACT []
-is_a: CO_343:0000105 ! yam presence of bulbil trait
-relationship: variable_of CO_343:0000105 ! yam presence of bulbil trait
-relationship: variable_of CO_343:0010099 ! yam presence of bulbil  - estimation method
-relationship: variable_of CO_343:0100007 ! yam 0-1 scale
-
-[Term]
 id: CO_343:0000347
 name: yam big size tubers per plot trait
 def: "Number of big size tubers that weighing ≥1 kg in a net plot or unit area" [CO:curators]
 synonym: "NBTP" EXACT []
 synonym: "Tubers per plot size 1" EXACT []
 is_a: TO:0001071 ! shoot axis tuber yield
-
-[Term]
-id: CO_343:0000348
-name: yam big tubers per plot counting number variable
-is_a: CO_343:0000347 ! yam big size tubers per plot trait
-relationship: variable_of CO_343:0000347 ! yam big size tubers per plot trait
-relationship: variable_of CO_343:0010101 ! yam big size tubers harvested number - counting method
-relationship: variable_of CO_343:0100042 ! yam tuber number/plot scale
 
 [Term]
 id: CO_343:0000349
@@ -1565,45 +731,12 @@ synonym: "Tubers per plot size 2" EXACT []
 is_a: TO:0001071 ! shoot axis tuber yield
 
 [Term]
-id: CO_343:0000350
-name: yam medium tubers per plot counting number variable
-is_a: CO_343:0000349 ! yam medium size tubers per plot trait
-relationship: variable_of CO_343:0000349 ! yam medium size tubers per plot trait
-relationship: variable_of CO_343:0010102 ! yam medium size tubers harvested number- counting method
-relationship: variable_of CO_343:0100042 ! yam tuber number/plot scale
-
-[Term]
 id: CO_343:0000351
 name: yam small size tubers per plot trait
 def: "Number of small size tubers that weighing <0.5kg in a net plot or unit area" [CO:curators]
 synonym: "NSTP" EXACT []
 synonym: "Tubers per plot size 3" EXACT []
 is_a: TO:0001071 ! shoot axis tuber yield
-
-[Term]
-id: CO_343:0000352
-name: yam small tubers per plot counting number variable
-is_a: CO_343:0000351 ! yam small size tubers per plot trait
-relationship: variable_of CO_343:0000351 ! yam small size tubers per plot trait
-relationship: variable_of CO_343:0010103 ! yam small size tubers harvested per plot number - counting method
-relationship: variable_of CO_343:0100042 ! yam tuber number/plot scale
-
-[Term]
-id: CO_343:0000353
-name: yam rotten tubers per plot counting number variable
-synonym: "NRDT" EXACT []
-is_a: CO_343:0000138 ! yam rotten or diseased tubers per plot trait
-relationship: variable_of CO_343:0000138 ! yam rotten or diseased tubers per plot trait
-relationship: variable_of CO_343:0010104 ! yam rotten tubers in a plot number-counting method
-relationship: variable_of CO_343:0100042 ! yam tuber number/plot scale
-
-[Term]
-id: CO_343:0000354
-name: yam total tubers per plot computation variable
-is_a: CO_343:0000126 ! yam total tubers per plot trait
-relationship: variable_of CO_343:0000126 ! yam total tubers per plot trait
-relationship: variable_of CO_343:0010105 ! yam total tuber harvested number-computation method
-relationship: variable_of CO_343:0100042 ! yam tuber number/plot scale
 
 [Term]
 id: CO_343:0000355
@@ -1613,27 +746,11 @@ synonym: "NBTPL" EXACT []
 is_a: TO:0001071 ! shoot axis tuber yield
 
 [Term]
-id: CO_343:0000356
-name: yam big tubers  per plant computation variable
-is_a: CO_343:0000355 ! yam big size tubers per plant trait
-relationship: variable_of CO_343:0000355 ! yam big size tubers per plant trait
-relationship: variable_of CO_343:0010106 ! yam big size tubers per plant-computation method
-relationship: variable_of CO_343:0100043 ! yam tuber number/plant scale
-
-[Term]
 id: CO_343:0000357
 name: yam medium size tubers per plant trait
 def: "Number of medium size tubers (≥ 0.5kg and <1 kg) per plant" [CO:curators]
 synonym: "NMTPL" EXACT []
 is_a: TO:0001071 ! shoot axis tuber yield
-
-[Term]
-id: CO_343:0000358
-name: yam medium tubers per plant computation variable
-is_a: CO_343:0000357 ! yam medium size tubers per plant trait
-relationship: variable_of CO_343:0000357 ! yam medium size tubers per plant trait
-relationship: variable_of CO_343:0010107 ! yam medium size tubers per plant-computation method
-relationship: variable_of CO_343:0100043 ! yam tuber number/plant scale
 
 [Term]
 id: CO_343:0000359
@@ -1643,27 +760,11 @@ synonym: "NSTPL" EXACT []
 is_a: TO:0001071 ! shoot axis tuber yield
 
 [Term]
-id: CO_343:0000360
-name: yam small tubers per plant compuatation variable
-is_a: CO_343:0000359 ! yam small size tubers per plant trait
-relationship: variable_of CO_343:0000359 ! yam small size tubers per plant trait
-relationship: variable_of CO_343:0010108 ! yam small size tubers per plant-computation method
-relationship: variable_of CO_343:0100043 ! yam tuber number/plant scale
-
-[Term]
 id: CO_343:0000361
 name: yam total tubers per plant trait
 def: "Number of tubers harvested per plant" [CO:curators]
 synonym: "TNTPL" EXACT []
 is_a: TO:0001071 ! shoot axis tuber yield
-
-[Term]
-id: CO_343:0000362
-name: yam total tubers per plant computation variable
-is_a: CO_343:0000361 ! yam total tubers per plant trait
-relationship: variable_of CO_343:0000361 ! yam total tubers per plant trait
-relationship: variable_of CO_343:0010109 ! yam total tubers per plant-computation method
-relationship: variable_of CO_343:0100043 ! yam tuber number/plant scale
 
 [Term]
 id: CO_343:0000363
@@ -1673,29 +774,11 @@ synonym: "BTW" EXACT []
 is_a: TO:0001071 ! shoot axis tuber yield
 
 [Term]
-id: CO_343:0000364
-name: yam weight of big tubers per plot measurement in kg variable
-synonym: "Btbrwt" EXACT []
-is_a: CO_343:0000363 ! yam big size tubers weight per plot trait
-relationship: variable_of CO_343:0000363 ! yam big size tubers weight per plot trait
-relationship: variable_of CO_343:0010110 ! yam big size tubers fresh weight per plot- measurement method
-relationship: variable_of CO_343:0100044 ! yam kg/plot scale
-
-[Term]
 id: CO_343:0000365
 name: yam medium size tubers weight per plot trait
 def: "Weight of medium size tubers (≥ 0.5kg and <1 kg) in a net plot or unit area" [CO:curators]
 synonym: "MTW" EXACT []
 is_a: TO:0001071 ! shoot axis tuber yield
-
-[Term]
-id: CO_343:0000366
-name: yam weight medium tubers per plot  measurement in kg variable
-synonym: "Mtbrwt" EXACT []
-is_a: CO_343:0000365 ! yam medium size tubers weight per plot trait
-relationship: variable_of CO_343:0000365 ! yam medium size tubers weight per plot trait
-relationship: variable_of CO_343:0010111 ! yam medium size tubers fresh weight per plot -measurement method
-relationship: variable_of CO_343:0100044 ! yam kg/plot scale
 
 [Term]
 id: CO_343:0000367
@@ -1705,37 +788,11 @@ synonym: "STW" EXACT []
 is_a: TO:0001071 ! shoot axis tuber yield
 
 [Term]
-id: CO_343:0000368
-name: yam weight of small tubers per plot measurement in kg variable
-synonym: "Stbrwt" EXACT []
-is_a: CO_343:0000367 ! yam small size tubers weight per plot trait
-relationship: variable_of CO_343:0000367 ! yam small size tubers weight per plot trait
-relationship: variable_of CO_343:0010112 ! yam small size tubers fresh weight per plot- measurement method
-relationship: variable_of CO_343:0100044 ! yam kg/plot scale
-
-[Term]
-id: CO_343:0000369
-name: yam weight of rotten/diseased tubers per plot measurement in kg variable
-synonym: "Rot_Wt" EXACT []
-is_a: CO_343:0000138 ! yam rotten or diseased tubers per plot trait
-relationship: variable_of CO_343:0000138 ! yam rotten or diseased tubers per plot trait
-relationship: variable_of CO_343:0010113 ! yam rotten tuber fresh weight per plot - measurement method
-relationship: variable_of CO_343:0100044 ! yam kg/plot scale
-
-[Term]
 id: CO_343:0000370
 name: yam total fresh tuber weight per plot trait
 def: "Total fresh weight of all category or size tubers harvested in a net plot" [CO:curators]
 synonym: "TTWP" EXACT []
 is_a: TO:0001071 ! shoot axis tuber yield
-
-[Term]
-id: CO_343:0000371
-name: yam total tuber weight per plot computation in kg variable
-is_a: CO_343:0000370 ! yam total fresh tuber weight per plot trait
-relationship: variable_of CO_343:0000370 ! yam total fresh tuber weight per plot trait
-relationship: variable_of CO_343:0010114 ! yam total tuber fresh weight per plot -computation method
-relationship: variable_of CO_343:0100044 ! yam kg/plot scale
 
 [Term]
 id: CO_343:0000372
@@ -1745,28 +802,11 @@ synonym: "TTWPL" EXACT []
 is_a: TO:0001071 ! shoot axis tuber yield
 
 [Term]
-id: CO_343:0000373
-name: yam total tuber weight per plant computation in kg variable
-is_a: CO_343:0000372 ! yam total tuber weight per plant trait
-relationship: variable_of CO_343:0000372 ! yam total tuber weight per plant trait
-relationship: variable_of CO_343:0010115 ! yam total tuber fresh weight per plant-computation method
-relationship: variable_of CO_343:0100039 ! yam kg/plant scale
-
-[Term]
 id: CO_343:0000374
 name: yam big size tuber weight per plant trait
 def: "Weight of big size tubers per plant" [CO:curators]
 synonym: "WBTPL" EXACT []
 is_a: TO:0001071 ! shoot axis tuber yield
-
-[Term]
-id: CO_343:0000375
-name: yam weight of big tubers per plant measurement in kg variable
-synonym: "MTWPL" EXACT []
-is_a: CO_343:0000374 ! yam big size tuber weight per plant trait
-relationship: variable_of CO_343:0000374 ! yam big size tuber weight per plant trait
-relationship: variable_of CO_343:0010116 ! yam big size yam fresh weight per plant- computation method
-relationship: variable_of CO_343:0100039 ! yam kg/plant scale
 
 [Term]
 id: CO_343:0000376
@@ -1776,44 +816,11 @@ synonym: "WMTPL" EXACT []
 is_a: TO:0001071 ! shoot axis tuber yield
 
 [Term]
-id: CO_343:0000377
-name: yam weight of medium tubers per plant computation kgplt variable
-is_a: CO_343:0000376 ! yam medium size tuber weight per plant trait
-relationship: variable_of CO_343:0000376 ! yam medium size tuber weight per plant trait
-relationship: variable_of CO_343:0010117 ! yam medium size yam fresh weight per plant-computation method
-relationship: variable_of CO_343:0100039 ! yam kg/plant scale
-
-[Term]
 id: CO_343:0000378
 name: yam small size tuber weight per plant trait
 def: "Weight of small size yam per plant" [CO:curators]
 synonym: "WSTPL" EXACT []
 is_a: TO:0001071 ! shoot axis tuber yield
-
-[Term]
-id: CO_343:0000379
-name: yam weight of small tuber per plant computation kgplant variable
-is_a: CO_343:0000378 ! yam small size tuber weight per plant trait
-relationship: variable_of CO_343:0000378 ! yam small size tuber weight per plant trait
-relationship: variable_of CO_343:0010118 ! yam small size yam fresh weight per plant-computation method
-relationship: variable_of CO_343:0100039 ! yam kg/plant scale
-
-[Term]
-id: CO_343:0000380
-name: yam total tuber yield computation in t/ha variable
-synonym: "TubYld" EXACT []
-is_a: CO_343:0000132 ! yam total tuber yield trait
-relationship: variable_of CO_343:0000132 ! yam total tuber yield trait
-relationship: variable_of CO_343:0010119 ! yam tuber yield no adjusted- computation method
-relationship: variable_of CO_343:0100040 ! yam tons/ha scale
-
-[Term]
-id: CO_343:0000381
-name: yam big tuber yield computation in t/ha variable
-is_a: CO_343:0000135 ! yam big size yam yield trait
-relationship: variable_of CO_343:0000135 ! yam big size yam yield trait
-relationship: variable_of CO_343:0010120 ! yam big size yam yield no adjusted- computation method
-relationship: variable_of CO_343:0100040 ! yam tons/ha scale
 
 [Term]
 id: CO_343:0000382
@@ -1823,27 +830,11 @@ synonym: "TTYA" EXACT []
 is_a: TO:0001071 ! shoot axis tuber yield
 
 [Term]
-id: CO_343:0000383
-name: yam tuber yield adjusted computation in t/ha variable
-is_a: CO_343:0000382 ! yam total tuber yield adjusted trait
-relationship: variable_of CO_343:0000382 ! yam total tuber yield adjusted trait
-relationship: variable_of CO_343:0010121 ! yam total tuber yield adjusted-computation method
-relationship: variable_of CO_343:0100040 ! yam tons/ha scale
-
-[Term]
 id: CO_343:0000384
 name: yam big size tuber yield adjusted trait
 def: "Big size tubers yield adjusted tons per hectare" [CO:curators]
 synonym: "BTYA" EXACT []
 is_a: TO:0001071 ! shoot axis tuber yield
-
-[Term]
-id: CO_343:0000385
-name: yam big tuber yield adjusted computation in t/ha variable
-is_a: CO_343:0000384 ! yam big size tuber yield adjusted trait
-relationship: variable_of CO_343:0000384 ! yam big size tuber yield adjusted trait
-relationship: variable_of CO_343:0010122 ! yam big size yam yield adjusted-computation method
-relationship: variable_of CO_343:0100040 ! yam tons/ha scale
 
 [Term]
 id: CO_343:0000386
@@ -1853,14 +844,6 @@ synonym: "AWBT" EXACT []
 is_a: TO:0000746 ! subterranean shoot axis tuber mass
 
 [Term]
-id: CO_343:0000387
-name: yam big tuber average weight computation in kg variable
-is_a: CO_343:0000386 ! yam average weight of big size tuber trait
-relationship: variable_of CO_343:0000386 ! yam average weight of big size tuber trait
-relationship: variable_of CO_343:0010123 ! yam big yam tuber average weight-computation method
-relationship: variable_of CO_343:0100038 ! yam kg scale
-
-[Term]
 id: CO_343:0000388
 name: yam average tuber weight trait
 def: "Average tuber weight in kg" [CO:curators]
@@ -1868,61 +851,11 @@ synonym: "ATW" EXACT []
 is_a: TO:0000746 ! subterranean shoot axis tuber mass
 
 [Term]
-id: CO_343:0000389
-name: yam average tuber weight computation in kg variable
-is_a: CO_343:0000388 ! yam average tuber weight trait
-relationship: variable_of CO_343:0000388 ! yam average tuber weight trait
-relationship: variable_of CO_343:0010124 ! yam average tuber weight -computation method
-relationship: variable_of CO_343:0100038 ! yam kg scale
-
-[Term]
 id: CO_343:0000390
 name: yam place of roots on tubers trait
 def: "Position of appearance of roots at surface of tubers" [CO:curators]
 synonym: "Prtbs" EXACT []
 is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
-
-[Term]
-id: CO_343:0000391
-name: yam root position estimation 1-4 variable
-is_a: CO_343:0000390 ! yam place of roots on tubers trait
-relationship: variable_of CO_343:0000390 ! yam place of roots on tubers trait
-relationship: variable_of CO_343:0010125 ! yam position of root appearance on tubers-estimation method
-relationship: variable_of CO_343:0100023 ! yam 1-4 scale
-
-[Term]
-id: CO_343:0000392
-name: yam hairiness of tuber estimation 1-3 variable
-synonym: "TBR_Hairy" EXACT []
-is_a: CO_343:0000183 ! yam tuber hairiness trait
-relationship: variable_of CO_343:0000183 ! yam tuber hairiness trait
-relationship: variable_of CO_343:0010126 ! yam hairiness of tuber bark - estimation method
-relationship: variable_of CO_343:0100022 ! yam 1-3 scale
-
-[Term]
-id: CO_343:0000393
-name: yam appearance of tuber surface estimation 1-4 variable
-is_a: CO_343:0000188 ! yam tuber appearance trait
-relationship: variable_of CO_343:0000188 ! yam tuber appearance trait
-relationship: variable_of CO_343:0010127 ! yam tuber surface appearance - estimation method
-relationship: variable_of CO_343:0100023 ! yam 1-4 scale
-
-[Term]
-id: CO_343:0000394
-name: yam tuber surface texture estimation 1-2 variable
-is_a: CO_343:0000141 ! yam tuber surface texture trait
-relationship: variable_of CO_343:0000141 ! yam tuber surface texture trait
-relationship: variable_of CO_343:0010128 ! yam tuber surface texture - estimation method
-relationship: variable_of CO_343:0100027 ! yam 1-2 scale
-
-[Term]
-id: CO_343:0000395
-name: yam tuber thorniness estimation 0&1 variable
-synonym: "Thorn" EXACT []
-is_a: CO_343:0000144 ! yam tuber thorniness trait
-relationship: variable_of CO_343:0000144 ! yam tuber thorniness trait
-relationship: variable_of CO_343:0010129 ! yam tuber thorniness - estimation method
-relationship: variable_of CO_343:0100045 ! yam 0-1 binary scale
 
 [Term]
 id: CO_343:0000396
@@ -1933,27 +866,11 @@ synonym: "ThornInt" EXACT []
 is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 [Term]
-id: CO_343:0000397
-name: yam tuber thorniness intensity estimation 0-7 variable
-is_a: CO_343:0000396 ! yam tuber thorniness intensity trait
-relationship: variable_of CO_343:0000396 ! yam tuber thorniness intensity trait
-relationship: variable_of CO_343:0010130 ! yam tuber thorniness intensity-estimation method
-relationship: variable_of CO_343:0100046 ! yam 0-7 scale
-
-[Term]
 id: CO_343:0000398
 name: yam big size tuber length trait
 def: "Average length of big size tubers harvested in a net plot or unit area" [CO:curators]
 synonym: "Btbrleng" EXACT []
 is_a: TO:0001053 ! subterranean shoot axis tuber length
-
-[Term]
-id: CO_343:0000399
-name: yam big tuber length computation in cm variable
-is_a: CO_343:0000398 ! yam big size tuber length trait
-relationship: variable_of CO_343:0000398 ! yam big size tuber length trait
-relationship: variable_of CO_343:0010131 ! yam length of big size tubers-computation method
-relationship: variable_of CO_343:0100009 ! yam cm scale
 
 [Term]
 id: CO_343:0000400
@@ -1963,27 +880,11 @@ synonym: "Mtbrleng" EXACT []
 is_a: TO:0001053 ! subterranean shoot axis tuber length
 
 [Term]
-id: CO_343:0000401
-name: yam medium size tuber length computation in cm variable
-is_a: CO_343:0000400 ! yam medium size tuber length trait
-relationship: variable_of CO_343:0000400 ! yam medium size tuber length trait
-relationship: variable_of CO_343:0010132 ! yam length of medium size tubers-computation method
-relationship: variable_of CO_343:0100009 ! yam cm scale
-
-[Term]
 id: CO_343:0000402
 name: yam small size tuber length trait
 def: "Average length of small size tubers harvested in a net plot or unit area" [CO:curators]
 synonym: "Stbrleng" EXACT []
 is_a: TO:0001053 ! subterranean shoot axis tuber length
-
-[Term]
-id: CO_343:0000403
-name: yam small size tuber length computation in cm variable
-is_a: CO_343:0000402 ! yam small size tuber length trait
-relationship: variable_of CO_343:0000402 ! yam small size tuber length trait
-relationship: variable_of CO_343:0010133 ! yam length of small size tubers-computation method
-relationship: variable_of CO_343:0100009 ! yam cm scale
 
 [Term]
 id: CO_343:0000404
@@ -1993,47 +894,11 @@ synonym: "Tbrleng" EXACT []
 is_a: TO:0001053 ! subterranean shoot axis tuber length
 
 [Term]
-id: CO_343:0000405
-name: yam average tuber length measurement in cm variable
-synonym: "TBRL" EXACT []
-is_a: CO_343:0000404 ! yam tuber length trait
-relationship: variable_of CO_343:0000404 ! yam tuber length trait
-relationship: variable_of CO_343:0010134 ! yam tuber length-computation method
-relationship: variable_of CO_343:0100009 ! yam cm scale
-
-[Term]
-id: CO_343:0000406
-name: yam tuber shape estimation 1-4 variable
-synonym: "TUBSHA" EXACT []
-is_a: CO_343:0000024 ! yam tuber shape trait
-relationship: variable_of CO_343:0000024 ! yam tuber shape trait
-relationship: variable_of CO_343:0010135 ! yam tuber shape - estimation method
-relationship: variable_of CO_343:0100047 ! yam 1-4 score scale
-
-[Term]
-id: CO_343:0000407
-name: yam tuber size estimation 1-3 variable
-synonym: "TUBSIZE" EXACT []
-is_a: CO_343:0000027 ! yam tuber size trait
-relationship: variable_of CO_343:0000027 ! yam tuber size trait
-relationship: variable_of CO_343:0010136 ! yam tuber size - estimation method
-relationship: variable_of CO_343:0100022 ! yam 1-3 scale
-
-[Term]
 id: CO_343:0000408
 name: yam big size tuber width trait
 def: "Average width of big size tubers harvested in a net plot or unit area" [CO:curators]
 synonym: "Btbrwd" EXACT []
 is_a: TO:0001060 ! subterranean shoot axis tuber width
-
-[Term]
-id: CO_343:0000409
-name: yam big tuber width computation in cm variable
-synonym: "Btbrwidth" EXACT []
-is_a: CO_343:0000408 ! yam big size tuber width trait
-relationship: variable_of CO_343:0000408 ! yam big size tuber width trait
-relationship: variable_of CO_343:0010137 ! yam width of big size tubers-computation method
-relationship: variable_of CO_343:0100009 ! yam cm scale
 
 [Term]
 id: CO_343:0000410
@@ -2043,29 +908,11 @@ synonym: "Mtbrwd" EXACT []
 is_a: TO:0001060 ! subterranean shoot axis tuber width
 
 [Term]
-id: CO_343:0000411
-name: yam medium tuber width computation in cm variable
-synonym: "Mtbrwidth" EXACT []
-is_a: CO_343:0000410 ! yam medium size tuber width trait
-relationship: variable_of CO_343:0000410 ! yam medium size tuber width trait
-relationship: variable_of CO_343:0010138 ! yam width of medium size tubers-computation method
-relationship: variable_of CO_343:0100009 ! yam cm scale
-
-[Term]
 id: CO_343:0000412
 name: yam small size tuber width trait
 def: "Average width of small size tubers harvested in a net plot or unit area" [CO:curators]
 synonym: "Stbrwd" EXACT []
 is_a: TO:0001060 ! subterranean shoot axis tuber width
-
-[Term]
-id: CO_343:0000413
-name: yam small tuber width computation in cm variable
-synonym: "Stbrwidth" EXACT []
-is_a: CO_343:0000412 ! yam small size tuber width trait
-relationship: variable_of CO_343:0000412 ! yam small size tuber width trait
-relationship: variable_of CO_343:0010139 ! yam width of small size tubers-computation method
-relationship: variable_of CO_343:0100009 ! yam cm scale
 
 [Term]
 id: CO_343:0000414
@@ -2075,28 +922,11 @@ synonym: "Tbrwd" EXACT []
 is_a: TO:0001060 ! subterranean shoot axis tuber width
 
 [Term]
-id: CO_343:0000415
-name: yam average tuber width computation in cm variable
-synonym: "tbrwidth" EXACT []
-is_a: CO_343:0000414 ! yam tuber width trait
-relationship: variable_of CO_343:0000414 ! yam tuber width trait
-relationship: variable_of CO_343:0010140 ! yam tuber wideth-computation method
-relationship: variable_of CO_343:0100009 ! yam cm scale
-
-[Term]
 id: CO_343:0000416
 name: yam tuber cracks trait
 def: "Cracks on tuber surface" [CO:curators]
 synonym: "CTBRS" EXACT []
 is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
-
-[Term]
-id: CO_343:0000417
-name: yam tuber surface crack estimation 0-3 variable
-is_a: CO_343:0000416 ! yam tuber cracks trait
-relationship: variable_of CO_343:0000416 ! yam tuber cracks trait
-relationship: variable_of CO_343:0010141 ! yam cracks on the tuber surface-estimation method
-relationship: variable_of CO_343:0100048 ! yam 0-3 scale
 
 [Term]
 id: CO_343:0000418
@@ -2106,27 +936,11 @@ synonym: "CRZROOT" EXACT []
 is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 [Term]
-id: CO_343:0000419
-name: yam crazy roots presence estimation  0&1 variable
-is_a: CO_343:0000418 ! yam crazy roots presence trait
-relationship: variable_of CO_343:0000418 ! yam crazy roots presence trait
-relationship: variable_of CO_343:0010142 ! yam crazy roots presence on tubers at harvest-estimation method
-relationship: variable_of CO_343:0100049 ! yam 0-1  scale
-
-[Term]
 id: CO_343:0000420
 name: yam corm on tuber trait
 def: "Presence or absence of corm on tuber" [CO:curators]
 synonym: "corm" EXACT []
 is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
-
-[Term]
-id: CO_343:0000421
-name: yam corm estimation binary 0&1 variable
-is_a: CO_343:0000420 ! yam corm on tuber trait
-relationship: variable_of CO_343:0000420 ! yam corm on tuber trait
-relationship: variable_of CO_343:0010143 ! yam corm on tubers-estimation method
-relationship: variable_of CO_343:0100049 ! yam 0-1  scale
 
 [Term]
 id: CO_343:0000422
@@ -2136,29 +950,11 @@ synonym: "corsep" EXACT []
 is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 [Term]
-id: CO_343:0000423
-name: yam separability of corm estimation binary 0&1 variable
-synonym: "cormsep" EXACT []
-is_a: CO_343:0000422 ! yam corm separability from tuber trait
-relationship: variable_of CO_343:0000422 ! yam corm separability from tuber trait
-relationship: variable_of CO_343:0010144 ! yam corm separation from tuber-estimation method
-relationship: variable_of CO_343:0100049 ! yam 0-1  scale
-
-[Term]
 id: CO_343:0000424
 name: yam corm size trait
 def: "Size of corm in relation to tuber" [CO:curators]
 synonym: "corsz" EXACT []
 is_a: TO:0000077 ! shoot system morphology trait
-
-[Term]
-id: CO_343:0000425
-name: yam corm size estimation 1-3 variable
-synonym: "Cormsize" EXACT []
-is_a: CO_343:0000424 ! yam corm size trait
-relationship: variable_of CO_343:0000424 ! yam corm size trait
-relationship: variable_of CO_343:0010145 ! yam corm size-estimation method
-relationship: variable_of CO_343:0100011 ! yam 1-3 general scale
 
 [Term]
 id: CO_343:0000426
@@ -2168,83 +964,11 @@ synonym: "cortyp" EXACT []
 is_a: TO:0000077 ! shoot system morphology trait
 
 [Term]
-id: CO_343:0000427
-name: yam corm type estimation 1-3 variable
-synonym: "Cormtype" EXACT []
-is_a: CO_343:0000426 ! yam corm type trait
-relationship: variable_of CO_343:0000426 ! yam corm type trait
-relationship: variable_of CO_343:0010146 ! yam corm type-estimation method
-relationship: variable_of CO_343:0100011 ! yam 1-3 general scale
-
-[Term]
-id: CO_343:0000428
-name: yam tuber dormancy period estimation variable
-synonym: "Dorm" EXACT []
-is_a: CO_343:0000036 ! yam tuber dormancy period trait
-relationship: variable_of CO_343:0000036 ! yam tuber dormancy period trait
-relationship: variable_of CO_343:0010147 ! yam dormancy period -estimation method
-relationship: variable_of CO_343:0100016 ! yam 1-4 general scale
-
-[Term]
-id: CO_343:0000429
-name: yam dry matter content percentage variable
-synonym: "TDMC" EXACT []
-is_a: CO_343:0000174 ! yam tuber dry matter content trait
-relationship: variable_of CO_343:0000174 ! yam tuber dry matter content trait
-relationship: variable_of CO_343:0010148 ! yam tuber dry matter content - computation method
-relationship: variable_of CO_343:0100006 ! yam % scale
-
-[Term]
-id: CO_343:0000430
-name: yam tuber flesh color upper portion estimation 1-9 variable
-synonym: "Flcolr_head" EXACT []
-is_a: CO_343:0000147 ! yam tuber flesh color trait
-relationship: variable_of CO_343:0000147 ! yam tuber flesh color trait
-relationship: variable_of CO_343:0010149 ! yam tuber flesh color head portion - estimation method
-relationship: variable_of CO_343:0100012 ! yam 1-7 general scale
-
-[Term]
-id: CO_343:0000431
-name: yam tuber flesh color middle portion estimation 1-9 variable
-synonym: "Flcolr_middle" EXACT []
-is_a: CO_343:0000147 ! yam tuber flesh color trait
-relationship: variable_of CO_343:0000147 ! yam tuber flesh color trait
-relationship: variable_of CO_343:0010150 ! yam tuber flesh color middle portion - estimation method
-relationship: variable_of CO_343:0100012 ! yam 1-7 general scale
-
-[Term]
-id: CO_343:0000432
-name: yam tuber flesh color lower portion estimation 1-9 variable
-synonym: "Flcolr_tail" EXACT []
-is_a: CO_343:0000147 ! yam tuber flesh color trait
-relationship: variable_of CO_343:0000147 ! yam tuber flesh color trait
-relationship: variable_of CO_343:0010151 ! yam tuber flesh color lower or tail portion- estimation method
-relationship: variable_of CO_343:0100012 ! yam 1-7 general scale
-
-[Term]
-id: CO_343:0000434
-name: yam tuber flesh color measurement variable
-synonym: "Tbrflcolr" EXACT []
-is_a: CO_343:0000147 ! yam tuber flesh color trait
-relationship: variable_of CO_343:0000147 ! yam tuber flesh color trait
-relationship: variable_of CO_343:0010152 ! yam tuber flesh color reading -measurement method
-relationship: variable_of CO_343:0100033 ! yam number scale
-
-[Term]
 id: CO_343:0000435
 name: yam tuber flesh cross-section color uniformity trait
 def: "Uniformity of tuber flesh surface color in cross-section ( from cortex to center)" [CO:curators]
 synonym: "Utfc" EXACT []
 is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
-
-[Term]
-id: CO_343:0000436
-name: yam uniformity of tuber flesh color estimation binary 0&1 variable
-synonym: "flcol_uni" EXACT []
-is_a: CO_343:0000435 ! yam tuber flesh cross-section color uniformity trait
-relationship: variable_of CO_343:0000435 ! yam tuber flesh cross-section color uniformity trait
-relationship: variable_of CO_343:0010153 ! yam tuber flesh cross section color uniformity-estimation method
-relationship: variable_of CO_343:0100007 ! yam 0-1 scale
 
 [Term]
 id: CO_343:0000437
@@ -2254,36 +978,11 @@ synonym: "Intoxd" EXACT []
 is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 [Term]
-id: CO_343:0000438
-name: yam intensity of tuber flesh oxidation estimation 0-3 variable
-is_a: CO_343:0000437 ! yam tuber flesh oxidation intensity trait
-relationship: variable_of CO_343:0000437 ! yam tuber flesh oxidation intensity trait
-relationship: variable_of CO_343:0010154 ! yam tuber flesh oxidation intensity-estimation method
-relationship: variable_of CO_343:0100048 ! yam 0-3 scale
-
-[Term]
 id: CO_343:0000439
 name: yam tuber flesh texture trait
 def: "Texture of tuber flesh" [CO:curators]
 synonym: "Txf" EXACT []
 is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
-
-[Term]
-id: CO_343:0000440
-name: yam tuber flesh texture estimation 1-3 variable
-is_a: CO_343:0000439 ! yam tuber flesh texture trait
-relationship: variable_of CO_343:0000439 ! yam tuber flesh texture trait
-relationship: variable_of CO_343:0010155 ! yam tuber flesh texture-estimation method
-relationship: variable_of CO_343:0100022 ! yam 1-3 scale
-
-[Term]
-id: CO_343:0000441
-name: yam tuber oxidation estimation 1-3 variable
-synonym: "Oxid" EXACT []
-is_a: CO_343:0000150 ! yam tuber flesh oxidation trait
-relationship: variable_of CO_343:0000150 ! yam tuber flesh oxidation trait
-relationship: variable_of CO_343:0010156 ! yam tuber oxidation-estimation method
-relationship: variable_of CO_343:0100022 ! yam 1-3 scale
 
 [Term]
 id: CO_343:0000442
@@ -2293,27 +992,11 @@ synonym: "Foxdc" EXACT []
 is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 [Term]
-id: CO_343:0000443
-name: yam flesh oxidation color estimation 1-4 variable
-is_a: CO_343:0000442 ! yam tuber flesh oxidation color trait
-relationship: variable_of CO_343:0000442 ! yam tuber flesh oxidation color trait
-relationship: variable_of CO_343:0010157 ! yam tuber flesh oxidation color-estimation method
-relationship: variable_of CO_343:0100023 ! yam 1-4 scale
-
-[Term]
 id: CO_343:0000444
 name: yam cohesiveness of pounded yam trait
 def: "Degree to which particles of a sample stick together or how moldable it is" [CO:curators]
 synonym: "cohpdym" EXACT []
 is_a: TO:0001068 ! processing quality trait
-
-[Term]
-id: CO_343:0000445
-name: yam cohesiveness estimation 1-3 variable
-is_a: CO_343:0000444 ! yam cohesiveness of pounded yam trait
-relationship: variable_of CO_343:0000444 ! yam cohesiveness of pounded yam trait
-relationship: variable_of CO_343:0010158 ! yam cohesiveness of pounded yam- estimation method
-relationship: variable_of CO_343:0100022 ! yam 1-3 scale
 
 [Term]
 id: CO_343:0000446
@@ -2324,28 +1007,11 @@ synonym: "tretchability or elasticity of pounded yam" EXACT []
 is_a: TO:0001068 ! processing quality trait
 
 [Term]
-id: CO_343:0000447
-name: yam springness estimation 1-2 variable
-synonym: "Strepdym" EXACT []
-is_a: CO_343:0000446 ! yam springiness of pounded yam trait
-relationship: variable_of CO_343:0000446 ! yam springiness of pounded yam trait
-relationship: variable_of CO_343:0010159 ! yam springiness of pounded yam-estimation method
-relationship: variable_of CO_343:0100027 ! yam 1-2 scale
-
-[Term]
 id: CO_343:0000448
 name: yam smoothness of pounded yam trait
 def: "Smoothnessof the material, i.e., absence of lumps" [CO:curators]
 synonym: "smthpdym" EXACT []
 is_a: TO:0001068 ! processing quality trait
-
-[Term]
-id: CO_343:0000449
-name: yam smoothness estimation 1-3 variable
-is_a: CO_343:0000448 ! yam smoothness of pounded yam trait
-relationship: variable_of CO_343:0000448 ! yam smoothness of pounded yam trait
-relationship: variable_of CO_343:0010160 ! yam smoothness of pounded yam- estimation method
-relationship: variable_of CO_343:0100022 ! yam 1-3 scale
 
 [Term]
 id: CO_343:0000450
@@ -2355,32 +1021,6 @@ synonym: "fbrpdym" EXACT []
 is_a: TO:0001068 ! processing quality trait
 
 [Term]
-id: CO_343:0000451
-name: yam fiber estimation 1-2 variable
-is_a: CO_343:0000450 ! yam fibrousness of pounded yam trait
-relationship: variable_of CO_343:0000450 ! yam fibrousness of pounded yam trait
-relationship: variable_of CO_343:0010161 ! yam presence of fiber strand-estimation method
-relationship: variable_of CO_343:0100027 ! yam 1-2 scale
-
-[Term]
-id: CO_343:0000452
-name: yam stickiness estimation 1-3 variable
-synonym: "Con_Stick_PY" EXACT []
-is_a: CO_343:0000191 ! yam stickiness of pounded yam trait
-relationship: variable_of CO_343:0000191 ! yam stickiness of pounded yam trait
-relationship: variable_of CO_343:0010162 ! yam stickiness of pounded yam - estimation method
-relationship: variable_of CO_343:0100011 ! yam 1-3 general scale
-
-[Term]
-id: CO_343:0000453
-name: yam taste estimation 1-5 variable
-synonym: "Con_Taste_PY" EXACT []
-is_a: CO_343:0000194 ! yam taste of pounded yam trait
-relationship: variable_of CO_343:0000194 ! yam taste of pounded yam trait
-relationship: variable_of CO_343:0010163 ! yam taste of pounded yam - estimation method
-relationship: variable_of CO_343:0100008 ! yam 1-5 scale
-
-[Term]
 id: CO_343:0000454
 name: yam scale insect infestation trait
 def: "Scale insect infestation on tubers at harvest" [CO:curators]
@@ -2388,27 +1028,11 @@ synonym: "Scalisec" EXACT []
 is_a: TO:0000261 ! insect damage response trait
 
 [Term]
-id: CO_343:0000455
-name: yam scale insect infestation estimation 0-2 variable
-is_a: CO_343:0000454 ! yam scale insect infestation trait
-relationship: variable_of CO_343:0000454 ! yam scale insect infestation trait
-relationship: variable_of CO_343:0010164 ! yam scale insect infestation - estimation method
-relationship: variable_of CO_343:0100010 ! yam 0-2 scale
-
-[Term]
 id: CO_343:0000456
 name: yam stem color trait
 def: "The surface color of stem" [CO:curators]
 synonym: "Stmcol" EXACT []
 is_a: TO:0000056 ! stem color
-
-[Term]
-id: CO_343:0000457
-name: yam stem color estimatiion 1-5 variable
-is_a: CO_343:0000456 ! yam stem color trait
-relationship: variable_of CO_343:0000456 ! yam stem color trait
-relationship: variable_of CO_343:0010165 ! yam stem color - estimation method
-relationship: variable_of CO_343:0100008 ! yam 1-5 scale
 
 [Term]
 id: CO_343:0000458
@@ -2419,27 +1043,11 @@ synonym: "Lfden" EXACT []
 is_a: TO:0000077 ! shoot system morphology trait
 
 [Term]
-id: CO_343:0000459
-name: yam leaf density estimation 1-7 variable
-is_a: CO_343:0000458 ! yam leaf density trait
-relationship: variable_of CO_343:0000458 ! yam leaf density trait
-relationship: variable_of CO_343:0010166 ! yam leaf density - estimation method
-relationship: variable_of CO_343:0100050 ! yam 1-7 scale
-
-[Term]
 id: CO_343:0000460
 name: yam branch number trait
 def: "Number of branches above ground" [CO:curators]
 synonym: "branch" EXACT []
 is_a: TO:0000646 ! cauline axillary branch number
-
-[Term]
-id: CO_343:0000461
-name: yam number of branches per plant count variable
-is_a: CO_343:0000460 ! yam branch number trait
-relationship: variable_of CO_343:0000460 ! yam branch number trait
-relationship: variable_of CO_343:0010167 ! yam number of branchs - computation method
-relationship: variable_of CO_343:0100051 ! yam number of branch scale
 
 [Term]
 id: CO_343:0000462
@@ -2450,27 +1058,11 @@ synonym: "vine length" EXACT []
 is_a: TO:0000576 ! stem length
 
 [Term]
-id: CO_343:0000463
-name: yam stem height measurement in m variable
-is_a: CO_343:0000462 ! yam stem height trait
-relationship: variable_of CO_343:0000462 ! yam stem height trait
-relationship: variable_of CO_343:0010168 ! yam stem height - computation method
-relationship: variable_of CO_343:0100052 ! yam m scale
-
-[Term]
 id: CO_343:0000464
 name: yam number of leaves trait
 def: "The number of leaves on a plant" [CO:curators]
 synonym: "Nlfyp" EXACT []
 is_a: TO:0000241 ! leaf number trait
-
-[Term]
-id: CO_343:0000465
-name: yam number of leaves per plant count variable
-is_a: CO_343:0000464 ! yam number of leaves trait
-relationship: variable_of CO_343:0000464 ! yam number of leaves trait
-relationship: variable_of CO_343:0010169 ! yam number of leaves - computation method
-relationship: variable_of CO_343:0100053 ! yam number of leaf scale
 
 [Term]
 id: CO_343:0000466
@@ -2481,27 +1073,11 @@ synonym: "lfpst" EXACT []
 is_a: TO:0000541 ! leaf position
 
 [Term]
-id: CO_343:0000467
-name: yam leaf position estiamtion 1-3 variable
-is_a: CO_343:0000466 ! yam leaf position trait
-relationship: variable_of CO_343:0000466 ! yam leaf position trait
-relationship: variable_of CO_343:0010170 ! yam leaf position - estimation method
-relationship: variable_of CO_343:0100022 ! yam 1-3 scale
-
-[Term]
 id: CO_343:0000468
 name: yam leaf length trait
 def: "Length of leaf" [CO:curators]
 synonym: "lflngth" EXACT []
 is_a: TO:0000135 ! leaf length
-
-[Term]
-id: CO_343:0000469
-name: yam leaf length measurement in cm variable
-is_a: CO_343:0000468 ! yam leaf length trait
-relationship: variable_of CO_343:0000468 ! yam leaf length trait
-relationship: variable_of CO_343:0010171 ! yam leaf length - computation method
-relationship: variable_of CO_343:0100009 ! yam cm scale
 
 [Term]
 id: CO_343:0000470
@@ -2511,35 +1087,11 @@ synonym: "lfwdt" EXACT []
 is_a: TO:0000370 ! leaf width
 
 [Term]
-id: CO_343:0000471
-name: yam leaf width measurement in cm variable
-is_a: CO_343:0000470 ! yam leaf width trait
-relationship: variable_of CO_343:0000470 ! yam leaf width trait
-relationship: variable_of CO_343:0010172 ! yam leaf width - computation method
-relationship: variable_of CO_343:0100009 ! yam cm scale
-
-[Term]
-id: CO_343:0000472
-name: yam internode length measurement in cm variable
-is_a: CO_343:0000230 ! yam internode length trait
-relationship: variable_of CO_343:0000230 ! yam internode length trait
-relationship: variable_of CO_343:0010173 ! yam internode length - computation method
-relationship: variable_of CO_343:0100009 ! yam cm scale
-
-[Term]
 id: CO_343:0000473
 name: yam stem hairiness trait
 def: "Hairiness of stem" [CO:curators]
 synonym: "stmhair" EXACT []
 is_a: TO:0000879 ! stem hairiness
-
-[Term]
-id: CO_343:0000474
-name: yam stem hairiness estimation 0-2 variable
-is_a: CO_343:0000473 ! yam stem hairiness trait
-relationship: variable_of CO_343:0000473 ! yam stem hairiness trait
-relationship: variable_of CO_343:0010174 ! yam hair on stem - estimation method
-relationship: variable_of CO_343:0100010 ! yam 0-2 scale
 
 [Term]
 id: CO_343:0000475
@@ -2549,43 +1101,11 @@ synonym: "ylfcol" EXACT []
 is_a: TO:0000326 ! leaf color
 
 [Term]
-id: CO_343:0000476
-name: yam young leaf color estimation 1-5 variable
-is_a: CO_343:0000475 ! yam leaf color trait
-relationship: variable_of CO_343:0000475 ! yam leaf color trait
-relationship: variable_of CO_343:0010175 ! yam leaf color - estimation method
-relationship: variable_of CO_343:0100008 ! yam 1-5 scale
-
-[Term]
-id: CO_343:0000477
-name: yam mature leaf color estimation 1-5 variable
-is_a: CO_343:0000475 ! yam leaf color trait
-relationship: variable_of CO_343:0000475 ! yam leaf color trait
-relationship: variable_of CO_343:0010175 ! yam leaf color - estimation method
-relationship: variable_of CO_343:0100008 ! yam 1-5 scale
-
-[Term]
 id: CO_343:0000478
 name: yam vein color trait
 def: "Color or pigmentation of leaf vein" [CO:curators]
 synonym: "uveincol" EXACT []
 is_a: TO:0000719 ! leaf vein color
-
-[Term]
-id: CO_343:0000479
-name: yam upper surface vein color estimation 1-4 variable
-is_a: CO_343:0000478 ! yam vein color trait
-relationship: variable_of CO_343:0000478 ! yam vein color trait
-relationship: variable_of CO_343:0010176 ! yam vein color - estimation method
-relationship: variable_of CO_343:0100023 ! yam 1-4 scale
-
-[Term]
-id: CO_343:0000480
-name: yam lower surface vein color estimation 1-4 variable
-is_a: CO_343:0000478 ! yam vein color trait
-relationship: variable_of CO_343:0000478 ! yam vein color trait
-relationship: variable_of CO_343:0010176 ! yam vein color - estimation method
-relationship: variable_of CO_343:0100023 ! yam 1-4 scale
 
 [Term]
 id: CO_343:0000481
@@ -2595,35 +1115,11 @@ synonym: "ulfhair" EXACT []
 is_a: TO:0002722 ! leaf pubescence
 
 [Term]
-id: CO_343:0000482
-name: yam upper surface leaf hairiness estimation 0-2 variable
-is_a: CO_343:0000481 ! yam leaf hairiness trait
-relationship: variable_of CO_343:0000481 ! yam leaf hairiness trait
-relationship: variable_of CO_343:0010177 ! yam leaf hairiness - estimation method
-relationship: variable_of CO_343:0100010 ! yam 0-2 scale
-
-[Term]
-id: CO_343:0000483
-name: yam lower surface leaf hairiness estimation 0-2 variable
-is_a: CO_343:0000481 ! yam leaf hairiness trait
-relationship: variable_of CO_343:0000481 ! yam leaf hairiness trait
-relationship: variable_of CO_343:0010177 ! yam leaf hairiness - estimation method
-relationship: variable_of CO_343:0100010 ! yam 0-2 scale
-
-[Term]
 id: CO_343:0000484
 name: yam petiole length trait
 def: "Length of petiole" [CO:curators]
 synonym: "petlngth" EXACT []
 is_a: TO:0000766 ! petiole length
-
-[Term]
-id: CO_343:0000485
-name: yam petiole length measurement in cm variable
-is_a: CO_343:0000484 ! yam petiole length trait
-relationship: variable_of CO_343:0000484 ! yam petiole length trait
-relationship: variable_of CO_343:0010178 ! yam petiole length - computation method
-relationship: variable_of CO_343:0100009 ! yam cm scale
 
 [Term]
 id: CO_343:0000494
