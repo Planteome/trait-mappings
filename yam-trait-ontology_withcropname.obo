@@ -1,19 +1,18 @@
 format-version: 1.2
-auto-generated-by: java
 default-namespace: CO_343_yam
 ontology: co_343
 
 [Term]
 id: CO_343:0000000
 name: yam pollinated florets number trait
-def: "Quantity of Female Flowers which has been pollinated using male flower from a monoecious or dioecious parent." [CO:curators]
+def: "Quantity of female flowers which have been pollinated using male flower from a monoecious or dioecious parent." [CO:curators]
 synonym: "NpollF" EXACT []
 is_a: TO:0000670 ! floret number
 
 [Term]
 id: CO_343:0000003
 name: yam pollinated spikes number trait
-def: "Quantity of Female spikes where flowers has been pollinated using male flower from a monoecious or dioecious parent." [CO:curators]
+def: "Quantity of female spikes where flowers has been pollinated using male flower from a monoecious or dioecious parent." [CO:curators]
 synonym: "NPollSpk" EXACT []
 is_a: TO:0000582 ! inflorescence number
 
@@ -57,14 +56,14 @@ is_a: TO:0001145 ! Ascomycete fungal disease response
 [Term]
 id: CO_343:0000024
 name: yam tuber shape trait
-def: "Tuber predominant shape" [CO:curators]
+def: "Tuber predominant shape." [CO:curators]
 synonym: "TbrSh" EXACT []
 is_a: TO:0000743 ! subterranean shoot axis tuber shape
 
 [Term]
 id: CO_343:0000027
 name: yam tuber size trait
-def: "Tuber size" [CO:curators]
+def: "Tuber size." [CO:curators]
 synonym: "TbrSz" EXACT []
 is_a: TO:0000744 ! subterranean shoot axis tuber size
 
@@ -113,7 +112,7 @@ is_a: TO:0000384 ! nematode damage response trait
 [Term]
 id: CO_343:0000057
 name: yam weight of planted tubers trait
-def: "Weight of seed tubers (whole seed yams or setts ) planted in a plot  or per unit area. Planting  material from a tuber is called sett. Seed tuber could be either small, healthy whole tuber or large tubers cut into pieces (sett)" [CO:curators]
+def: "Weight of seed tubers (whole seed yams or setts ) planted in a plot or per unit area. Planting  material from a tuber is called sett. Seed tuber could be either small, healthy whole tuber or large tubers cut into pieces (sett)." [CO:curators]
 synonym: "Setts planted weight" EXACT []
 synonym: "WTP" EXACT []
 is_a: TO:0000746 ! subterranean shoot axis tuber mass
@@ -135,7 +134,7 @@ is_a: TO:0000739 ! shoot axis morphology trait
 [Term]
 id: CO_343:0000066
 name: yam proportion of emerged plants trait
-def: "Proportion of plants /sprouts emerged in a plot" [CO:curators]
+def: "Proportion of plants/sprouts emerged in a plot." [CO:curators]
 synonym: "PPE" EXACT []
 synonym: "ratio of emerged plants or sprouts" EXACT []
 is_a: TO:0000250 ! plant vigor trait
@@ -143,7 +142,7 @@ is_a: TO:0000250 ! plant vigor trait
 [Term]
 id: CO_343:0000069
 name: yam proportion of established plants trait
-def: "Proportion of plants in a plot well established (plants growing with good vigour and without severe constraints)" [CO:curators]
+def: "Proportion of plants in a plot well established (plants growing with good vigour and without severe constraints)." [CO:curators]
 synonym: "Plant establishement ratio" EXACT []
 synonym: "STRATE" EXACT []
 is_a: TO:0000250 ! plant vigor trait
@@ -151,7 +150,7 @@ is_a: TO:0000250 ! plant vigor trait
 [Term]
 id: CO_343:0000072
 name: yam stems per plant trait
-def: "Number of stems (vines) with leaves and branches per plant" [CO:curators]
+def: "Number of stems (vines) with leaves and branches per plant." [CO:curators]
 synonym: "Nstem" EXACT []
 is_a: TO:0000953 ! stem number
 
@@ -166,35 +165,35 @@ is_a: TO:0001145 ! Ascomycete fungal disease response
 [Term]
 id: CO_343:0000081
 name: yam virus incidence trait
-def: "Reaction of the total plants per plot to the virus infection, producing yellow mottle, mosaic and leaves deformation" [CO:curators]
+def: "Reaction of the total plants per plot to the virus infection, producing yellow mottle, mosaic and leaves deformation." [CO:curators]
 synonym: "VirusInc" EXACT []
 is_a: TO:0000148 ! viral disease response trait
 
 [Term]
 id: CO_343:0000084
 name: yam virus severity trait
-def: "Grade of reaction of the plant to the viruses infection, varying from mottle, mosaics until total leaves deformation" [CO:curators]
+def: "Grade of reaction of the plant to the viruses infection, varying from mottle, mosaics until total leaves deformation." [CO:curators]
 synonym: "VirusSev" EXACT []
 is_a: TO:0000148 ! viral disease response trait
 
 [Term]
 id: CO_343:0000087
 name: yam secondary sprouting trait
-def: "Emergence of secondary sprouts on a plant" [CO:curators]
+def: "Emergence of secondary sprouts on a plant." [CO:curators]
 synonym: "SecSP" EXACT []
 is_a: TO:0000250 ! plant vigor trait
 
 [Term]
 id: CO_343:0000090
 name: yam time to flower initiation trait
-def: "Time of the first flower initiation on a plant/s in a plot or any of the plants in a plot shows the first flower" [CO:curators]
+def: "Time of the first flower initiation on a plant in a plot, or any of the plants in a plot, shows the first flower." [CO:curators]
 synonym: "TIMFlrin" EXACT []
 is_a: TO:0002616 ! flowering time trait
 
 [Term]
 id: CO_343:0000096
 name: yam flowering intensity trait
-def: "Abundance or degree of flowering" [CO:curators]
+def: "Abundance or degree of flowering." [CO:curators]
 synonym: "Flrint" EXACT []
 is_a: TO:0002736 ! flower number trait
 
@@ -208,7 +207,7 @@ is_a: TO:0000852 ! fruit set trait
 [Term]
 id: CO_343:0000105
 name: yam presence of bulbil trait
-def: "Presence of bulbils or aerial tubers in the nodes of the vines" [CO:curators]
+def: "Presence of bulbils or aerial tubers in the nodes of the vines." [CO:curators]
 synonym: "Aerial tuber formation" EXACT []
 synonym: "bulbil" EXACT []
 is_a: TO:0000077 ! shoot system morphology trait
@@ -216,7 +215,7 @@ is_a: TO:0000077 ! shoot system morphology trait
 [Term]
 id: CO_343:0000108
 name: yam time to bulbil initiation trait
-def: "Bulbil initiation time" [CO:curators]
+def: "Bulbil initiation time." [CO:curators]
 synonym: "Aerial tuber initiation time" EXACT []
 synonym: "TIMbub" EXACT []
 is_a: TO:0000933 ! plant phenological trait
@@ -224,7 +223,7 @@ is_a: TO:0000933 ! plant phenological trait
 [Term]
 id: CO_343:0000111
 name: yam foliage senescence time trait
-def: "Time to all plants in a plot or unit area show full or complete foliage senescence" [CO:curators]
+def: "Time to all plants in a plot or unit area show full or complete foliage senescence." [CO:curators]
 synonym: "Times to complete senescence" EXACT []
 synonym: "TIMfsen" EXACT []
 is_a: TO:0012012 ! leaf senescence duration
@@ -232,7 +231,7 @@ is_a: TO:0012012 ! leaf senescence duration
 [Term]
 id: CO_343:0000117
 name: yam number of bulbil trait
-def: "Number of bulbils or aerial tubers produced" [CO:curators]
+def: "Number of bulbils or aerial tubers produced." [CO:curators]
 synonym: "Bulbp" EXACT []
 synonym: "Number of aerial tuber" EXACT []
 is_a: TO:0000077 ! shoot system morphology trait
@@ -240,7 +239,7 @@ is_a: TO:0000077 ! shoot system morphology trait
 [Term]
 id: CO_343:0000120
 name: yam bulbil yield trait
-def: "Yield of vine bulbils or aerial tubers harvest" [CO:curators]
+def: "Yield of vine bulbils or aerial tubers harvest." [CO:curators]
 synonym: "Aerial tuber yield" EXACT []
 synonym: "Bulbwtpl" EXACT []
 is_a: TO:0000327 ! shoot system yield trait
@@ -248,42 +247,42 @@ is_a: TO:0000327 ! shoot system yield trait
 [Term]
 id: CO_343:0000126
 name: yam total tubers per plot trait
-def: "Number of total (all size) tubers in a net plot or unit area" [CO:curators]
+def: "Number of total (all size) tubers in a net plot or unit area." [CO:curators]
 synonym: "TNTP" EXACT []
 is_a: TO:0001071 ! shoot axis tuber yield
 
 [Term]
 id: CO_343:0000132
 name: yam total tuber yield trait
-def: "Total tuber yield nonadjusted tons per hectare" [CO:curators]
+def: "Total tuber yield nonadjusted tons per hectare." [CO:curators]
 synonym: "TTYNA" EXACT []
 is_a: TO:0001071 ! shoot axis tuber yield
 
 [Term]
 id: CO_343:0000135
 name: yam big size yam yield trait
-def: "Big size tubers yield nonadjusted tons per hectare" [CO:curators]
+def: "Big size tubers yield nonadjusted tons per hectare." [CO:curators]
 synonym: "BTYld" EXACT []
 is_a: TO:0001071 ! shoot axis tuber yield
 
 [Term]
 id: CO_343:0000138
 name: Rotten tuber weight
-def: "Weight of rotten/diseased tubers" [CO:curators]
+def: "Weight of rotten/diseased tubers." [CO:curators]
 synonym: "RDTW" EXACT []
 is_a: TO:0000746 ! subterranean shoot axis tuber mass
 
 [Term]
 id: CO_343:0000141
 name: yam tuber surface texture trait
-def: "Tuber surface smoothness" [CO:curators]
+def: "Tuber surface smoothness." [CO:curators]
 synonym: "Tbrtxtur" EXACT []
 is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 [Term]
 id: CO_343:0000144
 name: yam tuber thorniness trait
-def: "Exsistence of thorns on the tuber surface" [CO:curators]
+def: "Exsistence of thorns on the tuber surface." [CO:curators]
 synonym: "Thorn" EXACT []
 synonym: "Tuber spineness" EXACT []
 is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
@@ -291,14 +290,14 @@ is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 [Term]
 id: CO_343:0000147
 name: yam tuber flesh color trait
-def: "The surface color of the yam tuber flesh" [CO:curators]
+def: "The surface color of the yam tuber flesh." [CO:curators]
 synonym: "Tbrfclr" EXACT []
 is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 [Term]
 id: CO_343:0000150
 name: yam tuber flesh oxidation trait
-def: "Tuber flesh enzymatic oxidation rate" [CO:curators]
+def: "Tuber flesh enzymatic oxidation rate." [CO:curators]
 synonym: "Tfoxd" EXACT []
 is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
@@ -354,147 +353,147 @@ is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 [Term]
 id: CO_343:0000180
 name: yam seeds set per fruit trait
-def: "Number of seeds developed per fruit after hand flowers pollination" [CO:curators]
+def: "Number of seeds developed per fruit after hand flowers pollination." [CO:curators]
 synonym: "SdSet" EXACT []
 is_a: TO:0000445 ! fruit seed number
 
 [Term]
 id: CO_343:0000183
 name: yam tuber hairiness trait
-def: "Presence of secondary roots on the tuber bark" [CO:curators]
+def: "Presence of secondary roots on the tuber bark." [CO:curators]
 synonym: "RTBS" EXACT []
 is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 [Term]
 id: CO_343:0000188
 name: yam tuber appearance trait
-def: "Tuber surface look in relation to presence or absence of roots, thorns and sprouted buds on the tuber surface" [CO:curators]
+def: "Tuber surface look in relation to presence or absence of roots, thorns and sprouted buds on the tuber surface." [CO:curators]
 synonym: "Tbrappr" EXACT []
 is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 [Term]
 id: CO_343:0000191
 name: yam stickiness of pounded yam trait
-def: "The degree to which the pounded yam is adhesive or stick to the fingure, mouth surface and teeth" [CO:curators]
+def: "The degree to which the pounded yam is adhesive or sticks to the fingers, mouth surface and teeth." [CO:curators]
 synonym: "StickPndedYam" EXACT []
 is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_343:0000194
 name: yam taste of pounded yam trait
-def: "Taste of pounded yam when eaten without any additional complementary food" [CO:curators]
+def: "Taste of pounded yam when eaten without any additional complementary food." [CO:curators]
 synonym: "TastePndedYam" EXACT []
 is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_343:0000198
 name: yam first sprout emergence time trait
-def: "Time to the  first sprout (plant) emerge in a plot" [CO:curators]
+def: "Time to the  first sprout (plant) emerge in a plot." [CO:curators]
 synonym: "TIMFSE" EXACT []
 is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_343:0000200
 name: yam 50% sprout emergence time trait
-def: "Time to 50% sprouts (plants) emerge in a plot" [CO:curators]
+def: "Time to 50% sprouts (plants) emerge in a plot." [CO:curators]
 synonym: "TIMSE" EXACT []
 is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_343:0000204
 name: yam number of emerged plants trait
-def: "Number of an emerged plants (sprouts) in a plot" [CO:curators]
+def: "Number of an emerged plants (sprouts) in a plot." [CO:curators]
 synonym: "NEP" EXACT []
 is_a: TO:0000250 ! plant vigor trait
 
 [Term]
 id: CO_343:0000207
 name: yam established plants trait
-def: "Number of well established plants ( plants growing with good vigour and without severe constraints) in a plot" [CO:curators]
+def: "Number of well established plants ( plants growing with good vigour and without severe constraints) in a plot." [CO:curators]
 synonym: "NESP" EXACT []
 is_a: TO:0000250 ! plant vigor trait
 
 [Term]
 id: CO_343:0000212
 name: yam sprout length trait
-def: "Length of sprouted shoots (vines)" [CO:curators]
+def: "Length of sprouted shoots (vines)." [CO:curators]
 synonym: "Spleng" EXACT []
 is_a: TO:0000739 ! shoot axis morphology trait
 
 [Term]
 id: CO_343:0000214
 name: yam presence of spot on spine base trait
-def: "Presence of colored spots at the spine base of sprouted shoots (vine) with spines" [CO:curators]
+def: "Presence of colored spots at the spine base of sprouted shoots (vine) with spines." [CO:curators]
 synonym: "SPBCOL" EXACT []
 is_a: TO:0000876 ! spine leaf morphology trait
 
 [Term]
 id: CO_343:0000216
 name: yam spines on sprout presence trait
-def: "Presence of spines on sprout (vines)" [CO:curators]
+def: "Presence of spines on sprout (vines)." [CO:curators]
 synonym: "SPNSP" EXACT []
 is_a: TO:0000739 ! shoot axis morphology trait
 
 [Term]
 id: CO_343:0000218
 name: yam sprout hairiness trait
-def: "Hairs on sprout (vines)" [CO:curators]
+def: "Hairs on sprout (vines)." [CO:curators]
 synonym: "HAIRSP" EXACT []
 is_a: TO:0000739 ! shoot axis morphology trait
 
 [Term]
 id: CO_343:0000220
 name: yam time to first leaf emergence trait
-def: "Time to the first leaf emergence on a plant or sprouted shoot (vine) in a plot" [CO:curators]
+def: "Time to the first leaf emergence on a plant or sprouted shoot (vine) in a plot." [CO:curators]
 synonym: "TIMLE" EXACT []
 is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_343:0000223
 name: yam leaf apex shape trait
-def: "Leaf apex shape" [CO:curators]
+def: "Leaf apex shape." [CO:curators]
 synonym: "Lfapx" EXACT []
 is_a: TO:0000754 ! cardinal organ part morphology trait
 
 [Term]
 id: CO_343:0000225
 name: yam leaf shape trait
-def: "Leaf shape of plants" [CO:curators]
+def: "Leaf shape of plants." [CO:curators]
 synonym: "Lfshp" EXACT []
 is_a: TO:0000492 ! leaf shape
 
 [Term]
 id: CO_343:0000228
 name: yam stem diameter trait
-def: "Stem diameter of a mature plant (5 to 6 month old plant)" [CO:curators]
+def: "Stem diameter of a mature plant (5 to 6 month old plant)." [CO:curators]
 synonym: "STMDM" EXACT []
 is_a: TO:0020083 ! stem diameter
 
 [Term]
 id: CO_343:0000230
 name: yam internode length trait
-def: "Stem internode length of a mature plant (5 to 6 month old plant)" [CO:curators]
+def: "Stem internode length of a mature plant (5 to 6 month old plant)." [CO:curators]
 synonym: "Inodlgth" EXACT []
 is_a: TO:0000145 ! internode length
 
 [Term]
 id: CO_343:0000232
 name: yam number of internodes to first branching trait
-def: "Number of internodes to first branchs on a plant" [CO:curators]
+def: "Number of internodes to first branchs on a plant." [CO:curators]
 synonym: "NINFB" EXACT []
 is_a: TO:0000756 ! stem internode morphology trait
 
 [Term]
 id: CO_343:0000234
 name: yam spines on stem density trait
-def: "Intensity of spines on stem (vine) above base of mature plant (5 to 6 month old plant)" [CO:curators]
+def: "Intensity of spines on stem (vine) above base of mature plant (5 to 6 month old plant)." [CO:curators]
 synonym: "SPNAB" EXACT []
 is_a: TO:0000739  ! shoot axis morphology trait
 
 [Term]
 id: CO_343:0000236
 name: yam plant type trait
-def: "A tendency of a plant to grow in a certain shape and to attain a certain mature height and spread" [CO:curators]
+def: "A tendency of a plant to grow in a certain shape and to attain a certain mature height and spread." [CO:curators]
 synonym: "Growth habit" EXACT []
 synonym: "Plntype" EXACT []
 is_a: TO:0000947 ! whole plant growth and development trait
@@ -502,7 +501,7 @@ is_a: TO:0000947 ! whole plant growth and development trait
 [Term]
 id: CO_343:0000240
 name: yam twining habit trait
-def: "Tendency of climbing or trailling" [CO:curators]
+def: "Tendency of climbing or trailling." [CO:curators]
 synonym: "trailling, climbing habit" EXACT []
 synonym: "TWNH" EXACT []
 is_a: TO:0000947 ! whole plant growth and development trait
@@ -510,7 +509,7 @@ is_a: TO:0000947 ! whole plant growth and development trait
 [Term]
 id: CO_343:0000242
 name: yam twining direction trait
-def: "Twining direction" [CO:curators]
+def: "Twining direction." [CO:curators]
 synonym: "twndir" EXACT []
 synonym: "vine climbing direction" EXACT []
 is_a: TO:0000947 ! whole plant growth and development trait
@@ -518,35 +517,35 @@ is_a: TO:0000947 ! whole plant growth and development trait
 [Term]
 id: CO_343:0000245
 name: yam time to 50% flowering trait
-def: "Time when 50% of the plants flower in a plot" [CO:curators]
+def: "Time when 50% of the plants flower in a plot." [CO:curators]
 synonym: "TIMFL" EXACT []
 is_a: TO:0002616 ! flowering time trait
 
 [Term]
 id: CO_343:0000247
 name: yam time to end of flowering trait
-def: "End of flowering time or when a plant does not produce new flower in a plot" [CO:curators]
+def: "End of flowering time or when a plant does not produce new flower in a plot." [CO:curators]
 synonym: "TIMEF" EXACT []
 is_a: TO:0002616 ! flowering time trait
 
 [Term]
 id: CO_343:0000257
 name: yam inflorescence initiation time trait
-def: "Time of first inflorescence initiation" [CO:curators]
+def: "Time of first inflorescence initiation." [CO:curators]
 synonym: "Datinflor" EXACT []
 is_a: TO:0002616 ! flowering time trait
 
 [Term]
 id: CO_343:0000260
 name: yam inflorescence type trait
-def: "The arrangement of flowers on stem or twig of a plant" [CO:curators]
+def: "The arrangement of flowers on stem or twig of a plant." [CO:curators]
 synonym: "Inft" EXACT []
 is_a: TO:0000267 ! inflorescence type
 
 [Term]
 id: CO_343:0000262
 name: yam female flowering intensity trait
-def: "Intensity or abudance of female flowers on spikes/infloresences" [CO:curators]
+def: "Intensity or abudance of female flowers on spikes/infloresences." [CO:curators]
 synonym: "femal flower abudance per inflorence" EXACT []
 synonym: "fflrint" EXACT []
 is_a: TO:0000987 ! pistillate flower number trait
@@ -554,7 +553,7 @@ is_a: TO:0000987 ! pistillate flower number trait
 [Term]
 id: CO_343:0000264
 name: yam pollination type trait
-def: "Mode of plant to plant pollen transfer" [CO:curators]
+def: "Mode of plant to plant pollen transfer." [CO:curators]
 synonym: "Mechanism of pollination" EXACT []
 synonym: "Polltyp" EXACT []
 is_a: TO:0000420 ! fertility related trait
@@ -562,35 +561,35 @@ is_a: TO:0000420 ! fertility related trait
 [Term]
 id: CO_343:0000268
 name: yam time to fruit setting trait
-def: "Times fruit formation or set on a monoeciuse or femal flowers of dioeciouse yam plants" [CO:curators]
+def: "Times fruit formation or set on a monoeciuse or femal flowers of dioeciouse yam plants." [CO:curators]
 synonym: "Datfrtset" EXACT []
 is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_343:0000272
 name: yam time to fruit harvesting trait
-def: "Time of fruit harvesting" [CO:curators]
+def: "Time of fruit harvesting." [CO:curators]
 synonym: "DateFH" EXACT []
 is_a: TO:0000366 ! reproductive growth time
 
 [Term]
 id: CO_343:0000274
 name: yam time to fruit maturity trait
-def: "Times 90% of fruits attain physiological maturity" [CO:curators]
+def: "Times 90% of fruits attain physiological maturity." [CO:curators]
 synonym: "TIMFrtM" EXACT []
 is_a: TO:0000469 ! days to maturity
 
 [Term]
 id: CO_343:0000279
 name: yam status of fruit development trait
-def: "Fruit development status on monoecious and female flower of dioecious yam plant" [CO:curators]
+def: "Fruit development status on monoecious and female flower of dioecious yam plant." [CO:curators]
 synonym: "FrtDev" EXACT []
 is_a: TO:0000852 ! fruit set trait 
 
 [Term]
 id: CO_343:0000282
 name: yam true seeds harvested trait
-def: "Number of true seed harvested or obained per cross or family" [CO:curators]
+def: "Number of true seed harvested or obained per cross or family." [CO:curators]
 synonym: "bontanical seed" EXACT []
 synonym: "Tsdh" EXACT []
 is_a: TO:0000905 ! seed yield trait
@@ -598,19 +597,19 @@ is_a: TO:0000905 ! seed yield trait
 [Term]
 id: CO_343:0000284
 name: yam fruit index trait
-def: "Fruit index is an estimation of pollinated flowers developing physiologically mature fruits" [CO:curators]
+def: "Fruit index is an estimation of pollinated flowers developing physiologically mature fruits." [CO:curators]
 is_a: TO:0000895 ! fruit harvest index
 
 [Term]
 id: CO_343:0000286
 name: yam seed index trait
-def: "Seed index is an estimation of pollinated flowers producing seeds" [CO:curators]
+def: "Seed index is an estimation of pollinated flowers producing seeds." [CO:curators]
 is_a: TO:0000897 ! seed harvest index
 
 [Term]
 id: CO_343:0000290
 name: yam seeds germination start time trait
-def: "Time the first seed germination occurred" [CO:curators]
+def: "Time the first seed germination occurred." [CO:curators]
 synonym: "Date sart of seed germination" EXACT []
 synonym: "germstart" EXACT []
 is_a: TO:0006061 ! days to germinate
@@ -618,7 +617,7 @@ is_a: TO:0006061 ! days to germinate
 [Term]
 id: CO_343:0000292
 name: yam seeds germination end time trait
-def: "Time last seed germination occurred" [CO:curators]
+def: "Time last seed germination occurred." [CO:curators]
 synonym: "Date end of seed germination" EXACT []
 synonym: "germend" EXACT []
 is_a: TO:0006061 ! days to germinate
@@ -626,28 +625,28 @@ is_a: TO:0006061 ! days to germinate
 [Term]
 id: CO_343:0000295
 name: yam seeds germinated trait
-def: "Quanity of sown true (botanical) seeds germinated per cross or family" [CO:curators]
+def: "Quanity of sown true (botanical) seeds germinated per cross or family." [CO:curators]
 synonym: "sdgerm" EXACT []
 is_a: TO:0000250 ! plant vigor trait
 
 [Term]
 id: CO_343:0000298
 name: yam seedling transplant survival rate trait
-def: "Establishment rate of seedlings four weeks after transplanting operation" [CO:curators]
+def: "Establishment rate of seedlings four weeks after transplanting operation." [CO:curators]
 synonym: "Tsurvrat" EXACT []
 is_a: TO:0000250 ! plant vigor trait
 
 [Term]
 id: CO_343:0000302
 name: yam vine cutting establishment rate trait
-def: "Proportion of vine cuttings established well that producing shoots" [CO:curators]
+def: "Proportion of vine cuttings established well that producing shoots." [CO:curators]
 synonym: "Vestrat" EXACT []
 is_a: TO:0000250 ! plant vigor trait
 
 [Term]
 id: CO_343:0000304
 name: yam time to 50% foliage senescence trait
-def: "Time when 50% of the plants in a plot are showing signs of foliage senescence" [CO:curators]
+def: "Time when 50% of the plants in a plot are showing signs of foliage senescence." [CO:curators]
 synonym: "Datsen" EXACT []
 synonym: "Partial senescence time" EXACT []
 is_a: TO:0012012 ! leaf senescence duration
@@ -655,7 +654,7 @@ is_a: TO:0012012 ! leaf senescence duration
 [Term]
 id: CO_343:0000306
 name: yam foliage senescence time trait
-def: "Time to all plants in a plot or unit area show full or complete foliage senescence" [CO:curators]
+def: "Time to all plants in a plot or unit area show full or complete foliage senescence." [CO:curators]
 synonym: "Complete senescence time" EXACT []
 synonym: "Datfsen" EXACT []
 is_a: TO:0000369
@@ -663,7 +662,7 @@ is_a: TO:0000369
 [Term]
 id: CO_343:0000310
 name: yam time to maturity trait
-def: "Length of time toward crop maturity" [CO:curators]
+def: "Length of time toward crop maturity." [CO:curators]
 synonym: "Growing degree days" EXACT []
 synonym: "Mat" EXACT []
 is_a: TO:0000469 ! days to maturity
@@ -671,7 +670,7 @@ is_a: TO:0000469 ! days to maturity
 [Term]
 id: CO_343:0000312
 name: yam senescenece class trait
-def: "Foliage senescence or maturity class" [CO:curators]
+def: "Foliage senescence or maturity class." [CO:curators]
 synonym: "Maturity class" EXACT []
 synonym: "SE" EXACT []
 is_a: TO:0000469  ! days to maturity
@@ -679,21 +678,21 @@ is_a: TO:0000469  ! days to maturity
 [Term]
 id: CO_343:0000314
 name: yam tuber dry rot presence trait
-def: "Dry rot caused by nematodes (Scutellonema bradys and Pratylenchus spp.) in tubers at harvest" [CO:curators]
+def: "Dry rot caused by nematodes (Scutellonema bradys and Pratylenchus spp.) in tubers at harvest." [CO:curators]
 synonym: "Dryrot" EXACT []
 is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
 id: CO_343:0000316
 name: yam tuber dry rot incidence trait
-def: "Dry rot caused by nematodes (Scutellonema bradys and Practylenchus spp.) in tubers at harvest" [CO:curators]
+def: "Dry rot caused by nematodes (Scutellonema bradys and Practylenchus spp.) in tubers at harvest." [CO:curators]
 synonym: "Dryrot" EXACT []
 is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
 id: CO_343:0000333
 name: yam number of bulbil trait
-def: "Number of bulbils or aerial tubers produced" [CO:curators]
+def: "Number of bulbils or aerial tubers produced." [CO:curators]
 synonym: "Bulbpl" EXACT []
 synonym: "Number of aerial tuber" EXACT []
 is_a: TO:0001071 ! shoot axis tuber yield
@@ -701,7 +700,7 @@ is_a: TO:0001071 ! shoot axis tuber yield
 [Term]
 id: CO_343:0000335
 name: yam bulbil shape trait
-def: "Predominant shape of the bulbils" [CO:curators]
+def: "Predominant shape of the bulbils." [CO:curators]
 synonym: "Aerial tuber shape" EXACT []
 synonym: "Bulbsp" EXACT []
 is_a: TO:0000739 ! shoot axis morphology trait
@@ -709,7 +708,7 @@ is_a: TO:0000739 ! shoot axis morphology trait
 [Term]
 id: CO_343:0000337
 name: yam bulbil weight trait
-def: "Weight of vine bulbils or aerial tubers harvest" [CO:curators]
+def: "Weight of vine bulbils or aerial tubers harvest." [CO:curators]
 synonym: "Aerial tuber weight" EXACT []
 synonym: "Bulbwtp" EXACT []
 is_a: TO:0001071 ! shoot axis tuber yield
@@ -717,7 +716,7 @@ is_a: TO:0001071 ! shoot axis tuber yield
 [Term]
 id: CO_343:0000347
 name: yam big size tubers per plot trait
-def: "Number of big size tubers that weighing ≥1 kg in a net plot or unit area" [CO:curators]
+def: "Number of big size tubers that weighing ≥1 kg in a net plot or unit area." [CO:curators]
 synonym: "NBTP" EXACT []
 synonym: "Tubers per plot size 1" EXACT []
 is_a: TO:0001071 ! shoot axis tuber yield
@@ -733,7 +732,7 @@ is_a: TO:0001071 ! shoot axis tuber yield
 [Term]
 id: CO_343:0000351
 name: yam small size tubers per plot trait
-def: "Number of small size tubers that weighing <0.5kg in a net plot or unit area" [CO:curators]
+def: "Number of small size tubers that weighing less than 0.5kg in a net plot or unit area." [CO:curators]
 synonym: "NSTP" EXACT []
 synonym: "Tubers per plot size 3" EXACT []
 is_a: TO:0001071 ! shoot axis tuber yield
@@ -741,126 +740,126 @@ is_a: TO:0001071 ! shoot axis tuber yield
 [Term]
 id: CO_343:0000355
 name: yam big size tubers per plant trait
-def: "Number of big size tubers ( ≥1 kg) per plant" [CO:curators]
+def: "Number of big size tubers (≥ 1 kg) per plant." [CO:curators]
 synonym: "NBTPL" EXACT []
 is_a: TO:0001071 ! shoot axis tuber yield
 
 [Term]
 id: CO_343:0000357
 name: yam medium size tubers per plant trait
-def: "Number of medium size tubers (≥ 0.5kg and <1 kg) per plant" [CO:curators]
+def: "Number of medium size tubers (≥ 0.5kg and < 1 kg) per plant." [CO:curators]
 synonym: "NMTPL" EXACT []
 is_a: TO:0001071 ! shoot axis tuber yield
 
 [Term]
 id: CO_343:0000359
 name: yam small size tubers per plant trait
-def: "Number of small size tubers ( <0.5kg) per plant" [CO:curators]
+def: "Number of small size tubers (< 0.5kg) per plant." [CO:curators]
 synonym: "NSTPL" EXACT []
 is_a: TO:0001071 ! shoot axis tuber yield
 
 [Term]
 id: CO_343:0000361
 name: yam total tubers per plant trait
-def: "Number of tubers harvested per plant" [CO:curators]
+def: "Number of tubers harvested per plant." [CO:curators]
 synonym: "TNTPL" EXACT []
 is_a: TO:0001071 ! shoot axis tuber yield
 
 [Term]
 id: CO_343:0000363
 name: yam big size tubers weight per plot trait
-def: "Weight of big size tubers ( ≥1 kg) in a net plot or unit area" [CO:curators]
+def: "Weight of big size tubers ( ≥1 kg) in a net plot or unit area." [CO:curators]
 synonym: "BTW" EXACT []
 is_a: TO:0001071 ! shoot axis tuber yield
 
 [Term]
 id: CO_343:0000365
 name: yam medium size tubers weight per plot trait
-def: "Weight of medium size tubers (≥ 0.5kg and <1 kg) in a net plot or unit area" [CO:curators]
+def: "Weight of medium size tubers (≥ 0.5kg and <1 kg) in a net plot or unit area." [CO:curators]
 synonym: "MTW" EXACT []
 is_a: TO:0001071 ! shoot axis tuber yield
 
 [Term]
 id: CO_343:0000367
 name: yam small size tubers weight per plot trait
-def: "Weight of small size tubers ( <0.5kg ) in a net plot or unit area" [CO:curators]
+def: "Weight of small size tubers ( <0.5kg ) in a net plot or unit area." [CO:curators]
 synonym: "STW" EXACT []
 is_a: TO:0001071 ! shoot axis tuber yield
 
 [Term]
 id: CO_343:0000370
 name: yam total fresh tuber weight per plot trait
-def: "Total fresh weight of all category or size tubers harvested in a net plot" [CO:curators]
+def: "Total fresh weight of all category or size tubers harvested in a net plot." [CO:curators]
 synonym: "TTWP" EXACT []
 is_a: TO:0001071 ! shoot axis tuber yield
 
 [Term]
 id: CO_343:0000372
 name: yam total tuber weight per plant trait
-def: "Total fresh weight of all category or size tubers per plant" [CO:curators]
+def: "Total fresh weight of all category or size tubers per plant." [CO:curators]
 synonym: "TTWPL" EXACT []
 is_a: TO:0001071 ! shoot axis tuber yield
 
 [Term]
 id: CO_343:0000374
 name: yam big size tuber weight per plant trait
-def: "Weight of big size tubers per plant" [CO:curators]
+def: "Weight of big size tubers per plant." [CO:curators]
 synonym: "WBTPL" EXACT []
 is_a: TO:0001071 ! shoot axis tuber yield
 
 [Term]
 id: CO_343:0000376
 name: yam medium size tuber weight per plant trait
-def: "Weight of medium size tuber yam per plant" [CO:curators]
+def: "Weight of medium size tuber yam per plant." [CO:curators]
 synonym: "WMTPL" EXACT []
 is_a: TO:0001071 ! shoot axis tuber yield
 
 [Term]
 id: CO_343:0000378
 name: yam small size tuber weight per plant trait
-def: "Weight of small size yam per plant" [CO:curators]
+def: "Weight of small size yam per plant." [CO:curators]
 synonym: "WSTPL" EXACT []
 is_a: TO:0001071 ! shoot axis tuber yield
 
 [Term]
 id: CO_343:0000382
 name: yam total tuber yield adjusted trait
-def: "Total tuber yield adjusted tons per hectare" [CO:curators]
+def: "Total tuber yield adjusted tons per hectare." [CO:curators]
 synonym: "TTYA" EXACT []
 is_a: TO:0001071 ! shoot axis tuber yield
 
 [Term]
 id: CO_343:0000384
 name: yam big size tuber yield adjusted trait
-def: "Big size tubers yield adjusted tons per hectare" [CO:curators]
+def: "Big size tubers yield adjusted tons per hectare." [CO:curators]
 synonym: "BTYA" EXACT []
 is_a: TO:0001071 ! shoot axis tuber yield
 
 [Term]
 id: CO_343:0000386
 name: yam average weight of big size tuber trait
-def: "Average weight of big size tubers in kg" [CO:curators]
+def: "Average weight of big size tubers in kg." [CO:curators]
 synonym: "AWBT" EXACT []
 is_a: TO:0000746 ! subterranean shoot axis tuber mass
 
 [Term]
 id: CO_343:0000388
 name: yam average tuber weight trait
-def: "Average tuber weight in kg" [CO:curators]
+def: "Average tuber weight in kg." [CO:curators]
 synonym: "ATW" EXACT []
 is_a: TO:0000746 ! subterranean shoot axis tuber mass
 
 [Term]
 id: CO_343:0000390
 name: yam place of roots on tubers trait
-def: "Position of appearance of roots at surface of tubers" [CO:curators]
+def: "Position of appearance of roots at surface of tubers." [CO:curators]
 synonym: "Prtbs" EXACT []
 is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 [Term]
 id: CO_343:0000396
 name: yam tuber thorniness intensity trait
-def: "Intensity of thorns on the tuber surface" [CO:curators]
+def: "Intensity of thorns on the tuber surface." [CO:curators]
 synonym: "Spine intensity on tubers" EXACT []
 synonym: "ThornInt" EXACT []
 is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
@@ -868,140 +867,140 @@ is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 [Term]
 id: CO_343:0000398
 name: yam big size tuber length trait
-def: "Average length of big size tubers harvested in a net plot or unit area" [CO:curators]
+def: "Average length of big size tubers harvested in a net plot or unit area." [CO:curators]
 synonym: "Btbrleng" EXACT []
 is_a: TO:0001053 ! subterranean shoot axis tuber length
 
 [Term]
 id: CO_343:0000400
 name: yam medium size tuber length trait
-def: "Average length of medium size tubers harvested in a net plot or unit area" [CO:curators]
+def: "Average length of medium size tubers harvested in a net plot or unit area." [CO:curators]
 synonym: "Mtbrleng" EXACT []
 is_a: TO:0001053 ! subterranean shoot axis tuber length
 
 [Term]
 id: CO_343:0000402
 name: yam small size tuber length trait
-def: "Average length of small size tubers harvested in a net plot or unit area" [CO:curators]
+def: "Average length of small size tubers harvested in a net plot or unit area." [CO:curators]
 synonym: "Stbrleng" EXACT []
 is_a: TO:0001053 ! subterranean shoot axis tuber length
 
 [Term]
 id: CO_343:0000404
 name: yam tuber length trait
-def: "Average length of all size tubers harvested in a net plot or unit area" [CO:curators]
+def: "Average length of all size tubers harvested in a net plot or unit area." [CO:curators]
 synonym: "Tbrleng" EXACT []
 is_a: TO:0001053 ! subterranean shoot axis tuber length
 
 [Term]
 id: CO_343:0000408
 name: yam big size tuber width trait
-def: "Average width of big size tubers harvested in a net plot or unit area" [CO:curators]
+def: "Average width of big size tubers harvested in a net plot or unit area." [CO:curators]
 synonym: "Btbrwd" EXACT []
 is_a: TO:0001060 ! subterranean shoot axis tuber width
 
 [Term]
 id: CO_343:0000410
 name: yam medium size tuber width trait
-def: "Average width of medium size tubers harvested in a net plot or unit area" [CO:curators]
+def: "Average width of medium size tubers harvested in a net plot or unit area." [CO:curators]
 synonym: "Mtbrwd" EXACT []
 is_a: TO:0001060 ! subterranean shoot axis tuber width
 
 [Term]
 id: CO_343:0000412
 name: yam small size tuber width trait
-def: "Average width of small size tubers harvested in a net plot or unit area" [CO:curators]
+def: "Average width of small size tubers harvested in a net plot or unit area." [CO:curators]
 synonym: "Stbrwd" EXACT []
 is_a: TO:0001060 ! subterranean shoot axis tuber width
 
 [Term]
 id: CO_343:0000414
 name: yam tuber width trait
-def: "Average width of all size tubers harvested in a net plot or unit area" [CO:curators]
+def: "Average width of all size tubers harvested in a net plot or unit area." [CO:curators]
 synonym: "Tbrwd" EXACT []
 is_a: TO:0001060 ! subterranean shoot axis tuber width
 
 [Term]
 id: CO_343:0000416
 name: yam tuber cracks trait
-def: "Cracks on tuber surface" [CO:curators]
+def: "Cracks on tuber surface." [CO:curators]
 synonym: "CTBRS" EXACT []
 is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 [Term]
 id: CO_343:0000418
 name: yam crazy roots presence trait
-def: "Appearance of crazy roots on tuber surface" [CO:curators]
+def: "Appearance of crazy roots on tuber surface." [CO:curators]
 synonym: "CRZROOT" EXACT []
 is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 [Term]
 id: CO_343:0000420
 name: yam corm on tuber trait
-def: "Presence or absence of corm on tuber" [CO:curators]
+def: "Presence or absence of corm on tuber." [CO:curators]
 synonym: "corm" EXACT []
 is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 [Term]
 id: CO_343:0000422
 name: yam corm separability from tuber trait
-def: "Corm separation from tuber" [CO:curators]
+def: "Corm separation from tuber." [CO:curators]
 synonym: "corsep" EXACT []
 is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 [Term]
 id: CO_343:0000424
 name: yam corm size trait
-def: "Size of corm in relation to tuber" [CO:curators]
+def: "Size of corm in relation to tuber." [CO:curators]
 synonym: "corsz" EXACT []
 is_a: TO:0000077 ! shoot system morphology trait
 
 [Term]
 id: CO_343:0000426
 name: yam corm type trait
-def: "Corm type" [CO:curators]
+def: "Corm type." [CO:curators]
 synonym: "cortyp" EXACT []
 is_a: TO:0000077 ! shoot system morphology trait
 
 [Term]
 id: CO_343:0000435
 name: yam tuber flesh cross-section color uniformity trait
-def: "Uniformity of tuber flesh surface color in cross-section ( from cortex to center)" [CO:curators]
+def: "Uniformity of tuber flesh surface color in cross-section (from cortex to center)." [CO:curators]
 synonym: "Utfc" EXACT []
 is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 [Term]
 id: CO_343:0000437
 name: yam tuber flesh oxidation intensity trait
-def: "Intensity of tuber flesh enzymatic oxidation (degree of flesh color change or browning of cut yam tuber)" [CO:curators]
+def: "Intensity of tuber flesh enzymatic oxidation (degree of flesh color change or browning of cut yam tuber)." [CO:curators]
 synonym: "Intoxd" EXACT []
 is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 [Term]
 id: CO_343:0000439
 name: yam tuber flesh texture trait
-def: "Texture of tuber flesh" [CO:curators]
+def: "Texture of tuber flesh." [CO:curators]
 synonym: "Txf" EXACT []
 is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 [Term]
 id: CO_343:0000442
 name: yam tuber flesh oxidation color trait
-def: "Surface color resulting of tuber flesh enzymatic oxidation" [CO:curators]
+def: "Surface color resulting of tuber flesh enzymatic oxidation." [CO:curators]
 synonym: "Foxdc" EXACT []
 is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 [Term]
 id: CO_343:0000444
 name: yam cohesiveness of pounded yam trait
-def: "Degree to which particles of a sample stick together or how moldable it is" [CO:curators]
+def: "Degree to which particles of a sample stick together or how moldable it is." [CO:curators]
 synonym: "cohpdym" EXACT []
 is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_343:0000446
 name: yam springiness of pounded yam trait
-def: "Distance to which the deformed material can be sretchable" [CO:curators]
+def: "Distance to which the deformed material can be sretchable." [CO:curators]
 synonym: "sprgpdym" EXACT []
 synonym: "tretchability or elasticity of pounded yam" EXACT []
 is_a: TO:0001068 ! processing quality trait
@@ -1009,35 +1008,35 @@ is_a: TO:0001068 ! processing quality trait
 [Term]
 id: CO_343:0000448
 name: yam smoothness of pounded yam trait
-def: "Smoothnessof the material, i.e., absence of lumps" [CO:curators]
+def: "Smoothness of the material, i.e. absence of lumps." [CO:curators]
 synonym: "smthpdym" EXACT []
 is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_343:0000450
 name: yam fibrousness of pounded yam trait
-def: "Presenceof ﬁber strands" [CO:curators]
+def: "Presenceof ﬁber strands." [CO:curators]
 synonym: "fbrpdym" EXACT []
 is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_343:0000454
 name: yam scale insect infestation trait
-def: "Scale insect infestation on tubers at harvest" [CO:curators]
+def: "Scale insect infestation on tubers at harvest." [CO:curators]
 synonym: "Scalisec" EXACT []
 is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_343:0000456
 name: yam stem color trait
-def: "The surface color of stem" [CO:curators]
+def: "The surface color of stem." [CO:curators]
 synonym: "Stmcol" EXACT []
 is_a: TO:0000056 ! stem color
 
 [Term]
 id: CO_343:0000458
 name: yam leaf density trait
-def: "Variation in leaf mass of the plant" [CO:curators]
+def: "Variation in leaf mass of the plant." [CO:curators]
 synonym: "leaf abundance" EXACT []
 synonym: "Lfden" EXACT []
 is_a: TO:0000077 ! shoot system morphology trait
@@ -1045,14 +1044,14 @@ is_a: TO:0000077 ! shoot system morphology trait
 [Term]
 id: CO_343:0000460
 name: yam branch number trait
-def: "Number of branches above ground" [CO:curators]
+def: "Number of branches above ground." [CO:curators]
 synonym: "branch" EXACT []
 is_a: TO:0000646 ! cauline axillary branch number
 
 [Term]
 id: CO_343:0000462
 name: yam stem height trait
-def: "Height or the length of stem" [CO:curators]
+def: "Height or the length of stem." [CO:curators]
 synonym: "Stmht" EXACT []
 synonym: "vine length" EXACT []
 is_a: TO:0000576 ! stem length
@@ -1060,14 +1059,14 @@ is_a: TO:0000576 ! stem length
 [Term]
 id: CO_343:0000464
 name: yam number of leaves trait
-def: "The number of leaves on a plant" [CO:curators]
+def: "The number of leaves on a plant." [CO:curators]
 synonym: "Nlfyp" EXACT []
 is_a: TO:0000241 ! leaf number trait
 
 [Term]
 id: CO_343:0000466
 name: yam leaf position trait
-def: "Arrangement of leaves on stem or vine" [CO:curators]
+def: "Arrangement of leaves on stem or vine." [CO:curators]
 synonym: "leaf arrangement" EXACT []
 synonym: "lfpst" EXACT []
 is_a: TO:0000541 ! leaf position
@@ -1075,56 +1074,56 @@ is_a: TO:0000541 ! leaf position
 [Term]
 id: CO_343:0000468
 name: yam leaf length trait
-def: "Length of leaf" [CO:curators]
+def: "Length of leaf." [CO:curators]
 synonym: "lflngth" EXACT []
 is_a: TO:0000135 ! leaf length
 
 [Term]
 id: CO_343:0000470
 name: yam leaf width trait
-def: "Width of leaf" [CO:curators]
+def: "Width of leaf." [CO:curators]
 synonym: "lfwdt" EXACT []
 is_a: TO:0000370 ! leaf width
 
 [Term]
 id: CO_343:0000473
 name: yam stem hairiness trait
-def: "Hairiness of stem" [CO:curators]
+def: "Hairiness of stem." [CO:curators]
 synonym: "stmhair" EXACT []
 is_a: TO:0000879 ! stem hairiness
 
 [Term]
 id: CO_343:0000475
 name: yam leaf color trait
-def: "The leaf surface color or pigmentation" [CO:curators]
+def: "The leaf surface color or pigmentation." [CO:curators]
 synonym: "ylfcol" EXACT []
 is_a: TO:0000326 ! leaf color
 
 [Term]
 id: CO_343:0000478
 name: yam vein color trait
-def: "Color or pigmentation of leaf vein" [CO:curators]
+def: "Color or pigmentation of leaf vein." [CO:curators]
 synonym: "uveincol" EXACT []
 is_a: TO:0000719 ! leaf vein color
 
 [Term]
 id: CO_343:0000481
 name: yam leaf hairiness trait
-def: "Hairiness of leaf surface" [CO:curators]
+def: "Hairiness of leaf surface." [CO:curators]
 synonym: "ulfhair" EXACT []
 is_a: TO:0002722 ! leaf pubescence
 
 [Term]
 id: CO_343:0000484
 name: yam petiole length trait
-def: "Length of petiole" [CO:curators]
+def: "Length of petiole." [CO:curators]
 synonym: "petlngth" EXACT []
 is_a: TO:0000766 ! petiole length
 
 [Term]
 id: CO_343:0000494
 name: boiled yam appearance trait
-def: "The optical appearance of boiled yam related with surface glossy or dullness and light scattering power of boiled yam structure." [CO:curators]
+def: "The optical appearance of boiled yam related with surface glossy or dullness, and light scattering power of boiled yam structure." [CO:curators]
 synonym: "appboiledyam" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
@@ -1180,7 +1179,7 @@ is_a: TO:0001068 ! processing quality trait
 [Term]
 id: CO_343:0000503
 name: yam starch breakdown trait
-def: "The breakdown of yam starch extracted from fresh tubers were determined using a Rapid Visco-Analyser (RVA-TecMaster, Perten Instruments, Australia)." [CO:curators]
+def: "The breakdown of yam starch extracted from fresh tubers as determined using a Rapid Visco-Analyser (RVA-TecMaster, Perten Instruments, Australia)." [CO:curators]
 is_a: TO:0000374 ! starch breakdown viscosity
 
 [Term]
@@ -1257,105 +1256,105 @@ is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 [Term]
 id: CO_343:0100054
 name: pounded yam color trait
-def: "Optical color or pigmentation of pounded yam" [CO:curators]
+def: "Optical color or pigmentation of pounded yam." [CO:curators]
 synonym: "colpoundedyam" EXACT []
 is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_343:0100072
 name: boiled yam whiteness trait
-def: "Both inner and outer colour can range from light yellowish (off-white) to white (pure white)" [CO:curators]
+def: "Both inner and outer colour can range from light yellowish (off-white) to white (pure white)." [CO:curators]
 synonym: "BoilYamWhit" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_343:0100073
 name: boiled yam brownness
-def: "Brown colour of product after cooking" [CO:curators]
+def: "Brown colour of product after cooking." [CO:curators]
 synonym: "BoilYamBrow" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_343:0100074
 name: boiled yam purpleness
-def: "Purple colour tending to pink after cooking" [CO:curators]
+def: "Purple colour tending to pink after cooking." [CO:curators]
 synonym: "BoilYamPurp" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_343:0100075
 name: boiled yam surface black points presence
-def: "Refers to the presence of small black points on the surface of product" [CO:curators]
+def: "Refers to the presence of small black points on the surface of product." [CO:curators]
 synonym: "BoilYamBlackspo" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_343:0100076
 name: boiled yam stickness
-def: "Property related to the adhesion of the product between the fingers" [CO:curators]
+def: "Property related to the adhesion of the product between the fingers." [CO:curators]
 synonym: "BoilYamHdStick" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_343:0100077
 name: boiled yam hardness
-def: "Force required to cut/break with fork" [CO:curators]
+def: "Force required to cut/break with fork." [CO:curators]
 synonym: "BoilYamHdHard" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_343:0100078
 name: boiled yam crumbness
-def: "Property of the product to crumble or break between the fingers" [CO:curators]
+def: "Property of the product to crumble or break between the fingers." [CO:curators]
 synonym: "BoilYamHdCrum" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_343:0100079
 name: boiled yam fibrousness
-def: "Refers to the presence of fine fibers between the fingers and visible to the eye" [CO:curators]
+def: "Refers to the presence of fine fibers between the fingers and visible to the eye." [CO:curators]
 synonym: "BoilYamHdFibr" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_343:0100080
 name: boiled yam granuleness
-def: "Refers to the presence of small grains during chewing" [CO:curators]
+def: "Refers to the presence of small grains during chewing." [CO:curators]
 synonym: "BoilYamMthGran" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_343:0100081
 name: boiled yam easiness to chew
-def: "Property related to the number of chews necessary to swallow the product" [CO:curators]
+def: "Property related to the number of chews necessary to swallow the product." [CO:curators]
 synonym: "BoilYamMthChew" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_343:0100082
 name: boiled yam flavor
-def: "Odour of boiled yam" [CO:curators]
+def: "Odour of boiled yam." [CO:curators]
 synonym: "BoilYamOdor" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_343:0100083
 name: boiled yam sweetness trait
-def: "Basic light sugary taste like a little glucose or sucrose in water solution" [CO:curators]
+def: "Basic light sugary taste like a little glucose or sucrose in water solution." [CO:curators]
 synonym: "BoilYamSweet" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_343:0100084
 name: boiled yam bitterness
-def: "Basic bitter taste like small quantity of quinine or caffeine in water" [CO:curators]
+def: "Basic bitter taste like small quantity of quinine or caffeine in water." [CO:curators]
 synonym: "BoilYamBitt" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_343:0100085
 name: boiled yam bitter after taste
-def: "During chewing, bitter taste after swallowing, eg there is a light bitter aftertaste" [CO:curators]
+def: "During chewing, bitter taste after swallowing, eg there is a light bitter aftertaste." [CO:curators]
 synonym: "BoilYamBitteraft" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
@@ -1398,7 +1397,7 @@ is_a: TO:0000933 ! plant phenological trait
 [Term]
 id: CO_343:0100219
 name: yam maximum ground cover trait
-def: "Maximum ground cover" [CO:curators]
+def: "Maximum ground cover." [CO:curators]
 is_a: TO:1000012 ! whole plant size
 
 [Term]
@@ -1428,13 +1427,13 @@ is_a: TO:0000933 ! plant phenological trait
 [Term]
 id: CO_343:0100235
 name: yam growth cycle length trait
-def: "Time between 5% emergence and 95% senescence" [CO:curators]
+def: "Time between 5% emergence and 95% senescence." [CO:curators]
 is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_343:0100238
 name: yam tuber flesh color
-def: "The surface color of the yam tuber flesh" [CO:curators]
+def: "The surface color of the yam tuber flesh." [CO:curators]
 is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 [Term]
@@ -1470,71 +1469,71 @@ is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 [Term]
 id: CO_343:0100258
 name: yam tuber flour protein content trait
-def: "Tuber flour protein content" [CO:curators]
+def: "Tuber flour protein content." [CO:curators]
 is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_343:0100261
 name: yam tuber flour starch content trait
-def: "Tuber flour starch content" [CO:curators]
+def: "Tuber flour starch content." [CO:curators]
 is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_343:0100263
 name: yam tuber flour sugar content trait
-def: "Tuber flour sugar content" [CO:curators]
+def: "Tuber flour sugar content." [CO:curators]
 is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_343:0100265
 name: yam starch grain size trait
-def: "Mean starch grain size of yam tuber flour" [CO:curators]
+def: "Mean starch grain size of yam tuber flour." [CO:curators]
 is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_343:0100274
 name: pounded yam colour trait
-def: "The degree of whiteness of the pounded yam sample like a plain white paper or white flip chart/colour of boiled egg albumen, or colour of the pounded yam comparable to that of Soymilk or “Eba” from white “Gaari”, or colour of Pounded yam comparable to that of greyness covering a boiled egg yolk, or colour of pounded yam, or colour of pounded yam comparable to that of evaporated liquid milk such as Peak milk, or colour of pounded yam comparable to boiled egg yolk that is light in colour, or colour of Pounded yam comparable to deep colour of Yellow maize, or colour of pounded yam comparable to the colour whole wheat meal or colour of pounded yam comparable to the colour of carton paper" [CO:curators]
+def: "The degree of whiteness of the pounded yam sample like a plain white paper or white flip chart/colour of boiled egg albumen, or colour of the pounded yam comparable to that of Soymilk or “Eba” from white “Gaari”, or colour of Pounded yam comparable to that of greyness covering a boiled egg yolk, or colour of pounded yam, or colour of pounded yam comparable to that of evaporated liquid milk such as Peak milk, or colour of pounded yam comparable to boiled egg yolk that is light in colour, or colour of Pounded yam comparable to deep colour of Yellow maize, or colour of pounded yam comparable to the colour whole wheat meal or colour of pounded yam comparable to the colour of carton paper." [CO:curators]
 is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_343:0100275
 name: pounded yam stretchability trait
-def: "Ability of pounded yam to stretch when pulled apart with fingers" [CO:curators]
+def: "Ability of pounded yam to stretch when pulled apart with fingers." [CO:curators]
 is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_343:0100276
 name: pounded yam mouldability/cohesiveness trait
-def: "Ability of the pounded yam to stick together easily without disintegrating or cohesive and being easy to mould" [CO:curators]
+def: "Ability of the pounded yam to stick together easily without disintegrating or cohesive and being easy to mould." [CO:curators]
 is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_343:0100277
 name: pounded yam stickiness trait
-def: "This is when the pounded yam sticks or adhere to the fingers when it is touched with fingers or during moulding into bolus for swallowing" [CO:curators]
+def: "This is when the pounded yam sticks or adhere to the fingers when it is touched with fingers or during moulding into bolus for swallowing." [CO:curators]
 is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_343:0100278
 name: pounded yam hardness trait
-def: "Softness is when it is quite easy to compress the sample, while hardness is when force is used to compress the sample or takes effort to compress the sample" [CO:curators]
+def: "Softness is when it is quite easy to compress the sample, while hardness is when force is used to compress the sample or takes effort to compress the sample." [CO:curators]
 is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_343:0100279
 name: pounded yam smoothness trait
-def: "Absence of lumps" [CO:curators]
+def: "Absence of lumps." [CO:curators]
 is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_343:0100283
 name: yam tuber flesh oxidation trait
-def: "Oxidation ratio of flesh" [CO:curators]
+def: "Oxidation ratio of flesh." [CO:curators]
 is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 [Term]
 id: CO_343:0100284
 name: yam tuber shape regularity trait
-def: "Regularity of tuber shape" [CO:curators]
+def: "Regularity of tuber shape." [CO:curators]
 is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
