@@ -1679,8 +1679,8 @@ is_a: TO:0000157 ! canopy temperature
 
 [Term]
 id: CO_331:0001109
-name: sweetpotato Canopy temperature depression trait
-def: "Deviation of temperature of plant canopies from the ambient temperature." [CO:curators]
+name: sweetpotato canopy temperature depression trait
+def: "Deviation of temperature of plant canopy from the ambient temperature." [CO:curators]
 synonym: "CTD" EXACT []
 is_a: TO:0000157 ! canopy temperature
 

@@ -139,3 +139,52 @@ CO_331:0001108	Canopy temperature	The temperature of the canopy by plot with a t
 CO_331:2000029	canopy temperature	The canopy temperature by plot	CnpTp EXACT
 
 _________________________________________________
+
+[Term]
+id: CO_331:0000224
+name: sweetpotato weight of vines trait
+def: "Weight of vines." [CO:curators]
+synonym: "VnW" EXACT []
+is_a: TO:0000077 ! shoot system morphology trait
+
+[Term]
+id: CO_331:0000248
+name: sweetpotato weight of vines trait
+def: "Weight of vines samples." [CO:curators]
+synonym: "VnFWt" EXACT []
+is_a: TO:0000077 ! shoot system morphology trait
+
+[Term]
+id: CO_331:0000248
+name: sweetpotato fresh weight of vines trait
+def: "Fresh weight of vines samples." [CO:curators]
+synonym: "VnFWt" EXACT []
+is_a: TO:0000077 ! shoot system morphology trait
+
+[Term]
+id: CO_331:0000252
+name: sweetpotato dry weight of vines trait
+def: "Dry weight of vines samples." [CO:curators]
+synonym: "VnDWt" EXACT []
+is_a: TO:0000077 ! shoot system morphology trait
+
+____________________________________________________
+
+[Term]
+id: CO_331:0001108
+name: sweetpotato canopy temperature trait
+def: "The temperature of the canopy by plot with a thermal image taken for a infrared thermografic camera." [CO:curators]
+synonym: "CT" EXACT []
+is_a: TO:0000157 ! canopy temperature
+
+[Term]
+id: CO_331:2000029
+name: sweetpotato canopy temperature trait
+def: "The canopy temperature by plot." [CO:curators]
+synonym: "CnpTp" EXACT []
+is_a: TO:0000157 ! canopy temperature
+
+
+
+
+
