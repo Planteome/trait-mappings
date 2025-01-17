@@ -6,1423 +6,1423 @@ ontology: co_331
 id: CO_331:0000001
 name: sweetpotato plant type trait
 def: "The growth habit of the plant" [CO:curators]
-synonym: "PtTyp" EXACT [CO:curators]
+synonym: "PtTyp" EXACT []
 is_a: TO:0000947 ! whole plant growth and development trait
 
 [Term]
 id: CO_331:0000004
 name: sweetpotato ground cover trait
 def: "Soil area covered by plant canopy" [CO:curators]
-synonym: "VnFolGRnv" EXACT [CO:curators]
+synonym: "VnFolGRnv" EXACT []
 is_a: TO:1000012 ! whole plant size"
 
 [Term]
 id: CO_331:0000007
 name: sweetpotato twining trait
 def: "Ability of vines to climb adjacent stakes placed in those accessions showing twining characteristics" [CO:curators]
-synonym: "PtTwg" EXACT [CO:curators]
+synonym: "PtTwg" EXACT []
 is_a: TO:0000250 ! plant vigor trait
 
 [Term]
 id: CO_331:0000010
 name: sweetpotato predominant vine color trait
 def: "The predominant color of the vine. The predominant color should be evaluated considering the whole vine from base to tip." [CO:curators]
-synonym: "VnColP" EXACT [CO:curators]
+synonym: "VnColP" EXACT []
 is_a: TO:0000056 ! stem color
 
 [Term]
 id: CO_331:0000013
 name: sweetpotato secondary vine color trait
 def: "The secondary color of the vine. The secondary color is more easily evaluated using younger vines." [CO:curators]
-synonym: "VnColS" EXACT [CO:curators]
+synonym: "VnColS" EXACT []
 is_a: TO:0000056 ! stem color
 
 [Term]
 id: CO_331:0000016
 name: sweetpotato vine tips pubescence trait
 def: "The pubescence of the vine apex or tips." [CO:curators]
-synonym: "VnTipP" EXACT [CO:curators]
+synonym: "VnTipP" EXACT []
 is_a: TO:0000879 ! stem hairiness
 
 [Term]
 id: CO_331:0000019
 name: sweetpotato general outline of the leaf trait
 def: "The general outline of the leaf." [CO:curators]
-synonym: "LfOut" EXACT [CO:curators]
+synonym: "LfOut" EXACT []
 is_a: TO:0000492 ! leaf shape
 
 [Term]
 id: CO_331:0000022
 name: sweetpotato leaf lobe type trait
 def: "Type of the lobe of a leaf located in the middle section of the vine" [CO:curators]
-synonym: "LfLbT" EXACT [CO:curators]
+synonym: "LfLbT" EXACT []
 is_a: TO:1000013 ! leaf lamina lobe morphology trait
 
 [Term]
 id: CO_331:0000025
 name: sweetpotato leaf lobe number trait
 def: "Number of lateral and central leaf lobes of leaves located in the middle section of the vine" [CO:curators]
-synonym: "LfLbN" EXACT [CO:curators]
+synonym: "LfLbN" EXACT []
 is_a: TO:0000748 ! leaf morphology trait
 
 [Term]
 id: CO_331:0000028
 name: sweetpotato shape of central leaf lobe trait
 def: "Shape of the central leaf lobe of a leaf located in the middle section of the vine" [CO:curators]
-synonym: "LfLCS" EXACT [CO:curators]
+synonym: "LfLCS" EXACT []
 is_a: TO:1000013 ! leaf lamina lobe morphology trait
 
 [Term]
 id: CO_331:0000031
 name: sweetpotato mature leaf size trait
 def: "Length of the leaf defined as the distance between the basal lobes and the tip of the leave." [CO:curators]
-synonym: "LfLMS" EXACT [CO:curators]
+synonym: "LfLMS" EXACT []
 is_a: TO:0000135 ! leaf length
 
 [Term]
 id: CO_331:0000034
 name: sweetpotato abaxial leaf vein pigmentation trait
 def: "Distribution of anthocyanin (purple) pigmentation shown in the veins of the lower surface of a leaf" [CO:curators]
-synonym: "LfAVP" EXACT [CO:curators]
+synonym: "LfAVP" EXACT []
 is_a: TO:0000822 ! leaf midvein morphology trait
 
 [Term]
 id: CO_331:0000037
 name: sweetpotato mature leaf color trait
 def: "Describe the overall foliage color considering the color of fully expanded mature leaves of several plants." [CO:curators]
-synonym: "LfCMt" EXACT [CO:curators]
+synonym: "LfCMt" EXACT []
 is_a: TO:0000326 ! leaf color
 
 [Term]
 id: CO_331:0000040
 name: sweetpotato immature leaf color trait
 def: "Describe the overall foliage color considering the color of fully expanded immature leaves of several plants." [CO:curators]
-synonym: "LfColI" EXACT [CO:curators]
+synonym: "LfColI" EXACT []
 is_a: TO:0000326 ! leaf color
 
 [Term]
 id: CO_331:0000043
 name: sweetpotato petiole pigmentation trait
 def: "Distribution of anthocyanin (purple) pigmentation in the petioles of leaves. Indicate the most predominant color first." [CO:curators]
-synonym: "FrPtP" EXACT [CO:curators]
+synonym: "FrPtP" EXACT []
 is_a: TO:0002707 ! petiole color
 
 [Term]
 id: CO_331:0000046
 name: sweetpotato flower color trait
 def: "The most representative color in the flowers" [CO:curators]
-synonym: "FRnol" EXACT [CO:curators]
+synonym: "FRnol" EXACT []
 is_a: TO:0000537 ! flower color
 
 [Term]
 id: CO_331:0000049
 name: sweetpotato predominant skin color trait
 def: "The most representative skin color of the root" [CO:curators]
-synonym: "RtSknColP" EXACT [CO:curators]
+synonym: "RtSknColP" EXACT []
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_331:0000052
 name: sweetpotato intensity of predominant skin color trait
 def: "Intensity of Predominant Skin color of the root" [CO:curators]
-synonym: "RtSknColPI" EXACT [CO:curators]
+synonym: "RtSknColPI" EXACT []
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_331:0000055
 name: sweetpotato secondary skin color trait
 def: "The less representative skin color of the root" [CO:curators]
-synonym: "RtSknColS" EXACT [CO:curators]
+synonym: "RtSknColS" EXACT []
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_331:0000058
 name: sweetpotato predominant flesh color trait
 def: "The most representative flesh color of the root" [CO:curators]
-synonym: "RtFlsColP" EXACT [CO:curators]
+synonym: "RtFlsColP" EXACT []
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_331:0000061
 name: sweetpotato secondary flesh color trait
 def: "The less representative flesh color of the root" [CO:curators]
-synonym: "RtFlsColS" EXACT [CO:curators]
+synonym: "RtFlsColS" EXACT []
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_331:0000064
 name: sweetpotato distribution of secondary flesh color trait
 def: "Distribution of Secondary Flesh color of the root" [CO:curators]
-synonym: "RtFlsColSD" EXACT [CO:curators]
+synonym: "RtFlsColSD" EXACT []
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_331:0000067
 name: sweetpotato storage root shape trait
 def: "Overall assessment of storage root shape" [CO:curators]
-synonym: "RtShp" EXACT [CO:curators]
+synonym: "RtShp" EXACT []
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_331:0000069
 name: sweetpotato storage root shape (primary) trait
 def: "Storage Root Shape described from longitudinal sections made about the middle of freshly harvested storage roots" [CO:curators]
-synonym: "RtShpP" EXACT [CO:curators]
+synonym: "RtShpP" EXACT []
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_331:0000070
 name: sweetpotato latex production in storage roots trait
 def: "Amount of latex observed after cross sectioning medium-sized storage roots" [CO:curators]
-synonym: "RtLxP" EXACT [CO:curators]
+synonym: "RtLxP" EXACT []
 is_a: TO:0001042 ! root quality trait
 
 [Term]
 id: CO_331:0000073
 name: sweetpotato oxidation in storage roots trait
 def: "Amount of browning due to oxidation" [CO:curators]
-synonym: "RtOxi" EXACT [CO:curators]
+synonym: "RtOxi" EXACT []
 is_a: TO:0001042 ! root quality trait
 
 [Term]
 id: CO_331:0000076
 name: sweetpotato storage root size trait
 def: "Overall assessment of storage root size based on inspection of the harvested roots" [CO:curators]
-synonym: "RtSiz" EXACT [CO:curators]
+synonym: "RtSiz" EXACT []
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_331:0000079
 name: sweetpotato total number of root trait
 def: "Total number of root after harvest" [CO:curators]
-synonym: "RtTtN" EXACT [CO:curators]
+synonym: "RtTtN" EXACT []
 is_a: TO:0000084 ! root number
 
 [Term]
 id: CO_331:0000082
 name: sweetpotato yield of total roots trait
 def: "Yield evaluated in the harvest" [CO:curators]
-synonym: "RtYld" EXACT [CO:curators]
+synonym: "RtYld" EXACT []
 is_a: TO:0001041 ! root yield
 
 [Term]
 id: CO_331:0000085
 name: sweetpotato harvest index trait
 def: "Harvest index" [CO:curators]
-synonym: "IxHrv" EXACT [CO:curators]
+synonym: "IxHrv" EXACT []
 is_a: TO:0000128 ! harvest index
 
 [Term]
 id: CO_331:0000088
 name: sweetpotato reaction to sweet potato weevil trait
 def: "Overall assessment of weevil damage based on inspection of the harvested roots; early." [CO:curators]
-synonym: "RnWvl" EXACT [CO:curators]
+synonym: "RnWvl" EXACT []
 is_a: TO:0000261 ! insect damage resistance
 
 [Term]
 id: CO_331:0000091
 name: sweetpotato reaction to early blight: (Alternaria spp.) trait
 def: "Alternaria symptoms evaluation" [CO:curators, NCBITaxon:5598]
-synonym: "RnAlt" EXACT [CO:curators]
+synonym: "RnAlt" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_331:0000094
 name: sweetpotato virus symptoms trait
 def: "Virus symptoms evaluation" [CO:curators]
-synonym: "RnVir" EXACT [CO:curators]
+synonym: "RnVir" EXACT []
 is_a: TO:0000148 ! viral disease resistance
 
 [Term]
 id: CO_331:0000097
 name: sweetpotato storage root cracking trait
 def: "Storage root cracking" [CO:curators]
-synonym: "RtCrk" EXACT [CO:curators]
+synonym: "RtCrk" EXACT []
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_331:0000100
 name: sweetpotato protein content trait
 def: "Protein content of the root" [CO:curators]
-synonym: "RtFlsPrt" EXACT [CO:curators]
+synonym: "RtFlsPrt" EXACT []
 is_a: TO:0000598 ! protein content
 
 [Term]
 id: CO_331:0000103
 name: sweetpotato iron content trait
 def: "Content of iron on dry weight basis of the root" [CO:curators]
-synonym: "RtFlsFe" EXACT [CO:curators]
+synonym: "RtFlsFe" EXACT []
 is_a: TO:1000034 ! root sytem iron content trait
 
 [Term]
 id: CO_331:0000106
 name: sweetpotato zinc content trait
 def: "Content of zinc on dry weight basis of the root" [CO:curators]
-synonym: "RtFlsZn" EXACT [CO:curators]
+synonym: "RtFlsZn" EXACT []
 is_a: TO:1000050  ! root system zinc content
 
 [Term]
 id: CO_331:0000109
 name: sweetpotato beta-carotene content trait
 def: "Beta carotene content of the root" [CO:curators]
-synonym: "RtFlsBC" EXACT [CO:curators]
+synonym: "RtFlsBC" EXACT []
 is_a: TO:0002695 ! beta-carotene content
 
 [Term]
 id: CO_331:0000112
 name: sweetpotato total carotenoids trait
 def: "Total carotenoids content of the root" [CO:curators]
-synonym: "RtFlsTC" EXACT [CO:curators]
+synonym: "RtFlsTC" EXACT []
 is_a: TO:0000496  ! carotenoid content
 
 [Term]
 id: CO_331:0000115
 name: sweetpotato storage root starch content trait
 def: "Storage root starch content evaluated in percentage dry weight" [CO:curators]
-synonym: "RtFlsSta" EXACT [CO:curators]
+synonym: "RtFlsSta" EXACT []
 is_a: TO:0000696 ! starch content
 
 [Term]
 id: CO_331:0000118
 name: sweetpotato fructose content trait
 def: "Fructose content of the root" [CO:curators]
-synonym: "RtFlsFru" EXACT [CO:curators]
+synonym: "RtFlsFru" EXACT []
 is_a: TO:0006005 ! fructose content
 
 [Term]
 id: CO_331:0000121
 name: sweetpotato glucose content trait
 def: "Glucose content of the root" [CO:curators]
-synonym: "RtFlsGlu" EXACT [CO:curators]
+synonym: "RtFlsGlu" EXACT []
 is_a: TO:0000300 ! glucose content
 
 [Term]
 id: CO_331:0000124
 name: sweetpotato sucrose content trait
 def: "Sucrose content of the root" [CO:curators]
-synonym: "RtFlsSuc" EXACT [CO:curators]
+synonym: "RtFlsSuc" EXACT []
 is_a: TO:0000328 ! sucrose content
 
 [Term]
 id: CO_331:0000127
 name: sweetpotato maltose content trait
 def: "Maltose content of the root" [CO:curators]
-synonym: "RtFlsMal" EXACT [CO:curators]
+synonym: "RtFlsMal" EXACT []
 is_a: TO:0000300 ! glucose content
 
 [Term]
 id: CO_331:0000130
 name: sweetpotato fiber content trait
 def: "Fiber content in fresh samples" [CO:curators]
-synonym: "RtFlsFf" EXACT [CO:curators]
+synonym: "RtFlsFf" EXACT []
 is_a: TO:0002642 ! dietary fiber related trait
 
 [Term]
 id: CO_331:0000133
 name: sweetpotato color of boiled roots trait
 def: "Color of boiled roots" [CO:curators]
-synonym: "RtCb" EXACT [CO:curators]
+synonym: "RtCb" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_331:0000136
 name: sweetpotato texture of boiled storage root flesh trait
 def: "Storage root texture after boiled" [CO:curators]
-synonym: "RtFlsTxH" EXACT [CO:curators]
+synonym: "RtFlsTxH" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_331:0000139
 name: sweetpotato sweetness of boiled storage root flesh trait
 def: "Sweetness of boiled root" [CO:curators]
-synonym: "RtFlsSwt" EXACT [CO:curators]
-synonym: "Storage root sweetness" EXACT [CO:curators]
+synonym: "RtFlsSwt" EXACT []
+synonym: "Storage root sweetness" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_331:0000142
 name: sweetpotato storage root dry matter content trait
 def: "Storage root dry matter content" [CO:curators]
-synonym: "RtDMC" EXACT [CO:curators]
+synonym: "RtDMC" EXACT []
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_331:0000153
 name: sweetpotato vine internode length trait
 def: "Measurement of the vine internode length" [CO:curators]
-synonym: "VnInLg" EXACT [CO:curators]
+synonym: "VnInLg" EXACT []
 is_a: TO:0000145 ! shoot axis internode length
 
 [Term]
 id: CO_331:0000157
 name: sweetpotato vine internode diameter trait
 def: "Measurement of the vine internode diameter" [CO:curators]
-synonym: "VnInD" EXACT [CO:curators]
+synonym: "VnInD" EXACT []
 is_a: TO:0020083 ! stem diameter
 
 [Term]
 id: CO_331:0000170
 name: sweetpotato petiole length trait
 def: "Petiole length from the base to the insertion with the blade" [CO:curators]
-synonym: "FrPtL" EXACT [CO:curators]
+synonym: "FrPtL" EXACT []
 is_a: TO:0000766 ! petiole length
 
 [Term]
 id: CO_331:0000194
 name: sweetpotato vine vigor trait
 def: "Vine vigor evaluation" [CO:curators]
-synonym: "VnVg" EXACT [CO:curators]
+synonym: "VnVg" EXACT []
 is_a: TO:0000250 ! plant vigor trait
 
 [Term]
 id: CO_331:0000199
 name: sweetpotato storage root form trait
 def: "Overall assessment of storage root form" [CO:curators]
-synonym: "RtFrm" EXACT [CO:curators]
+synonym: "RtFrm" EXACT []
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_331:0000203
 name: sweetpotato number of storage root damages trait
 def: "Root with structural damages" [CO:curators]
-synonym: "RtDam" EXACT [CO:curators]
+synonym: "RtDam" EXACT []
 is_a: TO:0001042 ! root quality trait
 
 [Term]
 id: CO_331:0000208
 name: sweetpotato number of plants with storage roots
 def: "Number of plants with storage roots" [CO:curators]
-synonym: "PtRt" EXACT [CO:curators]
+synonym: "PtRt" EXACT []
 is_a: TO:0000250 ! plant vigor trait
 
 [Term]
 id: CO_331:0000212
 name: sweetpotato number of commercial storage roots trait
 def: "Number of root that are 12 to 20 cm long and at least 10 cm in diameter" [CO:curators]
-synonym: "PtCRt" EXACT [CO:curators]
+synonym: "PtCRt" EXACT []
 is_a: TO:0000084 ! root number
 
 [Term]
 id: CO_331:0000215
 name: sweetpotato number of non-commercial storage roots trait
 def: "Number of root shorter than 10 cm long and greater than 20 cm long." [CO:curators]
-synonym: "PtNCR" EXACT [CO:curators]
+synonym: "PtNCR" EXACT []
 is_a: TO:0000084 ! root number
 
 [Term]
 id: CO_331:0000218
 name: sweetpotato weight of commercial storage roots trait
 def: "Weight of root that are 12 to 20 cm long and at least 10 cm in diameter" [CO:curators]
-synonym: "RtCmW" EXACT [CO:curators]
+synonym: "RtCmW" EXACT []
 is_a: TO:0000279 ! root weight
 
 [Term]
 id: CO_331:0000221
 name: sweetpotato weight of non-commercial storage roots trait
 def: "Weight of root shorter than 10 cm long and greater than 20 cm long." [CO:curators]
-synonym: "RtNCmW" EXACT [CO:curators]
+synonym: "RtNCmW" EXACT []
 is_a: TO:0000279 ! root weight
 
 [Term]
 id: CO_331:0000224
 name: sweetpotato weight of vines trait
 def: "Weight of vines" [CO:curators]
-synonym: "VnW" EXACT [CO:curators]
+synonym: "VnW" EXACT []
 is_a: TO:0000077 ! shoot system morphology trait
 
 [Term]
 id: CO_331:0000234
 name: sweetpotato total root weight trait
 def: "Total weight of root after harvest" [CO:curators]
-synonym: "RtTWt" EXACT [CO:curators]
+synonym: "RtTWt" EXACT []
 is_a: TO:0000279 ! root weight
 
 [Term]
 id: CO_331:0000240
 name: sweetpotato weight of storage root trait
 def: "Weight of storage root samples" [CO:curators]
-synonym: "RtFWt" EXACT [CO:curators]
+synonym: "RtFWt" EXACT []
 is_a: TO:0000279 ! root weight
 
 [Term]
 id: CO_331:0000244
 name: sweetpotato weight of storage root trait
 def: "Weight of storage root samples" [CO:curators]
-synonym: "RtDWt" EXACT [CO:curators]
+synonym: "RtDWt" EXACT []
 is_a: TO:0000279 ! root weight
 
 [Term]
 id: CO_331:0000248
 name: sweetpotato weight of vines trait
 def: "Weight of vines samples" [CO:curators]
-synonym: "VnFWt" EXACT [CO:curators]
+synonym: "VnFWt" EXACT []
 is_a: TO:0000077 ! shoot system morphology trait
 
 [Term]
 id: CO_331:0000252
 name: sweetpotato weight of vines trait
 def: "Weight of vines samples" [CO:curators]
-synonym: "VnDWt" EXACT [CO:curators]
+synonym: "VnDWt" EXACT []
 is_a: TO:0000077 ! shoot system morphology trait
 
 [Term]
 id: CO_331:0000256
 name: sweetpotato fiber cooked trait
 def: "Fiber content in cooked samples" [CO:curators]
-synonym: "RtFlsFbC" EXACT [CO:curators]
+synonym: "RtFlsFbC" EXACT []
 is_a: TO:0002642 ! dietary fiber related trait
 
 [Term]
 id: CO_331:0000266
 name: sweetpotato overall taste of cooked sample trait
 def: "Overall taste of cooked sample" [CO:curators]
-synonym: "RtFlsTs" EXACT [CO:curators]
+synonym: "RtFlsTs" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_331:0000270
 name: sweetpotato overall appearance of cooked sample trait
 def: "Appearance of cooked sample" [CO:curators]
-synonym: "RtFlsAp" EXACT [CO:curators]
+synonym: "RtFlsAp" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_331:0000274
 name: sweetpotato sprouting ability trait
 def: "ability to produce new sprout" [CO:curators]
-synonym: "RtSpA" EXACT [CO:curators]
+synonym: "RtSpA" EXACT []
 is_a: TO:0000250 ! plant vigor trait
 
 [Term]
 id: CO_331:0000281
 name: sweetpotato calcium content trait
 def: "Content of calcium on dry weight basis of the root" [CO:curators]
-synonym: "RtFlsCa" EXACT [CO:curators]
+synonym: "RtFlsCa" EXACT []
 is_a: TO:1000029 ! oot system calcium content
 
 [Term]
 id: CO_331:0000285
 name: sweetpotato magnesium content trait
 def: "Content of magnesium on dry weight basis of the root" [CO:curators]
-synonym: "RtFlsMg" EXACT [CO:curators]
+synonym: "RtFlsMg" EXACT []
 is_a: TO:1000038 ! root system magnesium content
 
 [Term]
 id: CO_331:0000298
 name: sweetpotato survival index trait
 def: "Survival index" [CO:curators]
-synonym: "IxSrv" EXACT [CO:curators]
+synonym: "IxSrv" EXACT []
 is_a: TO:0000597 ! plant vigor trait
 
 [Term]
 id: CO_331:0000307
 name: sweetpotato marketable root yield trait
 def: "Marketable root yield" [CO:curators]
-synonym: "RtCYld" EXACT [CO:curators]
+synonym: "RtCYld" EXACT []
 is_a: TO:0001041 ! root yield
 
 [Term]
 id: CO_331:0000308
 name: sweetpotato average commercial root weight trait
 def: "Average commercial root weight evaluated in the harvest" [CO:curators]
-synonym: "RtACRW" EXACT [CO:curators]
+synonym: "RtACRW" EXACT []
 is_a: TO:0001041 ! root yield
 
 [Term]
 id: CO_331:0000309
 name: sweetpotato yield of total roots trait
 def: "Yield of total roots calculated after harvest" [CO:curators]
-synonym: "RtYPP" EXACT [CO:curators]
+synonym: "RtYPP" EXACT []
 is_a: TO:0001041 ! root yield
 
 [Term]
 id: CO_331:0000310
 name: sweetpotato percentage of marketable roots trait
 def: "Percentage of marketable roots after harvest" [CO:curators]
-synonym: "RtCI" EXACT [CO:curators]
+synonym: "RtCI" EXACT []
 is_a: TO:0001042 ! root quality trait
 
 [Term]
 id: CO_331:0000311
 name: sweetpotato biomass yield trait
 def: "Biomass yield" [CO:curators]
-synonym: "BioYld" EXACT [CO:curators]
+synonym: "BioYld" EXACT []
 is_a: TO:0000457 ! total biomass yield
 
 [Term]
 id: CO_331:0000312
 name: sweetpotato foliage total yield trait
 def: "Foliage total yield" [CO:curators]
-synonym: "VnFolYld" EXACT [CO:curators]
+synonym: "VnFolYld" EXACT []
 is_a: TO:0000870 ! leaf yield trait
 
 [Term]
 id: CO_331:0000326
 name: sweetpotato storage root surface defects trait
 def: "Storage Root Surface Defects" [CO:curators]
-synonym: "RtSDef" EXACT [CO:curators]
+synonym: "RtSDef" EXACT []
 is_a: TO:0001042 ! root quality trait
 
 [Term]
 id: CO_331:0000327
 name: sweetpotato storage root cortex thickness trait
 def: "Storage Root Cortex Thickness" [CO:curators]
-synonym: "RtCThk" EXACT [CO:curators]
+synonym: "RtCThk" EXACT []
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_331:0000328
 name: sweetpotato flowering habit trait
 def: "An behavior pattern of the plant to produce flowers" [CO:curators]
-synonym: "FrHab" EXACT [CO:curators]
+synonym: "FrHab" EXACT []
 is_a: TO:0002736 ! flower number trait
 
 [Term]
 id: CO_331:0000329
 name: sweetpotato flower size trait
 def: "Flower size" [CO:curators]
-synonym: "FrSiz" EXACT [CO:curators]
+synonym: "FrSiz" EXACT []
 is_a: TO:0000499 ! flower morphology trait
 
 [Term]
 id: CO_331:0000330
 name: sweetpotato shape of limb trait
 def: "Shape of limb" [CO:curators]
-synonym: "FrShL" EXACT [CO:curators]
+synonym: "FrShL" EXACT []
 is_a: TO:0000863 ! petal morphology trait
 
 [Term]
 id: CO_331:0000331
 name: sweetpotato equality of sepal length trait
 def: "Equality of sepal length" [CO:curators]
-synonym: "FrSepEql" EXACT [CO:curators]
+synonym: "FrSepEql" EXACT []
 is_a: TO:0002607 ! sepal length
 
 [Term]
 id: CO_331:0000332
 name: sweetpotato number of sepal veins trait
 def: "Number of veins observed in the sepals" [CO:curators]
-synonym: "FrSepNVn" EXACT [CO:curators]
+synonym: "FrSepNVn" EXACT []
 is_a: TO:0000864 ! sepal morphology trait
 
 [Term]
 id: CO_331:0000333
 name: sweetpotato sepal shape trait
 def: "Sepal shape" [CO:curators]
-synonym: "FrSepShp" EXACT [CO:curators]
+synonym: "FrSepShp" EXACT []
 is_a: TO:0000864 ! sepal morphology trait
 
 [Term]
 id: CO_331:0000334
 name: sweetpotato sepal apex trait
 def: "Sepal apex" [CO:curators]
-synonym: "FrSepApx" EXACT [CO:curators]
+synonym: "FrSepApx" EXACT []
 is_a: TO:0000864 ! sepal morphology trait
 
 [Term]
 id: CO_331:0000335
 name: sweetpotato sepal pubescence trait
 def: "Degree of hairiness registered in the sepals" [CO:curators]
-synonym: "FrSepPub" EXACT [CO:curators]
+synonym: "FrSepPub" EXACT []
 is_a: TO:0000864 ! sepal morphology trait
 
 [Term]
 id: CO_331:0000336
 name: sweetpotato sepal color trait
 def: "Anthocyanin (purple) pigmentation present in the sepal" [CO:curators]
-synonym: "FrSepCol" EXACT [CO:curators]
+synonym: "FrSepCol" EXACT []
 is_a: TO:0000573 ! sepal color
 
 [Term]
 id: CO_331:0000337
 name: sweetpotato color of stigma trait
 def: "Color of stigma" [CO:curators]
-synonym: "FrStgCol" EXACT [CO:curators]
+synonym: "FrStgCol" EXACT []
 is_a: TO:0000185 ! stigma color
 
 [Term]
 id: CO_331:0000338
 name: sweetpotato color of style trait
 def: "Color of style" [CO:curators]
-synonym: "FrStyCol" EXACT [CO:curators]
+synonym: "FrStyCol" EXACT []
 is_a: TO:0000676 ! style color
 
 [Term]
 id: CO_331:0000339
 name: sweetpotato stigma exertion trait
 def: "The relative position of the stigma as compared to the highest anther." [CO:curators]
-synonym: "FrStgExt" EXACT [CO:curators]
+synonym: "FrStgExt" EXACT []
 is_a: TO:0000499 ! flower morphology trait
 
 [Term]
 id: CO_331:0000340
 name: sweetpotato seed capsule set trait
 def: "Seed capsule set" [CO:curators]
-synonym: "FrSdCp" EXACT [CO:curators]
+synonym: "FrSdCp" EXACT []
 is_a: TO:0000852 ! fruit set trait
 
 [Term]
 id: CO_331:0000341
 name: sweetpotato storage root formation trait
 def: "Arrangement of the storage roots on the underground stems." [CO:curators]
-synonym: "RtFrm" EXACT [CO:curators]
+synonym: "RtFrm" EXACT []
 is_a: TO:0000656 ! root development trait
 
 [Term]
 id: CO_331:0000342
 name: sweetpotato storage root stalk trait
 def: "Length of stalk joining the storage roots to the stems" [CO:curators]
-synonym: "RtStk" EXACT [CO:curators]
+synonym: "RtStk" EXACT []
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_331:0000343
 name: sweetpotato variability of storage root shape trait
 def: "Variability of storage root shape" [CO:curators]
-synonym: "RtShV" EXACT [CO:curators]
+synonym: "RtShV" EXACT []
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_331:0000344
 name: sweetpotato variability of storage root size trait
 def: "Variability of storage root size" [CO:curators]
-synonym: "RtSzV" EXACT [CO:curators]
+synonym: "RtSzV" EXACT []
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_331:0000345
 name: sweetpotato keeping quality of storage roots trait
 def: "Keeping quality of storage roots" [CO:curators]
-synonym: "RtKQl" EXACT [CO:curators]
+synonym: "RtKQl" EXACT []
 is_a: TO:0001042 ! root quality trait
 
 [Term]
 id: CO_331:0000346
 name: sweetpotato consistency of boiled storage root trait
 def: "Consistency of boiled storage root" [CO:curators]
-synonym: "RtBlCu" EXACT [CO:curators]
+synonym: "RtBlCu" EXACT []
 is_a:  TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_331:0000347
 name: sweetpotato undesirable color of boiled storage root trait
 def: "Undesirable color of boiled storage root" [CO:curators]
-synonym: "RtBlCd" EXACT [CO:curators]
+synonym: "RtBlCd" EXACT []
 is_a:  TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_331:0000348
 name: sweetpotato reaction to drought trait
 def: "Response to damage by water restriction." [CO:curators]
-synonym: "RnDrt" EXACT [CO:curators]
+synonym: "RnDrt" EXACT []
 is_a: TO:0000276 ! drought tolerance
 
 [Term]
 id: CO_331:0000349
 name: sweetpotato reaction to flooding trait
 def: "Response of plant to inundation by water of all or part of the plant" [CO:curators]
-synonym: "RnFld" EXACT [CO:curators]
-synonym: "waterlogging response" EXACT [CO:curators]
+synonym: "RnFld" EXACT []
+synonym: "waterlogging response" EXACT []
 is_a: TO:0000114 ! flooding related trait
 
 [Term]
 id: CO_331:0000350
 name: sweetpotato reaction to heat trait
 def: "Response of a plant or plant part to damage by higher than normal temperatures" [CO:curators]
-synonym: "RnHeat" EXACT [CO:curators]
+synonym: "RnHeat" EXACT []
 is_a: TO:0000259 ! heat tolerance
 
 [Term]
 id: CO_331:0000351
 name: sweetpotato reaction to salinity trait
 def: "Response of a plant to damage by high concentration salt" [CO:curators]
-synonym: "RnSlt" EXACT [CO:curators]
+synonym: "RnSlt" EXACT []
 is_a: TO:0006001 ! salt tolerance
 
 [Term]
 id: CO_331:0000352
 name: sweetpotato reaction to shade trait
 def: "Response of plant to damage by shade" [CO:curators]
-synonym: "RnShd" EXACT [CO:curators]
+synonym: "RnShd" EXACT []
 is_a: TO:0000075 ! light sensitivity
 
 [Term]
 id: CO_331:0000353
 name: sweetpotato reaction to soil trait
 def: "Response of plant to damage by pH soil" [CO:curators]
-synonym: "RnSph" EXACT [CO:curators]
+synonym: "RnSph" EXACT []
 is_a: TO:0000254 ! growth media pH sensitivity
 
 [Term]
 id: CO_331:0000354
 name: sweetpotato reaction to high soil temperature trait
 def: "Response of a plant to damage by high concentration salt" [CO:curators]
-synonym: "RnSTp" EXACT [CO:curators]
+synonym: "RnSTp" EXACT []
 is_a: TO:0000259 ! heat tolerance
 
 [Term]
 id: CO_331:0000355
 name: sweetpotato reaction to West Indian sweetpotato weevil trait
 def: "Reaction to West Indian sweet potato weevil" [CO:curators]
-synonym: "RnWISPW" EXACT [CO:curators]
+synonym: "RnWISPW" EXACT []
 is_a: TO:0000261 ! insect damage resistance
 
 [Term]
 id: CO_331:0000356
 name: sweetpotato reaction to striped sweetpotato weevil trait
 def: "The reaction of the plant or plant part to damage caused by Striped sweet potato weevil" [CO:curators]
-synonym: "RnSSPW" EXACT [CO:curators]
+synonym: "RnSSPW" EXACT []
 is_a: TO:0000261 ! insect damage resistance
 
 [Term]
 id: CO_331:0000357
 name: sweetpotato reaction to sweetpotato wire worms trait
 def: "Reaction to Sweet potato wire worms" [CO:curators]
-synonym: "RnSPWW" EXACT [CO:curators]
+synonym: "RnSPWW" EXACT []
 is_a: TO:0000261 ! insect damage resistance
 
 [Term]
 id: CO_331:0000358
 name: sweetpotato reaction to wire worms trait
 def: "Reaction to Wire worms" [CO:curators]
-synonym: "RnWW" EXACT [CO:curators]
+synonym: "RnWW" EXACT []
 is_a: TO:0000261 ! insect damage resistance
 
 [Term]
 id: CO_331:0000359
 name: sweetpotato reaction to sweet potato flea beetles trait
 def: "Reaction to Sweet potato flea beetles" [CO:curators]
-synonym: "RnSPFB" EXACT [CO:curators]
+synonym: "RnSPFB" EXACT []
 is_a: TO:0000261 ! insect damage resistance
 
 [Term]
 id: CO_331:0000360
 name: sweetpotato reaction to flea beetles trait
 def: "Reaction to flea beetles" [CO:curators]
-synonym: "RnFB" EXACT [CO:curators]
+synonym: "RnFB" EXACT []
 is_a: TO:0000261 ! insect damage resistance
 
 [Term]
 id: CO_331:0000361
 name: sweetpotato reaction to sweet potato leaf beetles trait
 def: "Reaction to Sweet potato leaf beetles" [CO:curators]
-synonym: "RnSPLB" EXACT [CO:curators]
+synonym: "RnSPLB" EXACT []
 is_a: TO:0000261 ! insect damage resistance
 
 [Term]
 id: CO_331:0000362
 name: sweetpotato reaction to beetles trait
 def: "Reaction to Beetles" [CO:curators]
-synonym: "RnBTL" EXACT [CO:curators]
+synonym: "RnBTL" EXACT []
 is_a: TO:0000261 ! insect damage resistance
 
 [Term]
 id: CO_331:0000363
 name: sweetpotato reaction to grubworm trait
 def: "The reaction of the root to damage caused by Grub worm" [CO:curators]
-synonym: "RnGrbW" EXACT [CO:curators]
+synonym: "RnGrbW" EXACT []
 is_a: TO:0000261 ! insect damage resistance
 
 [Term]
 id: CO_331:0000364
 name: sweetpotato reaction to hornworm trait
 def: "The reaction of the root to damage caused by Hornworm" [CO:curators]
-synonym: "RnHrnw" EXACT [CO:curators]
+synonym: "RnHrnw" EXACT []
 is_a: TO:0000261 ! insect damage resistance
 
 [Term]
 id: CO_331:0000365
 name: sweetpotato reaction to aphids trait
 def: "The reaction of the plant or plant part to damage caused by Aphis" [CO:curators]
-synonym: "RnAph" EXACT [CO:curators]
+synonym: "RnAph" EXACT []
 is_a: TO:0006067 ! aphid resistance
 
 [Term]
 id: CO_331:0000366
 name: sweetpotato reaction to sweet potato white fly trait
 def: "The reaction of the plant or plant part to damage caused by Sweet potato white fly" [CO:curators]
-synonym: "RnSPWF" EXACT [CO:curators]
+synonym: "RnSPWF" EXACT []
 is_a: TO:0000261 ! insect damage resistance
 
 [Term]
 id: CO_331:0000367
 name: sweetpotato reaction to sweet potato moth trait
 def: "Reaction to Sweet potato moth" [CO:curators]
-synonym: "RnSPMth" EXACT [CO:curators]
+synonym: "RnSPMth" EXACT []
 is_a: TO:0000261 ! insect damage response
 
 [Term]
 id: CO_331:0000368
 name: sweetpotato reaction to moth trait
 def: "Reaction to Moth" [CO:curators]
-synonym: "RnMth" EXACT [CO:curators]
+synonym: "RnMth" EXACT []
 is_a: TO:0000261 ! insect damage response
 
 [Term]
 id: CO_331:0000369
 name: sweetpotato reaction to sweet potato stem borer trait
 def: "Reaction to Sweet potato stem borer (Omphisa anastomosalis)." [CO:curators]
-synonym: "RnSPSB" EXACT [CO:curators]
+synonym: "RnSPSB" EXACT []
 is_a: TO:0000261 ! insect damage response
 
 [Term]
 id: CO_331:0000370
 name: sweetpotato reaction to other insects trait
 def: "Reaction to other insects" [CO:curators]
-synonym: "RnIns" EXACT [CO:curators]
+synonym: "RnIns" EXACT []
 is_a: TO:0000261 ! insect damage response
 
 [Term]
 id: CO_331:0000371
 name: sweetpotato reaction to reniform nematode trait
 def: "Reaction to Reniform nematode" [CO:curators]
-synonym: "RnRFN" EXACT [CO:curators]
+synonym: "RnRFN" EXACT []
 is_a: TO:0000384 ! nematode damage response
 
 [Term]
 id: CO_331:0000372
 name: sweetpotato reaction to sting nematode trait
 def: "Reaction to Sting nematode" [CO:curators]
-synonym: "RnStN" EXACT [CO:curators]
+synonym: "RnStN" EXACT []
 is_a: TO:0000384 ! nematode damage response
 
 [Term]
 id: CO_331:0000373
 name: sweetpotato reaction to brown ring rot trait
 def: "Reaction to Brown ring rot" [CO:curators]
-synonym: "RnBRR" EXACT [CO:curators]
+synonym: "RnBRR" EXACT []
 is_a: TO:0000439 ! fungal disease response
 
 [Term]
 id: CO_331:0000374
 name: sweetpotato reaction to root lesion nematode trait
 def: "Reaction to root lesion nematode" [CO:curators]
-synonym: "RnRLN" EXACT [CO:curators]
+synonym: "RnRLN" EXACT []
 is_a: TO:0000384 ! nematode damage response
 
 [Term]
 id: CO_331:0000375
 name: sweetpotato reaction to other nematodes trait
 def: "Reaction to other nematodes" [CO:curators]
-synonym: "RnON" EXACT [CO:curators]
+synonym: "RnON" EXACT []
 is_a: TO:0000384 ! nematode damage response
 
 [Term]
 id: CO_331:0000376
 name: sweetpotato reaction to wilt rot trait
 def: "Reaction to Wilt rot" [CO:curators]
-synonym: "RnWR" EXACT [CO:curators]
+synonym: "RnWR" EXACT []
 is_a: TO:0000439 ! fungal disease resistance
 
 [Term]
 id: CO_331:0000377
 name: sweetpotato reaction to fusarium surface rot trait
 def: "Reaction to Fusarium surface rot (Fusarium oxysporum)." [CO:curators, NCBITaxon:5507]
-synonym: "RnFRS" EXACT [CO:curators]
+synonym: "RnFRS" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_331:0000378
 name: sweetpotato reaction to fusarium root rot trait
 def: "Reaction to Fusarium root rot (Fusarium solani)." [CO:curators, NCBITaxon:169388]
-synonym: "RnFRR" EXACT [CO:curators]
+synonym: "RnFRR" EXACT []
 is_a: TO:0001147 ! Fusarium solani disease response
 
 [Term]
 id: CO_331:0000379
 name: sweetpotato reaction to sclerotial blight and circular spot trait
 def: "Reaction to Sclerotial blight and circular spot (Sclerotium rolfsii, Agroathelia rolfsii)" [CO:curators]
-synonym: "RnSBC" EXACT [CO:curators]
+synonym: "RnSBC" EXACT []
 is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_331:0000380
 name: sweetpotato reaction to black rot trait
 def: "Reaction to black rot (Ceratocystis fimbriata)." [CO:curators, NCBITaxon:5158]
-synonym: "RnBR" EXACT [CO:curators]
+synonym: "RnBR" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_331:0000381
 name: sweetpotato reaction to scurf trait
 def: "Reaction to Scurf (Monilochaetes infuscans)." [CO:curators, NCBITaxon:593267]
-synonym: "RnScrf" EXACT [CO:curators]
+synonym: "RnScrf" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_331:0000382
 name: sweetpotato reaction to soft rot trait
 def: "Reaction to Soft rot (Rhizopus oryzae, Rhizopus arrhizus)." [CO:curators, NCBITaxon:64495]
-synonym: "RnSR" EXACT [CO:curators]
+synonym: "RnSR" EXACT []
 is_a: TO:0000439 ! fungal disease response
 
 [Term]
 id: CO_331:0000383
 name: sweetpotato reaction to java black rot trait
 def: "Reaction to Java black rot (Lasiodiplodia theobromae)" [CO:curators, NCBITaxon:45133]
-synonym: "RnJBR" EXACT [CO:curators]
+synonym: "RnJBR" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_331:0000384
 name: sweetpotato reaction to diaporthe dry rot trait
 def: "Reaction to Diaporthe dry rot Diaporthe phaseolorum (syns. D. batatatis; Phomopsis phaseoli)." [CO:curators, NCBITaxon:36923]
-synonym: "RnDDR" EXACT [CO:curators]
+synonym: "RnDDR" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_331:0000385
 name: sweetpotato reaction to scab trait
 def: "Reaction to Scab" [CO:curators]
-synonym: "RnScb" EXACT [CO:curators]
+synonym: "RnScb" EXACT []
 is_a: TO:0000315 ! bacterial disease resistance
 
 [Term]
 id: CO_331:0000386
 name: sweetpotato reaction to leaf spot trait
 def: "Reaction to leaf spot" [CO:curators]
-synonym: "RnLS" EXACT [CO:curators]
+synonym: "RnLS" EXACT []
 is_a: TO:0000439 ! fungal disease resistance
 
 [Term]
 id: CO_331:0000387
 name: sweetpotato reaction to white rust trait
 def: "Reaction to White rust (Albugo ipomoeae-panduratae)." [CO:curators, NCBITaxon:295094]
-synonym: "RnWR" EXACT [CO:curators]
+synonym: "RnWR" EXACT []
 is_a: TO:0001144 ! Oomycete disease response
 
 [Term]
 id: CO_331:0000388
 name: sweetpotato reaction to foot rot trait
 def: "Reaction to Foot rot (Plenodomus destruens, Diaporthe destruens)." [CO:curators, NCBITaxon:748119]
-synonym: "RnFR" EXACT [CO:curators]
+synonym: "RnFR" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_331:0000389
 name: sweetpotato reaction to charcoal rot trait
 def: "Reaction to Charcoal rot (Macrophomina phaseolina)." [CO:curators, NCBITaxon:35725]
-synonym: "RnCR" EXACT [CO:curators]
+synonym: "RnCR" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_331:0000390
 name: sweetpotato reaction to other fungi trait
 def: "Reaction to Other fungi" [CO:curators, NCBITaxon:4751]
-synonym: "RnOF" EXACT [CO:curators]
+synonym: "RnOF" EXACT []
 is_a: TO:0000439 ! fungal disease resistance
 
 [Term]
 id: CO_331:0000391
 name: sweetpotato reaction to pox or soil rot trait
 def: "Reaction to Pox or soil rot (Streptomyces ipomoeae)." [CO:curators, NCBITaxon:103232]
-synonym: "RnPSR" EXACT [CO:curators]
+synonym: "RnPSR" EXACT []
 is_a: TO:0000315 ! bacterial disease response
 
 [Term]
 id: CO_331:0000392
 name: sweetpotato reaction to bacterial stem and root rot trait
 def: "Reaction to Bacterial stem and root rot" [CO:curators]
-synonym: "RnBSRt" EXACT [CO:curators]
+synonym: "RnBSRt" EXACT []
 is_a: TO:0000315 ! bacterial disease resistance
 
 [Term]
 id: CO_331:0000393
 name: sweetpotato reaction to bacterial wilt trait
 def: "Reaction to Bacterial wilt" [CO:curators]
-synonym: "RnBW" EXACT [CO:curators]
+synonym: "RnBW" EXACT []
 is_a: TO:0000315 ! bacterial disease resistance
 
 [Term]
 id: CO_331:0000394
 name: sweetpotato reaction to other bacteria trait
 def: "Reaction to Other bacteria" [CO:curators]
-synonym: "RnOB" EXACT [CO:curators]
+synonym: "RnOB" EXACT []
 is_a: TO:0000315 ! bacterial disease resistance
 
 [Term]
 id: CO_331:0000395
 name: sweetpotato reaction to sweet potato feathery mottle virus (spmv) trait
 def: "Reaction to Sweet potato feathery mottle virus (SPMV)" [CO:curators]
-synonym: "RnSPMV" EXACT [CO:curators]
+synonym: "RnSPMV" EXACT []
 is_a: TO:0000148 ! viral disease resistance
 
 [Term]
 id: CO_331:0000396
 name: sweetpotato reaction to sweet potato mild mottle virus (spmmv) trait
 def: "Reaction to Sweet potato mild mottle virus (SPMMV)" [CO:curators]
-synonym: "RnSPMMV" EXACT [CO:curators]
+synonym: "RnSPMMV" EXACT []
 is_a: TO:0000148 ! viral disease resistance
 
 [Term]
 id: CO_331:0000397
 name: sweetpotato reaction to sweet potato vein mottle virus (spvmv) trait
 def: "Reaction to Sweet potato vein mottle virus (SPVMV)" [CO:curators]
-synonym: "RnSPVMV" EXACT [CO:curators]
+synonym: "RnSPVMV" EXACT []
 is_a: TO:0000148 ! viral disease resistance
 
 [Term]
 id: CO_331:0000398
 name: sweetpotato reaction to sweet potato virus disease complex (spvd complex) trait
 def: "Reaction to Sweet potato virus disease complex (SPVD complex)" [CO:curators]
-synonym: "RnSPVD" EXACT [CO:curators]
+synonym: "RnSPVD" EXACT []
 is_a: TO:0000148 ! viral disease resistance
 
 [Term]
 id: CO_331:0000399
 name: sweetpotato reaction to other virus trait
 def: "Reaction to Other virus" [CO:curators]
-synonym: "RnOV" EXACT [CO:curators]
+synonym: "RnOV" EXACT []
 is_a: TO:0000148 ! viral disease resistance
 
 [Term]
 id: CO_331:0000400
 name: sweetpotato reaction to witches broom trait
 def: "Reaction to Witches broom" [CO:curators]
-synonym: "RnWB" EXACT [CO:curators]
+synonym: "RnWB" EXACT []
 is_a: TO:0000315 ! bacterial disease resistance
 
 [Term]
 id: CO_331:0000401
 name: sweetpotato reaction to other mycoplasma trait
 def: "Reaction to other mycoplasma" [CO:curators]
-synonym: "RnOM" EXACT [CO:curators]
+synonym: "RnOM" EXACT []
 is_a: TO:0000315 ! bacterial disease resistance
 
 [Term]
 id: CO_331:0000402
 name: sweetpotato total sugar content trait
 def: "Total sugar content" [CO:curators]
-synonym: "RtTSgC" EXACT [CO:curators]
+synonym: "RtTSgC" EXACT []
 is_a: TO:0000333 ! sugar content
 
 [Term]
 id: CO_331:0000403
 name: sweetpotato appearance of plant trait
 def: "Appearance of plant" [CO:curators]
-synonym: "PtHbt" EXACT [CO:curators]
+synonym: "PtHbt" EXACT []
 is_a: TO:0000737 ! plant aspect
 
 [Term]
 id: CO_331:0000404
 name: sweetpotato appearance of flower trait
 def: "Appearance of flower" [CO:curators]
-synonym: "FrCol" EXACT [CO:curators]
+synonym: "FrCol" EXACT []
 is_a: TO:0000499 ! flower morphology trait
 
 [Term]
 id: CO_331:0000405
 name: sweetpotato appearance of roots trait
 def: "Appearance of roots" [CO:curators]
-synonym: "RtCol" EXACT [CO:curators]
+synonym: "RtCol" EXACT []
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_331:0000406
 name: sweetpotato appearance of seeds trait
 def: "Appearance of seeds" [CO:curators]
-synonym: "FrSds" EXACT [CO:curators]
+synonym: "FrSds" EXACT []
 is_a: TO:0000184 ! seed morphology trait
 
 [Term]
 id: CO_331:0000407
 name: sweetpotato appearance of leaves trait
 def: "Appearance of leaves" [CO:curators]
-synonym: "Lf" EXACT [CO:curators]
+synonym: "Lf" EXACT []
 is_a:  TO:0000748 ! leaf morphology trait
 
 [Term]
 id: CO_331:0000408
 name: sweetpotato appearance of hearbarium trait
 def: "Appearance of hearbarium" [CO:curators]
-synonym: "PtHrb" EXACT [CO:curators]
+synonym: "PtHrb" EXACT []
 is_a: TO:0000737 ! plant aspect
 
 [Term]
 id: CO_331:0000409
 name: sweetpotato storage root shape uniformity trait
 def: "The shape uniformity of the storage root." [CO:curators]
-synonym: "RtShpU" EXACT [CO:curators]
+synonym: "RtShpU" EXACT []
 is_a: TO:0000736 ! plant organ morphology trait
 
 [Term]
 id: CO_331:0000410
 name: sweetpotato storage root stalk trait
 def: "Length of stalk joining the storage roots to the stems" [CO:curators]
-synonym: "RtStlk" EXACT [CO:curators]
+synonym: "RtStlk" EXACT []
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_331:0000411
 name: sweetpotato storage root attachment trait
 def: "Ability of storage roots to remain attached to stem after digging and forcible shaking roots off" [CO:curators]
-synonym: "RtAtt" EXACT [CO:curators]
+synonym: "RtAtt" EXACT []
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_331:0000412
 name: sweetpotato length to diameter ratio of roots trait
 def: "Ratio of the length of a storage root to its diameter of the average of all storage roots in a single plant or plot" [CO:curators]
-synonym: "RtLDR" EXACT [CO:curators]
+synonym: "RtLDR" EXACT []
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_331:0000413
 name: sweetpotato skin color of roots trait
 def: "The most representative skin color observed is recorded" [CO:curators]
-synonym: "RtSknCol" EXACT [CO:curators]
+synonym: "RtSknCol" EXACT []
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_331:0000414
 name: sweetpotato skin texture of roots trait
 def: "Storage root skin feel, appearance, or consistency by visual observation and touch" [CO:curators]
-synonym: "RtSknTxt" EXACT [CO:curators]
+synonym: "RtSknTxt" EXACT []
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_331:0000415
 name: sweetpotato flesh color (carotenoids) trait
 def: "Observation of predominant Flesh color described from cross and longitudinal sections made about the middle of freshly harvested storage roots" [CO:curators]
-synonym: "RtFlsColC" EXACT [CO:curators]
+synonym: "RtFlsColC" EXACT []
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_331:0000416
 name: sweetpotato flesh color (anthocyanins) trait
 def: "Observation of predominant Flesh color described from cross and longitudinal sections made about the middle of freshly harvested storage roots" [CO:curators]
-synonym: "RtFlsColA" EXACT [CO:curators]
+synonym: "RtFlsColA" EXACT []
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_331:0000417
 name: sweetpotato deep of eyes of roots trait
 def: "Observation of how deep or shallow predominant eyes or adventitious buds are at the storage root skin interface" [CO:curators]
-synonym: "RtAdvB" EXACT [CO:curators]
+synonym: "RtAdvB" EXACT []
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_331:0000418
 name: sweetpotato number of lenticels trait
 def: "Overall assessment of visible lenticels at the storage root interface" [CO:curators]
-synonym: "RtLtcl" EXACT [CO:curators]
+synonym: "RtLtcl" EXACT []
 is_a: TO:1000007 ! tuberous root tuber morphology trait
  
 [Term]
 id: CO_331:0000419
 name: sweetpotato reaction to streptomyces soil rot trait
 def: "Streptomyces ipomoeae symptom evaluation" [CO:curators]
-synonym: "RnPSR" EXACT [CO:curators]
+synonym: "RnPSR" EXACT []
 is_a: TO:0000315 ! bacterial disease resistance
 
 [Term]
 id: CO_331:0000420
 name: sweetpotato reaction to root knot nematode meloidogyne spp trait
 def: "Reaction to Root-knot nematode Meloidogyne spp. symptom evaluation" [CO:curators]
-synonym: "RnMgRKN" EXACT [CO:curators]
+synonym: "RnMgRKN" EXACT []
 is_a: TO:0000384 ! nematode damage resistance
 
 [Term]
 id: CO_331:0000421
 name: sweetpotato reaction to root knot nematode meloidogyne incognita trait
 def: "Reaction to Root-knot nematode Meloidogyne incognita symptom evaluation" [CO:curators]
-synonym: "RnMgIRKN" EXACT [CO:curators]
+synonym: "RnMgIRKN" EXACT []
 is_a: TO:0000384 ! nematode damage resistance
 
 [Term]
 id: CO_331:0000422
 name: sweetpotato reaction to fusarium oxysporum trait
 def: "Reaction to Fusarium oxysporum batatas symptom evaluation (Fusarium oxysporum f. sp. batatas)" [CO:curators, NCBITaxon:61364]
-synonym: "RnFR" EXACT [CO:curators]
+synonym: "RnFR" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_331:0000423
 name: sweetpotato storage root defects trait
 def: "Type and/or name of visible storage root defect" [CO:curators]
-synonym: "RtDam" EXACT [CO:curators]
+synonym: "RtDam" EXACT []
 is_a: TO:0001042 ! root quality trait
 
 [Term]
 id: CO_331:0000424
 name: sweetpotato relative storage root yield trait
 def: "Overall visual assessment of storage root yield" [CO:curators]
-synonym: "RtYldR" EXACT [CO:curators]
+synonym: "RtYldR" EXACT []
 is_a: TO:0001041 ! root yield
 
 [Term]
 id: CO_331:0000425
 name: sweetpotato storage root yield relative to check trait
 def: "Overall calculation of relative root yield" [CO:curators]
-synonym: "RtYldChk" EXACT [CO:curators]
+synonym: "RtYldChk" EXACT []
 is_a: TO:0001041 ! root yield
 
 [Term]
 id: CO_331:0000426
 name: sweetpotato storage root appearance trait
 def: "Overall visual assessment of storage root yield appearance" [CO:curators]
-synonym: "RtApr" EXACT [CO:curators]
+synonym: "RtApr" EXACT []
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_331:0000428
 name: sweetpotato amylose content trait
 def: "Amylose content in sweetpotato" [CO:curators]
-synonym: "RtFlsAmy" EXACT [CO:curators]
+synonym: "RtFlsAmy" EXACT []
 is_a: TO:0000196 ! amylose content
 
 [Term]
 id: CO_331:0000429
 name: sweetpotato asparagine content trait
 def: "peonidin content of purple flesh sweetpotato" [CO:curators]
-synonym: "RtFlsAsp" EXACT [CO:curators]
+synonym: "RtFlsAsp" EXACT []
 is_a: TO:0002673 ! amino acid content
 
 [Term]
 id: CO_331:0000430
 name: sweetpotato cyanidin content trait
 def: "Cyanidin content, it is a pigment found in the purple flesh sweetpotato (PFSP)." [CO:curators]
-synonym: "RtFlsCya" EXACT [CO:curators]
+synonym: "RtFlsCya" EXACT []
 is_a: TO:0000494 ! pigment content trait
 
 [Term]
 id: CO_331:0000431
 name: sweetpotato total monomeric anthocyanin content trait
 def: "Total Monomeric Anthocyanins content of purple flesh sweetpotato" [CO:curators]
-synonym: "RtFlsAntM" EXACT [CO:curators]
+synonym: "RtFlsAntM" EXACT []
 is_a: TO:0000071 ! anthocyanin content
 
 [Term]
 id: CO_331:0000432
 name: sweetpotato peonidin content trait
 def: "Peonidin content of purple flesh sweetpotato" [CO:curators]
-synonym: "RtFlsPeo" EXACT [CO:curators]
+synonym: "RtFlsPeo" EXACT []
 is_a: TO:0000071 ! anthocyanin content
 
 [Term]
 id: CO_331:0000433
 name: sweetpotato anthocyanin content trait
 def: "Anthocyanin content of purple flesh sweetpotato" [CO:curators]
-synonym: "RtFlsAnt" EXACT [CO:curators]
+synonym: "RtFlsAnt" EXACT []
 is_a: TO:0000071 ! anthocyanin content
 
 [Term]
 id: CO_331:0000434
 name: sweetpotato phenol content trait
 def: "Phenol content of purple flesh sweetpotato" [CO:curators]
-synonym: "RtFlsPhe" EXACT [CO:curators]
+synonym: "RtFlsPhe" EXACT []
 is_a: TO:0020076 ! phenolic compound content
 
 [Term]
 id: CO_331:0000435
 name: sweetpotato nodes per vine trait
 def: "Nodes per vine" [CO:curators]
-synonym: "VnNds" EXACT [CO:curators]
+synonym: "VnNds" EXACT []
 is_a: TO:0000634 ! stem node number
 
 [Term]
 id: CO_331:0000436
 name: sweetpotato leaves per plant trait
 def: "Leaves per plant" [CO:curators]
-synonym: "PtLvs" EXACT [CO:curators]
+synonym: "PtLvs" EXACT []
 is_a: TO:0000241 ! leaf number
 
 [Term]
 id: CO_331:0000437
 name: sweetpotato color of leave trait
 def: "Color of leave" [CO:curators]
-synonym: "LfCol" EXACT [CO:curators]
+synonym: "LfCol" EXACT []
 is_a: TO:0000326 ! leaf color
 
 [Term]
 id: CO_331:0000438
 name: sweetpotato millipede damage trait
 def: "Observation of damage caused by Millipede in roots" [CO:curators]
-synonym: "RtMillDam" EXACT [CO:curators]
+synonym: "RtMillDam" EXACT []
 is_a: TO:0000054 ! animal damage resistance
 
 [Term]
 id: CO_331:0000439
 name: sweetpotato alcidodes sp. damage trait
 def: "Observation of damage caused by Alcidodes sp, causes crown enlargement/galling or death by girdling" [CO:curators]
-synonym: "RtAlcDam" EXACT [CO:curators]
+synonym: "RtAlcDam" EXACT []
 is_a: TO:0000261 ! insect damage resistance
 
 [Term]
 id: CO_331:0000440
 name: sweetpotato soil insect damage trait
 def: "Observation of damage caused by soil insect" [CO:curators]
-synonym: "RtSInsDam" EXACT [CO:curators]
+synonym: "RtSInsDam" EXACT []
 is_a: TO:0000261 ! insect damage resistance
 
 [Term]
 id: CO_331:0000441
 name: sweetpotato storage root shape (secondary) trait
 def: "Storage Root Shape described from latitudinal sections made about the middle of freshly harvested storage roots" [CO:curators]
-synonym: "RtShpS" EXACT [CO:curators]
+synonym: "RtShpS" EXACT []
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_331:0000601
 name: sweetpotato weight of total storage roots trait
 def: "The weight of total US no. 1 storage roots" [CO:curators]
-synonym: "RtUS1W" EXACT [CO:curators]
+synonym: "RtUS1W" EXACT []
 is_a: TO:0003009 ! tuberous root tuber weight
 
 [Term]
 id: CO_331:0000602
 name: sweetpotato weight of canner storage roots trait
 def: "The weight of canner storage roots" [CO:curators]
-synonym: "RtCanW" EXACT [CO:curators]
+synonym: "RtCanW" EXACT []
 is_a: TO:0003009 ! tuberous root tuber weight
 
 [Term]
 id: CO_331:0000603
 name: sweetpotato weight of jumbo storage roots trait
 def: "The roots that exceed the diameter, length and weight requirements of US. No 1 and canner storage roots, but are of marketable quality" 
-synonym: "RtJumW" EXACT [CO:curators]
+synonym: "RtJumW" EXACT []
 is_a: TO:0003009 ! tuberous root tuber weight
 
 [Term]
 id: CO_331:0000604
 name: sweetpotato weight of cull storage roots trait
 def: "The roots must be 1 or larger in diameter and so misshapen or unattractive that they can not fit as marketable roots in the no. 1, Canner, or Jumbo grades" [CO:curators]
-synonym: "RtCulW" EXACT [CO:curators]
+synonym: "RtCulW" EXACT []
 is_a: TO:0003009 ! tuberous root tuber weight
 
 [Term]
 id: CO_331:0000605
 name: sweetpotato weight of 90 count us no. 1 storage roots trait
 def: "The roots 2 to 3 1/2 diameter, length of 3 to 9, must be well shaped and free of defects that weigh between 5.0 - 9.4 oz. Should take roughly 90 to fill a 40lb box." [CO:curators]
-synonym: "Rt90ctW" EXACT [CO:curators]
+synonym: "Rt90ctW" EXACT []
 is_a: TO:0003009 ! tuberous root tuber weight
 
 [Term]
 id: CO_331:0000606
 name: sweetpotato weight of 55 count us no. 1 storage roots trait
 def: "The roots 2 to 3 1/2 diameter, length of 3 to 9, must be well shaped and free of defects that weigh between 9.5 - 14 oz. Should take roughly 55 to fill a 40lb box" [CO:curators]
-synonym: "Rt55ctW" EXACT [CO:curators]
+synonym: "Rt55ctW" EXACT []
 is_a: TO:0003009 ! tuberous root tuber weight
 
 [Term]
 id: CO_331:0000607
 name: sweetpotato weight of 40 count us no. 1 storage roots trait
 def: "The roots 2 to 3 1/2 diameter, length of 3 to 9, must be well shaped and free of defects that weigh between 14.1 - 18 oz. Should take roughly 40 to fill a 40lb box" [CO:curators]
-synonym: "Rt40ctW" EXACT [CO:curators]
+synonym: "Rt40ctW" EXACT []
 is_a: TO:0003009 ! tuberous root tuber weight
 
 [Term]
 id: CO_331:0000608
 name: weight of 32 count us no. 1 storage roots trait
 def: "The roots 2 to 3 1/2 diameter, length of 3 to 9, must be well shaped and free of defects that weigh between 18.1 - 22 oz. Should take roughly 32 to fill a 40lb box" [CO:curators]
-synonym: "Rt32ctW" EXACT [CO:curators]
+synonym: "Rt32ctW" EXACT []
 is_a: TO:0003009 ! tuberous root tuber weight
 
 [Term]
 id: CO_331:0000811
 name: sweetpotato storage root surface secondary defects trait
 def: "Storage root surface secondary defects" [CO:curators]
-synonym: "RtSSDef" EXACT [CO:curators]
+synonym: "RtSSDef" EXACT []
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
@@ -1583,21 +1583,21 @@ is_a: TO:0000327 ! shoot system yield trait
 id: CO_331:0001079
 name: sweetpotato total number of storage roots trait
 def: "The total number of storage roots" [CO:curators]
-synonym: "RtTN" EXACT [CO:curators]
+synonym: "RtTN" EXACT []
 is_a: TO:0000084 ! root number
 
 [Term]
 id: CO_331:0001080
 name: sweetpotato total storage root dry weight trait
 def: "The total dry weight of the storage roots" [CO:curators]
-synonym: "RtTDWt" EXACT [CO:curators]
+synonym: "RtTDWt" EXACT []
 is_a: TO:0000279 ! root weight
 
 [Term]
 id: CO_331:0001081
 name: sweetpotato total storage roots yield adjusted trait
 def: "The adjusted yield of the total storage roots" [CO:curators]
-synonym: "RtYldA" EXACT [CO:curators]
+synonym: "RtYldA" EXACT []
 is_a: TO:0001041 ! root yield
 
 [Term]
