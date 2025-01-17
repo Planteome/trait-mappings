@@ -213,6 +213,51 @@ synonym: "RtTDWt" EXACT []
 is_a: TO:0000279 ! root weight
 _________________________________
 
+[Term]
+id: CO_331:0001084
+name: sweetpotato vine dry matter content trait
+def: "The dry matter content of the vine." [CO:curators]
+synonym: "VnDMC" EXACT []
+is_a: TO:0000327 ! shoot system yield trait
+
+[Term]
+id: CO_331:0001085
+name: sweetpotato vine dry matter content yield trait
+def: "The dry matter content of the vine yield." [CO:curators]
+synonym: "VnDMCY" EXACT []
+is_a: TO:0000327 ! shoot system yield trait
+__________________________________________
+TO_0000457 (TO:0000457)
+	sweetpotato biomass yield trait
+	sweetpotato biomass yield adjusted trait
+	sweetpotato biomass yield adjusted in dry weight basis trait
+	sweetpotato biomass yield in dry weight basis trait
+_______________________________________
+TO_0000696 (TO:0000696)
+	sweetpotato storage root starch content trait
+	sweetpotato storage root starch content trait
+	sweetpotato storage root starch content in fresh weight basis trait
+_______________________________________________________________________
+TO_0001041 (TO:0001041)
+	sweetpotato yield of total roots trait
+	sweetpotato marketable root yield trait
+	sweetpotato average commercial root weight trait
+	sweetpotato yield of total roots trait
+	sweetpotato relative storage root yield trait
+	sweetpotato storage root yield relative to check trait
+	sweetpotato commercial storage root yield adjusted trait
+	sweetpotato root foliage ratio trait
+	sweetpotato storage root dry matter content yield trait
+	sweetpotato storage root dry matter content yield adjusted trait
+	sweetpotato total storage roots yield adjusted trait
+	sweetpotato yielding ability trait
+
+
+
+
+
+
+
 
 
 
