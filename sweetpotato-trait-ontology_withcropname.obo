@@ -453,15 +453,15 @@ is_a: TO:0000279 ! root weight
 
 [Term]
 id: CO_331:0000248
-name: sweetpotato weight of vines trait
-def: "Weight of vines samples." [CO:curators]
+name: sweetpotato fresh weight of vines trait
+def: "Fresh weight of vines samples." [CO:curators]
 synonym: "VnFWt" EXACT []
 is_a: TO:0000077 ! shoot system morphology trait
 
 [Term]
 id: CO_331:0000252
-name: sweetpotato weight of vines trait
-def: "Weight of vines samples." [CO:curators]
+name: sweetpotato dry weight of vines trait
+def: "Dry weight of vines samples." [CO:curators]
 synonym: "VnDWt" EXACT []
 is_a: TO:0000077 ! shoot system morphology trait
 
