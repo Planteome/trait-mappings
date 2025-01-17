@@ -439,15 +439,15 @@ is_a: TO:0000279 ! root weight
 
 [Term]
 id: CO_331:0000240
-name: sweetpotato weight of storage root trait
-def: "Weight of storage root samples." [CO:curators]
+name: sweetpotato fresh weight of storage root trait
+def: "Fresh weight of storage root samples." [CO:curators]
 synonym: "RtFWt" EXACT []
 is_a: TO:0000279 ! root weight
 
 [Term]
 id: CO_331:0000244
-name: sweetpotato weight of storage root trait
-def: "Weight of storage root samples." [CO:curators]
+name: sweetpotato dry weight of storage root trait
+def: "Dry weight of storage root samples." [CO:curators]
 synonym: "RtDWt" EXACT []
 is_a: TO:0000279 ! root weight
 
