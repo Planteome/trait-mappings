@@ -1329,7 +1329,7 @@ is_a: TO:0000241 ! leaf number
 
 [Term]
 id: CO_331:0000437
-name: sweetpotato color of leaff trait
+name: sweetpotato color of leaf trait
 def: "Color of leaf." [CO:curators]
 synonym: "LfCol" EXACT []
 is_a: TO:0000326 ! leaf color

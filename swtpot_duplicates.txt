@@ -183,6 +183,36 @@ name: sweetpotato canopy temperature trait
 def: "The canopy temperature by plot." [CO:curators]
 synonym: "CnpTp" EXACT []
 is_a: TO:0000157 ! canopy temperature
+__________________________________________
+[Term]
+id: CO_331:0002041
+name: sweetpotato average non-commercial storage root weight trait
+def: "The average non-commercial weight of storage roots" [CO:curators]
+synonym: "RtANCRW" EXACT []
+is_a: TO:0000279 ! root weight
+
+[Term]
+id: CO_331:0000221
+name: sweetpotato weight of non-commercial storage roots trait
+def: "Weight of root shorter than 10 cm long and greater than 20 cm long." [CO:curators]
+synonym: "RtNCmW" EXACT []
+is_a: TO:0000279 ! root weight
+_____________________________________________
+[Term]
+id: CO_331:0000244
+name: sweetpotato dry weight of storage root trait
+def: "Dry weight of storage root samples." [CO:curators]
+synonym: "RtDWt" EXACT []
+is_a: TO:0000279 ! root weight
+
+[Term]
+id: CO_331:0001080
+name: sweetpotato total storage root dry weight trait
+def: "The total dry weight of the storage roots." [CO:curators]
+synonym: "RtTDWt" EXACT []
+is_a: TO:0000279 ! root weight
+_________________________________
+
 
 
 
