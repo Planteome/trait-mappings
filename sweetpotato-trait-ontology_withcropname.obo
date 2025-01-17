@@ -2099,7 +2099,7 @@ is_a: TO:0000540 ! leaf area trait
 
 [Term]
 id: CO_331:2000038
-name: sweetpotato weight of pencil type roots trait." [CO:curators]
+name: sweetpotato weight of pencil type roots trait
 synonym: "RtPnW" EXACT []
 is_a: TO:0000279 ! root weight
 
