@@ -16,11 +16,6 @@ def: "Visual estimation" [CO:curators]
 relationship: method_of CO_331:0000001 ! sweetpotato plant type trait
 
 [Term]
-id: CO_331:0000003
-name: sweetpotato plttyp 4 pt. scale
-relationship: scale_of CO_331:0000002 ! sweetpotato observation of plant type method
-
-[Term]
 id: CO_331:0000004
 name: sweetpotato ground cover trait
 def: "Soil area covered by plant canopy" [CO:curators]
@@ -32,11 +27,6 @@ id: CO_331:0000005
 name: sweetpotato observation of ground cover method
 def: "Visual estimation" [CO:curators]
 relationship: method_of CO_331:0000004 ! sweetpotato ground cover trait
-
-[Term]
-id: CO_331:0000006
-name: sweetpotato pltcov 4 pt. scale
-relationship: scale_of CO_331:0000005 ! sweetpotato observation of ground cover method
 
 [Term]
 id: CO_331:0000007
@@ -52,11 +42,6 @@ def: "Visual estimation" [CO:curators]
 relationship: method_of CO_331:0000007 ! sweetpotato twining trait
 
 [Term]
-id: CO_331:0000009
-name: sweetpotato plttwg 5 pt. scale
-relationship: scale_of CO_331:0000008 ! sweetpotato observation of twining method
-
-[Term]
 id: CO_331:0000010
 name: sweetpotato predominant vine color trait
 def: "The predominant color of the vine. The predominant color should be evaluated considering the whole vine from base to tip." [CO:curators]
@@ -68,11 +53,6 @@ id: CO_331:0000011
 name: sweetpotato observation of predominant vine color method
 def: "Visual estimation" [CO:curators]
 relationship: method_of CO_331:0000010 ! sweetpotato predominant vine color trait
-
-[Term]
-id: CO_331:0000012
-name: sweetpotato vinclp 9 pt. scale
-relationship: scale_of CO_331:0000011 ! sweetpotato observation of predominant vine color method
 
 [Term]
 id: CO_331:0000013
@@ -88,11 +68,6 @@ def: "Visual estimation" [CO:curators]
 relationship: method_of CO_331:0000013 ! sweetpotato secondary vine color trait
 
 [Term]
-id: CO_331:0000015
-name: sweetpotato vincls 8 pt. scale
-relationship: scale_of CO_331:0000014 ! sweetpotato observation of secondary vine color method
-
-[Term]
 id: CO_331:0000016
 name: sweetpotato vine tips pubescence trait
 def: "The pubescence of the vine apex or tips." [CO:curators]
@@ -104,11 +79,6 @@ id: CO_331:0000017
 name: sweetpotato observation of vine tips pubescence method
 def: "Visual estimation" [CO:curators]
 relationship: method_of CO_331:0000016 ! sweetpotato vine tips pubescence trait
-
-[Term]
-id: CO_331:0000018
-name: sweetpotato vintpp 8 pt. scale
-relationship: scale_of CO_331:0000017 ! sweetpotato observation of vine tips pubescence method
 
 [Term]
 id: CO_331:0000019
@@ -124,11 +94,6 @@ def: "Visual estimation" [CO:curators]
 relationship: method_of CO_331:0000019 ! sweetpotato general outline of the leaf trait
 
 [Term]
-id: CO_331:0000021
-name: sweetpotato lefout 7 pt. scale
-relationship: scale_of CO_331:0000020 ! sweetpotato observation of general outline of the leaf method
-
-[Term]
 id: CO_331:0000022
 name: sweetpotato leaf lobe type trait
 def: "Type of the lobe of a leaf located in the middle section of the vine" [CO:curators]
@@ -140,11 +105,6 @@ id: CO_331:0000023
 name: sweetpotato observation of leaf lobes type method
 def: "Visual estimation" [CO:curators]
 relationship: method_of CO_331:0000022 ! sweetpotato leaf lobe type trait
-
-[Term]
-id: CO_331:0000024
-name: sweetpotato leflbt 6 pt. scale
-relationship: scale_of CO_331:0000023 ! sweetpotato observation of leaf lobes type method
 
 [Term]
 id: CO_331:0000025
@@ -160,11 +120,6 @@ def: "Visual estimation" [CO:curators]
 relationship: method_of CO_331:0000025 ! sweetpotato leaf lobe number trait
 
 [Term]
-id: CO_331:0000027
-name: sweetpotato leflbn 5 pt. scale
-relationship: scale_of CO_331:0000026 ! sweetpotato observation of leaf lobe number method
-
-[Term]
 id: CO_331:0000028
 name: sweetpotato shape of central leaf lobe trait
 def: "Shape of the central leaf lobe of a leaf located in the middle section of the vine" [CO:curators]
@@ -176,11 +131,6 @@ id: CO_331:0000029
 name: sweetpotato observation of shape of central leaf lobe method
 def: "Visual estimation" [CO:curators]
 relationship: method_of CO_331:0000028 ! sweetpotato shape of central leaf lobe trait
-
-[Term]
-id: CO_331:0000030
-name: sweetpotato leflcs 10 pt. scale
-relationship: scale_of CO_331:0000029 ! sweetpotato observation of shape of central leaf lobe method
 
 [Term]
 id: CO_331:0000031
@@ -196,11 +146,6 @@ def: "Visual estimation" [CO:curators]
 relationship: method_of CO_331:0000031 ! sweetpotato mature leaf size trait
 
 [Term]
-id: CO_331:0000033
-name: sweetpotato leflms 9 pt. scale
-relationship: scale_of CO_331:0000032 ! sweetpotato observation of mature leaf size method
-
-[Term]
 id: CO_331:0000034
 name: sweetpotato abaxial leaf vein pigmentation trait
 def: "Distribution of anthocyanin (purple) pigmentation shown in the veins of the lower surface of a leaf" [CO:curators]
@@ -212,11 +157,6 @@ id: CO_331:0000035
 name: sweetpotato observation of abaxial leaf vein pigmentation method
 def: "Visual estimation" [CO:curators]
 relationship: method_of CO_331:0000034 ! sweetpotato abaxial leaf vein pigmentation trait
-
-[Term]
-id: CO_331:0000036
-name: sweetpotato lefavp 9 pt. scale
-relationship: scale_of CO_331:0000035 ! sweetpotato observation of abaxial leaf vein pigmentation method
 
 [Term]
 id: CO_331:0000037
@@ -232,11 +172,6 @@ def: "Visual estimation" [CO:curators]
 relationship: method_of CO_331:0000037 ! sweetpotato mature leaf color trait
 
 [Term]
-id: CO_331:0000039
-name: sweetpotato lefcmt 9 pt. scale
-relationship: scale_of CO_331:0000038 ! sweetpotato observation of mature leaf color method
-
-[Term]
 id: CO_331:0000040
 name: sweetpotato immature leaf color trait
 def: "Describe the overall foliage color considering the color of fully expanded immature leaves of several plants." [CO:curators]
@@ -248,11 +183,6 @@ id: CO_331:0000041
 name: sweetpotato observation of immature leaf color method
 def: "Visual estimation" [CO:curators]
 relationship: method_of CO_331:0000040 ! sweetpotato immature leaf color trait
-
-[Term]
-id: CO_331:0000042
-name: sweetpotato lefcim 9 pt. scale
-relationship: scale_of CO_331:0000041 ! sweetpotato observation of immature leaf color method
 
 [Term]
 id: CO_331:0000043
@@ -268,11 +198,6 @@ def: "Visual estimation" [CO:curators]
 relationship: method_of CO_331:0000043 ! sweetpotato petiole pigmentation trait
 
 [Term]
-id: CO_331:0000045
-name: sweetpotato flrptp 9 pt. scale
-relationship: scale_of CO_331:0000044 ! sweetpotato observation of petiole pigmentation method
-
-[Term]
 id: CO_331:0000046
 name: sweetpotato flower color trait
 def: "The most representative color in the flowers" [CO:curators]
@@ -284,11 +209,6 @@ id: CO_331:0000047
 name: sweetpotato observation of newly opened flowers method
 def: "Visual estimation" [CO:curators]
 relationship: method_of CO_331:0000046 ! sweetpotato flower color trait
-
-[Term]
-id: CO_331:0000048
-name: sweetpotato flrcol 6 pt. scale
-relationship: scale_of CO_331:0000047 ! sweetpotato observation of newly opened flowers method
 
 [Term]
 id: CO_331:0000049
@@ -304,11 +224,6 @@ def: "Visual estimation" [CO:curators]
 relationship: method_of CO_331:0000049 ! sweetpotato predominant skin color trait
 
 [Term]
-id: CO_331:0000051
-name: sweetpotato prdskncol 9 pt. scale
-relationship: scale_of CO_331:0000050 ! sweetpotato observation of predominant skin color, many freshly harvested storage roots should be washed and dried prior to evaluation. method
-
-[Term]
 id: CO_331:0000052
 name: sweetpotato intensity of predominant skin color trait
 def: "Intensity of Predominant Skin color of the root" [CO:curators]
@@ -320,11 +235,6 @@ id: CO_331:0000053
 name: sweetpotato observation of intensity of predominant skin color method
 def: "Visual estimation" [CO:curators]
 relationship: method_of CO_331:0000052 ! sweetpotato intensity of predominant skin color trait
-
-[Term]
-id: CO_331:0000054
-name: sweetpotato skncpi 3 pt. scale
-relationship: scale_of CO_331:0000053 ! sweetpotato observation of intensity of predominant skin color method
 
 [Term]
 id: CO_331:0000055
@@ -340,11 +250,6 @@ def: "Visual estimation" [CO:curators]
 relationship: method_of CO_331:0000055 ! sweetpotato secondary skin color trait
 
 [Term]
-id: CO_331:0000057
-name: sweetpotato skncsc 10 pt. scale
-relationship: scale_of CO_331:0000056 ! sweetpotato observation of secondary skin color method
-
-[Term]
 id: CO_331:0000058
 name: sweetpotato predominant flesh color trait
 def: "The most representative flesh color of the root" [CO:curators]
@@ -356,11 +261,6 @@ id: CO_331:0000059
 name: sweetpotato observation of predominant flesh color described from cross and longitudinal sections made about the middle of freshly harvested storage roots method
 def: "Visual estimation" [CO:curators]
 relationship: method_of CO_331:0000058 ! sweetpotato predominant flesh color trait
-
-[Term]
-id: CO_331:0000060
-name: sweetpotato prdflshcol 9 pt. scale
-relationship: scale_of CO_331:0000059 ! sweetpotato observation of predominant flesh color described from cross and longitudinal sections made about the middle of freshly harvested storage roots method
 
 [Term]
 id: CO_331:0000061
@@ -376,11 +276,6 @@ def: "Visual estimation" [CO:curators]
 relationship: method_of CO_331:0000061 ! sweetpotato secondary flesh color trait
 
 [Term]
-id: CO_331:0000063
-name: sweetpotato flscsc 10 pt. scale
-relationship: scale_of CO_331:0000062 ! sweetpotato observation of secondary flesh color method
-
-[Term]
 id: CO_331:0000064
 name: sweetpotato distribution of secondary flesh color trait
 def: "Distribution of Secondary Flesh color of the root" [CO:curators]
@@ -392,11 +287,6 @@ id: CO_331:0000065
 name: sweetpotato observation of distribution of secondary flesh color described from cross and longitudinal sections made about the middle of freshly harvested storage roots method
 def: "Visual estimation" [CO:curators]
 relationship: method_of CO_331:0000064 ! sweetpotato distribution of secondary flesh color trait
-
-[Term]
-id: CO_331:0000066
-name: sweetpotato flscsd 10 pt. scale
-relationship: scale_of CO_331:0000065 ! sweetpotato observation of distribution of secondary flesh color described from cross and longitudinal sections made about the middle of freshly harvested storage roots method
 
 [Term]
 id: CO_331:0000067
@@ -432,11 +322,6 @@ def: "Visual estimation" [CO:curators]
 relationship: method_of CO_331:0000070 ! sweetpotato latex production in storage roots trait
 
 [Term]
-id: CO_331:0000072
-name: sweetpotato rtlat 3 pt. scale
-relationship: scale_of CO_331:0000071 ! sweetpotato observation of latex production in storage roots method
-
-[Term]
 id: CO_331:0000073
 name: sweetpotato oxidation in storage roots trait
 def: "Amount of browning due to oxidation" [CO:curators]
@@ -450,11 +335,6 @@ def: "Visual estimation" [CO:curators]
 relationship: method_of CO_331:0000073 ! sweetpotato oxidation in storage roots trait
 
 [Term]
-id: CO_331:0000075
-name: sweetpotato rtoxi 3 pt. scale
-relationship: scale_of CO_331:0000074 ! sweetpotato observation of oxidation in storage roots 5-10 seconds after storage roots are cut in cross section. method
-
-[Term]
 id: CO_331:0000076
 name: sweetpotato storage root size trait
 def: "Overall assessment of storage root size based on inspection of the harvested roots" [CO:curators]
@@ -466,11 +346,6 @@ id: CO_331:0000077
 name: sweetpotato storage root size - method
 def: "Overall assessment of storage root size based on inspection of the harvested roots. Use a 1 to 9 scale." [CO:curators]
 relationship: method_of CO_331:0000076 ! sweetpotato storage root size trait
-
-[Term]
-id: CO_331:0000078
-name: sweetpotato rtsize 5 pt. scale
-relationship: scale_of CO_331:0000077 ! sweetpotato storage root size - method
 
 [Term]
 id: CO_331:0000079
@@ -519,11 +394,6 @@ def: "Overall assessment of weevil damage based on inspection of the harvested r
 relationship: method_of CO_331:0000088 ! sweetpotato reaction to sweet potato weevil trait
 
 [Term]
-id: CO_331:0000090
-name: sweetpotato rtdam 9 pt. scale
-relationship: scale_of CO_331:0000089 ! sweetpotato weevil damage evaluation method
-
-[Term]
 id: CO_331:0000091
 name: sweetpotato reaction to early blight: (Alternaria spp.) trait
 def: "Alternaria symptoms evaluation" [CO:curators, NCBITaxon:5598]
@@ -535,11 +405,6 @@ id: CO_331:0000092
 name: sweetpotato early blight evaluation: (alternaria) method
 def: "Visual estimation" [CO:curators]
 relationship: method_of CO_331:0000091 ! sweetpotato reaction to early blight: (alternaria spp) trait
-
-[Term]
-id: CO_331:0000093
-name: sweetpotato altsm 9 pt. scale
-relationship: scale_of CO_331:0000092 ! sweetpotato early blight evaluation: (alternaria) method
 
 [Term]
 id: CO_331:0000094
@@ -555,21 +420,11 @@ def: "Visual estimation" [CO:curators]
 relationship: method_of CO_331:0000094 ! sweetpotato virus symptoms trait
 
 [Term]
-id: CO_331:0000096
-name: sweetpotato virsym 9 pt. scale
-relationship: scale_of CO_331:0000095 ! sweetpotato virus symptoms evaluation method
-
-[Term]
 id: CO_331:0000097
 name: sweetpotato storage root cracking trait
 def: "Storage root cracking" [CO:curators]
 synonym: "RtCrk" EXACT [CO:curators]
 is_a: TO:1000007 ! tuberous root tuber morphology trait
-
-[Term]
-id: CO_331:0000099
-name: sweetpotato rtscr 4 pt. scale
-relationship: scale_of CO_331:0000238 ! sweetpotato estimation of craking roots method
 
 [Term]
 id: CO_331:0000100
@@ -596,16 +451,6 @@ id: CO_331:0000104
 name: sweetpotato content of iron in dry weight basis - method
 def: "The mineral concentrations (Fe, Zn, Ca, K, Na, Mg and P) are determined by inductively coupled plasma-optical emission spectrophotometry (ICP-OES) using a Radial View." [CO:curators]
 relationship: method_of CO_331:0000103 ! sweetpotato iron content trait
-
-[Term]
-id: CO_331:0000105
-name: sweetpotato mg/100g scale
-relationship: scale_of CO_331:0000104 ! sweetpotato content of iron in dry weight basis - method
-relationship: scale_of CO_331:0000107 ! sweetpotato content of zinc in dry weight basis - method
-relationship: scale_of CO_331:0000110 ! sweetpotato beta carotene content - method
-relationship: scale_of CO_331:0000113 ! sweetpotato total carotenoids - method
-relationship: scale_of CO_331:0000282 ! sweetpotato content of calcium in dry weight basis - method
-relationship: scale_of CO_331:0000286 ! sweetpotato content of magnesium in dry weight basis - method
 
 [Term]
 id: CO_331:0000106
@@ -738,11 +583,6 @@ def: "Visual estimation" [CO:curators]
 relationship: method_of CO_331:0000133 ! sweetpotato color of boiled roots trait
 
 [Term]
-id: CO_331:0000135
-name: sweetpotato rtscb 3 pt. scale
-relationship: scale_of CO_331:0000134 ! sweetpotato estimation of color of cooked roots immediately after cooking method
-
-[Term]
 id: CO_331:0000136
 name: sweetpotato texture of boiled storage root flesh trait
 def: "Storage root texture after boiled" [CO:curators]
@@ -768,11 +608,6 @@ id: CO_331:0000140
 name: sweetpotato evaluation of cooked samples for sweetness method
 def: "Storage root sweetness in cooked samples, determined by taste test. Use a 1 to 9 scale." [CO:curators]
 relationship: method_of CO_331:0000139 ! sweetpotato sweetness of boiled storage root flesh trait
-
-[Term]
-id: CO_331:0000141
-name: sweetpotato rtswt 9 pt. scale
-relationship: scale_of CO_331:0000140 ! sweetpotato evaluation of cooked samples for sweetness method
 
 [Term]
 id: CO_331:0000142
@@ -869,11 +704,6 @@ def: "Visual estimation" [CO:curators]
 relationship: method_of CO_331:0000153 ! sweetpotato vine internode length trait
 
 [Term]
-id: CO_331:0000155
-name: sweetpotato vininlg 5 pt. scale
-relationship: scale_of CO_331:0000154 ! sweetpotato average length of at least three internodes located in the middle section of the vine method
-
-[Term]
 id: CO_331:0000156
 name: sweetpotato vninlg_et_1to9 variable
 synonym: "VINLG" EXACT [CO:curators]
@@ -894,11 +724,6 @@ id: CO_331:0000158
 name: sweetpotato average diameter of at least three internodes located in the middle section of the vine method
 def: "Visual estimation" [CO:curators]
 relationship: method_of CO_331:0000157 ! sweetpotato vine internode diameter trait
-
-[Term]
-id: CO_331:0000159
-name: sweetpotato vinind 5 pt. scale
-relationship: scale_of CO_331:0000158 ! sweetpotato average diameter of at least three internodes located in the middle section of the vine method
 
 [Term]
 id: CO_331:0000160
@@ -1002,11 +827,6 @@ id: CO_331:0000171
 name: sweetpotato average petiole length, from the base to the insertion with the blade, of at least three leaves in the middle portion of a main vine method
 def: "Visual estimation" [CO:curators]
 relationship: method_of CO_331:0000170 ! sweetpotato petiole length trait
-
-[Term]
-id: CO_331:0000172
-name: sweetpotato flrptl 5 pt. scale
-relationship: scale_of CO_331:0000171 ! sweetpotato average petiole length, from the base to the insertion with the blade, of at least three leaves in the middle portion of a main vine method
 
 [Term]
 id: CO_331:0000173
@@ -1139,11 +959,6 @@ def: "Visual estimation" [CO:curators]
 relationship: method_of CO_331:0000194 ! sweetpotato vine vigor trait
 
 [Term]
-id: CO_331:0000196
-name: sweetpotato vinvgr 9 pt. scale
-relationship: scale_of CO_331:0000195 ! sweetpotato observation of plant vigour method
-
-[Term]
 id: CO_331:0000197
 name: sweetpotato vnvg_et_1to9 variable
 synonym: "VV1" EXACT [CO:curators]
@@ -1175,11 +990,6 @@ def: "Overall assessment of storage root form based on inspection of the harvest
 relationship: method_of CO_331:0000199 ! sweetpotato storage root form trait
 
 [Term]
-id: CO_331:0000201
-name: sweetpotato rtform 9 pt. scale
-relationship: scale_of CO_331:0000200 ! sweetpotato storage root form - method
-
-[Term]
 id: CO_331:0000202
 name: sweetpotato rtfrm_et_1to9 variable
 synonym: "RF" EXACT [CO:curators]
@@ -1200,11 +1010,6 @@ id: CO_331:0000204
 name: sweetpotato storage root damage method
 def: "Overall assessment of damage based on inspection of the harvested roots. Use a 1 to 9 scale." [CO:curators]
 relationship: method_of CO_331:0000203 ! sweetpotato number of storage root damages trait
-
-[Term]
-id: CO_331:0000205
-name: sweetpotato rtsdam 9 pt. scale
-relationship: scale_of CO_331:0000204 ! sweetpotato storage root damage method
 
 [Term]
 id: CO_331:0000206
@@ -1245,11 +1050,6 @@ synonym: "PtCRt" EXACT [CO:curators]
 is_a: TO:0000084 ! root number
 
 [Term]
-id: CO_331:0000213
-name: sweetpotato roots/plot scale
-relationship: scale_of CO_331:0000145 ! sweetpotato evaluation of roots method
-
-[Term]
 id: CO_331:0000214
 name: sweetpotato ptcrt_ct_plplot variable
 synonym: "NOCR" EXACT [CO:curators]
@@ -1280,13 +1080,6 @@ name: sweetpotato weight of commercial storage roots trait
 def: "Weight of root that are 12 to 20 cm long and at least 10 cm in diameter" [CO:curators]
 synonym: "RtCmW" EXACT [CO:curators]
 is_a: TO:0000279 ! root weight
-
-[Term]
-id: CO_331:0000219
-name: sweetpotato kg/plot scale
-relationship: scale_of CO_331:0000146 ! sweetpotato measurements of root mass method
-relationship: scale_of CO_331:0000225 ! sweetpotato measurements of vine mass method
-relationship: scale_of CO_331:0000235 ! sweetpotato estimated weight per plot - method
 
 [Term]
 id: CO_331:0000220
@@ -1342,11 +1135,6 @@ def: "Total number of root per plot / Number of plants harvested" [CO:curators]
 relationship: method_of CO_331:0000079 ! sweetpotato total number of root trait
 
 [Term]
-id: CO_331:0000229
-name: sweetpotato roots/ plant scale
-relationship: scale_of CO_331:0000228 ! sweetpotato estimated number per plant - method
-
-[Term]
 id: CO_331:0000230
 name: sweetpotato rtttn_ct_rtplant variable
 synonym: "TNROOT,NRPP" EXACT [CO:curators]
@@ -1360,11 +1148,6 @@ id: CO_331:0000231
 name: sweetpotato estimated number per plot - method
 def: "Number of commercial plus Number of non-commercial roots" [CO:curators]
 relationship: method_of CO_331:0000079 ! sweetpotato total number of root trait
-
-[Term]
-id: CO_331:0000232
-name: sweetpotato roots/ plot scale
-relationship: scale_of CO_331:0000231 ! sweetpotato estimated number per plot - method
 
 [Term]
 id: CO_331:0000233
@@ -1424,14 +1207,6 @@ id: CO_331:0000241
 name: sweetpotato measurements of fresh root mass method
 def: "Fresh weight of storage root samples (roughly 200g recommended sample size)" [CO:curators]
 relationship: method_of CO_331:0000240 ! sweetpotato weight of storage root trait
-
-[Term]
-id: CO_331:0000242
-name: sweetpotato g scale
-relationship: scale_of CO_331:0000241 ! sweetpotato measurements of fresh root mass method
-relationship: scale_of CO_331:0000245 ! sweetpotato measurements of dry root mass method
-relationship: scale_of CO_331:0000249 ! sweetpotato measurements of fresh vine mass method
-relationship: scale_of CO_331:0000253 ! sweetpotato measurements of dry vine mass method
 
 [Term]
 id: CO_331:0000243
@@ -1522,11 +1297,6 @@ def: "Fibers in cooked storage root samples assessed by inspection and tasting. 
 relationship: method_of CO_331:0000256 ! sweetpotato fiber cooked trait
 
 [Term]
-id: CO_331:0000258
-name: sweetpotato rtfbr 9 pt. scale
-relationship: scale_of CO_331:0000257 ! sweetpotato evaluation of cooked samples for fibers method
-
-[Term]
 id: CO_331:0000259
 name: sweetpotato rtflsfbc_et_1to9 variable
 synonym: "COOF" EXACT [CO:curators]
@@ -1554,11 +1324,6 @@ relationship: variable_of CO_331:0000140 ! sweetpotato evaluation of cooked samp
 relationship: variable_of CO_331:0000141 ! sweetpotato rtswt 9 pt. scale
 
 [Term]
-id: CO_331:0000262
-name: sweetpotato flstxch 5 pt. scale
-relationship: scale_of CO_331:0000137 ! sweetpotato evaluation of cooked samples for texture method
-
-[Term]
 id: CO_331:0000263
 name: sweetpotato rtflstxh_et_1to9 variable
 synonym: "RTTEXT" EXACT [CO:curators]
@@ -1566,11 +1331,6 @@ is_a: CO_331:0000136 ! sweetpotato texture of boiled storage root flesh trait
 relationship: variable_of CO_331:0000136 ! sweetpotato texture of boiled storage root flesh trait
 relationship: variable_of CO_331:0000137 ! sweetpotato evaluation of cooked samples for texture method
 relationship: variable_of CO_331:0000262 ! sweetpotato flstxch 5 pt. scale
-
-[Term]
-id: CO_331:0000264
-name: sweetpotato flstxcg 9 pt. scale
-relationship: scale_of CO_331:0000137 ! sweetpotato evaluation of cooked samples for texture method
 
 [Term]
 id: CO_331:0000265
@@ -1595,11 +1355,6 @@ def: "Overall taste of cooked samples assessed using a 1 to 9 scale." [CO:curato
 relationship: method_of CO_331:0000266 ! sweetpotato overall taste of cooked sample trait
 
 [Term]
-id: CO_331:0000268
-name: sweetpotato rttst 9 pt. scale
-relationship: scale_of CO_331:0000267 ! sweetpotato evaluation of cooked samples for taste method
-
-[Term]
 id: CO_331:0000269
 name: sweetpotato rtflsts_et_1to9 variable
 synonym: "COOT" EXACT [CO:curators]
@@ -1622,11 +1377,6 @@ def: "Appearance of cooked samples assessed using a 1 to 9 scale." [CO:curators]
 relationship: method_of CO_331:0000270 ! sweetpotato overall appearance of cooked sample trait
 
 [Term]
-id: CO_331:0000272
-name: sweetpotato rtapr 9 pt. scale
-relationship: scale_of CO_331:0000271 ! sweetpotato evaluation of cooked samples for appearance method
-
-[Term]
 id: CO_331:0000273
 name: sweetpotato rtflsap_et_1to9 variable
 synonym: "COOAP" EXACT [CO:curators]
@@ -1647,11 +1397,6 @@ id: CO_331:0000275
 name: sweetpotato evaluation of roots for sprouting ability method
 def: "Overall assessment using a scale of 1 to 9." [CO:curators]
 relationship: method_of CO_331:0000274 ! sweetpotato sprouting ability trait
-
-[Term]
-id: CO_331:0000276
-name: sweetpotato rtsprt 9 pt. scale
-relationship: scale_of CO_331:0000275 ! sweetpotato evaluation of roots for sprouting ability method
 
 [Term]
 id: CO_331:0000277
@@ -1910,29 +1655,6 @@ id: CO_331:0000316
 name: sweetpotato percentage of marketable - method
 def: "Number of non-commercial roots/Total number of root after harvest*100" [CO:curators]
 relationship: method_of CO_331:0000310 ! sweetpotato percentage of marketable roots trait
-
-[Term]
-id: CO_331:0000319
-name: sweetpotato t/ha scale
-relationship: scale_of CO_331:0000083 ! sweetpotato estimated yield per hectare - method
-relationship: scale_of CO_331:0000313 ! sweetpotato estimated marketable yield per hectare - method
-relationship: scale_of CO_331:0000314 ! sweetpotato estimated marketable yield per hectare - method
-relationship: scale_of CO_331:0000315 ! sweetpotato estimated yield of total roots per hectare - method
-
-[Term]
-id: CO_331:0000322
-name: sweetpotato % scale
-relationship: scale_of CO_331:0000086 ! sweetpotato harvest index evaluation - method
-relationship: scale_of CO_331:0000101 ! sweetpotato protein content - method
-relationship: scale_of CO_331:0000116 ! sweetpotato storage root starch content - method
-relationship: scale_of CO_331:0000119 ! sweetpotato fructose content - method
-relationship: scale_of CO_331:0000122 ! sweetpotato glucose content - method
-relationship: scale_of CO_331:0000125 ! sweetpotato sucrose content - method
-relationship: scale_of CO_331:0000128 ! sweetpotato maltose content - method
-relationship: scale_of CO_331:0000131 ! sweetpotato storage root fibers content evaluated in percentage fresh weight method
-relationship: scale_of CO_331:0000143 ! sweetpotato storage root dry matter content - method
-relationship: scale_of CO_331:0000299 ! sweetpotato survival index - method
-relationship: scale_of CO_331:0000316 ! sweetpotato percentage of marketable - method
 
 [Term]
 id: CO_331:0000326
@@ -3336,7 +3058,7 @@ relationship: method_of CO_331:0000421 ! sweetpotato reaction to root knot nemat
 [Term]
 id: CO_331:0000541
 name: sweetpotato visual estimation of the roots response to fusarium oxysporum method
-def: "The reaction is estimated by observing visually the appearance of an average or all fibrous roots within a single plant or plotin response to Fusarium oxysporum" [CO:curators]
+def: "The reaction is estimated by observing visually the appearance of an average or all fibrous roots within a single plant or plot in response to Fusarium oxysporum" [CO:curators]
 relationship: method_of CO_331:0000422 ! sweetpotato reaction to fusarium oxysporum trait
 
 [Term]
@@ -3418,217 +3140,6 @@ def: "Overall assessment of weevil damage based on inspection of the harvested r
 relationship: method_of CO_331:0000439 ! sweetpotato alcidodes sp. damage trait
 
 [Term]
-id: CO_331:0000559
-name: sweetpotato soils insect evaluation method
-def: "Overall assessment of soil insect damage based on inspection of the harvested roots. Use a 1 to 9 scale." [CO:curators]
-relationship: method_of CO_331:0000440 ! sweetpotato soil insect damage trait
-
-[Term]
-id: CO_331:0000560
-name: sweetpotato rtssdef 9 pt. scale
-relationship: scale_of CO_331:0000442 ! sweetpotato observation of storage root surface defects method
-
-[Term]
-id: CO_331:0000561
-name: sweetpotato rtscthi 5 pt. scale
-relationship: scale_of CO_331:0000443 ! sweetpotato observation of storage root cortex thickness method
-
-[Term]
-id: CO_331:0000562
-name: sweetpotato flrhab 4 pt. scale
-relationship: scale_of CO_331:0000444 ! sweetpotato observation of number flowers in the inflorescence method
-
-[Term]
-id: CO_331:0000563
-name: sweetpotato cm scale
-relationship: scale_of CO_331:0000445 ! sweetpotato measurement of flower length and width in cm method
-
-[Term]
-id: CO_331:0000564
-name: sweetpotato flrshl 3 pt. scale
-relationship: scale_of CO_331:0000446 ! sweetpotato observation of shape limb in the flowers in the inflorescence method
-
-[Term]
-id: CO_331:0000565
-name: sweetpotato sepeql 2 pt. scale
-relationship: scale_of CO_331:0000447 ! sweetpotato equality of sepal length method
-
-[Term]
-id: CO_331:0000566
-name: sweetpotato number scale
-relationship: scale_of CO_331:0000448 ! sweetpotato record the most frequent number in ten typical flowers method
-
-[Term]
-id: CO_331:0000567
-name: sweetpotato sepshp 5 pt. scale
-relationship: scale_of CO_331:0000449 ! sweetpotato observation of sepal shape method
-
-[Term]
-id: CO_331:0000568
-name: sweetpotato sepapx 4 pt. scale
-relationship: scale_of CO_331:0000450 ! sweetpotato observation of sepal apex method
-
-[Term]
-id: CO_331:0000569
-name: sweetpotato seppub 4 pt. scale
-relationship: scale_of CO_331:0000451 ! sweetpotato observation of sepal pubescence method
-
-[Term]
-id: CO_331:0000570
-name: sweetpotato sepcol 7 pt. scale
-relationship: scale_of CO_331:0000452 ! sweetpotato observation of sepal color method
-
-[Term]
-id: CO_331:0000571
-name: sweetpotato stgcol 3 pt. scale
-relationship: scale_of CO_331:0000453 ! sweetpotato observation of stigma color method
-
-[Term]
-id: CO_331:0000572
-name: sweetpotato stycol 5 pt. scale
-relationship: scale_of CO_331:0000454 ! sweetpotato observation of style color method
-
-[Term]
-id: CO_331:0000573
-name: sweetpotato stgext 4 pt. scale
-relationship: scale_of CO_331:0000455 ! sweetpotato observation of stigma exertion method
-
-[Term]
-id: CO_331:0000574
-name: sweetpotato sedcap 5 pt. scale
-relationship: scale_of CO_331:0000456 ! sweetpotato observation of seed capsule set method
-
-[Term]
-id: CO_331:0000575
-name: sweetpotato strfor 4 pt. scale
-relationship: scale_of CO_331:0000457 ! sweetpotato observation of storage root formation method
-
-[Term]
-id: CO_331:0000576
-name: sweetpotato strstk 6 pt. scale
-relationship: scale_of CO_331:0000458 ! sweetpotato observation of storage root stalk method
-
-[Term]
-id: CO_331:0000577
-name: sweetpotato vrtssh 3 pt. scale
-relationship: scale_of CO_331:0000459 ! sweetpotato observation of variability of storage root shape method
-
-[Term]
-id: CO_331:0000578
-name: sweetpotato vrtssiz 3 pt. scale
-relationship: scale_of CO_331:0000460 ! sweetpotato observation of variability of storage root size method
-
-[Term]
-id: CO_331:0000579
-name: sweetpotato kqtyrts 3 pt. scale
-relationship: scale_of CO_331:0000461 ! sweetpotato observation of keeping quality of storage roots method
-
-[Term]
-id: CO_331:0000580
-name: sweetpotato cbolrts 9 pt. scale
-relationship: scale_of CO_331:0000462 ! sweetpotato observation of consistency of boiled storage root method
-
-[Term]
-id: CO_331:0000581
-name: sweetpotato ucolbrts 10 pt. scale
-relationship: scale_of CO_331:0000463 ! sweetpotato observation of undesirable color of boiled storage root method
-
-[Term]
-id: CO_331:0000582
-name: sweetpotato rctdro 5 pt. scale
-relationship: scale_of CO_331:0000464 ! sweetpotato visual estimation of the plant response to limited water availability method
-
-[Term]
-id: CO_331:0000583
-name: sweetpotato rctflo 5 pt. scale
-relationship: scale_of CO_331:0000465 ! sweetpotato visual estimation of the plant response to flooding (watering saturated soil) method
-
-[Term]
-id: CO_331:0000584
-name: sweetpotato rctheat 5 pt. scale
-relationship: scale_of CO_331:0000466 ! sweetpotato visual estimation of the plant response to hot season with night temperatures of more than 22°c method
-
-[Term]
-id: CO_331:0000585
-name: sweetpotato rctsty 5 pt. scale
-relationship: scale_of CO_331:0000467 ! sweetpotato visual estimation of the plant response to soil with salinity levels of more 8 mm/cm method
-
-[Term]
-id: CO_331:0000586
-name: sweetpotato rctshd 5 pt. scale
-relationship: scale_of CO_331:0000468 ! sweetpotato visual estimation of the plant response to shape method
-
-[Term]
-id: CO_331:0000587
-name: sweetpotato rctsph 5 pt. scale
-relationship: scale_of CO_331:0000469 ! sweetpotato visual estimation of the plant response to acid and heavy ph soil below 5 method
-
-[Term]
-id: CO_331:0000588
-name: sweetpotato rctstp 5 pt. scale
-relationship: scale_of CO_331:0000470 ! sweetpotato visual estimation of the plant response to hight soil temperature (40 °c) method
-
-[Term]
-id: CO_331:0000589
-name: sweetpotato rcwispw 5 pt. scale
-relationship: scale_of CO_331:0000471 ! sweetpotato visual estimation of the plant response to west indian sweet potato weevil method
-
-[Term]
-id: CO_331:0000590
-name: sweetpotato rcsspw 5 pt. scale
-relationship: scale_of CO_331:0000472 ! sweetpotato visual estimation of the plant response to striped sweet potato weevil method
-
-[Term]
-id: CO_331:0000591
-name: sweetpotato rcspww 5 pt. scale
-relationship: scale_of CO_331:0000473 ! sweetpotato visual estimation of the plant response to sweet potato wire worms method
-
-[Term]
-id: CO_331:0000592
-name: sweetpotato rcww 5 pt. scale
-relationship: scale_of CO_331:0000474 ! sweetpotato visual estimation of the plant response to wire worms method
-
-[Term]
-id: CO_331:0000593
-name: sweetpotato rcspfb 5 pt. scale
-relationship: scale_of CO_331:0000475 ! sweetpotato visual estimation of the plant response to sweet potato flea beetles method
-
-[Term]
-id: CO_331:0000594
-name: sweetpotato rcfb 5 pt. scale
-relationship: scale_of CO_331:0000476 ! sweetpotato visual estimation of the plant response to flea beetles method
-
-[Term]
-id: CO_331:0000595
-name: sweetpotato rcsplb 5 pt. scale
-relationship: scale_of CO_331:0000477 ! sweetpotato visual estimation of the plant response to sweet potato leaf beetles method
-
-[Term]
-id: CO_331:0000596
-name: sweetpotato rcbtl 5 pt. scale
-relationship: scale_of CO_331:0000478 ! sweetpotato visual estimation of the plant response to beetles method
-
-[Term]
-id: CO_331:0000597
-name: sweetpotato rcgrbw 5 pt. scale
-relationship: scale_of CO_331:0000479 ! sweetpotato visual estimation of the root response to grub worm method
-
-[Term]
-id: CO_331:0000598
-name: sweetpotato rchrnw 5 pt. scale
-relationship: scale_of CO_331:0000480 ! sweetpotato visual estimation of the root response to hornworm method
-
-[Term]
-id: CO_331:0000599
-name: sweetpotato rcaph 5 pt. scale
-relationship: scale_of CO_331:0000481 ! sweetpotato visual estimation of the plant response to aphis method
-
-[Term]
-id: CO_331:0000600
-name: sweetpotato rcspwf 5 pt. scale
-relationship: scale_of CO_331:0000482 ! sweetpotato visual estimation of the plant response to sweet potato white fly method
-
-[Term]
 id: CO_331:0000601
 name: sweetpotato weight of total storage roots trait
 def: "The weight of total US no. 1 storage roots" [CO:curators]
@@ -3659,7 +3170,6 @@ is_a: TO:0003009 ! tuberous root tuber weight
 [Term]
 id: CO_331:0000605
 name: sweetpotato weight of 90 count us no. 1 storage roots trait
-
 def: "The roots 2 to 3 1/2 diameter, length of 3 to 9, must be well shaped and free of defects that weigh between 5.0 - 9.4 oz. Should take roughly 90 to fill a 40lb box." [CO:curators]
 synonym: "Rt90ctW" EXACT [CO:curators]
 is_a: TO:0003009 ! tuberous root tuber weight
@@ -3667,7 +3177,6 @@ is_a: TO:0003009 ! tuberous root tuber weight
 [Term]
 id: CO_331:0000606
 name: sweetpotato weight of 55 count us no. 1 storage roots trait
-
 def: "The roots 2 to 3 1/2 diameter, length of 3 to 9, must be well shaped and free of defects that weigh between 9.5 - 14 oz. Should take roughly 55 to fill a 40lb box" [CO:curators]
 synonym: "Rt55ctW" EXACT [CO:curators]
 is_a: TO:0003009 ! tuberous root tuber weight
@@ -3675,7 +3184,6 @@ is_a: TO:0003009 ! tuberous root tuber weight
 [Term]
 id: CO_331:0000607
 name: sweetpotato weight of 40 count us no. 1 storage roots trait
-
 def: "The roots 2 to 3 1/2 diameter, length of 3 to 9, must be well shaped and free of defects that weigh between 14.1 - 18 oz. Should take roughly 40 to fill a 40lb box" [CO:curators]
 synonym: "Rt40ctW" EXACT [CO:curators]
 is_a: TO:0003009 ! tuberous root tuber weight
@@ -3683,317 +3191,9 @@ is_a: TO:0003009 ! tuberous root tuber weight
 [Term]
 id: CO_331:0000608
 name: weight of 32 count us no. 1 storage roots trait
-
 def: "The roots 2 to 3 1/2 diameter, length of 3 to 9, must be well shaped and free of defects that weigh between 18.1 - 22 oz. Should take roughly 32 to fill a 40lb box" [CO:curators]
 synonym: "Rt32ctW" EXACT [CO:curators]
 is_a: TO:0003009 ! tuberous root tuber weight
-
-[Term]
-id: CO_331:0000609
-name: sweetpotato rcon 5 pt. scale
-relationship: scale_of CO_331:0000491 ! sweetpotato visual estimation of the root response to nematode method
-
-[Term]
-id: CO_331:0000610
-name: sweetpotato rcwr 5 pt. scale
-relationship: scale_of CO_331:0000492 ! sweetpotato visual estimation of the root response to wilt rot method
-
-[Term]
-id: CO_331:0000611
-name: sweetpotato rcfrs 5 pt. scale
-relationship: scale_of CO_331:0000493 ! sweetpotato visual estimation of the root response to fusarium surface rot method
-
-[Term]
-id: CO_331:0000612
-name: sweetpotato rcfrr 5 pt. scale
-relationship: scale_of CO_331:0000494 ! sweetpotato visual estimation of the root response to fusarium root rot method
-
-[Term]
-id: CO_331:0000613
-name: sweetpotato rcsbc 5 pt. scale
-relationship: scale_of CO_331:0000495 ! sweetpotato visual estimation of the root response to sclerotial blight and circular spot method
-
-[Term]
-id: CO_331:0000614
-name: sweetpotato rcbr 5 pt. scale
-relationship: scale_of CO_331:0000496 ! sweetpotato visual estimation of the root response to black rot method
-
-[Term]
-id: CO_331:0000615
-name: sweetpotato rcscrf 5 pt. scale
-relationship: scale_of CO_331:0000497 ! sweetpotato visual estimation of the root response to scurf method
-
-[Term]
-id: CO_331:0000616
-name: sweetpotato rcsr 5 pt. scale
-relationship: scale_of CO_331:0000498 ! sweetpotato appearance of roots in response soft rot method
-
-[Term]
-id: CO_331:0000617
-name: sweetpotato rcjbr 5 pt. scale
-relationship: scale_of CO_331:0000499 ! sweetpotato appearance of roots in response java black rot method
-
-[Term]
-id: CO_331:0000618
-name: sweetpotato rcddr 5 pt. scale
-relationship: scale_of CO_331:0000500 ! sweetpotato appearance of roots in response diaporthe dry rot method
-
-[Term]
-id: CO_331:0000619
-name: sweetpotato rcscb 5 pt. scale
-relationship: scale_of CO_331:0000501 ! sweetpotato visual estimation of the plant response to scab method
-
-[Term]
-id: CO_331:0000620
-name: sweetpotato rcls 5 pt. scale
-relationship: scale_of CO_331:0000502 ! sweetpotato visual estimation of the plant response to leaf spot method
-
-[Term]
-id: CO_331:0000621
-name: sweetpotato rcwr 5 pt. scale
-relationship: scale_of CO_331:0000503 ! sweetpotato visual estimation of the plant response to white rust method
-
-[Term]
-id: CO_331:0000622
-name: sweetpotato rcfr 5 pt. scale
-relationship: scale_of CO_331:0000504 ! sweetpotato visual estimation of the plant response to foot rot method
-
-[Term]
-id: CO_331:0000623
-name: sweetpotato rccr 5 pt. scale
-relationship: scale_of CO_331:0000505 ! sweetpotato visual estimation of the plant response to charcoal rot method
-
-[Term]
-id: CO_331:0000624
-name: sweetpotato rcof 5 pt. scale
-relationship: scale_of CO_331:0000506 ! sweetpotato visual estimation of the plant response to other fungi method
-
-[Term]
-id: CO_331:0000625
-name: sweetpotato rcpsr 5 pt. scale
-relationship: scale_of CO_331:0000507 ! sweetpotato visual estimation of the plant response to pox or soil rot method
-
-[Term]
-id: CO_331:0000626
-name: sweetpotato rcbsrt 5 pt. scale
-relationship: scale_of CO_331:0000508 ! sweetpotato visual estimation of the plant response to bacterial stem and root rot method
-
-[Term]
-id: CO_331:0000627
-name: sweetpotato rcbw 5 pt. scale
-relationship: scale_of CO_331:0000509 ! sweetpotato visual estimation of the plant response to bacterial wilt method
-
-[Term]
-id: CO_331:0000628
-name: sweetpotato rcob 5 pt. scale
-relationship: scale_of CO_331:0000510 ! sweetpotato visual estimation of the plant response to other bacteria method
-
-[Term]
-id: CO_331:0000629
-name: sweetpotato rcspmv 5 pt. scale
-relationship: scale_of CO_331:0000511 ! sweetpotato visual estimation of the plant response to sweet potato feathery mottle virus method
-
-[Term]
-id: CO_331:0000630
-name: sweetpotato rcspmmv 5 pt. scale
-relationship: scale_of CO_331:0000512 ! sweetpotato visual estimation of the plant response to sweet potato mild mottle virus method
-
-[Term]
-id: CO_331:0000631
-name: sweetpotato rcspvmv 5 pt. scale
-relationship: scale_of CO_331:0000513 ! sweetpotato visual estimation of the plant response to sweet potato vein mottle virus method
-
-[Term]
-id: CO_331:0000632
-name: sweetpotato rcspvd 5 pt. scale
-relationship: scale_of CO_331:0000514 ! sweetpotato visual estimation of the plant response to sweet potato virus disease complex method
-
-[Term]
-id: CO_331:0000633
-name: sweetpotato rcov 5 pt. scale
-relationship: scale_of CO_331:0000515 ! sweetpotato visual estimation of the plant response to other virus method
-
-[Term]
-id: CO_331:0000634
-name: sweetpotato rcwb 5 pt. scale
-relationship: scale_of CO_331:0000516 ! sweetpotato visual estimation of the plant response to witches broom method
-
-[Term]
-id: CO_331:0000635
-name: sweetpotato rcom 5 pt. scale
-relationship: scale_of CO_331:0000517 ! sweetpotato visual estimation of the plant response to to other mycoplasma method
-
-[Term]
-id: CO_331:0000636
-name: sweetpotato rttsgc scale
-relationship: scale_of CO_331:0000518 ! sweetpotato taking standardized photo method
-
-[Term]
-id: CO_331:0000637
-name: sweetpotato flower picture scale
-relationship: scale_of CO_331:0000519 ! sweetpotato taking standardized photo method
-
-[Term]
-id: CO_331:0000638
-name: sweetpotato root picture scale
-relationship: scale_of CO_331:0000520 ! sweetpotato taking standardized photo method
-
-[Term]
-id: CO_331:0000639
-name: sweetpotato seeds picture scale
-relationship: scale_of CO_331:0000521 ! sweetpotato taking standardized photo method
-
-[Term]
-id: CO_331:0000640
-name: sweetpotato leaf picture scale
-relationship: scale_of CO_331:0000522 ! sweetpotato taking standardized photo method
-relationship: scale_of CO_331:0000523 ! sweetpotato taking standardized photo method
-
-[Term]
-id: CO_331:0000642
-name: sweetpotato plant picture scale
-relationship: scale_of CO_331:0000524 ! sweetpotato taking standardized photo method
-relationship: scale_of CO_331:0000525 ! sweetpotato taking standardized photo method
-
-[Term]
-id: CO_331:0000644
-name: sweetpotato rtshpp 8 pt. scale
-relationship: scale_of CO_331:0000526 ! sweetpotato observation of most frequennt storage root shape method
-
-[Term]
-id: CO_331:0000645
-name: sweetpotato rtshps 8 pt. scale
-relationship: scale_of CO_331:0000527 ! sweetpotato observation of 2nd most frequent storage root shape method
-
-[Term]
-id: CO_331:0000646
-name: sweetpotato rtshpu 9 pt. scale
-relationship: scale_of CO_331:0000528 ! sweetpotato observation of an average or all storage roots within a single plant or plot (for example: if a single plant or plot presents several storage root shapes, it would be considered very poor shape uniformity and would receive a score of 1 method
-
-[Term]
-id: CO_331:0000647
-name: sweetpotato rtstlk 6 pt. scale
-relationship: scale_of CO_331:0000529 ! sweetpotato observation of an average or all storage roots within a single plant or plot method
-
-[Term]
-id: CO_331:0000648
-name: sweetpotato rtatt 9 pt. scale
-relationship: scale_of CO_331:0000530 ! sweetpotato observation of an average or all storage roots within a single plant or plot method
-
-[Term]
-id: CO_331:0000649
-name: sweetpotato scale_of co_331:0000531 scale
-relationship: scale_of CO_331:0000531 ! sweetpotato observation of an average or all storage roots within a single plant or plot method
-
-[Term]
-id: CO_331:0000650
-name: sweetpotato rtskncol 12 pt. scale
-relationship: scale_of CO_331:0000532 ! sweetpotato observation of an average or all storage roots within a single plant or plot method
-
-[Term]
-id: CO_331:0000651
-name: sweetpotato rtskntxt 9 pt. scale
-relationship: scale_of CO_331:0000533 ! sweetpotato observation of an average or all storage roots within a single plant or plot method
-
-[Term]
-id: CO_331:0000652
-name: sweetpotato rtflscolc 9 pt. scale
-relationship: scale_of CO_331:0000534 ! sweetpotato observation of an average or all storage roots within a single plant or plot method
-
-[Term]
-id: CO_331:0000653
-name: sweetpotato rtflscola 9 pt. scale
-relationship: scale_of CO_331:0000535 ! sweetpotato observation of an average or all storage roots within a single plant or plot method
-
-[Term]
-id: CO_331:0000654
-name: sweetpotato rtadvb 5 pt. scale
-relationship: scale_of CO_331:0000536 ! sweetpotato observation of an average or all storage roots within a single plant or plot method
-
-[Term]
-id: CO_331:0000655
-name: sweetpotato ses 9 pt. scale
-relationship: scale_of CO_331:0000537 ! sweetpotato observation of an average or all storage roots within a single plant or plot method
-
-[Term]
-id: CO_331:0000656
-name: sweetpotato ses 6 pt. scale
-relationship: scale_of CO_331:0000538 ! sweetpotato observation of an average or all storage roots within a single plant or plot (greenhouse screen and field screen) method
-
-[Term]
-id: CO_331:0000657
-name: sweetpotato rcmgrkn 6 pt. scale
-relationship: scale_of CO_331:0000539 ! sweetpotato visual estimation of the roots response to root-knot nematode method
-
-[Term]
-id: CO_331:0000658
-name: sweetpotato rcmigrkn 5 pt. scale
-relationship: scale_of CO_331:0000540 ! sweetpotato visual estimation of the roots response to root-knot nematode method
-
-[Term]
-id: CO_331:0000659
-name: sweetpotato rnfr 6 pt. scale
-relationship: scale_of CO_331:0000541 ! sweetpotato visual estimation of the roots response to fusarium oxysporum method
-
-[Term]
-id: CO_331:0000660
-name: sweetpotato rtdam 14 pt. scale
-relationship: scale_of CO_331:0000542 ! sweetpotato observation of an average or all storage roots within a single plant or plot method
-
-[Term]
-id: CO_331:0000661
-name: sweetpotato rtyldr 5 pt. scale
-relationship: scale_of CO_331:0000543 ! sweetpotato observation of an average or all storage roots within a single plant or plot method
-
-[Term]
-id: CO_331:0000663
-name: sweetpotato rtapr 9 pt. scale
-relationship: scale_of CO_331:0000545 ! sweetpotato observation of an average or all storage roots within a single plant or plot method
-
-[Term]
-id: CO_331:0000665
-name: sweetpotato g/100 g fw scale
-relationship: scale_of CO_331:0000547 ! sweetpotato amylose - method
-
-[Term]
-id: CO_331:0000666
-name: sweetpotato mg/g dw scale
-relationship: scale_of CO_331:0000548 ! sweetpotato asparagine - method
-relationship: scale_of CO_331:0000549 ! sweetpotato cyanidin - method
-relationship: scale_of CO_331:0000550 ! sweetpotato total monomeric anthocyanins - method
-relationship: scale_of CO_331:0000551 ! sweetpotato peonidin - method
-relationship: scale_of CO_331:0000552 ! sweetpotato anthocyanin - method
-relationship: scale_of CO_331:0000553 ! sweetpotato phenol - method
-
-[Term]
-id: CO_331:0000672
-name: sweetpotato nodes/plant scale
-relationship: scale_of CO_331:0000554 ! sweetpotato nodes per vine evaluation method
-
-[Term]
-id: CO_331:0000673
-name: sweetpotato leaf/plant scale
-relationship: scale_of CO_331:0000555 ! sweetpotato leaves per plant evaluation method
-
-[Term]
-id: CO_331:0000674
-name: sweetpotato picture scale
-relationship: scale_of CO_331:0000556 ! sweetpotato color of leave picture method
-
-[Term]
-id: CO_331:0000675
-name: sweetpotato rtsmilldam 5 pt. scale
-relationship: scale_of CO_331:0000557 ! sweetpotato observation of an average or all storage roots within a single plant or plot method
-
-[Term]
-id: CO_331:0000676
-name: sweetpotato rtalcdam 5 pt. scale
-relationship: scale_of CO_331:0000558 ! sweetpotato weevil damage evaluation method
-
-[Term]
-id: CO_331:0000677
-name: sweetpotato rtsinsdam 5 pt. scale
-relationship: scale_of CO_331:0000559 ! sweetpotato soils insect evaluation method
 
 [Term]
 id: CO_331:0000680
@@ -5136,24 +4336,11 @@ relationship: variable_of CO_331:0000559 ! sweetpotato soils insect evaluation m
 relationship: variable_of CO_331:0000677 ! sweetpotato rtsinsdam 5 pt. scale
 
 [Term]
-id: CO_331:0000808
-name: sweetpotato mg/kg scale
-relationship: scale_of CO_331:0000104 ! sweetpotato content of iron in dry weight basis - method
-relationship: scale_of CO_331:0000107 ! sweetpotato content of zinc in dry weight basis - method
-relationship: scale_of CO_331:0000282 ! sweetpotato content of calcium in dry weight basis - method
-relationship: scale_of CO_331:0000286 ! sweetpotato content of magnesium in dry weight basis - method
-
-[Term]
 id: CO_331:0000811
 name: sweetpotato storage root surface secondary defects trait
 def: "Storage root surface secondary defects" [CO:curators]
 synonym: "RtSSDef" EXACT [CO:curators]
 is_a: TO:1000007 ! tuberous root tuber morphology trait
-
-[Term]
-id: CO_331:0000812
-name: sweetpotato rtshp 9 pt. scale
-relationship: scale_of CO_331:0000068 ! sweetpotato observation of storage root shape described from longitudinal sections made about the middle of freshly harvested storage roots method
 
 [Term]
 id: CO_331:0000813
@@ -5840,16 +5027,4 @@ id: CO_331:2000038
 name: sweetpotato weight of pencil type roots trait
 synonym: "RtPnW" EXACT []
 is_a: TO:0000279 ! root weight
-
-[Typedef]
-id: method_of
-name: method_of
-
-[Typedef]
-id: scale_of
-name: scale_of
-
-[Typedef]
-id: variable_of
-name: variable_of
 
