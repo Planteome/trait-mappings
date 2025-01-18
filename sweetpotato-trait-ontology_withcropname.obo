@@ -1840,7 +1840,7 @@ is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_331:0004029
-name: sweetpotato boiled root surface uniformity of color trait" [CO:curators]
+name: sweetpotato boiled root surface uniformity of color trait
 def: "Evenness of the distribution of the colour across entire sample surface." [CO:curators]
 synonym: "BoiSweetpotatColUnif" EXACT []
 is_a: TO:0001069 ! cooking quality trait

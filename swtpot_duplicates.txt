@@ -252,8 +252,42 @@ TO_0001041 (TO:0001041)
 	sweetpotato total storage roots yield adjusted trait
 	sweetpotato yielding ability trait
 
-
-
+_________________________________
+TO_1000007 (TO:1000007)
+	sweetpotato predominant skin color trait
+	sweetpotato intensity of predominant skin color trait
+	sweetpotato secondary skin color trait
+	sweetpotato predominant flesh color trait
+	sweetpotato secondary flesh color trait
+	sweetpotato distribution of secondary flesh color trait
+	sweetpotato storage root shape trait
+	sweetpotato storage root shape (primary) trait
+	sweetpotato storage root size trait
+	sweetpotato storage root cracking trait
+	sweetpotato storage root dry matter content trait
+	sweetpotato storage root form trait
+	sweetpotato storage root cortex thickness trait
+	sweetpotato storage root stalk trait
+	sweetpotato storage root stalk trait
+	
+	sweetpotato variability of storage root shape trait
+	sweetpotato variability of storage root size trait
+	sweetpotato appearance of roots trait
+	
+	sweetpotato storage root attachment trait
+	sweetpotato length to diameter ratio of roots trait
+	sweetpotato skin color of roots trait
+	sweetpotato skin texture of roots trait
+	sweetpotato flesh color (carotenoids) trait
+	sweetpotato flesh color (anthocyanins) trait
+	sweetpotato deep of eyes of roots trait
+	sweetpotato number of lenticels trait
+	sweetpotato storage root appearance trait
+	sweetpotato storage root shape (secondary) trait
+	sweetpotato storage root surface secondary defects trait
+	sweetpotato storage root internal necrosis severity trait
+	sweetpotato genotype advantages trait
+______________________________________________________
 
 
 
