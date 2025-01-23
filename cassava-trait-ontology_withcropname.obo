@@ -2363,6 +2363,7 @@ id: CO_334:0003210
 name: cassava flood tolerance trait
 def: "The ability to which a cassava plant maintains its biomass production during flood conditions" [CO:curators]
 synonym: "FloodTol" EXACT []
+is_a: TO:0000114 ! flooding related trait
 
 [Term]
 id: CO_334:0003211
