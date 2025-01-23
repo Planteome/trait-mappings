@@ -136,18 +136,19 @@ is_a: TO:0001042 ! root quality trait
 [Term]
 id: CO_334:0000267
 name: cassava harvest index trait
-is_a: TO:0000128 ! harvest index
+def: "TBA." [TO:cooperl]
 created_by: naama
 creation_date: 2015-09-24T16:40:07Z
+is_a: TO:0000128 ! harvest index
 
 [Term]
 id: CO_334:0000268
 name: cassava shoot apices trait
 def: "Structure/arrangement of shoot apices." [CO:curators]
 synonym: "STS" RELATED []
-is_a: TO:0000077  ! shoot system morphology trait
 created_by: AAfolabi
 creation_date: 2015-09-28T18:02:43Z
+is_a: TO:0000077  ! shoot system morphology trait
 
 [Term]
 id: CO_334:0000276
@@ -168,7 +169,7 @@ id: CO_334:0000278
 name: cassava amylose amylopectin ratio trait
 def: "Amylopectin:amylose ratio" [CO:curators]
 synonym: "RtAmylProp" EXACT []
-is_a: TO:0000372
+is_a: TO:0000372 ! amylose to amylopectin ratio
 
 [Term]
 id: CO_334:0000279
@@ -223,7 +224,8 @@ is_a: TO:0000607
 [Term]
 id: CO_334:0000286
 name: cassava Days to first male flower opens trait
-is_a:     TO:0000365 ! male flowering
+def: "TBA." [TO:cooperl]
+is_a: TO:0000365 ! male flowering
 
 [Term]
 id: CO_334:0000287
