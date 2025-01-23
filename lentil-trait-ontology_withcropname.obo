@@ -346,7 +346,7 @@ name: lentil pod borer resistance trait
 def: "Degree of tolerance to podborer.Helicoverpa armigera. Damage pods and seeds" [CO:curators]
 synonym: "PBR" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000262
+is_a: TO:0000261
 
 [Term]
 id: CO_339:0000126
@@ -485,7 +485,7 @@ name: lentil stem weevil resistance trait
 def: "Degree of tolerance to stem weevil (Sitona crinitus). Damage seedlings and root nodules" [CO:curators]
 synonym: "SWVR" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000262
+is_a: TO:0000261
 
 [Term]
 id: CO_339:0000177
