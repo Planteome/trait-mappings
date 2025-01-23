@@ -817,6 +817,13 @@ synonym: "peelwt" EXACT []
 is_a: TO:0001068 ! processing quality trait
 
 [Term]
+id: CO_334:0000424
+name: cassava root dry matter content trait
+def: "Dry matter content of root related terms." [CO:curators]
+synonym: "RtDMC" EXACT []
+is_a: TO:0001041 ! root yield
+
+[Term]
 id: CO_334:0000427
 name: cassava petiole color trait
 def: "Petiole color" [CO:curators]

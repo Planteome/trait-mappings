@@ -1,0 +1,13 @@
+[Term]
+id: CO_334:0000424
+name: cassava root dry matter content trait
+def: "Dry matter content of root related terms." [CO:curators]
+synonym: "RtDMC" EXACT []
+is_a: TO:0001041 ! root yield
+
+[Term]
+id: CO_334:0000447
+name: cassava root dry matter content trait
+def: "Dry matter content of storage roots" [CO:curators]
+synonym: "dm" EXACT []
+is_a: TO:0001041 ! root yield
