@@ -223,7 +223,7 @@ is_a: TO:0000607
 
 [Term]
 id: CO_334:0000286
-name: cassava Days to first male flower opens trait
+name: cassava days to first male flower opens trait
 def: "TBA." [TO:cooperl]
 is_a: TO:0000365 ! male flowering
 
