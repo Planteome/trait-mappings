@@ -1604,14 +1604,14 @@ id: CO_334:0002041
 name: cassava rust disease severity trait
 def: "Severity of symptom caused by Uromyces manihots in leaves" [CO:curators]
 synonym: "crds" EXACT []
-is_a: TO:0000439 ! fungal disease response trait
+is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_334:0002042
 name: cassava rust disease incidence trait
 def: "Proportion of plants in a plot with symptom of Uromyces manihots." [CO:curators]
 synonym: "crdi" EXACT []
-is_a: TO:0000439 ! fungal disease response trait
+is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_334:0002045
@@ -1761,41 +1761,41 @@ is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0002110
-name: cassava white leaf spot disease severity
+name: cassava white leaf spot disease severity trait
 def: "Severity of white leaf spot caused by Phaeoramularia manihotis (previously named Passalora manihotis)" [CO:curators]
 synonym: "cwlsds" RELATED []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_334:0002111
-name: cassava white leaf spot disease incidence
+name: cassava white leaf spot disease incidence trait
 def: "Proportion of plants showing symptoms of disease caused by Phaeoramularia manihotis (previosly named Passalora manihotis)." [CO:curators]
 synonym: "cwlsdi" RELATED []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_334:0002112
-name: cassava brown leaf spot disease severity
+name: cassava brown leaf spot disease severity trait
 def: "Severity of brown leaf spot disease caused by Passalora henningsii." [CO:curators]
 synonym: "cblsds" RELATED []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_334:0002113
-name: cassava brown leaf spot disease incidence
+name: cassava brown leaf spot disease incidence trait
 def: "Proportion of symptom of brown leaf spot disease caused by Passalora henningsii." [CO:curators]
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_334:0002114
-name: cassava blight leaf spot disease severity
+name: cassava blight leaf spot disease severity trait
 def: "Severity of blight leaf spot disease caused by Passalora vicosae." [CO:curators]
 synonym: "cbllsds" RELATED []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_334:0002115
-name: cassava blight leaf spot disease incidence
+name: cassava blight leaf spot disease incidence trait
 def: "Proportion of symptoms caused by blight spot disease." [CO:curators]
 synonym: "cbllsdi" RELATED []
 is_a: TO:0001145 ! Ascomycete fungal disease response
@@ -2552,58 +2552,3 @@ name: cassava gari particle size trait
 def: "The  size indicate the granular size of the gari samples measure at 0-300, ps300-500, ps500-800, and ps800 um" [CO:curators]
 synonym: "granular size(um)" EXACT []
 is_a: TO:0001069 ! cooking quality trait
-
-[Term]
-id: CO_334:0002041
-name: cassava rust disease severity
-def: "Severity of symptom caused by Uromyces manihots in leaves" [CO:curators]
-synonym: "crds" EXACT []
-is_a: TO:0001146 ! Basidiomycete fungal disease response
-
-[Term]
-id: CO_334:0002042
-name: cassava rust disease incidence
-def: "Proportion of plants in a plot with symptom of Uromyces manihots" [CO:curators]
-synonym: "crdi" EXACT []
-is_a: TO:0001146 ! Basidiomycete fungal disease response
-
-[Term]
-id: CO_334:0002110
-name: cassava white leaf spot disease severity
-def: "Severity of white leaf spot caused by Passalora maninhotis" [CO:curators]
-synonym: "cwlsds" RELATED []
-is_a: TO:0001145 ! Ascomycete fungal disease
-
-[Term]
-id: CO_334:0002111
-name: cassava white leaf spot disease incidence
-def: "Proportion of plants showing symptoms of disease casued by Passalora maninhotis." [CO:curators]
-synonym: "cwlsdi" RELATED []
-is_a: TO:0001145 ! Ascomycete fungal disease
-
-[Term]
-id: CO_334:0002112
-name: cassava brown leaf spot disease severity
-def: "Severity of brown leaf spot disease caused by Passalora henningsii." [CO:curators]
-synonym: "cblsds" RELATED []
-is_a: TO:0001145 ! Ascomycete fungal disease
-
-[Term]
-id: CO_334:0002113
-name: cassava brown leaf spot disease incidence
-def: "Proportion of symptom of brown leaf spot disease caused by Passalora henningsii." [CO:curators]
-is_a: TO:0001145 ! Ascomycete fungal disease
-
-[Term]
-id: CO_334:0002114
-name: cassava blight leaf spot disease severity
-def: "Severity of blight leaf spot disease caused by Passalora vicosae." [CO:curators]
-synonym: "cbllsds" RELATED []
-is_a: TO:0001145 ! Ascomycete fungal disease
-
-[Term]
-id: CO_334:0002115
-name: cassava blight leaf spot disease incidence
-def: "Proportion of symptoms caused by blight spot disease." [CO:curators]
-synonym: "cbllsdi" RELATED []
-is_a: TO:0001145 ! Ascomycete fungal disease
