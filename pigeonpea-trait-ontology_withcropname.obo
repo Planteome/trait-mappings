@@ -1,5 +1,5 @@
 format-version: 1.2
-auto-generated-by: java
+auto-generated-by: n/a
 default-namespace: CO_341_pigeonpea
 ontology: co_341
 
@@ -11,23 +11,11 @@ synonym: "FP" EXACT []
 is_a: TO:0000782 ! inflorescence axis morphology trait
 
 [Term]
-id: CO_341:0000001
-name: pigeonpea flowering pattern - method
-def: "On the basis of visual observation at the time of flowering" [CO:curators]
-relationship: method_of CO_341:0000000 ! pigeonpea flowering pattern trait
-
-[Term]
 id: CO_341:0000003
 name: pigeonpea maturity group trait
 def: "Maturity group based on days to 50 % flowering" [CO:curators]
 synonym: "MTG" EXACT []
 is_a: TO:0000344 ! days to flowering trait
-
-[Term]
-id: CO_341:0000004
-name: pigeonpea maturity group - method
-def: "Groups are formed on the basis of days to 50 % flowering" [CO:curators]
-relationship: method_of CO_341:0000003 ! pigeonpea maturity group trait
 
 [Term]
 id: CO_341:0000006
@@ -37,23 +25,11 @@ synonym: "DF" EXACT []
 is_a: TO:0000344 ! days to flowering trait
 
 [Term]
-id: CO_341:0000007
-name: pigeonpea days to 50 % flowering - method
-def: "Days required from planting to flower 50 % of the plant population" [CO:curators]
-relationship: method_of CO_341:0000006 ! pigeonpea days to 50 % flowering trait
-
-[Term]
 id: CO_341:0000009
 name: pigeonpea days to 75 % maturity trait
 def: "Number of days required to mature 75 % of the population" [CO:curators]
 synonym: "MT" EXACT []
 is_a: TO:0000469 ! days to maturity
-
-[Term]
-id: CO_341:0000010
-name: pigeonpea days to maturity - method
-def: "Days required from planting to mature 75 % of the population" [CO:curators]
-relationship: method_of CO_341:0000009 ! pigeonpea days to 75 % maturity trait
 
 [Term]
 id: CO_341:0000012
@@ -63,23 +39,11 @@ synonym: "PBR" EXACT []
 is_a: TO:0000547 ! primary branch number
 
 [Term]
-id: CO_341:0000013
-name: pigeonpea number of productive branches - method
-def: "Number of branches that bears pods out of total branches" [CO:curators]
-relationship: method_of CO_341:0000012 ! pigeonpea number of productive branches trait
-
-[Term]
 id: CO_341:0000015
 name: pigeonpea number of primary branches trait
 def: "Number of primary branches counted per plant" [CO:curators]
 synonym: "PRB" EXACT []
 is_a: TO:0000547 ! primary branch number
-
-[Term]
-id: CO_341:0000016
-name: pigeonpea number of primary branches count - method
-def: "Number of branches that arise from main stem" [CO:curators]
-relationship: method_of CO_341:0000015 ! pigeonpea number of primary branches trait
 
 [Term]
 id: CO_341:0000018
@@ -89,23 +53,11 @@ synonym: "SBR" EXACT []
 is_a: TO:0000557 ! secondary branch number
 
 [Term]
-id: CO_341:0000019
-name: pigeonpea number of secondary branches - method
-def: "Number of branches that arise from primary branches" [CO:curators]
-relationship: method_of CO_341:0000018 ! pigeonpea number of secondary branches trait
-
-[Term]
 id: CO_341:0000021
 name: pigeonpea plant height trait
 def: "Plant height recorded per plant" [CO:curators]
 synonym: "PHT" EXACT []
 is_a: TO:0000207 ! plant height
-
-[Term]
-id: CO_341:0000022
-name: pigeonpea plant height average - method
-def: "Average height of randomly selected 5 plants recorded from the base of the plant to the tip of plant at maturity." [CO:curators]
-relationship: method_of CO_341:0000021 ! pigeonpea plant height trait
 
 [Term]
 id: CO_341:0000024
@@ -114,23 +66,11 @@ def: "Number of plants per plot" [CO:curators]
 synonym: "PST" EXACT []
 
 [Term]
-id: CO_341:0000025
-name: pigeonpea plant stand - method
-def: "Total number of plants in a plot recorded at the time of maturity" [CO:curators]
-relationship: method_of CO_341:0000024 ! pigeonpea plant stand
-
-[Term]
 id: CO_341:0000027
 name: pigeonpea pod bearing length trait
 def: "Distance between uppermost and lowermost pod present on plant" [CO:curators]
 synonym: "PBL" EXACT []
 is_a: TO:0000921 ! infructescence axis morphology trait
-
-[Term]
-id: CO_341:0000028
-name: pigeonpea pod bearing length - method
-def: "Length between upper most and lower most pod present on plant recorded and averaged for 5 randomly selected plants" [CO:curators]
-relationship: method_of CO_341:0000027 ! pigeonpea pod bearing length trait
 
 [Term]
 id: CO_341:0000030
@@ -141,23 +81,11 @@ synonym: "SWT" EXACT []
 is_a: TO:0000181 ! seed weight
 
 [Term]
-id: CO_341:0000031
-name: pigeonpea seed size - method
-def: "Categorize seed size based on the seed weight of air dried 100 seeds" [CO:curators]
-relationship: method_of CO_341:0000030 ! pigeonpea seed weight trait
-
-[Term]
 id: CO_341:0000033
 name: pigeonpea pods per cluster trait
 def: "Number of pods per cluster" [CO:curators]
 synonym: "PPC" EXACT []
 is_a: TO:0001125 ! pod number trait
-
-[Term]
-id: CO_341:0000034
-name: pigeonpea pods per cluster - method
-def: "Total number of pods present on plant divided by number of clusters and recorded for 5 randomly selected plants" [CO:curators]
-relationship: method_of CO_341:0000033 ! pigeonpea pods per cluster trait
 
 [Term]
 id: CO_341:0000036
@@ -167,12 +95,6 @@ synonym: "PPL" EXACT []
 is_a: TO:0001125 ! pod number trait
 
 [Term]
-id: CO_341:0000037
-name: pigeonpea pods per plant - method
-def: "Average number of pods recorded for 5 randomly selected plants in a plot" [CO:curators]
-relationship: method_of CO_341:0000036 ! pigeonpea pods per plant trait
-
-[Term]
 id: CO_341:0000039
 name: pigeonpea seeds per pod trait
 def: "Number of seeds per pod" [CO:curators]
@@ -180,23 +102,11 @@ synonym: "SPP" EXACT []
 is_a: TO:0000445 ! fruit seed number
 
 [Term]
-id: CO_341:0000040
-name: pigeonpea seeds per pod average - method
-def: "Average number of seeds present in a pod for 10 randomly selected pods" [CO:curators]
-relationship: method_of CO_341:0000039 ! pigeonpea seeds per pod trait
-
-[Term]
 id: CO_341:0000042
 name: pigeonpea seeds per plant trait
 def: "Number of seeds per plant" [CO:curators]
 synonym: "SPL" EXACT []
 is_a: TO:0000905 ! seed yield trait
-
-[Term]
-id: CO_341:0000043
-name: pigeonpea seeds per plant - method
-def: "Average number of seeds counted for 5 randomly selected plants in a plot at maturity" [CO:curators]
-relationship: method_of CO_341:0000042 ! pigeonpea seeds per plant trait
 
 [Term]
 id: CO_341:0000045
@@ -207,23 +117,11 @@ synonym: "VSF" EXACT []
 is_a: TO:0000322 ! phenotypic acceptability
 
 [Term]
-id: CO_341:0000046
-name: pigeonpea visual selection scores at flowering stage - method
-def: "Visual scores given at the time of flowering considering check varieties as the middle level of the scale" [CO:curators]
-relationship: method_of CO_341:0000045 ! pigeonpea visual selection scores at flowering stage trait
-
-[Term]
 id: CO_341:0000048
 name: pigeonpea visual selection scores at podding stage trait
 def: "Visual selection scores recorded at the time of podding" [CO:curators]
 synonym: "VSP" EXACT []
 is_a: TO:0000322 ! phenotypic acceptability
-
-[Term]
-id: CO_341:0000049
-name: pigeonpea visual selection scores at podding stage - method
-def: "Visual scores given at the time of flowering considering check varieties as the middle level of the scale" [CO:curators]
-relationship: method_of CO_341:0000048 ! pigeonpea visual selection scores at podding stage trait
 
 [Term]
 id: CO_341:0000051
@@ -233,23 +131,11 @@ synonym: "VSM" EXACT []
 is_a: TO:0000322 ! phenotypic acceptability
 
 [Term]
-id: CO_341:0000052
-name: pigeonpea visual selection scores at maturity stage - method
-def: "Visual scores given at the time of maturity considering check varieties as the middle level of the scale" [CO:curators]
-relationship: method_of CO_341:0000051 ! pigeonpea visual selection scores at maturity stage trait
-
-[Term]
 id: CO_341:0000054
 name: pigeonpea fusarium wilt incidence trait
 def: "Plants infected with fusarium wilt disease in a plot" [CO:curators]
 synonym: "FW" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
-
-[Term]
-id: CO_341:0000055
-name: pigeonpea fusarium wilt - method
-def: "Recorded in percentage as the number of infected plants / Total number of plants X 100" [CO:curators]
-relationship: method_of CO_341:0000054 ! pigeonpea fusarium wilt incidence trait
 
 [Term]
 id: CO_341:0000057
@@ -259,23 +145,11 @@ synonym: "SM" EXACT []
 is_a: TO:0000148 ! viral disease resistance
 
 [Term]
-id: CO_341:0000058
-name: pigeonpea sterility mosaic - method
-def: "Recorded in percentage as the number of infected plants / total number of plants X 100" [CO:curators]
-relationship: method_of CO_341:0000057 ! pigeonpea sterility mosaic incidence trait
-
-[Term]
 id: CO_341:0000060
 name: pigeonpea seed moisture content trait
 def: "Moisture content" [CO:curators]
 synonym: "MC" EXACT []
 is_a: TO:0000228 ! moisture content trait
-
-[Term]
-id: CO_341:0000061
-name: pigeonpea moisture content - method
-def: "Recorded in percentage as dry weight / Fresh weight X 100" [CO:curators]
-relationship: method_of CO_341:0000060 ! pigeonpea seed moisture content trait
 
 [Term]
 id: CO_341:0000063
@@ -286,23 +160,11 @@ synonym: "Plant biomass partitioning" EXACT []
 is_a: TO:0000128 ! harvest index
 
 [Term]
-id: CO_341:0000064
-name: pigeonpea harvest index - method
-def: "Recorded in percentage as seed yield / total biological yield x 100" [CO:curators]
-relationship: method_of CO_341:0000063 ! pigeonpea harvest index trait
-
-[Term]
 id: CO_341:0000066
 name: pigeonpea leaf chlorophyll content trait
 def: "Leaf chlorophyll content" [CO:curators]
 synonym: "SPAD" EXACT []
 is_a: TO:0012002 ! leaf chlorophyll content
-
-[Term]
-id: CO_341:0000067
-name: pigeonpea spad chlorophyll index - method
-def: "Average number recorded for 5 randomly selected plants in a plot with SPAD device before noon" [CO:curators]
-relationship: method_of CO_341:0000066 ! pigeonpea leaf chlorophyll content trait
 
 [Term]
 id: CO_341:0000069
@@ -312,23 +174,11 @@ synonym: "RADL" EXACT []
 is_a: TO:0000227 ! root length
 
 [Term]
-id: CO_341:0000070
-name: pigeonpea radicle length - method
-def: "Average length of radicle for 50 seeds incubated for 10 days at 25 degree celcius in paper towel method" [CO:curators]
-relationship: method_of CO_341:0000069 ! pigeonpea radicle length trait
-
-[Term]
 id: CO_341:0000072
 name: pigeonpea plumule length trait
 def: "Length of plumule" [CO:curators]
 synonym: "PLUL" EXACT []
 is_a: TO:0000739 ! shoot axis morphology trait
-
-[Term]
-id: CO_341:0000073
-name: pigeonpea plumule length - method
-def: "Average length of plumule for 50 seeds incubated for 10 days at 25 degree celcius in paper towel method" [CO:curators]
-relationship: method_of CO_341:0000072 ! pigeonpea plumule length trait
 
 [Term]
 id: CO_341:0000075
@@ -338,23 +188,11 @@ synonym: "GP" EXACT []
 is_a: TO:0000202 ! germination ratio
 
 [Term]
-id: CO_341:0000076
-name: pigeonpea germination percentage - method
-def: "Number of seeds germinated / Total number of seeds X 100" [CO:curators]
-relationship: method_of CO_341:0000075 ! pigeonpea seed germination trait
-
-[Term]
 id: CO_341:0000078
 name: pigeonpea seed base colour trait
 def: "Seed base color" [CO:curators]
 synonym: "SBC" EXACT []
 is_a: TO:0000486 ! seed color
-
-[Term]
-id: CO_341:0000079
-name: pigeonpea seed base colour - method
-def: "Recorded visually based on the Royal Horticultural Society (RHS) colour codes" [CO:curators]
-relationship: method_of CO_341:0000078 ! pigeonpea seed base colour trait
 
 [Term]
 id: CO_341:0000081
@@ -364,23 +202,11 @@ synonym: "SC" EXACT []
 is_a: TO:0000056 ! stem color
 
 [Term]
-id: CO_341:0000082
-name: pigeonpea stem color - method
-def: "Recorded visually at 50 % flowering stage" [CO:curators]
-relationship: method_of CO_341:0000081 ! pigeonpea stem color trait
-
-[Term]
 id: CO_341:0000084
 name: pigeonpea leaf shape trait
 def: "Leaf shape" [CO:curators]
 synonym: "LS" EXACT []
 is_a: TO:0000492 ! leaf shape
-
-[Term]
-id: CO_341:0000085
-name: pigeonpea leaf shape - method
-def: "Recorded visually at 50 % flowering stage" [CO:curators]
-relationship: method_of CO_341:0000084 ! pigeonpea leaf shape trait
 
 [Term]
 id: CO_341:0000087
@@ -390,23 +216,11 @@ synonym: "LFP" EXACT []
 is_a: TO:0002722 ! leaf pubescence
 
 [Term]
-id: CO_341:0000088
-name: pigeonpea leaf pubescence - method
-def: "Recorded visually at flowering stage" [CO:curators]
-relationship: method_of CO_341:0000087 ! pigeonpea leaf pubescence trait
-
-[Term]
 id: CO_341:0000090
 name: pigeonpea flower color trait
 def: "Color of the flower" [CO:curators]
 synonym: "FCL" EXACT []
 is_a: TO:0000537 ! flower color
-
-[Term]
-id: CO_341:0000091
-name: pigeonpea flower color - method
-def: "Recorded visually at 50% flowering stage" [CO:curators]
-relationship: method_of CO_341:0000090 ! pigeonpea flower color trait
 
 [Term]
 id: CO_341:0000093
@@ -416,23 +230,11 @@ synonym: "PCL" EXACT []
 is_a: TO:0002617 ! fruit color
 
 [Term]
-id: CO_341:0000094
-name: pigeonpea pod color - method
-def: "Recorded visually at premature dough stage" [CO:curators]
-relationship: method_of CO_341:0000093 ! pigeonpea pod color trait
-
-[Term]
 id: CO_341:0000096
 name: pigeonpea pod pubescence trait
 def: "Pod pubescence" [CO:curators]
 synonym: "PPB" EXACT []
 is_a: TO:0000851 ! fruit hairiness
-
-[Term]
-id: CO_341:0000097
-name: pigeonpea pod pubescence - method
-def: "Recorded visually at maturity stage" [CO:curators]
-relationship: method_of CO_341:0000096 ! pigeonpea pod pubescence trait
 
 [Term]
 id: CO_341:0000099
@@ -443,12 +245,6 @@ synonym: "PW" EXACT []
 is_a: TO:0001082 ! legume fruit morphology trait
 
 [Term]
-id: CO_341:0000100
-name: pigeonpea pod wax - method
-def: "Recorded visually at premature dough stage" [CO:curators]
-relationship: method_of CO_341:0000099 ! pigeonpea pod wax trait
-
-[Term]
 id: CO_341:0000102
 name: pigeonpea pod size trait
 def: "Pod size" [CO:curators]
@@ -457,24 +253,12 @@ synonym: "PSZ" EXACT []
 is_a: TO:0002625 ! fruit size
 
 [Term]
-id: CO_341:0000103
-name: pigeonpea pod size - method
-def: "Categorize pod size based on the average length of 20 pods" [CO:curators]
-relationship: method_of CO_341:0000102 ! pigeonpea pod size trait
-relationship: method_of CO_341:0000141 ! pigeonpea pod length trait
-
-[Term]
 id: CO_341:0000105
 name: pigeonpea seed protein content trait
 def: "Protein content of seed" [CO:curators]
 synonym: "PC" EXACT []
 is_a: TO:0000490 ! seed protein composition trait
 
-[Term]
-id: CO_341:0000106
-name: pigeonpea protein content - method
-def: "Whole seed crude protein percentage based on dry weight using the dye-binding method or automatic protein analyzer" [CO:curators]
-relationship: method_of CO_341:0000105 ! pigeonpea seed protein content trait
 
 [Term]
 id: CO_341:0000108
@@ -483,11 +267,6 @@ def: "Milling fraction of fully dried seeds" [CO:curators]
 synonym: "MP" EXACT []
 is_a: TO:0000931 ! seed quality trait
 
-[Term]
-id: CO_341:0000109
-name: pigeonpea milling percentage - method
-def: "Percentage of dehusked split peas after milling" [CO:curators]
-relationship: method_of CO_341:0000108 ! pigeonpea seed milling fraction trait
 
 [Term]
 id: CO_341:0000111
@@ -497,23 +276,11 @@ synonym: "CKD" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
-id: CO_341:0000112
-name: pigeonpea cooking quality of dhal - method
-def: "Recording of the increase in volume (v/v) after soaking 24 hrs and boiling for 25 min" [CO:curators]
-relationship: method_of CO_341:0000111 ! pigeonpea cooking quality of dhal trait
-
-[Term]
 id: CO_341:0000114
 name: pigeonpea cooking quality of seed trait
 def: "Cooking quality of seed" [CO:curators]
 synonym: "CKS" EXACT []
 is_a: TO:0001069 ! cooking quality trait
-
-[Term]
-id: CO_341:0000115
-name: pigeonpea cooking quality of seed - method
-def: "Recording of increase in volume (v/v) after soaking for 24 hrs and boiling for 25 min" [CO:curators]
-relationship: method_of CO_341:0000114 ! pigeonpea cooking quality of seed trait
 
 [Term]
 id: CO_341:0000117
@@ -524,25 +291,11 @@ synonym: "Test weight, Seed weight" EXACT []
 is_a: TO:0000181 ! seed weight
 
 [Term]
-id: CO_341:0000118
-name: pigeonpea weight of 100 seeds - method
-def: "Count 100 seeds (air dried at approx. 10% moisture) randomly taken from harvested seed and then record weight." [CO:curators]
-relationship: method_of CO_341:0000030 ! pigeonpea seed weight trait
-relationship: method_of CO_341:0000117 ! pigeonpea weight of 100 seeds trait
-
-[Term]
 id: CO_341:0000120
 name: pigeonpea grain weight per plot trait
 def: "Grain weight per plot" [CO:curators]
 synonym: "GWPT" EXACT []
 is_a: TO:0000181 ! seed weight
-
-[Term]
-id: CO_341:0000121
-name: pigeonpea grain weight per plot - method
-def: "Grain weight harvested form a plot excluding border plants and border rows" [CO:curators]
-relationship: method_of CO_341:0000120 ! pigeonpea grain weight per plot trait
-relationship: method_of CO_341:0000126 ! pigeonpea seed yield trait
 
 [Term]
 id: CO_341:0000123
@@ -552,23 +305,11 @@ synonym: "GWPL" EXACT []
 is_a: TO:0000181 ! seed weight
 
 [Term]
-id: CO_341:0000124
-name: pigeonpea average grain weight per plant - method
-def: "Average seed yield recorded for randomly selected 5 plants in a plot" [CO:curators]
-relationship: method_of CO_341:0000123 ! pigeonpea grain weight per plant trait
-
-[Term]
 id: CO_341:0000126
 name: pigeonpea seed yield trait
 def: "Seed yield" [CO:curators]
 synonym: "YLD" EXACT []
 is_a: TO:0000905 ! seed yield trait
-
-[Term]
-id: CO_341:0000127
-name: pigeonpea seed yield (kg/ha) - method
-def: "Harvested seed weight / plot area" [CO:curators]
-relationship: method_of CO_341:0000126 ! pigeonpea seed yield trait
 
 [Term]
 id: CO_341:0000129
@@ -578,23 +319,11 @@ synonym: "SEN" EXACT []
 is_a: TO:0000928 ! plant structure growth and development trait
 
 [Term]
-id: CO_341:0000130
-name: pigeonpea senescence score - method
-def: "Visual scoring of plant senescence" [CO:curators]
-relationship: method_of CO_341:0000129 ! pigeonpea plant senescence trait
-
-[Term]
 id: CO_341:0000132
 name: pigeonpea plant vigour trait
 def: "Plant vigour" [CO:curators]
 synonym: "VIGOUR" EXACT []
 is_a: TO:0000250 ! plant vigor trait
-
-[Term]
-id: CO_341:0000133
-name: pigeonpea vigour score - method
-def: "Visual scoring considering the check varieties as the middle level of the scale" [CO:curators]
-relationship: method_of CO_341:0000132 ! pigeonpea plant vigour trait
 
 [Term]
 id: CO_341:0000135
@@ -604,23 +333,11 @@ synonym: "SVI" EXACT []
 is_a: TO:0000250 ! plant vigor trait
 
 [Term]
-id: CO_341:0000136
-name: pigeonpea seedling vigour index - method
-def: "Index calculated as (length of radicle + length of plumule) x germination percentage" [CO:curators]
-relationship: method_of CO_341:0000135 ! pigeonpea seedling vigour trait
-
-[Term]
 id: CO_341:0000138
 name: pigeonpea days to first flower trait
 def: "Number of days elapsed before the first plant flowers" [CO:curators]
 synonym: "DFF" EXACT []
 is_a: TO:0000344 ! days to flowering trait
-
-[Term]
-id: CO_341:0000139
-name: pigeonpea days to first flower - method
-def: "Days required from planting to open first flower on a plant" [CO:curators]
-relationship: method_of CO_341:0000138 ! pigeonpea days to first flower trait
 
 [Term]
 id: CO_341:0000141
@@ -631,12 +348,6 @@ synonym: "Pod size" EXACT []
 is_a: TO:0002626 ! fruit length
 
 [Term]
-id: CO_341:0000142
-name: pigeonpea pod length - method
-def: "Average length recorded for a sample of 10 pods" [CO:curators]
-relationship: method_of CO_341:0000141 ! pigeonpea pod length trait
-
-[Term]
 id: CO_341:0000144
 name: pigeonpea number of clusters trait
 def: "Number of pod clusters per plant" [CO:curators]
@@ -644,23 +355,11 @@ synonym: "NCP" EXACT []
 is_a: TO:0000920 ! infructescence morphology trait
 
 [Term]
-id: CO_341:0000145
-name: pigeonpea number of clusters average- method
-def: "Average number of clusters recorded for 5 randomly selected plants at the time of maturity" [CO:curators]
-relationship: method_of CO_341:0000144 ! pigeonpea number of clusters trait
-
-[Term]
 id: CO_341:0000147
 name: pigeonpea plant fertility trait
 def: "Proportion of plants with fertile pollen grains" [CO:curators]
 synonym: "FRT" EXACT []
 is_a: TO:0000420 ! fertility related trait
-
-[Term]
-id: CO_341:0000148
-name: pigeonpea fertility fertility assessment - method
-def: "Recorded with microscope the plants producing fertile pollen grains out of the total plants" [CO:curators]
-relationship: method_of CO_341:0000147 ! pigeonpea plant fertility trait
 
 [Term]
 id: CO_341:0000151
@@ -745,114 +444,6 @@ name: pigeonpea alternaria blight disease susceptibility trait
 def: "Susceptibility to disease caused by agent Alternaria blight (Alternaria alternata)" [CO:curators, NCBITaxon:5599]
 synonym: "DAB" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
-
-[Term]
-id: CO_341:0000163
-name: pigeonpea soil salinity stress susceptibility - method
-def: "Visual scoring of the susceptibility to soil salinity stress" [CO:curators]
-relationship: method_of CO_341:0000151 ! pigeonpea soil salinity stress susceptibility trait
-
-[Term]
-id: CO_341:0000164
-name: pigeonpea soil acidity stress susceptibility - method
-def: "Visual scoring of the susceptibility to soil acidity stress" [CO:curators]
-relationship: method_of CO_341:0000152 ! pigeonpea soil acidity stress susceptibility trait
-
-[Term]
-id: CO_341:0000165
-name: pigeonpea pod wasp susceptibility - method
-def: "Visual scoring of the susceptibility to pod wasp" [CO:curators]
-relationship: method_of CO_341:0000153 ! pigeonpea pod wasp susceptibility trait
-
-[Term]
-id: CO_341:0000166
-name: pigeonpea pod fly susceptibility - method
-def: "Visual scoring of the susceptibility to pod fly" [CO:curators]
-relationship: method_of CO_341:0000154 ! pigeonpea pod fly susceptibility trait
-
-[Term]
-id: CO_341:0000167
-name: pigeonpea pod borers susceptibility - method
-def: "Visual scoring of the susceptibility to pod borers" [CO:curators]
-relationship: method_of CO_341:0000155 ! pigeonpea pod borers susceptibility trait
-
-[Term]
-id: CO_341:0000168
-name: pigeonpea disease phytophthora blight susceptibility - method
-def: "Visual scoring of the susceptibility to Phytophthora blight disease" [CO:curators]
-relationship: method_of CO_341:0000156 ! pigeonpea phytophthora blight disease susceptibility trait
-
-[Term]
-id: CO_341:0000169
-name: pigeonpea nematodes susceptibility - method
-def: "Visual scoring of the susceptibility to nematodes" [CO:curators]
-relationship: method_of CO_341:0000157 ! pigeonpea nematodes susceptibility trait
-
-[Term]
-id: CO_341:0000170
-name: pigeonpea low temperature stress susceptibility - method
-def: "Visual scoring of the susceptibility to low temperature stress" [CO:curators]
-relationship: method_of CO_341:0000158 ! pigeonpea low temperature stress susceptibility trait
-
-[Term]
-id: CO_341:0000171
-name: pigeonpea leaf tier susceptibility - method
-def: "Visual scoring of the susceptibility to leaf tier" [CO:curators]
-relationship: method_of CO_341:0000159 ! pigeonpea leaf tier susceptibility trait
-
-[Term]
-id: CO_341:0000172
-name: pigeonpea high temperature stress susceptibility - method
-def: "Visual scoring of the susceptibility to high temperature stress" [CO:curators]
-relationship: method_of CO_341:0000160 ! pigeonpea high temperature stress susceptibility trait
-
-[Term]
-id: CO_341:0000173
-name: pigeonpea drought stress susceptibility - method
-def: "Visual scoring of the susceptibility to drought stress" [CO:curators]
-relationship: method_of CO_341:0000161 ! pigeonpea drought stress susceptibility trait
-
-[Term]
-id: CO_341:0000174
-name: pigeonpea disease alternaria blight susceptibility - method
-def: "Visual scoring of the susceptibility to Alternaria blight disease" [CO:curators]
-relationship: method_of CO_341:0000162 ! pigeonpea alternaria blight disease susceptibility trait
-
-[Term]
-id: CO_341:0000175
-name: pigeonpea grain weight of single plant - method
-def: "Weight of seed harvested from a plant" [CO:curators]
-relationship: method_of CO_341:0000123 ! pigeonpea grain weight per plant trait
-
-[Term]
-id: CO_341:0000176
-name: pigeonpea seeds per pod count - method
-def: "Count the number of seeds present in a pod" [CO:curators]
-relationship: method_of CO_341:0000039 ! pigeonpea seeds per pod trait
-
-[Term]
-id: CO_341:0000177
-name: pigeonpea average number of secondary branches - method
-def: "Average number of branches that arise from primary branches" [CO:curators]
-relationship: method_of CO_341:0000018 ! pigeonpea number of secondary branches trait
-
-[Term]
-id: CO_341:0000178
-name: pigeonpea number of primary branches average - method
-def: "Average number of branches that arise from main stem" [CO:curators]
-relationship: method_of CO_341:0000015 ! pigeonpea number of primary branches trait
-
-[Term]
-id: CO_341:0000180
-name: pigeonpea plant height measured - method
-def: "Height of a randomly selected plant recorded from the base of the plant to the tip of plant at maturity." [CO:curators]
-relationship: method_of CO_341:0000021 ! pigeonpea plant height trait
-
-[Term]
-id: CO_341:0000181
-name: pigeonpea number of clusters count - method
-def: "Count the number of clusters of a randomly selected plant at the time of maturity" [CO:curators]
-relationship: method_of CO_341:0000144 ! pigeonpea number of clusters trait
 
 [Term]
 id: CO_341:0000194
@@ -1444,16 +1035,6 @@ is_a: CO_341:0000162 ! pigeonpea alternaria blight disease susceptibility trait
 relationship: variable_of CO_341:0000162 ! pigeonpea alternaria blight disease susceptibility trait
 relationship: variable_of CO_341:0000174 ! pigeonpea disease alternaria blight susceptibility - method
 relationship: variable_of CO_341:0000193 ! pigeonpea biotic stress suscetibility 1-9 scale
-
-[Term]
-id: CO_341:0000270
-name: pigeonpea pods per plant count - method
-def: "Count the number of pods on a plant" [CO:curators]
-relationship: method_of CO_341:0000036 ! pigeonpea pods per plant trait
-
-[Typedef]
-id: method_of
-name: method_of
 
 [Typedef]
 id: variable_of
