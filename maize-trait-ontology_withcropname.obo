@@ -647,12 +647,6 @@ synonym: "EndoTrp" EXACT []
 is_a: TO:0002674
 
 [Term]
-id: CO_322:0000107
-name: maize gtrp - measurement method
-def: "Standard method for whole-grain tryptophan content." [CO:curators]
-relationship: method_of CO_322:0000103 ! grain tryptophan content
-
-[Term]
 id: CO_322:0000108
 name: maize grain lysine content trait
 def: "Whole-grain Lysine content." [CO:curators]
@@ -1075,19 +1069,6 @@ synonym: "Kernel width" EXACT []
 is_a: TO:0002627
 
 [Term]
-id: CO_322:0000176
-name: maize fungdis - estimation method
-def: "Observe the plants that are damaged by any fungal diseases." [CO:curators]
-relationship: method_of CO_322:0000046 ! fungal disease presence
-relationship: method_of CO_322:0000046 ! fungal disease presence
-
-[Term]
-id: CO_322:0000177
-name: maize phtslb - measurement method
-def: "Recommended to take multiple plants and measure the height from the base of a plant to the insertion of the first tassel branch, enter the data individually in the FieldBook and calculate the average." [CO:curators]
-relationship: method_of CO_322:0000007 ! plant height to insertion of first tassel branch
-
-[Term]
 id: CO_322:0000178
 name: maize grain upper surface shape trait
 def: "Shape of the upper surface of grain." [CO:curators]
@@ -1097,29 +1078,11 @@ is_a: TO:0002730
 xref: GRINDesc:89036
 
 [Term]
-id: CO_322:0000179
-name: maize eh - measurement method
-def: "Recommended to take 6 alternating plants per plot and measure the height between the base of a plant to the insertion of the top (uppermost) ear of the same plant, enter the data individually in the FieldBook and calculate the average." [CO:curators]
-relationship: method_of CO_322:0000017 ! ear height
-
-[Term]
-id: CO_322:0000181
-name: maize asi - computation method
-def: "Count number of days from planting date to anthesis and silking to determine days to anthesis (DTA) and days to silking (DTS), respectively and determine anthesis silking interval (ASI) by calculating: ASI = DTS-DTA." [CO:curators]
-relationship: method_of CO_322:0000001 ! anthesis silking interval
-
-[Term]
 id: CO_322:0000182
 name: maize lethal necrosis severity trait
 def: "Maize lethal necrosis (MLN) severity." [CO:curators]
 synonym: "MLNSev" EXACT []
 is_a: TO:0000148
-
-[Term]
-id: CO_322:0000183
-name: maize grarr - estimation method
-def: "Observe grain row arrangement in the harvested ears and rate 1-4 categorical scale." [CO:curators]
-relationship: method_of CO_322:0000166 ! grain row arrangement
 
 [Term]
 id: CO_322:0000184
@@ -1130,26 +1093,12 @@ synonym: "Kernel thickenss" EXACT []
 is_a: TO:0002625
 
 [Term]
-id: CO_322:0000185
-name: maize stemcol - estimation method
-def: "Observe the stem color between the two topmost ears." [CO:curators]
-relationship: method_of CO_322:0000162 ! stem color
-
-[Term]
 id: CO_322:0000186
 name: maize endosperm color trait
 def: "Color of the endosperm." [CO:curators]
 synonym: "EndoCol" EXACT []
 is_a: TO:0000487
 xref: GRINDesc:89046
-
-[Term]
-id: CO_322:0000187
-name: maize tscsev - estimation method
-def: "Observe tarspot complex severity on the plants per plot based on degree of infection (relative or absolute area of plant tissue affected by disease)." [CO:curators]
-relationship: method_of CO_322:0000091 ! tar spot complex severity
-relationship: method_of CO_322:0000091 ! tar spot complex severity
-relationship: method_of CO_322:0000091 ! tar spot complex severity
 
 [Term]
 id: CO_322:0000188
@@ -1160,24 +1109,12 @@ synonym: "TslBlastSev" EXACT []
 is_a: TO:0000394
 
 [Term]
-id: CO_322:0000189
-name: maize days to anthesis - computation method
-def: "Number of days from sowing to when 50% of the plants shed pollen. Observe a known number of plants carefully (guideline: N = 20 for inbred lines or hybrids; N = 35 for open pollinated varieties) at the same time each day until 50% of the plants in the plot have produced at least one visible anther and score the number of days from sowing. Also, it can be calculated using sowing and anthesis date." [CO:curators]
-relationship: method_of CO_322:0000030 ! anthesis time
-
-[Term]
 id: CO_322:0000190
 name: maize aleurone color trait
 def: "Color of the aleurone." [CO:curators]
 synonym: "AleuCol" EXACT []
 is_a: TO:0000943
 xref: GRINDesc:89048
-
-[Term]
-id: CO_322:0000191
-name: maize dts - computation method
-def: "Number of days from sowing to when 50% of the plants silk. Also, it can be calculated using sowing and silking date." [CO:curators]
-relationship: method_of CO_322:0000031 ! silking time
 
 [Term]
 id: CO_322:0000192
@@ -1188,950 +1125,11 @@ is_a: TO:0000707
 xref: GRINDesc:89049
 
 [Term]
-id: CO_322:0000193
-name: maize slodginc - computation method
-def: "Divide the total numbers of plants with lodged stems by number of plants harvested." [CO:curators]
-relationship: method_of CO_322:0000035 ! stem lodging incidence
-
-[Term]
-id: CO_322:0000194
-name: maize 1-4 grain row arrangement scale
-relationship: scale_of CO_322:0000183 ! grarr - estimation
-
-[Term]
-id: CO_322:0000195
-name: maize gmoi - computation method
-def: "Measure sample weight of grains per plot after harvest, record dry weight of the same samples and calculate grain moisture content for each sample using formula: 100*(Wt of sample - Dry Weight)/Wt of sample." [CO:curators]
-relationship: method_of CO_322:0000033 ! grain moisture
-
-[Term]
-id: CO_322:0000196
-name: maize glys - measurement method
-def: "Standard method for whole-grain lysin content." [CO:curators]
-relationship: method_of CO_322:0000108 ! grain lysine content
-
-[Term]
-id: CO_322:0000197
-name: maize adjusted gy - computation method
-def: "Calculate shelled grain yield per unit area adjusted to 12.5% grain moisture." [CO:curators]
-relationship: method_of CO_322:0000005 ! grain yield
-relationship: method_of CO_322:0000005 ! grain yield
-
-[Term]
-id: CO_322:0000199
-name: maize easp - estimation method
-def: "Harvest ears per plot (eliminate first and last plants to avoid border effects) and score ear aspect combining several ear-associated traits. Note: Combination of traits usually differs from one breeder to another depending on type of study." [CO:curators]
-relationship: method_of CO_322:0000018 ! ear aspect
-
-[Term]
-id: CO_322:0000200
-name: maize endoprot - measurement method
-def: "Standard method for endosperm protein content." [CO:curators]
-relationship: method_of CO_322:0000123 ! endosperm protein content
-
-[Term]
-id: CO_322:0000201
-name: maize pstand - counting method
-def: "Count total number of plants per plot." [CO:curators]
-relationship: method_of CO_322:0000008 ! plant stand
-
-[Term]
-id: CO_322:0000202
-name: maize gprot - computation method
-def: "Standard method for whole-grain protein content. % Protein = % of nitrogen x 6.25" [CO:curators]
-relationship: method_of CO_322:0000122 ! grain protein content
-
-[Term]
-id: CO_322:0000203
-name: maize en - computation method
-def: "Compute number of ears using the formula." [CO:curators]
-relationship: method_of CO_322:0000021 ! ear number
-
-[Term]
-id: CO_322:0000205
-name: maize gcol - estimation method
-def: "Observe color of grains." [CO:curators]
-relationship: method_of CO_322:0000146 ! grain color
-
-[Term]
-id: CO_322:0000207
-name: maize bhskcovinc - counting method
-def: "Count the total number of ears with bad husk cover." [CO:curators]
-relationship: method_of CO_322:0000150 ! ear bad husk cover incidence
-
-[Term]
-id: CO_322:0000209
-name: maize pasp - estimation method
-def: "Score the plants per plot combining several agronomical and morphological characters of plants such plant height, ear height, stem/root loading. Note: Combination of traits usually differ from one breeder to another depending on type of study." [CO:curators]
-relationship: method_of CO_322:0000011 ! plant aspect
-
-[Term]
-id: CO_322:0000211
-name: maize rlodginc - computation method
-def: "Divide the total number of plants that are root lodged due to weak soil or poorly developed anchorage roots by the total number of plants that are harvested." [CO:curators]
-relationship: method_of CO_322:0000034 ! root lodging incidence
-
-[Term]
-id: CO_322:0000212
-name: maize endotrp - measurement method
-def: "Standard method for endosperm tryptophan content." [CO:curators]
-relationship: method_of CO_322:0000106 ! endosperm tryptophan content
-
-[Term]
-id: CO_322:0000213
-name: maize gtyp - estimation method
-def: "Score the grains based on grain characters such as floury, dent per plot." [CO:curators]
-relationship: method_of CO_322:0000168 ! grain type
-
-[Term]
 id: CO_322:0000214
 name: maize aflatoxin content trait
 def: "Grain Aflatoxins content produced by Aspergillus flavus and Aspergillus parasiticus." [CO:curators]
 synonym: "Aflatox" EXACT []
 is_a: TO:0000281
-
-[Term]
-id: CO_322:0000215
-name: maize lrollsev - estimation method
-def: "Observe the plants per plot with the leaves rolled." [CO:curators]
-relationship: method_of CO_322:0000160 ! leaf rolling severity
-
-[Term]
-id: CO_322:0000216
-name: maize aflatox - measurement method
-def: "Standard method for aflatoxin content." [CO:curators]
-relationship: method_of CO_322:0000214 ! aflatoxin content
-
-[Term]
-id: CO_322:0000217
-name: maize rgy - computation method
-def: "Relative grain yield expressed as percentage of the mean grain yield of the trial. Values above 100% indicate above-average performance; values below 100% indicate below-average performance." [CO:curators]
-relationship: method_of CO_322:0000005 ! grain yield
-
-[Term]
-id: CO_322:0000219
-name: maize gtex - estimation method
-def: "Observe the variation of the intensity of a kernel/grain surface and score grain texture based on properties such as smoothness, coarseness and regularity of the grain." [CO:curators]
-relationship: method_of CO_322:0000039 ! grain texture
-
-[Term]
-id: CO_322:0000220
-name: maize hskcov - estimation method
-def: "Observe the ears hask cover and rate it." [CO:curators]
-relationship: method_of CO_322:0000149 ! ear husk cover
-
-[Term]
-id: CO_322:0000221
-name: maize gcol - estimation method
-def: "Count total number of grain rows in the ear." [CO:curators]
-relationship: method_of CO_322:0000167 ! grain row number
-
-[Term]
-id: CO_322:0000222
-name: maize srinc - computation method
-def: "Divide the total number of SRot damaged plants by the total number of plants harvested." [CO:curators]
-relationship: method_of CO_322:0000061 ! stalk rot incidence
-
-[Term]
-id: CO_322:0000223
-name: maize sen - estimation method
-def: "Observe dead leaf area per plant/plot and rate." [CO:curators]
-relationship: method_of CO_322:0000012 ! senescence
-relationship: method_of CO_322:0000012 ! senescence
-
-[Term]
-id: CO_322:0000224
-name: maize erinc - computation method
-def: "Divide the total number of ears that are rotten by the total number of plants that are harvested." [CO:curators]
-relationship: method_of CO_322:0000068 ! ear rot incidence
-
-[Term]
-id: CO_322:0000225
-name: maize epo - computation method
-def: "Use ear height and plant height data of the same plants per plot and calculate the ratio. Small values indicate low ear position; large values indicate high ear position." [CO:curators]
-relationship: method_of CO_322:0000020 ! ear position
-
-[Term]
-id: CO_322:0000226
-name: maize dmsev - estimation method
-def: "Observe downy mildew severity on the plants per plot based on degree of infection (relative or absolute area of plant tissue affected by disease)." [CO:curators]
-relationship: method_of CO_322:0000075 ! downy mildew severity
-relationship: method_of CO_322:0000075 ! downy mildew severity
-relationship: method_of CO_322:0000075 ! downy mildew severity
-
-[Term]
-id: CO_322:0000227
-name: maize endohard - estimation method
-def: "Determine quality of endosperm such as hardness in the lab and use 1-5 to scale to score it." [CO:curators]
-relationship: method_of CO_322:0000041 ! endosperm hardness
-
-[Term]
-id: CO_322:0000228
-name: maize rustsev - estimation method
-def: "Observe rust severity on the plants per plot based on degree of infection (relative or absolute area of plant tissue affected by disease)." [CO:curators]
-relationship: method_of CO_322:0000054 ! rust severity
-relationship: method_of CO_322:0000054 ! rust severity
-relationship: method_of CO_322:0000054 ! rust severity
-
-[Term]
-id: CO_322:0000229
-name: maize fgramsrinc - computation method
-def: "Divide the total number of FgramSR damaged plants by the total number of plants harvested." [CO:curators]
-relationship: method_of CO_322:0000065 ! fusarium graminearum stalk rot incidence
-
-[Term]
-id: CO_322:0000230
-name: maize fusersev - estimation method
-def: "Observe fusarium ear rot severity on the plants per plot based on degree of infection (relative or absolute area of plant tissue affected by disease)." [CO:curators]
-relationship: method_of CO_322:0000069 ! fusarium ear rot severity
-relationship: method_of CO_322:0000069 ! fusarium ear rot severity
-relationship: method_of CO_322:0000069 ! fusarium ear rot severity
-
-[Term]
-id: CO_322:0000231
-name: maize fmonsrinc - computation method
-def: "Divide the total number of FmonSR damaged plants by the total number of plants harvested." [CO:curators]
-relationship: method_of CO_322:0000064 ! fusarium moniliforme stalk rot incidence
-
-[Term]
-id: CO_322:0000232
-name: maize fussrinc - computation method
-def: "Divide the total number of FusSR damaged plants by the total number of plants harvested." [CO:curators]
-relationship: method_of CO_322:0000063 ! fusarium stalk rot incidence
-
-[Term]
-id: CO_322:0000233
-name: maize pytsrinc - computation method
-def: "Divide the total number of PytSR damaged plants by the total number of plants harvested." [CO:curators]
-relationship: method_of CO_322:0000067 ! pythium stalk rot incidence
-
-[Term]
-id: CO_322:0000235
-name: maize stensrinc - computation method
-def: "Divide the total number of StenSR damaged plants by the total number of plants harvested." [CO:curators]
-relationship: method_of CO_322:0000066 ! stenocarpella stalk rot incidence
-
-[Term]
-id: CO_322:0000236
-name: maize mlnsev - estimation method
-def: "Observe maize lethal necrosis severity on the plants per plot based on degree of infection (relative or absolute area of plant tissue affected by disease)." [CO:curators]
-relationship: method_of CO_322:0000182 ! maize lethal necrosis severity
-relationship: method_of CO_322:0000182 ! maize lethal necrosis severity
-relationship: method_of CO_322:0000182 ! maize lethal necrosis severity
-
-[Term]
-id: CO_322:0000237
-name: maize days to maturity - computation method
-def: "Number of days required from seeding to grain ripening. Also, it can be calculated using sowing and maturity date." [CO:curators]
-relationship: method_of CO_322:0000032 ! maturity time
-
-[Term]
-id: CO_322:0000238
-name: maize aba - measurement method
-def: "Standard method for abscisic acid content." [CO:curators]
-relationship: method_of CO_322:0000113 ! grain abscisic acid content
-relationship: method_of CO_322:0000113 ! grain abscisic acid content
-relationship: method_of CO_322:0001108 ! leaf abscisic acid content
-relationship: method_of CO_322:0001114 ! root abscisic acid content
-
-[Term]
-id: CO_322:0000239
-name: maize tslsiz - estimation method
-def: "Score the tassels based on size using 1-3 categorical scale." [CO:curators]
-relationship: method_of CO_322:0000038 ! tassel size
-
-[Term]
-id: CO_322:0000241
-name: maize cscinc - counting method
-def: "Count the total number of plants that are affected by corn stunt complex per plot. Note:  The first and the last plants are eliminated to avoid border effects." [CO:curators]
-relationship: method_of CO_322:0000049 ! corn stunt incidence
-
-[Term]
-id: CO_322:0000242
-name: maize chl - measurement method
-def: "Measured with a portable chlorophyll meter (e.g. SPAD). Take the average measure from leaves of six alternating plants and use always leaves of similar insertion level." [CO:curators]
-relationship: method_of CO_322:0000003 ! chlorophyll content
-
-[Term]
-id: CO_322:0000243
-name: maize clssev - estimation method
-def: "Observe curvularia leaf spot severity on plants per plot based on the degree of infection (relative or absolute area of plant tissue affected by disease)." [CO:curators]
-relationship: method_of CO_322:0000089 ! curvularia leaf spot severity
-relationship: method_of CO_322:0000089 ! curvularia leaf spot severity
-relationship: method_of CO_322:0000089 ! curvularia leaf spot severity
-
-[Term]
-id: CO_322:0000244
-name: maize mcob - computation method
-def: "Divide the total number of Chupon plants by the total number of plants harvested." [CO:curators]
-relationship: method_of CO_322:0000151 ! multiple cob incidence
-
-[Term]
-id: CO_322:0000245
-name: maize glssev - estimation method
-def: "Observe GLS severity on the plants per plot based on degree of infection (relative or absolute area of plant tissue affected by disease)." [CO:curators]
-relationship: method_of CO_322:0000088 ! gray leaf spot severity
-relationship: method_of CO_322:0000088 ! gray leaf spot severity
-relationship: method_of CO_322:0000088 ! gray leaf spot severity
-
-[Term]
-id: CO_322:0000246
-name: maize days to ear leaf senescence date - computation method
-def: "Number of days from sowing to when 50% of the plants have a dry ear leaf. Count the number of days from sowing to when 50% of the plants have a dry ear leaf. Also, it can be calculated using sowing and ear leaf senescence date." [CO:curators]
-relationship: method_of CO_322:0000143 ! ear leaf senescence time
-
-[Term]
-id: CO_322:0000247
-name: maize plssev - estimation method
-def: "Observe phaeosphaeria leaf spot severity on the plants per plot based on degree of infection (relative or absolute area of plant tissue affected by disease)." [CO:curators]
-relationship: method_of CO_322:0000090 ! phaeosphaeria leaf spot severity
-relationship: method_of CO_322:0000090 ! phaeosphaeria leaf spot severity
-relationship: method_of CO_322:0000090 ! phaeosphaeria leaf spot severity
-
-[Term]
-id: CO_322:0000249
-name: maize bmaysev - estimation method
-def: "Observe maydis leaf blight severity on the plants per plot based on degree of infection (relative or absolute area of plant tissue affected by disease)." [CO:curators]
-relationship: method_of CO_322:0000057 ! maydis leaf blight severity
-relationship: method_of CO_322:0000057 ! maydis leaf blight severity
-relationship: method_of CO_322:0000057 ! maydis leaf blight severity
-
-[Term]
-id: CO_322:0000250
-name: maize egrw - measurement method
-def: "Standard method for ear growth." [CO:curators]
-relationship: method_of CO_322:0000145 ! ear growth
-
-[Term]
-id: CO_322:0000251
-name: maize aflaversev - estimation method
-def: "Observe aspergillus flavus ear rot severity on the harvested ears per plot based on degree of infection (relative or absolute area of plant tissue affected by disease)." [CO:curators]
-relationship: method_of CO_322:0000072 ! aspergillus flavus ear rot severity
-relationship: method_of CO_322:0000072 ! aspergillus flavus ear rot severity
-relationship: method_of CO_322:0000072 ! aspergillus flavus ear rot severity
-
-[Term]
-id: CO_322:0000252
-name: maize egrwr - computation method
-def: "Standard method for ear growth rate." [CO:curators]
-relationship: method_of CO_322:0000016 ! ear growth rate
-relationship: method_of CO_322:0000016 ! ear growth rate
-
-[Term]
-id: CO_322:0000253
-name: maize fgramersev - estimation method
-def: "Observe fusarium graminearum ear rot severity on ears per plot based on degree of infection." [CO:curators]
-relationship: method_of CO_322:0000070 ! fusarium graminearum ear rot severity
-relationship: method_of CO_322:0000070 ! fusarium graminearum ear rot severity
-relationship: method_of CO_322:0000070 ! fusarium graminearum ear rot severity
-
-[Term]
-id: CO_322:0000254
-name: maize ellng - measurement method
-def: "Standard method for ear leaf length." [CO:curators]
-relationship: method_of CO_322:0000019 ! ear leaf length
-
-[Term]
-id: CO_322:0000255
-name: maize fmonersev - estimation method
-def: "Observe fusarium moniliforme ear rot severity on plants per plot based on degree of infection (relative or absolute area of plant tissue affected by disease)." [CO:curators]
-relationship: method_of CO_322:0000071 ! fusarium moniliforme ear rot severity
-relationship: method_of CO_322:0000071 ! fusarium moniliforme ear rot severity
-relationship: method_of CO_322:0000071 ! fusarium moniliforme ear rot severity
-
-[Term]
-id: CO_322:0000256
-name: maize elw - measurement method
-def: "Standard method for ear leaf weight." [CO:curators]
-relationship: method_of CO_322:0000112 ! ear leaf weight
-
-[Term]
-id: CO_322:0000257
-name: maize persev - estimation method
-def: "Observe penicillium ear rot severity on the plants per plot based on degree of infection (relative or absolute area of plant tissue affected by disease)." [CO:curators]
-relationship: method_of CO_322:0000074 ! penicillium ear rot severity
-relationship: method_of CO_322:0000074 ! penicillium ear rot severity
-relationship: method_of CO_322:0000074 ! penicillium ear rot severity
-
-[Term]
-id: CO_322:0000259
-name: maize smaysev - estimation method
-def: "Observe stenocarpella ear rot severity on the plants per plot based on degree of infection (relative or absolute area of plant tissue affected by disease)." [CO:curators]
-relationship: method_of CO_322:0000073 ! stenocarpella ear rot severity
-relationship: method_of CO_322:0000073 ! stenocarpella ear rot severity
-relationship: method_of CO_322:0000073 ! stenocarpella ear rot severity
-
-[Term]
-id: CO_322:0000260
-name: maize growing degree days to anthesis - computation method
-def: "Calculated as growing-degree units or growing degree days between sowing and 50% anthesis." [CO:curators]
-relationship: method_of CO_322:0000030 ! anthesis time
-
-[Term]
-id: CO_322:0000261
-name: maize eturcsev - estimation method
-def: "Observe turcicum leaf blight severity on the plants per plot based on degree of infection (relative or absolute area of plant tissue affected by disease)." [CO:curators]
-relationship: method_of CO_322:0000092 ! turcicum leaf blight severity
-relationship: method_of CO_322:0000092 ! turcicum leaf blight severity
-relationship: method_of CO_322:0000092 ! turcicum leaf blight severity
-
-[Term]
-id: CO_322:0000262
-name: maize growing degree days to maturity - computation method
-def: "Calculated as growing-degree units or growing degree days between sowing and maturity." [CO:curators]
-relationship: method_of CO_322:0000032 ! maturity time
-
-[Term]
-id: CO_322:0000263
-name: maize ppolysev - estimation method
-def: "Observe polysora rust severity on the plants per plot based on degree of infection (relative or absolute area of plant tissue affected by disease)." [CO:curators]
-relationship: method_of CO_322:0000055 ! polysora rust severity
-relationship: method_of CO_322:0000055 ! polysora rust severity
-relationship: method_of CO_322:0000055 ! polysora rust severity
-
-[Term]
-id: CO_322:0000264
-name: maize glng - measurement method
-def: "Average of 10 consecutive grains from one row in the middle of the uppermost ear, measured with calliper." [CO:curators]
-relationship: method_of CO_322:0000172 ! grain length
-
-[Term]
-id: CO_322:0000265
-name: maize crustsev - estimation method
-def: "Observe common rust severity on plants per plot based on degree of infection (relative or absolute area of plant tissue affected by disease)." [CO:curators]
-relationship: method_of CO_322:0000085 ! common rust severity
-relationship: method_of CO_322:0000085 ! common rust severity
-relationship: method_of CO_322:0000085 ! common rust severity
-
-[Term]
-id: CO_322:0000266
-name: maize gwid - measurement method
-def: "Measure on the same 10 grains used for taking grain length measurement." [CO:curators]
-relationship: method_of CO_322:0000175 ! grain width
-
-[Term]
-id: CO_322:0000267
-name: maize csmutsev - estimation method
-def: "Observe common smut severity on the plants per plot based on degree of infection (relative or absolute area of plant tissue affected by disease)." [CO:curators]
-relationship: method_of CO_322:0000082 ! common smut severity
-relationship: method_of CO_322:0000082 ! common smut severity
-relationship: method_of CO_322:0000082 ! common smut severity
-
-[Term]
-id: CO_322:0000268
-name: maize lwid - measurement method
-def: "Take same leaf measured for leaf length and measure mid-way along its length." [CO:curators]
-relationship: method_of CO_322:0000026 ! leaf width
-
-[Term]
-id: CO_322:0000269
-name: maize trustsev - estimation method
-def: "Observe tropical severity on the plants per plot based on degree of infection (relative or absolute area of plant tissue affected by disease)." [CO:curators]
-relationship: method_of CO_322:0000056 ! tropical rust severity
-relationship: method_of CO_322:0000056 ! tropical rust severity
-relationship: method_of CO_322:0000056 ! tropical rust severity
-
-[Term]
-id: CO_322:0000270
-name: maize endolys - measurement method
-def: "Standard method for endosperm lysin content." [CO:curators]
-relationship: method_of CO_322:0000109 ! endosperm lysine content
-
-[Term]
-id: CO_322:0000271
-name: maize dmvinc - computation method
-def: "Divide the total number of DMV damaged plants by the total number of plants harvested." [CO:curators]
-relationship: method_of CO_322:0000099 ! maize dwarf mosaic virus incidence
-
-[Term]
-id: CO_322:0000272
-name: maize scmvinc - computation method
-def: "Divide the total number of SCMV damaged plants by the total number of plants harvested." [CO:curators]
-relationship: method_of CO_322:0000101 ! sugarcane mosaic virus incidence
-
-[Term]
-id: CO_322:0000273
-name: maize msvsev - estimation method
-def: "Observe the plants that are affected by maize streak virus per plot. Note:  The first and the last plants are eliminated to avoid border effects." [CO:curators]
-relationship: method_of CO_322:0000878 ! maize streak virus severity
-relationship: method_of CO_322:0000878 ! maize streak virus severity
-relationship: method_of CO_322:0000878 ! maize streak virus severity
-
-[Term]
-id: CO_322:0000274
-name: maize mrcvinc - computation method
-def: "Divide the total number of MRCV damaged plants by the total number of plants harvested." [CO:curators]
-relationship: method_of CO_322:0000094 ! mal de rio cuarto virus incidence
-
-[Term]
-id: CO_322:0000275
-name: maize hsmutinc - computation method
-def: "Divide the total number of HSmut damaged plants by the total number of plants harvested." [CO:curators]
-relationship: method_of CO_322:0000083 ! head smut incidence
-
-[Term]
-id: CO_322:0000276
-name: maize mstvinc - computation method
-def: "Divide the total number of MSTV damaged plants by the total number of plants harvested." [CO:curators]
-relationship: method_of CO_322:0000098 ! maize stripe virus incidence
-
-[Term]
-id: CO_322:0000277
-name: maize albinc - computation method
-def: "Divide the total number of ALB damaged plants by the total number of plants harvested." [CO:curators]
-relationship: method_of CO_322:0000058 ! anthracnose leaf blight incidence
-
-[Term]
-id: CO_322:0000278
-name: maize mrdvinc - computation method
-def: "Divide the total number of MRDV damaged plants by the total number of plants harvested." [CO:curators]
-relationship: method_of CO_322:0000097 ! maize rough dwarf virus incidence
-
-[Term]
-id: CO_322:0000279
-name: maize chilodmg - estimation method
-def: "Observe the plant damage caused by chilo per plot. Note:  The first and the last plants are eliminated to avoid border effects." [CO:curators]
-relationship: method_of CO_322:0000155 ! chilo damage
-
-[Term]
-id: CO_322:0000280
-name: maize mrfvinc - computation method
-def: "Divide the total number of MRFV damaged plants by the total number of plants harvested." [CO:curators]
-relationship: method_of CO_322:0000095 ! maize rayado fino virus incidence
-
-[Term]
-id: CO_322:0000281
-name: maize edmg - estimation method
-def: "Observe the ears damage caused by ear rot and/or insects per plot. Note:  The first and the last plants are eliminated to avoid border effects." [CO:curators]
-relationship: method_of CO_322:0000165 ! ear damage
-
-[Term]
-id: CO_322:0000283
-name: maize stbordmg - estimation method
-def: "Observe the plant damage caused by stem borer per plot. Note:  The first and the last plants are eliminated to avoid border effects." [CO:curators]
-relationship: method_of CO_322:0000159 ! stem borer damage
-
-[Term]
-id: CO_322:0000285
-name: maize strigadmg - estimation method
-def: "Observe the maize plant damage caused by striga per plot." [CO:curators]
-relationship: method_of CO_322:0000158 ! striga damage
-
-[Term]
-id: CO_322:0000286
-name: maize rootcapac - measurement method
-def: "Standard method for root capitance." [CO:curators]
-relationship: method_of CO_322:0000102 ! root capacitance
-
-[Term]
-id: CO_322:0000287
-name: maize lgbdmg - estimation method
-def: "Observe the plant damage caused by large grain borer per plot" [CO:curators]
-relationship: method_of CO_322:0000127 ! large grain borer damage
-
-[Term]
-id: CO_322:0000289
-name: maize weevinc - estimation method
-def: "Score maize weevil damage on the plants per plot." [CO:curators]
-relationship: method_of CO_322:0000129 ! maize weevil incidence
-
-[Term]
-id: CO_322:0000291
-name: maize llng - measurement method
-def: "Measure the leaf which subtends the uppermost ear from ligule to apex." [CO:curators]
-relationship: method_of CO_322:0000025 ! leaf length
-
-[Term]
-id: CO_322:0000292
-name: maize shtpub - estimation method
-def: "Standard method for sheath pubescence content." [CO:curators]
-relationship: method_of CO_322:0000163 ! sheath pubescence
-
-[Term]
-id: CO_322:0000293
-name: maize bsdminc - computation method
-def: "Divide the total number of BSDM damaged plants by the total number of plants harvested." [CO:curators]
-relationship: method_of CO_322:0000078 ! brown stripe downy mildew incidence
-
-[Term]
-id: CO_322:0000294
-name: maize silkgrw - measurement method
-def: "Standard method for silk growth." [CO:curators]
-relationship: method_of CO_322:0000144 ! silk growth
-
-[Term]
-id: CO_322:0000295
-name: maize ctminc - computation method
-def: "Divide the total number of CTM damaged plants by the total number of plants harvested." [CO:curators]
-relationship: method_of CO_322:0000081 ! crazy top downy mildew incidence
-
-[Term]
-id: CO_322:0000296
-name: maize silkgrwr - computation method
-def: "Standard method for silk growth rate." [CO:curators]
-relationship: method_of CO_322:0000014 ! silk growth rate
-
-[Term]
-id: CO_322:0000297
-name: maize dmjinc - computation method
-def: "Divide the total number of DMJ damaged plants by the total number of plants harvested." [CO:curators]
-relationship: method_of CO_322:0000079 ! java downy mildew incidence
-
-[Term]
-id: CO_322:0000298
-name: maize silklng  - measurement method
-def: "Standard method for silk length." [CO:curators]
-relationship: method_of CO_322:0000013 ! silk length
-
-[Term]
-id: CO_322:0000299
-name: maize pdminc - computation method
-def: "Divide the total number of PDM damaged plants by the total number of plants harvested." [CO:curators]
-relationship: method_of CO_322:0000076 ! philippine downy mildew incidence
-
-[Term]
-id: CO_322:0000300
-name: maize tslbw - measurement method
-def: "Standard method for tassel branches dry weight." [CO:curators]
-relationship: method_of CO_322:0000027 ! tassel branch weight
-
-[Term]
-id: CO_322:0000301
-name: maize dmsinc - computation method
-def: "Divide the total number of DMS damaged plants by the total number of plants harvested." [CO:curators]
-relationship: method_of CO_322:0000080 ! sorghum downy mildew incidence
-
-[Term]
-id: CO_322:0000303
-name: maize psacchinc - computation method
-def: "Divide the total number of Psacch damaged plants by the total number of plants harvested." [CO:curators]
-relationship: method_of CO_322:0000077 ! sugarcane downy mildew incidence
-
-[Term]
-id: CO_322:0000304
-name: maize tslbn - counting method
-def: "Standard method for tassel branches number." [CO:curators]
-relationship: method_of CO_322:0000028 ! tassel branch number
-
-[Term]
-id: CO_322:0000305
-name: maize blsbsev - estimation method
-def: "Observe banded leaf and sheath blight severity on the plants per plot based on degree of infection (relative or absolute area of plant tissue affected by disease)." [CO:curators]
-relationship: method_of CO_322:0000084 ! banded leaf and sheath blight severity
-relationship: method_of CO_322:0000084 ! banded leaf and sheath blight severity
-relationship: method_of CO_322:0000084 ! banded leaf and sheath blight severity
-
-[Term]
-id: CO_322:0000306
-name: maize tillering - counting method
-def: "Count the number of tillers per plant (average of more than 20 representative) plants." [CO:curators]
-relationship: method_of CO_322:0000059 ! tillering
-
-[Term]
-id: CO_322:0000307
-name: maize astriinc - computation method
-def: "Divide the total number of ASTRI damaged plants by the total number of plants harvested." [CO:curators]
-relationship: method_of CO_322:0000060 ! black bundle incidence
-
-[Term]
-id: CO_322:0000308
-name: maize upesh - estimation method
-def: "Observe shape of uppermost ear." [CO:curators]
-relationship: method_of CO_322:0000171 ! uppermost ear shape
-
-[Term]
-id: CO_322:0000309
-name: maize bwspotsev - estimation method
-def: "Observe brown spot severity on the plants per plot based on degree of infection (relative or absolute area of plant tissue affected by disease)." [CO:curators]
-relationship: method_of CO_322:0000086 ! brown spot severity
-relationship: method_of CO_322:0000086 ! brown spot severity
-relationship: method_of CO_322:0000086 ! brown spot severity
-
-[Term]
-id: CO_322:0000311
-name: maize charrinc - computation method
-def: "Divide the total number of CharRot damaged plants by the total number of plants harvested." [CO:curators]
-relationship: method_of CO_322:0000062 ! charcoal rot incidence
-
-[Term]
-id: CO_322:0000313
-name: maize latewiltinc - computation method
-def: "Divide the total number of LateWilt damaged plants by the total number of plants harvested." [CO:curators]
-relationship: method_of CO_322:0000161 ! late wilt incidence
-
-[Term]
-id: CO_322:0000315
-name: maize sdlngdisinc - computation method
-def: "Divide the total number of SeedlingDis affected plants by the total number of plants harvested." [CO:curators]
-relationship: method_of CO_322:0000093 ! seedling disease incidence
-
-[Term]
-id: CO_322:0000317
-name: maize bclssev - estimation method
-def: "Observe bacterial leaf stripe severity on the plants per plot based on degree of infection (relative or absolute area of plant tissue affected by disease)." [CO:curators]
-relationship: method_of CO_322:0000051 ! bacterial leaf stripe severity
-relationship: method_of CO_322:0000051 ! bacterial leaf stripe severity
-relationship: method_of CO_322:0000051 ! bacterial leaf stripe severity
-
-[Term]
-id: CO_322:0000318
-name: maize 1-9 grain color scale
-relationship: scale_of CO_322:0000205 ! gcol - estimation
-
-[Term]
-id: CO_322:0000319
-name: maize bactsrinc - computation method
-def: "Divide the total number of BactSR damaged plants by the total number of plants harvested." [CO:curators]
-relationship: method_of CO_322:0000052 ! bacterial stalk rot incidence
-
-[Term]
-id: CO_322:0000321
-name: maize cscmsev - estimation method
-def: "Observe maize busy stunt severity on the plants per plot based on degree of infection (relative or absolute area of plant tissue affected by disease)." [CO:curators]
-relationship: method_of CO_322:0000053 ! maize bushy stunt severity
-relationship: method_of CO_322:0000053 ! maize bushy stunt severity
-relationship: method_of CO_322:0000053 ! maize bushy stunt severity
-
-[Term]
-id: CO_322:0000323
-name: maize stewiltinc - computation method
-def: "Divide the total number of SteWilt damaged plants by the total number of plants harvested." [CO:curators]
-relationship: method_of CO_322:0000050 ! stewarts wilt incidence
-
-[Term]
-id: CO_322:0000325
-name: maize aphdmg - estimation method
-def: "Observe the plant damage caused by aphids per plot. Note:  The first and the last plants are eliminated to avoid border effects." [CO:curators]
-relationship: method_of CO_322:0000128 ! aphid damage
-
-[Term]
-id: CO_322:0000327
-name: maize awormdmg - estimation method
-def: "Observe the plant damage caused by army worms per plot. Note:  The first and the last plants are eliminated to avoid border effects." [CO:curators]
-relationship: method_of CO_322:0000154 ! army worm damage
-
-[Term]
-id: CO_322:0000329
-name: maize busseolainc - counting method
-def: "Count the number plants that are damaged by busseola (african stem borer) per plot." [CO:curators]
-relationship: method_of CO_322:0000152 ! busseola incidence
-relationship: method_of CO_322:0000808 ! busseola damage
-
-[Term]
-id: CO_322:0000331
-name: maize diabroticadmg - estimation method
-def: "Observe the plant damage caused by Diabrotica per plot." [CO:curators]
-relationship: method_of CO_322:0000156 ! diabrotica damage
-
-[Term]
-id: CO_322:0000333
-name: maize diatraeadmg - estimation method
-def: "Observe the plant damage caused by Diatraea plot." [CO:curators]
-relationship: method_of CO_322:0000157 ! diatraea damage
-
-[Term]
-id: CO_322:0000335
-name: maize eworminc - computation method
-def: "Divide the total number of EWDMG damaged ears by the total number of plants harvested." [CO:curators]
-relationship: method_of CO_322:0000153 ! earworm incidence
-
-[Term]
-id: CO_322:0000337
-name: maize weevn - counting method
-def: "Standard method for maize weevil number in a sample. Weevils were counted only once (at the end of a 45-d incubation period)" [CO:curators]
-relationship: method_of CO_322:0000130 ! maize weevil number in grain
-
-[Term]
-id: CO_322:0000339
-name: maize gwlostweev - measurement method
-def: "Seed weight loss was determined using the count and weight method of Gwinner et al (1996). Weight loss (%) = (Wu x Nd) - (Wd x Nu) x 100 / Wu x (Nd + Nu) where Wu=weight of the undamaged seed, Nu = number of undamaged seed, Wd = Weight of damaged seed, and Nd=Number of damaged seed." [CO:curators]
-relationship: method_of CO_322:0000131 ! grain weight loss by maize weevil
-
-[Term]
-id: CO_322:0000341
-name: maize gw dw - measurement method
-def: "Count and weigh grains randomly selected from the total grains." [CO:curators]
-relationship: method_of CO_322:0000133 ! grain weight
-relationship: method_of CO_322:0000133 ! grain weight
-relationship: method_of CO_322:0000133 ! grain weight
-
-[Term]
-id: CO_322:0000345
-name: maize gn - computation method
-def: "Standard method for grain number." [CO:curators]
-relationship: method_of CO_322:0000010 ! grain number
-
-[Term]
-id: CO_322:0000347
-name: maize edia - measurement method
-def: "Measure, when applicable, ear diameter at the central part of uppermost ears of at least 20 representative plants per accession." [CO:curators]
-relationship: method_of CO_322:0000170 ! ear diameter
-
-[Term]
-id: CO_322:0000349
-name: maize elng - measurement method
-def: "Measure, when applicable, ear length of at least 20 representative plants per accession, record the data in the fieldbook." [CO:curators]
-relationship: method_of CO_322:0000015 ! ear length
-relationship: method_of CO_322:0000015 ! ear length
-
-[Term]
-id: CO_322:0000351
-name: maize tsltyp - estimation method
-def: "Standard method for tassel type." [CO:curators]
-relationship: method_of CO_322:0000164 ! tassel branching type
-
-[Term]
-id: CO_322:0000353
-name: maize elchl - measurement method
-def: "Standard method for ear leaf chlorophyll content." [CO:curators]
-relationship: method_of CO_322:0000105 ! ear leaf chlorophyll content
-
-[Term]
-id: CO_322:0000355
-name: maize ylchl - measurement method
-def: "Standard method for young leaf chlorophyll content." [CO:curators]
-relationship: method_of CO_322:0000024 ! young leaf chlorophyll content
-
-[Term]
-id: CO_322:0000357
-name: maize glucose - measurement method
-def: "Standard method for glucose content." [CO:curators]
-relationship: method_of CO_322:0000115 ! grain glucose content
-relationship: method_of CO_322:0000978 ! leaf sucrose content
-
-[Term]
-id: CO_322:0000360
-name: maize gupssh - estimation method
-def: "Observe the shape of the upper surface of grain, when applicable, on at least 20 representative plants per accession, after harvest." [CO:curators]
-relationship: method_of CO_322:0000178 ! grain upper surface shape
-
-[Term]
-id: CO_322:0000361
-name: maize ndvi - measurement method
-def: "Optimum number of measurements: i) Vegetative stage: Weekly measurements from 2 to 6 weeks after planting; ii) Flowering: only for inbred lines." [CO:curators]
-relationship: method_of CO_322:0000132 ! normalized difference vegetation index
-
-[Term]
-id: CO_322:0000362
-name: maize periccol - estimation method
-def: "Observe the pericarp color, when applicable, on at least 20 representative plants per accession." [CO:curators]
-relationship: method_of CO_322:0000192 ! pericarp color
-
-[Term]
-id: CO_322:0000363
-name: maize oa  - measurement method
-def: "Standard method for osmotic adjustment." [CO:curators]
-relationship: method_of CO_322:0000117 ! osmotic adjustment
-
-[Term]
-id: CO_322:0000364
-name: maize aleucol - estimation method
-def: "Observe the aleurone color, when applicable, on at least 20 representative plants per accession." [CO:curators]
-relationship: method_of CO_322:0000190 ! aleurone color
-
-[Term]
-id: CO_322:0000365
-name: maize op - measurement method
-def: "Standard method for osmotic potential." [CO:curators]
-relationship: method_of CO_322:0000118 ! osmotic potential
-
-[Term]
-id: CO_322:0000366
-name: maize endocol - estimation method
-def: "Observe the endosperm color, when applicable, on at least 20 representative plants per accession." [CO:curators]
-relationship: method_of CO_322:0000186 ! endosperm color
-
-[Term]
-id: CO_322:0000367
-name: maize pri - measurement method
-def: "Standard method for photochemical radiation index." [CO:curators]
-relationship: method_of CO_322:0000140 ! photochemical radiation index
-
-[Term]
-id: CO_322:0000368
-name: maize gthk - measurement method
-def: "Measure the thickness of the same 10 grains used for taking grain length measurement." [CO:curators]
-relationship: method_of CO_322:0000184 ! grain thickness
-
-[Term]
-id: CO_322:0000369
-name: maize proline - measurement method
-def: "Standard method for proline content." [CO:curators]
-relationship: method_of CO_322:0000119 ! root proline content
-relationship: method_of CO_322:0001104 ! grain proline content
-relationship: method_of CO_322:0001110 ! leaf proline content
-
-[Term]
-id: CO_322:0000370
-name: maize tslblastsev - estimation method
-def: "Standard method for tassel blasting." [CO:curators]
-relationship: method_of CO_322:0000188 ! tassel blasting severity
-
-[Term]
-id: CO_322:0000375
-name: maize scond - measurement method
-def: "Measured with a portable porometer. Take the measures in the middle between leaf tip and leaf base, and in between leaf midrib and leaf rim. Blade sections measured must to be exposed to sunlight for at least the 30 minutes before.  Measurements always performed in the same side of the leaf (usually the lower or abaxial one). One measurement per leaf, and at least 3 per plot. 1 min per measurement." [CO:curators]
-relationship: method_of CO_322:0000134 ! stomatal conductance
-
-[Term]
-id: CO_322:0000377
-name: maize sucrose - measurement method
-def: "Standard method for sucrose content." [CO:curators]
-relationship: method_of CO_322:0000120 ! grain sucrose content
-relationship: method_of CO_322:0000120 ! grain sucrose content
-relationship: method_of CO_322:0000978 ! leaf sucrose content
-relationship: method_of CO_322:0000978 ! leaf sucrose content
-relationship: method_of CO_322:0001099 ! cob sucrose content
-relationship: method_of CO_322:0001116 ! root glucose content
-relationship: method_of CO_322:0001118 ! root sucrose content
-
-[Term]
-id: CO_322:0000379
-name: maize sugar - measurement method
-def: "Standard method for total sugar content." [CO:curators]
-relationship: method_of CO_322:0000114 ! grain sugar content
-
-[Term]
-id: CO_322:0000381
-name: maize gash - measurement method
-def: "Standard method for whole-grain ash content" [CO:curators]
-relationship: method_of CO_322:0000137 ! grain ash content
-
-[Term]
-id: CO_322:0000385
-name: maize wi - measurement method
-def: "Standard method for water index." [CO:curators]
-relationship: method_of CO_322:0000141 ! water index
-
-[Term]
-id: CO_322:0000387
-name: maize giron - measurement method
-def: "Standard method for whole-grain iron content." [CO:curators]
-relationship: method_of CO_322:0000110 ! grain iron content
-
-[Term]
-id: CO_322:0000389
-name: maize gvita - measurement method
-def: "Standard method for whole-grain pro-vitaminA content." [CO:curators]
-relationship: method_of CO_322:0000125 ! grain provitamina content
-
-[Term]
-id: CO_322:0000391
-name: maize gstarch - measurement method
-def: "Standard method for whole-grain starch content." [CO:curators]
-relationship: method_of CO_322:0000126 ! grain starch content
-
-[Term]
-id: CO_322:0000393
-name: maize gzinc  - measurement method
-def: "Standard method for whole-grain zinc content." [CO:curators]
-relationship: method_of CO_322:0000111 ! grain zinc content
-
-[Term]
-id: CO_322:0000395
-name: maize ct - measurement method
-def: "Standard method for canopy temperature." [CO:curators]
-relationship: method_of CO_322:0000142 ! canopy temperature
 
 [Term]
 id: CO_322:0000488
@@ -2141,35 +1139,11 @@ synonym: "CSSSev" EXACT []
 is_a: TO:0000148
 
 [Term]
-id: CO_322:0000489
-name: maize csssev - estimation method
-def: "Observe fusarium graminearum ear rot severity on the plants per plot based on degree of infection." [CO:curators]
-relationship: method_of CO_322:0000488 ! corn stunt spiroplasma severity
-relationship: method_of CO_322:0000488 ! corn stunt spiroplasma severity
-relationship: method_of CO_322:0000488 ! corn stunt spiroplasma severity
-
-[Term]
 id: CO_322:0000520
 name: maize aspergillus ear rot severity trait
 def: "Aspergillus ear rot severity (Aspergillus flavus)." [CO:curators, NCBITaxon:5059]
 synonym: "AspERSev" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
-
-[Term]
-id: CO_322:0000521
-name: maize aspersev - estimation method
-def: "Observe aspergillus ear rot severity on the harvested ears per plot based on degree of infection (relative or absolute area of plant tissue affected by disease)." [CO:curators]
-relationship: method_of CO_322:0000520 ! aspergillus ear rot severity
-relationship: method_of CO_322:0000520 ! aspergillus ear rot severity
-relationship: method_of CO_322:0000520 ! aspergillus ear rot severity
-
-[Term]
-id: CO_322:0000522
-name: maize dmssev - estimation method
-def: "Observe sorghum downy mildew severity on the plants per plot based on degree of infection (relative or absolute area of plant tissue affected by disease)." [CO:curators]
-relationship: method_of CO_322:0000829 ! sorghum downy mildew severity
-relationship: method_of CO_322:0000829 ! sorghum downy mildew severity
-relationship: method_of CO_322:0000829 ! sorghum downy mildew severity
 
 [Term]
 id: CO_322:0000523
@@ -2273,22 +1247,10 @@ is_a: TO:0000250
 xref: GRINDesc:89041
 
 [Term]
-id: CO_322:0000549
-name: maize strigapn - counting method
-def: "Count the total number of emerged striga plants per plot. It is counted three times, 8 weeks, 10 weeks and 12 weeks after planting." [CO:curators]
-relationship: method_of CO_322:0000938 ! striga plant number
-
-[Term]
 id: CO_322:0000550
 name: maize plants harvested
 def: "Number of plants harvested per unit area." [CO:curators]
 synonym: "PHvst" EXACT []
-
-[Term]
-id: CO_322:0000555
-name: maize bhskcovinc - computation method
-def: "Divide the total number of ears with bad husk cover by the total number of ears harvested." [CO:curators]
-relationship: method_of CO_322:0000150 ! ear bad husk cover incidence
 
 [Term]
 id: CO_322:0000556
@@ -2297,317 +1259,6 @@ def: "Common smut (Ustilago maydis, syn. U. zeae) incidence." [CO:curators, NCBI
 synonym: "CSmutInc" EXACT []
 is_a: TO:0001146 ! Basidiomycete fungal disease response
 xref: GRINDesc:89021
-
-[Term]
-id: CO_322:0000557
-name: maize csmutinc - computation method
-def: "Divide the total number of CSN damaged plants by the total number of plants harvested." [CO:curators]
-relationship: method_of CO_322:0000556 ! common smut incidence
-
-[Term]
-id: CO_322:0000558
-name: maize cscinc - computation method
-def: "Divide the total number of CSC damaged plants by the total number of plants harvested." [CO:curators]
-relationship: method_of CO_322:0000049 ! corn stunt incidence
-
-[Term]
-id: CO_322:0000559
-name: maize epo - estimation method
-def: "Determine ear position using 1-3 scale." [CO:curators]
-relationship: method_of CO_322:0000020 ! ear position
-
-[Term]
-id: CO_322:0000561
-name: maize erinc - counting method
-def: "Count the total number of ears that damaged or/and rotten per plot." [CO:curators]
-relationship: method_of CO_322:0000068 ! ear rot incidence
-
-[Term]
-id: CO_322:0000562
-name: maize fussrinc - counting method
-def: "Count the plants that are affected by fusarium stalk rot per plot. Note:  The first and the last plants are eliminated to avoid border effects." [CO:curators]
-relationship: method_of CO_322:0000063 ! fusarium stalk rot incidence
-
-[Term]
-id: CO_322:0000563
-name: maize fgramsrinc - counting method
-def: "Count the plants that are affected by fusarium graminearum stalk rot per plot. Note:  The first and the last plants are eliminated to avoid border effects." [CO:curators]
-relationship: method_of CO_322:0000065 ! fusarium graminearum stalk rot incidence
-
-[Term]
-id: CO_322:0000564
-name: maize fmonsrinc - counting method
-def: "Count the plants that are affected by fusarium moniliforme stalk rot per plot. Note:  The first and the last plants are eliminated to avoid border effects." [CO:curators]
-relationship: method_of CO_322:0000064 ! fusarium moniliforme stalk rot incidence
-
-[Term]
-id: CO_322:0000565
-name: maize hsmutinc - counting method
-def: "Count the number of plants that are affected by head smut per plot. Note:  The first and the last plants are eliminated to avoid border effects." [CO:curators]
-relationship: method_of CO_322:0000083 ! head smut incidence
-
-[Term]
-id: CO_322:0000566
-name: maize dmvinc - counting method
-def: "Count the number of plants that are affected by maize dwarf mosaic virus per plot. Note:  The first and the last plants are eliminated to avoid border effects." [CO:curators]
-relationship: method_of CO_322:0000099 ! maize dwarf mosaic virus incidence
-
-[Term]
-id: CO_322:0000567
-name: maize msvinc - counting method
-def: "Count the number of plants that are affected by maize streak virus per plot. Note:  The first and the last plants are eliminated to avoid border effects." [CO:curators]
-relationship: method_of CO_322:0000100 ! maize streak virus incidence
-
-[Term]
-id: CO_322:0000568
-name: maize msvinc - computation method
-def: "Divide the total number of MSV damaged plants by the total number of plants harvested." [CO:curators]
-relationship: method_of CO_322:0000100 ! maize streak virus incidence
-
-[Term]
-id: CO_322:0000569
-name: maize rlodginc - counting method
-def: "Count the number of plants that show root lodging and record data in filedbook. Note:  The first and the last plants are eliminated to avoid border effects." [CO:curators]
-relationship: method_of CO_322:0000034 ! root lodging incidence
-
-[Term]
-id: CO_322:0000570
-name: maize slodginc - counting method
-def: "Count the number of plants with the stem lodged. The first and the last plants are eliminated to avoid border effects." [CO:curators]
-relationship: method_of CO_322:0000035 ! stem lodging incidence
-
-[Term]
-id: CO_322:0000571
-name: maize mcob - counting method
-def: "Count the number of plants that have more than one ear growing from the same node." [CO:curators]
-relationship: method_of CO_322:0000151 ! multiple cob incidence
-
-[Term]
-id: CO_322:0000572
-name: maize ctminc - counting method
-def: "Count the number of plants that are affected by CTM per plot. Note:  The first and the last plants are eliminated to avoid border effects." [CO:curators]
-relationship: method_of CO_322:0000081 ! crazy top downy mildew incidence
-
-[Term]
-id: CO_322:0000573
-name: maize dmjinc - counting method
-def: "Count the number of plants that are affected by DMJ per plot. Note:  The first and the last plants are eliminated to avoid border effects." [CO:curators]
-relationship: method_of CO_322:0000079 ! java downy mildew incidence
-
-[Term]
-id: CO_322:0000574
-name: maize pytsrinc - counting method
-def: "Count the number of plants that are affected by pythium stalk rot per plot. Note:  The first and the last plants are eliminated to avoid border effects." [CO:curators]
-relationship: method_of CO_322:0000067 ! pythium stalk rot incidence
-
-[Term]
-id: CO_322:0000575
-name: maize dmsinc - counting method
-def: "Count the number of plants that are affected by sorghum downy mildew per plot. Note:  The first and the last plants are eliminated to avoid border effects." [CO:curators]
-relationship: method_of CO_322:0000080 ! sorghum downy mildew incidence
-
-[Term]
-id: CO_322:0000576
-name: maize pdminc - counting method
-def: "Count the number of plants that are affected by philippine downy mildew per plot. Note:  The first and the last plants are eliminated to avoid border effects." [CO:curators]
-relationship: method_of CO_322:0000076 ! philippine downy mildew incidence
-
-[Term]
-id: CO_322:0000577
-name: maize psacchinc - counting method
-def: "Count the number of plants that are affected by sugarcane downy mildew per plot. Note:  The first and the last plants are eliminated to avoid border effects." [CO:curators]
-relationship: method_of CO_322:0000077 ! sugarcane downy mildew incidence
-
-[Term]
-id: CO_322:0000578
-name: maize scmvinc - counting method
-def: "Count the number of plants that are affected by sugarcane mosaic virus per plot. Note:  The first and the last plants are eliminated to avoid border effects." [CO:curators]
-relationship: method_of CO_322:0000101 ! sugarcane mosaic virus incidence
-
-[Term]
-id: CO_322:0000579
-name: maize srinc - counting method
-def: "Count the number of plants that are affected by stalk rot per plot. Note:  The first and the last plants are eliminated to avoid border effects." [CO:curators]
-relationship: method_of CO_322:0000061 ! stalk rot incidence
-
-[Term]
-id: CO_322:0000580
-name: maize albinc - counting method
-def: "Count the number of plants that are affected by anthracnose leaf blight per plot. Note:  The first and the last plants are eliminated to avoid border effects." [CO:curators]
-relationship: method_of CO_322:0000058 ! anthracnose leaf blight incidence
-
-[Term]
-id: CO_322:0000581
-name: maize bactsrinc - counting method
-def: "Count the number of plants that are affected by bacterial stalk rot per plot. Note:  The first and the last plants are eliminated to avoid border effects." [CO:curators]
-relationship: method_of CO_322:0000052 ! bacterial stalk rot incidence
-
-[Term]
-id: CO_322:0000582
-name: maize astriinc - counting method
-def: "Count the number of plants that are affected by black bundle per plot. Note:  The first and the last plants are eliminated to avoid border effects." [CO:curators]
-relationship: method_of CO_322:0000060 ! black bundle incidence
-
-[Term]
-id: CO_322:0000583
-name: maize bsdminc - counting method
-def: "Count the number of plants that are affected by brown stripe downy mildew per plot. Note:  The first and the last plants are eliminated to avoid border effects." [CO:curators]
-relationship: method_of CO_322:0000078 ! brown stripe downy mildew incidence
-
-[Term]
-id: CO_322:0000584
-name: maize charrinc - counting method
-def: "Count the number of plants that are affected by charcoal rot per plot. Note:  The first and the last plants are eliminated to avoid border effects." [CO:curators]
-relationship: method_of CO_322:0000062 ! charcoal rot incidence
-
-[Term]
-id: CO_322:0000585
-name: maize eworminc - counting method
-def: "Count the number of ear damage caused by earworm per plot." [CO:curators]
-relationship: method_of CO_322:0000153 ! earworm incidence
-
-[Term]
-id: CO_322:0000586
-name: maize latewiltinc - counting method
-def: "Count the number of plants that are affected by late wilt per plot. Note:  The first and the last plants are eliminated to avoid border effects." [CO:curators]
-relationship: method_of CO_322:0000161 ! late wilt incidence
-
-[Term]
-id: CO_322:0000587
-name: maize mrfvinc - counting method
-def: "Count the number of plants that are affected by maize bushy stunt per plot. Note:  The first and the last plants are eliminated to avoid border effects." [CO:curators]
-relationship: method_of CO_322:0000095 ! maize rayado fino virus incidence
-
-[Term]
-id: CO_322:0000588
-name: maize mrdvinc - counting method
-def: "Count the number of plants that are affected by maize rough dwarf virus per plot. Note:  The first and the last plants are eliminated to avoid border effects." [CO:curators]
-relationship: method_of CO_322:0000097 ! maize rough dwarf virus incidence
-
-[Term]
-id: CO_322:0000589
-name: maize mstvinc - counting method
-def: "Count the number of plants that are affected by maize stripe virus per plot. Note:  The first and the last plants are eliminated to avoid border effects." [CO:curators]
-relationship: method_of CO_322:0000098 ! maize stripe virus incidence
-
-[Term]
-id: CO_322:0000590
-name: maize mrcvinc - counting method
-def: "Count the number of plants that are affected by mal de rio cuarto virus per plot. Note:  The first and the last plants are eliminated to avoid border effects." [CO:curators]
-relationship: method_of CO_322:0000094 ! mal de rio cuarto virus incidence
-
-[Term]
-id: CO_322:0000591
-name: maize stensrinc - counting method
-def: "Count the number of plants that are affected by stenocarpella stalk rot per plot. Note:  The first and the last plants are eliminated to avoid border effects." [CO:curators]
-relationship: method_of CO_322:0000066 ! stenocarpella stalk rot incidence
-
-[Term]
-id: CO_322:0000592
-name: maize stewiltinc - counting method
-def: "Count the number of plants that are affected by stewart wilt per plot. Note:  The first and the last plants are eliminated to avoid border effects." [CO:curators]
-relationship: method_of CO_322:0000050 ! stewarts wilt incidence
-
-[Term]
-id: CO_322:0000593
-name: maize phvst - counting method
-def: "Count the total number of plants harvested per plot/entry." [CO:curators]
-relationship: method_of CO_322:0000550 ! plants harvested
-
-[Term]
-id: CO_322:0000594
-name: maize ehvst - counting method
-def: "Count the total number of ears harvested per plot/entry, excluding secondary ears that are extremely small." [CO:curators]
-relationship: method_of CO_322:0000523 ! ear harvested number
-
-[Term]
-id: CO_322:0000607
-name: maize earw dry weight - measurement method
-def: "Harvest all ears in a plot (or row), put them in the nylon bag and record weight. If at all possible, delay harvest of maize until its moisture content is low (15-25%)." [CO:curators]
-relationship: method_of CO_322:0000524 ! ear weight
-relationship: method_of CO_322:0000524 ! ear weight
-
-[Term]
-id: CO_322:0000608
-name: maize fw gy - measurement method
-def: "Shell the grains (kernels) from the ears harvested per plot and record fresh (field) weight." [CO:curators]
-relationship: method_of CO_322:0000005 ! grain yield
-relationship: method_of CO_322:0000005 ! grain yield
-relationship: method_of CO_322:0000005 ! grain yield
-
-[Term]
-id: CO_322:0000609
-name: maize shell - computation method
-def: "Use formula to calculate ear sheeling ratio." [CO:curators]
-relationship: method_of CO_322:0000526 ! ear shelling ratio
-relationship: method_of CO_322:0000526 ! ear shelling ratio
-
-[Term]
-id: CO_322:0000621
-name: maize goil - measurement method
-def: "Standard method for oil content" [CO:curators]
-relationship: method_of CO_322:0000533 ! grain oil content
-
-[Term]
-id: CO_322:0000625
-name: maize punif - estimation method
-def: "Standard method for plant uniformity" [CO:curators]
-relationship: method_of CO_322:0000545 ! plant uniformity
-
-[Term]
-id: CO_322:0000626
-name: maize pvig - estimation method
-def: "Standard method for plant vigor" [CO:curators]
-relationship: method_of CO_322:0000546 ! plant vigor
-relationship: method_of CO_322:0001017 ! seedling vigor
-
-[Term]
-id: CO_322:0000630
-name: maize lcol - estimation method
-def: "Standard method for leaf color." [CO:curators]
-relationship: method_of CO_322:0000537 ! leaf color
-
-[Term]
-id: CO_322:0000631
-name: maize lerect - estimation method
-def: "Standard method for leaf erectness" [CO:curators]
-relationship: method_of CO_322:0000538 ! leaf erectness
-
-[Term]
-id: CO_322:0000632
-name: maize silkancol - estimation method
-def: "Standard method for silk Anthocyanin coloration." [CO:curators]
-relationship: method_of CO_322:0000539 ! silk anthocyanin coloration
-
-[Term]
-id: CO_322:0000633
-name: maize stdgerm - estimation method
-def: "Standard method for standard germination" [CO:curators]
-relationship: method_of CO_322:0000540 ! standard germination
-
-[Term]
-id: CO_322:0000634
-name: maize tslancol - estimation method
-def: "Standard method for tassel Anthocyanin coloration." [CO:curators]
-relationship: method_of CO_322:0000541 ! tassel anthocyanin coloration
-
-[Term]
-id: CO_322:0000635
-name: maize tslden - estimation method
-def: "Standard method for tassel density" [CO:curators]
-relationship: method_of CO_322:0000542 ! tassel density
-
-[Term]
-id: CO_322:0000636
-name: maize tslexer - estimation method
-def: "Standard method for tassel exertion" [CO:curators]
-relationship: method_of CO_322:0000543 ! tassel exertion
-
-[Term]
-id: CO_322:0000637
-name: maize tslopen - estimation method
-def: "Standard method for tassel opening" [CO:curators]
-relationship: method_of CO_322:0000544 ! tassel opening
 
 [Term]
 id: CO_322:0000650
@@ -2623,14 +1274,6 @@ name: maize anther anthocyanin coloration trait
 def: "Anthocyanin coloration of anthers." [CO:curators]
 synonym: "AntCol" EXACT []
 is_a: TO:0000187
-
-[Term]
-id: CO_322:0000652
-name: maize antancol - estimation method
-def: "Standard method for tassel anthers Anthocyanin coloration. The observation should be made in the middle third of the main branch on fresh anthers." [CO:curators]
-relationship: method_of CO_322:0000651 ! anther anthocyanin coloration
-relationship: method_of CO_322:0000651 ! anther anthocyanin coloration
-relationship: method_of CO_322:0000651 ! anther anthocyanin coloration
 
 [Term]
 id: CO_322:0000653
@@ -2671,12 +1314,6 @@ relationship: variable_of CO_322:0000150 ! ear bad husk cover incidence
 relationship: variable_of CO_322:0000207 ! bhskcovinc - counting
 relationship: variable_of CO_322:0000354 ! plant/plot
 is_a: CO_322:0000150 ! ear bad husk cover incidence
-
-[Term]
-id: CO_322:0000658
-name: maize bhskcovinc - estimation method
-def: "Observation of ears with bad husk cover." [CO:curators]
-relationship: method_of CO_322:0000150 ! ear bad husk cover incidence
 
 [Term]
 id: CO_322:0000659
@@ -2725,12 +1362,6 @@ def: "Ear shape" [CO:curators]
 synonym: "EarForm" EXACT []
 synonym: "EShape" EXACT []
 is_a: TO:0000969
-
-[Term]
-id: CO_322:0000665
-name: maize eshape - estimation method
-def: "Standard method for ear shape" [CO:curators]
-relationship: method_of CO_322:0000664 ! ear shape
 
 [Term]
 id: CO_322:0000667
@@ -2821,24 +1452,12 @@ relationship: variable_of CO_322:0000671 ! ear/plot
 is_a: CO_322:0000068 ! ear rot incidence
 
 [Term]
-id: CO_322:0000680
-name: maize erinc - estimation method
-def: "Score percentage of rotten ears at harvest." [CO:curators]
-relationship: method_of CO_322:0000068 ! ear rot incidence
-
-[Term]
 id: CO_322:0000681
 name: maize erinc_e_pct variable
 relationship: variable_of CO_322:0000068 ! ear rot incidence
 relationship: variable_of CO_322:0000350 ! %
 relationship: variable_of CO_322:0000680 ! erinc - estimation
 is_a: CO_322:0000068 ! ear rot incidence
-
-[Term]
-id: CO_322:0000682
-name: maize earw field weight - measurement method
-def: "Harvest all ears in a plot (or row), put them in the nylon bag and  dry at 60-70¡C for 1-2 days, then measure and record the weight of dried ears." [CO:curators]
-relationship: method_of CO_322:0000524 ! ear weight
 
 [Term]
 id: CO_322:0000683
@@ -2862,12 +1481,6 @@ name: maize earworm damage trait
 def: "Ear worm (Heliothis) damage." [CO:curators]
 synonym: "EWormDmg" EXACT []
 is_a: TO:0000261
-
-[Term]
-id: CO_322:0000686
-name: maize ewormdmg - measurement method
-def: "Standard method for earworm damage measured in cm of feeding. 0 - no ear damage, 1 - 1 cm, + 1 for each additional cm of feeding" [CO:curators]
-relationship: method_of CO_322:0000685 ! earworm damage
 
 [Term]
 id: CO_322:0000687
@@ -3070,12 +1683,6 @@ relationship: variable_of CO_322:0000350 ! %
 is_a: CO_322:0000033 ! grain moisture
 
 [Term]
-id: CO_322:0000715
-name: maize nirs moi - measurement method
-def: "Measure moisture of a grain sample using NIRS moisture analyzer." [CO:curators]
-relationship: method_of CO_322:0000033 ! grain moisture
-
-[Term]
 id: CO_322:0000716
 name: maize gmoi_nirs_pct variable
 relationship: variable_of CO_322:0000033 ! grain moisture
@@ -3175,24 +1782,12 @@ relationship: variable_of CO_322:0000622 ! t/ha
 is_a: CO_322:0000005 ! grain yield
 
 [Term]
-id: CO_322:0000732
-name: maize dw gy - measurement method
-def: "Shell the grains (kernels) from the ears harvested per plot and put grains in a paper bag and  dry at 60-70¡C for 1-2 days, then measure and record the weight of dried grain." [CO:curators]
-relationship: method_of CO_322:0000005 ! grain yield
-
-[Term]
 id: CO_322:0000734
 name: maize gy_dw_gplot variable
 relationship: variable_of CO_322:0000005 ! grain yield
 relationship: variable_of CO_322:0000732 ! dw gy - measurement
 relationship: variable_of CO_322:0000733 ! g/plot
 is_a: CO_322:0000005 ! grain yield
-
-[Term]
-id: CO_322:0000735
-name: maize dry weight basis gy - computation method
-def: "Calculate shelled grain yield per unit area calculated in dry weight basis." [CO:curators]
-relationship: method_of CO_322:0000005 ! grain yield
 
 [Term]
 id: CO_322:0000737
@@ -3203,24 +1798,12 @@ relationship: variable_of CO_322:0000735 ! dry weight basis gy - computation
 is_a: CO_322:0000005 ! grain yield
 
 [Term]
-id: CO_322:0000738
-name: maize dw gy - measurement method
-def: "Shell the grains (kernels) from the ears harvested per plot and put grains in a paper bag and  dry at 60-70¡C for 1-2 days, then measure and record the weight of dried grain." [CO:curators]
-relationship: method_of CO_322:0000005 ! grain yield
-
-[Term]
 id: CO_322:0000740
 name: maize gy_dw_kgplot variable
 relationship: variable_of CO_322:0000005 ! grain yield
 relationship: variable_of CO_322:0000358 ! kg/plot
 relationship: variable_of CO_322:0000738 ! dw gy - measurement
 is_a: CO_322:0000005 ! grain yield
-
-[Term]
-id: CO_322:0000741
-name: maize dw gy - computation method
-def: "Calculate shelled grain yield per unit area calculated in dry weight basis." [CO:curators]
-relationship: method_of CO_322:0000005 ! grain yield
 
 [Term]
 id: CO_322:0000742
@@ -3239,12 +1822,6 @@ relationship: variable_of CO_322:0000733 ! g/plot
 is_a: CO_322:0000005 ! grain yield
 
 [Term]
-id: CO_322:0000745
-name: maize fw gy - computation method
-def: "Calculate shelled grain yield per unit area calculated in fresh (field) weight basis." [CO:curators]
-relationship: method_of CO_322:0000005 ! grain yield
-
-[Term]
 id: CO_322:0000747
 name: maize gy_fw_kgha variable
 relationship: variable_of CO_322:0000005 ! grain yield
@@ -3261,12 +1838,6 @@ relationship: variable_of CO_322:0000608 ! fw gy - measurement
 is_a: CO_322:0000005 ! grain yield
 
 [Term]
-id: CO_322:0000750
-name: maize fw gy - computation method
-def: "Calculate shelled grain yield per unit area calculated in fresh (field) weight basis." [CO:curators]
-relationship: method_of CO_322:0000005 ! grain yield
-
-[Term]
 id: CO_322:0000751
 name: maize gy_fw_tha variable
 relationship: variable_of CO_322:0000005 ! grain yield
@@ -3275,24 +1846,12 @@ relationship: variable_of CO_322:0000750 ! fw gy - computation
 is_a: CO_322:0000005 ! grain yield
 
 [Term]
-id: CO_322:0000752
-name: maize gyrank - computation method
-def: "It is calculated as the numerical position of the progeny when yields are arrenged from highest to lowest." [CO:curators]
-relationship: method_of CO_322:0000005 ! grain yield
-
-[Term]
 id: CO_322:0000754
 name: maize gy_rank_number variable
 relationship: variable_of CO_322:0000005 ! grain yield
 relationship: variable_of CO_322:0000752 ! gyrank - computation
 relationship: variable_of CO_322:0000753 ! Rank number
 is_a: CO_322:0000005 ! grain yield
-
-[Term]
-id: CO_322:0000755
-name: maize relative to check - computation method
-def: "Calculated as relative grain yield agaisnst the best check in percentage." [CO:curators]
-relationship: method_of CO_322:0000005 ! grain yield
 
 [Term]
 id: CO_322:0000756
@@ -3430,24 +1989,12 @@ synonym: "LAsh" EXACT []
 is_a: TO:0000607
 
 [Term]
-id: CO_322:0000773
-name: maize lash- measurement method
-def: "Standard method for leaves ash content" [CO:curators]
-relationship: method_of CO_322:0000772 ! leaf ash content
-
-[Term]
 id: CO_322:0000774
 name: maize lash_m_pct variable
 relationship: variable_of CO_322:0000350 ! %
 relationship: variable_of CO_322:0000772 ! leaf ash content
 relationship: variable_of CO_322:0000773 ! lash- measurement
 is_a: CO_322:0000772 ! leaf ash content
-
-[Term]
-id: CO_322:0000776
-name: maize nirs lash - measurement method
-def: "NIRS method for leaves ash content" [CO:curators]
-relationship: method_of CO_322:0000772 ! leaf ash content
 
 [Term]
 id: CO_322:0000777
@@ -3593,12 +2140,6 @@ relationship: variable_of CO_322:0000030 ! anthesis time
 relationship: variable_of CO_322:0000260 ! growing degree days to anthesis - computation
 relationship: variable_of CO_322:0000510 ! ¡C day
 is_a: CO_322:0000030 ! anthesis time
-
-[Term]
-id: CO_322:0000795
-name: maize anthesis date - estimation method
-def: "Date when 50% of the plants shed pollen. Observe a known number of plants carefully (guideline: N = 20 for inbred lines or hybrids; N = 35 for open pollinated varieties) at the same time each day until 50% of the plants in the plot have produced at least one visible anther and record the date." [CO:curators]
-relationship: method_of CO_322:0000030 ! anthesis time
 
 [Term]
 id: CO_322:0000797
@@ -3889,12 +2430,6 @@ relationship: variable_of CO_322:0000566 ! dmvinc - counting
 is_a: CO_322:0000099 ! maize dwarf mosaic virus incidence
 
 [Term]
-id: CO_322:0000833
-name: maize ear leaf senescence date - computation method
-def: "Record date when 50% of the plants have a dry ear leaf." [CO:curators]
-relationship: method_of CO_322:0000143 ! ear leaf senescence time
-
-[Term]
 id: CO_322:0000835
 name: maize elsen_date_ymd variable
 synonym: "ELSenD" EXACT []
@@ -3950,14 +2485,6 @@ name: maize fusarium moniliforme stalk rot severity trait
 def: "Fusarium moniliforme stalk rot severity." [CO:curators, NCBITaxon:117187]
 synonym: "FmonSRSev" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
-
-[Term]
-id: CO_322:0000842
-name: maize fmonsrsev - estimation method
-def: "Observe fusarium moniliforme stalk rot severity on plants per plot based on degree of infection (relative or absolute area of plant tissue affected by disease)." [CO:curators]
-relationship: method_of CO_322:0000841 ! fusarium moniliforme stalk rot severity
-relationship: method_of CO_322:0000841 ! fusarium moniliforme stalk rot severity
-relationship: method_of CO_322:0000841 ! fusarium moniliforme stalk rot severity
 
 [Term]
 id: CO_322:0000843
@@ -4031,14 +2558,6 @@ synonym: "HSmutSev" EXACT []
 is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
-id: CO_322:0000853
-name: maize hsmutsev - estimation method
-def: "Observe head smut severity on the plants per plot based on degree of infection (relative or absolute area of plant tissue affected by disease)." [CO:curators]
-relationship: method_of CO_322:0000852 ! head smut severity
-relationship: method_of CO_322:0000852 ! head smut severity
-relationship: method_of CO_322:0000852 ! head smut severity
-
-[Term]
 id: CO_322:0000854
 name: maize hsmutsev_e_1to5 variable
 relationship: variable_of CO_322:0000234 ! 1-5 disease scoring scale
@@ -4069,13 +2588,6 @@ def: "Observation of lodging severity." [CO:curators]
 synonym: "LodgInc" EXACT []
 is_a: TO:0000068 ! lodging incidence
 
-
-[Term]
-id: CO_322:0000858
-name: maize lodginc - estimation method
-def: "Scored for severity of lodging." [CO:curators]
-relationship: method_of CO_322:0000857 ! lodging incidence
-
 [Term]
 id: CO_322:0000859
 name: maize lodginc_e_1to5 variable
@@ -4092,12 +2604,6 @@ relationship: variable_of CO_322:0000032 ! maturity time
 relationship: variable_of CO_322:0000262 ! growing degree days to maturity - computation
 relationship: variable_of CO_322:0000510 ! ¡C day
 is_a: CO_322:0000032 ! maturity time
-
-[Term]
-id: CO_322:0000861
-name: maize maturity date - estimation method
-def: "Record the date when excised kernels are longitudinally cut to expose a black internal abscission layer at the base of the kernel that signals the kernel has ceased to absorb nutrients or moisture from the mother plants." [CO:curators]
-relationship: method_of CO_322:0000032 ! maturity time
 
 [Term]
 id: CO_322:0000863
@@ -4381,12 +2887,6 @@ relationship: variable_of CO_322:0000569 ! rlodginc - counting
 is_a: CO_322:0000034 ! root lodging incidence
 
 [Term]
-id: CO_322:0000898
-name: maize rlodginc - estimation method
-def: "Observe and record plants that are root lodged due to weak soil or poorly developed anchorage roots." [CO:curators]
-relationship: method_of CO_322:0000034 ! root lodging incidence
-
-[Term]
 id: CO_322:0000899
 name: maize rlodginc_e_pct variable
 relationship: variable_of CO_322:0000034 ! root lodging incidence
@@ -4419,25 +2919,12 @@ relationship: variable_of CO_322:0000350 ! %
 is_a: CO_322:0000093 ! seedling disease incidence
 
 [Term]
-id: CO_322:0000903
-name: maize sdlngdisinc - counting method
-def: "Count the seedling that are affected by seedling diseases per plot." [CO:curators]
-relationship: method_of CO_322:0000093 ! seedling disease incidence
-
-[Term]
 id: CO_322:0000904
 name: maize sdlngdisinc_ct_plntplot variable
 relationship: variable_of CO_322:0000093 ! seedling disease incidence
 relationship: variable_of CO_322:0000354 ! plant/plot
 relationship: variable_of CO_322:0000903 ! sdlngdisinc - counting
 is_a: CO_322:0000093 ! seedling disease incidence
-
-[Term]
-id: CO_322:0000905
-name: maize silking date - estimation method
-def: "Observe plants carefully and record date when 50% of plants within a plot area have silks visible (female flowering date). This is determined on a daily basis by counting the number of plants with at least one silk extruded divided by the total number of plants in the plot." [CO:curators]
-relationship: method_of CO_322:0000031 ! silking time
-
 [Term]
 id: CO_322:0000907
 name: maize silk_date_ymd variable
@@ -4471,12 +2958,6 @@ relationship: variable_of CO_322:0000035 ! stem lodging incidence
 relationship: variable_of CO_322:0000354 ! plant/plot
 relationship: variable_of CO_322:0000570 ! slodginc - counting
 is_a: CO_322:0000035 ! stem lodging incidence
-
-[Term]
-id: CO_322:0000911
-name: maize slodginc - estimation method
-def: "Divide the total numbers of plants with lodged stems by number of plants harvested." [CO:curators]
-relationship: method_of CO_322:0000035 ! stem lodging incidence
 
 [Term]
 id: CO_322:0000912
@@ -4590,13 +3071,6 @@ synonym: "ShellCobW" EXACT []
 is_a: TO:0000922 ! cob weight
 
 [Term]
-id: CO_322:0000926
-name: maize shellcobw - measurement (duplicate) method
-def: "Record shelled cob field weight." [CO:curators]
-relationship: method_of CO_322:0000925 ! shelled cob weight
-relationship: method_of CO_322:0000925 ! shelled cob weight
-
-[Term]
 id: CO_322:0000928
 name: maize shellcobw_fw_gplot variable
 relationship: variable_of CO_322:0000733 ! g/plot
@@ -4708,14 +3182,6 @@ synonym: "TslGlBCol" EXACT []
 is_a: TO:0000795 ! tassel inflorescence color
 
 [Term]
-id: CO_322:0000945
-name: maize tslglbancol - estimation method
-def: "Standard method for glumes base tassel Anthocyanin coloration." [CO:curators]
-relationship: method_of CO_322:0000944 ! tassel glumes base anthocyanin coloration
-relationship: method_of CO_322:0000944 ! tassel glumes base anthocyanin coloration
-relationship: method_of CO_322:0000944 ! tassel glumes base anthocyanin coloration
-
-[Term]
 id: CO_322:0000946
 name: maize tslglbancol_e_1to5 variable
 relationship: variable_of CO_322:0000642 ! 1-5 anthocyanin coloration scale
@@ -4729,14 +3195,6 @@ name: maize tassel glumes anthocyanin coloration trait
 def: "Anthocyanin coloration of tassel glumes excluding the bases of the glumes." [CO:curators]
 synonym: "TslGlCol" EXACT []
 is_a: TO:0000795 ! tassel inflorescence color
-
-[Term]
-id: CO_322:0000948
-name: maize tslglancol - estimation method
-def: "Standard method for glumes tassel Anthocyanin coloration. The measurement should exclude the bases of the glumes." [CO:curators]
-relationship: method_of CO_322:0000947 ! tassel glumes anthocyanin coloration
-relationship: method_of CO_322:0000947 ! tassel glumes anthocyanin coloration
-relationship: method_of CO_322:0000947 ! tassel glumes anthocyanin coloration
 
 [Term]
 id: CO_322:0000949
@@ -4803,12 +3261,6 @@ relationship: variable_of CO_322:0000381 ! gash - measurement
 is_a: CO_322:0000137 ! grain ash content
 
 [Term]
-id: CO_322:0000957
-name: maize nirs gash - measurement method
-def: "NIRS method for whole-grain ash content" [CO:curators]
-relationship: method_of CO_322:0000137 ! grain ash content
-
-[Term]
 id: CO_322:0000958
 name: maize gash_nirs_pct variable
 relationship: variable_of CO_322:0000137 ! grain ash content
@@ -4841,12 +3293,6 @@ relationship: variable_of CO_322:0000621 ! goil - measurement
 is_a: CO_322:0000533 ! grain oil content
 
 [Term]
-id: CO_322:0000962
-name: maize nirs goil - measurement method
-def: "NIRS method for oil content" [CO:curators]
-relationship: method_of CO_322:0000533 ! grain oil content
-
-[Term]
 id: CO_322:0000963
 name: maize goil_nirs_pct variable
 relationship: variable_of CO_322:0000350 ! %
@@ -4861,12 +3307,6 @@ relationship: variable_of CO_322:0000122 ! grain protein content
 relationship: variable_of CO_322:0000202 ! gprot - computation
 relationship: variable_of CO_322:0000350 ! %
 is_a: CO_322:0000122 ! grain protein content
-
-[Term]
-id: CO_322:0000965
-name: maize nirs gprot- measurement method
-def: "NIRS method for whole-grain protein content." [CO:curators]
-relationship: method_of CO_322:0000122 ! grain protein content
 
 [Term]
 id: CO_322:0000966
@@ -4891,12 +3331,6 @@ relationship: variable_of CO_322:0000103 ! grain tryptophan content
 relationship: variable_of CO_322:0000107 ! gtrp - measurement
 relationship: variable_of CO_322:0000350 ! %
 is_a: CO_322:0000103 ! grain tryptophan content
-
-[Term]
-id: CO_322:0000969
-name: maize nirs gtrp- measurement method
-def: "NIRS method for whole-grain tryptophan content." [CO:curators]
-relationship: method_of CO_322:0000103 ! grain tryptophan content
 
 [Term]
 id: CO_322:0000970
@@ -4970,28 +3404,6 @@ synonym: "LSucrose" EXACT []
 is_a: TO:0000328 ! sucrose content
 
 [Term]
-id: CO_322:0000979
-name: maize gw adjusted - computation method
-def: "Compute grain weigh adjuted to 12.5% moisture." [CO:curators]
-relationship: method_of CO_322:0000133 ! grain weight
-relationship: method_of CO_322:0000133 ! grain weight
-relationship: method_of CO_322:0000133 ! grain weight
-
-[Term]
-id: CO_322:0000980
-name: maize gw fw - measurement method
-def: "Count and weigh grains randomly selected from the total grains." [CO:curators]
-relationship: method_of CO_322:0000133 ! grain weight
-relationship: method_of CO_322:0000133 ! grain weight
-relationship: method_of CO_322:0000133 ! grain weight
-
-[Term]
-id: CO_322:0000988
-name: maize en - counting method
-def: "Count the number of ears." [CO:curators]
-relationship: method_of CO_322:0000021 ! ear number
-
-[Term]
 id: CO_322:0000989
 name: maize en_ct_earplot variable
 relationship: variable_of CO_322:0000021 ! ear number
@@ -5005,12 +3417,6 @@ name: maize grain viability trait
 def: "Grain or seed viability." [CO:curators]
 synonym: "GViablty" EXACT []
 is_a: TO:0000162 ! grain quality trait
-
-[Term]
-id: CO_322:0000991
-name: maize gviablty - measurement method
-def: "Standard method for grain viability." [CO:curators]
-relationship: method_of CO_322:0000990 ! grain viability
 
 [Term]
 id: CO_322:0000993
@@ -5029,12 +3435,6 @@ is_a: TO:0000207 ! plant height
 xref: MaizeGDB_QTL:64851
 
 [Term]
-id: CO_322:0000995
-name: maize ph - measurement method
-def: "Recommended to take multiple plants and measure the height from the base of a plant to the top of the tassel, enter the data individually in the FieldBook and calculate the average." [CO:curators]
-relationship: method_of CO_322:0000994 ! plant height
-
-[Term]
 id: CO_322:0000996
 name: maize ph_m_cm variable
 relationship: variable_of CO_322:0000348 ! cm
@@ -5048,12 +3448,6 @@ name: maize plant height to ligule of the flag leaf trait
 def: "Plant height from the base to the ligule of the flag leaf." [CO:curators]
 synonym: "PHFL" EXACT []
 is_a: TO:0000207 ! plant height
-
-[Term]
-id: CO_322:0000998
-name: maize phfl - measurement method
-def: "Recommended to take multiple plants and measure the height between the base of a plant to the ligule of the flag leaf, enter the data individually in the FieldBook and calculate the average." [CO:curators]
-relationship: method_of CO_322:0000997 ! plant height to ligule of the flag leaf
 
 [Term]
 id: CO_322:0000999
@@ -5080,12 +3474,6 @@ relationship: variable_of CO_322:0000733 ! g/plot
 is_a: CO_322:0000524 ! ear weight
 
 [Term]
-id: CO_322:0001003
-name: maize earw individual - measurement method
-def: "Harvest a mature upper ear and measure its weight" [CO:curators]
-relationship: method_of CO_322:0000524 ! ear weight
-
-[Term]
 id: CO_322:0001004
 name: maize ew_m_gear variable
 relationship: variable_of CO_322:0000302 ! g
@@ -5099,12 +3487,6 @@ name: maize grain test weight trait
 def: "Grain test weight of mature kernels." [CO:curators]
 synonym: "GTW" EXACT []
 is_a: TO:0000919 ! grain weight
-
-[Term]
-id: CO_322:0001006
-name: maize gtw - computation method
-def: "Standard method for grain test weight." [CO:curators]
-relationship: method_of CO_322:0001005 ! grain test weight
 
 [Term]
 id: CO_322:0001008
@@ -5281,12 +3663,6 @@ relationship: variable_of CO_322:0000085 ! common rust severity
 relationship: variable_of CO_322:0000265 ! crustsev - estimation
 relationship: variable_of CO_322:0000350 ! %
 is_a: CO_322:0000085 ! common rust severity
-
-[Term]
-id: CO_322:0001031
-name: maize csmutinc - counting method
-def: "Count the number of plants that are affected by the common smut per plot. Note:  The first and the last plants are eliminated to avoid border effects." [CO:curators]
-relationship: method_of CO_322:0000556 ! common smut incidence
 
 [Term]
 id: CO_322:0001032
@@ -5471,12 +3847,6 @@ name: maize dwarf mosaic virus severity trait
 def: "Maize dwarf mosaic virus (MDMV) severity." [CO:curators]
 synonym: "DMVSev" EXACT []
 is_a: TO:0000148 ! viral disease resistance
-
-[Term]
-id: CO_322:0001055
-name: maize dmvsev - estimation method
-def: "Observe maize dwarf mosaic virus severity on the plants per plot based on degree of infection (relative or absolute area of plant tissue affected by disease)." [CO:curators]
-relationship: method_of CO_322:0001054 ! maize dwarf mosaic virus severity
 
 [Term]
 id: CO_322:0001056
@@ -5703,12 +4073,6 @@ synonym: "CobGlCol" EXACT []
 is_a: TO:0000221 ! glume color
 
 [Term]
-id: CO_322:0001084
-name: maize cobglancol - estimation method
-def: "Standard method for cob tassel Anthocyanin coloration. The anthocyanin Anthocyanin colorationation should be observed on the middle third of the uppermost cob, after the removal of some of the grains." [CO:curators]
-relationship: method_of CO_322:0001083 ! cob glumes anthocyanin coloration
-
-[Term]
 id: CO_322:0001085
 name: maize cobglancol_e_1to9 variable
 is_a: TO:0000924
@@ -5725,12 +4089,6 @@ name: maize cob glumes color trait
 def: "Color of the cob glumes." [CO:curators]
 synonym: "CobGlCol" EXACT []
 is_a: TO:0000221 ! glume color
-
-[Term]
-id: CO_322:0001087
-name: maize cobglcol - estimation method
-def: "Standard method for cob tassel color. The anthocyanin coloration should be observed on the middle third of the uppermost cob, after the removal of some of the grains." [CO:curators]
-relationship: method_of CO_322:0001086 ! cob glumes color
 
 [Term]
 id: CO_322:0001089
@@ -5755,12 +4113,6 @@ name: maize ear width trait
 def: "Ear width." [CO:curators]
 synonym: "EWid" EXACT []
 is_a: TO:0000969 !	ear inflorescence morphology trait
-
-[Term]
-id: CO_322:0001092
-name: maize ewid - measurement method
-def: "Meaure ear width." [CO:curators]
-relationship: method_of CO_322:0001091 ! ear width
 
 [Term]
 id: CO_322:0001093
@@ -5968,22 +4320,12 @@ synonym: "Whole-grain Nitrogen content" EXACT []
 is_a: TO:0003068 ! grain nitrogen content
 
 [Term]
-id: CO_322:0001121
-name: maize gnc - measurement method
-def: "Standard method for whole-grain Nitrogen content" [CO:curators]
-relationship: method_of CO_322:0001120 ! grain nitrogen content
-
-[Term]
 id: CO_322:0001122
 name: maize gnc_m_pct variable
 relationship: variable_of CO_322:0000350 ! %
 relationship: variable_of CO_322:0001120 ! grain nitrogen content
 relationship: variable_of CO_322:0001121 ! gnc - measurement
 is_a: CO_322:0001120 ! grain nitrogen content
-
-[Typedef]
-id: method_of
-name: method_of
 
 [Typedef]
 id: variable_of
