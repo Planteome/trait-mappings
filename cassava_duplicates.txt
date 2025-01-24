@@ -11,3 +11,25 @@ name: cassava root dry matter content trait
 def: "Dry matter content of storage roots" [CO:curators]
 synonym: "dm" EXACT []
 is_a: TO:0001041 ! root yield
+
+
+From OBO file:
+[Term]
+id: CO_334:0000424
+name: Root dry matter content
+namespace: cassava_trait
+def: "Dry matter content of root related terms." [CO:curators]
+synonym: "RtDMC" EXACT []
+is_a: CO_334:0000447 ! Dry matter content
+is_a: CO_334:0001077 ! Root quality traits
+created_by: AAfolabi
+creation_date: 2017-07-18T14:58:31Z
+
+[Term]
+id: CO_334:0000447
+name: Dry matter content
+namespace: cassava_trait
+def: "Dry matter content of storage roots." [CO:curators]
+synonym: "dm" EXACT []
+xref: TO:1000007
+is_a: CO_334:0000004 ! Quality trait
