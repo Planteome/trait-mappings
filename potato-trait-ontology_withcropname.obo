@@ -11,25 +11,11 @@ synonym: "PlGwht" EXACT []
 is_a: TO:0002756 ! plant growth habit
 
 [Term]
-id: CO_330:0000001
-name: potato visual estimation - plant growth habit method
-def: "Observe the growth habit or shape of 10 individual plants and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000000 ! plant growth habit
-
-[Term]
 id: CO_330:0000003
 name: potato flowering degree trait
 def: "The degree of flowering" [CO:curators]
 synonym: "Flwdgr" EXACT []
 is_a: TO:0000622 ! flower development trait
-
-[Term]
-id: CO_330:0000004
-name: potato visual estimation - flowering degree method
-def: "Observe the presence of flowers on the plant when it has reached maximum growth and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000003 ! flowering degree
 
 [Term]
 id: CO_330:0000006
@@ -39,25 +25,11 @@ synonym: "CorSh" EXACT []
 is_a: TO:0000950
 
 [Term]
-id: CO_330:0000007
-name: potato visual estimation - corolla shape method
-def: "Observe the corolla shape in a fully open flower and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000006 ! corolla shape
-
-[Term]
 id: CO_330:0000009
 name: potato inflorescence number trait
 def: "The number of inflorescences" [CO:curators]
 synonym: "FlwNIn" EXACT []
 is_a: TO:0000582
-
-[Term]
-id: CO_330:0000010
-name: potato visual estimation - inflorescence number method
-def: "Count the total number of inflorescences per plant and record it" [CO:curators]
-is_a: CO_330:1000009
-relationship: method_of CO_330:0000009 ! inflorescence number
 
 [Term]
 id: CO_330:0000012
@@ -67,25 +39,11 @@ synonym: "FlwNum" EXACT []
 is_a: TO:0002736
 
 [Term]
-id: CO_330:0000013
-name: potato visual estimation - main inflorescence flower number method
-def: "Count the total number of flowers per main inflorescence at the time of flowering and record it" [CO:curators]
-is_a: CO_330:1000009
-relationship: method_of CO_330:0000012 ! main inflorescence flower number
-
-[Term]
 id: CO_330:0000015
 name: potato anther pigmentation trait
 def: "The pigmentation of the anther" [CO:curators]
 synonym: "FlrAnP" EXACT []
 is_a: TO:0000187
-
-[Term]
-id: CO_330:0000016
-name: potato visual estimation - anther pigmentation method
-def: "Observe the pigmentation of the anther and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000015 ! anther pigmentation
 
 [Term]
 id: CO_330:0000018
@@ -95,25 +53,11 @@ synonym: "FlrPPg" EXACT []
 is_a: TO:0000223
 
 [Term]
-id: CO_330:0000019
-name: potato visual estimation - pistil pigmentation method
-def: "Observe the pigmentation of the pistil and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000018 ! pistil pigmentation
-
-[Term]
 id: CO_330:0000021
 name: potato fruit shape trait
 def: "The shape of the fruit" [CO:curators]
 synonym: "FrtShp" EXACT []
 is_a: TO:0002628
-
-[Term]
-id: CO_330:0000022
-name: potato visual estimation - fruit shape method
-def: "Observe the shape of the fruit and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000021 ! fruit shape
 
 [Term]
 id: CO_330:0000024
@@ -123,25 +67,11 @@ synonym: "FrtCol" EXACT []
 is_a: TO:0002617
 
 [Term]
-id: CO_330:0000025
-name: potato visual estimation - fruit color method
-def: "Observe the color of the fruit and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000024 ! fruit color
-
-[Term]
 id: CO_330:0000027
 name: potato pedicel color trait
 def: "The color of the pedicel" [CO:curators]
 synonym: "Pedcol" EXACT []
 is_a: TO:0011004
-
-[Term]
-id: CO_330:0000028
-name: potato visual estimation - pedicel color method
-def: "Observe the color of the pedicel and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000027 ! pedicel color
 
 [Term]
 id: CO_330:0000030
@@ -152,13 +82,6 @@ synonym: "Calyx pigmentation" EXACT []
 is_a: TO:0000573
 
 [Term]
-id: CO_330:0000031
-name: potato visual estimation - calyx color method
-def: "Observe the color of the calyx and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000030 ! calyx color
-
-[Term]
 id: CO_330:0000033
 name: potato seed production per berry trait
 def: "The number of seeds produced per berry" [CO:curators]
@@ -166,25 +89,11 @@ synonym: "SedPro" EXACT []
 is_a: TO:0000445
 
 [Term]
-id: CO_330:0000034
-name: potato visual estimation - seed production per berry method
-def: "Count the number of seeds produced per berry and record it" [CO:curators]
-is_a: CO_330:1000009
-relationship: method_of CO_330:0000033 ! seed production per berry
-
-[Term]
 id: CO_330:0000036
 name: potato stigma shape trait
 def: "The shape of the stigma" [CO:curators]
 synonym: "FlrShp" EXACT []
 is_a: TO:0006012
-
-[Term]
-id: CO_330:0000037
-name: potato visual estimation - stigma shape method
-def: "Observe the shape of the stigma and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000036 ! stigma shape
 
 [Term]
 id: CO_330:0000039
@@ -195,25 +104,11 @@ synonym: "Type of leaf dissection" EXACT []
 is_a: TO:0000492
 
 [Term]
-id: CO_330:0000040
-name: potato visual estimation - leaf shape method
-def: "Observe the shape of the leaf located in the middle of the main stem of the plant evaluated, and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000039 ! leaf shape
-
-[Term]
 id: CO_330:0000042
 name: potato primary lateral leaflet number trait
 def: "The number of the primary lateral leaflet" [CO:curators]
 synonym: "LaLfN" EXACT []
 is_a: TO:0002636
-
-[Term]
-id: CO_330:0000043
-name: potato visual estimation - primary lateral leaflet number method
-def: "Count the number of the primary lateral leaflet on the leaf located in the middle of the main stem of the plant evaluated, and record it" [CO:curators]
-is_a: CO_330:1000009
-relationship: method_of CO_330:0000042 ! primary lateral leaflet number
 
 [Term]
 id: CO_330:0000045
@@ -224,26 +119,12 @@ synonym: "Color of the adaxial surface of leaves" EXACT []
 is_a: TO:0000299
 
 [Term]
-id: CO_330:0000046
-name: potato visual estimation - leaf adaxial surface color method
-def: "Observe the color of the leaf adaxial surface and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000045 ! leaf adaxial surface color
-
-[Term]
 id: CO_330:0000048
 name: potato leaf abaxial surface color trait
 def: "The color of the leaf abaxial surface" [CO:curators]
 synonym: "AbLfC" EXACT []
 synonym: "Color of the abaxial surface of leaves" EXACT []
 is_a: TO:0000299
-
-[Term]
-id: CO_330:0000049
-name: potato visual estimation - leaf abaxial surface color method
-def: "Observe the color of the leaf abaxial surface and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000048 ! leaf abaxial surface color
 
 [Term]
 id: CO_330:0000051
@@ -254,26 +135,12 @@ synonym: "Trichome density on leaf adaxial surface" EXACT []
 is_a: TO:0006066
 
 [Term]
-id: CO_330:0000052
-name: potato visual estimation - leaf adaxial surface trichome density method
-def: "Observe the trichome density of the leaf adaxial surface and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000051 ! leaf adaxial surface trichome density
-
-[Term]
 id: CO_330:0000054
 name: potato leaf abaxial surface trichome density trait
 def: "The trichome density of the leaf abaxial surface" [CO:curators]
 synonym: "AbLfTd" EXACT []
 synonym: "Trichome density on leaf abaxial surface" EXACT []
 is_a: TO:0006066
-
-[Term]
-id: CO_330:0000055
-name: potato visual estimation - leaf abaxial surface trichome density method
-def: "Observe the trichome density of the leaf abaxial surface and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000054 ! leaf abaxial surface trichome density
 
 [Term]
 id: CO_330:0000057
@@ -283,13 +150,6 @@ synonym: "ApLfSz" EXACT []
 is_a: TO:0000419
 
 [Term]
-id: CO_330:0000058
-name: potato visual estimation - apical leaflet size method
-def: "Measure the size of the apical leaflet in centimeters and rate it" [CO:curators]
-is_a: CO_330:1000008
-relationship: method_of CO_330:0000057 ! apical leaflet size
-
-[Term]
 id: CO_330:0000060
 name: potato apical leaflet shape trait
 def: "The shape of the apical leaflet" [CO:curators]
@@ -297,25 +157,11 @@ synonym: "ApLfSh" EXACT []
 is_a: TO:0001116 ! leaflet shape
 
 [Term]
-id: CO_330:0000061
-name: potato visual estimation - apical leaflet shape method
-def: "Observe the shape of the apical leaflet on the leaf located in the middle of the main stem and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000060 ! apical leaflet shape
-
-[Term]
 id: CO_330:0000063
 name: potato lateral leaflet shape trait
 def: "The shape of the lateral leaflet" [CO:curators]
 synonym: "LaLfSh" EXACT []
 is_a: TO:0001116 ! leaflet shape
-
-[Term]
-id: CO_330:0000064
-name: potato visual estimation - lateral leaflet shape method
-def: "Observe the shape of the lateral leaflet and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000063 ! lateral leaflet shape
 
 [Term]
 id: CO_330:0000066
@@ -326,26 +172,12 @@ synonym: "Terminal leaflet base shape" EXACT []
 is_a: TO:0001116 ! leaflet shape
 
 [Term]
-id: CO_330:0000067
-name: potato visual estimation - base shape of the terminal leaflets method
-def: "Observe the base shape of the terminal leaflet and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000066 ! base shape of the terminal leaflets
-
-[Term]
 id: CO_330:0000069
 name: potato apex shape of the terminal leaflets trait
 def: "The apex shape of the terminal leaflet" [CO:curators]
 synonym: "AShTLf" EXACT []
 synonym: "Terminal leaflet apex shape" EXACT []
 is_a: TO:0001116 ! leaflet shape
-
-[Term]
-id: CO_330:0000070
-name: potato visual estimation - apex shape of the terminal leaflets method
-def: "Observe the apex shape of the terminal leaflet and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000069 ! apex shape of the terminal leaflets
 
 [Term]
 id: CO_330:0000072
@@ -355,25 +187,11 @@ synonym: "MStPg" EXACT []
 is_a: TO:0000056
 
 [Term]
-id: CO_330:0000073
-name: potato visual estimation - main stem pigmentation method
-def: "Observe the pigmentation of the main stem and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000072 ! main stem pigmentation
-
-[Term]
 id: CO_330:0000075
 name: potato wing stem shape trait
 def: "The shape of the wing stem" [CO:curators]
 synonym: "StWgSh" EXACT []
 is_a: TO:0000754
-
-[Term]
-id: CO_330:0000076
-name: potato visual estimation - wing stem shape method
-def: "Observe the shape of the wings in the main stem and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000075 ! wing stem shape
 
 [Term]
 id: CO_330:0000078
@@ -384,25 +202,11 @@ synonym: "Tuber skin Predominant color" EXACT []
 is_a: TO:0000742
 
 [Term]
-id: CO_330:0000079
-name: potato visual estimation - predominant tuber skin color method
-def: "Observe the color of the predominant tuber skin and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000078 ! predominant tuber skin color
-
-[Term]
 id: CO_330:0000081
 name: potato tuber skin main color intensity trait
 def: "The main color instensity of the tuber skin" [CO:curators]
 synonym: "SknCPI" EXACT []
 is_a: TO:0000742
-
-[Term]
-id: CO_330:0000082
-name: potato visual estimation - tuber skin main color intensity method
-def: "Observe the main color instensity of the tuber skin and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000081 ! tuber skin main color intensity
 
 [Term]
 id: CO_330:0000084
@@ -412,25 +216,11 @@ synonym: "SknCSc" EXACT []
 is_a: TO:0000742
 
 [Term]
-id: CO_330:0000085
-name: potato visual estimation - tuber skin secondary color method
-def: "Observe the secondary color of the skin and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000084 ! tuber skin secondary color
-
-[Term]
 id: CO_330:0000087
 name: potato distribution of secondary tuber skin color trait
 def: "The color distribution of secondary tuber skin" [CO:curators]
 synonym: "SknCScD" EXACT []
 is_a: TO:0000742
-
-[Term]
-id: CO_330:0000088
-name: potato visual estimation - distribution of secondary tuber skin color method
-def: "Observe the color distribution of secondary tuber skin in recently harvested tubers, and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000087 ! distribution of secondary tuber skin color
 
 [Term]
 id: CO_330:0000090
@@ -440,13 +230,6 @@ synonym: "PFlshCol" EXACT []
 is_a: TO:0000742
 
 [Term]
-id: CO_330:0000091
-name: potato visual estimation - predominant tuber flesh color method
-def: "Observe the color of the predominant tuber flesh and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000090 ! predominant tuber flesh color
-
-[Term]
 id: CO_330:0000093
 name: potato tuber flesh secondary color trait
 def: "The secondary color of the tuber flesh" [CO:curators]
@@ -454,25 +237,11 @@ synonym: "FlsCSc" EXACT []
 is_a: TO:0000742
 
 [Term]
-id: CO_330:0000094
-name: potato visual estimation - tuber flesh secondary color method
-def: "Observe the secondary color of the tuber flesh and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000093 ! tuber flesh secondary color
-
-[Term]
 id: CO_330:0000096
 name: potato distribution of secondary tuber flesh color trait
 def: "The distribution of the secondary tuber flesh color" [CO:curators]
 synonym: "FlsCSD" EXACT []
 is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
-
-[Term]
-id: CO_330:0000097
-name: potato visual estimation - distribution of secondary tuber flesh color method
-def: "Observe the distribution of the secondary tuber flesh color and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000096 ! distribution of secondary tuber flesh color
 
 [Term]
 id: CO_330:0000099
@@ -483,25 +252,11 @@ synonym: "TbShp" EXACT []
 is_a: TO:0000743
 
 [Term]
-id: CO_330:0000100
-name: potato visual estimation - tuber shape method
-def: "Observe the shape of the tuber and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000099 ! tuber shape
-
-[Term]
 id: CO_330:0000102
 name: potato unusual tuber shape trait
 def: "The unsual shape of the tuber" [CO:curators]
 synonym: "UTbShp" EXACT []
 is_a: TO:0000743
-
-[Term]
-id: CO_330:0000103
-name: potato visual estimation - unusual tuber shape method
-def: "Observe the unsual shape of the tuber and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000102 ! unusual tuber shape
 
 [Term]
 id: CO_330:0000105
@@ -512,26 +267,12 @@ synonym: "Tuber depth eyes" EXACT []
 is_a: TO:0000742
 
 [Term]
-id: CO_330:0000106
-name: potato visual estimation - tuber depth eyes method
-def: "Observe the depth of the tuber eyes and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000105 ! tuber depth eyes
-
-[Term]
 id: CO_330:0000108
 name: potato tuber number per plant trait
 def: "The total number of tubers per plant" [CO:curators]
 synonym: "Total number of tuber" EXACT []
 synonym: "TubN" EXACT []
 is_a: TO:0001071
-
-[Term]
-id: CO_330:0000109
-name: potato tuber number per plant - method
-def: "Compute the total number of tubers per plant using the formula" [CO:curators]
-is_a: CO_330:1000010
-relationship: method_of CO_330:0000108 ! tuber number per plant
 
 [Term]
 id: CO_330:0000111
@@ -542,26 +283,12 @@ synonym: "Sprout predominant color" EXACT []
 is_a: TO:0000742
 
 [Term]
-id: CO_330:0000112
-name: potato visual estimation - predominant sprout color method
-def: "Observe the predominant color of the sprout and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000111 ! predominant sprout color
-
-[Term]
 id: CO_330:0000114
 name: potato secondary sprout color trait
 def: "The secondary color of the sprout" [CO:curators]
 synonym: "Sprout secondary color" EXACT []
 synonym: "SpScCol" EXACT []
 is_a: TO:0000742
-
-[Term]
-id: CO_330:0000115
-name: potato visual estimation - secondary sprout color method
-def: "Observe the secondary color of the sprout and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000114 ! secondary sprout color
 
 [Term]
 id: CO_330:0000117
@@ -572,24 +299,10 @@ synonym: "Sprout secondary color distribution" EXACT []
 is_a: TO:0000742
 
 [Term]
-id: CO_330:0000118
-name: potato visual estimation - distribution of secondary sprout color method
-def: "Observe the secondary color distribution of the sprout" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000117 ! distribution of secondary sprout color
-
-[Term]
 id: CO_330:0000120
 name: potato ploidy trait
 def: "The ploidy of plant" [CO:curators]
 synonym: "Pldy" EXACT []
-
-[Term]
-id: CO_330:0000121
-name: potato visual estimation - ploidy method
-def: "Count the number of chromosomes and rate it" [CO:curators]
-is_a: CO_330:1000009
-relationship: method_of CO_330:0000120 ! ploidy
 
 [Term]
 id: CO_330:0000123
@@ -599,25 +312,11 @@ synonym: "RLb" EXACT []
 is_a: TO:0001144 ! Oomycete disease response
 
 [Term]
-id: CO_330:0000124
-name: potato late blight resistance - method
-def: "Observe the plant resistance late blight and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000123 ! late blight resistance
-
-[Term]
 id: CO_330:0000126
 name: potato potato virus x resistance trait
 def: "The plant resistance to potato virus X" [CO:curators]
 synonym: "RPvx" EXACT []
 is_a: TO:0000148
-
-[Term]
-id: CO_330:0000127
-name: potato potato virus x resistance - method
-def: "Observe the plant resistance to potato virus X and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000126 ! potato virus x resistance
 
 [Term]
 id: CO_330:0000129
@@ -627,25 +326,11 @@ synonym: "Rpvy" EXACT []
 is_a: TO:0000148
 
 [Term]
-id: CO_330:0000130
-name: potato potato virus y resistance - method
-def: "Observe the plant resistance to potato virus Y and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000129 ! potato virus y resistance
-
-[Term]
 id: CO_330:0000132
 name: potato potato leaf roll virus resistance trait
 def: "The plant resistance to potato leaf roll virus" [CO:curators]
 synonym: "RPrlv" EXACT []
 is_a: TO:0000148
-
-[Term]
-id: CO_330:0000133
-name: potato potato leaf roll virus resistance - method
-def: "Observe the plant resistance to potato leaf roll virus and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000132 ! potato leaf roll virus resistance
 
 [Term]
 id: CO_330:0000135
@@ -655,13 +340,6 @@ synonym: "RBw" EXACT []
 is_a: TO:0000315
 
 [Term]
-id: CO_330:0000136
-name: potato bacterial wilt resistance - method
-def: "Observe the plant resistance to bacterial wilt and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000135 ! bacterial wilt resistance
-
-[Term]
 id: CO_330:0000138
 name: potato root knot nematode resistance trait
 def: "The tuber resistance to root knot nematode" [CO:curators]
@@ -669,25 +347,11 @@ synonym: "RRkn" EXACT []
 is_a: TO:0000384
 
 [Term]
-id: CO_330:0000139
-name: potato root knot nematode resistance - method
-def: "Observe the tuber resistance to root knot nematode and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000138 ! root knot nematode resistance
-
-[Term]
 id: CO_330:0000141
 name: potato leaf miner fly resistance trait
 def: "The plant resistance to leaf miner fly" [CO:curators]
 synonym: "RLmf" EXACT []
 is_a: TO:0000261
-
-[Term]
-id: CO_330:0000142
-name: potato leaf miner fly resistance - method
-def: "Observe the plant resistance to leaf miner fly and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000141 ! leaf miner fly resistance
 
 [Term]
 id: CO_330:0000144
@@ -698,23 +362,9 @@ synonym: "Total tuber yield no adjusted" EXACT []
 is_a: TO:0001071
 
 [Term]
-id: CO_330:0000145
-name: potato tuber yield no adjusted - method
-def: "Compute the total tuber yield no adjusted per unit area using the formula" [CO:curators]
-is_a: CO_330:1000010
-relationship: method_of CO_330:0000144 ! tuber yield no adjusted
-
-[Term]
 id: CO_330:0000147
 name: potato plant growing period trait
 def: "The growing period of the plant" [CO:curators]
-
-[Term]
-id: CO_330:0000148
-name: potato plant growing period - method
-def: "Observe the growing period of the plant and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000147 ! plant growing period
 
 [Term]
 id: CO_330:0000153
@@ -723,24 +373,10 @@ def: "The dormancy period of the tuber" [CO:curators]
 is_a: TO:0000654
 
 [Term]
-id: CO_330:0000154
-name: potato tuber dormancy period - method
-def: "Observe the dormancy period of the tuber and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000153 ! tuber dormancy period
-
-[Term]
 id: CO_330:0000159
 name: potato tuber sprouting pattern trait
 def: "The sprouting pattern of the tuber" [CO:curators]
 is_a: TO:0000742
-
-[Term]
-id: CO_330:0000160
-name: potato tuber sprouting pattern - method
-def: "Observe the sprouting pattern of the tuber and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000159 ! tuber sprouting pattern
 
 [Term]
 id: CO_330:0000162
@@ -749,24 +385,10 @@ def: "The tolerance to heat of the plant" [CO:curators]
 is_a: TO:0000259
 
 [Term]
-id: CO_330:0000163
-name: potato heat tolerance - method
-def: "Observe the tolerance to heat of the plant and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000162 ! heat tolerance
-
-[Term]
 id: CO_330:0000165
 name: potato salinity tolerance trait
 def: "The tolerance to salinity of the plant" [CO:curators]
 is_a: TO:0006001
-
-[Term]
-id: CO_330:0000166
-name: potato salinity tolerance - method
-def: "Observe the tolerance to salinity of the plant and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000165 ! salinity tolerance
 
 [Term]
 id: CO_330:0000168
@@ -775,24 +397,10 @@ def: "The number of the chromosomes" [CO:curators]
 is_a: TO:0000421
 
 [Term]
-id: CO_330:0000169
-name: potato pollen viability - method
-def: "Compute the pollen viabilty using the formula" [CO:curators]
-is_a: CO_330:1000010
-relationship: method_of CO_330:0000168 ! pollen viability
-
-[Term]
 id: CO_330:0000171
 name: potato tuber flavor after cooking trait
 def: "The flavor of the tuber after cooking" [CO:curators]
 is_a: TO:0001069
-
-[Term]
-id: CO_330:0000172
-name: potato tuber flavor after cooking - method
-def: "Observe the flavor of the tuber after cooking and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000171 ! tuber flavor after cooking
 
 [Term]
 id: CO_330:0000174
@@ -801,24 +409,10 @@ def: "The texture of the tuber after cooking" [CO:curators]
 is_a: TO:0001069
 
 [Term]
-id: CO_330:0000175
-name: potato tuber texture after cooking - method
-def: "Observe the texture of the tuber after cooking and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000174 ! tuber texture after cooking
-
-[Term]
 id: CO_330:0000177
 name: potato chips oil absorption rate trait
 def: "The oil absorption rate of the chips" [CO:curators]
 is_a: TO:0001069 ! cooking quality trait
-
-[Term]
-id: CO_330:0000178
-name: potato chips oil absorption rate - method
-def: "Compute the oil absorption rate of the chips using the formula" [CO:curators]
-is_a: CO_330:1000010
-relationship: method_of CO_330:0000177 ! chips oil absorption rate
 
 [Term]
 id: CO_330:0000180
@@ -827,24 +421,10 @@ def: "The cooking quality of the tuber" [CO:curators]
 is_a: TO:0001069
 
 [Term]
-id: CO_330:0000181
-name: potato tuber cooking quality - method
-def: "Observe the cooking quality of the tuber and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000180 ! tuber cooking quality
-
-[Term]
 id: CO_330:0000183
 name: potato flesh darkening after cooking trait
 def: "The darkening of the flesh after cooking" [CO:curators]
 is_a: TO:0001069
-
-[Term]
-id: CO_330:0000184
-name: potato flesh darkening after cooking - method
-def: "Observe the darkening of the flesh after cooking and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000183 ! flesh darkening after cooking
 
 [Term]
 id: CO_330:0000186
@@ -853,24 +433,10 @@ def: "The color of the flesh after cooking" [CO:curators]
 is_a: TO:0001069
 
 [Term]
-id: CO_330:0000187
-name: potato flesh color after cooking - method
-def: "Observe the color of the flesh after cooking and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000186 ! flesh color after cooking
-
-[Term]
 id: CO_330:0000189
 name: potato chips color trait
 def: "The color of the chips" [CO:curators]
 is_a: TO:0001069 ! cooking quality trait
-
-[Term]
-id: CO_330:0000190
-name: potato chips color - method
-def: "Observe the color of the chips and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000189 ! chips color
 
 [Term]
 id: CO_330:0000192
@@ -879,24 +445,10 @@ def: "The dry matter content of the tuber" [CO:curators]
 is_a: TO:0000457 ! total biomass yield
 
 [Term]
-id: CO_330:0000193
-name: potato tuber dry matter content - method
-def: "Compute the dry matter content of the tuber using the formula" [CO:curators]
-is_a: CO_330:1000010
-relationship: method_of CO_330:0000192 ! tuber dry matter content
-
-[Term]
 id: CO_330:0000195
 name: potato tuber cooking time trait
 def: "The cooking time of the tuber" [CO:curators]
 is_a: TO:0001069
-
-[Term]
-id: CO_330:0000196
-name: potato tuber cooking time - method
-def: "Measure the cooking time of the tuber in minutes and rate it" [CO:curators]
-is_a: CO_330:1000008
-relationship: method_of CO_330:0000195 ! tuber cooking time
 
 [Term]
 id: CO_330:0000198
@@ -905,24 +457,10 @@ def: "The concentration of ascorbic acid in dry weight basis" [CO:curators]
 is_a: TO:0000281
 
 [Term]
-id: CO_330:0000199
-name: potato spectrophotometry - ascorbic acid method
-def: "Compute the concentration of ascorbic acid in dry weight basis using the formula" [CO:curators]
-is_a: CO_330:1000010
-relationship: method_of CO_330:0000198 ! tuber ascorbic acid concentration in dry weight basis
-
-[Term]
 id: CO_330:0000201
 name: potato tuber iron concentration in dry weight basis trait
 def: "The concentration of iron in dry weight basis" [CO:curators]
 is_a: TO:1000060
-
-[Term]
-id: CO_330:0000202
-name: potato spectrophotometry - iron method
-def: "Measure the concentration of iron in dry weight basis and record it" [CO:curators]
-is_a: CO_330:1000008
-relationship: method_of CO_330:0000201 ! tuber iron concentration in dry weight basis
 
 [Term]
 id: CO_330:0000204
@@ -931,45 +469,16 @@ def: "The concentration of zinc in dry weight basis" [CO:curators]
 is_a: TO:1000073 ! shoot system zinc content
 
 [Term]
-id: CO_330:0000205
-name: potato fluorescencia de rayos x - zinc method
-def: "Measure the concentration of zinc in dry weight basis and record it" [CO:curators]
-is_a: CO_330:1000008
-relationship: method_of CO_330:0000204 ! tuber zinc concentration in dry weight basis
-relationship: method_of CO_330:0000204 ! tuber zinc concentration in dry weight basis
-
-[Term]
-id: CO_330:0000208
-name: potato extraction methods - anthocyanin method
-def: "Measure the concentration of anthocyanin in dry weight basis and record it" [CO:curators]
-is_a: CO_330:1000008
-relationship: method_of CO_330:0000413 ! tuber anthocyanin concentration in dry weight basis
-
-[Term]
 id: CO_330:0000210
 name: potato tuber hydrophilic antioxidant activity in dry weight basis trait
 def: "The hydrophilic antioxidant activity in dry weight basis" [CO:curators]
 is_a: TO:0001143 ! antioxidant activity trait
 
 [Term]
-id: CO_330:0000211
-name: potato extraction methods - hydrophilic antioxidant method
-def: "Compute the activity of hydrophilic antioxidant in fresh weight basis using the formula" [CO:curators]
-is_a: CO_330:1000010
-relationship: method_of CO_330:0000210 ! tuber hydrophilic antioxidant activity in dry weight basis
-
-[Term]
 id: CO_330:0000213
 name: potato tuber lipophilic antioxidant activity in dry weight basis trait
 def: "The lipophilic antioxidant activity in dry weight basis" [CO:curators]
 is_a: TO:0001143 ! antioxidant activity trait
-
-[Term]
-id: CO_330:0000214
-name: potato extraction methods - lipophilic antioxidant method
-def: "Compute the activity of lipophilic antioxidant in dry weight basis using the formula" [CO:curators]
-is_a: CO_330:1000010
-relationship: method_of CO_330:0000213 ! tuber lipophilic antioxidant activity in dry weight basis
 
 [Term]
 id: CO_330:0000223
@@ -1339,13 +848,6 @@ synonym: "NTbPl" EXACT []
 synonym: "Plants planted number/  Planted (sett)" EXACT []
 
 [Term]
-id: CO_330:0000264
-name: potato number of tubers planted - method
-def: "Count the number of planted tubers and record it" [CO:curators]
-is_a: CO_330:1000009
-relationship: method_of CO_330:0000263 ! number of tubers planted
-
-[Term]
 id: CO_330:0000265
 name: potato ntbpl_ct_plplot variable
 synonym: "NTP" EXACT []
@@ -1361,13 +863,6 @@ def: "The number of emerged plants" [CO:curators]
 synonym: "Emerged plant number" EXACT []
 synonym: "NTbEg" EXACT []
 is_a: TO:0000250
-
-[Term]
-id: CO_330:0000267
-name: potato number of emerged plants - method
-def: "Count the number of emerged plants and record it" [CO:curators]
-is_a: CO_330:1000009
-relationship: method_of CO_330:0000266 ! number of emerged plants
 
 [Term]
 id: CO_330:0000268
@@ -1386,13 +881,6 @@ synonym: "PlUni" EXACT []
 is_a: TO:0000737
 
 [Term]
-id: CO_330:0000270
-name: potato visual estimation plant uniformity - method
-def: "Observe the uniformity of the plant and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000269 ! plant uniformity
-
-[Term]
 id: CO_330:0000272
 name: potato plunif_et_1to9 variable
 synonym: "Plant_Unif" EXACT []
@@ -1409,13 +897,6 @@ synonym: "PlVig" EXACT []
 is_a: TO:0000250
 
 [Term]
-id: CO_330:0000274
-name: potato visual estimation - plant vigor method
-def: "Observe the vigor of the plant and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000273 ! plant vigor
-
-[Term]
 id: CO_330:0000276
 name: potato plvig_et_1to9 variable
 synonym: "Plant_Vigor" EXACT []
@@ -1430,13 +911,6 @@ name: potato senescence trait
 def: "The senescence of the plant" [CO:curators]
 synonym: "Sen" EXACT []
 is_a: TO:0000133
-
-[Term]
-id: CO_330:0000278
-name: potato visual estimation senescence - method
-def: "Observe the senescence of the plant and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000277 ! senescence
 
 [Term]
 id: CO_330:0000280
@@ -1456,13 +930,6 @@ synonym: "PPlEg" EXACT []
 is_a: TO:0000250
 
 [Term]
-id: CO_330:0000282
-name: potato plant emergence proportion - method
-def: "Compute the proportion of plants emerged over tubers planted using the formula" [CO:curators]
-is_a: CO_330:1000010
-relationship: method_of CO_330:0000281 ! plant emergence proportion
-
-[Term]
 id: CO_330:0000283
 name: potato ppleg_cp_per variable
 synonym: "PPE" EXACT []
@@ -1479,13 +946,6 @@ synonym: "Harvested plant number" EXACT []
 synonym: "PltHrv" EXACT []
 
 [Term]
-id: CO_330:0000285
-name: potato number of harvested plants - method
-def: "Count the number of harvested plants and record it" [CO:curators]
-is_a: CO_330:1000009
-relationship: method_of CO_330:0000284 ! number of harvested plants
-
-[Term]
 id: CO_330:0000287
 name: potato plthrv_ct_plot variable
 synonym: "NPH" EXACT []
@@ -1500,13 +960,6 @@ name: potato proportion of plants harvested trait
 def: "The proportion of plant harvested over plant emerged" [CO:curators]
 synonym: "Percentage of Plants harvested" EXACT []
 synonym: "PPlHv" EXACT []
-
-[Term]
-id: CO_330:0000289
-name: potato proportion of plants harvested - method
-def: "Compute the proportion of plant harvested over plant emerged using the formula" [CO:curators]
-is_a: CO_330:1000010
-relationship: method_of CO_330:0000288 ! proportion of plants harvested
 
 [Term]
 id: CO_330:0000290
@@ -1526,13 +979,6 @@ synonym: "NMTb" EXACT []
 is_a: TO:0001071
 
 [Term]
-id: CO_330:0000292
-name: potato number of marketable tubers - method
-def: "Compute the total number of marketable tubers per unit area using the formula" [CO:curators]
-is_a: CO_330:1000010
-relationship: method_of CO_330:0000291 ! number of marketable tubers
-
-[Term]
 id: CO_330:0000293
 name: potato nmtb_ct_plot variable
 synonym: "NMTP" EXACT []
@@ -1548,13 +994,6 @@ def: "The total number of marketable tubers per plant" [CO:curators]
 synonym: "Marketable tubers number per plant" EXACT []
 synonym: "NMTb" EXACT []
 is_a: TO:0001071
-
-[Term]
-id: CO_330:0000295
-name: potato number of marketable tubers per plant - method
-def: "Compute the total number of marketable tubers per plant" [CO:curators]
-is_a: CO_330:1000010
-relationship: method_of CO_330:0000294 ! number of marketable tubers per plant
 
 [Term]
 id: CO_330:0000297
@@ -1574,13 +1013,6 @@ synonym: "Number of non-commercial" EXACT []
 is_a: TO:0001071
 
 [Term]
-id: CO_330:0000299
-name: potato non-marketable tuber number - method
-def: "Count the number of non-marketable tubers per unit area and record it" [CO:curators]
-is_a: CO_330:1000009
-relationship: method_of CO_330:0000298 ! non-marketable tuber number
-
-[Term]
 id: CO_330:0000300
 name: potato nnomtb_ct_plot variable
 synonym: "NNoMTP" EXACT []
@@ -1596,13 +1028,6 @@ def: "The total number of tubers per unit area" [CO:curators]
 synonym: "Total number of tubers" EXACT []
 synonym: "TubN" EXACT []
 is_a: TO:0001071
-
-[Term]
-id: CO_330:0000302
-name: potato tuber number - method
-def: "Compute the total number of tubers per unit area using the formula" [CO:curators]
-is_a: CO_330:1000010
-relationship: method_of CO_330:0000301 ! tuber number
 
 [Term]
 id: CO_330:0000304
@@ -1631,13 +1056,6 @@ synonym: "MTbWg" EXACT []
 is_a: TO:0000746
 
 [Term]
-id: CO_330:0000307
-name: potato marketable tuber weight - method
-def: "Compute the total weight of marketable tubers per unit area using the formula" [CO:curators]
-is_a: CO_330:1000010
-relationship: method_of CO_330:0000306 ! marketable tuber weight
-
-[Term]
 id: CO_330:0000308
 name: potato mtbwg_ms_kgplot variable
 synonym: "MTWP" EXACT []
@@ -1653,13 +1071,6 @@ def: "The total weight of marketable tubers per plant" [CO:curators]
 synonym: "Marketable tuber weight per plant" EXACT []
 synonym: "MTbWp" EXACT []
 is_a: TO:0000746
-
-[Term]
-id: CO_330:0000310
-name: potato marketable tuber weight per plant - method
-def: "Compute the total weight of marketable tubers per plant using the formula" [CO:curators]
-is_a: CO_330:1000010
-relationship: method_of CO_330:0000309 ! marketable tuber weight per plant
 
 [Term]
 id: CO_330:0000311
@@ -1679,13 +1090,6 @@ synonym: "Non-marketable tuber weight per plot" EXACT []
 is_a: TO:0000746
 
 [Term]
-id: CO_330:0000313
-name: potato non-marketable tuber weight - method
-def: "Compute the weight of non-marketable tubers per unit area usihg the formula" [CO:curators]
-is_a: CO_330:1000008
-relationship: method_of CO_330:0000312 ! non-marketable tuber weight
-
-[Term]
 id: CO_330:0000314
 name: potato nomtwg_ms_kgplot variable
 synonym: "NoMTWP" EXACT []
@@ -1700,13 +1104,6 @@ name: potato tuber weight trait
 def: "The total weight of tubers per unit area" [CO:curators]
 synonym: "Total tuber weight kg per plot" EXACT []
 synonym: "TubWg" EXACT []
-
-[Term]
-id: CO_330:0000316
-name: potato tuber weight - method
-def: "Compute the total weight of tubers per unit area using the formula" [CO:curators]
-is_a: CO_330:1000010
-relationship: method_of CO_330:0000315 ! tuber weight
 
 [Term]
 id: CO_330:0000317
@@ -1726,13 +1123,6 @@ synonym: "TubWg" EXACT []
 is_a: TO:0000746
 
 [Term]
-id: CO_330:0000319
-name: potato tuber weight per plant - method
-def: "Compute the total weight of tubers per plant using the formula" [CO:curators]
-is_a: CO_330:1000010
-relationship: method_of CO_330:0000318 ! tuber weight per plant
-
-[Term]
 id: CO_330:0000321
 name: potato tubwg_cp_plot variable
 synonym: "TTWPL" EXACT []
@@ -1740,13 +1130,6 @@ relationship: variable_of CO_330:0000318 ! tuber weight per plant
 relationship: variable_of CO_330:0000319 ! tuber weight per plant - method
 relationship: variable_of CO_330:0000320 ! kg/plant
 is_a: CO_330:0000318 ! tuber weight per plant
-
-[Term]
-id: CO_330:0000322
-name: potato tuber yield adjusted - method
-def: "Compute the total tuber yield adjusted per unit area using the formula" [CO:curators]
-is_a: CO_330:1000010
-relationship: method_of CO_330:0000144 ! tuber yield no adjusted
 
 [Term]
 id: CO_330:0000323
@@ -1775,13 +1158,6 @@ synonym: "MkbYldAj" EXACT []
 is_a: TO:0001071
 
 [Term]
-id: CO_330:0000326
-name: potato marketable tuber yield adjusted - method
-def: "Compute the marketable tuber yield adjusted per unit area using the formula" [CO:curators]
-is_a: CO_330:1000010
-relationship: method_of CO_330:0000325 ! marketable tuber yield adjusted
-
-[Term]
 id: CO_330:0000327
 name: potato mkbyldaj_cp_tha variable
 synonym: "MTYA" EXACT []
@@ -1797,13 +1173,6 @@ def: "The marketable tuber yield no adjusted per unit area" [CO:curators]
 synonym: "Marketable tuber yield no adjusted computation tons per hectare" EXACT []
 synonym: "MkYldNAj" EXACT []
 is_a: TO:0001071
-
-[Term]
-id: CO_330:0000329
-name: potato marketable tuber yield no adjusted - method
-def: "Compute the marketable tuber yield no adjusted per unit area using the formula" [CO:curators]
-is_a: CO_330:1000010
-relationship: method_of CO_330:0000328 ! marketable tuber yield no adjusted
 
 [Term]
 id: CO_330:0000330
@@ -1823,13 +1192,6 @@ synonym: "AvTbWg" EXACT []
 is_a: TO:0000746
 
 [Term]
-id: CO_330:0000332
-name: potato average of tuber weight - method
-def: "Compute the average tuber weight in grams using the formula" [CO:curators]
-is_a: CO_330:1000010
-relationship: method_of CO_330:0000331 ! average of tuber weight
-
-[Term]
 id: CO_330:0000333
 name: potato avtbwg_cp_g variable
 synonym: "ATW or MWT" EXACT []
@@ -1845,13 +1207,6 @@ def: "The average marketable tuber weight in grams" [CO:curators]
 synonym: "Average marketable tuber weight computation grams" EXACT []
 synonym: "AvTrWg" EXACT []
 is_a: TO:0000746
-
-[Term]
-id: CO_330:0000335
-name: potato average of marketable tuber weight - method
-def: "Compute the average marketable tuber weight in grams using the formula" [CO:curators]
-is_a: CO_330:1000010
-relationship: method_of CO_330:0000334 ! average of marketable tuber weight
 
 [Term]
 id: CO_330:0000336
@@ -1871,13 +1226,6 @@ synonym: "Stolons number" EXACT []
 is_a: TO:0000739
 
 [Term]
-id: CO_330:0000338
-name: potato number of stolons - method
-def: "Observe the number of stolons and rate it" [CO:curators]
-is_a: CO_330:1000009
-relationship: method_of CO_330:0000337 ! number of stolons
-
-[Term]
 id: CO_330:0000340
 name: potato numstn_et_1to9 variable
 synonym: "Num_Stolon" EXACT []
@@ -1893,13 +1241,6 @@ def: "The length of stolons" [CO:curators]
 synonym: "LgStn" EXACT []
 synonym: "Stolons length" EXACT []
 is_a: TO:0000740
-
-[Term]
-id: CO_330:0000342
-name: potato length of stolons - method
-def: "Observe the length of stolons and rate it" [CO:curators]
-is_a: CO_330:1000008
-relationship: method_of CO_330:0000341 ! length of stolons
 
 [Term]
 id: CO_330:0000344
@@ -1918,13 +1259,6 @@ synonym: "TubApp" EXACT []
 is_a: TO:0000745
 
 [Term]
-id: CO_330:0000346
-name: potato tuber appearance - method
-def: "Observe the appearence of the tuber and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000345 ! tuber appearance
-
-[Term]
 id: CO_330:0000348
 name: potato tubapp_et_1to9 variable
 synonym: "Tuber_Apper" EXACT []
@@ -1939,13 +1273,6 @@ name: potato tuber uniformity trait
 def: "The uniformity of the tuber" [CO:curators]
 synonym: "TubUni" EXACT []
 is_a: TO:0000745
-
-[Term]
-id: CO_330:0000350
-name: potato tuber uniformity  - method
-def: "Observe the uniformity of the tuber and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000349 ! tuber uniformity
 
 [Term]
 id: CO_330:0000352
@@ -1964,13 +1291,6 @@ synonym: "TubSiz" EXACT []
 is_a: TO:0000744
 
 [Term]
-id: CO_330:0000354
-name: potato tuber size - method
-def: "Measure the size of the tuber and rate it" [CO:curators]
-is_a: CO_330:1000008
-relationship: method_of CO_330:0000353 ! tuber size
-
-[Term]
 id: CO_330:0000356
 name: potato tubsiz_et_1to9 variable
 synonym: "Tub_Size" EXACT []
@@ -1985,13 +1305,6 @@ name: potato late blight severity trait
 def: "The severity of late blight disease on foliage caused by Phytophthora infestans" [CO:curators]
 synonym: "PFolLB" EXACT []
 is_a: TO:0001144 ! Oomycete disease response
-
-[Term]
-id: CO_330:0000358
-name: potato visual estimation - late blight severity method
-def: "Observe the severity of late blight disease on foliage caused by Phytophthora infestans and record it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000357 ! late blight severity
 
 [Term]
 id: CO_330:0000359
@@ -2010,13 +1323,6 @@ synonym: "LBR_AUDPC" EXACT []
 is_a: TO:0001144 ! Oomycete disease response
 
 [Term]
-id: CO_330:0000361
-name: potato late blight audpc - method
-def: "Compute the area under the disease progress curve for late blight using the formula" [CO:curators]
-is_a: CO_330:1000010
-relationship: method_of CO_330:0000360 ! late blight audpc
-
-[Term]
 id: CO_330:0000363
 name: potato lb_audpc_cp variable
 synonym: "AUDPC" EXACT []
@@ -2033,13 +1339,6 @@ synonym: "LBR_rAUDPC" EXACT []
 is_a: TO:0001144 ! Oomycete disease response
 
 [Term]
-id: CO_330:0000365
-name: potato late blight relative audpc - method
-def: "Compute the relative area under the disease progress curve for late blight using the formula" [CO:curators]
-is_a: CO_330:1000010
-relationship: method_of CO_330:0000364 ! late blight relative audpc
-
-[Term]
 id: CO_330:0000367
 name: potato lb_raudpc_cp variable
 synonym: "rAUDPC, RAUDPC" EXACT []
@@ -2054,13 +1353,6 @@ name: potato late blight susceptibility trait
 def: "The plant susceptibility to late blight disease" [CO:curators]
 synonym: "LBR_sAUDPC" EXACT []
 is_a: TO:0001144 ! Oomycete disease response
-
-[Term]
-id: CO_330:0000369
-name: potato late blight susceptibility - method
-def: "Compute the plant susceptibility to late blight disease using the formula" [CO:curators]
-is_a: CO_330:1000010
-relationship: method_of CO_330:0000368 ! late blight susceptibility
 
 [Term]
 id: CO_330:0000371
@@ -2195,13 +1487,6 @@ def: "The color of the french fries" [CO:curators]
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
-id: CO_330:0000386
-name: potato french fries color - method
-def: "Observe the color of the french fries and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000385 ! french fries color
-
-[Term]
 id: CO_330:0000388
 name: potato ffr_et_1to5 variable
 synonym: "FFR" EXACT []
@@ -2233,13 +1518,6 @@ id: CO_330:0000391
 name: potato tuber specific gravity trait
 def: "The specific gravity of the tuber" [CO:curators]
 is_a: TO:0000457 ! total biomass yield
-
-[Term]
-id: CO_330:0000392
-name: potato tuber specific gravity - method
-def: "Compute the specific gravity of the tuber using the formula" [CO:curators]
-is_a: CO_330:1000010
-relationship: method_of CO_330:0000391 ! tuber specific gravity
 
 [Term]
 id: CO_330:0000394
@@ -2323,13 +1601,6 @@ relationship: variable_of CO_330:0000203 ! mg/kg
 is_a: CO_330:0000201 ! tuber iron concentration in dry weight basis
 
 [Term]
-id: CO_330:0000403
-name: potato fluorescencia de rayos x - iron method
-def: "Measure the concentration of iron in dry weight basis and record it" [CO:curators]
-is_a: CO_330:1000008
-relationship: method_of CO_330:0000201 ! tuber iron concentration in dry weight basis
-
-[Term]
 id: CO_330:0000404
 name: potato fedw_ms_mgkg_dw_xrf variable
 synonym: "FeDW" EXACT []
@@ -2343,13 +1614,6 @@ id: CO_330:0000405
 name: potato tuber iron concentration in fresh weight basis trait
 def: "The concentration of iron in fresh weight basis" [CO:curators]
 is_a: TO:1000060
-
-[Term]
-id: CO_330:0000406
-name: potato spectrophotometry - iron fresh method
-def: "Compute the concentration of iron in fresh weight basis and record it" [CO:curators]
-is_a: CO_330:1000010
-relationship: method_of CO_330:0000405 ! tuber iron concentration in fresh weight basis
 
 [Term]
 id: CO_330:0000407
@@ -2385,13 +1649,6 @@ def: "The concentration of zinc in fresh weight basis" [CO:curators]
 is_a: TO:1000073 ! shoot system zinc content
 
 [Term]
-id: CO_330:0000411
-name: potato spectrophotometry - zinc fresh method
-def: "Compute the concentration of zinc in dry weight basis using the formula" [CO:curators]
-is_a: CO_330:1000010
-relationship: method_of CO_330:0000410 ! tuber zinc concentration in fresh weight basis
-
-[Term]
 id: CO_330:0000412
 name: potato zn_cp_mg100g_fw variable
 synonym: "ZnFW" EXACT []
@@ -2422,13 +1679,6 @@ def: "The anthocyanin concentration in fresh weight basis" [CO:curators]
 is_a: TO:0000071
 
 [Term]
-id: CO_330:0000416
-name: potato extraction methods - anthocyanin fresh method
-def: "Compute the concentration of anthocyanin in fresh weight basis using the formula" [CO:curators]
-is_a: CO_330:1000010
-relationship: method_of CO_330:0000415 ! tuber anthocyanin concentration in fresh weight basis
-
-[Term]
 id: CO_330:0000417
 name: potato athto_cp_mg100g_fw variable
 synonym: "Antho_FW" EXACT []
@@ -2451,13 +1701,6 @@ id: CO_330:0000419
 name: potato tuber hydrophilic antioxidant activity in fresh weight basis trait
 def: "The hydrophilic antioxidant activity in fresh weight basis" [CO:curators]
 is_a: TO:0001143 ! antioxidant activity trait
-
-[Term]
-id: CO_330:0000420
-name: potato extraction methods - hydrophilic antioxidant fresh method
-def: "Measure the activity of hydrophilic antioxidant in fresh weight basis and record it" [CO:curators]
-is_a: CO_330:1000008
-relationship: method_of CO_330:0000419 ! tuber hydrophilic antioxidant activity in fresh weight basis
 
 [Term]
 id: CO_330:0000421
@@ -2484,13 +1727,6 @@ def: "The lipophilic antioxidant activity in fresh weight basis" [CO:curators]
 is_a: TO:0001143 ! antioxidant activity trait
 
 [Term]
-id: CO_330:0000424
-name: potato extraction methods - lipophilic antioxidant fresh method
-def: "Measure the activity of lipophilic antioxidant in fresh weight basis and record it" [CO:curators]
-is_a: CO_330:1000008
-relationship: method_of CO_330:0000423 ! tuber lipophilic antioxidant activity in fresh weight basis
-
-[Term]
 id: CO_330:0000425
 name: potato aal_ms_ugtrolox_fw variable
 synonym: "AAL_FW" EXACT []
@@ -2515,13 +1751,6 @@ def: "The concentration of ascorbic acid in fresh weight basis" [CO:curators]
 is_a: TO:0000281
 
 [Term]
-id: CO_330:0000428
-name: potato spectrophotometry - ascorbic acid fresh method
-def: "Measure the concentration of ascorbic acid in fresh weight basis and record it" [CO:curators]
-is_a: CO_330:1000008
-relationship: method_of CO_330:0000427 ! tuber ascorbic acid concentration in fresh weight basis
-
-[Term]
 id: CO_330:0000429
 name: potato ascfw_cp_mg100_fw variable
 synonym: "ASC_FW" EXACT []
@@ -2536,13 +1765,6 @@ name: potato tuber protein content trait
 def: "The protein content of the tuber" [CO:curators]
 synonym: "TubFlsPrt" EXACT []
 is_a: TO:0000598
-
-[Term]
-id: CO_330:0000431
-name: potato protein content - method
-def: "Measure the content of protein and record it" [CO:curators]
-is_a: CO_330:1000008
-relationship: method_of CO_330:0000430 ! tuber protein content
 
 [Term]
 id: CO_330:0000432
@@ -2561,13 +1783,6 @@ synonym: "TubFlsSta" EXACT []
 is_a: TO:0000696
 
 [Term]
-id: CO_330:0000434
-name: potato storage root starch content - method
-def: "Measure the content of starch in dry weight basis and record it" [CO:curators]
-is_a: CO_330:1000008
-relationship: method_of CO_330:0000433 ! tuber starch content
-
-[Term]
 id: CO_330:0000435
 name: potato tubflssta_ms_pct variable
 synonym: "STAR" EXACT []
@@ -2582,13 +1797,6 @@ name: potato tuber fructose content trait
 def: "The fructose content of the tuber" [CO:curators]
 synonym: "TubFlsFru" EXACT []
 is_a: TO:0006005
-
-[Term]
-id: CO_330:0000437
-name: potato fructose content - method
-def: "Measure the content of fructose and record it" [CO:curators]
-is_a: CO_330:1000008
-relationship: method_of CO_330:0000436 ! tuber fructose content
 
 [Term]
 id: CO_330:0000438
@@ -2607,13 +1815,6 @@ synonym: "TubFlsGlu" EXACT []
 is_a: TO:0000300
 
 [Term]
-id: CO_330:0000440
-name: potato glucose content - method
-def: "Measure the content of glucose and record it" [CO:curators]
-is_a: CO_330:1000008
-relationship: method_of CO_330:0000439 ! tuber glucose content
-
-[Term]
 id: CO_330:0000441
 name: potato tubflsglu_ms_pct variable
 synonym: "GLUC" EXACT []
@@ -2628,13 +1829,6 @@ name: potato tuber sucrose content trait
 def: "The sucrose content of the tuber" [CO:curators]
 synonym: "TubFlsSuc" EXACT []
 is_a: TO:0000328
-
-[Term]
-id: CO_330:0000443
-name: potato sucrose content - method
-def: "Measure the content of sucrose and record it" [CO:curators]
-is_a: CO_330:1000008
-relationship: method_of CO_330:0000442 ! tuber sucrose content
 
 [Term]
 id: CO_330:0000444
@@ -2653,13 +1847,6 @@ synonym: "TubFlsMal" EXACT []
 is_a: TO:0006003
 
 [Term]
-id: CO_330:0000446
-name: potato maltose content - method
-def: "Measure the content of fiber and record it" [CO:curators]
-is_a: CO_330:1000008
-relationship: method_of CO_330:0000445 ! tuber maltose content
-
-[Term]
 id: CO_330:0000447
 name: potato tubflsmal_ms_pct variable
 synonym: "MALT" EXACT []
@@ -2674,13 +1861,6 @@ name: potato tuber fiber content trait
 def: "The fiber content of the tuber in fresh weight basis" [CO:curators]
 synonym: "TubFlsFf" EXACT []
 is_a: TO:0002642
-
-[Term]
-id: CO_330:0000449
-name: potato storage root fiber content - method
-def: "Measure the content of fiber in fresh weight basis and record it" [CO:curators]
-is_a: CO_330:1000008
-relationship: method_of CO_330:0000448 ! tuber fiber content
 
 [Term]
 id: CO_330:0000450
@@ -2943,535 +2123,6 @@ id: CO_330:0000496
 name: potato appearance after cooking trait
 def: "The visual aspect of boiled potatoes: potatoes turn gray or dark after boiling" [CO:curators]
 synonym: "TbApAc" EXACT []
-
-[Term]
-id: CO_330:0000497
-name: potato visual estimation - predominant tuber skin color method
-def: "Farmers observe the color of the tuber skin" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000078 ! predominant tuber skin color
-
-[Term]
-id: CO_330:0000498
-name: potato visual estimation - predominant tuber flesh color method
-def: "Farmers observe the color of the tuber flesh and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000090 ! predominant tuber flesh color
-
-[Term]
-id: CO_330:0000499
-name: potato visual estimation late blight resistance - method
-def: "Farmers observe the plant resistance late blight and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000123 ! late blight resistance
-
-[Term]
-id: CO_330:0000500
-name: potato visual estimation potatoleaf roll virus resistance - method
-def: "Farmers observe the plant resistance to potato leaf roll virus and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000132 ! potato leaf roll virus resistance
-
-[Term]
-id: CO_330:0000501
-name: potato visual estimation bacterial wilt resistance - method
-def: "Farmers observe the plant resistance to bacterial wilt and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000135 ! bacterial wilt resistance
-
-[Term]
-id: CO_330:0000502
-name: potato visual estimation root knot nematode resistance - method
-def: "Farmers observe the tuber resistance to root knot nematode and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000138 ! root knot nematode resistance
-
-[Term]
-id: CO_330:0000503
-name: potato visual estimation of the plant response to heat tolerance - method
-def: "Farmers observe the tolerance to heat of the plant and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000162 ! heat tolerance
-
-[Term]
-id: CO_330:0000504
-name: potato tuber flavor after cooking - method
-def: "Panelists taste potato samples after cooking and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000171 ! tuber flavor after cooking
-
-[Term]
-id: CO_330:0000505
-name: potato visual estimation-texture method
-def: "Panelists taste the dry matter and starch content (mouth feel that the potato samples have) and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000174 ! tuber texture after cooking
-
-[Term]
-id: CO_330:0000506
-name: potato visual estimation - plant vigor method
-def: "Farmers observe the vigor of the plant and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000273 ! plant vigor
-
-[Term]
-id: CO_330:0000507
-name: potato visual estimation - earliness method
-def: "Farmers observe the senescence of the plant and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000277 ! senescence
-
-[Term]
-id: CO_330:0000508
-name: potato visual estimation-length of stolons method
-def: "Observe the length of stolons and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000341 ! length of stolons
-
-[Term]
-id: CO_330:0000509
-name: potato visual estimation - tuber size method
-def: "Farmers observe the size of the tuber and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000353 ! tuber size
-
-[Term]
-id: CO_330:0000510
-name: potato visual estimation method
-def: "Observe the good marketable qualities of tubers after harvest" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000451 ! marketable quality
-
-[Term]
-id: CO_330:0000511
-name: potato visual estimation method
-def: "Observe the good marketable qualities of tubers at storage" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000451 ! marketable quality
-
-[Term]
-id: CO_330:0000512
-name: potato visual estimation-men preference at flowering method
-def: "Men are encouraged to select three materials at flowering stage Three grains for the best clone, two grains for the second most preferred clone, one grain for the third most preferred clone in the mother and baby plots" [CO:curators]
-is_a: CO_330:1000009
-relationship: method_of CO_330:0000452 ! farmer's preference at flowering
-
-[Term]
-id: CO_330:0000513
-name: potato visual estimation-women preference at flowering method
-def: "Women are encouraged to select three materials at flowering stage Three grains for the best clone, two grains for the second most preferred clone, one grain for the third most preferred clone in the mother and baby plots" [CO:curators]
-is_a: CO_330:1000009
-relationship: method_of CO_330:0000452 ! farmer's preference at flowering
-
-[Term]
-id: CO_330:0000514
-name: potato visual estimation-men preference at harvest method
-def: "Men are encouraged to select three materials at harvest stage Three grains for the best clone, two grains for the second most preferred clone, one grain for the third most preferred clone in the mother and baby plots" [CO:curators]
-is_a: CO_330:1000009
-relationship: method_of CO_330:0000453 ! farmer's preference  at harvest
-
-[Term]
-id: CO_330:0000515
-name: potato visual estimation-women preference at harvest method
-def: "Women are encouraged to select three materials at post-harvest stage Three grains for the best clone, two grains for the second most preferred clone, one grain for the third most preferred clone in the mother and baby plots" [CO:curators]
-is_a: CO_330:1000009
-relationship: method_of CO_330:0000453 ! farmer's preference  at harvest
-
-[Term]
-id: CO_330:0000516
-name: potato visual estimation-men preference at post-harvest method
-def: "Men are encouraged to select three materials at flowering stage Three grains for the best clone, two grains for the second most preferred clone, one grain for the third most preferred clone in the mother and baby plots" [CO:curators]
-is_a: CO_330:1000009
-relationship: method_of CO_330:0000454 ! farmer's preference at postharvest
-
-[Term]
-id: CO_330:0000517
-name: potato visual estimation-women preference at post-harvest method
-def: "Women are encouraged to select three materials at post-harvest stage Three grains for the best clone, two grains for the second most preferred clone, one grain for the third most preferred clone in the mother and baby plots" [CO:curators]
-is_a: CO_330:1000009
-relationship: method_of CO_330:0000455 ! farmer's preference at postharvest
-
-[Term]
-id: CO_330:0000518
-name: potato spectrophotometry - calcium dry weight method
-def: "Measure the calcium concentration is determined by inductively coupled plasma optical emission spectrophotometry (ICP-OES) using a Radial View and record it" [CO:curators]
-is_a: CO_330:1000008
-relationship: method_of CO_330:0000456 ! tuber calcium concentration
-
-[Term]
-id: CO_330:0000519
-name: potato spectrophotometry - calcium fresh weight method
-def: "Compute the calcium concentration in fresh weight basis using the formula" [CO:curators]
-relationship: method_of CO_330:0000456 ! tuber calcium concentration
-
-[Term]
-id: CO_330:0000520
-name: potato spectrophotometry - magnesium dry weight method
-def: "Measure the magnesium concentration is determined by inductively coupled plasma optical emission spectrophotometry (ICP-OES) using a Radial View and record it" [CO:curators]
-is_a: CO_330:1000008
-relationship: method_of CO_330:0000457 ! tuber magnesium concentration
-
-[Term]
-id: CO_330:0000521
-name: potato spectrophotometry - magnesium fresh weight method
-def: "Compute the magnesium concentration in fresh weight basis using the formula" [CO:curators]
-relationship: method_of CO_330:0000457 ! tuber magnesium concentration
-
-[Term]
-id: CO_330:0000522
-name: potato spectrophotometry - potassium dry weight method
-def: "Measure the potassium concentration is determined by inductively coupled plasma optical emission spectrophotometry (ICP-OES) using a Radial View and record it" [CO:curators]
-is_a: CO_330:1000008
-relationship: method_of CO_330:0000458 ! tuber potassium concentration
-
-[Term]
-id: CO_330:0000523
-name: potato spectrophotometry - potassium fresh weight method
-def: "Compute the potassium concentration in fresh weight basis using the formula" [CO:curators]
-relationship: method_of CO_330:0000458 ! tuber potassium concentration
-
-[Term]
-id: CO_330:0000524
-name: potato spectrophotometry - phosphorus dry weight method
-def: "Measure the phosphorus concentration is determined by inductively coupled plasma optical emission spectrophotometry (ICP-OES) using a Radial View and record it" [CO:curators]
-is_a: CO_330:1000008
-relationship: method_of CO_330:0000459 ! tuber phosphorus concentration
-
-[Term]
-id: CO_330:0000525
-name: potato spectrophotometry - phosphorus fresh weight method
-def: "Compute the phosphorus concentration in fresh weight basis using the formula" [CO:curators]
-relationship: method_of CO_330:0000459 ! tuber phosphorus concentration
-
-[Term]
-id: CO_330:0000526
-name: potato spectrophotometry - sulfur dry weight method
-def: "Measure the sulfur concentration is determined by inductively coupled plasma optical emission spectrophotometry (ICP-OES) using a Radial View and record it" [CO:curators]
-is_a: CO_330:1000008
-relationship: method_of CO_330:0000460 ! tuber sulfur concentration
-
-[Term]
-id: CO_330:0000527
-name: potato spectrophotometry - sulfur fresh weight method
-def: "Compute the sulfur concentration in fresh weight basis using the formula" [CO:curators]
-relationship: method_of CO_330:0000460 ! tuber sulfur concentration
-
-[Term]
-id: CO_330:0000528
-name: potato chromatography - chlorogenic acid dry weight method
-def: "Measure the chlorogenic acid concentration is determined by HPLC or UPLC and record it" [CO:curators]
-is_a: CO_330:1000008
-relationship: method_of CO_330:0000461 ! tuber chlorogenic acid concentration
-
-[Term]
-id: CO_330:0000529
-name: potato chromatography - chlorogenic acid fresh weight method
-def: "Compute the chlorogenic acid concentration in fresh weight basis using the formula" [CO:curators]
-relationship: method_of CO_330:0000461 ! tuber chlorogenic acid concentration
-
-[Term]
-id: CO_330:0000530
-name: potato chromatography - caffeic acid dry weight method
-def: "Measure the caffeic acid concentration is determined by HPLC or UPLC and record it" [CO:curators]
-is_a: CO_330:1000008
-relationship: method_of CO_330:0000462 ! tuber caffeic acid concentration
-
-[Term]
-id: CO_330:0000531
-name: potato chromatography - caffeic acid fresh weight method
-def: "Compute the caffeic acid concentration in fresh weight basis using the formula" [CO:curators]
-relationship: method_of CO_330:0000462 ! tuber caffeic acid concentration
-
-[Term]
-id: CO_330:0000532
-name: potato chromatography - tryptophan dry weight method
-def: "Measure the tryptophan acid concentration is determined by HPLC or UPLC and record it" [CO:curators]
-is_a: CO_330:1000008
-relationship: method_of CO_330:0000463 ! tuber tryptophan concentration
-
-[Term]
-id: CO_330:0000533
-name: potato chromatography - tryptophan fresh weight method
-def: "Compute the tryptophan concentration in fresh weight basis using the formula" [CO:curators]
-relationship: method_of CO_330:0000463 ! tuber tryptophan concentration
-
-[Term]
-id: CO_330:0000534
-name: potato chromatography - total phenolics dry weight method
-def: "Measure the total phenolic concentration is determined by HPLC or UPLC and record it" [CO:curators]
-is_a: CO_330:1000008
-relationship: method_of CO_330:0000464 ! tuber total phenolic concentration
-
-[Term]
-id: CO_330:0000535
-name: potato chromatography - total phenolics fresh weight method
-def: "Compute the total phenolic concentration in fresh weight basis using the formula" [CO:curators]
-relationship: method_of CO_330:0000464 ! tuber total phenolic concentration
-
-[Term]
-id: CO_330:0000536
-name: potato chromatography - glycoalkaloid dry weight method
-def: "Measure the glycoalkaloid concentration is determined by HPLC or UPLC and record it" [CO:curators]
-is_a: CO_330:1000008
-relationship: method_of CO_330:0000465 ! tuber glycoalkaloid concentration
-
-[Term]
-id: CO_330:0000537
-name: potato chromatography - glycoalkaloid fresh weight method
-def: "Compute the glycoalkaloid concentration in fresh weight basis using the formula" [CO:curators]
-relationship: method_of CO_330:0000465 ! tuber glycoalkaloid concentration
-
-[Term]
-id: CO_330:0000538
-name: potato spectrophotometry - violaxanthin dry weight method
-def: "Compute the violaxanthin concentration in dry weight basis using the formula" [CO:curators]
-relationship: method_of CO_330:0000466 ! tuber violaxanthin concentration
-
-[Term]
-id: CO_330:0000539
-name: potato spectrophotometry - violaxanthin fresh weight method
-def: "Measure the violaxanthin concentration is determined by a spectrophotometric method using an standar curve of L-ascorbic acid and record it" [CO:curators]
-is_a: CO_330:1000008
-relationship: method_of CO_330:0000466 ! tuber violaxanthin concentration
-
-[Term]
-id: CO_330:0000540
-name: potato spectrophotometry - antheraxanthin dry weight method
-def: "Compute the antheraxanthin concentration in dry weight basis using the formula" [CO:curators]
-relationship: method_of CO_330:0000467 ! tuber antheraxanthin concentration
-
-[Term]
-id: CO_330:0000541
-name: potato spectrophotometry - antheraxanthin fresh weight method
-def: "Measure the antheraxanthin concentration is determined by a spectrophotometric method using an standar curve of L-ascorbic acid and record it" [CO:curators]
-is_a: CO_330:1000008
-relationship: method_of CO_330:0000467 ! tuber antheraxanthin concentration
-
-[Term]
-id: CO_330:0000542
-name: potato spectrophotometry - lutein dry weight method
-def: "Compute the lutein concentration in dry weight basis using the formula" [CO:curators]
-relationship: method_of CO_330:0000468 ! tuber lutein concentration
-
-[Term]
-id: CO_330:0000543
-name: potato spectrophotometry - lutein fresh weight method
-def: "Measure the lutein concentration is determined by a spectrophotometric method using an standar curve of L-ascorbic acid and record it" [CO:curators]
-is_a: CO_330:1000008
-relationship: method_of CO_330:0000468 ! tuber lutein concentration
-
-[Term]
-id: CO_330:0000544
-name: potato spectrophotometry - zeaxanthine dry weight method
-def: "Compute the zeaxanthine concentration in dry weight basis using the formula" [CO:curators]
-relationship: method_of CO_330:0000469 ! tuber zeaxanthine concentration
-
-[Term]
-id: CO_330:0000545
-name: potato spectrophotometry - zeaxanthine fresh weight method
-def: "Measure the zeaxanthine concentration is determined by a spectrophotometric method using an standar curve of L-ascorbic acid and record it" [CO:curators]
-is_a: CO_330:1000008
-relationship: method_of CO_330:0000469 ! tuber zeaxanthine concentration
-
-[Term]
-id: CO_330:0000546
-name: potato spectrophotometry - beta-carotene dry weight method
-def: "Compute the beta-carotene concentration in dry weight basis using the formula" [CO:curators]
-relationship: method_of CO_330:0000470 ! tuber beta-carotene concentration
-
-[Term]
-id: CO_330:0000547
-name: potato spectrophotometry - beta-carotene fresh weight method
-def: "Measure the beta-carotene concentration is determined by a spectrophotometric method using an standar curve of L-ascorbic acid and record it" [CO:curators]
-is_a: CO_330:1000008
-relationship: method_of CO_330:0000470 ! tuber beta-carotene concentration
-
-[Term]
-id: CO_330:0000548
-name: potato spectrophotometry - neoxanthine dry weight method
-def: "Compute the neoxanthine concentration in dry weight basis using the formula" [CO:curators]
-relationship: method_of CO_330:0000471 ! tuber neoxanthine concentration
-
-[Term]
-id: CO_330:0000549
-name: potato spectrophotometry - neoxanthine fresh weight method
-def: "Measure the neoxanthine concentration is determined by a spectrophotometric method using an standar curve of L-ascorbic acid and record it" [CO:curators]
-is_a: CO_330:1000008
-relationship: method_of CO_330:0000471 ! tuber neoxanthine concentration
-
-[Term]
-id: CO_330:0000550
-name: potato spectrophotometry - total carotenoids dry weight method
-def: "Compute the total carotenoid concentration in dry weight basis using the formula" [CO:curators]
-relationship: method_of CO_330:0000472 ! tuber total carotenoid concentration
-
-[Term]
-id: CO_330:0000551
-name: potato spectrophotometry - total carotenoids fresh weight method
-def: "Measure the total carotenoids concentration is determined by a spectrophotometric method using an standar curve of L-ascorbic acid and record it" [CO:curators]
-is_a: CO_330:1000008
-relationship: method_of CO_330:0000472 ! tuber total carotenoid concentration
-
-[Term]
-id: CO_330:0000552
-name: potato visual estimation method
-def: "Farmers are encouraged to select three traits at flowering stage" [CO:curators]
-is_a: CO_330:1000009
-relationship: method_of CO_330:0000474 ! identified criteria at flowering
-
-[Term]
-id: CO_330:0000553
-name: potato visual estimation method
-def: "Farmers are encouraged to select three traits at harvest stage" [CO:curators]
-is_a: CO_330:1000009
-relationship: method_of CO_330:0000475 ! identified criteria at harvest
-
-[Term]
-id: CO_330:0000554
-name: potato visual estimation method
-def: "Farmers are encouraged to select three traits at post-harvest stage" [CO:curators]
-is_a: CO_330:1000009
-relationship: method_of CO_330:0000476 ! identified criteria  at post-harvest
-
-[Term]
-id: CO_330:0000555
-name: potato visual estimation - plant architecture method
-def: "Farmers observe the architecture of the plant and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000477 ! plant architecture
-
-[Term]
-id: CO_330:0000556
-name: potato visual estimation - foliage color method
-def: "Farmers observe the color of the foliage and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000478 ! foliage color
-
-[Term]
-id: CO_330:0000557
-name: potato visual estimation - leaf type method
-def: "Farmers observe the type of leaves and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000479 ! leaf type
-
-[Term]
-id: CO_330:0000558
-name: potato visual estimation - flower color method
-def: "Farmers observe the color of flowers on the plant and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000480 ! flower color
-
-[Term]
-id: CO_330:0000559
-name: potato visual estimation alternaria resistance - method
-def: "Farmers observe the plant resistance to alternaria and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000481 ! rizoctoniasis resistance
-
-[Term]
-id: CO_330:0000560
-name: potato visual estimation mosaic virus resistance  - method
-def: "Farmers observe the plant resistance to Mosaic virus and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000482 ! mosaic virus resistance
-
-[Term]
-id: CO_330:0000561
-name: potato visual estimation of the plant response to  moth method
-def: "The reaction is estimated by observing visually the appearance  of plants in response to Moth" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000483 ! reaction to moth
-
-[Term]
-id: CO_330:0000562
-name: potato visual estimation of the plant response to  aphis method
-def: "The reaction is estimated by observing visually the appearance  of plants in response to Aphis" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000484 ! reaction to aphids
-
-[Term]
-id: CO_330:0000563
-name: potato visual estimation of the plant response to potato weevil method
-def: "The reaction is estimated by observing visually the appearance  of plants in response to Striped sweet potato weevil" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000485 ! reaction to potato weevil
-
-[Term]
-id: CO_330:0000564
-name: potato visual estimation  - drought tolerance method
-def: "Farmers observe the tolerance to drought of the plant and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000486 ! drought tolerance
-
-[Term]
-id: CO_330:0000565
-name: potato visual estimation - hailstorm tolerance method
-def: "Farmers observe the tolerance to hailstorm of the plant and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000487 ! hailstorm tolerance
-
-[Term]
-id: CO_330:0000566
-name: potato visual estimation - frost tolerant method
-def: "Farmers observe the tolerance to frost of the plant and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000488 ! frost tolerant
-
-[Term]
-id: CO_330:0000567
-name: potato visual estimation - moisture  tolerance method
-def: "Farmers observe the tolerance to excessive soil moisture" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000489 ! moisture  tolerance
-
-[Term]
-id: CO_330:0000568
-name: potato visual estimation method
-def: "Farmers observe the number of eyes on the tuber and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000490 ! number of eyes
-
-[Term]
-id: CO_330:0000569
-name: potato visual estimation method
-def: "Farmers observe the texture of the tuber skin and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000491 ! tuber skin texture
-
-[Term]
-id: CO_330:0000570
-name: potato visual estimation method
-def: "Observe the characteristics of tubers for home consumption and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000492 ! home consumption
-
-[Term]
-id: CO_330:0000571
-name: potato visual estimation method
-def: "Farmers observe the earliness of sprouting at storage and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000493 ! earliness of sprouting
-
-[Term]
-id: CO_330:0000572
-name: potato visual estimation method
-def: "Farmers observe the sprout type at storage and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000494 ! sprout type
-
-[Term]
-id: CO_330:0000573
-name: potato computation method
-def: "Compute the Global Farmer preference using the formula" [CO:curators]
-is_a: CO_330:1000010
-relationship: method_of CO_330:0000495 ! global farmer preference
-
-[Term]
-id: CO_330:0000574
-name: potato visual estimation-appearance method
-def: "Panelist observe the visual appearance of boiled potatoes and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000496 ! appearance after cooking
 
 [Term]
 id: CO_330:0000620
@@ -4149,10 +2800,3 @@ relationship: variable_of CO_330:0000496 ! appearance after cooking
 relationship: variable_of CO_330:0000574 ! visual estimation-appearance method
 relationship: variable_of CO_330:0000618 ! tbapac 3pt. scale
 is_a: CO_330:0000496 ! appearance after cooking
-
-[Term]
-id: CO_330:0000699
-name: potato visual estimation - flowering degree method
-def: "Farmers observe the presence of flowers on the plant and rate it" [CO:curators]
-is_a: CO_330:1000011
-relationship: method_of CO_330:0000003 ! flowering degree
