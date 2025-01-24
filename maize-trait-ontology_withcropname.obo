@@ -1248,25 +1248,10 @@ def: "Compute number of ears using the formula." [CO:curators]
 relationship: method_of CO_322:0000021 ! ear number
 
 [Term]
-id: CO_322:0000204
-name: maize ppm scale
-relationship: scale_of CO_322:0000387 ! giron - measurement
-relationship: scale_of CO_322:0000393 ! gzinc  - measurement
-
-[Term]
 id: CO_322:0000205
 name: maize gcol - estimation method
 def: "Observe color of grains." [CO:curators]
 relationship: method_of CO_322:0000146 ! grain color
-
-[Term]
-id: CO_322:0000206
-name: maize mm scale
-relationship: scale_of CO_322:0000264 ! glng - measurement
-relationship: scale_of CO_322:0000266 ! gwid - measurement
-relationship: scale_of CO_322:0000349 ! elng - measurement
-relationship: scale_of CO_322:0000368 ! gthk - measurement
-relationship: scale_of CO_322:0001092 ! ewid - measurement
 
 [Term]
 id: CO_322:0000207
@@ -1275,20 +1260,10 @@ def: "Count the total number of ears with bad husk cover." [CO:curators]
 relationship: method_of CO_322:0000150 ! ear bad husk cover incidence
 
 [Term]
-id: CO_322:0000208
-name: maize 1-3 size scale
-relationship: scale_of CO_322:0000239 ! tslsiz - estimation
-
-[Term]
 id: CO_322:0000209
 name: maize pasp - estimation method
 def: "Score the plants per plot combining several agronomical and morphological characters of plants such plant height, ear height, stem/root loading. Note: Combination of traits usually differ from one breeder to another depending on type of study." [CO:curators]
 relationship: method_of CO_322:0000011 ! plant aspect
-
-[Term]
-id: CO_322:0000210
-name: maize ppb scale
-relationship: scale_of CO_322:0000216 ! aflatox - measurement
 
 [Term]
 id: CO_322:0000211
@@ -1429,39 +1404,6 @@ id: CO_322:0000233
 name: maize pytsrinc - computation method
 def: "Divide the total number of PytSR damaged plants by the total number of plants harvested." [CO:curators]
 relationship: method_of CO_322:0000067 ! pythium stalk rot incidence
-
-[Term]
-id: CO_322:0000234
-name: maize 1-5 disease scoring scale
-relationship: scale_of CO_322:0000187 ! tscsev - estimation
-relationship: scale_of CO_322:0000226 ! dmsev - estimation
-relationship: scale_of CO_322:0000228 ! rustsev - estimation
-relationship: scale_of CO_322:0000230 ! fusersev - estimation
-relationship: scale_of CO_322:0000236 ! mlnsev - estimation
-relationship: scale_of CO_322:0000243 ! clssev - estimation
-relationship: scale_of CO_322:0000245 ! glssev - estimation
-relationship: scale_of CO_322:0000247 ! plssev - estimation
-relationship: scale_of CO_322:0000249 ! bmaysev - estimation
-relationship: scale_of CO_322:0000251 ! aflaversev - estimation
-relationship: scale_of CO_322:0000253 ! fgramersev - estimation
-relationship: scale_of CO_322:0000255 ! fmonersev - estimation
-relationship: scale_of CO_322:0000257 ! persev - estimation
-relationship: scale_of CO_322:0000259 ! smaysev - estimation
-relationship: scale_of CO_322:0000261 ! eturcsev - estimation
-relationship: scale_of CO_322:0000263 ! ppolysev - estimation
-relationship: scale_of CO_322:0000265 ! crustsev - estimation
-relationship: scale_of CO_322:0000269 ! trustsev - estimation
-relationship: scale_of CO_322:0000273 ! msvsev - estimation
-relationship: scale_of CO_322:0000305 ! blsbsev - estimation
-relationship: scale_of CO_322:0000309 ! bwspotsev - estimation
-relationship: scale_of CO_322:0000317 ! bclssev - estimation
-relationship: scale_of CO_322:0000321 ! cscmsev - estimation
-relationship: scale_of CO_322:0000489 ! csssev - estimation
-relationship: scale_of CO_322:0000521 ! aspersev - estimation
-relationship: scale_of CO_322:0000522 ! dmssev - estimation
-relationship: scale_of CO_322:0000842 ! fmonsrsev - estimation
-relationship: scale_of CO_322:0000853 ! hsmutsev - estimation
-relationship: scale_of CO_322:0001055 ! dmvsev - estimation
 
 [Term]
 id: CO_322:0000235
@@ -1860,13 +1802,6 @@ def: "Divide the total number of DMS damaged plants by the total number of plant
 relationship: method_of CO_322:0000080 ! sorghum downy mildew incidence
 
 [Term]
-id: CO_322:0000302
-name: maize g scale
-relationship: scale_of CO_322:0000256 ! elw - measurement
-relationship: scale_of CO_322:0000300 ! tslbw - measurement
-relationship: scale_of CO_322:0001003 ! earw individual - measurement
-
-[Term]
 id: CO_322:0000303
 name: maize psacchinc - computation method
 def: "Divide the total number of Psacch damaged plants by the total number of plants harvested." [CO:curators]
@@ -1950,11 +1885,6 @@ def: "Divide the total number of BactSR damaged plants by the total number of pl
 relationship: method_of CO_322:0000052 ! bacterial stalk rot incidence
 
 [Term]
-id: CO_322:0000320
-name: maize 0-10 senescence scale
-relationship: scale_of CO_322:0000223 ! sen - estimation
-
-[Term]
 id: CO_322:0000321
 name: maize cscmsev - estimation method
 def: "Observe maize busy stunt severity on the plants per plot based on degree of infection (relative or absolute area of plant tissue affected by disease)." [CO:curators]
@@ -1967,11 +1897,6 @@ id: CO_322:0000323
 name: maize stewiltinc - computation method
 def: "Divide the total number of SteWilt damaged plants by the total number of plants harvested." [CO:curators]
 relationship: method_of CO_322:0000050 ! stewarts wilt incidence
-
-[Term]
-id: CO_322:0000324
-name: maize 1-11 grain type scale
-relationship: scale_of CO_322:0000213 ! gtyp - estimation
 
 [Term]
 id: CO_322:0000325
@@ -1997,11 +1922,6 @@ id: CO_322:0000331
 name: maize diabroticadmg - estimation method
 def: "Observe the plant damage caused by Diabrotica per plot." [CO:curators]
 relationship: method_of CO_322:0000156 ! diabrotica damage
-
-[Term]
-id: CO_322:0000332
-name: maize ¡c scale
-relationship: scale_of CO_322:0000395 ! ct - measurement
 
 [Term]
 id: CO_322:0000333
@@ -2048,126 +1968,11 @@ def: "Measure, when applicable, ear diameter at the central part of uppermost ea
 relationship: method_of CO_322:0000170 ! ear diameter
 
 [Term]
-id: CO_322:0000348
-name: maize cm scale
-relationship: scale_of CO_322:0000177 ! phtslb - measurement
-relationship: scale_of CO_322:0000179 ! eh - measurement
-relationship: scale_of CO_322:0000250 ! egrw - measurement
-relationship: scale_of CO_322:0000254 ! ellng - measurement
-relationship: scale_of CO_322:0000268 ! lwid - measurement
-relationship: scale_of CO_322:0000291 ! llng - measurement
-relationship: scale_of CO_322:0000294 ! silkgrw - measurement
-relationship: scale_of CO_322:0000298 ! silklng  - measurement
-relationship: scale_of CO_322:0000347 ! edia - measurement
-relationship: scale_of CO_322:0000349 ! elng - measurement
-relationship: scale_of CO_322:0000686 ! ewormdmg - measurement
-relationship: scale_of CO_322:0000995 ! ph - measurement
-relationship: scale_of CO_322:0000998 ! phfl - measurement
-
-[Term]
 id: CO_322:0000349
 name: maize elng - measurement method
 def: "Measure, when applicable, ear length of at least 20 representative plants per accession, record the data in the fieldbook." [CO:curators]
 relationship: method_of CO_322:0000015 ! ear length
 relationship: method_of CO_322:0000015 ! ear length
-
-[Term]
-id: CO_322:0000350
-name: maize % scale
-relationship: scale_of CO_322:0000107 ! gtrp - measurement
-relationship: scale_of CO_322:0000187 ! tscsev - estimation
-relationship: scale_of CO_322:0000193 ! slodginc - computation
-relationship: scale_of CO_322:0000195 ! gmoi - computation
-relationship: scale_of CO_322:0000196 ! glys - measurement
-relationship: scale_of CO_322:0000200 ! endoprot - measurement
-relationship: scale_of CO_322:0000202 ! gprot - computation
-relationship: scale_of CO_322:0000211 ! rlodginc - computation
-relationship: scale_of CO_322:0000212 ! endotrp - measurement
-relationship: scale_of CO_322:0000217 ! rgy - computation
-relationship: scale_of CO_322:0000222 ! srinc - computation
-relationship: scale_of CO_322:0000223 ! sen - estimation
-relationship: scale_of CO_322:0000224 ! erinc - computation
-relationship: scale_of CO_322:0000226 ! dmsev - estimation
-relationship: scale_of CO_322:0000228 ! rustsev - estimation
-relationship: scale_of CO_322:0000229 ! fgramsrinc - computation
-relationship: scale_of CO_322:0000230 ! fusersev - estimation
-relationship: scale_of CO_322:0000231 ! fmonsrinc - computation
-relationship: scale_of CO_322:0000232 ! fussrinc - computation
-relationship: scale_of CO_322:0000233 ! pytsrinc - computation
-relationship: scale_of CO_322:0000235 ! stensrinc - computation
-relationship: scale_of CO_322:0000236 ! mlnsev - estimation
-relationship: scale_of CO_322:0000243 ! clssev - estimation
-relationship: scale_of CO_322:0000244 ! mcob - computation
-relationship: scale_of CO_322:0000245 ! glssev - estimation
-relationship: scale_of CO_322:0000247 ! plssev - estimation
-relationship: scale_of CO_322:0000249 ! bmaysev - estimation
-relationship: scale_of CO_322:0000251 ! aflaversev - estimation
-relationship: scale_of CO_322:0000253 ! fgramersev - estimation
-relationship: scale_of CO_322:0000255 ! fmonersev - estimation
-relationship: scale_of CO_322:0000257 ! persev - estimation
-relationship: scale_of CO_322:0000259 ! smaysev - estimation
-relationship: scale_of CO_322:0000261 ! eturcsev - estimation
-relationship: scale_of CO_322:0000263 ! ppolysev - estimation
-relationship: scale_of CO_322:0000265 ! crustsev - estimation
-relationship: scale_of CO_322:0000267 ! csmutsev - estimation
-relationship: scale_of CO_322:0000269 ! trustsev - estimation
-relationship: scale_of CO_322:0000270 ! endolys - measurement
-relationship: scale_of CO_322:0000271 ! dmvinc - computation
-relationship: scale_of CO_322:0000272 ! scmvinc - computation
-relationship: scale_of CO_322:0000273 ! msvsev - estimation
-relationship: scale_of CO_322:0000274 ! mrcvinc - computation
-relationship: scale_of CO_322:0000275 ! hsmutinc - computation
-relationship: scale_of CO_322:0000276 ! mstvinc - computation
-relationship: scale_of CO_322:0000277 ! albinc - computation
-relationship: scale_of CO_322:0000278 ! mrdvinc - computation
-relationship: scale_of CO_322:0000280 ! mrfvinc - computation
-relationship: scale_of CO_322:0000293 ! bsdminc - computation
-relationship: scale_of CO_322:0000295 ! ctminc - computation
-relationship: scale_of CO_322:0000297 ! dmjinc - computation
-relationship: scale_of CO_322:0000299 ! pdminc - computation
-relationship: scale_of CO_322:0000301 ! dmsinc - computation
-relationship: scale_of CO_322:0000303 ! psacchinc - computation
-relationship: scale_of CO_322:0000305 ! blsbsev - estimation
-relationship: scale_of CO_322:0000307 ! astriinc - computation
-relationship: scale_of CO_322:0000309 ! bwspotsev - estimation
-relationship: scale_of CO_322:0000311 ! charrinc - computation
-relationship: scale_of CO_322:0000313 ! latewiltinc - computation
-relationship: scale_of CO_322:0000315 ! sdlngdisinc - computation
-relationship: scale_of CO_322:0000317 ! bclssev - estimation
-relationship: scale_of CO_322:0000319 ! bactsrinc - computation
-relationship: scale_of CO_322:0000321 ! cscmsev - estimation
-relationship: scale_of CO_322:0000323 ! stewiltinc - computation
-relationship: scale_of CO_322:0000335 ! eworminc - computation
-relationship: scale_of CO_322:0000339 ! gwlostweev - measurement
-relationship: scale_of CO_322:0000357 ! glucose - measurement
-relationship: scale_of CO_322:0000377 ! sucrose - measurement
-relationship: scale_of CO_322:0000379 ! sugar - measurement
-relationship: scale_of CO_322:0000381 ! gash - measurement
-relationship: scale_of CO_322:0000391 ! gstarch - measurement
-relationship: scale_of CO_322:0000489 ! csssev - estimation
-relationship: scale_of CO_322:0000521 ! aspersev - estimation
-relationship: scale_of CO_322:0000522 ! dmssev - estimation
-relationship: scale_of CO_322:0000555 ! bhskcovinc - computation
-relationship: scale_of CO_322:0000557 ! csmutinc - computation
-relationship: scale_of CO_322:0000558 ! cscinc - computation
-relationship: scale_of CO_322:0000568 ! msvinc - computation
-relationship: scale_of CO_322:0000609 ! shell - computation
-relationship: scale_of CO_322:0000621 ! goil - measurement
-relationship: scale_of CO_322:0000658 ! bhskcovinc - estimation
-relationship: scale_of CO_322:0000680 ! erinc - estimation
-relationship: scale_of CO_322:0000715 ! nirs moi - measurement
-relationship: scale_of CO_322:0000755 ! relative to check - computation
-relationship: scale_of CO_322:0000773 ! lash- measurement
-relationship: scale_of CO_322:0000776 ! nirs lash - measurement
-relationship: scale_of CO_322:0000842 ! fmonsrsev - estimation
-relationship: scale_of CO_322:0000853 ! hsmutsev - estimation
-relationship: scale_of CO_322:0000898 ! rlodginc - estimation
-relationship: scale_of CO_322:0000911 ! slodginc - estimation
-relationship: scale_of CO_322:0000957 ! nirs gash - measurement
-relationship: scale_of CO_322:0000962 ! nirs goil - measurement
-relationship: scale_of CO_322:0000965 ! nirs gprot- measurement
-relationship: scale_of CO_322:0000969 ! nirs gtrp- measurement
-relationship: scale_of CO_322:0001121 ! gnc - measurement
 
 [Term]
 id: CO_322:0000351
@@ -2176,61 +1981,10 @@ def: "Standard method for tassel type." [CO:curators]
 relationship: method_of CO_322:0000164 ! tassel branching type
 
 [Term]
-id: CO_322:0000352
-name: maize day scale
-relationship: scale_of CO_322:0000181 ! asi - computation
-relationship: scale_of CO_322:0000189 ! days to anthesis - computation
-relationship: scale_of CO_322:0000191 ! dts - computation
-relationship: scale_of CO_322:0000237 ! days to maturity - computation
-relationship: scale_of CO_322:0000246 ! days to ear leaf senescence date - computation
-
-[Term]
 id: CO_322:0000353
 name: maize elchl - measurement method
 def: "Standard method for ear leaf chlorophyll content." [CO:curators]
 relationship: method_of CO_322:0000105 ! ear leaf chlorophyll content
-
-[Term]
-id: CO_322:0000354
-name: maize plant/plot scale
-relationship: scale_of CO_322:0000201 ! pstand - counting
-relationship: scale_of CO_322:0000207 ! bhskcovinc - counting
-relationship: scale_of CO_322:0000241 ! cscinc - counting
-relationship: scale_of CO_322:0000329 ! busseolainc - counting
-relationship: scale_of CO_322:0000549 ! strigapn - counting
-relationship: scale_of CO_322:0000562 ! fussrinc - counting
-relationship: scale_of CO_322:0000563 ! fgramsrinc - counting
-relationship: scale_of CO_322:0000564 ! fmonsrinc - counting
-relationship: scale_of CO_322:0000565 ! hsmutinc - counting
-relationship: scale_of CO_322:0000566 ! dmvinc - counting
-relationship: scale_of CO_322:0000567 ! msvinc - counting
-relationship: scale_of CO_322:0000569 ! rlodginc - counting
-relationship: scale_of CO_322:0000570 ! slodginc - counting
-relationship: scale_of CO_322:0000571 ! mcob - counting
-relationship: scale_of CO_322:0000572 ! ctminc - counting
-relationship: scale_of CO_322:0000573 ! dmjinc - counting
-relationship: scale_of CO_322:0000574 ! pytsrinc - counting
-relationship: scale_of CO_322:0000575 ! dmsinc - counting
-relationship: scale_of CO_322:0000576 ! pdminc - counting
-relationship: scale_of CO_322:0000577 ! psacchinc - counting
-relationship: scale_of CO_322:0000578 ! scmvinc - counting
-relationship: scale_of CO_322:0000579 ! srinc - counting
-relationship: scale_of CO_322:0000580 ! albinc - counting
-relationship: scale_of CO_322:0000581 ! bactsrinc - counting
-relationship: scale_of CO_322:0000582 ! astriinc - counting
-relationship: scale_of CO_322:0000583 ! bsdminc - counting
-relationship: scale_of CO_322:0000584 ! charrinc - counting
-relationship: scale_of CO_322:0000585 ! eworminc - counting
-relationship: scale_of CO_322:0000586 ! latewiltinc - counting
-relationship: scale_of CO_322:0000587 ! mrfvinc - counting
-relationship: scale_of CO_322:0000588 ! mrdvinc - counting
-relationship: scale_of CO_322:0000589 ! mstvinc - counting
-relationship: scale_of CO_322:0000590 ! mrcvinc - counting
-relationship: scale_of CO_322:0000591 ! stensrinc - counting
-relationship: scale_of CO_322:0000592 ! stewiltinc - counting
-relationship: scale_of CO_322:0000593 ! phvst - counting
-relationship: scale_of CO_322:0000903 ! sdlngdisinc - counting
-relationship: scale_of CO_322:0001031 ! csmutinc - counting
 
 [Term]
 id: CO_322:0000355
@@ -2239,25 +1993,11 @@ def: "Standard method for young leaf chlorophyll content." [CO:curators]
 relationship: method_of CO_322:0000024 ! young leaf chlorophyll content
 
 [Term]
-id: CO_322:0000356
-name: maize ear/plant scale
-relationship: scale_of CO_322:0000203 ! en - computation
-
-[Term]
 id: CO_322:0000357
 name: maize glucose - measurement method
 def: "Standard method for glucose content." [CO:curators]
 relationship: method_of CO_322:0000115 ! grain glucose content
 relationship: method_of CO_322:0000978 ! leaf sucrose content
-
-[Term]
-id: CO_322:0000358
-name: maize kg/plot scale
-relationship: scale_of CO_322:0000607 ! earw dry weight - measurement
-relationship: scale_of CO_322:0000608 ! fw gy - measurement
-relationship: scale_of CO_322:0000682 ! earw field weight - measurement
-relationship: scale_of CO_322:0000738 ! dw gy - measurement
-relationship: scale_of CO_322:0000926 ! shellcobw - measurement (duplicate)
 
 [Term]
 id: CO_322:0000360
@@ -2328,13 +2068,6 @@ def: "Standard method for tassel blasting." [CO:curators]
 relationship: method_of CO_322:0000188 ! tassel blasting severity
 
 [Term]
-id: CO_322:0000372
-name: maize index scale
-relationship: scale_of CO_322:0000361 ! ndvi - measurement
-relationship: scale_of CO_322:0000367 ! pri - measurement
-relationship: scale_of CO_322:0000385 ! wi - measurement
-
-[Term]
 id: CO_322:0000375
 name: maize scond - measurement method
 def: "Measured with a portable porometer. Take the measures in the middle between leaf tip and leaf base, and in between leaf midrib and leaf rim. Blade sections measured must to be exposed to sunlight for at least the 30 minutes before.  Measurements always performed in the same side of the leaf (usually the lower or abaxial one). One measurement per leaf, and at least 3 per plot. 1 min per measurement." [CO:curators]
@@ -2351,13 +2084,6 @@ relationship: method_of CO_322:0000978 ! leaf sucrose content
 relationship: method_of CO_322:0001099 ! cob sucrose content
 relationship: method_of CO_322:0001116 ! root glucose content
 relationship: method_of CO_322:0001118 ! root sucrose content
-
-[Term]
-id: CO_322:0000378
-name: maize cci scale
-relationship: scale_of CO_322:0000242 ! chl - measurement
-relationship: scale_of CO_322:0000353 ! elchl - measurement
-relationship: scale_of CO_322:0000355 ! ylchl - measurement
 
 [Term]
 id: CO_322:0000379
@@ -2408,69 +2134,6 @@ def: "Standard method for canopy temperature." [CO:curators]
 relationship: method_of CO_322:0000142 ! canopy temperature
 
 [Term]
-id: CO_322:0000396
-name: maize 1-5 rating scale
-relationship: scale_of CO_322:0000199 ! easp - estimation
-relationship: scale_of CO_322:0000209 ! pasp - estimation
-relationship: scale_of CO_322:0000220 ! hskcov - estimation
-
-[Term]
-id: CO_322:0000448
-name: maize 1-3 density scale
-relationship: scale_of CO_322:0000292 ! shtpub - estimation
-
-[Term]
-id: CO_322:0000456
-name: maize 1-3 tassel branching type scale
-relationship: scale_of CO_322:0000351 ! tsltyp - estimation
-
-[Term]
-id: CO_322:0000477
-name: maize 1-5 damage scoring scale
-relationship: scale_of CO_322:0000267 ! csmutsev - estimation
-relationship: scale_of CO_322:0000279 ! chilodmg - estimation
-relationship: scale_of CO_322:0000281 ! edmg - estimation
-relationship: scale_of CO_322:0000283 ! stbordmg - estimation
-relationship: scale_of CO_322:0000285 ! strigadmg - estimation
-relationship: scale_of CO_322:0000287 ! lgbdmg - estimation
-relationship: scale_of CO_322:0000325 ! aphdmg - estimation
-relationship: scale_of CO_322:0000327 ! awormdmg - estimation
-relationship: scale_of CO_322:0000329 ! busseolainc - counting
-relationship: scale_of CO_322:0000331 ! diabroticadmg - estimation
-relationship: scale_of CO_322:0000333 ! diatraeadmg - estimation
-relationship: scale_of CO_322:0000858 ! lodginc - estimation
-
-[Term]
-id: CO_322:0000478
-name: maize 1-5 endosperm hardness scale
-relationship: scale_of CO_322:0000227 ! endohard - estimation
-
-[Term]
-id: CO_322:0000480
-name: maize 1-5 grain texture scale
-relationship: scale_of CO_322:0000219 ! gtex - estimation
-
-[Term]
-id: CO_322:0000482
-name: maize 1-5 leaf rolling severity scale
-relationship: scale_of CO_322:0000215 ! lrollsev - estimation
-
-[Term]
-id: CO_322:0000485
-name: maize 1-5 pericarp color scale
-relationship: scale_of CO_322:0000362 ! periccol - estimation
-
-[Term]
-id: CO_322:0000486
-name: maize 1-5 aleurone color scale
-relationship: scale_of CO_322:0000364 ! aleucol - estimation
-
-[Term]
-id: CO_322:0000487
-name: maize 1-4 ear shape scale
-relationship: scale_of CO_322:0000308 ! upesh - estimation
-
-[Term]
 id: CO_322:0000488
 name: maize corn stunt spiroplasma severity trait
 def: "Corn stunt spiroplasma severity." [CO:curators]
@@ -2484,79 +2147,6 @@ def: "Observe fusarium graminearum ear rot severity on the plants per plot based
 relationship: method_of CO_322:0000488 ! corn stunt spiroplasma severity
 relationship: method_of CO_322:0000488 ! corn stunt spiroplasma severity
 relationship: method_of CO_322:0000488 ! corn stunt spiroplasma severity
-
-[Term]
-id: CO_322:0000496
-name: maize 1-5 weevdmginc scale
-relationship: scale_of CO_322:0000289 ! weevinc - estimation
-
-[Term]
-id: CO_322:0000503
-name: maize cm/day scale
-relationship: scale_of CO_322:0000252 ! egrwr - computation
-relationship: scale_of CO_322:0000296 ! silkgrwr - computation
-
-[Term]
-id: CO_322:0000504
-name: maize 0-1 absent-present scale
-relationship: scale_of CO_322:0000176 ! fungdis - estimation
-
-[Term]
-id: CO_322:0000507
-name: maize 1-5 tassel blasting severity scale
-relationship: scale_of CO_322:0000370 ! tslblastsev - estimation
-
-[Term]
-id: CO_322:0000508
-name: maize pg/g scale
-relationship: scale_of CO_322:0000238 ! aba - measurement
-
-[Term]
-id: CO_322:0000510
-name: maize ¡c day scale
-relationship: scale_of CO_322:0000260 ! growing degree days to anthesis - computation
-relationship: scale_of CO_322:0000262 ! growing degree days to maturity - computation
-
-[Term]
-id: CO_322:0000511
-name: maize mpa scale
-relationship: scale_of CO_322:0000363 ! oa  - measurement
-relationship: scale_of CO_322:0000365 ! op - measurement
-
-[Term]
-id: CO_322:0000512
-name: maize uf scale
-relationship: scale_of CO_322:0000286 ! rootcapac - measurement
-
-[Term]
-id: CO_322:0000513
-name: maize mmol /m2/s scale
-relationship: scale_of CO_322:0000375 ! scond - measurement
-
-[Term]
-id: CO_322:0000514
-name: maize tiller/plant scale
-relationship: scale_of CO_322:0000306 ! tillering - counting
-
-[Term]
-id: CO_322:0000515
-name: maize row/ear scale
-relationship: scale_of CO_322:0000221 ! gcol - estimation
-
-[Term]
-id: CO_322:0000517
-name: maize branch scale
-relationship: scale_of CO_322:0000304 ! tslbn - counting
-
-[Term]
-id: CO_322:0000518
-name: maize weevil scale
-relationship: scale_of CO_322:0000337 ! weevn - counting
-
-[Term]
-id: CO_322:0000519
-name: maize grain/plant scale
-relationship: scale_of CO_322:0000345 ! gn - computation
 
 [Term]
 id: CO_322:0000520
@@ -2725,11 +2315,6 @@ id: CO_322:0000559
 name: maize epo - estimation method
 def: "Determine ear position using 1-3 scale." [CO:curators]
 relationship: method_of CO_322:0000020 ! ear position
-
-[Term]
-id: CO_322:0000560
-name: maize 1-3 ear position scale
-relationship: scale_of CO_322:0000559 ! epo - estimation
 
 [Term]
 id: CO_322:0000561
@@ -2936,14 +2521,6 @@ def: "Count the total number of ears harvested per plot/entry, excluding seconda
 relationship: method_of CO_322:0000523 ! ear harvested number
 
 [Term]
-id: CO_322:0000597
-name: maize ug/g scale
-relationship: scale_of CO_322:0000238 ! aba - measurement
-relationship: scale_of CO_322:0000369 ! proline - measurement
-relationship: scale_of CO_322:0000369 ! proline - measurement
-relationship: scale_of CO_322:0000389 ! gvita - measurement
-
-[Term]
 id: CO_322:0000607
 name: maize earw dry weight - measurement method
 def: "Harvest all ears in a plot (or row), put them in the nylon bag and record weight. If at all possible, delay harvest of maize until its moisture content is low (15-25%)." [CO:curators]
@@ -2970,13 +2547,6 @@ id: CO_322:0000621
 name: maize goil - measurement method
 def: "Standard method for oil content" [CO:curators]
 relationship: method_of CO_322:0000533 ! grain oil content
-
-[Term]
-id: CO_322:0000622
-name: maize t/ha scale
-relationship: scale_of CO_322:0000197 ! adjusted gy - computation
-relationship: scale_of CO_322:0000741 ! dw gy - computation
-relationship: scale_of CO_322:0000750 ! fw gy - computation
 
 [Term]
 id: CO_322:0000625
@@ -3038,56 +2608,6 @@ id: CO_322:0000637
 name: maize tslopen - estimation method
 def: "Standard method for tassel opening" [CO:curators]
 relationship: method_of CO_322:0000544 ! tassel opening
-
-[Term]
-id: CO_322:0000640
-name: maize 1-5 leaf color scale
-relationship: scale_of CO_322:0000630 ! lcol - estimation
-
-[Term]
-id: CO_322:0000641
-name: maize 1-4 leaf erectness scale
-relationship: scale_of CO_322:0000631 ! lerect - estimation
-
-[Term]
-id: CO_322:0000642
-name: maize 1-5 anthocyanin coloration scale
-relationship: scale_of CO_322:0000632 ! silkancol - estimation
-relationship: scale_of CO_322:0000634 ! tslancol - estimation
-relationship: scale_of CO_322:0000652 ! antancol - estimation
-relationship: scale_of CO_322:0000945 ! tslglbancol - estimation
-relationship: scale_of CO_322:0000948 ! tslglancol - estimation
-
-[Term]
-id: CO_322:0000643
-name: maize 1-5 standard germination scale
-relationship: scale_of CO_322:0000633 ! stdgerm - estimation
-
-[Term]
-id: CO_322:0000645
-name: maize 1-3 tassel density scale
-relationship: scale_of CO_322:0000635 ! tslden - estimation
-
-[Term]
-id: CO_322:0000646
-name: maize 1-5 tassel exertion scale
-relationship: scale_of CO_322:0000636 ! tslexer - estimation
-
-[Term]
-id: CO_322:0000647
-name: maize 1-5 tassel opening scale
-relationship: scale_of CO_322:0000637 ! tslopen - estimation
-
-[Term]
-id: CO_322:0000648
-name: maize 1-3 plant uniformity scale
-relationship: scale_of CO_322:0000625 ! punif - estimation
-
-[Term]
-id: CO_322:0000649
-name: maize 1-5 vigor scale
-relationship: scale_of CO_322:0000626 ! pvig - estimation
-relationship: scale_of CO_322:0000626 ! pvig - estimation
 
 [Term]
 id: CO_322:0000650
@@ -3213,11 +2733,6 @@ def: "Standard method for ear shape" [CO:curators]
 relationship: method_of CO_322:0000664 ! ear shape
 
 [Term]
-id: CO_322:0000666
-name: maize 1-3 ear shape scale
-relationship: scale_of CO_322:0000665 ! eshape - estimation
-
-[Term]
 id: CO_322:0000667
 name: maize eshape_e_1to3 variable
 relationship: variable_of CO_322:0000664 ! ear shape
@@ -3250,13 +2765,6 @@ relationship: variable_of CO_322:0000348 ! cm
 is_a: CO_322:0000017 ! ear height
 
 [Term]
-id: CO_322:0000671
-name: maize ear/plot scale
-relationship: scale_of CO_322:0000561 ! erinc - counting
-relationship: scale_of CO_322:0000594 ! ehvst - counting
-relationship: scale_of CO_322:0000988 ! en - counting
-
-[Term]
 id: CO_322:0000672
 name: maize ehvst_ct_earplot variable
 relationship: variable_of CO_322:0000523 ! ear harvested number
@@ -3279,11 +2787,6 @@ relationship: variable_of CO_322:0000021 ! ear number
 relationship: variable_of CO_322:0000203 ! en - computation
 relationship: variable_of CO_322:0000356 ! ear/plant
 is_a: CO_322:0000021 ! ear number
-
-[Term]
-id: CO_322:0000675
-name: maize ear position ratio scale
-relationship: scale_of CO_322:0000225 ! epo - computation
 
 [Term]
 id: CO_322:0000676
@@ -3455,11 +2958,6 @@ relationship: variable_of CO_322:0000609 ! shell - computation
 is_a: CO_322:0000526 ! ear shelling ratio
 
 [Term]
-id: CO_322:0000699
-name: maize ear shelling ratio scale
-relationship: scale_of CO_322:0000609 ! shell - computation
-
-[Term]
 id: CO_322:0000700
 name: maize shell_cmp_ratio variable
 relationship: variable_of CO_322:0000526 ! ear shelling ratio
@@ -3498,11 +2996,6 @@ relationship: variable_of CO_322:0000105 ! ear leaf chlorophyll content
 relationship: variable_of CO_322:0000353 ! elchl - measurement
 relationship: variable_of CO_322:0000378 ! CCI
 is_a: CO_322:0000105 ! ear leaf chlorophyll content
-
-[Term]
-id: CO_322:0000705
-name: maize 1-6 endosperm color scale
-relationship: scale_of CO_322:0000366 ! endocol - estimation
 
 [Term]
 id: CO_322:0000706
@@ -3631,13 +3124,6 @@ relationship: variable_of CO_322:0001094 ! 1-6 grain upper surface shape scale
 is_a: CO_322:0000178 ! grain upper surface shape
 
 [Term]
-id: CO_322:0000722
-name: maize g/1000grain scale
-relationship: scale_of CO_322:0000341 ! gw dw - measurement
-relationship: scale_of CO_322:0000979 ! gw adjusted - computation
-relationship: scale_of CO_322:0000980 ! gw fw - measurement
-
-[Term]
 id: CO_322:0000723
 name: maize gw_dw_g1000grn variable
 synonym: "TGW, TKW, 1000KW" EXACT []
@@ -3647,13 +3133,6 @@ relationship: variable_of CO_322:0000722 ! g/1000grain
 is_a: CO_322:0000133 ! grain weight
 
 [Term]
-id: CO_322:0000724
-name: maize g/100grain scale
-relationship: scale_of CO_322:0000341 ! gw dw - measurement
-relationship: scale_of CO_322:0000979 ! gw adjusted - computation
-relationship: scale_of CO_322:0000980 ! gw fw - measurement
-
-[Term]
 id: CO_322:0000725
 name: maize gw_dw_g100grn variable
 synonym: "100KW" EXACT []
@@ -3661,13 +3140,6 @@ relationship: variable_of CO_322:0000133 ! grain weight
 relationship: variable_of CO_322:0000341 ! gw dw - measurement
 relationship: variable_of CO_322:0000724 ! g/100grain
 is_a: CO_322:0000133 ! grain weight
-
-[Term]
-id: CO_322:0000726
-name: maize g/200grain scale
-relationship: scale_of CO_322:0000341 ! gw dw - measurement
-relationship: scale_of CO_322:0000979 ! gw adjusted - computation
-relationship: scale_of CO_322:0000980 ! gw fw - measurement
 
 [Term]
 id: CO_322:0000727
@@ -3685,13 +3157,6 @@ relationship: variable_of CO_322:0000175 ! grain width
 relationship: variable_of CO_322:0000206 ! mm
 relationship: variable_of CO_322:0000266 ! gwid - measurement
 is_a: CO_322:0000175 ! grain width
-
-[Term]
-id: CO_322:0000729
-name: maize kg/ha scale
-relationship: scale_of CO_322:0000197 ! adjusted gy - computation
-relationship: scale_of CO_322:0000735 ! dry weight basis gy - computation
-relationship: scale_of CO_322:0000745 ! fw gy - computation
 
 [Term]
 id: CO_322:0000730
@@ -3714,14 +3179,6 @@ id: CO_322:0000732
 name: maize dw gy - measurement method
 def: "Shell the grains (kernels) from the ears harvested per plot and put grains in a paper bag and  dry at 60-70¡C for 1-2 days, then measure and record the weight of dried grain." [CO:curators]
 relationship: method_of CO_322:0000005 ! grain yield
-
-[Term]
-id: CO_322:0000733
-name: maize g/plot scale
-relationship: scale_of CO_322:0000607 ! earw dry weight - measurement
-relationship: scale_of CO_322:0000608 ! fw gy - measurement
-relationship: scale_of CO_322:0000732 ! dw gy - measurement
-relationship: scale_of CO_322:0000926 ! shellcobw - measurement (duplicate)
 
 [Term]
 id: CO_322:0000734
@@ -3822,11 +3279,6 @@ id: CO_322:0000752
 name: maize gyrank - computation method
 def: "It is calculated as the numerical position of the progeny when yields are arrenged from highest to lowest." [CO:curators]
 relationship: method_of CO_322:0000005 ! grain yield
-
-[Term]
-id: CO_322:0000753
-name: maize rank number scale
-relationship: scale_of CO_322:0000752 ! gyrank - computation
 
 [Term]
 id: CO_322:0000754
@@ -4147,14 +3599,6 @@ id: CO_322:0000795
 name: maize anthesis date - estimation method
 def: "Date when 50% of the plants shed pollen. Observe a known number of plants carefully (guideline: N = 20 for inbred lines or hybrids; N = 35 for open pollinated varieties) at the same time each day until 50% of the plants in the plot have produced at least one visible anther and record the date." [CO:curators]
 relationship: method_of CO_322:0000030 ! anthesis time
-
-[Term]
-id: CO_322:0000796
-name: maize yyyymmdd scale
-relationship: scale_of CO_322:0000795 ! anthesis date - estimation
-relationship: scale_of CO_322:0000833 ! ear leaf senescence date - computation
-relationship: scale_of CO_322:0000861 ! maturity date - estimation
-relationship: scale_of CO_322:0000905 ! silking date - estimation
 
 [Term]
 id: CO_322:0000797
@@ -4530,11 +3974,6 @@ relationship: variable_of CO_322:0000046 ! fungal disease presence
 relationship: variable_of CO_322:0000176 ! fungdis - estimation
 relationship: variable_of CO_322:0000504 ! 0-1 absent-present scale
 is_a: CO_322:0000046 ! fungal disease presence
-
-[Term]
-id: CO_322:0000845
-name: maize text scale
-relationship: scale_of CO_322:0000176 ! fungdis - estimation
 
 [Term]
 id: CO_322:0000846
@@ -5206,11 +4645,6 @@ relationship: variable_of CO_322:0000348 ! cm
 is_a: CO_322:0000013 ! silk length
 
 [Term]
-id: CO_322:0000936
-name: maize 1-5 stem color scale
-relationship: scale_of CO_322:0000185 ! stemcol - estimation
-
-[Term]
 id: CO_322:0000937
 name: maize stemcol_e_1to5 variable
 relationship: variable_of CO_322:0000162 ! stem color
@@ -5552,79 +4986,6 @@ relationship: method_of CO_322:0000133 ! grain weight
 relationship: method_of CO_322:0000133 ! grain weight
 
 [Term]
-id: CO_322:0000981
-name: maize 1-9 disease scoring scale
-relationship: scale_of CO_322:0000187 ! tscsev - estimation
-relationship: scale_of CO_322:0000226 ! dmsev - estimation
-relationship: scale_of CO_322:0000228 ! rustsev - estimation
-relationship: scale_of CO_322:0000230 ! fusersev - estimation
-relationship: scale_of CO_322:0000236 ! mlnsev - estimation
-relationship: scale_of CO_322:0000243 ! clssev - estimation
-relationship: scale_of CO_322:0000245 ! glssev - estimation
-relationship: scale_of CO_322:0000247 ! plssev - estimation
-relationship: scale_of CO_322:0000249 ! bmaysev - estimation
-relationship: scale_of CO_322:0000251 ! aflaversev - estimation
-relationship: scale_of CO_322:0000253 ! fgramersev - estimation
-relationship: scale_of CO_322:0000255 ! fmonersev - estimation
-relationship: scale_of CO_322:0000257 ! persev - estimation
-relationship: scale_of CO_322:0000259 ! smaysev - estimation
-relationship: scale_of CO_322:0000261 ! eturcsev - estimation
-relationship: scale_of CO_322:0000263 ! ppolysev - estimation
-relationship: scale_of CO_322:0000265 ! crustsev - estimation
-relationship: scale_of CO_322:0000267 ! csmutsev - estimation
-relationship: scale_of CO_322:0000269 ! trustsev - estimation
-relationship: scale_of CO_322:0000273 ! msvsev - estimation
-relationship: scale_of CO_322:0000305 ! blsbsev - estimation
-relationship: scale_of CO_322:0000309 ! bwspotsev - estimation
-relationship: scale_of CO_322:0000317 ! bclssev - estimation
-relationship: scale_of CO_322:0000321 ! cscmsev - estimation
-relationship: scale_of CO_322:0000489 ! csssev - estimation
-relationship: scale_of CO_322:0000521 ! aspersev - estimation
-relationship: scale_of CO_322:0000522 ! dmssev - estimation
-relationship: scale_of CO_322:0000842 ! fmonsrsev - estimation
-relationship: scale_of CO_322:0000853 ! hsmutsev - estimation
-
-[Term]
-id: CO_322:0000982
-name: maize 1-9 anthocyanin coloration scale
-relationship: scale_of CO_322:0000652 ! antancol - estimation
-relationship: scale_of CO_322:0000945 ! tslglbancol - estimation
-relationship: scale_of CO_322:0000948 ! tslglancol - estimation
-relationship: scale_of CO_322:0001084 ! cobglancol - estimation
-
-[Term]
-id: CO_322:0000983
-name: maize 1-2  absent-present scale
-relationship: scale_of CO_322:0000652 ! antancol - estimation
-relationship: scale_of CO_322:0000945 ! tslglbancol - estimation
-relationship: scale_of CO_322:0000948 ! tslglancol - estimation
-
-[Term]
-id: CO_322:0000984
-name: maize umol/g scale
-relationship: scale_of CO_322:0000377 ! sucrose - measurement
-relationship: scale_of CO_322:0000377 ! sucrose - measurement
-relationship: scale_of CO_322:0000377 ! sucrose - measurement
-
-[Term]
-id: CO_322:0000985
-name: maize mg/g scale
-relationship: scale_of CO_322:0000369 ! proline - measurement
-relationship: scale_of CO_322:0000377 ! sucrose - measurement
-
-[Term]
-id: CO_322:0000986
-name: maize ng/g scale
-relationship: scale_of CO_322:0000238 ! aba - measurement
-relationship: scale_of CO_322:0000238 ! aba - measurement
-
-[Term]
-id: CO_322:0000987
-name: maize ng/μg scale
-relationship: scale_of CO_322:0000377 ! sucrose - measurement
-relationship: scale_of CO_322:0000377 ! sucrose - measurement
-
-[Term]
 id: CO_322:0000988
 name: maize en - counting method
 def: "Count the number of ears." [CO:curators]
@@ -5650,11 +5011,6 @@ id: CO_322:0000991
 name: maize gviablty - measurement method
 def: "Standard method for grain viability." [CO:curators]
 relationship: method_of CO_322:0000990 ! grain viability
-
-[Term]
-id: CO_322:0000992
-name: maize 1-5 seed viability scale
-relationship: scale_of CO_322:0000991 ! gviablty - measurement
 
 [Term]
 id: CO_322:0000993
@@ -5708,11 +5064,6 @@ relationship: variable_of CO_322:0000998 ! phfl - measurement
 is_a: CO_322:0000997 ! plant height to ligule of the flag leaf
 
 [Term]
-id: CO_322:0001000
-name: maize g/plant/day scale
-relationship: scale_of CO_322:0000252 ! egrwr - computation
-
-[Term]
 id: CO_322:0001001
 name: maize egrwr_cmp_gplntday variable
 relationship: variable_of CO_322:0000016 ! ear growth rate
@@ -5754,11 +5105,6 @@ id: CO_322:0001006
 name: maize gtw - computation method
 def: "Standard method for grain test weight." [CO:curators]
 relationship: method_of CO_322:0001005 ! grain test weight
-
-[Term]
-id: CO_322:0001007
-name: maize lb/bsh scale
-relationship: scale_of CO_322:0001006 ! gtw - computation
 
 [Term]
 id: CO_322:0001008
@@ -5815,11 +5161,6 @@ relationship: variable_of CO_322:0000133 ! grain weight
 relationship: variable_of CO_322:0000724 ! g/100grain
 relationship: variable_of CO_322:0000980 ! gw fw - measurement
 is_a: CO_322:0000133 ! grain weight
-
-[Term]
-id: CO_322:0001015
-name: maize lb/plot scale
-relationship: scale_of CO_322:0000608 ! fw gy - measurement
 
 [Term]
 id: CO_322:0001016
@@ -6392,11 +5733,6 @@ def: "Standard method for cob tassel color. The anthocyanin coloration should be
 relationship: method_of CO_322:0001086 ! cob glumes color
 
 [Term]
-id: CO_322:0001088
-name: maize 1-3 cob color scale
-relationship: scale_of CO_322:0001087 ! cobglcol - estimation
-
-[Term]
 id: CO_322:0001089
 name: maize cobglcol_e_1to3 variable
 relationship: variable_of CO_322:0001086 ! cob glumes color
@@ -6433,11 +5769,6 @@ relationship: variable_of CO_322:0000206 ! mm
 relationship: variable_of CO_322:0001091 ! ear width
 relationship: variable_of CO_322:0001092 ! ewid - measurement
 is_a: CO_322:0001091 ! ear width
-
-[Term]
-id: CO_322:0001094
-name: maize 1-6 grain upper surface shape scale
-relationship: scale_of CO_322:0000360 ! gupssh - estimation
 
 [Term]
 id: CO_322:0001095
@@ -6494,12 +5825,6 @@ relationship: variable_of CO_322:0000113 ! grain abscisic acid content
 relationship: variable_of CO_322:0000238 ! aba - measurement
 relationship: variable_of CO_322:0000508 ! pg/g
 is_a: CO_322:0000113 ! grain abscisic acid content
-
-[Term]
-id: CO_322:0001102
-name: maize ug/mg scale
-is_a: TO:0006002
-relationship: scale_of CO_322:0000357 ! glucose - measurement
 
 [Term]
 id: CO_322:0001103
@@ -6659,10 +5984,6 @@ is_a: CO_322:0001120 ! grain nitrogen content
 [Typedef]
 id: method_of
 name: method_of
-
-[Typedef]
-id: scale_of
-name: scale_of
 
 [Typedef]
 id: variable_of
