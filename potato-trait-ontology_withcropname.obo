@@ -481,380 +481,11 @@ def: "The lipophilic antioxidant activity in dry weight basis" [CO:curators]
 is_a: TO:0001143 ! antioxidant activity trait
 
 [Term]
-id: CO_330:0000223
-name: potato plgwht_et_1to6 variable
-synonym: "HABIT, PGH" EXACT []
-relationship: variable_of CO_330:0000000 ! plant growth habit
-relationship: variable_of CO_330:0000001 ! visual estimation - plant growth habit
-relationship: variable_of CO_330:0000002 ! plgwht 6 pt. scale
-is_a: CO_330:0000000 ! plant growth habit
-
-[Term]
-id: CO_330:0000224
-name: potato flwdgr_et_0to7 variable
-synonym: "FLOWERING" EXACT []
-relationship: variable_of CO_330:0000003 ! flowering degree
-relationship: variable_of CO_330:0000004 ! visual estimation - flowering degree
-relationship: variable_of CO_330:0000005 ! flwdgr 5 pt. scale
-is_a: CO_330:0000003 ! flowering degree
-
-[Term]
-id: CO_330:0000225
-name: potato corsh_et_1to9 variable
-synonym: "CORSHAP" EXACT []
-relationship: variable_of CO_330:0000006 ! corolla shape
-relationship: variable_of CO_330:0000007 ! visual estimation - corolla shape
-relationship: variable_of CO_330:0000008 ! corsh 5 pt. scale
-is_a: CO_330:0000006 ! corolla shape
-
-[Term]
-id: CO_330:0000226
-name: potato flwnin_et_0to7 variable
-synonym: "NIPP" EXACT []
-relationship: variable_of CO_330:0000009 ! inflorescence number
-relationship: variable_of CO_330:0000010 ! visual estimation - inflorescence number
-relationship: variable_of CO_330:0000011 ! flwnin 5 pt. scale
-is_a: CO_330:0000009 ! inflorescence number
-
-[Term]
-id: CO_330:0000227
-name: potato flwnum_et_1to9 variable
-synonym: "NFWP" EXACT []
-relationship: variable_of CO_330:0000012 ! main inflorescence flower number
-relationship: variable_of CO_330:0000013 ! visual estimation - main inflorescence flower number
-relationship: variable_of CO_330:0000014 ! flwnum 6 pt. scale
-is_a: CO_330:0000012 ! main inflorescence flower number
-
-[Term]
-id: CO_330:0000228
-name: potato flranp_et_1to9 variable
-synonym: "ANTPIG" EXACT []
-relationship: variable_of CO_330:0000015 ! anther pigmentation
-relationship: variable_of CO_330:0000016 ! visual estimation - anther pigmentation
-relationship: variable_of CO_330:0000017 ! flranp 5 pt. scale
-is_a: CO_330:0000015 ! anther pigmentation
-
-[Term]
-id: CO_330:0000229
-name: potato flrppg_et_0to8 variable
-synonym: "PISP" EXACT []
-relationship: variable_of CO_330:0000018 ! pistil pigmentation
-relationship: variable_of CO_330:0000019 ! visual estimation - pistil pigmentation
-relationship: variable_of CO_330:0000020 ! flrppg 9 pt. scale
-is_a: CO_330:0000018 ! pistil pigmentation
-
-[Term]
-id: CO_330:0000230
-name: potato frtshp_et_1to7 variable
-synonym: "FRUTSHP" EXACT []
-relationship: variable_of CO_330:0000021 ! fruit shape
-relationship: variable_of CO_330:0000022 ! visual estimation - fruit shape
-relationship: variable_of CO_330:0000023 ! frtshp 7 pt. scale
-is_a: CO_330:0000021 ! fruit shape
-
-[Term]
-id: CO_330:0000231
-name: potato frtcol_et_1to7 variable
-synonym: "FRUIT" EXACT []
-relationship: variable_of CO_330:0000024 ! fruit color
-relationship: variable_of CO_330:0000025 ! visual estimation - fruit color
-relationship: variable_of CO_330:0000026 ! frtcol 7 pt. scale
-is_a: CO_330:0000024 ! fruit color
-
-[Term]
-id: CO_330:0000232
-name: potato pedcol_et_1to8 variable
-synonym: "PEDPIG" EXACT []
-relationship: variable_of CO_330:0000027 ! pedicel color
-relationship: variable_of CO_330:0000028 ! visual estimation - pedicel color
-relationship: variable_of CO_330:0000029 ! pedcol 8 pt. scale
-is_a: CO_330:0000027 ! pedicel color
-
-[Term]
-id: CO_330:0000233
-name: potato calcol_et_1to7 variable
-synonym: "CALPIG" EXACT []
-relationship: variable_of CO_330:0000030 ! calyx color
-relationship: variable_of CO_330:0000031 ! visual estimation - calyx color
-relationship: variable_of CO_330:0000032 ! calcol 7 pt. scale
-is_a: CO_330:0000030 ! calyx color
-
-[Term]
-id: CO_330:0000234
-name: potato sedpro_et_0to5 variable
-synonym: "SPBE" EXACT []
-relationship: variable_of CO_330:0000033 ! seed production per berry
-relationship: variable_of CO_330:0000034 ! visual estimation - seed production per berry
-relationship: variable_of CO_330:0000035 ! sedpro 6 pt. scale
-is_a: CO_330:0000033 ! seed production per berry
-
-[Term]
-id: CO_330:0000235
-name: potato flrshp_et_1to5 variable
-synonym: "STSHAPE" EXACT []
-relationship: variable_of CO_330:0000036 ! stigma shape
-relationship: variable_of CO_330:0000037 ! visual estimation - stigma shape
-relationship: variable_of CO_330:0000038 ! flrshp 3 pt. scale
-is_a: CO_330:0000036 ! stigma shape
-
-[Term]
-id: CO_330:0000236
-name: potato lefshp_et_1to3 variable
-synonym: "LEATY" EXACT []
-relationship: variable_of CO_330:0000039 ! leaf shape
-relationship: variable_of CO_330:0000040 ! visual estimation - leaf shape
-relationship: variable_of CO_330:0000041 ! lefshp 3 pt. scale
-is_a: CO_330:0000039 ! leaf shape
-
-[Term]
-id: CO_330:0000237
-name: potato lalfn_et_0to8 variable
-synonym: "NPLL" EXACT []
-relationship: variable_of CO_330:0000042 ! primary lateral leaflet number
-relationship: variable_of CO_330:0000043 ! visual estimation - primary lateral leaflet number
-relationship: variable_of CO_330:0000044 ! lalfn 9 pt. scale
-is_a: CO_330:0000042 ! primary lateral leaflet number
-
-[Term]
-id: CO_330:0000238
-name: potato adlfc_et_1to9 variable
-synonym: "CADSL" EXACT []
-relationship: variable_of CO_330:0000045 ! leaf adaxial surface color
-relationship: variable_of CO_330:0000046 ! visual estimation - leaf adaxial surface color
-relationship: variable_of CO_330:0000047 ! adlfc 5 pt. scale
-is_a: CO_330:0000045 ! leaf adaxial surface color
-
-[Term]
-id: CO_330:0000239
-name: potato ablfc_et_1to9 variable
-synonym: "CABSL" EXACT []
-relationship: variable_of CO_330:0000048 ! leaf abaxial surface color
-relationship: variable_of CO_330:0000049 ! visual estimation - leaf abaxial surface color
-relationship: variable_of CO_330:0000050 ! ablfc 5 pt. scale
-is_a: CO_330:0000048 ! leaf abaxial surface color
-
-[Term]
-id: CO_330:0000240
-name: potato adlftd_et_0to3 variable
-synonym: "TDLAS" EXACT []
-relationship: variable_of CO_330:0000051 ! leaf adaxial surface trichome density
-relationship: variable_of CO_330:0000052 ! visual estimation - leaf adaxial surface trichome density
-relationship: variable_of CO_330:0000053 ! adlftd 4 pt. scale
-is_a: CO_330:0000051 ! leaf adaxial surface trichome density
-
-[Term]
-id: CO_330:0000241
-name: potato ablftd_et_0to3 variable
-synonym: "TDLAS2" EXACT []
-relationship: variable_of CO_330:0000054 ! leaf abaxial surface trichome density
-relationship: variable_of CO_330:0000055 ! visual estimation - leaf abaxial surface trichome density
-relationship: variable_of CO_330:0000056 ! ablftd 4 pt. scale
-is_a: CO_330:0000054 ! leaf abaxial surface trichome density
-
-[Term]
-id: CO_330:0000242
-name: potato aplfsz_et_1to7 variable
-synonym: "APLSI" EXACT []
-relationship: variable_of CO_330:0000057 ! apical leaflet size
-relationship: variable_of CO_330:0000058 ! visual estimation - apical leaflet size
-relationship: variable_of CO_330:0000059 ! aplfsz 4 pt. scale
-is_a: CO_330:0000057 ! apical leaflet size
-
-[Term]
-id: CO_330:0000243
-name: potato aplfsh_et_1to7 variable
-synonym: "APLSH" EXACT []
-relationship: variable_of CO_330:0000060 ! apical leaflet shape
-relationship: variable_of CO_330:0000061 ! visual estimation - apical leaflet shape
-relationship: variable_of CO_330:0000062 ! aplfsh 7 pt. scale
-is_a: CO_330:0000060 ! apical leaflet shape
-
-[Term]
-id: CO_330:0000244
-name: potato lalfsh_et_1to7 variable
-synonym: "LALESH" EXACT []
-relationship: variable_of CO_330:0000063 ! lateral leaflet shape
-relationship: variable_of CO_330:0000064 ! visual estimation - lateral leaflet shape
-relationship: variable_of CO_330:0000065 ! lalfsh 7 pt. scale
-is_a: CO_330:0000063 ! lateral leaflet shape
-
-[Term]
-id: CO_330:0000245
-name: potato bshtlf_et_1to7 variable
-synonym: "BSHTL" EXACT []
-relationship: variable_of CO_330:0000066 ! base shape of the terminal leaflets
-relationship: variable_of CO_330:0000067 ! visual estimation - base shape of the terminal leaflets
-relationship: variable_of CO_330:0000068 ! bshtlf 7 pt. scale
-is_a: CO_330:0000066 ! base shape of the terminal leaflets
-
-[Term]
-id: CO_330:0000246
-name: potato ashtlf_et_1to9 variable
-synonym: "ASHTL" EXACT []
-relationship: variable_of CO_330:0000069 ! apex shape of the terminal leaflets
-relationship: variable_of CO_330:0000070 ! visual estimation - apex shape of the terminal leaflets
-relationship: variable_of CO_330:0000071 ! ashtlf 5 pt. scale
-is_a: CO_330:0000069 ! apex shape of the terminal leaflets
-
-[Term]
-id: CO_330:0000247
-name: potato mstpg_et_1to7 variable
-synonym: "STMPG" EXACT []
-relationship: variable_of CO_330:0000072 ! main stem pigmentation
-relationship: variable_of CO_330:0000073 ! visual estimation - main stem pigmentation
-relationship: variable_of CO_330:0000074 ! mstpg 7 pt. scale
-is_a: CO_330:0000072 ! main stem pigmentation
-
-[Term]
-id: CO_330:0000248
-name: potato stwgsh_et_0to3 variable
-synonym: "STMWNG" EXACT []
-relationship: variable_of CO_330:0000075 ! wing stem shape
-relationship: variable_of CO_330:0000076 ! visual estimation - wing stem shape
-relationship: variable_of CO_330:0000077 ! stwgsh 3 pt. scale
-is_a: CO_330:0000075 ! wing stem shape
-
-[Term]
-id: CO_330:0000249
-name: potato pskncol_et_1to9 variable
-synonym: "TBSKN1" EXACT []
-relationship: variable_of CO_330:0000078 ! predominant tuber skin color
-relationship: variable_of CO_330:0000079 ! visual estimation - predominant tuber skin color
-relationship: variable_of CO_330:0000080 ! prdskncol 9 pt. scale
-is_a: CO_330:0000078 ! predominant tuber skin color
-
-[Term]
-id: CO_330:0000250
-name: potato skncpi_et_1to3 variable
-synonym: "TBSKN2" EXACT []
-relationship: variable_of CO_330:0000081 ! tuber skin main color intensity
-relationship: variable_of CO_330:0000082 ! visual estimation - tuber skin main color intensity
-relationship: variable_of CO_330:0000083 ! skncpi 3 pt. scale
-is_a: CO_330:0000081 ! tuber skin main color intensity
-
-[Term]
-id: CO_330:0000251
-name: potato skncsc_et_0to9 variable
-synonym: "TBSKN3" EXACT []
-relationship: variable_of CO_330:0000084 ! tuber skin secondary color
-relationship: variable_of CO_330:0000085 ! visual estimation - tuber skin secondary color
-relationship: variable_of CO_330:0000086 ! skncsc 10 pt. scale
-is_a: CO_330:0000084 ! tuber skin secondary color
-
-[Term]
-id: CO_330:0000252
-name: potato skncscd_et_0to7 variable
-synonym: "TBSKN4" EXACT []
-relationship: variable_of CO_330:0000087 ! distribution of secondary tuber skin color
-relationship: variable_of CO_330:0000088 ! visual estimation - distribution of secondary tuber skin color
-relationship: variable_of CO_330:0000089 ! skncscd 8 pt. scale
-is_a: CO_330:0000087 ! distribution of secondary tuber skin color
-
-[Term]
-id: CO_330:0000253
-name: potato pflshcol_et_1to8 variable
-synonym: "TBFSH1" EXACT []
-relationship: variable_of CO_330:0000090 ! predominant tuber flesh color
-relationship: variable_of CO_330:0000091 ! visual estimation - predominant tuber flesh color
-relationship: variable_of CO_330:0000092 ! prdflshcol 8 pt. scale
-is_a: CO_330:0000090 ! predominant tuber flesh color
-
-[Term]
-id: CO_330:0000254
-name: potato flscsc_et_0to8 variable
-synonym: "TBFSH2" EXACT []
-relationship: variable_of CO_330:0000093 ! tuber flesh secondary color
-relationship: variable_of CO_330:0000094 ! visual estimation - tuber flesh secondary color
-relationship: variable_of CO_330:0000095 ! flscsc 9 pt. scale
-is_a: CO_330:0000093 ! tuber flesh secondary color
-
-[Term]
-id: CO_330:0000255
-name: potato flscsd_et_0to7 variable
-synonym: "TBFSH3" EXACT []
-relationship: variable_of CO_330:0000096 ! distribution of secondary tuber flesh color
-relationship: variable_of CO_330:0000097 ! visual estimation - distribution of secondary tuber flesh color
-relationship: variable_of CO_330:0000098 ! flscsd 8 pt. scale
-is_a: CO_330:0000096 ! distribution of secondary tuber flesh color
-
-[Term]
-id: CO_330:0000256
-name: potato rtshp_et_1to8 variable
-synonym: "TBSHP1" EXACT []
-relationship: variable_of CO_330:0000099 ! tuber shape
-relationship: variable_of CO_330:0000100 ! visual estimation - tuber shape
-relationship: variable_of CO_330:0000101 ! tbshp 8 pt. scale
-is_a: CO_330:0000099 ! tuber shape
-
-[Term]
-id: CO_330:0000257
-name: potato rtshp_et_0to9 variable
-synonym: "TBSHP2" EXACT []
-relationship: variable_of CO_330:0000102 ! unusual tuber shape
-relationship: variable_of CO_330:0000103 ! visual estimation - unusual tuber shape
-relationship: variable_of CO_330:0000104 ! utbshp 9 pt. scale
-is_a: CO_330:0000102 ! unusual tuber shape
-
-[Term]
-id: CO_330:0000258
-name: potato dpeytb_et_1to9 variable
-synonym: "TBSHP3" EXACT []
-relationship: variable_of CO_330:0000105 ! tuber depth eyes
-relationship: variable_of CO_330:0000106 ! visual estimation - tuber depth eyes
-relationship: variable_of CO_330:0000107 ! dpeytb 5 pt. scale
-is_a: CO_330:0000105 ! tuber depth eyes
-
-[Term]
-id: CO_330:0000259
-name: potato pspcol_et_1to5 variable
-synonym: "SPROUT1" EXACT []
-relationship: variable_of CO_330:0000111 ! predominant sprout color
-relationship: variable_of CO_330:0000112 ! visual estimation - predominant sprout color
-relationship: variable_of CO_330:0000113 ! pspcol 5 pt. scale
-is_a: CO_330:0000111 ! predominant sprout color
-
-[Term]
-id: CO_330:0000260
-name: potato spsccol_et_0to5 variable
-synonym: "SPROUT2" EXACT []
-relationship: variable_of CO_330:0000114 ! secondary sprout color
-relationship: variable_of CO_330:0000115 ! visual estimation - secondary sprout color
-relationship: variable_of CO_330:0000116 ! spsccol 6 pt. scale
-is_a: CO_330:0000114 ! secondary sprout color
-
-[Term]
-id: CO_330:0000261
-name: potato spcsd_et_0to7 variable
-synonym: "SPROUT3" EXACT []
-relationship: variable_of CO_330:0000117 ! distribution of secondary sprout color
-relationship: variable_of CO_330:0000118 ! visual estimation - distribution of secondary sprout color
-relationship: variable_of CO_330:0000119 ! spcsd 7pt. scale
-is_a: CO_330:0000117 ! distribution of secondary sprout color
-
-[Term]
-id: CO_330:0000262
-name: potato pldy 5_et_1to5 variable
-synonym: "PLOIDY" EXACT []
-relationship: variable_of CO_330:0000120 ! ploidy
-relationship: variable_of CO_330:0000121 ! visual estimation - ploidy
-relationship: variable_of CO_330:0000122 ! pldy 5 pt. scale
-is_a: CO_330:0000120 ! ploidy
-
-[Term]
 id: CO_330:0000263
 name: potato number of tubers planted trait
 def: "The number of planted tubers" [CO:curators]
 synonym: "NTbPl" EXACT []
-synonym: "Plants planted number/  Planted (sett)" EXACT []
-
-[Term]
-id: CO_330:0000265
-name: potato ntbpl_ct_plplot variable
-synonym: "NTP" EXACT []
-relationship: variable_of CO_330:0000263 ! number of tubers planted
-relationship: variable_of CO_330:0000219 ! tuber/plot
-relationship: variable_of CO_330:0000264 ! number of tubers planted - method
-is_a: CO_330:0000263 ! number of tubers planted
+synonym: "Plants planted number/Planted (sett)" EXACT []
 
 [Term]
 id: CO_330:0000266
@@ -865,29 +496,11 @@ synonym: "NTbEg" EXACT []
 is_a: TO:0000250
 
 [Term]
-id: CO_330:0000268
-name: potato ntbeg_ct_plplot variable
-synonym: "NPE" EXACT []
-relationship: variable_of CO_330:0000266 ! number of emerged plants
-relationship: variable_of CO_330:0000219 ! tuber/plot
-relationship: variable_of CO_330:0000267 ! number of emerged plants - method
-is_a: CO_330:0000266 ! number of emerged plants
-
-[Term]
 id: CO_330:0000269
 name: potato plant uniformity trait
 def: "The uniformity of the plant" [CO:curators]
 synonym: "PlUni" EXACT []
 is_a: TO:0000737
-
-[Term]
-id: CO_330:0000272
-name: potato plunif_et_1to9 variable
-synonym: "Plant_Unif" EXACT []
-relationship: variable_of CO_330:0000269 ! plant uniformity
-relationship: variable_of CO_330:0000270 ! visual estimation plant uniformity - method
-relationship: variable_of CO_330:0000271 ! plunif 5 pt. scale
-is_a: CO_330:0000269 ! plant uniformity
 
 [Term]
 id: CO_330:0000273
@@ -897,29 +510,11 @@ synonym: "PlVig" EXACT []
 is_a: TO:0000250
 
 [Term]
-id: CO_330:0000276
-name: potato plvig_et_1to9 variable
-synonym: "Plant_Vigor" EXACT []
-relationship: variable_of CO_330:0000273 ! plant vigor
-relationship: variable_of CO_330:0000274 ! visual estimation - plant vigor method
-relationship: variable_of CO_330:0000275 ! plvig 5 pt. scale
-is_a: CO_330:0000273 ! plant vigor
-
-[Term]
 id: CO_330:0000277
 name: potato senescence trait
 def: "The senescence of the plant" [CO:curators]
 synonym: "Sen" EXACT []
 is_a: TO:0000133
-
-[Term]
-id: CO_330:0000280
-name: potato sen_et_1to9 variable
-synonym: "SE" EXACT []
-relationship: variable_of CO_330:0000277 ! senescence
-relationship: variable_of CO_330:0000278 ! visual estimation senescence - method
-relationship: variable_of CO_330:0000279 ! sen 5 pt. scale
-is_a: CO_330:0000277 ! senescence
 
 [Term]
 id: CO_330:0000281
@@ -930,15 +525,6 @@ synonym: "PPlEg" EXACT []
 is_a: TO:0000250
 
 [Term]
-id: CO_330:0000283
-name: potato ppleg_cp_per variable
-synonym: "PPE" EXACT []
-relationship: variable_of CO_330:0000281 ! plant emergence proportion
-relationship: variable_of CO_330:0000179 ! %
-relationship: variable_of CO_330:0000282 ! plant emergence proportion - method
-is_a: CO_330:0000281 ! plant emergence proportion
-
-[Term]
 id: CO_330:0000284
 name: potato number of harvested plants trait
 def: "The number of plants harvested" [CO:curators]
@@ -946,29 +532,11 @@ synonym: "Harvested plant number" EXACT []
 synonym: "PltHrv" EXACT []
 
 [Term]
-id: CO_330:0000287
-name: potato plthrv_ct_plot variable
-synonym: "NPH" EXACT []
-relationship: variable_of CO_330:0000284 ! number of harvested plants
-relationship: variable_of CO_330:0000285 ! number of harvested plants - method
-relationship: variable_of CO_330:0000286 ! plants/plot
-is_a: CO_330:0000284 ! number of harvested plants
-
-[Term]
 id: CO_330:0000288
 name: potato proportion of plants harvested trait
 def: "The proportion of plant harvested over plant emerged" [CO:curators]
 synonym: "Percentage of Plants harvested" EXACT []
 synonym: "PPlHv" EXACT []
-
-[Term]
-id: CO_330:0000290
-name: potato pplhv_cp_per variable
-synonym: "PPH" EXACT []
-relationship: variable_of CO_330:0000288 ! proportion of plants harvested
-relationship: variable_of CO_330:0000179 ! %
-relationship: variable_of CO_330:0000289 ! proportion of plants harvested - method
-is_a: CO_330:0000288 ! proportion of plants harvested
 
 [Term]
 id: CO_330:0000291
@@ -979,30 +547,12 @@ synonym: "NMTb" EXACT []
 is_a: TO:0001071
 
 [Term]
-id: CO_330:0000293
-name: potato nmtb_ct_plot variable
-synonym: "NMTP" EXACT []
-relationship: variable_of CO_330:0000291 ! number of marketable tubers
-relationship: variable_of CO_330:0000219 ! tuber/plot
-relationship: variable_of CO_330:0000292 ! number of marketable tubers - method
-is_a: CO_330:0000291 ! number of marketable tubers
-
-[Term]
 id: CO_330:0000294
 name: potato number of marketable tubers per plant trait
 def: "The total number of marketable tubers per plant" [CO:curators]
 synonym: "Marketable tubers number per plant" EXACT []
 synonym: "NMTb" EXACT []
 is_a: TO:0001071
-
-[Term]
-id: CO_330:0000297
-name: potato nmtb_ct_plant variable
-synonym: "NMTPL" EXACT []
-relationship: variable_of CO_330:0000294 ! number of marketable tubers per plant
-relationship: variable_of CO_330:0000295 ! number of marketable tubers per plant - method
-relationship: variable_of CO_330:0000296 ! tuber/plant
-is_a: CO_330:0000294 ! number of marketable tubers per plant
 
 [Term]
 id: CO_330:0000298
@@ -1013,39 +563,12 @@ synonym: "Number of non-commercial" EXACT []
 is_a: TO:0001071
 
 [Term]
-id: CO_330:0000300
-name: potato nnomtb_ct_plot variable
-synonym: "NNoMTP" EXACT []
-relationship: variable_of CO_330:0000298 ! non-marketable tuber number
-relationship: variable_of CO_330:0000219 ! tuber/plot
-relationship: variable_of CO_330:0000299 ! non-marketable tuber number - method
-is_a: CO_330:0000298 ! non-marketable tuber number
-
-[Term]
 id: CO_330:0000301
 name: potato tuber number trait
 def: "The total number of tubers per unit area" [CO:curators]
 synonym: "Total number of tubers" EXACT []
 synonym: "TubN" EXACT []
 is_a: TO:0001071
-
-[Term]
-id: CO_330:0000304
-name: potato tubn_ct_plot variable
-synonym: "TNTP" EXACT []
-relationship: variable_of CO_330:0000301 ! tuber number
-relationship: variable_of CO_330:0000302 ! tuber number - method
-relationship: variable_of CO_330:0000303 ! tuber/ plot
-is_a: CO_330:0000301 ! tuber number
-
-[Term]
-id: CO_330:0000305
-name: potato tubn_ct_plant variable
-synonym: "TNTPL" EXACT []
-relationship: variable_of CO_330:0000108 ! tuber number per plant
-relationship: variable_of CO_330:0000109 ! tuber number per plant - method
-relationship: variable_of CO_330:0000110 ! tuber/ plant
-is_a: CO_330:0000108 ! tuber number per plant
 
 [Term]
 id: CO_330:0000306
@@ -1056,30 +579,12 @@ synonym: "MTbWg" EXACT []
 is_a: TO:0000746
 
 [Term]
-id: CO_330:0000308
-name: potato mtbwg_ms_kgplot variable
-synonym: "MTWP" EXACT []
-relationship: variable_of CO_330:0000306 ! marketable tuber weight
-relationship: variable_of CO_330:0000220 ! kg/plot
-relationship: variable_of CO_330:0000307 ! marketable tuber weight - method
-is_a: CO_330:0000306 ! marketable tuber weight
-
-[Term]
 id: CO_330:0000309
 name: potato marketable tuber weight per plant trait
 def: "The total weight of marketable tubers per plant" [CO:curators]
 synonym: "Marketable tuber weight per plant" EXACT []
 synonym: "MTbWp" EXACT []
 is_a: TO:0000746
-
-[Term]
-id: CO_330:0000311
-name: potato mtbwg_ms_kgplant variable
-synonym: "MTWPL" EXACT []
-relationship: variable_of CO_330:0000309 ! marketable tuber weight per plant
-relationship: variable_of CO_330:0000220 ! kg/plot
-relationship: variable_of CO_330:0000310 ! marketable tuber weight per plant - method
-is_a: CO_330:0000309 ! marketable tuber weight per plant
 
 [Term]
 id: CO_330:0000312
@@ -1090,29 +595,11 @@ synonym: "Non-marketable tuber weight per plot" EXACT []
 is_a: TO:0000746
 
 [Term]
-id: CO_330:0000314
-name: potato nomtwg_ms_kgplot variable
-synonym: "NoMTWP" EXACT []
-relationship: variable_of CO_330:0000312 ! non-marketable tuber weight
-relationship: variable_of CO_330:0000220 ! kg/plot
-relationship: variable_of CO_330:0000313 ! non-marketable tuber weight - method
-is_a: CO_330:0000312 ! non-marketable tuber weight
-
-[Term]
 id: CO_330:0000315
 name: potato tuber weight trait
 def: "The total weight of tubers per unit area" [CO:curators]
 synonym: "Total tuber weight kg per plot" EXACT []
 synonym: "TubWg" EXACT []
-
-[Term]
-id: CO_330:0000317
-name: potato tubwg_cp_kgplot variable
-synonym: "TTWP" EXACT []
-relationship: variable_of CO_330:0000315 ! tuber weight
-relationship: variable_of CO_330:0000220 ! kg/plot
-relationship: variable_of CO_330:0000316 ! tuber weight - method
-is_a: CO_330:0000315 ! tuber weight
 
 [Term]
 id: CO_330:0000318
@@ -1123,48 +610,12 @@ synonym: "TubWg" EXACT []
 is_a: TO:0000746
 
 [Term]
-id: CO_330:0000321
-name: potato tubwg_cp_plot variable
-synonym: "TTWPL" EXACT []
-relationship: variable_of CO_330:0000318 ! tuber weight per plant
-relationship: variable_of CO_330:0000319 ! tuber weight per plant - method
-relationship: variable_of CO_330:0000320 ! kg/plant
-is_a: CO_330:0000318 ! tuber weight per plant
-
-[Term]
-id: CO_330:0000323
-name: potato tbyldaj_cp_tha variable
-synonym: "TTYA" EXACT []
-relationship: variable_of CO_330:0000144 ! tuber yield no adjusted
-relationship: variable_of CO_330:0000221 ! t/ha
-relationship: variable_of CO_330:0000322 ! tuber yield adjusted - method
-is_a: CO_330:0000144 ! tuber yield no adjusted
-
-[Term]
-id: CO_330:0000324
-name: potato tbyldnaj_cp_tha variable
-synonym: "TTYNA" EXACT []
-relationship: variable_of CO_330:0000144 ! tuber yield no adjusted
-relationship: variable_of CO_330:0000145 ! tuber yield no adjusted - method
-relationship: variable_of CO_330:0000221 ! t/ha
-is_a: CO_330:0000144 ! tuber yield no adjusted
-
-[Term]
 id: CO_330:0000325
 name: potato marketable tuber yield adjusted trait
 def: "The marketable tuber yield adjusted per unit area" [CO:curators]
 synonym: "Marketable tuber yield adjusted computation tons per hectare" EXACT []
 synonym: "MkbYldAj" EXACT []
 is_a: TO:0001071
-
-[Term]
-id: CO_330:0000327
-name: potato mkbyldaj_cp_tha variable
-synonym: "MTYA" EXACT []
-relationship: variable_of CO_330:0000325 ! marketable tuber yield adjusted
-relationship: variable_of CO_330:0000221 ! t/ha
-relationship: variable_of CO_330:0000326 ! marketable tuber yield adjusted - method
-is_a: CO_330:0000325 ! marketable tuber yield adjusted
 
 [Term]
 id: CO_330:0000328
@@ -1175,30 +626,12 @@ synonym: "MkYldNAj" EXACT []
 is_a: TO:0001071
 
 [Term]
-id: CO_330:0000330
-name: potato mkyldnaj_cp_tha variable
-synonym: "MTYNA" EXACT []
-relationship: variable_of CO_330:0000328 ! marketable tuber yield no adjusted
-relationship: variable_of CO_330:0000221 ! t/ha
-relationship: variable_of CO_330:0000329 ! marketable tuber yield no adjusted - method
-is_a: CO_330:0000328 ! marketable tuber yield no adjusted
-
-[Term]
 id: CO_330:0000331
 name: potato average of tuber weight trait
 def: "The average tuber weight in grams" [CO:curators]
 synonym: "Average tuber weight computation grams" EXACT []
 synonym: "AvTbWg" EXACT []
 is_a: TO:0000746
-
-[Term]
-id: CO_330:0000333
-name: potato avtbwg_cp_g variable
-synonym: "ATW or MWT" EXACT []
-relationship: variable_of CO_330:0000331 ! average of tuber weight
-relationship: variable_of CO_330:0000222 ! g
-relationship: variable_of CO_330:0000332 ! average of tuber weight - method
-is_a: CO_330:0000331 ! average of tuber weight
 
 [Term]
 id: CO_330:0000334
@@ -1209,30 +642,12 @@ synonym: "AvTrWg" EXACT []
 is_a: TO:0000746
 
 [Term]
-id: CO_330:0000336
-name: potato avtrwg_cp_g variable
-synonym: "ATMW or MWMT" EXACT []
-relationship: variable_of CO_330:0000334 ! average of marketable tuber weight
-relationship: variable_of CO_330:0000222 ! g
-relationship: variable_of CO_330:0000335 ! average of marketable tuber weight - method
-is_a: CO_330:0000334 ! average of marketable tuber weight
-
-[Term]
 id: CO_330:0000337
 name: potato number of stolons trait
 def: "The number of stolons" [CO:curators]
 synonym: "NumStn" EXACT []
 synonym: "Stolons number" EXACT []
 is_a: TO:0000739
-
-[Term]
-id: CO_330:0000340
-name: potato numstn_et_1to9 variable
-synonym: "Num_Stolon" EXACT []
-relationship: variable_of CO_330:0000337 ! number of stolons
-relationship: variable_of CO_330:0000338 ! number of stolons - method
-relationship: variable_of CO_330:0000339 ! numstn 5 pt. scale
-is_a: CO_330:0000337 ! number of stolons
 
 [Term]
 id: CO_330:0000341
@@ -1243,29 +658,11 @@ synonym: "Stolons length" EXACT []
 is_a: TO:0000740
 
 [Term]
-id: CO_330:0000344
-name: potato lgstn_et_1to9 variable
-synonym: "Leng_Stolon" EXACT []
-relationship: variable_of CO_330:0000341 ! length of stolons
-relationship: variable_of CO_330:0000342 ! length of stolons - method
-relationship: variable_of CO_330:0000343 ! lgstn 5 pt. scale
-is_a: CO_330:0000341 ! length of stolons
-
-[Term]
 id: CO_330:0000345
 name: potato tuber appearance trait
 def: "The appearence of the tuber" [CO:curators]
 synonym: "TubApp" EXACT []
 is_a: TO:0000745
-
-[Term]
-id: CO_330:0000348
-name: potato tubapp_et_1to9 variable
-synonym: "Tuber_Apper" EXACT []
-relationship: variable_of CO_330:0000345 ! tuber appearance
-relationship: variable_of CO_330:0000346 ! tuber appearance - method
-relationship: variable_of CO_330:0000347 ! tubapp 5 pt. scale
-is_a: CO_330:0000345 ! tuber appearance
 
 [Term]
 id: CO_330:0000349
@@ -1275,29 +672,11 @@ synonym: "TubUni" EXACT []
 is_a: TO:0000745
 
 [Term]
-id: CO_330:0000352
-name: potato tubuni_et_1to9 variable
-synonym: "Tub_Unif" EXACT []
-relationship: variable_of CO_330:0000349 ! tuber uniformity
-relationship: variable_of CO_330:0000350 ! tuber uniformity  - method
-relationship: variable_of CO_330:0000351 ! tubuni 5 pt. scale
-is_a: CO_330:0000349 ! tuber uniformity
-
-[Term]
 id: CO_330:0000353
 name: potato tuber size trait
 def: "The size of the tuber" [CO:curators]
 synonym: "TubSiz" EXACT []
 is_a: TO:0000744
-
-[Term]
-id: CO_330:0000356
-name: potato tubsiz_et_1to9 variable
-synonym: "Tub_Size" EXACT []
-relationship: variable_of CO_330:0000353 ! tuber size
-relationship: variable_of CO_330:0000354 ! tuber size - method
-relationship: variable_of CO_330:0000355 ! tubsiz 5 pt. scale
-is_a: CO_330:0000353 ! tuber size
 
 [Term]
 id: CO_330:0000357
@@ -1307,29 +686,11 @@ synonym: "PFolLB" EXACT []
 is_a: TO:0001144 ! Oomycete disease response
 
 [Term]
-id: CO_330:0000359
-name: potato lbsv_et_pct variable
-synonym: "LB" EXACT []
-relationship: variable_of CO_330:0000357 ! late blight severity
-relationship: variable_of CO_330:0000179 ! %
-relationship: variable_of CO_330:0000358 ! visual estimation - late blight severity
-is_a: CO_330:0000357 ! late blight severity
-
-[Term]
 id: CO_330:0000360
 name: potato late blight audpc trait
 def: "The area under the disease progress curve for late blight" [CO:curators]
 synonym: "LBR_AUDPC" EXACT []
 is_a: TO:0001144 ! Oomycete disease response
-
-[Term]
-id: CO_330:0000363
-name: potato lb_audpc_cp variable
-synonym: "AUDPC" EXACT []
-relationship: variable_of CO_330:0000360 ! late blight audpc
-relationship: variable_of CO_330:0000361 ! late blight audpc - method
-relationship: variable_of CO_330:0000362 ! No scale name found
-is_a: CO_330:0000360 ! late blight audpc
 
 [Term]
 id: CO_330:0000364
@@ -1339,146 +700,11 @@ synonym: "LBR_rAUDPC" EXACT []
 is_a: TO:0001144 ! Oomycete disease response
 
 [Term]
-id: CO_330:0000367
-name: potato lb_raudpc_cp variable
-synonym: "rAUDPC, RAUDPC" EXACT []
-relationship: variable_of CO_330:0000364 ! late blight relative audpc
-relationship: variable_of CO_330:0000362 ! No scale name found
-relationship: variable_of CO_330:0000365 ! late blight relative audpc - method
-is_a: CO_330:0000364 ! late blight relative audpc
-
-[Term]
 id: CO_330:0000368
 name: potato late blight susceptibility trait
 def: "The plant susceptibility to late blight disease" [CO:curators]
 synonym: "LBR_sAUDPC" EXACT []
 is_a: TO:0001144 ! Oomycete disease response
-
-[Term]
-id: CO_330:0000371
-name: potato lb_saudpc_cp variable
-synonym: "SAUDPC" EXACT []
-relationship: variable_of CO_330:0000368 ! late blight susceptibility
-relationship: variable_of CO_330:0000362 ! No scale name found
-relationship: variable_of CO_330:0000369 ! late blight susceptibility - method
-is_a: CO_330:0000368 ! late blight susceptibility
-
-[Term]
-id: CO_330:0000372
-name: potato rlb_et_1to6 variable
-synonym: "LB" EXACT []
-relationship: variable_of CO_330:0000123 ! late blight resistance
-relationship: variable_of CO_330:0000124 ! late blight resistance - method
-relationship: variable_of CO_330:0000125 ! ses 7 pt scale
-is_a: CO_330:0000123 ! late blight resistance
-
-[Term]
-id: CO_330:0000373
-name: potato rpvx_et_1to7 variable
-synonym: "PVX" EXACT []
-relationship: variable_of CO_330:0000126 ! potato virus x resistance
-relationship: variable_of CO_330:0000127 ! potato virus x resistance - method
-relationship: variable_of CO_330:0000128 ! ses 7 pt scale
-is_a: CO_330:0000126 ! potato virus x resistance
-
-[Term]
-id: CO_330:0000374
-name: potato rpvy_et_1to7 variable
-synonym: "PVY" EXACT []
-relationship: variable_of CO_330:0000129 ! potato virus y resistance
-relationship: variable_of CO_330:0000130 ! potato virus y resistance - method
-relationship: variable_of CO_330:0000131 ! ses 7 pt scale
-is_a: CO_330:0000129 ! potato virus y resistance
-
-[Term]
-id: CO_330:0000375
-name: potato rprlv_et_1to6 variable
-synonym: "PRLV" EXACT []
-relationship: variable_of CO_330:0000132 ! potato leaf roll virus resistance
-relationship: variable_of CO_330:0000133 ! potato leaf roll virus resistance - method
-relationship: variable_of CO_330:0000134 ! ses 5 pt scale
-is_a: CO_330:0000132 ! potato leaf roll virus resistance
-
-[Term]
-id: CO_330:0000376
-name: potato rbw_et_1to6 variable
-synonym: "BW" EXACT []
-relationship: variable_of CO_330:0000135 ! bacterial wilt resistance
-relationship: variable_of CO_330:0000136 ! bacterial wilt resistance - method
-relationship: variable_of CO_330:0000137 ! ses 5 pt scale
-is_a: CO_330:0000135 ! bacterial wilt resistance
-
-[Term]
-id: CO_330:0000377
-name: potato rrkn_et_1to7 variable
-synonym: "RKN" EXACT []
-relationship: variable_of CO_330:0000138 ! root knot nematode resistance
-relationship: variable_of CO_330:0000139 ! root knot nematode resistance - method
-relationship: variable_of CO_330:0000140 ! ses 7 pt scale
-is_a: CO_330:0000138 ! root knot nematode resistance
-
-[Term]
-id: CO_330:0000378
-name: potato rlmf_et_1to5 variable
-synonym: "LMF" EXACT []
-relationship: variable_of CO_330:0000141 ! leaf miner fly resistance
-relationship: variable_of CO_330:0000142 ! leaf miner fly resistance - method
-relationship: variable_of CO_330:0000143 ! ses 5 pt scale
-is_a: CO_330:0000141 ! leaf miner fly resistance
-
-[Term]
-id: CO_330:0000379
-name: potato flavor_et_1to5 variable
-synonym: "FLAVOUR" EXACT []
-relationship: variable_of CO_330:0000171 ! tuber flavor after cooking
-relationship: variable_of CO_330:0000172 ! tuber flavor after cooking - method
-relationship: variable_of CO_330:0000173 ! ses 5 pt scale
-is_a: CO_330:0000171 ! tuber flavor after cooking
-
-[Term]
-id: CO_330:0000380
-name: potato textac_et_1to5 variable
-synonym: "TEXTAC" EXACT []
-relationship: variable_of CO_330:0000174 ! tuber texture after cooking
-relationship: variable_of CO_330:0000175 ! tuber texture after cooking - method
-relationship: variable_of CO_330:0000176 ! ses 5 pt scale
-is_a: CO_330:0000174 ! tuber texture after cooking
-
-[Term]
-id: CO_330:0000381
-name: potato cookqu_et_1to7 variable
-synonym: "COOKQU" EXACT []
-relationship: variable_of CO_330:0000180 ! tuber cooking quality
-relationship: variable_of CO_330:0000181 ! tuber cooking quality - method
-relationship: variable_of CO_330:0000182 ! ses 7 pt scale
-is_a: CO_330:0000180 ! tuber cooking quality
-
-[Term]
-id: CO_330:0000382
-name: potato afcdar_et_1to4 variable
-synonym: "AFCDAR" EXACT []
-relationship: variable_of CO_330:0000183 ! flesh darkening after cooking
-relationship: variable_of CO_330:0000184 ! flesh darkening after cooking - method
-relationship: variable_of CO_330:0000185 ! ses 4 pt scale
-is_a: CO_330:0000183 ! flesh darkening after cooking
-
-[Term]
-id: CO_330:0000383
-name: potato flcac_et_1to8 variable
-synonym: "FLCAC" EXACT []
-relationship: variable_of CO_330:0000186 ! flesh color after cooking
-relationship: variable_of CO_330:0000187 ! flesh color after cooking - method
-relationship: variable_of CO_330:0000188 ! ses 8 pt scale
-is_a: CO_330:0000186 ! flesh color after cooking
-
-[Term]
-id: CO_330:0000384
-name: potato chipping_et_1to5 variable
-synonym: "CHIPPING" EXACT []
-relationship: variable_of CO_330:0000189 ! chips color
-relationship: variable_of CO_330:0000190 ! chips color - method
-relationship: variable_of CO_330:0000191 ! ses 5 pt scale
-is_a: CO_330:0000189 ! chips color
 
 [Term]
 id: CO_330:0000385
@@ -1487,127 +713,10 @@ def: "The color of the french fries" [CO:curators]
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
-id: CO_330:0000388
-name: potato ffr_et_1to5 variable
-synonym: "FFR" EXACT []
-relationship: variable_of CO_330:0000385 ! french fries color
-relationship: variable_of CO_330:0000386 ! french fries color - method
-relationship: variable_of CO_330:0000387 ! no scale name found
-is_a: CO_330:0000385 ! french fries color
-
-[Term]
-id: CO_330:0000389
-name: potato cootime_et_1to5 variable
-synonym: "COOTIME" EXACT []
-relationship: variable_of CO_330:0000195 ! tuber cooking time
-relationship: variable_of CO_330:0000196 ! tuber cooking time - method
-relationship: variable_of CO_330:0000197 ! ses 5 pt scale
-is_a: CO_330:0000195 ! tuber cooking time
-
-[Term]
-id: CO_330:0000390
-name: potato tdm_cp variable
-synonym: "PDM, DM" EXACT []
-relationship: variable_of CO_330:0000192 ! tuber dry matter content
-relationship: variable_of CO_330:0000179 ! %
-relationship: variable_of CO_330:0000193 ! tuber dry matter content - method
-is_a: CO_330:0000192 ! tuber dry matter content
-
-[Term]
 id: CO_330:0000391
 name: potato tuber specific gravity trait
 def: "The specific gravity of the tuber" [CO:curators]
 is_a: TO:0000457 ! total biomass yield
-
-[Term]
-id: CO_330:0000394
-name: potato sg_cp variable
-synonym: "SG" EXACT []
-relationship: variable_of CO_330:0000391 ! tuber specific gravity
-relationship: variable_of CO_330:0000362 ! No scale name found
-relationship: variable_of CO_330:0000392 ! tuber specific gravity - method
-is_a: CO_330:0000391 ! tuber specific gravity
-
-[Term]
-id: CO_330:0000395
-name: potato aocp_cp variable
-synonym: "AOCP" EXACT []
-relationship: variable_of CO_330:0000177 ! chips oil absorption rate
-relationship: variable_of CO_330:0000178 ! chips oil absorption rate - method
-relationship: variable_of CO_330:0000179 ! %
-is_a: CO_330:0000177 ! chips oil absorption rate
-
-[Term]
-id: CO_330:0000396
-name: potato ggroperl_et_1to3 variable
-synonym: "GROPER" EXACT []
-relationship: variable_of CO_330:0000147 ! plant growing period
-relationship: variable_of CO_330:0000148 ! plant growing period - method
-relationship: variable_of CO_330:0000149 ! ses 3 pt scale
-is_a: CO_330:0000147 ! plant growing period
-
-[Term]
-id: CO_330:0000397
-name: potato doperiod_ms variable
-synonym: "DORPD" EXACT []
-relationship: variable_of CO_330:0000153 ! tuber dormancy period
-relationship: variable_of CO_330:0000154 ! tuber dormancy period - method
-relationship: variable_of CO_330:0000155 ! days
-is_a: CO_330:0000153 ! tuber dormancy period
-
-[Term]
-id: CO_330:0000398
-name: potato sppt_1to3 variable
-synonym: "SPPATT" EXACT []
-relationship: variable_of CO_330:0000159 ! tuber sprouting pattern
-relationship: variable_of CO_330:0000160 ! tuber sprouting pattern - method
-relationship: variable_of CO_330:0000161 ! ses 3 pt scale
-is_a: CO_330:0000159 ! tuber sprouting pattern
-
-[Term]
-id: CO_330:0000399
-name: potato reht_et_1to4 variable
-synonym: "HEAT" EXACT []
-relationship: variable_of CO_330:0000162 ! heat tolerance
-relationship: variable_of CO_330:0000163 ! heat tolerance - method
-relationship: variable_of CO_330:0000164 ! ses 4 pt scale
-is_a: CO_330:0000162 ! heat tolerance
-
-[Term]
-id: CO_330:0000400
-name: potato resl_et_1to4 variable
-synonym: "SAL" EXACT []
-relationship: variable_of CO_330:0000165 ! salinity tolerance
-relationship: variable_of CO_330:0000166 ! salinity tolerance - method
-relationship: variable_of CO_330:0000167 ! ses 4 pt scale
-is_a: CO_330:0000165 ! salinity tolerance
-
-[Term]
-id: CO_330:0000401
-name: potato pollv_et_1to7 variable
-synonym: "POLLENV" EXACT []
-relationship: variable_of CO_330:0000168 ! pollen viability
-relationship: variable_of CO_330:0000169 ! pollen viability - method
-relationship: variable_of CO_330:0000170 ! ses 4 pt scale
-is_a: CO_330:0000168 ! pollen viability
-
-[Term]
-id: CO_330:0000402
-name: potato fedw_ms_mgkg_dw variable
-synonym: "FeDW" EXACT []
-relationship: variable_of CO_330:0000201 ! tuber iron concentration in dry weight basis
-relationship: variable_of CO_330:0000202 ! spectrophotometry - iron
-relationship: variable_of CO_330:0000203 ! mg/kg
-is_a: CO_330:0000201 ! tuber iron concentration in dry weight basis
-
-[Term]
-id: CO_330:0000404
-name: potato fedw_ms_mgkg_dw_xrf variable
-synonym: "FeDW" EXACT []
-relationship: variable_of CO_330:0000201 ! tuber iron concentration in dry weight basis
-relationship: variable_of CO_330:0000203 ! mg/kg
-relationship: variable_of CO_330:0000403 ! fluorescencia de rayos x - iron
-is_a: CO_330:0000201 ! tuber iron concentration in dry weight basis
 
 [Term]
 id: CO_330:0000405
@@ -1616,46 +725,10 @@ def: "The concentration of iron in fresh weight basis" [CO:curators]
 is_a: TO:1000060
 
 [Term]
-id: CO_330:0000407
-name: potato fe_cp_mg100g_fw variable
-synonym: "FeFW" EXACT []
-relationship: variable_of CO_330:0000405 ! tuber iron concentration in fresh weight basis
-relationship: variable_of CO_330:0000200 ! mg/100g
-relationship: variable_of CO_330:0000406 ! spectrophotometry - iron fresh
-is_a: CO_330:0000405 ! tuber iron concentration in fresh weight basis
-
-[Term]
-id: CO_330:0000408
-name: potato zndw_ms_mgkg_dw variable
-synonym: "ZNDW" EXACT []
-relationship: variable_of CO_330:0000204 ! tuber zinc concentration in dry weight basis
-relationship: variable_of CO_330:0000203 ! mg/kg
-relationship: variable_of CO_330:0000205 ! fluorescencia de rayos x - zinc
-is_a: CO_330:0000204 ! tuber zinc concentration in dry weight basis
-
-[Term]
-id: CO_330:0000409
-name: potato zndw_ms_mgkg_dw_xrf variable
-synonym: "ZNDW" EXACT []
-relationship: variable_of CO_330:0000204 ! tuber zinc concentration in dry weight basis
-relationship: variable_of CO_330:0000203 ! mg/kg
-relationship: variable_of CO_330:0000205 ! fluorescencia de rayos x - zinc
-is_a: CO_330:0000204 ! tuber zinc concentration in dry weight basis
-
-[Term]
 id: CO_330:0000410
 name: potato tuber zinc concentration in fresh weight basis trait
 def: "The concentration of zinc in fresh weight basis" [CO:curators]
 is_a: TO:1000073 ! shoot system zinc content
-
-[Term]
-id: CO_330:0000412
-name: potato zn_cp_mg100g_fw variable
-synonym: "ZnFW" EXACT []
-relationship: variable_of CO_330:0000410 ! tuber zinc concentration in fresh weight basis
-relationship: variable_of CO_330:0000200 ! mg/100g
-relationship: variable_of CO_330:0000411 ! spectrophotometry - zinc fresh
-is_a: CO_330:0000410 ! tuber zinc concentration in fresh weight basis
 
 [Term]
 id: CO_330:0000413
@@ -1664,37 +737,10 @@ def: "The anthocyanin concentration in dry weight basis" [CO:curators]
 is_a: TO:0000071
 
 [Term]
-id: CO_330:0000414
-name: potato athto_ms_mg100g_dw variable
-synonym: "Antho_DW" EXACT []
-relationship: variable_of CO_330:0000208 ! extraction methods - anthocyanin
-relationship: variable_of CO_330:0000200 ! mg/100g
-relationship: variable_of CO_330:0000413 ! tuber anthocyanin concentration in dry weight basis
-is_a: CO_330:0000208 ! extraction methods - anthocyanin
-
-[Term]
 id: CO_330:0000415
 name: potato tuber anthocyanin concentration in fresh weight basis trait
 def: "The anthocyanin concentration in fresh weight basis" [CO:curators]
 is_a: TO:0000071
-
-[Term]
-id: CO_330:0000417
-name: potato athto_cp_mg100g_fw variable
-synonym: "Antho_FW" EXACT []
-relationship: variable_of CO_330:0000415 ! tuber anthocyanin concentration in fresh weight basis
-relationship: variable_of CO_330:0000200 ! mg/100g
-relationship: variable_of CO_330:0000416 ! extraction methods - anthocyanin fresh
-is_a: CO_330:0000415 ! tuber anthocyanin concentration in fresh weight basis
-
-[Term]
-id: CO_330:0000418
-name: potato aah_ms_ugtrolox_dw variable
-synonym: "AAH_DW" EXACT []
-relationship: variable_of CO_330:0000210 ! tuber hydrophilic antioxidant activity in dry weight basis
-relationship: variable_of CO_330:0000211 ! extraction methods - hydrophilic antioxidant
-relationship: variable_of CO_330:0000212 ! ugTroloxequiv/gfw
-is_a: CO_330:0000210 ! tuber hydrophilic antioxidant activity in dry weight basis
 
 [Term]
 id: CO_330:0000419
@@ -1703,61 +749,16 @@ def: "The hydrophilic antioxidant activity in fresh weight basis" [CO:curators]
 is_a: TO:0001143 ! antioxidant activity trait
 
 [Term]
-id: CO_330:0000421
-name: potato aah_ms_ugtrolox_fw variable
-synonym: "AAH_FW" EXACT []
-relationship: variable_of CO_330:0000419 ! tuber hydrophilic antioxidant activity in fresh weight basis
-relationship: variable_of CO_330:0000212 ! ugTroloxequiv/gfw
-relationship: variable_of CO_330:0000420 ! extraction methods - hydrophilic antioxidant fresh
-is_a: CO_330:0000419 ! tuber hydrophilic antioxidant activity in fresh weight basis
-
-[Term]
-id: CO_330:0000422
-name: potato aal_ms_ugtrolox_dw variable
-synonym: "AAL_DW" EXACT []
-relationship: variable_of CO_330:0000213 ! tuber lipophilic antioxidant activity in dry weight basis
-relationship: variable_of CO_330:0000212 ! ugTroloxequiv/gfw
-relationship: variable_of CO_330:0000214 ! extraction methods - lipophilic antioxidant
-is_a: CO_330:0000213 ! tuber lipophilic antioxidant activity in dry weight basis
-
-[Term]
 id: CO_330:0000423
 name: potato tuber lipophilic antioxidant activity in fresh weight basis trait
 def: "The lipophilic antioxidant activity in fresh weight basis" [CO:curators]
 is_a: TO:0001143 ! antioxidant activity trait
 
 [Term]
-id: CO_330:0000425
-name: potato aal_ms_ugtrolox_fw variable
-synonym: "AAL_FW" EXACT []
-relationship: variable_of CO_330:0000423 ! tuber lipophilic antioxidant activity in fresh weight basis
-relationship: variable_of CO_330:0000212 ! ugTroloxequiv/gfw
-relationship: variable_of CO_330:0000424 ! extraction methods - lipophilic antioxidant fresh
-is_a: CO_330:0000423 ! tuber lipophilic antioxidant activity in fresh weight basis
-
-[Term]
-id: CO_330:0000426
-name: potato ascdw_ms_mg100_dw variable
-synonym: "ASC_DW" EXACT []
-relationship: variable_of CO_330:0000198 ! tuber ascorbic acid concentration in dry weight basis
-relationship: variable_of CO_330:0000199 ! spectrophotometry - ascorbic acid
-relationship: variable_of CO_330:0000200 ! mg/100g
-is_a: CO_330:0000198 ! tuber ascorbic acid concentration in dry weight basis
-
-[Term]
 id: CO_330:0000427
 name: potato tuber ascorbic acid concentration in fresh weight basis trait
 def: "The concentration of ascorbic acid in fresh weight basis" [CO:curators]
 is_a: TO:0000281
-
-[Term]
-id: CO_330:0000429
-name: potato ascfw_cp_mg100_fw variable
-synonym: "ASC_FW" EXACT []
-relationship: variable_of CO_330:0000427 ! tuber ascorbic acid concentration in fresh weight basis
-relationship: variable_of CO_330:0000200 ! mg/100g
-relationship: variable_of CO_330:0000428 ! spectrophotometry - ascorbic acid fresh
-is_a: CO_330:0000427 ! tuber ascorbic acid concentration in fresh weight basis
 
 [Term]
 id: CO_330:0000430
@@ -1767,29 +768,11 @@ synonym: "TubFlsPrt" EXACT []
 is_a: TO:0000598
 
 [Term]
-id: CO_330:0000432
-name: potato tubflsprt_ms_pct variable
-synonym: "PRO, PROTEIN" EXACT []
-relationship: variable_of CO_330:0000430 ! tuber protein content
-relationship: variable_of CO_330:0000179 ! %
-relationship: variable_of CO_330:0000431 ! protein content - method
-is_a: CO_330:0000430 ! tuber protein content
-
-[Term]
 id: CO_330:0000433
 name: potato tuber starch content trait
 def: "The starch content of the tuber" [CO:curators]
 synonym: "TubFlsSta" EXACT []
 is_a: TO:0000696
-
-[Term]
-id: CO_330:0000435
-name: potato tubflssta_ms_pct variable
-synonym: "STAR" EXACT []
-relationship: variable_of CO_330:0000433 ! tuber starch content
-relationship: variable_of CO_330:0000179 ! %
-relationship: variable_of CO_330:0000434 ! storage root starch content - method
-is_a: CO_330:0000433 ! tuber starch content
 
 [Term]
 id: CO_330:0000436
@@ -1799,29 +782,11 @@ synonym: "TubFlsFru" EXACT []
 is_a: TO:0006005
 
 [Term]
-id: CO_330:0000438
-name: potato tubflsfru_ms_pct variable
-synonym: "FRUC" EXACT []
-relationship: variable_of CO_330:0000436 ! tuber fructose content
-relationship: variable_of CO_330:0000179 ! %
-relationship: variable_of CO_330:0000437 ! fructose content - method
-is_a: CO_330:0000436 ! tuber fructose content
-
-[Term]
 id: CO_330:0000439
 name: potato tuber glucose content trait
 def: "The glucose content of the tuber" [CO:curators]
 synonym: "TubFlsGlu" EXACT []
 is_a: TO:0000300
-
-[Term]
-id: CO_330:0000441
-name: potato tubflsglu_ms_pct variable
-synonym: "GLUC" EXACT []
-relationship: variable_of CO_330:0000439 ! tuber glucose content
-relationship: variable_of CO_330:0000179 ! %
-relationship: variable_of CO_330:0000440 ! glucose content - method
-is_a: CO_330:0000439 ! tuber glucose content
 
 [Term]
 id: CO_330:0000442
@@ -1831,15 +796,6 @@ synonym: "TubFlsSuc" EXACT []
 is_a: TO:0000328
 
 [Term]
-id: CO_330:0000444
-name: potato tubflssuc_ms_pct variable
-synonym: "SUCR" EXACT []
-relationship: variable_of CO_330:0000442 ! tuber sucrose content
-relationship: variable_of CO_330:0000179 ! %
-relationship: variable_of CO_330:0000443 ! sucrose content - method
-is_a: CO_330:0000442 ! tuber sucrose content
-
-[Term]
 id: CO_330:0000445
 name: potato tuber maltose content trait
 def: "The maltose content of the tuber" [CO:curators]
@@ -1847,29 +803,11 @@ synonym: "TubFlsMal" EXACT []
 is_a: TO:0006003
 
 [Term]
-id: CO_330:0000447
-name: potato tubflsmal_ms_pct variable
-synonym: "MALT" EXACT []
-relationship: variable_of CO_330:0000445 ! tuber maltose content
-relationship: variable_of CO_330:0000179 ! %
-relationship: variable_of CO_330:0000446 ! maltose content - method
-is_a: CO_330:0000445 ! tuber maltose content
-
-[Term]
 id: CO_330:0000448
 name: potato tuber fiber content trait
 def: "The fiber content of the tuber in fresh weight basis" [CO:curators]
 synonym: "TubFlsFf" EXACT []
 is_a: TO:0002642
-
-[Term]
-id: CO_330:0000450
-name: potato tubflsff_ms_pct variable
-synonym: "FIBER" EXACT []
-relationship: variable_of CO_330:0000448 ! tuber fiber content
-relationship: variable_of CO_330:0000179 ! %
-relationship: variable_of CO_330:0000449 ! storage root fiber content - method
-is_a: CO_330:0000448 ! tuber fiber content
 
 [Term]
 id: CO_330:0000451
@@ -2123,680 +1061,3 @@ id: CO_330:0000496
 name: potato appearance after cooking trait
 def: "The visual aspect of boiled potatoes: potatoes turn gray or dark after boiling" [CO:curators]
 synonym: "TbApAc" EXACT []
-
-[Term]
-id: CO_330:0000620
-name: potato flwdgr_obs_0-4 variable
-synonym: "FLOWERING" EXACT []
-relationship: variable_of CO_330:0000003 ! flowering degree
-relationship: variable_of CO_330:0000619 ! flwdgr 4pt. scale
-relationship: variable_of CO_330:0000699 ! visual estimation - flowering degree
-is_a: CO_330:0000003 ! flowering degree
-
-[Term]
-id: CO_330:0000621
-name: potato pskncol_obs_1-10 variable
-relationship: variable_of CO_330:0000078 ! predominant tuber skin color
-relationship: variable_of CO_330:0000497 ! visual estimation - predominant tuber skin color
-relationship: variable_of CO_330:0000575 ! prdskncol 8pt. scale
-is_a: CO_330:0000078 ! predominant tuber skin color
-
-[Term]
-id: CO_330:0000622
-name: potato pflshcol_obs_1-9 variable
-relationship: variable_of CO_330:0000090 ! predominant tuber flesh color
-relationship: variable_of CO_330:0000498 ! visual estimation - predominant tuber flesh color
-relationship: variable_of CO_330:0000576 ! prdflshcol  4pt. scale
-is_a: CO_330:0000090 ! predominant tuber flesh color
-
-[Term]
-id: CO_330:0000623
-name: potato rlb_obs_1-2 variable
-relationship: variable_of CO_330:0000123 ! late blight resistance
-relationship: variable_of CO_330:0000499 ! visual estimation late blight resistance - method
-relationship: variable_of CO_330:0000577 ! rlb 2pt. scale
-is_a: CO_330:0000123 ! late blight resistance
-
-[Term]
-id: CO_330:0000624
-name: potato rprlv_obs_1-2 variable
-relationship: variable_of CO_330:0000132 ! potato leaf roll virus resistance
-relationship: variable_of CO_330:0000500 ! visual estimation potatoleaf roll virus resistance - method
-relationship: variable_of CO_330:0000578 ! rprlv 2pt. scale
-is_a: CO_330:0000132 ! potato leaf roll virus resistance
-
-[Term]
-id: CO_330:0000625
-name: potato rbw_obs_1-2 variable
-relationship: variable_of CO_330:0000135 ! bacterial wilt resistance
-relationship: variable_of CO_330:0000501 ! visual estimation bacterial wilt resistance - method
-relationship: variable_of CO_330:0000579 ! rbw 2pt. scale
-is_a: CO_330:0000135 ! bacterial wilt resistance
-
-[Term]
-id: CO_330:0000626
-name: potato rrkn_obs_1-2 variable
-relationship: variable_of CO_330:0000138 ! root knot nematode resistance
-relationship: variable_of CO_330:0000502 ! visual estimation root knot nematode resistance - method
-relationship: variable_of CO_330:0000580 ! rrkn 2pt. scale
-is_a: CO_330:0000138 ! root knot nematode resistance
-
-[Term]
-id: CO_330:0000627
-name: potato reht_obs_1-2 variable
-synonym: "HEAT" EXACT []
-relationship: variable_of CO_330:0000162 ! heat tolerance
-relationship: variable_of CO_330:0000503 ! visual estimation of the plant response to heat tolerance - method
-relationship: variable_of CO_330:0000581 ! reht 2pt. scale
-is_a: CO_330:0000162 ! heat tolerance
-
-[Term]
-id: CO_330:0000628
-name: potato tbtsac_obs_1-5 variable
-synonym: "TASTE,FLAVOUR" EXACT []
-relationship: variable_of CO_330:0000171 ! tuber flavor after cooking
-relationship: variable_of CO_330:0000504 ! tuber flavor after cooking - method
-relationship: variable_of CO_330:0000582 ! tbtsac 3pt. scale
-is_a: CO_330:0000171 ! tuber flavor after cooking
-
-[Term]
-id: CO_330:0000629
-name: potato tbtexac_obs_1-5 variable
-synonym: "TEXTURE, TEXTAC" EXACT []
-relationship: variable_of CO_330:0000174 ! tuber texture after cooking
-relationship: variable_of CO_330:0000505 ! visual estimation-texture method
-relationship: variable_of CO_330:0000583 ! tbtexac 3pt. scale
-is_a: CO_330:0000174 ! tuber texture after cooking
-
-[Term]
-id: CO_330:0000630
-name: potato plvig_obs_1-3 variable
-relationship: variable_of CO_330:0000273 ! plant vigor
-relationship: variable_of CO_330:0000506 ! visual estimation - plant vigor method
-relationship: variable_of CO_330:0000584 ! plvig 3pt. scale
-is_a: CO_330:0000273 ! plant vigor
-
-[Term]
-id: CO_330:0000631
-name: potato sen_obs_1-4 variable
-relationship: variable_of CO_330:0000277 ! senescence
-relationship: variable_of CO_330:0000507 ! visual estimation - earliness method
-relationship: variable_of CO_330:0000585 ! sen 4pt. scale
-is_a: CO_330:0000277 ! senescence
-
-[Term]
-id: CO_330:0000632
-name: potato lgstn_obs_1-2 variable
-relationship: variable_of CO_330:0000341 ! length of stolons
-relationship: variable_of CO_330:0000508 ! visual estimation-length of stolons method
-relationship: variable_of CO_330:0000586 ! lgstn 2pt. scale
-is_a: CO_330:0000341 ! length of stolons
-
-[Term]
-id: CO_330:0000633
-name: potato tubsiz_obs_1-4 variable
-synonym: "Tub_Size" EXACT []
-relationship: variable_of CO_330:0000353 ! tuber size
-relationship: variable_of CO_330:0000509 ! visual estimation - tuber size method
-relationship: variable_of CO_330:0000587 ! tubsiz 4pt. scale
-is_a: CO_330:0000353 ! tuber size
-
-[Term]
-id: CO_330:0000634
-name: potato tbmkquhv_obs_1-10 variable
-relationship: variable_of CO_330:0000451 ! marketable quality
-relationship: variable_of CO_330:0000510 ! visual estimation
-relationship: variable_of CO_330:0000588 ! tbmkquhv 10pt. scale
-is_a: CO_330:0000451 ! marketable quality
-
-[Term]
-id: CO_330:0000635
-name: potato tbmkqust_obs_1-7 variable
-relationship: variable_of CO_330:0000451 ! marketable quality
-relationship: variable_of CO_330:0000511 ! visual estimation
-relationship: variable_of CO_330:0000589 ! tbmkqust 7pt. scale
-is_a: CO_330:0000451 ! marketable quality
-
-[Term]
-id: CO_330:0000636
-name: potato mprflw_ct_plot variable
-synonym: "MSM, BSM" EXACT []
-relationship: variable_of CO_330:0000452 ! farmer's preference at flowering
-relationship: variable_of CO_330:0000512 ! visual estimation-men preference at flowering
-relationship: variable_of CO_330:0000590 ! MprFlw
-is_a: CO_330:0000452 ! farmer's preference at flowering
-
-[Term]
-id: CO_330:0000637
-name: potato wprflw_ct_plot variable
-synonym: "MSWM, BSWN" EXACT []
-relationship: variable_of CO_330:0000452 ! farmer's preference at flowering
-relationship: variable_of CO_330:0000513 ! visual estimation-women preference at flowering
-relationship: variable_of CO_330:0000591 ! WprFlw
-is_a: CO_330:0000452 ! farmer's preference at flowering
-
-[Term]
-id: CO_330:0000638
-name: potato mprhar_ct_plot variable
-synonym: "MSM, BSM" EXACT []
-relationship: variable_of CO_330:0000453 ! farmer's preference  at harvest
-relationship: variable_of CO_330:0000514 ! visual estimation-men preference at harvest
-relationship: variable_of CO_330:0000592 ! MprHar
-is_a: CO_330:0000453 ! farmer's preference  at harvest
-
-[Term]
-id: CO_330:0000639
-name: potato wprhar_ct_plot variable
-synonym: "MSWM, BSWN" EXACT []
-relationship: variable_of CO_330:0000453 ! farmer's preference  at harvest
-relationship: variable_of CO_330:0000515 ! visual estimation-women preference at harvest
-relationship: variable_of CO_330:0000593 ! WprHar
-is_a: CO_330:0000453 ! farmer's preference  at harvest
-
-[Term]
-id: CO_330:0000640
-name: potato mprphar_ct_plot variable
-synonym: "SCORE_MEN" EXACT []
-relationship: variable_of CO_330:0000454 ! farmer's preference at postharvest
-relationship: variable_of CO_330:0000516 ! visual estimation-men preference at post-harvest
-relationship: variable_of CO_330:0000594 ! MprPHar
-is_a: CO_330:0000454 ! farmer's preference at postharvest
-
-[Term]
-id: CO_330:0000641
-name: potato wprphar_ct_plot variable
-synonym: "SCORE_WOMEN" EXACT []
-relationship: variable_of CO_330:0000455 ! farmer's preference at postharvest
-relationship: variable_of CO_330:0000517 ! visual estimation-women preference at post-harvest
-relationship: variable_of CO_330:0000595 ! WprPHar
-is_a: CO_330:0000455 ! farmer's preference at postharvest
-
-[Term]
-id: CO_330:0000642
-name: potato ca_ms_mgkg_dw variable
-synonym: "CaDW" EXACT []
-relationship: variable_of CO_330:0000456 ! tuber calcium concentration
-relationship: variable_of CO_330:0000203 ! mg/kg
-relationship: variable_of CO_330:0000518 ! spectrophotometry - calcium dry weight
-is_a: CO_330:0000456 ! tuber calcium concentration
-
-[Term]
-id: CO_330:0000643
-name: potato ca_cp_mg100g_fw variable
-synonym: "CaFW" EXACT []
-relationship: variable_of CO_330:0000456 ! tuber calcium concentration
-relationship: variable_of CO_330:0000200 ! mg/100g
-relationship: variable_of CO_330:0000519 ! spectrophotometry - calcium fresh weight
-is_a: CO_330:0000456 ! tuber calcium concentration
-
-[Term]
-id: CO_330:0000644
-name: potato mg_ms_mgkg_dw variable
-synonym: "MgDW" EXACT []
-relationship: variable_of CO_330:0000457 ! tuber magnesium concentration
-relationship: variable_of CO_330:0000203 ! mg/kg
-relationship: variable_of CO_330:0000520 ! spectrophotometry - magnesium dry weight
-is_a: CO_330:0000457 ! tuber magnesium concentration
-
-[Term]
-id: CO_330:0000645
-name: potato mg_cp_mg100g_fw variable
-synonym: "MgFW" EXACT []
-relationship: variable_of CO_330:0000457 ! tuber magnesium concentration
-relationship: variable_of CO_330:0000200 ! mg/100g
-relationship: variable_of CO_330:0000521 ! spectrophotometry - magnesium fresh weight
-is_a: CO_330:0000457 ! tuber magnesium concentration
-
-[Term]
-id: CO_330:0000646
-name: potato k_ms_mgkg_dw variable
-synonym: "KDW" EXACT []
-relationship: variable_of CO_330:0000203 ! mg/kg
-relationship: variable_of CO_330:0000522 ! spectrophotometry - potassium dry weight
-
-[Term]
-id: CO_330:0000647
-name: potato k_cp_mg100g_fw variable
-synonym: "KFW" EXACT []
-relationship: variable_of CO_330:0000458 ! tuber potassium concentration
-relationship: variable_of CO_330:0000200 ! mg/100g
-relationship: variable_of CO_330:0000523 ! spectrophotometry - potassium fresh weight
-is_a: CO_330:0000458 ! tuber potassium concentration
-
-[Term]
-id: CO_330:0000648
-name: potato p_ms_mgkg_dw variable
-synonym: "PDW" EXACT []
-relationship: variable_of CO_330:0000459 ! tuber phosphorus concentration
-relationship: variable_of CO_330:0000203 ! mg/kg
-relationship: variable_of CO_330:0000524 ! spectrophotometry - phosphorus dry weight
-is_a: CO_330:0000459 ! tuber phosphorus concentration
-
-[Term]
-id: CO_330:0000649
-name: potato p_cp_mg100g_fw variable
-synonym: "PFW" EXACT []
-relationship: variable_of CO_330:0000459 ! tuber phosphorus concentration
-relationship: variable_of CO_330:0000200 ! mg/100g
-relationship: variable_of CO_330:0000525 ! spectrophotometry - phosphorus fresh weight
-is_a: CO_330:0000459 ! tuber phosphorus concentration
-
-[Term]
-id: CO_330:0000650
-name: potato s_ms_mgkg_dw variable
-synonym: "SDW" EXACT []
-relationship: variable_of CO_330:0000460 ! tuber sulfur concentration
-relationship: variable_of CO_330:0000203 ! mg/kg
-relationship: variable_of CO_330:0000526 ! spectrophotometry - sulfur dry weight
-is_a: CO_330:0000460 ! tuber sulfur concentration
-
-[Term]
-id: CO_330:0000651
-name: potato s_cp_mg100g_fw variable
-synonym: "SFW" EXACT []
-relationship: variable_of CO_330:0000460 ! tuber sulfur concentration
-relationship: variable_of CO_330:0000200 ! mg/100g
-relationship: variable_of CO_330:0000527 ! spectrophotometry - sulfur fresh weight
-is_a: CO_330:0000460 ! tuber sulfur concentration
-
-[Term]
-id: CO_330:0000652
-name: potato chloac_mg100g_ms_dw variable
-synonym: "Chloac_DW" EXACT []
-relationship: variable_of CO_330:0000461 ! tuber chlorogenic acid concentration
-relationship: variable_of CO_330:0000200 ! mg/100g
-relationship: variable_of CO_330:0000528 ! chromatography - chlorogenic acid dry weight
-is_a: CO_330:0000461 ! tuber chlorogenic acid concentration
-
-[Term]
-id: CO_330:0000653
-name: potato chloac_cp_mg100g_fw variable
-synonym: "Chloac_FW" EXACT []
-relationship: variable_of CO_330:0000461 ! tuber chlorogenic acid concentration
-relationship: variable_of CO_330:0000200 ! mg/100g
-relationship: variable_of CO_330:0000529 ! chromatography - chlorogenic acid fresh weight
-is_a: CO_330:0000461 ! tuber chlorogenic acid concentration
-
-[Term]
-id: CO_330:0000654
-name: potato cafac_ms_mg100g_dw variable
-synonym: "CafAc_DW" EXACT []
-relationship: variable_of CO_330:0000462 ! tuber caffeic acid concentration
-relationship: variable_of CO_330:0000200 ! mg/100g
-relationship: variable_of CO_330:0000530 ! chromatography - caffeic acid dry weight
-is_a: CO_330:0000462 ! tuber caffeic acid concentration
-
-[Term]
-id: CO_330:0000655
-name: potato cafac_cp_mg100g_fw variable
-synonym: "CafAc_FW" EXACT []
-relationship: variable_of CO_330:0000462 ! tuber caffeic acid concentration
-relationship: variable_of CO_330:0000200 ! mg/100g
-relationship: variable_of CO_330:0000531 ! chromatography - caffeic acid fresh weight
-is_a: CO_330:0000462 ! tuber caffeic acid concentration
-
-[Term]
-id: CO_330:0000656
-name: potato trip_ms_mg100g_dw variable
-synonym: "Trip_DW" EXACT []
-relationship: variable_of CO_330:0000463 ! tuber tryptophan concentration
-relationship: variable_of CO_330:0000200 ! mg/100g
-relationship: variable_of CO_330:0000532 ! chromatography - tryptophan dry weight
-is_a: CO_330:0000463 ! tuber tryptophan concentration
-
-[Term]
-id: CO_330:0000657
-name: potato trip_cp_mg100g_fw variable
-synonym: "Trip_FW" EXACT []
-relationship: variable_of CO_330:0000463 ! tuber tryptophan concentration
-relationship: variable_of CO_330:0000200 ! mg/100g
-relationship: variable_of CO_330:0000533 ! chromatography - tryptophan fresh weight
-is_a: CO_330:0000463 ! tuber tryptophan concentration
-
-[Term]
-id: CO_330:0000658
-name: potato tphe_ms_mg100g_dw variable
-synonym: "Tphe_DW" EXACT []
-relationship: variable_of CO_330:0000464 ! tuber total phenolic concentration
-relationship: variable_of CO_330:0000200 ! mg/100g
-relationship: variable_of CO_330:0000534 ! chromatography - total phenolics dry weight
-is_a: CO_330:0000464 ! tuber total phenolic concentration
-
-[Term]
-id: CO_330:0000659
-name: potato tphe_cp_mg100g_fw variable
-synonym: "Tphe_FW" EXACT []
-relationship: variable_of CO_330:0000464 ! tuber total phenolic concentration
-relationship: variable_of CO_330:0000200 ! mg/100g
-relationship: variable_of CO_330:0000535 ! chromatography - total phenolics fresh weight
-is_a: CO_330:0000464 ! tuber total phenolic concentration
-
-[Term]
-id: CO_330:0000660
-name: potato tgly_ms_mg100g_fw variable
-synonym: "Tgly_DW" EXACT []
-relationship: variable_of CO_330:0000465 ! tuber glycoalkaloid concentration
-relationship: variable_of CO_330:0000200 ! mg/100g
-relationship: variable_of CO_330:0000536 ! chromatography - glycoalkaloid dry weight
-is_a: CO_330:0000465 ! tuber glycoalkaloid concentration
-
-[Term]
-id: CO_330:0000661
-name: potato tgly_cp_mg100g_fw variable
-synonym: "Tgly_FW" EXACT []
-relationship: variable_of CO_330:0000465 ! tuber glycoalkaloid concentration
-relationship: variable_of CO_330:0000200 ! mg/100g
-relationship: variable_of CO_330:0000537 ! chromatography - glycoalkaloid fresh weight
-is_a: CO_330:0000465 ! tuber glycoalkaloid concentration
-
-[Term]
-id: CO_330:0000662
-name: potato vio_cp_ug100g_fw variable
-synonym: "Vio_DW" EXACT []
-relationship: variable_of CO_330:0000466 ! tuber violaxanthin concentration
-relationship: variable_of CO_330:0000473 ! ug/100g
-relationship: variable_of CO_330:0000538 ! spectrophotometry - violaxanthin dry weight
-is_a: CO_330:0000466 ! tuber violaxanthin concentration
-
-[Term]
-id: CO_330:0000663
-name: potato vio_ms_ug100g_dw variable
-synonym: "Vio_FW" EXACT []
-relationship: variable_of CO_330:0000466 ! tuber violaxanthin concentration
-relationship: variable_of CO_330:0000473 ! ug/100g
-relationship: variable_of CO_330:0000539 ! spectrophotometry - violaxanthin fresh weight
-is_a: CO_330:0000466 ! tuber violaxanthin concentration
-
-[Term]
-id: CO_330:0000664
-name: potato ant_cp_ug100g_fw variable
-synonym: "Ant_DW" EXACT []
-relationship: variable_of CO_330:0000467 ! tuber antheraxanthin concentration
-relationship: variable_of CO_330:0000473 ! ug/100g
-relationship: variable_of CO_330:0000540 ! spectrophotometry - antheraxanthin dry weight
-is_a: CO_330:0000467 ! tuber antheraxanthin concentration
-
-[Term]
-id: CO_330:0000665
-name: potato ant_ms_ug100g_dw variable
-synonym: "Ant_FW" EXACT []
-relationship: variable_of CO_330:0000467 ! tuber antheraxanthin concentration
-relationship: variable_of CO_330:0000473 ! ug/100g
-relationship: variable_of CO_330:0000541 ! spectrophotometry - antheraxanthin fresh weight
-is_a: CO_330:0000467 ! tuber antheraxanthin concentration
-
-[Term]
-id: CO_330:0000666
-name: potato lute_cp_ug100g_fw variable
-synonym: "Lute_DW" EXACT []
-relationship: variable_of CO_330:0000468 ! tuber lutein concentration
-relationship: variable_of CO_330:0000473 ! ug/100g
-relationship: variable_of CO_330:0000542 ! spectrophotometry - lutein dry weight
-is_a: CO_330:0000468 ! tuber lutein concentration
-
-[Term]
-id: CO_330:0000667
-name: potato lute_ms_ug100g_dw variable
-synonym: "Lute_FW" EXACT []
-relationship: variable_of CO_330:0000468 ! tuber lutein concentration
-relationship: variable_of CO_330:0000473 ! ug/100g
-relationship: variable_of CO_330:0000543 ! spectrophotometry - lutein fresh weight
-is_a: CO_330:0000468 ! tuber lutein concentration
-
-[Term]
-id: CO_330:0000668
-name: potato zea_cp_ug100g_fw variable
-synonym: "Zea_DW" EXACT []
-relationship: variable_of CO_330:0000469 ! tuber zeaxanthine concentration
-relationship: variable_of CO_330:0000473 ! ug/100g
-relationship: variable_of CO_330:0000544 ! spectrophotometry - zeaxanthine dry weight
-is_a: CO_330:0000469 ! tuber zeaxanthine concentration
-
-[Term]
-id: CO_330:0000669
-name: potato zea_ms_ug100g_dw variable
-synonym: "Zea_FW" EXACT []
-relationship: variable_of CO_330:0000469 ! tuber zeaxanthine concentration
-relationship: variable_of CO_330:0000473 ! ug/100g
-relationship: variable_of CO_330:0000545 ! spectrophotometry - zeaxanthine fresh weight
-is_a: CO_330:0000469 ! tuber zeaxanthine concentration
-
-[Term]
-id: CO_330:0000670
-name: potato betacaro_cp_ug100g_dw variable
-synonym: "Betacaro_DW" EXACT []
-relationship: variable_of CO_330:0000470 ! tuber beta-carotene concentration
-relationship: variable_of CO_330:0000473 ! ug/100g
-relationship: variable_of CO_330:0000546 ! spectrophotometry - beta-carotene dry weight
-is_a: CO_330:0000470 ! tuber beta-carotene concentration
-
-[Term]
-id: CO_330:0000671
-name: potato betacaro_ms_ug100g_fw variable
-synonym: "Betacaro_FW" EXACT []
-relationship: variable_of CO_330:0000470 ! tuber beta-carotene concentration
-relationship: variable_of CO_330:0000473 ! ug/100g
-relationship: variable_of CO_330:0000547 ! spectrophotometry - beta-carotene fresh weight
-is_a: CO_330:0000470 ! tuber beta-carotene concentration
-
-[Term]
-id: CO_330:0000672
-name: potato neo_cp_ug100g_dw variable
-synonym: "Neo_DW" EXACT []
-relationship: variable_of CO_330:0000471 ! tuber neoxanthine concentration
-relationship: variable_of CO_330:0000473 ! ug/100g
-relationship: variable_of CO_330:0000548 ! spectrophotometry - neoxanthine dry weight
-is_a: CO_330:0000471 ! tuber neoxanthine concentration
-
-[Term]
-id: CO_330:0000673
-name: potato neo_ms_ug100g_fw variable
-synonym: "Neo_FW" EXACT []
-relationship: variable_of CO_330:0000471 ! tuber neoxanthine concentration
-relationship: variable_of CO_330:0000473 ! ug/100g
-relationship: variable_of CO_330:0000549 ! spectrophotometry - neoxanthine fresh weight
-is_a: CO_330:0000471 ! tuber neoxanthine concentration
-
-[Term]
-id: CO_330:0000674
-name: potato caro_cp_ug100gdw variable
-synonym: "Caro_DW" EXACT []
-relationship: variable_of CO_330:0000472 ! tuber total carotenoid concentration
-relationship: variable_of CO_330:0000473 ! ug/100g
-relationship: variable_of CO_330:0000550 ! spectrophotometry - total carotenoids dry weight
-is_a: CO_330:0000472 ! tuber total carotenoid concentration
-
-[Term]
-id: CO_330:0000675
-name: potato caro_ms_ug100gfw variable
-synonym: "Caro_FW" EXACT []
-relationship: variable_of CO_330:0000472 ! tuber total carotenoid concentration
-relationship: variable_of CO_330:0000473 ! ug/100g
-relationship: variable_of CO_330:0000551 ! spectrophotometry - total carotenoids fresh weight
-is_a: CO_330:0000472 ! tuber total carotenoid concentration
-
-[Term]
-id: CO_330:0000676
-name: potato idcflo_obs_1-10 variable
-relationship: variable_of CO_330:0000474 ! identified criteria at flowering
-relationship: variable_of CO_330:0000552 ! visual estimation
-relationship: variable_of CO_330:0000596 ! idcflo 10pt. scale
-is_a: CO_330:0000474 ! identified criteria at flowering
-
-[Term]
-id: CO_330:0000677
-name: potato idchav_obs_1-13 variable
-relationship: variable_of CO_330:0000475 ! identified criteria at harvest
-relationship: variable_of CO_330:0000553 ! visual estimation
-relationship: variable_of CO_330:0000597 ! idchav 13pt. scale
-is_a: CO_330:0000475 ! identified criteria at harvest
-
-[Term]
-id: CO_330:0000678
-name: potato idcphv_obs_1-3 variable
-relationship: variable_of CO_330:0000476 ! identified criteria  at post-harvest
-relationship: variable_of CO_330:0000554 ! visual estimation
-relationship: variable_of CO_330:0000598 ! idcphv 3pt. scale
-is_a: CO_330:0000476 ! identified criteria  at post-harvest
-
-[Term]
-id: CO_330:0000679
-name: potato plarc_obs_1-13 variable
-relationship: variable_of CO_330:0000477 ! plant architecture
-relationship: variable_of CO_330:0000555 ! visual estimation - plant architecture method
-relationship: variable_of CO_330:0000599 ! plarc 13pt. scale
-is_a: CO_330:0000477 ! plant architecture
-
-[Term]
-id: CO_330:0000680
-name: potato folcol_obs_1-4 variable
-relationship: variable_of CO_330:0000478 ! foliage color
-relationship: variable_of CO_330:0000556 ! visual estimation - foliage color method
-relationship: variable_of CO_330:0000600 ! folcol 4pt. scale
-is_a: CO_330:0000478 ! foliage color
-
-[Term]
-id: CO_330:0000681
-name: potato leftyp_obs_1-5 variable
-relationship: variable_of CO_330:0000479 ! leaf type
-relationship: variable_of CO_330:0000557 ! visual estimation - leaf type method
-relationship: variable_of CO_330:0000601 ! leftyp 5pt. scale
-is_a: CO_330:0000479 ! leaf type
-
-[Term]
-id: CO_330:0000682
-name: potato flwcol_obs_1-3 variable
-relationship: variable_of CO_330:0000480 ! flower color
-relationship: variable_of CO_330:0000558 ! visual estimation - flower color method
-relationship: variable_of CO_330:0000602 ! flwcol 3pt. scale
-is_a: CO_330:0000480 ! flower color
-
-[Term]
-id: CO_330:0000683
-name: potato ralter_obs_1-2 variable
-relationship: variable_of CO_330:0000481 ! rizoctoniasis resistance
-relationship: variable_of CO_330:0000559 ! visual estimation alternaria resistance - method
-relationship: variable_of CO_330:0000603 ! ralter  2pt. scale
-is_a: CO_330:0000481 ! rizoctoniasis resistance
-
-[Term]
-id: CO_330:0000684
-name: potato rmvir_obs_1-2 variable
-relationship: variable_of CO_330:0000482 ! mosaic virus resistance
-relationship: variable_of CO_330:0000560 ! visual estimation mosaic virus resistance  - method
-relationship: variable_of CO_330:0000604 ! rmvir  2pt. scale
-is_a: CO_330:0000482 ! mosaic virus resistance
-
-[Term]
-id: CO_330:0000685
-name: potato rnmth_obs_1-9 variable
-relationship: variable_of CO_330:0000483 ! reaction to moth
-relationship: variable_of CO_330:0000561 ! visual estimation of the plant response to  moth
-relationship: variable_of CO_330:0000605 ! rcmth 5 pt. scale
-is_a: CO_330:0000483 ! reaction to moth
-
-[Term]
-id: CO_330:0000686
-name: potato rnaph_obs_1-9 variable
-relationship: variable_of CO_330:0000484 ! reaction to aphids
-relationship: variable_of CO_330:0000562 ! visual estimation of the plant response to  aphis
-relationship: variable_of CO_330:0000606 ! rcaph 5 pt. scale
-is_a: CO_330:0000484 ! reaction to aphids
-
-[Term]
-id: CO_330:0000687
-name: potato rnsspw_obs_1-9 variable
-relationship: variable_of CO_330:0000485 ! reaction to potato weevil
-relationship: variable_of CO_330:0000563 ! visual estimation of the plant response to potato weevil
-relationship: variable_of CO_330:0000607 ! rcsspw 5 pt. scale
-is_a: CO_330:0000485 ! reaction to potato weevil
-
-[Term]
-id: CO_330:0000688
-name: potato ldro_obs_1-2 variable
-relationship: variable_of CO_330:0000486 ! drought tolerance
-relationship: variable_of CO_330:0000564 ! visual estimation  - drought tolerance method
-relationship: variable_of CO_330:0000608 ! toldro 2pt. scale
-is_a: CO_330:0000486 ! drought tolerance
-
-[Term]
-id: CO_330:0000689
-name: potato lhst_obs_1-2 variable
-relationship: variable_of CO_330:0000487 ! hailstorm tolerance
-relationship: variable_of CO_330:0000565 ! visual estimation - hailstorm tolerance method
-relationship: variable_of CO_330:0000609 ! tolhst 2pt. scale
-is_a: CO_330:0000487 ! hailstorm tolerance
-
-[Term]
-id: CO_330:0000690
-name: potato lfrost_obs_1-2 variable
-relationship: variable_of CO_330:0000488 ! frost tolerant
-relationship: variable_of CO_330:0000566 ! visual estimation - frost tolerant method
-relationship: variable_of CO_330:0000610 ! tolfrost 2pt. scale
-is_a: CO_330:0000488 ! frost tolerant
-
-[Term]
-id: CO_330:0000691
-name: potato lmos_obs_1-2 variable
-relationship: variable_of CO_330:0000489 ! moisture  tolerance
-relationship: variable_of CO_330:0000567 ! visual estimation - moisture  tolerance
-relationship: variable_of CO_330:0000611 ! tolmos 2pt. scale
-is_a: CO_330:0000489 ! moisture  tolerance
-
-[Term]
-id: CO_330:0000692
-name: potato nueytb_obs_1-2 variable
-relationship: variable_of CO_330:0000490 ! number of eyes
-relationship: variable_of CO_330:0000568 ! visual estimation
-relationship: variable_of CO_330:0000612 ! nueytb 2pt. scale
-is_a: CO_330:0000490 ! number of eyes
-
-[Term]
-id: CO_330:0000693
-name: potato texskn_obs_1-5 variable
-relationship: variable_of CO_330:0000491 ! tuber skin texture
-relationship: variable_of CO_330:0000569 ! visual estimation
-relationship: variable_of CO_330:0000613 ! texskn 5pt. scale
-is_a: CO_330:0000491 ! tuber skin texture
-
-[Term]
-id: CO_330:0000694
-name: potato tbhcom_obs_1-5 variable
-relationship: variable_of CO_330:0000492 ! home consumption
-relationship: variable_of CO_330:0000570 ! visual estimation
-relationship: variable_of CO_330:0000614 ! tbhcom 6pt. scale
-is_a: CO_330:0000492 ! home consumption
-
-[Term]
-id: CO_330:0000695
-name: potato spreal_obs_1-2 variable
-relationship: variable_of CO_330:0000493 ! earliness of sprouting
-relationship: variable_of CO_330:0000571 ! visual estimation
-relationship: variable_of CO_330:0000615 ! spreal 2pt. scale
-is_a: CO_330:0000493 ! earliness of sprouting
-
-[Term]
-id: CO_330:0000696
-name: potato sprtyp_obs_1-2 variable
-relationship: variable_of CO_330:0000494 ! sprout type
-relationship: variable_of CO_330:0000572 ! visual estimation
-relationship: variable_of CO_330:0000616 ! sprtyp 2pt. scale
-is_a: CO_330:0000494 ! sprout type
-
-[Term]
-id: CO_330:0000697
-name: potato glfapr_cp variable
-synonym: "MSGLO" EXACT []
-relationship: variable_of CO_330:0000495 ! global farmer preference
-relationship: variable_of CO_330:0000573 ! computation
-relationship: variable_of CO_330:0000617 ! GlFaPr
-is_a: CO_330:0000495 ! global farmer preference
-
-[Term]
-id: CO_330:0000698
-name: potato tbapac_obs_1-5 variable
-synonym: "APPEARANCE" EXACT []
-relationship: variable_of CO_330:0000496 ! appearance after cooking
-relationship: variable_of CO_330:0000574 ! visual estimation-appearance method
-relationship: variable_of CO_330:0000618 ! tbapac 3pt. scale
-is_a: CO_330:0000496 ! appearance after cooking
