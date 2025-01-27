@@ -258,28 +258,28 @@ name: maize stewarts wilt incidence trait
 def: "Stewart wilt (Erwinia stewartii) incidence." [CO:curators]
 synonym: "SteWiltInc" EXACT []
 xref: GRINDesc:89058
-is_a: TO:0000315
+is_a: TO:0000315 ! bacterial disease response trait
 
 [Term]
 id: CO_322:0000051
 name: maize bacterial leaf stripe severity trait
 def: "Bacterial leaf stripe (Pseudomonas rubrilinians) severity." [CO:curators]
 synonym: "BCLSSev" EXACT []
-is_a: TO:0000315
+is_a: TO:0000315 ! bacterial disease response trait
 
 [Term]
 id: CO_322:0000052
 name: maize bacterial stalk rot incidence trait
 def: "Bacterial stalk rot (Erwinia chrysanthemi) incidence." [CO:curators]
 synonym: "BactSRInc" EXACT []
-is_a: TO:0000315
+is_a: TO:0000315 ! bacterial disease response trait
 
 [Term]
 id: CO_322:0000053
 name: maize bushy stunt severity trait
 def: "Maize bushy stunt (caused by mycoplasma like organism, MLO) severity." [CO:curators]
 synonym: "CSCMSev" EXACT []
-is_a: TO:0000315
+is_a: TO:0000315 ! bacterial disease response trait
 
 [Term]
 id: CO_322:0000054
