@@ -220,7 +220,7 @@ name: soybean chlorosis trait
 def: "Reduction in chlorophyll in a plant or plant part as a result of nutrient deficiency" [CO:curators]
 synonym: "CHLOROSIS" EXACT []
 synonym: "Yellowing" EXACT []
-is_a: TO:0000480s
+is_a: TO:0000480
 
 [Term]
 id: CO_336:0000078
