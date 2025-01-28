@@ -503,7 +503,7 @@ id: CO_321:0000082
 name: wheat alternaria leaf blight plant response trait
 def: "Alternaria leaf blight response in the plants caused by the agent alternaria triticina." [CO:curators, NCBITaxon:216836]
 synonym: "AtritResp" EXACT []
-is_a: TO:0001145
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_321:0000084
@@ -602,7 +602,7 @@ id: CO_321:0000097
 name: wheat black point incidence trait
 def: "Black point incidence in the plants caused by the fungal species such as Helminthosporium sativum (cochliobolus sativus), Alternaria alternata and Fusarium spp. Also, black point symptoms are associated to physiological disorders." [CO:curators]
 synonym: "BlkPtInc" EXACT []
-is_a: TO:0001145
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_321:0000099
@@ -631,7 +631,7 @@ name: wheat eyespot plant response trait
 def: "Eye spot response in the plants caused by the fungal species Tapesia yallundae (Pseudocercosporella herpotrichoide w-type) and Tapesia acuformis (Pseudocercosporella herpotrichoides r-type)." [CO:curators]
 comment: Symptoms: the eye shape elliptical lesions forms on lower base of stem and lower leaf sheath. The eyespots are straw yellow in color from the middle and are surrounded by greenish brown to dark brown rings.
 synonym: "PherpResp" EXACT []
-is_a: TO:0001145
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_321:0000103
@@ -688,7 +688,7 @@ id: CO_321:0000119
 name: wheat take all incidence trait
 def: "Take-all incidence in the plants caused by the agent Gaeumannomyces graminis var. tritici (Gaeumannomyces tritici; ggt)." [CO:curators, NCBITaxon:36779]
 synonym: "GgtriInc" EXACT []
-is_a: TO:0001145
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_321:0000121
@@ -924,14 +924,14 @@ id: CO_321:0000168
 name: wheat Fusarium wilt incidence trait
 def: "Fusarium wilt incidence in the plants caused by the agent Fusarium oxysporum." [CO:curators, NCBITaxon:5507]
 synonym: "FoxiWilt" EXACT []
-is_a: TO:0001145
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_321:0000170
 name: wheat net blotch incidence trait
 def: "Net blotch incidence in the plants caused by the agent Pyrenophora teres (Helminthosporium teres)." [CO:curators, NCBITaxon:53485]
 synonym: "HtereInc" EXACT []
-is_a: TO:0001145
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_321:0000173
@@ -1277,7 +1277,7 @@ id: CO_321:0000406
 name: wheat net blotch severity trait
 def: "Net blotch severity in the plants caused by the agent Prenophora teres (Helminthosporium teres)." [CO:curators, NCBITaxon:53485]
 synonym: "HtereSev" EXACT []
-is_a: TO:0001145
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_321:0000407
@@ -1334,7 +1334,7 @@ name: wheat tan spot severity trait
 def: "Tan spot (Pyrenophora yellow leaf blotch, yellow spot) severity in the plants caused by the agent Pyrenophora tritici-repentis (Helminthosporium tritici-repentis)." [CO:curators, NCBITaxon:45151]
 comment: Symptoms: the lesions appear as tan to brown flecks, which expand into large, irregular, oval- or lens-shaped tan blotches with a yellow or chlorotic margin.
 synonym: "TanSpotSev" EXACT []
-is_a: TO:0001145
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_321:0000651
@@ -1356,7 +1356,7 @@ name: wheat fusarium leaf blotch severity trait
 def: "Fusarium leaf blotch (pink snow mold, fusarium patch) severity in the plants caused by the agent Calonectria nivalis (Fusarium nivale, Microdochium nivale)." [CO:curators, NCBITaxon:5520]
 synonym: "FNIVLB, FNIVAL" EXACT []
 synonym: "FnivLBSev" EXACT []
-is_a: TO:0001145
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_321:0000654
@@ -1522,7 +1522,7 @@ id: CO_321:0000686
 name: wheat Helminthosporium species severity trait
 def: "The disease severity in the plants caused by the agent Helminthosporium species." [CO:curators, NCBITaxon:58127]
 synonym: "HelSpSev" EXACT []
-is_a: TO:0001145
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_321:0000687
@@ -1574,21 +1574,21 @@ id: CO_321:0000714
 name: wheat Septoria blotch severity trait
 def: "Septoria blotch severity in the plants caused by the agent Septoria species." [CO:curators, NCBITaxon:39702]
 synonym: "SepSpSev" EXACT []
-is_a: TO:0001145
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_321:0000715
 name: wheat Septoria blotch plant response trait
 def: "Septoria blotch response in the plants caused by the agent Septoria species." [CO:curators, NCBITaxon:39702]
 synonym: "SepSpResp" EXACT []
-is_a: TO:0001145
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_321:0000717
 name: wheat Septoria nodorum blotch severity trait
 def: "Septoria nodorum blotch severity in the plants caused by the agent Stagonospora nodorum (syn. Septoria glume blotch) (Phaeosphaeria nodorum (e. müller) hedjaroude (syn. Stagonospora nodorum) (Parastagonospora nodorum)." [CO:curators, NCBITaxon:13684]
 synonym: "SnodoSev" EXACT []
-is_a: TO:0001145
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_321:0000718
@@ -1596,7 +1596,7 @@ name: wheat septoria tritici blotch severity trait
 def: "Septoria tritici blotch severity in the plants caused by the agent Mycosphaerella graminicola (septoria tritici) (Zymoseptoria tritici)." [CO:curators, NCBITaxon:1047171]
 comment: Symptoms: the lesions are linear and restricted laterally.
 synonym: "StritSev" EXACT []
-is_a: TO:0001145
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_321:0000719
@@ -1604,7 +1604,7 @@ name: wheat septoria tritici blotch plant response trait
 def: "Septoria tritici blotch response in the plants caused by the agent Mycosphaerella graminicola (septoria tritici)." [CO:curators, NCBITaxon:1047171]
 comment: Symptoms: the lesions are linear and restricted laterally.
 synonym: "StritResp" EXACT []
-is_a: TO:0001145
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_321:0000723
@@ -1709,7 +1709,7 @@ name: wheat tan spot incidence trait
 def: "Tan spot (Pyrenophora yellow leaf blotch, yellow spot) incidence in the plants caused by the agent Pyrenophora tritici-repentis (Helminthosporium tritici-repentis)." [CO:curators, NCBITaxon:45151]
 comment: Symptoms: the lesions appear as tan to brown flecks, which expand into large, irregular, oval- or lens-shaped tan blotches with a yellow or chlorotic margin.
 synonym: "TanSpotInc" EXACT []
-is_a: TO:0001145
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_321:0000911
@@ -1717,7 +1717,7 @@ name: wheat tan spot seedling response trait
 def: "Tan spot (Pyrenophora yellow leaf blotch, yellow spot) response in the plants caused by the agent Pyrenophora tritici-repentis (Helminthosporium tritici-repentis)." [CO:curators]
 comment: Symptoms: the lesions appear as tan to brown flecks, which expand into large, irregular, oval- or lens-shaped tan blotches with a yellow or chlorotic margin.
 synonym: "TanSpotSdlgResp" EXACT []
-is_a: TO:0001145
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_321:0000912
@@ -1738,28 +1738,28 @@ id: CO_321:0000914
 name: wheat Septoria blotch incidence trait
 def: "Septoria blotch incidence in the plants caused by the agent Septoria species." [CO:curators, NCBITaxon:39702]
 synonym: "SepSPInc" EXACT []
-is_a: TO:0001145
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_321:0000916
 name: wheat Septoria blotch legacy trait
 def: "Septoria blotch incidence/severity/response in the plants caused by the agent Septoria species." [CO:curators, NCBITaxon:39702]
 synonym: "SepSpLegacy" EXACT []
-is_a: TO:0001145
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_321:0000917
 name: wheat Septoria nodorum blotch incidence trait
 def: "Septoria nodorum blotch incidence in the plants caused by the agent Stagonospora nodorum (syn. Septoria glume blotch) (Phaeosphaeria nodorum (e. müller) hedjaroude (syn. Stagonospora nodorum) (Parastagonospora nodorum)." [CO:curators, NCBITaxon:13684]
 synonym: "SnodoInc" EXACT []
-is_a: TO:0001145
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_321:0000918
 name: wheat septoria nodorum blotch legacy trait
 def: "Septoria nodorum blotch incidence/severity/response in the plants caused by the agent Stagonospora nodorum (syn. Septoria glume blotch) (Phaeosphaeria nodorum (e. müller) hedjaroude (syn. Stagonospora nodorum) (Parastagonospora nodorum)." [CO:curators, NCBITaxon:13684]
 synonym: "SnodoLegacy" EXACT []
-is_a: TO:0001145
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_321:0000919
@@ -1767,7 +1767,7 @@ name: wheat Septoria tritici blotch incidence trait
 def: "Septoria tritici blotch incidence in the plants caused by the agent Mycosphaerella graminicola (Septoria tritici), (Zymoseptoria tritici)." [CO:curators, NCBITaxon:1047171]
 comment: Symptoms: the lesions are linear and restricted laterally.
 synonym: "StritInc" EXACT []
-is_a: TO:0001145
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_321:0000920
@@ -1775,7 +1775,7 @@ name: wheat Septoria tritici blotch legacy trait
 def: "Septoria tritici blotch incidence/severity/response in the plants caused by the agent Mycosphaerella graminicola (Septoria tritici), (Zymoseptoria tritici)." [CO:curators, NCBITaxon:1047171]
 comment: Symptoms: the lesions are linear and restricted laterally.
 synonym: "StritLegacy" EXACT []
-is_a: TO:0001145
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_321:0000921
@@ -1789,14 +1789,14 @@ id: CO_321:0000922
 name: wheat Helminthosporium species incidence trait
 def: "The disease incidence in the plants caused by the agent Helminthosporium species." [CO:curators, NCBITaxon:58127]
 synonym: "HelSpInc" EXACT []
-is_a: TO:0001145
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_321:0000923
 name: wheat Helminthosporium species legacy trait
 def: "The disease incidence/severity/response in the plants caused by the agent Helminthosporium species." [CO:curators, NCBITaxon:58127]
 synonym: "HelSpLegacy" EXACT []
-is_a: TO:0001145
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_321:0000924
@@ -1846,7 +1846,7 @@ name: wheat Fusarium leaf blotch incidence trait
 def: "Fusarium leaf blotch (pink snow mold, Fusarium patch) incidence in the plants caused by the agent Calonectria nivalis (Fusarium nivale, Microdochium nivale)." [CO:curators, NCBITaxon:5520]
 synonym: "FNIVLB, FNIVAL" EXACT []
 synonym: "FnivLBInc" EXACT []
-is_a: TO:0001145
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_321:0000931
@@ -1871,7 +1871,7 @@ id: CO_321:0000933
 name: wheat barley Helminthosporium leaf stripe incidence trait
 def: "Barley Helminthosporium leaf stripe incidence in the plants caused by the agent Drechslera graminea (Helminthosporium gramineum) (Pyrenophora graminea)." [CO:curators, NCBITaxon:5028]
 synonym: "HgramInc" EXACT []
-is_a: TO:0001145
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_321:0000935
@@ -2231,7 +2231,7 @@ id: CO_321:0500047
 name: wheat Septoria nodorum blotch plant response trait
 def: "Septoria nodorum blotch plant response caused by the agent Stagonospora nodorum (syn. Septoria glume blotch) (Phaeosphaeria nodorum (E. Muller) Hedjaroude (syn. Stagonospora nodorum) (Parastagonospora nodorum)." [CO:curators, NCBITaxon:13684]
 synonym: "SnodoResp" EXACT []
-is_a: TO:0001145
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_321:0500048
