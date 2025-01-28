@@ -178,7 +178,7 @@ def: "Time between the beginning of flowering (R1) and full maturity (R8)" [CO:c
 synonym: "REPROD" EXACT []
 synonym: "Reproductive stage length" EXACT []
 xref: SOY:0001824
-is_a: TO:0000933
+is_a: TO:0000366 ! reproductive growth time
 
 [Term]
 id: CO_336:0000063
