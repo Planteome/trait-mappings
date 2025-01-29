@@ -280,7 +280,7 @@ name: potato predominant sprout color trait
 def: "The predominant color of the sprout" [CO:curators]
 synonym: "PSpCol" EXACT []
 synonym: "Sprout predominant color" EXACT []
-is_a: TO:0000742
+is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 [Term]
 id: CO_330:0000114
@@ -868,206 +868,243 @@ is_a: TO:0003055 ! subterranean shoot axis tuber potassium content
 id: CO_330:0000459
 name: potato tuber phosphorus concentration trait
 def: "The concentration of phosphorus in tuber" [CO:curators]
+is_a: TO:0003081 ! subterranean shoot axis tuber phosphorus content
 
 [Term]
 id: CO_330:0000460
 name: potato tuber sulfur concentration trait
 def: "The concentration of sulfur in tuber" [CO:curators]
+is_a: TO:0006046.! sulfur content
 
 [Term]
 id: CO_330:0000461
 name: potato tuber chlorogenic acid concentration trait
 def: "The concentration of chlorogenic acid in tuber" [CO:curators]
+is_a: TO:0000281 ! metabolite content trait
 
 [Term]
 id: CO_330:0000462
 name: potato tuber caffeic acid concentration trait
 def: "The concentration of caffeic acid in tuber" [CO:curators]
+is_a: TO:0000281 ! metabolite content trait
 
 [Term]
 id: CO_330:0000463
 name: potato tuber tryptophan concentration trait
 def: "The concentration of tryptophan in tuber" [CO:curators]
+is_a: TO:0002674 ! tryptophan content
 
 [Term]
 id: CO_330:0000464
 name: potato tuber total phenolic concentration trait
 def: "The concentation of total phenolic components in tuber" [CO:curators]
+is_a: TO:0020076 ! phenolic compound content
 
 [Term]
 id: CO_330:0000465
 name: potato tuber glycoalkaloid concentration trait
 def: "The concentration of Glycoalkaloids in tuber" [CO:curators]
+is_a: TO:0000281 ! metabolite content trait
 
 [Term]
 id: CO_330:0000466
 name: potato tuber violaxanthin concentration trait
 def: "The concentration of violaxanthin tuber" [CO:curators]
+is_a: TO:0020119 ! violaxanthin content
 
 [Term]
 id: CO_330:0000467
 name: potato tuber antheraxanthin concentration trait
 def: "The concentration of antheraxanthin tuber" [CO:curators]
+is_a: TO:0000301 ! xanthophyll content
 
 [Term]
 id: CO_330:0000468
 name: potato tuber lutein concentration trait
 def: "The concentration of lutein tuber" [CO:curators]
+is_a: TO:0002701 ! lutein content
 
 [Term]
 id: CO_330:0000469
 name: potato tuber zeaxanthine concentration trait
 def: "The concentration of zeaxanthine in tuber" [CO:curators]
+is_a: TO:0000496 ! carotenoid content
 
 [Term]
 id: CO_330:0000470
 name: potato tuber beta-carotene concentration trait
 def: "The concentration of beta-carotene in tuber" [CO:curators]
+is_a: TO:0002695 ! beta-carotene content
 
 [Term]
 id: CO_330:0000471
 name: potato tuber neoxanthine concentration trait
 def: "The concentration of neoxanthine in tuber" [CO:curators]
+is_a: TO:0020118 ! neoxanthin content
 
 [Term]
 id: CO_330:0000472
 name: potato tuber total carotenoid concentration trait
 def: "The total carotenoid concentration in tuber" [CO:curators]
+is_a: TO:0000496 ! carotenoid content
 
 [Term]
 id: CO_330:0000474
 name: potato identified criteria at flowering trait
 def: "The identified criteria at flowering" [CO:curators]
 synonym: "IdCFlo" EXACT []
+is_a: TO:0000322 ! phenotypic acceptability
 
 [Term]
 id: CO_330:0000475
 name: potato identified criteria at harvest trait
 def: "The identified criteria at harvest" [CO:curators]
 synonym: "IdCHav" EXACT []
+is_a: TO:0000322 ! phenotypic acceptability
 
 [Term]
 id: CO_330:0000476
 name: potato identified criteria  at post-harvest trait
 def: "The identified criteria at post-harvest" [CO:curators]
 synonym: "IdCPhv" EXACT []
+is_a: TO:0000322 ! phenotypic acceptability
 
 [Term]
 id: CO_330:0000477
 name: potato plant architecture trait
 def: "The architecture of the plant" [CO:curators]
 synonym: "PlArc" EXACT []
+is_a: TO:0000398 ! whole plant morphology trait
 
 [Term]
 id: CO_330:0000478
 name: potato foliage color trait
 def: "The color of the foliage" [CO:curators]
 synonym: "FolCol" EXACT []
+is_a: TO:0000326 ! leaf color
 
 [Term]
 id: CO_330:0000479
 name: potato leaf type trait
 def: "The type of leaves of the plant" [CO:curators]
 synonym: "LefTyp" EXACT []
+is_a: TO:0000748 ! leaf morphology trait
 
 [Term]
 id: CO_330:0000480
 name: potato flower color trait
 def: "The color of the flowers" [CO:curators]
 synonym: "FlwCol" EXACT []
+is_a: TO:0000537 ! flower color
 
 [Term]
 id: CO_330:0000481
 name: potato rizoctoniasis resistance trait
 def: "The plant resistance to rizoctoniasis" [CO:curators]
 synonym: "RAlter" EXACT []
+is_a: TO:0000439 ! fungal disease response
 
 [Term]
 id: CO_330:0000482
 name: potato mosaic virus resistance trait
 def: "The plant resistance to mosaic virus" [CO:curators]
 synonym: "RMVir" EXACT []
+is_a: TO:0000148 ! viral disease response
 
 [Term]
 id: CO_330:0000483
-name: potato reaction to moth trait
-def: "The reaction of the plant or plant part to damage caused by  Moth" [CO:curators]
+name: potato reaction to moths trait
+def: "The reaction of the plant or plant part to damage caused by moths" [CO:curators]
 synonym: "RnMth" EXACT []
+is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_330:0000484
 name: potato reaction to aphids trait
-def: "The reaction of the plant or plant part to damage caused by Aphis" [CO:curators]
+def: "The reaction of the plant or plant part to damage caused by aphids" [CO:curators]
 synonym: "RnAph" EXACT []
+is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_330:0000485
 name: potato reaction to potato weevil trait
 def: "The reaction of the plant or plant part to damage caused by potato weevil" [CO:curators]
 synonym: "RnSSPW" EXACT []
+is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_330:0000486
 name: potato drought tolerance trait
 def: "The tolerance to drought of the plant" [CO:curators]
 synonym: "TolDro" EXACT []
+is_a: TO:0000276 ! drought tolerance
 
 [Term]
 id: CO_330:0000487
 name: potato hailstorm tolerance trait
 def: "The tolerant to hailstorm of the plant" [CO:curators]
 synonym: "TolHst" EXACT []
+is_a: TO:0000168 TO:0000168 ! abiotic plant stress trait
 
 [Term]
 id: CO_330:0000488
 name: potato frost tolerant trait
 def: "The tolerant to frost of the plant" [CO:curators]
 synonym: "TolFrost" EXACT []
+is_a: TO:0001152 ! frost damage stress response
 
 [Term]
 id: CO_330:0000489
 name: potato moisture  tolerance trait
 def: "The tolerant to excessive soil moisture" [CO:curators]
 synonym: "TolMoS" EXACT []
+is_a: TO:0000114 ! flooding related trait
 
 [Term]
 id: CO_330:0000490
 name: potato number of eyes trait
 def: "The number of tuber eyes" [CO:curators]
 synonym: "NuEyTb" EXACT []
+is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 [Term]
 id: CO_330:0000491
 name: potato tuber skin texture trait
 def: "The texture of the tuber skin" [CO:curators]
 synonym: "TexSkn" EXACT []
+is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 [Term]
 id: CO_330:0000492
 name: potato home consumption trait
 def: "The consumption at home of tubers" [CO:curators]
 synonym: "TbHcom" EXACT []
+is_a: TO:0000322 ! phenotypic acceptability
 
 [Term]
 id: CO_330:0000493
 name: potato earliness of sprouting trait
 def: "The earliness of sprouts at storage stage" [CO:curators]
 synonym: "SprEal" EXACT []
+is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_330:0000494
 name: potato sprout type trait
 def: "The type of sprouts at storage stage" [CO:curators]
 synonym: "SprTyp" EXACT []
+is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 [Term]
 id: CO_330:0000495
 name: potato global farmer preference trait
 def: "Farmer's global vote for clone preference" [CO:curators]
 synonym: "GlFaPr" EXACT []
+is_a: TO:0000322 ! phenotypic acceptability
 
 [Term]
 id: CO_330:0000496
 name: potato appearance after cooking trait
 def: "The visual aspect of boiled potatoes: potatoes turn gray or dark after boiling" [CO:curators]
 synonym: "TbApAc" EXACT []
+is_a: TO:0001069 ! cooking quality trait

@@ -285,7 +285,7 @@ id: CO_321:0000050
 name: wheat peduncle neck break trait
 def: "Observation of spike break from the base of head." [CO:curators]
 synonym: "NeckBreak" EXACT []
-is_a: TO:0000168
+is_a: TO:0000168 ! abiotic plant stress trait
 
 [Term]
 id: CO_321:0000051
@@ -718,14 +718,14 @@ id: CO_321:0000126
 name: wheat hail damage trait
 def: "Plant damage caused by hail." [CO:curators]
 synonym: "HailDmg" EXACT []
-is_a: TO:0000168
+is_a: TO:0000168 TO:0000168 ! abiotic plant stress trait
 
 [Term]
 id: CO_321:0000127
 name: wheat frost damage trait
 def: "Plant damage caused by frost." [CO:curators]
 synonym: "FrostDmg" EXACT []
-is_a: TO:0001152
+is_a: TO:0001152 ! frost damage stress response
 
 [Term]
 id: CO_321:0000128
