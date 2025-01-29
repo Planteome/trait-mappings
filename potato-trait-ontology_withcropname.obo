@@ -64,7 +64,7 @@ id: CO_330:0000024
 name: potato fruit color trait
 def: "The color of the fruit" [CO:curators]
 synonym: "FrtCol" EXACT []
-is_a: TO:0002617
+is_a: TO:0002617 ! fruit color
 
 [Term]
 id: CO_330:0000027

@@ -107,8 +107,8 @@ name: soybean seed yield trait
 def: "Yield of a soybean field in terms of seed weight per unit area at a specified moisture content." [CO:curators]
 synonym: "Plot Yield, Seed weight" EXACT []
 synonym: "SdYld" EXACT []
-is_a: TO:0000905 ! seed yield trait
 xref: SOY:0001622
+is_a: TO:0000905 ! seed yield trait
 
 [Term]
 id: CO_336:0000039
@@ -116,7 +116,7 @@ name: soybean fodder yield trait
 def: "Weight of harvested fodder i.e., haulm, stover per unit of area" [CO:curators]
 synonym: "FODDERWT" EXACT []
 synonym: "Haulm" EXACT []
-is_a: TO:0000371
+is_a: TO:0000371 ! yield trait
 
 [Term]
 id: CO_336:0000042
@@ -169,7 +169,7 @@ def: "Tendency of plant to form primary branches" [CO:curators]
 synonym: "BRANCHING" EXACT []
 synonym: "Branching" EXACT []
 xref: SOY:0001318
-is_a: TO:0000052
+is_a: TO:0002639 ! shoot branching
 
 [Term]
 id: CO_336:0000060
@@ -186,7 +186,7 @@ name: soybean flower color trait
 def: "Color of the flower petals" [CO:curators]
 synonym: "FLWRCOLOR" EXACT []
 xref: SOY:0001352
-is_a: TO:0000537
+is_a: TO:0000537 ! flower color
 
 [Term]
 id: CO_336:0000066
@@ -220,7 +220,7 @@ name: soybean chlorosis trait
 def: "Reduction in chlorophyll in a plant or plant part as a result of nutrient deficiency" [CO:curators]
 synonym: "CHLOROSIS" EXACT []
 synonym: "Yellowing" EXACT []
-is_a: TO:0000480
+is_a: TO:0000480 ! nutrient sensitivity
 
 [Term]
 id: CO_336:0000078
@@ -255,7 +255,7 @@ def: "Time when the seed grows in size and weight i.e., the period characterized
 synonym: "Seed fill" EXACT []
 synonym: "SEEDFILL" EXACT []
 xref: SOY:0001596
-is_a: TO:0002661
+is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_336:0000090
@@ -263,7 +263,7 @@ name: soybean pod color trait
 def: "Color of the pod." [CO:curators]
 synonym: "PODCOLOR" EXACT []
 xref: SOY:0001715
-is_a: TO:0002617
+is_a: TO:0002617 ! fruit color
 
 [Term]
 id: CO_336:0000093
@@ -272,7 +272,7 @@ def: "Color of the soybean seed hilum (scar on the ovule produced by abscision o
 synonym: "HILUMCOLOR" EXACT []
 synonym: "Seed hilum color" EXACT []
 xref: SOY:0001367
-is_a: TO:0000968
+is_a: TO:0000968 ! hilum color
 
 [Term]
 id: CO_336:0000096
@@ -281,7 +281,7 @@ def: "Overall quality of the seed based on defective seed coat, greenish or dise
 synonym: "Seed appearance" EXACT []
 synonym: "SEEDQUAL" EXACT []
 xref: SOY:0001418
-is_a: TO:0000931
+is_a: TO:0000931 ! seed quality trait
 
 [Term]
 id: CO_336:0000099
@@ -308,7 +308,7 @@ def: "Linoleic acid content of the seed oil i.e., linoleic acid weight per total
 synonym: "LINOLEIC" EXACT []
 synonym: "Linoleic acid, LA, C18:2, octadecadienoic acid" EXACT []
 xref: SOY:0001391
-is_a: TO:0005001
+is_a: TO:0005001 ! linoleic acid content
 
 [Term]
 id: CO_336:0000108
@@ -335,7 +335,7 @@ def: "Oleic acid content of the seed oil i.e., palmitic acid weight per total oi
 synonym: "Oleic acid, 18:1 n-9, C18:1 n9, octadecanoic acid" EXACT []
 synonym: "OLIEC" EXACT []
 xref: SOY:0001671
-is_a: TO:0005002
+is_a: TO:0005002 ! oleic acid content
 
 [Term]
 id: CO_336:0000117
@@ -353,7 +353,7 @@ def: "Stearic acid content of the seed oil i.e., stearic acid weight per total o
 synonym: "STEARIC" EXACT []
 synonym: "Stearic, C18:0, octadecoic acid, octadecanoic acid" EXACT []
 xref: SOY:0001626
-is_a: TO:0005003
+is_a: TO:0005003 ! stearic acid content
 
 [Term]
 id: CO_336:0000123
@@ -362,16 +362,16 @@ def: "Termination type of the axial growth of a soybean plant." [CO:curators]
 synonym: "stem termination" EXACT []
 synonym: "STEMTERM" EXACT []
 xref: SOY:0001688
-is_a: TO:0006017
+is_a: TO:0006017 ! meristem identity
 
 [Term]
 id: CO_336:0000126
 name: soybean beet armyworm trait
-def: "Foliar feeding damage caused by beet armyworm(Spodoptera exigua)" [CO:curators]
+def: "Foliar feeding damage caused by beet armyworm (Spodoptera exigua)" [CO:curators]
 synonym: "BAW" EXACT []
 synonym: "Beet armyworm" EXACT []
 xref: SOY:0001440
-is_a: TO:0000273
+is_a: TO:0000273 ! armyworm resistance
 
 [Term]
 id: CO_336:0000129
@@ -395,7 +395,7 @@ name: soybean pubescence color trait
 def: "The color of soybean pubescence." [CO:curators]
 synonym: "PUBCOLOR" EXACT []
 xref: SOY:0001719
-is_a: TO:0000911
+is_a: TO:0000911 ! trichome morphology trait
 
 [Term]
 id: CO_336:0000141
@@ -403,7 +403,7 @@ name: soybean maturity group trait
 def: "Maturity group designation of a germplasm." [CO:curators]
 synonym: "MATGROUP" EXACT []
 xref: SOY:0001708
-is_a: TO:0000653
+is_a: TO:0000469 ! days to maturity
 
 [Term]
 id: CO_336:0000144
@@ -411,7 +411,7 @@ name: soybean seed coat mottling trait
 def: "Surface of the seed coat discolored by mottling i.e., the additional pigmentation that is observed on lines with yellow or green seed coats" [CO:curators]
 synonym: "MOTTLING" EXACT []
 xref: SOY:0001713
-is_a: TO:0020017
+is_a: TO:0020017 ! seed coat spotted
 
 [Term]
 id: CO_336:0000147
@@ -446,7 +446,7 @@ name: soybean germination time trait
 def: "Time from planting soybean seed until hypocotyl emerges from the substrate" [CO:curators]
 synonym: "GERMINATIONTIME" EXACT []
 xref: SOY:0001728
-is_a: TO:0006061
+is_a: TO:0006061 ! days to germinate
 
 [Term]
 id: CO_336:0000159
@@ -480,7 +480,7 @@ def: "The number of nodule on the root system usually compared to wild type" [CO
 synonym: "NODULENUMBER" EXACT []
 synonym: "Root nodule number" EXACT []
 xref: SOY:0001299
-is_a: TO:0000900
+is_a: TO:0000900 ! root nodule number
 
 [Term]
 id: CO_336:0000171
@@ -508,7 +508,7 @@ def: "Weight of root nodules" [CO:curators]
 synonym: "NODULEWEIGTH" EXACT []
 synonym: "Root nodule weight" EXACT []
 xref: SOY:0001898
-is_a: TO:0000899
+is_a: TO:0000899 ! root nodule weight
 
 [Term]
 id: CO_336:0000180
@@ -517,7 +517,7 @@ def: "The shape of the primary root at a stipulated range of the root" [CO:curat
 synonym: "Primary root shape" EXACT []
 synonym: "PRIROOTSHAPE" EXACT []
 xref: SOY:0001748
-is_a: TO:0002710
+is_a: TO:0002710 ! root shape
 
 [Term]
 id: CO_336:0000183
@@ -542,7 +542,7 @@ name: soybean main stem diameter trait
 def: "The diameter of the main stem of soybean plant" [CO:curators]
 synonym: "STEMDIAM" EXACT []
 xref: SOY:0001624
-is_a: TO:0020083
+is_a: TO:0020083 ! leaf number
 
 [Term]
 id: CO_336:0000192
@@ -558,7 +558,7 @@ name: soybean seed moisture content trait
 def: "The amount of moisture of a mature seed" [CO:curators]
 synonym: "Moisture content" EXACT []
 synonym: "SEEDMOISTURE" EXACT []
-is_a: TO:0000228
+is_a: TO:0000228 ! moisture content trait
 
 [Term]
 id: CO_336:0000198
@@ -603,7 +603,7 @@ def: "The shape of the lateral root at a stipulated range of the roots" [CO:cura
 synonym: "Lateral root shape" EXACT []
 synonym: "LATROOTSHAPE" EXACT []
 xref: SOY:0001738
-is_a: TO:0002710
+is_a: TO:0002710 ! root shape
 
 [Term]
 id: CO_336:0000213
@@ -612,7 +612,7 @@ def: "The amount of total seed soluble carbohydrates that is stachyose." [CO:cur
 synonym: "Stachyose" EXACT []
 synonym: "STARCHYOSE" EXACT []
 xref: SOY:0001636
-is_a: TO:0006007
+is_a: TO:0006007 ! polysaccharide content
 
 [Term]
 id: CO_336:0000216
@@ -621,7 +621,7 @@ def: "Raffinose content of a plant or plant part." [CO:curators]
 synonym: "RAFFINOSE" EXACT []
 synonym: "Raffinose" EXACT []
 xref: SOY:0001641
-is_a: TO:0006004
+is_a: TO:0006004 ! raffinose content
 
 [Term]
 id: CO_336:0000219
@@ -639,7 +639,7 @@ def: "Orientation of pubescence, generally on the leaf surface but pubsecence ca
 synonym: "PUBFORM" EXACT []
 synonym: "Trichome form" EXACT []
 xref: SOY:0001720
-is_a: TO:0000911
+is_a: TO:0000911 ! trichome morphology trait
 
 [Term]
 id: CO_336:0000225
@@ -648,7 +648,7 @@ def: "The form of the tip of a soybean pubescence" [CO:curators]
 synonym: "PUBTIPTYPE" EXACT []
 synonym: "Trichome tip type" EXACT []
 xref: SOY:0001722
-is_a: TO:0000911
+is_a: TO:0000911 ! trichome morphology trait
 
 [Term]
 id: CO_336:0000228
@@ -656,7 +656,7 @@ name: soybean flower form trait
 def: "Form of a flower." [CO:curators]
 synonym: "Flower Morphogenisis" EXACT []
 synonym: "FLOWERFORM" EXACT []
-is_a: TO:0000881
+is_a: TO:0000881 ! flower type
 
 [Term]
 id: CO_336:0000231
@@ -665,7 +665,7 @@ def: "Presence or absence of pubescence on soybean plant" [CO:curators]
 synonym: "Pubescence presence" EXACT []
 synonym: "PUBPERSENCE" EXACT []
 xref: SOY:0001718
-is_a: TO:0000911
+is_a: TO:0000911 ! trichome morphology trait
 
 [Term]
 id: CO_336:0000236
@@ -699,7 +699,7 @@ def: "Reaction of the plant or plant part to infection by Cercopsora species." [
 synonym: "CERCOSLEAFSPOT" EXACT []
 synonym: "Cercospora Leaf spot disease" EXACT []
 xref: SOY:0001573
-is_a: TO:0002702
+is_a: TO:0002702 ! cercospora leaf spot resistance
 
 [Term]
 id: CO_336:0000346
@@ -708,4 +708,4 @@ def: "Orientation of pubescence on the surface of the leaflet" [CO:curators]
 synonym: "PUBFORM" EXACT []
 synonym: "Trichome form" EXACT []
 xref: SOY:0001720
-is_a: TO:0000911
+is_a: TO:0001139 ! leaflet pubescence

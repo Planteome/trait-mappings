@@ -525,7 +525,7 @@ id: CO_321:0000086
 name: wheat armyworm damage trait
 def: "The plant damage caused by armyworm." [CO:curators]
 synonym: "ArmyWDmg" EXACT []
-is_a: TO:0000273
+is_a: TO:0000273 ! armyworm resistance
 
 [Term]
 id: CO_321:0000087
@@ -2012,7 +2012,7 @@ id: CO_321:0500015
 name: wheat forage moisture content trait
 def: "Moisture in forage sample" [CO:curators]
 synonym: "ForMst" EXACT []
-is_a: TO:0000228
+is_a: TO:0000228 ! moisture content trait
 
 [Term]
 id: CO_321:0500016
