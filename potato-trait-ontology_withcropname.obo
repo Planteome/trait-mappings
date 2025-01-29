@@ -36,7 +36,7 @@ id: CO_330:0000012
 name: potato main inflorescence flower number trait
 def: "The flower number of the main inflorescence" [CO:curators]
 synonym: "FlwNum" EXACT []
-is_a: TO:0002736
+is_a: TO:0002736 ! flower number trait
 
 [Term]
 id: CO_330:0000015
@@ -101,7 +101,7 @@ name: potato leaf shape trait
 def: "The shape of the leaf" [CO:curators]
 synonym: "LefShp" EXACT []
 synonym: "Type of leaf dissection" EXACT []
-is_a: TO:0000492
+is_a: TO:0000492 ! leaf shape
 
 [Term]
 id: CO_330:0000042
@@ -199,42 +199,42 @@ name: potato predominant tuber skin color trait
 def: "The color of the predominant tuber skin" [CO:curators]
 synonym: "PSknCol" EXACT []
 synonym: "Tuber skin Predominant color" EXACT []
-is_a: TO:0000742
+is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 [Term]
 id: CO_330:0000081
 name: potato tuber skin main color intensity trait
 def: "The main color instensity of the tuber skin" [CO:curators]
 synonym: "SknCPI" EXACT []
-is_a: TO:0000742
+is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 [Term]
 id: CO_330:0000084
 name: potato tuber skin secondary color trait
 def: "The secondary color of the skin" [CO:curators]
 synonym: "SknCSc" EXACT []
-is_a: TO:0000742
+is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 [Term]
 id: CO_330:0000087
 name: potato distribution of secondary tuber skin color trait
 def: "The color distribution of secondary tuber skin" [CO:curators]
 synonym: "SknCScD" EXACT []
-is_a: TO:0000742
+is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 [Term]
 id: CO_330:0000090
 name: potato predominant tuber flesh color trait
 def: "The color of the predominant tuber flesh" [CO:curators]
 synonym: "PFlshCol" EXACT []
-is_a: TO:0000742
+is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 [Term]
 id: CO_330:0000093
 name: potato tuber flesh secondary color trait
 def: "The secondary color of the tuber flesh" [CO:curators]
 synonym: "FlsCSc" EXACT []
-is_a: TO:0000742
+is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 [Term]
 id: CO_330:0000096
@@ -264,7 +264,7 @@ name: potato tuber depth eyes trait
 def: "The depth of the tuber eyes" [CO:curators]
 synonym: "DpEyTb" EXACT []
 synonym: "Tuber depth eyes" EXACT []
-is_a: TO:0000742
+is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 [Term]
 id: CO_330:0000108
@@ -272,7 +272,7 @@ name: potato tuber number per plant trait
 def: "The total number of tubers per plant" [CO:curators]
 synonym: "Total number of tuber" EXACT []
 synonym: "TubN" EXACT []
-is_a: TO:0001071
+is_a: TO:0001071 ! shoot axis tuber yield
 
 [Term]
 id: CO_330:0000111
@@ -288,7 +288,7 @@ name: potato secondary sprout color trait
 def: "The secondary color of the sprout" [CO:curators]
 synonym: "Sprout secondary color" EXACT []
 synonym: "SpScCol" EXACT []
-is_a: TO:0000742
+is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 [Term]
 id: CO_330:0000117
@@ -296,7 +296,7 @@ name: potato distribution of secondary sprout color trait
 def: "The secondary color distribution of the sprout" [CO:curators]
 synonym: "SpCSD" EXACT []
 synonym: "Sprout secondary color distribution" EXACT []
-is_a: TO:0000742
+is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 [Term]
 id: CO_330:0000120
@@ -337,21 +337,21 @@ id: CO_330:0000135
 name: potato bacterial wilt resistance trait
 def: "The plant resistance to bacterial wilt" [CO:curators]
 synonym: "RBw" EXACT []
-is_a: TO:0000315
+is_a: TO:0000315 ! bacterial disease response trait
 
 [Term]
 id: CO_330:0000138
 name: potato root knot nematode resistance trait
 def: "The tuber resistance to root knot nematode" [CO:curators]
 synonym: "RRkn" EXACT []
-is_a: TO:0000384
+is_a: TO:0000384 ! nematode damage resistance
 
 [Term]
 id: CO_330:0000141
 name: potato leaf miner fly resistance trait
 def: "The plant resistance to leaf miner fly" [CO:curators]
 synonym: "RLmf" EXACT []
-is_a: TO:0000261
+is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_330:0000144
@@ -359,24 +359,25 @@ name: potato tuber yield no adjusted trait
 def: "The total tuber yield no adjusted per unit area" [CO:curators]
 synonym: "TbYldNAj" EXACT []
 synonym: "Total tuber yield no adjusted" EXACT []
-is_a: TO:0001071
+is_a: TO:0001071 ! shoot axis tuber yield
 
 [Term]
 id: CO_330:0000147
 name: potato plant growing period trait
 def: "The growing period of the plant" [CO:curators]
+is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_330:0000153
 name: potato tuber dormancy period trait
 def: "The dormancy period of the tuber" [CO:curators]
-is_a: TO:0000654
+is_a: TO:0000654 ! shoot system growth and development trait
 
 [Term]
 id: CO_330:0000159
 name: potato tuber sprouting pattern trait
 def: "The sprouting pattern of the tuber" [CO:curators]
-is_a: TO:0000742
+is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 [Term]
 id: CO_330:0000162
@@ -394,7 +395,7 @@ is_a: TO:0006001 ! salt tolerance
 id: CO_330:0000168
 name: potato pollen viability trait
 def: "The number of the chromosomes" [CO:curators]
-is_a: TO:0000421
+is_a: TO:0000421 ! pollen fertility
 
 [Term]
 id: CO_330:0000171
@@ -460,7 +461,7 @@ is_a: TO:0000281 ! metabolite content trait
 id: CO_330:0000201
 name: potato tuber iron concentration in dry weight basis trait
 def: "The concentration of iron in dry weight basis" [CO:curators]
-is_a: TO:1000060
+is_a: TO:1000060 ! shoot system iron content
 
 [Term]
 id: CO_330:0000204
@@ -500,7 +501,7 @@ id: CO_330:0000269
 name: potato plant uniformity trait
 def: "The uniformity of the plant" [CO:curators]
 synonym: "PlUni" EXACT []
-is_a: TO:0000737
+is_a: TO:0000737 ! plant aspect
 
 [Term]
 id: CO_330:0000273
@@ -514,7 +515,7 @@ id: CO_330:0000277
 name: potato senescence trait
 def: "The senescence of the plant" [CO:curators]
 synonym: "Sen" EXACT []
-is_a: TO:0000133
+is_a: TO:0000947 ! whole plant growth and development trait
 
 [Term]
 id: CO_330:0000281
@@ -544,7 +545,7 @@ name: potato number of marketable tubers trait
 def: "The total number of marketable tubers per unit area" [CO:curators]
 synonym: "Marketable tubers number" EXACT []
 synonym: "NMTb" EXACT []
-is_a: TO:0001071
+is_a: TO:0001071 ! shoot axis tuber yield
 
 [Term]
 id: CO_330:0000294
@@ -552,7 +553,7 @@ name: potato number of marketable tubers per plant trait
 def: "The total number of marketable tubers per plant" [CO:curators]
 synonym: "Marketable tubers number per plant" EXACT []
 synonym: "NMTb" EXACT []
-is_a: TO:0001071
+is_a: TO:0001071 ! shoot axis tuber yield
 
 [Term]
 id: CO_330:0000298
@@ -560,7 +561,7 @@ name: potato non-marketable tuber number trait
 def: "The number of non-marketable tubers per unit area" [CO:curators]
 synonym: "NNMTb" EXACT []
 synonym: "Number of non-commercial" EXACT []
-is_a: TO:0001071
+is_a: TO:0001071 ! shoot axis tuber yield
 
 [Term]
 id: CO_330:0000301
@@ -568,7 +569,7 @@ name: potato tuber number trait
 def: "The total number of tubers per unit area" [CO:curators]
 synonym: "Total number of tubers" EXACT []
 synonym: "TubN" EXACT []
-is_a: TO:0001071
+is_a: TO:0001071 ! shoot axis tuber yield
 
 [Term]
 id: CO_330:0000306
@@ -576,7 +577,7 @@ name: potato marketable tuber weight trait
 def: "The total weight of marketable tubers per unit area" [CO:curators]
 synonym: "Marketable tuber weight per plot" EXACT []
 synonym: "MTbWg" EXACT []
-is_a: TO:0000746
+is_a: TO:0000746 ! subterranean shoot axis tuber mass
 
 [Term]
 id: CO_330:0000309
@@ -584,7 +585,7 @@ name: potato marketable tuber weight per plant trait
 def: "The total weight of marketable tubers per plant" [CO:curators]
 synonym: "Marketable tuber weight per plant" EXACT []
 synonym: "MTbWp" EXACT []
-is_a: TO:0000746
+is_a: TO:0000746 ! subterranean shoot axis tuber mass
 
 [Term]
 id: CO_330:0000312
@@ -592,7 +593,7 @@ name: potato non-marketable tuber weight trait
 def: "The weight of non-marketable tubers per unit area" [CO:curators]
 synonym: "NoMTWg" EXACT []
 synonym: "Non-marketable tuber weight per plot" EXACT []
-is_a: TO:0000746
+is_a: TO:0000746 ! subterranean shoot axis tuber mass
 
 [Term]
 id: CO_330:0000315
@@ -600,6 +601,7 @@ name: potato tuber weight trait
 def: "The total weight of tubers per unit area" [CO:curators]
 synonym: "Total tuber weight kg per plot" EXACT []
 synonym: "TubWg" EXACT []
+is_a: TO:0000746 ! subterranean shoot axis tuber mass
 
 [Term]
 id: CO_330:0000318
@@ -607,7 +609,7 @@ name: potato tuber weight per plant trait
 def: "The total weight of tubers per plant" [CO:curators]
 synonym: "Total tuber weight kg per plant" EXACT []
 synonym: "TubWg" EXACT []
-is_a: TO:0000746
+is_a: TO:0000746 ! subterranean shoot axis tuber mass
 
 [Term]
 id: CO_330:0000325
@@ -615,7 +617,7 @@ name: potato marketable tuber yield adjusted trait
 def: "The marketable tuber yield adjusted per unit area" [CO:curators]
 synonym: "Marketable tuber yield adjusted computation tons per hectare" EXACT []
 synonym: "MkbYldAj" EXACT []
-is_a: TO:0001071
+is_a: TO:0001071 ! shoot axis tuber yield
 
 [Term]
 id: CO_330:0000328
@@ -623,7 +625,7 @@ name: potato marketable tuber yield no adjusted trait
 def: "The marketable tuber yield no adjusted per unit area" [CO:curators]
 synonym: "Marketable tuber yield no adjusted computation tons per hectare" EXACT []
 synonym: "MkYldNAj" EXACT []
-is_a: TO:0001071
+is_a: TO:0001071 ! shoot axis tuber yield
 
 [Term]
 id: CO_330:0000331
@@ -631,7 +633,7 @@ name: potato average of tuber weight trait
 def: "The average tuber weight in grams" [CO:curators]
 synonym: "Average tuber weight computation grams" EXACT []
 synonym: "AvTbWg" EXACT []
-is_a: TO:0000746
+is_a: TO:0000746 ! subterranean shoot axis tuber mass
 
 [Term]
 id: CO_330:0000334
@@ -639,7 +641,7 @@ name: potato average of marketable tuber weight trait
 def: "The average marketable tuber weight in grams" [CO:curators]
 synonym: "Average marketable tuber weight computation grams" EXACT []
 synonym: "AvTrWg" EXACT []
-is_a: TO:0000746
+is_a: TO:0000746 ! subterranean shoot axis tuber mass
 
 [Term]
 id: CO_330:0000337
@@ -647,7 +649,7 @@ name: potato number of stolons trait
 def: "The number of stolons" [CO:curators]
 synonym: "NumStn" EXACT []
 synonym: "Stolons number" EXACT []
-is_a: TO:0000739
+is_a: TO:0000548 ! rhizome number
 
 [Term]
 id: CO_330:0000341
@@ -655,28 +657,28 @@ name: potato length of stolons trait
 def: "The length of stolons" [CO:curators]
 synonym: "LgStn" EXACT []
 synonym: "Stolons length" EXACT []
-is_a: TO:0000740
+is_a: TO:0000553 ! rhizome length
 
 [Term]
 id: CO_330:0000345
 name: potato tuber appearance trait
 def: "The appearence of the tuber" [CO:curators]
 synonym: "TubApp" EXACT []
-is_a: TO:0000745
+is_a: TO:0000745 ! subterranean shoot axis tuber appearance
 
 [Term]
 id: CO_330:0000349
 name: potato tuber uniformity trait
 def: "The uniformity of the tuber" [CO:curators]
 synonym: "TubUni" EXACT []
-is_a: TO:0000745
+is_a: TO:0000745 ! subterranean shoot axis tuber appearance
 
 [Term]
 id: CO_330:0000353
 name: potato tuber size trait
 def: "The size of the tuber" [CO:curators]
 synonym: "TubSiz" EXACT []
-is_a: TO:0000744
+is_a: TO:0000744 ! subterranean shoot axis tuber size
 
 [Term]
 id: CO_330:0000357
@@ -722,7 +724,7 @@ is_a: TO:0000457 ! total biomass yield
 id: CO_330:0000405
 name: potato tuber iron concentration in fresh weight basis trait
 def: "The concentration of iron in fresh weight basis" [CO:curators]
-is_a: TO:1000060
+is_a: TO:1000060 ! shoot system iron content
 
 [Term]
 id: CO_330:0000410
@@ -734,13 +736,13 @@ is_a: TO:1000073 ! shoot system zinc content
 id: CO_330:0000413
 name: potato tuber anthocyanin concentration in dry weight basis trait
 def: "The anthocyanin concentration in dry weight basis" [CO:curators]
-is_a: TO:0000071
+is_a: TO:0000071 ! anthocyanin content
 
 [Term]
 id: CO_330:0000415
 name: potato tuber anthocyanin concentration in fresh weight basis trait
 def: "The anthocyanin concentration in fresh weight basis" [CO:curators]
-is_a: TO:0000071
+is_a: TO:0000071 ! anthocyanin content
 
 [Term]
 id: CO_330:0000419
@@ -779,7 +781,7 @@ id: CO_330:0000436
 name: potato tuber fructose content trait
 def: "The fructose content of the tuber" [CO:curators]
 synonym: "TubFlsFru" EXACT []
-is_a: TO:0006005
+is_a: TO:0006005 ! fructose content
 
 [Term]
 id: CO_330:0000439
@@ -800,59 +802,67 @@ id: CO_330:0000445
 name: potato tuber maltose content trait
 def: "The maltose content of the tuber" [CO:curators]
 synonym: "TubFlsMal" EXACT []
-is_a: TO:0006003
+is_a: TO:0006003 ! oligosaccharide content
 
 [Term]
 id: CO_330:0000448
 name: potato tuber fiber content trait
 def: "The fiber content of the tuber in fresh weight basis" [CO:curators]
 synonym: "TubFlsFf" EXACT []
-is_a: TO:0002642
+is_a: TO:0002642 ! fiber content
 
 [Term]
 id: CO_330:0000451
 name: potato marketable quality trait
 def: "The marketable qualities of tubers" [CO:curators]
 synonym: "TbMkqu" EXACT []
+is_a: TO:0000322 ! phenotypic acceptability
 
 [Term]
 id: CO_330:0000452
 name: potato farmer's preference at flowering trait
 def: "Farmer's vote for clone preference at flowering stage" [CO:curators]
 synonym: "MprFlw" EXACT []
+is_a: TO:0000322 ! phenotypic acceptability
 
 [Term]
 id: CO_330:0000453
 name: potato farmer's preference  at harvest trait
 def: "Farmer's vote for clone preference at harvest stage" [CO:curators]
 synonym: "MprHar" EXACT []
+is_a: TO:0000322 ! phenotypic acceptability
 
 [Term]
 id: CO_330:0000454
 name: potato farmer's preference at postharvest trait
 def: "Farmer's vote for clone preference at post-harvest stage" [CO:curators]
 synonym: "MprPHar" EXACT []
+is_a: TO:0000322 ! phenotypic acceptability
 
 [Term]
 id: CO_330:0000455
 name: potato farmer's preference at postharvest trait
 def: "Farmer's vote for clone preference at post-harvest stage" [CO:curators]
 synonym: "WprPHar" EXACT []
+is_a: TO:0000322 ! phenotypic acceptability
 
 [Term]
 id: CO_330:0000456
 name: potato tuber calcium concentration trait
 def: "The concentration of calcium in tuber" [CO:curators]
+is_a: TO:0006047 ! calcium content trait
 
 [Term]
 id: CO_330:0000457
 name: potato tuber magnesium concentration trait
 def: "The concentration of magnesium in tuber" [CO:curators]
+is_a: TO:0006044 ! magnesium content
 
 [Term]
 id: CO_330:0000458
 name: potato tuber potassium concentration trait
 def: "The concentration of potassium in tuber" [CO:curators]
+is_a: TO:0003055 ! subterranean shoot axis tuber potassium content
 
 [Term]
 id: CO_330:0000459

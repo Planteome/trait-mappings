@@ -315,7 +315,7 @@ id: CO_331:0000130
 name: sweetpotato fiber content trait
 def: "Fiber content in fresh samples." [CO:curators]
 synonym: "RtFlsFf" EXACT []
-is_a: TO:0002642 ! dietary fiber related trait
+is_a: TO:0002642 ! fiber content
 
 [Term]
 id: CO_331:0000133
@@ -470,7 +470,7 @@ id: CO_331:0000256
 name: sweetpotato fiber cooked trait
 def: "Fiber content in cooked samples." [CO:curators]
 synonym: "RtFlsFbC" EXACT []
-is_a: TO:0002642 ! dietary fiber related trait
+is_a: TO:0002642 ! fiber content
 
 [Term]
 id: CO_331:0000266

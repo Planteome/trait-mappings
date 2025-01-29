@@ -250,14 +250,14 @@ id: CO_321:0000045
 name: wheat leaf pubescence density trait
 def: "Leaf hairiness density." [CO:curators]
 synonym: "LeafPubDen" EXACT []
-is_a: TO:0002722
+is_a: TO:0002722 ! leaf pubescence
 
 [Term]
 id: CO_321:0000046
 name: wheat leaf pubescence length trait
 def: "Leaf pubescent length." [CO:curators]
 synonym: "LeafPubLng" EXACT []
-is_a: TO:0002722
+is_a: TO:0002722 ! leaf pubescence
 
 [Term]
 id: CO_321:0000047
@@ -652,28 +652,28 @@ id: CO_321:0000110
 name: wheat seed gall nematode damage trait
 def: "The wheat seed-gall nematode damage caused by anguina tritici." [CO:curators]
 synonym: "SGNDmg" EXACT []
-is_a: TO:0000384
+is_a: TO:0000384 ! nematode damage resistance
 
 [Term]
 id: CO_321:0000111
 name: wheat cyst nematode damage trait
 def: "The wheat cyst nematode damage caused by cyst nematode, heterodera avenae." [CO:curators]
 synonym: "HavenDmg" EXACT []
-is_a: TO:0000384
+is_a: TO:0000384 ! nematode damage resistance
 
 [Term]
 id: CO_321:0000112
 name: wheat pratylenchus neglectus damage trait
 def: "The plant damage caused by root-lesion nematode, pratylenchus neglectus." [CO:curators]
 synonym: "PnegleDmg" EXACT []
-is_a: TO:0000384
+is_a: TO:0000384 ! nematode damage resistance
 
 [Term]
 id: CO_321:0000113
 name: wheat pratylenchus thornei damage trait
 def: "The plant damage caused by root-lesion nematode, pratylenchus thornei." [CO:curators]
 synonym: "PthornDmg" EXACT []
-is_a: TO:0000384
+is_a: TO:0000384 ! nematode damage resistance
 
 [Term]
 id: CO_321:0000115
@@ -696,7 +696,7 @@ name: wheat anthesis time trait
 def: "Anthesis or flowering time is the period during which a flower is fully open and functional. pollination and fertilization occur during this period." [CO:curators]
 synonym: "Ant" EXACT []
 synonym: "Flowering time" EXACT []
-is_a: TO:0002616
+is_a: TO:0002616 ! flowering time trait
 
 [Term]
 id: CO_321:0000123
@@ -879,7 +879,7 @@ id: CO_321:0000161
 name: wheat root lesion nematode damage trait
 def: "The plant damage caused by root-lesion nematodes, pratylenchus spp." [CO:curators]
 synonym: "RLNDmg" EXACT []
-is_a: TO:0000384
+is_a: TO:0000384 ! nematode damage resistance
 
 [Term]
 id: CO_321:0000162
@@ -887,7 +887,7 @@ name: wheat agronomic score trait
 def: "Rating of overall agronomic attributes and health of plants." [CO:curators]
 synonym: "AgrScr" EXACT []
 synonym: "Phenotypic acceptability" EXACT []
-is_a: TO:0000322
+is_a: TO:0000322 ! phenotypic acceptability
 
 [Term]
 id: CO_321:0000164
@@ -2003,9 +2003,9 @@ is_a: TO:0000607 ! ash content
 [Term]
 id: CO_321:0500014
 name: wheat forage fiber content trait
-def: "Fober concentration of forage" [CO:curators]
+def: "Fiber concentration of forage" [CO:curators]
 synonym: "ForFib" EXACT []
-is_a: TO:0002642
+is_a: TO:0002642 ! fiber content
 
 [Term]
 id: CO_321:0500015
@@ -2019,7 +2019,7 @@ id: CO_321:0500016
 name: wheat forage ndf content trait
 def: "Neutral detergent fiber concentration of forage" [CO:curators]
 synonym: "ForNDF" EXACT []
-is_a: TO:0002642
+is_a: TO:0001148 ! neutral detergent fiber content
 
 [Term]
 id: CO_321:0500017
@@ -2098,7 +2098,7 @@ id: CO_321:0500027
 name: wheat grain calcium content trait
 def: "Content of Calcium in grain." [CO:curators]
 synonym: "GCalc" EXACT []
-is_a: TO:0006047
+is_a: TO:0006047 ! calcium content trait
 
 [Term]
 id: CO_321:0500028
@@ -2133,7 +2133,7 @@ id: CO_321:0500032
 name: wheat grain magnesium content trait
 def: "Content of Magnesium in grain." [CO:curators]
 synonym: "GMagn" EXACT []
-is_a: TO:0006044
+is_a: TO:0006044 ! magnesium content
 
 [Term]
 id: CO_321:0500033

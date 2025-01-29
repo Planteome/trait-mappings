@@ -10,7 +10,7 @@ def: "Anthesis or flowering time is the period during which a flower is fully op
 synonym: "FlwT" EXACT []
 synonym: "Open flower" EXACT []
 xref: SOY:0001353
-is_a: TO:0002616
+is_a: TO:0002616 ! flowering time trait
 
 
 [Term]
@@ -20,7 +20,7 @@ def: "V-shaped chlorotic to necrotic foliar lesions,vascular blackening, Light c
 synonym: "Bacterial Pustule" EXACT []
 synonym: "BP" EXACT []
 xref: SOY:0001426
-is_a: TO:0000315
+is_a: TO:0000315 ! bacterial disease response trait
 
 [Term]
 id: CO_336:0000006
@@ -65,7 +65,7 @@ def: "Large galls or knots on the root system caused by Meloidogyne Spp" [CO:cur
 synonym: "Root knot nematode" EXACT []
 synonym: "ROOTKNOT" EXACT []
 xref: SOY:0001374
-is_a: TO:0000384
+is_a: TO:0000384 ! nematode damage resistance
 
 [Term]
 id: CO_336:0000021
@@ -379,7 +379,7 @@ name: soybean defoliation trait
 def: "Defoliation by chewing insects" [CO:curators]
 synonym: "DEFOL" EXACT []
 synonym: "Leaf chewing" EXACT []
-is_a: TO:0000261
+is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_336:0000132
@@ -454,7 +454,7 @@ name: soybean flower number trait
 def: "The number of flowers produced by a plant" [CO:curators]
 synonym: "FLWRNUMBER" EXACT []
 xref: SOY:0001740
-is_a: TO:0002736
+is_a: TO:0002736 ! flower number trait
 
 [Term]
 id: CO_336:0000162
@@ -471,7 +471,7 @@ def: "Days from planting when there is an open flower on any node on the main st
 synonym: "Fflr" EXACT []
 synonym: "FIRSTFLOWER" EXACT []
 xref: SOY:0001640
-is_a: TO:0002616
+is_a: TO:0002616 ! flowering time trait
 
 [Term]
 id: CO_336:0000168
@@ -550,7 +550,7 @@ name: soybean fiber content trait
 def: "The amount of fiber in soybean seed" [CO:curators]
 synonym: "Seed fiber Content" EXACT []
 synonym: "SEEDFIBER" EXACT []
-is_a: TO:0002642
+is_a: TO:0002642 ! fiber content
 
 [Term]
 id: CO_336:0000195

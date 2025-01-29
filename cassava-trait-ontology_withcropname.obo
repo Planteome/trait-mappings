@@ -190,7 +190,7 @@ id: CO_334:0000281
 name: cassava anthocyanin pigmentation trait
 def: "Distribution of anthocyanin pigmentation" [CO:curators]
 synonym: "AnthrCPig" EXACT []
-is_a: TO:0000071
+is_a: TO:0000071 ! anthocyanin content
 
 [Term]
 id: CO_334:0000282
@@ -204,7 +204,7 @@ id: CO_334:0000283
 name: cassava apical pubescence trait
 def: "Pubescence of young leaves" [CO:curators]
 synonym: "LfPub" EXACT []
-is_a: TO:0002722
+is_a: TO:0002722 ! leaf pubescence
 
 [Term]
 id: CO_334:0000284
@@ -364,7 +364,7 @@ id: CO_334:0000353
 name: cassava central leaf shape trait
 def: "Shape of central leaf taken from a mid-height position." [CO:curators]
 synonym: "lfshp" EXACT []
-is_a: TO:0000492
+is_a: TO:0000492 ! leaf shape
 
 [Term]
 id: CO_334:0000354
@@ -386,7 +386,7 @@ name: cassava days to 50% anthesis trait
 def: "50% of the female flower opened to expose the pistils per plot" [CO:curators]
 synonym: "dyfl" EXACT []
 synonym: "flw50a" EXACT []
-is_a: TO:0002616
+is_a: TO:0002616 ! flowering time trait
 
 [Term]
 id: CO_334:0000357
@@ -400,14 +400,14 @@ id: CO_334:0000358
 name: cassava days to first anthesis trait
 def: "Exposing of the pistil per plot of any female flower" [CO:curators]
 synonym: "flwdfa" EXACT []
-is_a: TO:0002616
+is_a: TO:0002616 ! flowering time trait
 
 [Term]
 id: CO_334:0000359
 name: cassava days to first inflorescence trait
 def: "Time to reach the first inflorescence" [CO:curators]
 synonym: "flwdfi" EXACT []
-is_a: TO:0002616
+is_a: TO:0002616 ! flowering time trait
 
 [Term]
 id: CO_334:0000360
@@ -435,35 +435,35 @@ id: CO_334:0000364
 name: cassava female flower number trait
 def: "Number of female flowers after the buds appear" [CO:curators]
 synonym: "FFlwNo" EXACT []
-is_a: TO:0000987
+is_a: TO:0000987 ! pistillate flower number trait
 
 [Term]
 id: CO_334:0000365
 name: cassava female stamenoids trait
 def: "Presence of stamen in female cassava flowers" [CO:curators]
 synonym: "femsta" EXACT []
-is_a: TO:0000499
+is_a: TO:0000499 ! flower morphology trait
 
 [Term]
 id: CO_334:0000366
 name: cassava fibre content trait
 def: "Fibre content" [CO:curators]
 synonym: "fibre" EXACT []
-is_a: TO:0002642
+is_a: TO:0002642 ! fiber content
 
 [Term]
 id: CO_334:0000367
 name: cassava flowering trait
 def: "Abundance of flower" [CO:curators]
 synonym: "flowerab" EXACT []
-is_a: TO:0002736
+is_a: TO:0002736 ! flower number trait
 
 [Term]
 id: CO_334:0000369
 name: cassava fresh shoot weight trait
 def: "Total fresh weight of harvested foliage and stems" [CO:curators]
 synonym: "ShFrWe" EXACT []
-is_a: TO:0000571
+is_a: TO:0000571 !shoot fresh weight
 
 [Term]
 id: CO_334:0000370
@@ -477,7 +477,7 @@ id: CO_334:0000371
 name: cassava fruit exocarp texture trait
 def: "Texture of the outer most layer of the cassava fruit" [CO:curators]
 synonym: "fruexo" EXACT []
-is_a: TO:0002624
+is_a: TO:0002624 ! exocarp texture
 
 [Term]
 id: CO_334:0000372
