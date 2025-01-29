@@ -39,7 +39,7 @@ def: "Stunting of plants and crinkled and mottling of leaves" [CO:curators]
 synonym: "SMV" EXACT []
 synonym: "Viral infection, SMV" EXACT []
 xref: SOY:0001501
-is_a: TO:0000148
+is_a: TO:0000148 ! viral disease response trait
 
 [Term]
 id: CO_336:0000012
@@ -142,7 +142,7 @@ def: "Oil content of soybean seed" [CO:curators]
 synonym: "%oil content, oil concentration" EXACT []
 synonym: "OIL" EXACT []
 xref: SOY:0001668
-is_a: TO:0000604
+is_a: TO:0000604 ! oil content
 
 [Term]
 id: CO_336:0000051
@@ -195,7 +195,7 @@ def: "Length of the pod from the calyx to the pod tip in cm or mm" [CO:curators]
 synonym: "Fruit length" EXACT []
 synonym: "PODLENGTH" EXACT []
 xref: SOY:0001717
-is_a: TO:0002626
+is_a: TO:0002626 ! fruit length
 
 [Term]
 id: CO_336:0000069
@@ -246,7 +246,7 @@ def: "Ratio of oil content to protein content of the seed" [CO:curators]
 synonym: "Oil to protein content" EXACT []
 synonym: "OILPROTEIN" EXACT []
 xref: SOY:0001689
-is_a: TO:0000604
+is_a: TO:0000604 ! oil content
 
 [Term]
 id: CO_336:0000087
@@ -344,7 +344,7 @@ def: "The amount of total soybean seed protein that is composed of methionine" [
 synonym: "METHIONINE" EXACT []
 synonym: "Methionine, methionine amino acid" EXACT []
 xref: SOY:0001709
-is_a: TO:0002673
+is_a: TO:0002673 ! amino acid content
 
 [Term]
 id: CO_336:0000120
@@ -420,7 +420,7 @@ def: "The amount of total soybean seed protein that is composed of lysine" [CO:c
 synonym: "LYSINE" EXACT []
 synonym: "Lysine content, Lysine amino acid" EXACT []
 xref: SOY:0001760
-is_a: TO:0002673
+is_a: TO:0002673 ! amino acid content
 
 [Term]
 id: CO_336:0000150
@@ -438,7 +438,7 @@ def: "The total isoflavone content of a seed." [CO:curators]
 synonym: "ISOFLAVON" EXACT []
 synonym: "isoflavone concentration" EXACT []
 xref: SOY:0001849
-is_a: TO:0000281
+is_a: TO:0000281 ! metabolite content trait
 
 [Term]
 id: CO_336:0000156
@@ -526,7 +526,7 @@ def: "The diameter of the main root measured at a stipulated level of the root" 
 synonym: "Primary Root thickness" EXACT []
 synonym: "PRIROOTSIZE" EXACT []
 xref: SOY:0001747
-is_a: TO:0000043
+is_a: TO:0000043 ! root morphology trait
 
 [Term]
 id: CO_336:0000186
@@ -567,7 +567,7 @@ def: "The amount of total seed soluble carbohydrates that is sucrose." [CO:curat
 synonym: "Sucrose" EXACT []
 synonym: "SUCROSS" EXACT []
 xref: SOY:0001623
-is_a: TO:0000328
+is_a: TO:0000328 ! sucrose content
 
 [Term]
 id: CO_336:0000201
@@ -594,7 +594,7 @@ def: "The diameter of a lateral root measured at the proximal end of the root" [
 synonym: "Lateral root thickness" EXACT []
 synonym: "LATROOTSIZE" EXACT []
 xref: SOY:0001737
-is_a: TO:0000043
+is_a: TO:0000043 ! root morphology trait
 
 [Term]
 id: CO_336:0000210

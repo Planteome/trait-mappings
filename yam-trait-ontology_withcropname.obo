@@ -36,7 +36,7 @@ id: CO_343:0000012
 name: yam seed germination rate trait
 def: "A proportion of sown true (botanical) seed which germinate and produce seedling." [CO:curators]
 synonym: "germRate" EXACT []
-is_a: TO:0000430 ! germination rate
+is_a: TO:0000202 ! germination ratio
 
 [Term]
 id: CO_343:0000015

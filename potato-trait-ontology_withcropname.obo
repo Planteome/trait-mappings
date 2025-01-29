@@ -43,7 +43,7 @@ id: CO_330:0000015
 name: potato anther pigmentation trait
 def: "The pigmentation of the anther" [CO:curators]
 synonym: "FlrAnP" EXACT []
-is_a: TO:0000187
+is_a: TO:0000187 ! anther color
 
 [Term]
 id: CO_330:0000018
@@ -184,7 +184,7 @@ id: CO_330:0000072
 name: potato main stem pigmentation trait
 def: "The pigmentation of the main stem" [CO:curators]
 synonym: "MStPg" EXACT []
-is_a: TO:0000056
+is_a: TO:0000056 ! stem color
 
 [Term]
 id: CO_330:0000075
@@ -316,21 +316,21 @@ id: CO_330:0000126
 name: potato potato virus x resistance trait
 def: "The plant resistance to potato virus X" [CO:curators]
 synonym: "RPvx" EXACT []
-is_a: TO:0000148
+is_a: TO:0000148 ! viral disease response trait
 
 [Term]
 id: CO_330:0000129
 name: potato potato virus y resistance trait
 def: "The plant resistance to potato virus Y" [CO:curators]
 synonym: "Rpvy" EXACT []
-is_a: TO:0000148
+is_a: TO:0000148 ! viral disease response trait
 
 [Term]
 id: CO_330:0000132
 name: potato potato leaf roll virus resistance trait
 def: "The plant resistance to potato leaf roll virus" [CO:curators]
 synonym: "RPrlv" EXACT []
-is_a: TO:0000148
+is_a: TO:0000148 ! viral disease response trait
 
 [Term]
 id: CO_330:0000135
@@ -454,7 +454,7 @@ is_a: TO:0001069 ! cooking quality trait
 id: CO_330:0000198
 name: potato tuber ascorbic acid concentration in dry weight basis trait
 def: "The concentration of ascorbic acid in dry weight basis" [CO:curators]
-is_a: TO:0000281
+is_a: TO:0000281 ! metabolite content trait
 
 [Term]
 id: CO_330:0000201
@@ -493,7 +493,7 @@ name: potato number of emerged plants trait
 def: "The number of emerged plants" [CO:curators]
 synonym: "Emerged plant number" EXACT []
 synonym: "NTbEg" EXACT []
-is_a: TO:0000250
+is_a: TO:0000250 ! plant vigor trait
 
 [Term]
 id: CO_330:0000269
@@ -507,7 +507,7 @@ id: CO_330:0000273
 name: potato plant vigor trait
 def: "The vigor of the plant" [CO:curators]
 synonym: "PlVig" EXACT []
-is_a: TO:0000250
+is_a: TO:0000250 ! plant vigor trait
 
 [Term]
 id: CO_330:0000277
@@ -522,7 +522,7 @@ name: potato plant emergence proportion trait
 def: "The proportion of plants emerged over tubers planted" [CO:curators]
 synonym: "Percentage of plants emerged" EXACT []
 synonym: "PPlEg" EXACT []
-is_a: TO:0000250
+is_a: TO:0000250 ! plant vigor trait
 
 [Term]
 id: CO_330:0000284
@@ -758,7 +758,7 @@ is_a: TO:0001143 ! antioxidant activity trait
 id: CO_330:0000427
 name: potato tuber ascorbic acid concentration in fresh weight basis trait
 def: "The concentration of ascorbic acid in fresh weight basis" [CO:curators]
-is_a: TO:0000281
+is_a: TO:0000281 ! metabolite content trait
 
 [Term]
 id: CO_330:0000430
@@ -772,7 +772,7 @@ id: CO_330:0000433
 name: potato tuber starch content trait
 def: "The starch content of the tuber" [CO:curators]
 synonym: "TubFlsSta" EXACT []
-is_a: TO:0000696
+is_a: TO:0000696 ! starch content
 
 [Term]
 id: CO_330:0000436
@@ -786,14 +786,14 @@ id: CO_330:0000439
 name: potato tuber glucose content trait
 def: "The glucose content of the tuber" [CO:curators]
 synonym: "TubFlsGlu" EXACT []
-is_a: TO:0000300
+is_a: TO:0000300 ! glucose content
 
 [Term]
 id: CO_330:0000442
 name: potato tuber sucrose content trait
 def: "The sucrose content of the tuber" [CO:curators]
 synonym: "TubFlsSuc" EXACT []
-is_a: TO:0000328
+is_a: TO:0000328 ! sucrose content
 
 [Term]
 id: CO_330:0000445

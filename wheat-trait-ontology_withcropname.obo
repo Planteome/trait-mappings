@@ -31,7 +31,7 @@ name: wheat plant early vigour trait
 def: "Capacity of a seedling or plant to grow vegetatively in early stages of development." [CO:curators]
 synonym: "ErlVig" EXACT []
 synonym: "Seedling vigour, Plant early vigor" EXACT []
-is_a: TO:0000250
+is_a: TO:0000250 ! plant vigor trait
 
 [Term]
 id: CO_321:0000011
@@ -46,21 +46,21 @@ id: CO_321:0000012
 name: wheat grain moisture content trait
 def: "Moisture content of grain." [CO:curators]
 synonym: "GMoi" EXACT []
-is_a: TO:0000057
+is_a: TO:0000057 ! grain moisture
 
 [Term]
 id: CO_321:0000013
 name: wheat grain yield trait
 def: "Amount (weight) of grains that was harvested." [CO:curators]
 synonym: "GY" EXACT []
-is_a: TO:0000396
+is_a: TO:0000396 ! grain yield trait
 
 [Term]
 id: CO_321:0000014
 name: wheat crop ground cover trait
 def: "Crop ground cover, or the percentage of soil surface covered by plant foliage." [CO:curators]
 synonym: "GrndCov" EXACT []
-is_a: TO:0000250
+is_a: TO:0000250 ! plant vigor trait
 
 [Term]
 id: CO_321:0000015
@@ -74,7 +74,7 @@ id: CO_321:0000016
 name: wheat growth stage trait
 def: "Growth/developmental stages based on zadoks decimal code." [CO:curators]
 synonym: "GrwStg" EXACT []
-is_a: TO:0000928
+is_a: TO:0000928 ! plant structure growth and development trait
 
 [Term]
 id: CO_321:0000017
@@ -82,7 +82,7 @@ name: wheat grain number trait
 def: "Number of grains expressed as per unit area or sample." [CO:curators]
 synonym: "GN" EXACT []
 synonym: "Kernel number" EXACT []
-is_a: TO:0002759
+is_a: TO:0002759 ! grain number
 
 [Term]
 id: CO_321:0000018
@@ -118,7 +118,7 @@ name: wheat grain weight trait
 def: "Grain weight usually expressed as weight of single, one hundred, two hundred or thousand grains." [CO:curators]
 synonym: "GW" EXACT []
 synonym: "kernel weight" EXACT []
-is_a: TO:0000919
+is_a: TO:0000919 ! grain weight
 
 [Term]
 id: CO_321:0000026
@@ -205,14 +205,14 @@ name: wheat grain number per spike trait
 def: "Number of grains per spike." [CO:curators]
 synonym: "GrnSpk" EXACT []
 synonym: "Kernel number per spike, grains per spike" EXACT []
-is_a: TO:0002759
+is_a: TO:0002759 ! grain number
 
 [Term]
 id: CO_321:0000039
 name: wheat grain plumpness trait
 def: "The degree of endosperm filling." [CO:curators]
 synonym: "GPlump" EXACT []
-is_a: TO:0001079
+is_a: TO:0001079 ! caryopsis fruit morphology trait
 
 [Term]
 id: CO_321:0000040
@@ -220,7 +220,7 @@ name: wheat grain size trait
 def: "Grain size." [CO:curators]
 synonym: "GSize" EXACT []
 synonym: "Kernel size" EXACT []
-is_a: TO:0002625
+is_a: TO:0000397 ! grain size
 
 [Term]
 id: CO_321:0000041
@@ -228,7 +228,7 @@ name: wheat grain number per spikelet trait
 def: "Number of grains per spikelet." [CO:curators]
 synonym: "GrnSpl" EXACT []
 synonym: "Kernel number per spikelet" EXACT []
-is_a: TO:0002759
+is_a: TO:0002759 ! grain number
 
 [Term]
 id: CO_321:0000042
@@ -243,7 +243,7 @@ id: CO_321:0000044
 name: wheat leaf length trait
 def: "Length of leaf." [CO:curators]
 synonym: "LeafLng" EXACT []
-is_a: TO:0000135
+is_a: TO:0000135 ! leaf length
 
 [Term]
 id: CO_321:0000045
@@ -278,7 +278,7 @@ id: CO_321:0000049
 name: wheat leaf width trait
 def: "Width of leaf." [CO:curators]
 synonym: "LeafWid" EXACT []
-is_a: TO:0000370
+is_a: TO:0000370 ! leaf width
 
 [Term]
 id: CO_321:0000050
@@ -588,7 +588,7 @@ id: CO_321:0000095
 name: wheat barley stripe mosaic incidence trait
 def: "Barley stripe mosaic incidence in the plants caused by barley stripe mosaic virus." [CO:curators, NCBITaxon:12327]
 synonym: "BSMV" EXACT []
-is_a: TO:0000148
+is_a: TO:0000148 ! viral disease response trait
 
 [Term]
 id: CO_321:0000096
@@ -938,7 +938,7 @@ id: CO_321:0000173
 name: wheat soil borne mosaic incidence trait
 def: "Soil borne mosaic incidence in the plants caused by the agent soilborne wheat mosaic virus (sbwmv) which is vectored by plasmodiophorid polymyxa graminis." [CO:curators]
 synonym: "SBMVInc" EXACT []
-is_a: TO:0000148
+is_a: TO:0000148 ! viral disease response trait
 
 [Term]
 id: CO_321:0000174
@@ -1011,7 +1011,7 @@ name: wheat plant hybrid necrosis incidence trait
 def: "Observation of hybrid necrosis." [CO:curators]
 synonym: "Dwarf clumping" EXACT []
 synonym: "HNecro" EXACT []
-is_a: TO:0000250
+is_a: TO:0000250 ! plant vigor trait
 
 [Term]
 id: CO_321:0000187
@@ -1019,7 +1019,7 @@ name: wheat plant stand trait
 def: "Plant population or plant density." [CO:curators]
 synonym: "Plant establishment, Crop stand, Plant density, Plant population" EXACT []
 synonym: "PlntStnd" EXACT []
-is_a: TO:0000250
+is_a: TO:0000250  ! plant vigor trait
 
 [Term]
 id: CO_321:0000189
@@ -1034,7 +1034,7 @@ id: CO_321:0000190
 name: wheat tiller number trait
 def: "Number of total tillers (fertile and infertile) per unit area, sample or plant." [CO:curators]
 synonym: "TN" EXACT []
-is_a: TO:0000346
+is_a: TO:0000346 ! tiller number
 
 [Term]
 id: CO_321:0000191
@@ -1305,14 +1305,14 @@ id: CO_321:0000644
 name: wheat infertile tiller number trait
 def: "Number of infertile tillers  per unit area, sample or plant." [CO:curators]
 synonym: "InfertTN" EXACT []
-is_a: TO:0000346
+is_a: TO:0000346 ! tiller number
 
 [Term]
 id: CO_321:0000645
 name: wheat grain yield factor trait
 def: "Yield factor" [CO:curators]
 synonym: "GYFac" EXACT []
-is_a: TO:0000396
+is_a: TO:0000396 ! grain yield trait
 
 [Term]
 id: CO_321:0000647
@@ -1378,7 +1378,7 @@ name: wheat grain appearance trait
 def: "Appearance of a single grain." [CO:curators]
 synonym: "GApp" EXACT []
 synonym: "Kernel appearance" EXACT []
-is_a: TO:0001079
+is_a: TO:0001079 ! caryopsis fruit morphology trait
 
 [Term]
 id: CO_321:0000657
@@ -1415,7 +1415,7 @@ name: wheat growth class trait
 def: "Classification of vernalization responsive growth habit as winter, facultative or spring wheat" [CO:curators]
 synonym: "GrwCls" EXACT []
 synonym: "Seasonality, Vernalization response" EXACT []
-is_a: TO:0000928
+is_a: TO:0000928 ! plant structure growth and development trait
 
 [Term]
 id: CO_321:0000668
@@ -1480,7 +1480,7 @@ name: wheat plant vigour trait
 def: "Capacity of the plant to grow." [CO:curators]
 synonym: "Plant vigor" EXACT []
 synonym: "PlntVig" EXACT []
-is_a: TO:0000250
+is_a: TO:0000250 ! plant vigor trait
 
 [Term]
 id: CO_321:0000681
@@ -1998,7 +1998,7 @@ id: CO_321:0500013
 name: wheat forage ash content trait
 def: "Ash concentration of forage" [CO:curators]
 synonym: "ForAsh" EXACT []
-is_a: TO:0000607
+is_a: TO:0000607 ! ash content
 
 [Term]
 id: CO_321:0500014
@@ -2033,7 +2033,7 @@ id: CO_321:0500018
 name: wheat forage starch content trait
 def: "Starch concentration of forage" [CO:curators]
 synonym: "ForStr" EXACT []
-is_a: TO:0000696
+is_a: TO:0000696 ! starch content
 
 [Term]
 id: CO_321:0500019
@@ -2084,7 +2084,7 @@ id: CO_321:0500025
 name: wheat grain ash content trait
 def: "Grain ash concentration" [CO:curators]
 synonym: "GrnAsh" EXACT []
-is_a: TO:0000607
+is_a: TO:0000607 ! ash content
 
 [Term]
 id: CO_321:0500026
@@ -2189,7 +2189,7 @@ id: CO_321:0500040
 name: wheat micro test weight trait
 def: "Micro Test Weight" [CO:curators]
 synonym: "MTW" EXACT []
-is_a: TO:0000919
+is_a: TO:0000919 ! grain weight
 
 [Term]
 id: CO_321:0500041
@@ -2245,14 +2245,14 @@ id: CO_321:0500049
 name: wheat soil borne mosaic infection coefficient trait
 def: "Soil borne mosaic infection coefficient" [CO:curators]
 synonym: "SBMVCI" EXACT []
-is_a: TO:0000148
+is_a: TO:0000148 ! viral disease response trait
 
 [Term]
 id: CO_321:0500050
 name: wheat soil borne mosaic plant response trait
 def: "Soil borne mosaic response in the plants caused by the agent Polymyxa graminis." [CO:curators]
 synonym: "SBMVResp" EXACT []
-is_a: TO:0000148
+is_a: TO:0000148 ! viral disease response trait
 
 [Term]
 id: CO_321:0500051

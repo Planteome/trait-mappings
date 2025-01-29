@@ -9,7 +9,7 @@ name: maize anthesis silking interval trait
 def: "Anthesis silking interval." [CO:curators]
 synonym: "ASI" EXACT []
 xref: MaizeGDB_QTL:62044
-is_a: TO:0000463
+is_a: TO:0000463 ! TO:0000463
 
 
 [Term]
@@ -24,7 +24,7 @@ id: CO_322:0000005
 name: maize grain yield trait
 def: "Grain yield per unit area, either field weight basis, dry weight basis or adjusted to 12.5% grain moisture." [CO:curators]
 synonym: "GY" EXACT []
-is_a: TO:0000396
+is_a: TO:0000396 ! grain yield trait
 
 [Term]
 id: CO_322:0000007
@@ -32,7 +32,7 @@ name: maize plant height to insertion of first tassel branch trait
 def: "Plant height from the base to the insertion of the first tassel branch." [CO:curators]
 synonym: "PHTslB" EXACT []
 xref: GRINDesc:89033
-is_a: TO:0000797
+is_a: TO:0000207 ! plant height
 
 [Term]
 id: CO_322:0000010
@@ -55,14 +55,14 @@ id: CO_322:0000012
 name: maize senescence trait
 def: "Leaf senescence." [CO:curators]
 synonym: "Sen" EXACT []
-is_a: TO:0012011
+is_a: TO:0000249 ! leaf senescence trait
 
 [Term]
 id: CO_322:0000013
 name: maize silk length trait
 def: "Silk length." [CO:curators]
 synonym: "SilkLng" EXACT []
-is_a: TO:0011009
+is_a: TO:0011009 ! style length
 
 [Term]
 id: CO_322:0000014
@@ -139,7 +139,7 @@ name: maize leaf length trait
 def: "Leaf length." [CO:curators]
 synonym: "LLng" EXACT []
 xref: MaizeGDB_QTL:61715
-is_a: TO:0000135
+is_a: TO:0000135 ! leaf length
 
 [Term]
 id: CO_322:0000026
@@ -147,14 +147,14 @@ name: maize leaf width trait
 def: "Leaf width." [CO:curators]
 synonym: "LWid" EXACT []
 xref: MaizeGDB_QTL:61714
-is_a: TO:0000370
+is_a: TO:0000370 ! leaf width
 
 [Term]
 id: CO_322:0000027
 name: maize tassel branch weight trait
 def: "Weight of tassel branches." [CO:curators]
 synonym: "TslBW" EXACT []
-is_a: TO:0000812
+is_a: TO:0000812 ! tassel branch weight
 
 [Term]
 id: CO_322:0000028
@@ -162,7 +162,7 @@ name: maize tassel branch number trait
 def: "Number of branches on tassel." [CO:curators]
 synonym: "TslBN" EXACT []
 xref: MaizeGDB_QTL:61719
-is_a: TO:0000813
+is_a: TO:0000813 ! tassel branch number
 
 [Term]
 id: CO_322:0000030
@@ -199,7 +199,7 @@ id: CO_322:0000033
 name: maize grain moisture trait
 def: "Grain moisture." [CO:curators]
 synonym: "GMoi" EXACT []
-is_a: TO:0000057
+is_a: TO:0000057 ! grain moisture
 
 [Term]
 id: CO_322:0000034
@@ -222,21 +222,21 @@ id: CO_322:0000038
 name: maize tassel size trait
 def: "Tassel size." [CO:curators]
 synonym: "TslSiz" EXACT []
-is_a: TO:0000788
+is_a: TO:0000788 ! tassel inflorescence morphology trait
 
 [Term]
 id: CO_322:0000039
 name: maize grain texture trait
 def: "Grain texture as a measure of the variation on the intensity of a surface, quantifying properties such as smoothness, coarseness and regularity of the grain." [CO:curators]
 synonym: "GTex" EXACT []
-is_a: TO:0001079
+is_a: TO:0001079 ! caryopsis fruit morphology trait
 
 [Term]
 id: CO_322:0000041
 name: maize endosperm hardness trait
 def: "Endosperm hardness." [CO:curators]
 synonym: "EndoHard" EXACT []
-is_a: TO:0000575
+is_a: TO:0000575 ! endosperm morphology trait
 
 [Term]
 id: CO_322:0000046
@@ -250,7 +250,7 @@ id: CO_322:0000049
 name: maize corn stunt incidence trait
 def: "Corn stunt complex (corn stunt spiroplasma, maize bushy stunt phytoplasma [= mycoplasma], maize rayado fino virus) incidence." [CO:curators]
 synonym: "CSCInc" EXACT []
-is_a: TO:0000242
+is_a: TO:0000112 ! microbial disease response
 
 [Term]
 id: CO_322:0000050
@@ -323,7 +323,7 @@ name: maize tillering trait
 def: "Number of tillers per plant." [CO:curators]
 synonym: "Tillering" EXACT []
 xref: GRINDesc:89044
-is_a: TO:0000346
+is_a: TO:0000346 ! tiller number
 
 [Term]
 id: CO_322:0000060
@@ -337,7 +337,7 @@ id: CO_322:0000061
 name: maize stalk rot incidence trait
 def: "Stalk rot (multiple pathogens or an unidentified pathogen) incidence." [CO:curators]
 synonym: "SRInc" EXACT []
-is_a: TO:0000439
+is_a: TO:0000439 ! fungal disease response
 
 [Term]
 id: CO_322:0000062
@@ -380,7 +380,7 @@ id: CO_322:0000067
 name: maize pythium stalk rot incidence trait
 def: "Pythium stalk rot (Pythium spp.) incidence." [CO:curators, NCBITaxon:4797]
 synonym: "PytSRInc" EXACT []
-is_a: TO:0001144 !	Oomycete disease response
+is_a: TO:0001144 ! Oomycete disease response
 
 [Term]
 id: CO_322:0000068
@@ -508,8 +508,8 @@ id: CO_322:0000085
 name: maize common rust severity trait
 def: "Severity of common rust ( Puccinia sorghi)." [CO:curators, NCBITaxon:27349]
 synonym: "CRustSev" EXACT []
-is_a: TO:0001146 ! Basidiomycete fungal disease response
 xref: GRINDesc:89019
+is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_322:0000086
@@ -523,8 +523,8 @@ id: CO_322:0000088
 name: maize gray leaf spot severity trait
 def: "Gray leaf spot (Cercospora zeae-maydis) severity." [CO:curators, NCBITaxon:135779]
 synonym: "GLSSev" EXACT []
-is_a: TO:0001145 ! Ascomycete fungal disease response
 xref: GRINDesc:89060
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_322:0000089
@@ -568,56 +568,56 @@ id: CO_322:0000094
 name: maize mal de rio cuarto virus incidence trait
 def: "Mal de rio cuarto virus (MRCV)  incidence." [CO:curators]
 synonym: "MRCVInc" EXACT []
-is_a: TO:0000148
+is_a: TO:0000148 ! viral disease response trait
 
 [Term]
 id: CO_322:0000095
 name: maize rayado fino virus incidence trait
 def: "Maize rayado fino virus (MRFV) incidence." [CO:curators]
 synonym: "MRFVInc" EXACT []
-is_a: TO:0000148
+is_a: TO:0000148 ! viral disease response trait
 
 [Term]
 id: CO_322:0000097
 name: maize rough dwarf virus incidence trait
 def: "Maize rough dwarf virus (MRDV) incidence." [CO:curators]
 synonym: "MRDVInc" EXACT []
-is_a: TO:0000148
+is_a: TO:0000148 ! viral disease response trait
 
 [Term]
 id: CO_322:0000098
 name: maize stripe virus incidence trait
 def: "Maize stripe virus (MSTV) incidence." [CO:curators]
 synonym: "MSTVInc" EXACT []
-is_a: TO:0000148
+is_a: TO:0000148 ! viral disease response trait
 
 [Term]
 id: CO_322:0000099
 name: maize dwarf mosaic virus incidence trait
 def: "Maize dwarf mosaic virus (MDMV) incidence." [CO:curators]
 synonym: "DMVInc" EXACT []
-is_a: TO:0000148
+is_a: TO:0000148 ! viral disease response trait
 
 [Term]
 id: CO_322:0000100
 name: maize streak virus incidence trait
 def: "Maize streak virus incidence (MSV) incidence." [CO:curators]
 synonym: "MSVInc" EXACT []
-is_a: TO:0000148
+is_a: TO:0000148 ! viral disease response trait
 
 [Term]
 id: CO_322:0000101
 name: maize sugarcane mosaic virus incidence trait
 def: "Sugarcane mosaic virus (SCMV) incidence." [CO:curators]
 synonym: "SCMVInc" EXACT []
-is_a: TO:0000148
+is_a: TO:0000148 ! viral disease response trait
 
 [Term]
 id: CO_322:0000102
 name: maize root capacitance trait
 def: "Estimation of root mass at the end of the stress using an electrical capacitance meter." [CO:curators]
 synonym: "RootCapac" EXACT []
-is_a: TO:0000043
+is_a: TO:0000043 ! root morphology trait
 
 [Term]
 id: CO_322:0000103
@@ -625,7 +625,7 @@ name: maize grain tryptophan content trait
 def: "Whole-grain Tryptophan content." [CO:curators]
 synonym: "GTrp" EXACT []
 synonym: "Whole-grain Tryptophan content" EXACT []
-is_a: TO:0002674
+is_a: TO:0002674 ! tryptophan content
 
 [Term]
 id: CO_322:0000105
@@ -639,7 +639,7 @@ id: CO_322:0000106
 name: maize endosperm tryptophan content trait
 def: "Tryptophan content in grain endosperm." [CO:curators]
 synonym: "EndoTrp" EXACT []
-is_a: TO:0002674
+is_a: TO:0002674 ! tryptophan content
 
 [Term]
 id: CO_322:0000108
@@ -654,7 +654,7 @@ id: CO_322:0000109
 name: maize endosperm lysine content trait
 def: "Lysine content in grain endosperm." [CO:curators]
 synonym: "EndoLys" EXACT []
-is_a: TO:0002673
+is_a: TO:0002673 ! amino acid content
 
 [Term]
 id: CO_322:0000110
@@ -662,7 +662,7 @@ name: maize grain iron content trait
 def: "Whole-grain iron content." [CO:curators]
 synonym: "GIron" EXACT []
 synonym: "Whole-grain iron content" EXACT []
-is_a: TO:0020089
+is_a: TO:0020089 ! iron content trait
 
 [Term]
 id: CO_322:0000111
@@ -677,28 +677,28 @@ id: CO_322:0000112
 name: maize ear leaf weight trait
 def: "Weight of ear leaf (blade)." [CO:curators]
 synonym: "ELW" EXACT []
-is_a: TO:0000816
+is_a: TO:0000816 ! inflorescence bract morphology trait
 
 [Term]
 id: CO_322:0000113
 name: maize grain abscisic acid content trait
 def: "Abscisic acid content in the grain." [CO:curators]
 synonym: "GABA" EXACT []
-is_a: TO:0002667
+is_a: TO:0002667 ! abscisic acid content
 
 [Term]
 id: CO_322:0000114
 name: maize grain sugar content trait
 def: "Total sugar content in the grain." [CO:curators]
 synonym: "GSugar" EXACT []
-is_a: TO:0000333
+is_a: TO:0000333 ! sugar content
 
 [Term]
 id: CO_322:0000115
 name: maize grain glucose content trait
 def: "Glucose content in the grain." [CO:curators]
 synonym: "GGlucose" EXACT []
-is_a: TO:0000300
+is_a: TO:0000300 ! glucose content
 
 [Term]
 id: CO_322:0000117
@@ -719,14 +719,14 @@ id: CO_322:0000119
 name: maize root proline content trait
 def: "Proline content in the root." [CO:curators]
 synonym: "RProl" EXACT []
-is_a: TO:0006002
+is_a: TO:0006002 ! proline content
 
 [Term]
 id: CO_322:0000120
 name: maize grain sucrose content trait
 def: "Sucrose content in the grain" [CO:curators]
 synonym: "GSucrose" EXACT []
-is_a: TO:0000489
+is_a: TO:0000328 ! sucrose content
 
 [Term]
 id: CO_322:0000122
@@ -751,7 +751,7 @@ name: maize grain provitamina content trait
 def: "Whole-grain pro-vitaminA content." [CO:curators]
 synonym: "GVitA" EXACT []
 synonym: "Whole-grain pro-vitaminA content" EXACT []
-is_a: TO:0000281
+is_a: TO:0000281 ! metabolite content trait
 
 [Term]
 id: CO_322:0000126
@@ -761,7 +761,7 @@ synonym: "GStarch" EXACT []
 synonym: "Whole-grain starch content" EXACT []
 xref: GRINDesc:89053
 xref: MaizeGDB_QTL:69890
-is_a: TO:0000696
+is_a: TO:0000696 ! starch content
 
 [Term]
 id: CO_322:0000127
@@ -827,7 +827,7 @@ name: maize grain ash content trait
 def: "Whole-grain ash content." [CO:curators]
 synonym: "GAsh" EXACT []
 synonym: "Kernel mineral content; Whole-grain ash content" EXACT []
-is_a: TO:0000607
+is_a: TO:0000607 ! ash content
 
 [Term]
 id: CO_322:0000140
@@ -869,6 +869,7 @@ id: CO_322:0000145
 name: maize ear growth trait
 def: "Difference between the ear length (cm) measured at zero day pollen shedding and 7 days after pollen shedding." [CO:curators]
 synonym: "EGrw" EXACT []
+is_a: TO:0000621 ! inflorescence development trait
 
 [Term]
 id: CO_322:0000146
@@ -900,6 +901,7 @@ name: maize multiple cob incidence trait
 def: "Incidence of multiple cobs, as plants that have multiple ears arising from a single node." [CO:curators]
 synonym: "Chupon" EXACT []
 synonym: "MCob" EXACT []
+is_a: TO:0000621 ! inflorescence development trait
 
 [Term]
 id: CO_322:0000152
@@ -963,7 +965,7 @@ id: CO_322:0000160
 name: maize leaf rolling severity trait
 def: "Severity of leaf rolling, usually scored under drought stress." [CO:curators]
 synonym: "LRollSev" EXACT []
-is_a: TO:0002662
+is_a: TO:0002662 ! leaf rolling response
 
 [Term]
 id: CO_322:0000161
@@ -977,21 +979,21 @@ id: CO_322:0000162
 name: maize stem color trait
 def: "Color of the stem." [CO:curators]
 synonym: "StemCol" EXACT []
-is_a: TO:0000056
+is_a: TO:0000056 ! stem color
 
 [Term]
 id: CO_322:0000163
 name: maize sheath pubescence trait
 def: "Presence and intensity of hairs on the surface of the leaf sheath." [CO:curators]
 synonym: "ShtPub" EXACT []
-is_a: TO:0000835
+is_a: TO:0000835 ! leaf sheath morphology trait
 
 [Term]
 id: CO_322:0000164
 name: maize tassel branching type trait
 def: "Branching type of tassel." [CO:curators]
 synonym: "TslTyp" EXACT []
-is_a: TO:0000788
+is_a: TO:0000788 ! tassel inflorescence morphology trait
 
 [Term]
 id: CO_322:0000165
@@ -1008,7 +1010,7 @@ synonym: "GRArr" EXACT []
 synonym: "Kernel row arrangement" EXACT []
 xref: GRINDesc:89028
 xref: MaizeGDB_QTL:304924
-is_a: TO:0001079
+is_a: TO:0001079 ! caryopsis fruit morphology trait
 
 [Term]
 id: CO_322:0000167
@@ -1018,7 +1020,7 @@ synonym: "GRN" EXACT []
 synonym: "Kernel row number" EXACT []
 xref: GRINDesc:89029
 xref: MaizeGDB_QTL:51580
-is_a: TO:0000687
+is_a: TO:0000687 ! kernel row number per ear
 
 [Term]
 id: CO_322:0000168
@@ -1028,7 +1030,7 @@ synonym: "GTyp" EXACT []
 synonym: "Kernel type" EXACT []
 xref: GRINDesc:89026
 xref: MaizeGDB_QTL:56380
-is_a: TO:0001079
+is_a: TO:0001079 ! caryopsis fruit morphology trait
 
 [Term]
 id: CO_322:0000170
@@ -1037,7 +1039,7 @@ def: "Ear diameter measured at the central part of uppermost ear." [CO:curators]
 synonym: "EDia" EXACT []
 xref: GRINDesc:89031
 xref: MaizeGDB_QTL:78113
-is_a: TO:0000969
+is_a: TO:0000969 ! ear inflorescence morphology trait
 
 [Term]
 id: CO_322:0000171
@@ -1045,7 +1047,7 @@ name: maize uppermost ear shape trait
 def: "Shape of uppermost ear whether cylindrical or cylindrical-conical or conical or round." [CO:curators]
 synonym: "UpESh" EXACT []
 xref: GRINDesc:89047
-is_a: TO:0000969
+is_a: TO:0000969 ! ear inflorescence morphology trait
 
 [Term]
 id: CO_322:0000172
@@ -1053,7 +1055,7 @@ name: maize grain length trait
 def: "Grain length." [CO:curators]
 synonym: "GLng" EXACT []
 synonym: "Kernel length" EXACT []
-is_a: TO:0002626
+is_a: TO:0000734 ! grain length
 
 [Term]
 id: CO_322:0000175
@@ -1061,7 +1063,7 @@ name: maize grain width trait
 def: "Grain width." [CO:curators]
 synonym: "GWid" EXACT []
 synonym: "Kernel width" EXACT []
-is_a: TO:0002627
+is_a: TO:0000975 ! grain width
 
 [Term]
 id: CO_322:0000178
@@ -1077,7 +1079,7 @@ id: CO_322:0000182
 name: maize lethal necrosis severity trait
 def: "Maize lethal necrosis (MLN) severity." [CO:curators]
 synonym: "MLNSev" EXACT []
-is_a: TO:0000148
+is_a: TO:0000148 ! viral disease response trait
 
 [Term]
 id: CO_322:0000184
@@ -1085,7 +1087,7 @@ name: maize grain thickness trait
 def: "Thickness of the grain." [CO:curators]
 synonym: "GThk" EXACT []
 synonym: "Kernel thickenss" EXACT []
-is_a: TO:0002625
+is_a: TO:0000399 ! grain thickness
 
 [Term]
 id: CO_322:0000186
@@ -1093,7 +1095,7 @@ name: maize endosperm color trait
 def: "Color of the endosperm." [CO:curators]
 synonym: "EndoCol" EXACT []
 xref: GRINDesc:89046
-is_a: TO:0000487
+is_a: TO:0000487 ! endosperm color
 
 [Term]
 id: CO_322:0000188
@@ -1101,7 +1103,7 @@ name: maize tassel blasting severity trait
 def: "Observation of blasting severity of the tassel (necrosis due to heat stress) at the time of flowering. It occurs under extreme temperatures and drought." [CO:curators]
 synonym: "Fogueo" EXACT []
 synonym: "TslBlastSev" EXACT []
-is_a: TO:0000394
+is_a: TO:0000259 ! high temperature stress response
 
 [Term]
 id: CO_322:0000190
@@ -1109,7 +1111,7 @@ name: maize aleurone color trait
 def: "Color of the aleurone." [CO:curators]
 synonym: "AleuCol" EXACT []
 xref: GRINDesc:89048
-is_a: TO:0000943
+is_a: TO:0000943 ! aleurone layer color
 
 [Term]
 id: CO_322:0000192
@@ -1117,21 +1119,21 @@ name: maize pericarp color trait
 def: "Color of the pericarp." [CO:curators]
 synonym: "PericCol" EXACT []
 xref: GRINDesc:89049
-is_a: TO:0000707
+is_a: TO:0000707 ! pericarp color
 
 [Term]
 id: CO_322:0000214
 name: maize aflatoxin content trait
 def: "Grain Aflatoxins content produced by Aspergillus flavus and Aspergillus parasiticus." [CO:curators]
 synonym: "Aflatox" EXACT []
-is_a: TO:0000281
+is_a: TO:0000281 ! metabolite content trait
 
 [Term]
 id: CO_322:0000488
 name: maize corn stunt spiroplasma severity trait
 def: "Corn stunt spiroplasma severity." [CO:curators]
 synonym: "CSSSev" EXACT []
-is_a: TO:0000148
+is_a: TO:0000148 ! viral disease response trait
 
 [Term]
 id: CO_322:0000520
@@ -1146,7 +1148,7 @@ name: maize ear weight trait
 def: "Weight of mature upper ear, including cob and kernels, and at a defined moisture content, although often this is not provided." [CO:curators]
 synonym: "EW" EXACT []
 xref: MaizeGDB_QTL:65408
-is_a: TO:0000969
+is_a: TO:0000969 ! ear inflorescence morphology trait
 
 [Term]
 id: CO_322:0000526
@@ -1162,63 +1164,63 @@ synonym: "GOil" EXACT []
 synonym: "Whole-grain oil content" EXACT []
 xref: GRINDesc:89051
 xref: MaizeGDB_QTL:62174
-is_a: TO:0000604
+is_a: TO:0000604 ! oil content
 
 [Term]
 id: CO_322:0000537
 name: maize leaf color trait
 def: "Color of the leaf." [CO:curators]
 synonym: "LCol" EXACT []
-is_a: TO:0000326
+is_a: TO:0000326 ! leaf color
 
 [Term]
 id: CO_322:0000538
 name: maize leaf erectness trait
 def: "Insertion angle of the leaves." [CO:curators]
 synonym: "LErect" EXACT []
-is_a: TO:0000872
+is_a: TO:0000872 ! leaf erect
 
 [Term]
 id: CO_322:0000539
 name: maize silk anthocyanin coloration trait
 def: "Anthocyanin coloration of stigmas." [CO:curators]
 synonym: "SilkCol" EXACT []
-is_a: TO:0000676
+is_a: TO:0000676 ! style color
 
 [Term]
 id: CO_322:0000540
 name: maize standard germination trait
 def: "Standard germination." [CO:curators]
 synonym: "StdGerm" EXACT []
-is_a: TO:0000430
+is_a: TO:0000202 ! germination ratio
 
 [Term]
 id: CO_322:0000541
 name: maize tassel anthocyanin coloration trait
 def: "Anthocyanin coloration of tassel." [CO:curators]
 synonym: "TslCol" EXACT []
-is_a: TO:0000795
+is_a: TO:0000795 ! tassel inflorescence color
 
 [Term]
 id: CO_322:0000542
 name: maize tassel density trait
 def: "Density of spikelets." [CO:curators]
 synonym: "TslDen" EXACT []
-is_a: TO:0000788
+is_a: TO:0000788 ! tassel inflorescence morphology trait
 
 [Term]
 id: CO_322:0000543
 name: maize tassel exertion trait
 def: "Tassel exertion." [CO:curators]
 synonym: "TslExer" EXACT []
-is_a: TO:0000798
+is_a: TO:0000798 ! tassel inflorescence length
 
 [Term]
 id: CO_322:0000544
 name: maize tassel opening trait
 def: "Tassel angle." [CO:curators]
 synonym: "TslOpen" EXACT []
-is_a: TO:0000788
+is_a: TO:0000788 ! tassel inflorescence morphology trait
 
 [Term]
 id: CO_322:0000545
@@ -1233,7 +1235,7 @@ name: maize plant vigor trait
 def: "Plant vigor." [CO:curators]
 synonym: "PVig" EXACT []
 xref: GRINDesc:89041
-is_a: TO:0000250
+is_a: TO:0000250 ! plant vigor trait
 
 [Term]
 id: CO_322:0000556
@@ -1248,7 +1250,7 @@ id: CO_322:0000651
 name: maize anther anthocyanin coloration trait
 def: "Anthocyanin coloration of anthers." [CO:curators]
 synonym: "AntCol" EXACT []
-is_a: TO:0000187
+is_a: TO:0000187 ! anther color
 
 [Term]
 id: CO_322:0000664
@@ -1256,7 +1258,7 @@ name: maize ear shape trait
 def: "Ear shape" [CO:curators]
 synonym: "EarForm" EXACT []
 synonym: "EShape" EXACT []
-is_a: TO:0000969
+is_a: TO:0000969 ! ear inflorescence morphology trait
 
 [Term]
 id: CO_322:0000685
@@ -1270,7 +1272,7 @@ id: CO_322:0000772
 name: maize leaf ash content trait
 def: "Ash content in maize leaves." [CO:curators]
 synonym: "LAsh" EXACT []
-is_a: TO:0000607
+is_a: TO:0000607 ! ash content
 
 [Term]
 id: CO_322:0000808
@@ -1312,7 +1314,7 @@ id: CO_322:0000878
 name: maize streak virus severity trait
 def: "Maize streak virus severity (MSV) severity." [CO:curators]
 synonym: "MSVSev" EXACT []
-is_a: TO:0000148
+is_a: TO:0000148 ! viral disease response trait
 
 [Term]
 id: CO_322:0000925
@@ -1433,7 +1435,7 @@ id: CO_322:0001108
 name: maize leaf abscisic acid content trait
 def: "Abscisic acid content in the leaf." [CO:curators]
 synonym: "LABA" EXACT []
-is_a: TO:0006002
+is_a: TO:0002667 ! abscisic acid content
 
 [Term]
 id: CO_322:0001110
@@ -1454,7 +1456,7 @@ id: CO_322:0001116
 name: maize root glucose content trait
 def: "Glucose content in the root." [CO:curators]
 synonym: "RGlucose" EXACT []
-is_a: TO:0000328
+is_a: TO:0000300 ! glucose content
 
 [Term]
 id: CO_322:0001118

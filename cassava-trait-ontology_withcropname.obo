@@ -183,7 +183,7 @@ id: CO_334:0000280
 name: cassava anther color trait
 def: "Color of anthers" [CO:curators]
 synonym: "anther" EXACT []
-is_a: TO:0000187
+is_a: TO:0000187 ! anther color
 
 [Term]
 id: CO_334:0000281
@@ -219,7 +219,7 @@ name: cassava ash content trait
 def: "Ash content" [CO:curators]
 synonym: "ash" EXACT []
 synonym: "Tuberous root mineral salt content" EXACT []
-is_a: TO:0000607
+is_a: TO:0000607 ! ash content
 
 [Term]
 id: CO_334:0000286
