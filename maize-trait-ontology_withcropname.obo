@@ -17,7 +17,7 @@ id: CO_322:0000003
 name: maize chlorophyll content trait
 def: "Leaf chlorophyll content." [CO:curators]
 synonym: "Chl" EXACT []
-is_a: TO:0012002
+is_a: TO:0012002 ! leaf chlorophyll content
 
 [Term]
 id: CO_322:0000005
@@ -131,7 +131,7 @@ id: CO_322:0000024
 name: maize young leaf chlorophyll content trait
 def: "Chlorophyll content in the young leaf." [CO:curators]
 synonym: "YLChl" EXACT []
-is_a: TO:0012002
+is_a: TO:0012002 ! leaf chlorophyll content
 
 [Term]
 id: CO_322:0000025
@@ -204,10 +204,10 @@ is_a: TO:0000057
 [Term]
 id: CO_322:0000034
 name: maize root lodging incidence trait
-def: "Root lodging incidence. The plants that show root lodging, i.e. those stems that are inclining by more than 45¡." [CO:curators]
+def: "Root lodging incidence. The plants that show root lodging, i.e. those stems that are inclining by more than 45 degrees." [CO:curators]
 synonym: "RLodgInc" EXACT []
 xref: GRINDesc:89042
-is_a: TO:0000068
+is_a: TO:0000068 ! lodging incidence
 
 [Term]
 id: CO_322:0000035
@@ -215,7 +215,7 @@ name: maize stem lodging incidence trait
 def: "Stem lodging incidence. The plants that show stem lodging, i.e. those stems that are broken below the ear." [CO:curators]
 synonym: "SLodgInc" EXACT []
 xref: GRINDesc:89043
-is_a: TO:0000068
+is_a: TO:0000068 ! lodging incidence
 
 [Term]
 id: CO_322:0000038
@@ -775,28 +775,28 @@ id: CO_322:0000128
 name: maize aphid damage trait
 def: "Aphids (Rhopalosiphum maidis) damage." [CO:curators]
 synonym: "AphDmg" EXACT []
-is_a: TO:0000261
+is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_322:0000129
 name: maize weevil incidence trait
 def: "Maize weevil (Sitophilus zeamais) incidence on grain." [CO:curators]
 synonym: "WeevInc" EXACT []
-is_a: TO:0000261
+is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_322:0000130
 name: maize weevil number in grain trait
 def: "The number of maize weevils (Sitophilus zeamais) hatching and emerging from an infested grain sample within a given period. Large values indicate susceptibility to grain weevils, small values indicate partial resistance to grain weevils." [CO:curators]
 synonym: "WeevN" EXACT []
-is_a: TO:0000261
+is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_322:0000131
 name: maize grain weight loss by maize weevil trait
 def: "Loss of weight of the grain samples caused by weevil (Sitophilus zeamais) feeding during a given period of incubation." [CO:curators]
 synonym: "GWLostWeev" EXACT []
-is_a: TO:0000261
+is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_322:0000132
@@ -819,7 +819,7 @@ id: CO_322:0000134
 name: maize stomatal conductance trait
 def: "Leaf stomatal conductance" [CO:curators]
 synonym: "SCond" EXACT []
-is_a: TO:0000522
+is_a: TO:0000522 ! stomatal conductance
 
 [Term]
 id: CO_322:0000137
@@ -906,28 +906,28 @@ id: CO_322:0000152
 name: maize busseola incidence trait
 def: "Busseola larvae incidence." [CO:curators]
 synonym: "BusseolaInc" EXACT []
-is_a: TO:0000261
+is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_322:0000153
 name: maize earworm incidence trait
 def: "Ear worm (Heliothis) incidence." [CO:curators]
 synonym: "EWormInc" EXACT []
-is_a: TO:0000261
+is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_322:0000154
 name: maize army worm damage trait
 def: "Army worm (syn. Spodoptera exempta) damage." [CO:curators]
 synonym: "AWormDmg" EXACT []
-is_a: TO:0000261
+is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_322:0000155
 name: maize chilo damage trait
 def: "Chilo (Chilo partellus) damage." [CO:curators]
 synonym: "ChiloDmg" EXACT []
-is_a: TO:0000261
+is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_322:0000156
@@ -1263,7 +1263,7 @@ id: CO_322:0000685
 name: maize earworm damage trait
 def: "Ear worm (Heliothis) damage." [CO:curators]
 synonym: "EWormDmg" EXACT []
-is_a: TO:0000261
+is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_322:0000772
@@ -1277,7 +1277,7 @@ id: CO_322:0000808
 name: maize busseola damage trait
 def: "Plant damage caused by Busseola larvae." [CO:curators]
 synonym: "BusseolaDmg" EXACT []
-is_a: TO:0000261
+is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_322:0000829

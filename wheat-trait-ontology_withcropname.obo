@@ -67,7 +67,7 @@ id: CO_321:0000015
 name: wheat plant growth habit trait
 def: "The growth habit of the plant whether erect/semi-erect/semi-spreading/spreading/prostrate." [CO:curators]
 synonym: "GrwHabit" EXACT []
-is_a: TO:0002756
+is_a: TO:0002756 ! shoot growth habit
 
 [Term]
 id: CO_321:0000016
@@ -89,28 +89,28 @@ id: CO_321:0000018
 name: wheat leaf stomatal conductance trait
 def: "Rate of passage of either water vapor or carbon dioxide through the stomata." [CO:curators]
 synonym: "StomaCond" EXACT []
-is_a: TO:0000522
+is_a: TO:0000522 ! stomatal conductance
 
 [Term]
 id: CO_321:0000020
 name: wheat plant height trait
 def: "Height of plant from ground to top of spike, excluding awns." [CO:curators]
 synonym: "PH" EXACT []
-is_a: TO:0000207
+is_a: TO:0000207 ! plant height
 
 [Term]
 id: CO_321:0000021
 name: wheat emergence time trait
 def: "Emergence time is when the first leaf appears above the soil surface." [CO:curators]
 synonym: "Emer" EXACT []
-is_a: TO:0000933
+is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_321:0000022
 name: wheat maturity time trait
 def: "Maturity time starts at hard dough stage (ds87) often called physiological maturity." [CO:curators]
 synonym: "Mat" EXACT []
-is_a: TO:0000469
+is_a: TO:0000469 ! days to maturity
 
 [Term]
 id: CO_321:0000025
@@ -139,7 +139,7 @@ id: CO_321:0000028
 name: wheat leaf chlorophyll content trait
 def: "Chlorophyll content in leaf green tissue. includes both chlorophyll-a and chlorophyll-b. chlorophyll is the green pigment found in plants." [CO:curators]
 synonym: "Chl" EXACT []
-is_a: TO:0012002
+is_a: TO:0012002  ! leaf chlorophyll content
 
 [Term]
 id: CO_321:0000029
@@ -387,21 +387,21 @@ id: CO_321:0000064
 name: wheat cookie spread factor trait
 def: "The ratio between average height and width of cookies." [CO:curators]
 synonym: "CookSdF" EXACT []
-is_a: TO:0001069
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_321:0000065
 name: wheat bread crumb structure trait
 def: "The cellular structure of wheat bread crumb." [CO:curators]
 synonym: "CrmStr" EXACT []
-is_a: TO:0001069
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_321:0000066
 name: wheat flour falling number trait
 def: "The falling number is defined as the time in seconds required stirring and allowing stirrer to fall a measured distance through a hot aqueous flour or meal gel undergoing liquefaction due to a-amylase activity." [CO:curators]
 synonym: "FlrFN" EXACT []
-is_a: TO:0001069
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_321:0000067
@@ -423,14 +423,14 @@ name: wheat flour gluten content trait
 def: "Content of wet gluten in flour." [CO:curators]
 synonym: "FLRGluCon" EXACT []
 synonym: "GLUCON" EXACT []
-is_a: TO:0001069
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_321:0000070
 name: wheat flour gluten type trait
 def: "Gluten type whether weak-tenacious/tenacious/weak/medium strong/strong." [CO:curators]
 synonym: "GluTyp" EXACT []
-is_a: TO:0001069
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_321:0000071
@@ -488,7 +488,7 @@ name: wheat cold tolerance trait
 def: "Plant tolerance to lower temperatures than the optimum." [CO:curators]
 synonym: "ColdTol" EXACT []
 synonym: "Low temperature tolerance, Cold susceptibility" EXACT []
-is_a: TO:0000303
+is_a: TO:0000303 ! low temperature stress response
 
 [Term]
 id: CO_321:0000081
@@ -510,7 +510,7 @@ id: CO_321:0000084
 name: wheat ant damage trait
 def: "The plant damage caused by ants." [CO:curators]
 synonym: "AntDmg" EXACT []
-is_a: TO:0000261
+is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_321:0000085
@@ -518,7 +518,7 @@ name: wheat aphid damage trait
 def: "The plant damage caused by various species of aphids." [CO:curators]
 synonym: "AphDmg" EXACT []
 synonym: "DMGAPH" EXACT []
-is_a: TO:0006067
+is_a: TO:0006067 ! aphid resistance
 
 [Term]
 id: CO_321:0000086
@@ -539,14 +539,14 @@ id: CO_321:0000088
 name: wheat hessian fly damage trait
 def: "The plant damage caused by hessian fly, maytiola destructor." [CO:curators]
 synonym: "HesFlyDmg" EXACT []
-is_a: TO:0000261
+is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_321:0000089
 name: wheat insect damage trait
 def: "The plant damage caused by insects." [CO:curators]
 synonym: "InsectDmg" EXACT []
-is_a: TO:0000261
+is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_321:0000090
@@ -560,14 +560,14 @@ id: CO_321:0000091
 name: wheat russian wheat aphid damage trait
 def: "The plant damage caused by russian wheat aphid, diuraphis noxis." [CO:curators]
 synonym: "DnoxiDmg" EXACT []
-is_a: TO:0006067
+is_a: TO:0006067 ! aphid resistance
 
 [Term]
 id: CO_321:0000092
 name: wheat sawfly damage trait
 def: "The plant damage caused by sawfly, cephus cinctus." [CO:curators]
 synonym: "SawflyDmg" EXACT []
-is_a: TO:0000261
+is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_321:0000093
@@ -581,7 +581,7 @@ id: CO_321:0000094
 name: wheat suni pest damage trait
 def: "The plant damage caused by suni pest (eurygaster spp., sunn pest, suni bug)" [CO:curators]
 synonym: "SuPDmg" EXACT []
-is_a: TO:0000261
+is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_321:0000095
@@ -609,21 +609,21 @@ id: CO_321:0000099
 name: wheat Tilletia laevis bunt incidence trait
 def: "Bunt incidence in the plants caused by the agent Tilletia laevis (stinking bunt, covered smut, hill bunt, complete bunt, low bunt, high bunt)." [CO:curators, NCBITaxon:157183]
 synonym: "TlaevInc" EXACT []
-is_a: TO:0001146
+is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_321:0000100
 name: wheat Tilletia tritici bunt incidence trait
 def: "Bunt incidence in the plants caused by the agent Tilletia tritici (stinking bunt, covered smut, hill bunt, complete bunt, low bunt, high bunt)." [CO:curators, NCBITaxon:157183]
 synonym: "TtritInc" EXACT []
-is_a: TO:0001146
+is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_321:0000101
 name: wheat dwarf bunt incidence trait
 def: "Dwarf bunt incidence in the plants caused by the agent Tilletia controversa." [CO:curators, NCBITaxon:13291]
 synonym: "TcontInc" EXACT []
-is_a: TO:0001146
+is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_321:0000102
@@ -638,14 +638,14 @@ id: CO_321:0000103
 name: wheat flag smut plant response trait
 def: "Flag smut disease response in the plants caused by the agent Urocystis agropyri causing flag smut disease." [CO:curators, NCBITaxon:265355]
 synonym: "UagroResp" EXACT []
-is_a: TO:0001146
+is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_321:0000106
 name: wheat karnal bunt incidence trait
 def: "Karnal bunt incidence in the plants caused by the agent Tilletia indica (syn. neovossia indica)." [CO:curators, NCBITaxon:43049]
 synonym: "TindiInc" EXACT []
-is_a: TO:0001146
+is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_321:0000110
@@ -681,7 +681,7 @@ name: wheat southern blight plant response trait
 def: "Southern blight response in the plants caused by the agent Corticum rolfsii (sclerotium rolfsii)." [CO:curators, NCBITaxon:39291]
 synonym: "SROLF" EXACT []
 synonym: "SrolfResp" EXACT []
-is_a: TO:0001146
+is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_321:0000119
@@ -711,7 +711,7 @@ id: CO_321:0000124
 name: wheat bread loaf volume trait
 def: "Baking quality of flour describing bread loaf volume." [CO:curators]
 synonym: "LofVol" EXACT []
-is_a: TO:0001069
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_321:0000126
@@ -732,21 +732,21 @@ id: CO_321:0000128
 name: wheat waterlogging damage trait
 def: "Plants killed as a result of winter conditions." [CO:curators]
 synonym: "WtrLoggDmg" EXACT []
-is_a: TO:0000114
+is_a: TO:0000114 ! flooding related trait
 
 [Term]
 id: CO_321:0000131
 name: wheat drought tolerance trait
 def: "Plant tolerance to drought conditions." [CO:curators]
 synonym: "DroughtTol" EXACT []
-is_a: TO:0000276
+is_a: TO:0000276 ! drought tolerance
 
 [Term]
 id: CO_321:0000132
 name: wheat salinity tolerance trait
 def: "Plant tolerance to soil salinity." [CO:curators]
 synonym: "SaltTol" EXACT []
-is_a: TO:0006001
+is_a: TO:0006001 ! salt tolerance
 
 [Term]
 id: CO_321:0000141
@@ -783,7 +783,7 @@ name: wheat dough alveograph p/l trait
 def: "Ratio of tenacity (p; maximum pressure required for the deformation of the sample) and extensibility (l; length of the curve) of dough." [CO:curators]
 synonym: "AlvPL" EXACT []
 synonym: "Dough strength and extensibility" EXACT []
-is_a: TO:0001069
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_321:0000146
@@ -806,7 +806,7 @@ id: CO_321:0000149
 name: wheat dough mixograph mixing time trait
 def: "Time required for the dough development from beginning of mixing flour and water to the dough reaches maximum consistency (peak)." [CO:curators]
 synonym: "MixTim" EXACT []
-is_a: TO:0001069
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_321:0000152
@@ -895,7 +895,7 @@ name: wheat winter kill damage trait
 def: "Plants killed as a result of winter conditions." [CO:curators]
 synonym: "Winter susceptibility" EXACT []
 synonym: "WKill" EXACT []
-is_a: TO:0001153
+is_a: TO:0001153 ! survival rate after freezing temperature stress
 
 [Term]
 id: CO_321:0000165
@@ -910,14 +910,14 @@ name: wheat spike number trait
 def: "Number of spikes (fertile culms) per unit area, sample or plant." [CO:curators]
 synonym: "Ear number" EXACT []
 synonym: "SN" EXACT []
-is_a: TO:0000582
+is_a: TO:0000582 ! inflorescence number
 
 [Term]
 id: CO_321:0000167
 name: wheat lodging incidence trait
 def: "Indicates incidence of lodged plants." [CO:curators]
 synonym: "Lodg" EXACT []
-is_a: TO:0000068
+is_a: TO:0000068 ! lodging incidence
 
 [Term]
 id: CO_321:0000168
@@ -959,7 +959,7 @@ id: CO_321:0000176
 name: wheat heat tolerance trait
 def: "Plant tolerance to heat conditions." [CO:curators]
 synonym: "HeatTol" EXACT []
-is_a: TO:0000259
+is_a: TO:0000259 ! high temperature stress response
 
 [Term]
 id: CO_321:0000177
@@ -967,7 +967,7 @@ name: wheat stem rust plant response trait
 def: "Stem rust (black rust) response in the plants caused by the agent Puccinia graminis f.sp. triticii." [CO:curators, NCBITaxon:56615]
 synonym: "PgramResp" EXACT []
 synonym: "Stem rust" EXACT []
-is_a: TO:0001146
+is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_321:0000178
@@ -989,14 +989,14 @@ id: CO_321:0000182
 name: wheat double ridge time trait
 def: "Double ridge time is just when apex changes from the vegetative to the reproductive stage" [CO:curators]
 synonym: "DRidge" EXACT []
-is_a: TO:0000933
+is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_321:0000183
 name: wheat first node detectable time trait
 def: "First node detectable time is when the stem starts the elongation or jointing period, first node becomes visible as it appears above the soil surface." [CO:curators]
 synonym: "FND" EXACT []
-is_a: TO:0000933
+is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_321:0000184
@@ -1041,7 +1041,7 @@ id: CO_321:0000191
 name: wheat booting time trait
 def: "Booting time is just prior to spike emergence, when the flag leaf sheath encloses the growing spike." [CO:curators]
 synonym: "Boot" EXACT []
-is_a: TO:0000933
+is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_321:0000193
@@ -1167,7 +1167,7 @@ id: CO_321:0000210
 name: wheat dough alveograph extensibility index trait
 def: "It is the extensibility index of the dough. (p200/p)*100; p200: pressure (p) at 4 cm (l= 40mm) of the curve." [CO:curators]
 synonym: "AlvIe" EXACT []
-is_a: TO:0001069
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_321:0000211
@@ -1175,7 +1175,7 @@ name: wheat dough alveograph value g trait
 def: "G stands for the square root of the volume of air in the bubble that was possible before the bubble burst. shows how flexible the dough was during the test." [CO:curators]
 synonym: "AlvG" EXACT []
 synonym: "G value, Index of swelling" EXACT []
-is_a: TO:0001069
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_321:0000212
@@ -1183,7 +1183,7 @@ name: wheat dough alveograph value l trait
 def: "L value is the extensibility of the dough before the bubble breaks. it is indicated by the length of the curve." [CO:curators]
 synonym: "AlvL" EXACT []
 synonym: "L value, Dough extensibility" EXACT []
-is_a: TO:0001069
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_321:0000213
@@ -1191,7 +1191,7 @@ name: wheat dough alveograph value p trait
 def: "P value is the force required to blow the bubble of dough. it is indicated by the maximum height of the curve." [CO:curators]
 synonym: "AlvP" EXACT []
 synonym: "P value, Dough resistance, Dough tenacity" EXACT []
-is_a: TO:0001069
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_321:0000214
@@ -1234,7 +1234,7 @@ id: CO_321:0000225
 name: wheat dough mixograph torque trait
 def: "It is the torque measured during the mixograph test." [CO:curators]
 synonym: "MixTq" EXACT []
-is_a: TO:0001069
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_321:0000227
@@ -1248,14 +1248,14 @@ id: CO_321:0000228
 name: wheat dough mixograph type trait
 def: "Mixograph type (mixograph curve) is used for determining the strength of dough." [CO:curators]
 synonym: "MixTyp" EXACT []
-is_a: TO:0001069
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_321:0000281
 name: wheat common bunt spike incidence trait
 def: "Common bunt (stinking bunt, covered smut, hill bunt, complete bunt, low bunt, high bunt) incidence in the plants caused by the agent Tilletia species." [CO:curators, NCBITaxon:13289]
 synonym: "TilSpSpkInc" EXACT []
-is_a: TO:0001146
+is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_321:0000393
@@ -1270,7 +1270,7 @@ name: wheat dough alveograph p/g trait
 def: "It is the p/g ratio." [CO:curators]
 synonym: "AlvPG" EXACT []
 synonym: "Tenacity/extensibility ratio" EXACT []
-is_a: TO:0001069
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_321:0000406
@@ -1422,14 +1422,14 @@ id: CO_321:0000668
 name: wheat reproductive period trait
 def: "Time between double ridge (approx. ds14) and anthesis (ds65)." [CO:curators]
 synonym: "RepP" EXACT []
-is_a: TO:0000933
+is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_321:0000670
 name: wheat plant vegetative period trait
 def: "Time period between emergence (ds10) and first node detectable (ds31)." [CO:curators]
 synonym: "VgP" EXACT []
-is_a: TO:0000933
+is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_321:0000672
@@ -1465,14 +1465,14 @@ id: CO_321:0000678
 name: wheat boron tolerance trait
 def: "Plant tolerance to high levels of soil boron." [CO:curators]
 synonym: "BTol" EXACT []
-is_a: TO:0000018
+is_a: TO:0000018 ! boron sensitivity
 
 [Term]
 id: CO_321:0000679
 name: wheat herbicide damage trait
 def: "Plant damage caused by herbicide." [CO:curators]
 synonym: "HerbicideDmg" EXACT []
-is_a: TO:0000058
+is_a: TO:0000058 ! herbicide sensitivity
 
 [Term]
 id: CO_321:0000680
@@ -1487,7 +1487,7 @@ id: CO_321:0000681
 name: wheat Rhizoctonia root rot incidence trait
 def: "Rhizoctonia root rot incidence in the plants caused by the agent Rhizoctonia solani." [CO:curators, NCBITaxon:456999]
 synonym: "RsolaInc" EXACT []
-is_a: TO:0001146
+is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_321:0000682
@@ -1537,7 +1537,7 @@ name: wheat stem rust coefficient of infection trait
 def: "Stem rust (black rust) incidence/severity/response in the plants caused by the agent Puccinia graminis f. sp. triticii." [CO:curators, NCBITaxon:56615]
 synonym: "PgramCI" EXACT []
 synonym: "Stem rust CI, Stem rust" EXACT []
-is_a: TO:0001146
+is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_321:0000689
@@ -1654,7 +1654,7 @@ id: CO_321:0000903
 name: wheat stem rust notes trait
 def: "Stem rust (black rust) incidence/severity/response in the plants caused by the agent Puccinia graminis f. sp. triticii." [CO:curators, NCBITaxon:56615]
 synonym: "PgramNote" EXACT []
-is_a: TO:0001146
+is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_321:0000904
@@ -1662,7 +1662,7 @@ name: wheat stem rust seedling response trait
 def: "Stem rust (black rust) response in the plants caused by the agent Puccinia graminis f. sp. triticii." [CO:curators, NCBITaxon:56615]
 synonym: "PgramSdlgResp" EXACT []
 synonym: "Stem rust" EXACT []
-is_a: TO:0001146
+is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_321:0000905
@@ -1670,7 +1670,7 @@ name: wheat stem rust severity trait
 def: "Stem rust (black rust) severity in the plants caused by the agent Puccinia graminis f. sp. triticii." [CO:curators, NCBITaxon:56615]
 synonym: "PgramSev" EXACT []
 synonym: "Stem rust" EXACT []
-is_a: TO:0001146
+is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_321:0000906
@@ -1782,7 +1782,7 @@ id: CO_321:0000921
 name: wheat loose smut incidence trait
 def: "Loose smut incidence in the plants caused by Ustilago tritici." [CO:curators, NCBITaxon:117174]
 synonym: "UtritInc" EXACT []
-is_a: TO:0001146
+is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_321:0000922
@@ -1913,7 +1913,7 @@ id: CO_321:0000940
 name: wheat terminal spikelet time trait
 def: "Terminal spikelet time is when the last spikelet, the terminal spikelet, has been produced." [CO:curators]
 synonym: "TSpl" EXACT []
-is_a: TO:0000933
+is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_321:0001019
@@ -1928,7 +1928,7 @@ id: CO_321:0500001
 name: wheat baking quality trait
 def: "Baking quality assessment" [CO:curators]
 synonym: "BQ" EXACT []
-is_a: TO:0001069
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_321:0500002
@@ -1949,7 +1949,7 @@ id: CO_321:0500006
 name: wheat cookie diameter trait
 def: "Diameter of sugar snap cookie. Reflects genetic and environmental factors. Cookie diameters should be compared to those of standard cultivars." [CO:curators]
 synonym: "CD" EXACT []
-is_a: TO:0001069
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_321:0500007
@@ -1970,7 +1970,7 @@ id: CO_321:0500009
 name: wheat flag leaf chlorophyll content trait
 def: "Chlorophyll content of the flag leaf" [CO:curators]
 synonym: "FLeafChl" EXACT []
-is_a: TO:0012002
+is_a: TO:0012002 ! leaf chlorophyll content
 
 [Term]
 id: CO_321:0500010
@@ -2026,7 +2026,7 @@ id: CO_321:0500017
 name: wheat forage protein content trait
 def: "Protein concentration of forage" [CO:curators]
 synonym: "ForPrt" EXACT []
-is_a: TO:0000598
+is_a: TO:0000598 ! protein content
 
 [Term]
 id: CO_321:0500018
@@ -2273,14 +2273,14 @@ id: CO_321:0500053
 name: wheat stem rust incidence trait
 def: "Stem rust (black rust) incidence in the plants caused by the agenct Puccinia graminis f.sp. tritici." [CO:curators, NCBITaxon:56615]
 synonym: "PgramInc" EXACT []
-is_a: TO:0001146
+is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_321:0500054
 name: wheat stem rust infection type trait
 def: "Stem rust (black rust) infection type exhibited by seedlings inoculated during greenhouse trials." [CO:curators, NCBITaxon:56615]
 synonym: "PgramInf" EXACT []
-is_a: TO:0001146
+is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_321:0500055
@@ -2294,4 +2294,4 @@ id: CO_321:0500056
 name: wheat vegetative protein content at maturity trait
 def: "Protein concentration of vegetative biomass harvested at physiological maturity" [CO:curators]
 synonym: "VegPrt" EXACT []
-is_a: TO:0000598
+is_a: TO:0000598 ! protein content

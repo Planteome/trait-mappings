@@ -501,7 +501,7 @@ name: rice grain weight trait
 def: "The weight of a whole grain including the hull." [CO:curators]
 synonym: "GrnWt" EXACT []
 property_value: exactMatch TO:0000181
-is_a: TO:0000181 ! grain weight
+is_a: TO:0000919 ! grain weight
 
 [Term]
 id: CO_320:0000102
@@ -1263,7 +1263,7 @@ id: CO_320:0001048
 name: rice filled grain weight trait
 def: "The weight of a spikelet that is filled with a grain." [CO:curators]
 synonym: "FGW" EXACT []
-is_a: TO:0000181 ! grain weight
+is_a: TO:0000919 ! grain weight
 
 [Term]
 id: CO_320:0001049
@@ -1865,14 +1865,14 @@ id: CO_320:0001135
 name: rice half-filled grain weight trait
 def: "Dry weight of a half-filled spikelet, including the hull." [CO:curators]
 synonym: "THfGW" EXACT []
-is_a: TO:0000181 ! grain weight
+is_a: TO:0000919 ! grain weight
 
 [Term]
 id: CO_320:0001136
 name: rice unfilled grain weight trait
 def: "Dry weight of an unfilled spikelet, including the hull." [CO:curators]
 synonym: "TUfGW" EXACT []
-is_a: TO:0000181 ! grain weight
+is_a: TO:0000919 ! grain weight
 
 [Term]
 id: CO_320:0001137

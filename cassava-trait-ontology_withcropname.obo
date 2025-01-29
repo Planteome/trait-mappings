@@ -197,7 +197,7 @@ id: CO_334:0000282
 name: cassava apical branching trait
 def: "Time to first apical branching (associated with formation of inflorescence)" [CO:curators]
 synonym: "BrnchTim" EXACT []
-is_a: TO:0000933
+is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_334:0000283
@@ -393,7 +393,7 @@ id: CO_334:0000357
 name: cassava days to 50% branching trait
 def: "Time to reach 50% of the plants at the branching stage" [CO:curators]
 synonym: "flw50b" EXACT []
-is_a: TO:0000933
+is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_334:0000358
@@ -1336,7 +1336,7 @@ id: CO_334:0000505
 name: cassava young stem growth habit trait
 def: "Growth habit of young stem" [CO:curators]
 synonym: "stemgh" EXACT []
-is_a: TO:0002756 ! shoot growth angle
+is_a: TO:0002756 ! shoot growth habit
 
 [Term]
 id: CO_334:0000506

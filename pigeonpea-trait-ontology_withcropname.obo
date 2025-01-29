@@ -257,7 +257,7 @@ id: CO_341:0000105
 name: pigeonpea seed protein content trait
 def: "Protein content of seed" [CO:curators]
 synonym: "PC" EXACT []
-is_a: TO:0000490 ! seed protein composition trait
+is_a: TO:0000490 ! seed protein content
 
 [Term]
 id: CO_341:0000108
@@ -413,7 +413,7 @@ id: CO_341:0000158
 name: pigeonpea low temperature stress susceptibility trait
 def: "Low temperature stress susceptibility." [CO:curators]
 synonym: "LTS" EXACT []
-is_a: TO:0000303 ! cold tolerance
+is_a: TO:0000303 ! low temperature stress response
 
 [Term]
 id: CO_341:0000159
@@ -427,7 +427,7 @@ id: CO_341:0000160
 name: pigeonpea high temperature stress susceptibility trait
 def: "High temperature stress susceptibility" [CO:curators]
 synonym: "HTS" EXACT []
-is_a: TO:0000259 ! heat tolerance
+is_a: TO:0000259 ! high temperature stress response
 
 [Term]
 id: CO_341:0000161

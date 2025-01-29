@@ -74,14 +74,14 @@ def: "Time when pods have changed to final color." [CO:curators]
 synonym: "MatTime" EXACT []
 synonym: "Maturity" EXACT []
 xref: SOY:0001608
-is_a: TO:0000469
+is_a: TO:0000469 ! days to maturity
 
 [Term]
 id: CO_336:0000024
 name: soybean height of lowest pods trait
 def: "Height from soil surface to first pod" [CO:curators]
 synonym: "HLP" EXACT []
-is_a: TO:1000011
+is_a: TO:1000011 ! fruit position
 
 [Term]
 id: CO_336:0000027
@@ -90,7 +90,7 @@ def: "Height of the plant i.e., the length from the soil surface to top main ste
 synonym: "Height" EXACT []
 synonym: "PTHT" EXACT []
 xref: SOY:0001365
-is_a: TO:0000207
+is_a: TO:0000207 ! plant height
 
 [Term]
 id: CO_336:0000030
@@ -99,7 +99,7 @@ def: "Tendency of plant to lodge" [CO:curators]
 synonym: "LODGING" EXACT []
 synonym: "Plants lying on the ground" EXACT []
 xref: SOY:0001393
-is_a: TO:0000068
+is_a: TO:0000068 ! lodging incidence
 
 [Term]
 id: CO_336:0000036
@@ -107,7 +107,7 @@ name: soybean seed yield trait
 def: "Yield of a soybean field in terms of seed weight per unit area at a specified moisture content." [CO:curators]
 synonym: "Plot Yield, Seed weight" EXACT []
 synonym: "SdYld" EXACT []
-is_a: TO:0000905
+is_a: TO:0000905 ! seed yield trait
 xref: SOY:0001622
 
 [Term]
@@ -125,7 +125,7 @@ def: "Proportion of open pods at harvest" [CO:curators]
 synonym: "Pods open" EXACT []
 synonym: "SHATEARLY" EXACT []
 xref: SOY:0001348
-is_a: TO:0001074
+is_a: TO:0001074 ! legume fruit shattering
 
 [Term]
 id: CO_336:0000045
@@ -151,7 +151,7 @@ def: "Protein content of seed" [CO:curators]
 synonym: "%protein content, protein concentration" EXACT []
 synonym: "PROTEIN" EXACT []
 xref: SOY:0001676
-is_a: TO:0000490
+is_a: TO:0000490 ! seed protein content
 
 [Term]
 id: CO_336:0000054
@@ -160,7 +160,7 @@ def: "The reaction of the plant or plant part to damage caused by Aphis glycines
 synonym: "APHID" EXACT []
 synonym: "Soybean aphid" EXACT []
 xref: SOY:0001851
-is_a: TO:0006067
+is_a: TO:0006067 ! aphid resistance
 
 [Term]
 id: CO_336:0000057
@@ -203,7 +203,7 @@ name: soybean twining date trait
 def: "Time when soybean twines" [CO:curators]
 synonym: "TWINNING" EXACT []
 xref: SOY:0001618
-is_a: TO:0000933
+is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_336:0000072
@@ -212,7 +212,7 @@ def: "Response of plant to inundation by water of all or part of the plant" [CO:
 synonym: "FLOODING" EXACT []
 synonym: "Submergence tolerance, waterlogging response" EXACT []
 xref: SOY:0001351
-is_a: TO:0000114
+is_a: TO:0000114 ! flooding related trait
 
 [Term]
 id: CO_336:0000075
@@ -228,7 +228,7 @@ name: soybean drought tolerance trait
 def: "Resistance to damage by water restriction." [CO:curators]
 synonym: "DROUGHT" EXACT []
 xref: SOY:0001701
-is_a: TO:0000276
+is_a: TO:0000276 ! drought tolerance
 
 [Term]
 id: CO_336:0000081
@@ -237,7 +237,7 @@ def: "Reaction of the plant or plant part to herbicide exposure" [CO:curators]
 synonym: "HERBSENSITIVE" EXACT []
 synonym: "sensitivity to herbicide toxicity" EXACT []
 xref: SOY:0001814
-is_a: TO:0000058
+is_a: TO:0000058 ! herbicide sensitivity
 
 [Term]
 id: CO_336:0000084
@@ -290,7 +290,7 @@ def: "Resistance of a plant or plant part to damage by lower than normal tempera
 synonym: "low temperature stress" EXACT []
 synonym: "LOWTEMP" EXACT []
 xref: SOY:0001883
-is_a: TO:0000303
+is_a: TO:0000303 ! low temperature stress response
 
 [Term]
 id: CO_336:0000102
@@ -299,7 +299,7 @@ def: "Resistance of a plant or plant part to damage by higher than normal temper
 synonym: "High temperature stress" EXACT []
 synonym: "HIGHTEMP" EXACT []
 xref: SOY:0001882
-is_a: TO:0000259
+is_a: TO:0000259 ! high temperature stress response
 
 [Term]
 id: CO_336:0000105
@@ -387,7 +387,7 @@ name: soybean late shattering score trait
 def: "Proportion of open pods 2 weeks after harvest" [CO:curators]
 synonym: "SHATLATE" EXACT []
 xref: SOY:0001377
-is_a: TO:0001074
+is_a: TO:0001074 ! legume fruit shattering
 
 [Term]
 id: CO_336:0000135
@@ -429,7 +429,7 @@ def: "The amount of chlorophyll normally found in a plant under normal environme
 synonym: "CHLOROPHYLL" EXACT []
 synonym: "Chlorophyll content" EXACT []
 xref: SOY:0001859
-is_a: TO:0012002
+is_a: TO:0012002 ! leaf chlorophyll content
 
 [Term]
 id: CO_336:0000153
@@ -462,7 +462,7 @@ name: soybean canopy height trait
 def: "Distance from growing medium to the top leaves" [CO:curators]
 synonym: "CANOPYHT" EXACT []
 xref: SOY:0001324
-is_a: TO:0000207
+is_a: TO:0000207 ! plant height
 
 [Term]
 id: CO_336:0000165
@@ -489,7 +489,7 @@ def: "Number of days past planting when pods are mature. This trait is synonymou
 synonym: "Days to maturity" EXACT []
 synonym: "PODMATURITY" EXACT []
 xref: SOY:0001608
-is_a: TO:0000469
+is_a: TO:0000469 ! days to maturity
 
 [Term]
 id: CO_336:0000174
@@ -498,7 +498,7 @@ def: "Number of days past planting when 95% of pods have reached their mature co
 synonym: "Full maturity" EXACT []
 synonym: "FULLMATURITY" EXACT []
 xref: SOY:0001646
-is_a: TO:0000469
+is_a: TO:0000469 ! days to maturity
 
 
 [Term]
@@ -506,7 +506,7 @@ id: CO_336:0000177
 name: soybean root nodule weight trait
 def: "Weight of root nodules" [CO:curators]
 synonym: "NODULEWEIGTH" EXACT []
-synonym: "Root nodule weigth" EXACT []
+synonym: "Root nodule weight" EXACT []
 xref: SOY:0001898
 is_a: TO:0000899
 
@@ -682,7 +682,7 @@ name: soybean number of seeds trait
 def: "Number of seed per pod sampled" [CO:curators]
 synonym: "SEEDNUMBER" EXACT []
 xref: SOY:0001419
-is_a: TO:0000445
+is_a: TO:0000445 ! fruit seed number
 
 [Term]
 id: CO_336:0000238
@@ -690,7 +690,7 @@ name: soybean seed weight trait
 def: "Weight of the seed" [CO:curators]
 synonym: "SEEDWEIGHT" EXACT []
 xref: SOY:0001629
-is_a: TO:0000181
+is_a: TO:0000181 ! seed weight
 
 [Term]
 id: CO_336:0000239

@@ -8,7 +8,7 @@ id: CO_330:0000000
 name: potato plant growth habit trait
 def: "The growth habit of the plant" [CO:curators]
 synonym: "PlGwht" EXACT []
-is_a: TO:0002756 ! plant growth habit
+is_a: TO:0002756 ! shoot growth habit
 
 [Term]
 id: CO_330:0000003
@@ -29,7 +29,7 @@ id: CO_330:0000009
 name: potato inflorescence number trait
 def: "The number of inflorescences" [CO:curators]
 synonym: "FlwNIn" EXACT []
-is_a: TO:0000582
+is_a: TO:0000582 ! inflorescence number
 
 [Term]
 id: CO_330:0000012
@@ -86,7 +86,7 @@ id: CO_330:0000033
 name: potato seed production per berry trait
 def: "The number of seeds produced per berry" [CO:curators]
 synonym: "SedPro" EXACT []
-is_a: TO:0000445
+is_a: TO:0000445 ! fruit seed number
 
 [Term]
 id: CO_330:0000036
@@ -382,13 +382,13 @@ is_a: TO:0000742
 id: CO_330:0000162
 name: potato heat tolerance trait
 def: "The tolerance to heat of the plant" [CO:curators]
-is_a: TO:0000259
+is_a: TO:0000259 ! high temperature stress response
 
 [Term]
 id: CO_330:0000165
 name: potato salinity tolerance trait
 def: "The tolerance to salinity of the plant" [CO:curators]
-is_a: TO:0006001
+is_a: TO:0006001 ! salt tolerance
 
 [Term]
 id: CO_330:0000168
@@ -400,13 +400,13 @@ is_a: TO:0000421
 id: CO_330:0000171
 name: potato tuber flavor after cooking trait
 def: "The flavor of the tuber after cooking" [CO:curators]
-is_a: TO:0001069
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_330:0000174
 name: potato tuber texture after cooking trait
 def: "The texture of the tuber after cooking" [CO:curators]
-is_a: TO:0001069
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_330:0000177
@@ -418,19 +418,19 @@ is_a: TO:0001069 ! cooking quality trait
 id: CO_330:0000180
 name: potato tuber cooking quality trait
 def: "The cooking quality of the tuber" [CO:curators]
-is_a: TO:0001069
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_330:0000183
 name: potato flesh darkening after cooking trait
 def: "The darkening of the flesh after cooking" [CO:curators]
-is_a: TO:0001069
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_330:0000186
 name: potato flesh color after cooking trait
 def: "The color of the flesh after cooking" [CO:curators]
-is_a: TO:0001069
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_330:0000189
@@ -448,7 +448,7 @@ is_a: TO:0000457 ! total biomass yield
 id: CO_330:0000195
 name: potato tuber cooking time trait
 def: "The cooking time of the tuber" [CO:curators]
-is_a: TO:0001069
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_330:0000198
@@ -765,7 +765,7 @@ id: CO_330:0000430
 name: potato tuber protein content trait
 def: "The protein content of the tuber" [CO:curators]
 synonym: "TubFlsPrt" EXACT []
-is_a: TO:0000598
+is_a: TO:0000598 ! protein content
 
 [Term]
 id: CO_330:0000433

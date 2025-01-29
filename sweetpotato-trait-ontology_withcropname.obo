@@ -730,7 +730,7 @@ id: CO_331:0000350
 name: sweetpotato reaction to heat trait
 def: "Response of a plant or plant part to damage by higher than normal temperatures." [CO:curators]
 synonym: "RnHeat" EXACT []
-is_a: TO:0000259 ! heat tolerance
+is_a: TO:0000259 ! high temperature stress response
 
 [Term]
 id: CO_331:0000351
@@ -758,7 +758,7 @@ id: CO_331:0000354
 name: sweetpotato reaction to high soil temperature trait
 def: "Response of a plant to damage by high concentration salt." [CO:curators]
 synonym: "RnSTp" EXACT []
-is_a: TO:0000259 ! heat tolerance
+is_a: TO:0000259 ! high temperature stress response
 
 [Term]
 id: CO_331:0000355

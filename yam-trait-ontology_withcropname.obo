@@ -501,7 +501,7 @@ is_a: TO:0000947 ! whole plant growth and development trait
 [Term]
 id: CO_343:0000240
 name: yam twining habit trait
-def: "Tendency of climbing or trailling." [CO:curators]
+def: "Tendency of climbing or trailing." [CO:curators]
 synonym: "trailling, climbing habit" EXACT []
 synonym: "TWNH" EXACT []
 is_a: TO:0000947 ! whole plant growth and development trait

@@ -18,8 +18,7 @@ name: lentil aphid resistance trait
 def: "Degree of tolerance to Aphids. Acrythosiphon pisum. Suck sap from tender parts of plants and it is the vector of viral diseases." [CO:curators]
 synonym: "APHR" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0006067
-created_by: Karthika Rajendran & Shiv Kumar
+is_a: TO:0006067 ! aphid resistance
 
 [Term]
 id: CO_339:0000006
@@ -36,7 +35,7 @@ name: lentil biological yield per plant trait
 def: "The total biological yield of a plant (seed yield + straw yield)" [CO:curators]
 synonym: "BYPL" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000457
+is_a: TO:0000457 ! total biomass yield
 
 [Term]
 id: CO_339:0000012
@@ -44,7 +43,7 @@ name: lentil biological yield per area trait
 def: "The total biological yield (seed yield + straw yield) of plants in a plot" [CO:curators]
 synonym: "BYPO" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000458
+is_a: TO:0000458 ! drought recovery
 
 [Term]
 id: CO_339:0000015
@@ -52,7 +51,7 @@ name: lentil boron deficiency trait
 def: "Deficiency of Boron in the plant" [CO:curators]
 synonym: "BORD" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000018
+is_a: TO:0000018 ! boron sensitivity
 
 [Term]
 id: CO_339:0000018
@@ -60,7 +59,7 @@ name: lentil boron toxicity tolerance trait
 def: "Degree of tolerance to boron toxicity" [CO:curators]
 synonym: "BORT" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000018
+is_a: TO:0000018 ! boron sensitivity
 
 [Term]
 id: CO_339:0000021
@@ -68,7 +67,7 @@ name: lentil branching pattern trait
 def: "A qualitative trait describing the branching pattern of plant" [CO:curators]
 synonym: "BRPT" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0002639
+is_a: TO:0002639 ! shoot branching
 
 [Term]
 id: CO_339:0000024
@@ -76,7 +75,7 @@ name: lentil bruchid resistance trait
 def: "Degree of tolerance to Bruchids.Callosobruchus analis. Damage flowers, pods and seeds" [CO:curators]
 synonym: "BRUR" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000261
+is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_339:0000027
@@ -84,7 +83,7 @@ name: lentil canopy width trait
 def: "Width of the canopy" [CO:curators]
 synonym: "CANW" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0006062
+is_a: TO:0006062 ! plant width
 
 [Term]
 id: CO_339:0000030
@@ -92,7 +91,7 @@ name: lentil cold tolerance trait
 def: "Tolerance to damage caused to aerial plant parts by cold stress." [CO:curators]
 synonym: "CTOL" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000303
+is_a: TO:0000303 ! low temperature stress response
 
 [Term]
 id: CO_339:0000033
@@ -108,7 +107,7 @@ name: lentil cooking time trait
 def: "Time needed for lentil sample to cook" [CO:curators]
 synonym: "CKT" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0001069
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_339:0000039
@@ -116,7 +115,7 @@ name: lentil cotyledon colour trait
 def: "A trait describing the colour of cotyledon" [CO:curators]
 synonym: "CTLC" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000980
+is_a: TO:0000750 ! seedling cotyledon color
 
 [Term]
 id: CO_339:0000042
@@ -124,7 +123,7 @@ name: lentil straw protein content trait
 def: "The amount of protein content in the straw" [CO:curators]
 synonym: "STRP" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000598
+is_a: TO:0000598 ! protein content
 
 [Term]
 id: CO_339:0000045
@@ -132,7 +131,7 @@ name: lentil days to 50% flowering trait
 def: "Number of days from sowing to when 50% of the plants have started flowering" [CO:curators]
 synonym: "DFTFL" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000344
+is_a: TO:0000344 ! days to flowering trait
 
 [Term]
 id: CO_339:0000048
@@ -140,7 +139,7 @@ name: lentil days to first flowering trait
 def: "Number of days from sowing to when first flower started to occur" [CO:curators]
 synonym: "DFFL" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000344
+is_a: TO:0000344 ! days to flowering trait
 
 [Term]
 id: CO_339:0000051
@@ -148,7 +147,7 @@ name: lentil time to first pod formation trait
 def: "Number of days from sowing to formation of first pod" [CO:curators]
 synonym: "DFPD" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000852
+is_a: TO:0000852 ! fruit set trait
 
 [Term]
 id: CO_339:0000054
@@ -156,7 +155,7 @@ name: lentil time to maturity trait
 def: "A quantitative trait describing the physiological maturity of plant" [CO:curators]
 synonym: "DM" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000469
+is_a: TO:0000469 ! days to maturity
 
 [Term]
 id: CO_339:0000057
@@ -164,7 +163,7 @@ name: lentil drought tolerance trait
 def: "Degree of tolerance to drought stress" [CO:curators]
 synonym: "DRTL" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000276
+is_a: TO:0000276 ! drought tolerance
 
 [Term]
 id: CO_339:0000060
@@ -172,8 +171,7 @@ name: lentil early growth vigour trait
 def: "A quantitative traits desrcibing the growth of seedlings" [CO:curators]
 synonym: "EGV" EXACT []
 created_by: Dr. Jitendra Kumar
-is_a: TO:0000280
-
+is_a: TO:0000280 ! seedling vigor
 
 [Term]
 id: CO_339:0000063
@@ -190,7 +188,7 @@ name: lentil ground colour of seed testa trait
 def: "A qualitative trait indicating seed coat color." [CO:curators]
 synonym: "CSTA" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000190
+is_a: TO:0000190 ! seed coat color
 
 [Term]
 id: CO_339:0000069
@@ -199,7 +197,7 @@ def: "A qualitative description of the growth habit of the plant." [CO:curators]
 synonym: "GRH" EXACT []
 synonym: "Plant growth habit" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000947
+is_a: TO:0000947 ! whole plant growth and development trait
 
 [Term]
 id: CO_339:0000072
@@ -207,7 +205,7 @@ name: lentil harvest index trait
 def: "A measurement of crop yield, the weight of the harvested product as a percentage of the total plant weight of a crop" [CO:curators]
 synonym: "HI" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000128
+is_a: TO:0000128 ! harvest index
 
 [Term]
 id: CO_339:0000075
@@ -215,7 +213,7 @@ name: lentil heat tolerance trait
 def: "Degree of tolerance to high temperature" [CO:curators]
 synonym: "HTOL" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000259
+is_a: TO:0000259 ! high temperature stress response
 
 [Term]
 id: CO_339:0000078
@@ -223,7 +221,7 @@ name: lentil height of the lowest pod trait
 def: "Height above ground of the lowest pod" [CO:curators]
 synonym: "HLPD" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:1000011
+is_a: TO:1000011 ! fruit position
 
 [Term]
 id: CO_339:0000081
@@ -231,7 +229,7 @@ name: lentil herbicide tolerance trait
 def: "The plant ability to resist the toxic effects of herbicides." [CO:curators]
 synonym: "HERBT" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000058
+is_a: TO:0000058 ! herbicide sensitivity
 
 [Term]
 id: CO_339:0000084
@@ -239,7 +237,7 @@ name: lentil seed weight trait
 def: "Weight of seeds" [CO:curators]
 synonym: "HSW" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000181
+is_a: TO:0000181  ! seed weight
 
 [Term]
 id: CO_339:0000087
@@ -247,7 +245,7 @@ name: lentil iron (fe) deficiency trait
 def: "Deficiency of Iron (Fe) in the plant measured at flowering stage" [CO:curators]
 synonym: "IRND" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0006049
+is_a: TO:0006049 ! iron concentration
 
 [Term]
 id: CO_339:0000090
@@ -255,7 +253,7 @@ name: lentil lodging susceptibility trait
 def: "A trait describing status of susceptibilty of genotypes to lodging" [CO:curators]
 synonym: "LOSP" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000068
+is_a: TO:0000068 ! lodging incidence
 
 [Term]
 id: CO_339:0000093
@@ -264,7 +262,7 @@ def: "The amount of micro-nutrient including Fe and Zn in the seed" [CO:curators
 synonym: "Micro-nutrient content in the grain" EXACT []
 synonym: "MNCG" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000465
+is_a: TO:0000465 ! mineral and ion content trait
 
 [Term]
 id: CO_339:0000096
@@ -272,7 +270,7 @@ name: lentil number of pods per plant trait
 def: "A trait indicating total number of pods per plant" [CO:curators]
 synonym: "NPDPL" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0001125
+is_a: TO:0001125 ! pod number trait
 
 [Term]
 id: CO_339:0000099
@@ -280,7 +278,7 @@ name: lentil number of peduncles per plant trait
 def: "A trait indicating total number of peduncles per plant" [CO:curators]
 synonym: "NPPP" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000582
+is_a: TO:0000582 ! inflorescence number
 
 [Term]
 id: CO_339:0000102
@@ -288,7 +286,7 @@ name: lentil number of pods per peduncle trait
 def: "A trait indicating number of pods per peduncle" [CO:curators]
 synonym: "NPPE" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0001125
+is_a: TO:0001125 ! pod number trait
 
 [Term]
 id: CO_339:0000105
@@ -296,7 +294,7 @@ name: lentil number of seeds per pod trait
 def: "A trait indicating number of seeds per pod" [CO:curators]
 synonym: "NSPP" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000445
+is_a: TO:0000445 ! fruit seed number
 
 [Term]
 id: CO_339:0000108
@@ -304,7 +302,7 @@ name: lentil orobanche resistance trait
 def: "Plant resistance to Orobanche. Casative agent: Orobanche crenata." [CO:curators]
 synonym: "OROR" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000444
+is_a: TO:0000444 ! parasitic weed response
 
 [Term]
 id: CO_339:0000111
@@ -312,7 +310,7 @@ name: lentil pattern of seed testa trait
 def: "A qualitative trait describing the pattern of seed testa" [CO:curators]
 synonym: "PAST" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000904
+is_a: TO:0000904 ! seed coat pattern
 
 [Term]
 id: CO_339:0000114
@@ -320,7 +318,7 @@ name: lentil plant height trait
 def: "Height of the plant" [CO:curators]
 synonym: "PLHGT" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000207
+is_a: TO:0000207 ! plant height
 
 [Term]
 id: CO_339:0000117
@@ -329,7 +327,7 @@ def: "A qualitative trait describing extent of hairiness of the shoot" [CO:curat
 synonym: "Plant hairiness" EXACT []
 synonym: "PLPUB" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000879
+is_a: TO:0000879 ! stem hairiness
 
 [Term]
 id: CO_339:0000120
@@ -338,7 +336,7 @@ def: "A qualitative trait describing the structure and branching pattern of the 
 synonym: "Plant artitecture" EXACT []
 synonym: "PSTR" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0002756
+is_a: TO:0002639 ! shoot branching trait
 
 [Term]
 id: CO_339:0000123
@@ -346,7 +344,7 @@ name: lentil pod borer resistance trait
 def: "Degree of tolerance to podborer.Helicoverpa armigera. Damage pods and seeds" [CO:curators]
 synonym: "PBR" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000261
+is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_339:0000126
@@ -354,7 +352,7 @@ name: lentil pod dehiscence trait
 def: "Splitting of pods at maturity along its built in line of weakness in order to release seeds" [CO:curators]
 synonym: "PDEH" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0001074
+is_a: TO:0001074 ! legume fruit shattering
 
 [Term]
 id: CO_339:0000129
@@ -362,7 +360,7 @@ name: lentil pod filling period trait
 def: "A quantitative trait indicating the time required for pod filling" [CO:curators]
 synonym: "PFIP" EXACT []
 created_by: Dr. Jitendra Kumar
-is_a: TO:0000933
+is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_339:0000132
@@ -370,7 +368,7 @@ name: lentil pod shedding trait
 def: "Dropping of pods at maturity" [CO:curators]
 synonym: "PSHD" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0002633
+is_a: TO:0002633 ! fruit ripening trait
 
 [Term]
 id: CO_339:0000135
@@ -378,7 +376,7 @@ name: lentil pod weight trait
 def: "Weight of pods" [CO:curators]
 synonym: "PDWT" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0002746
+is_a: TO:0002746 ! fruit weight
 
 [Term]
 id: CO_339:0000138
@@ -386,7 +384,7 @@ name: lentil presence of tendrils trait
 def: "A qualitative trait describing presence of tendrils" [CO:curators]
 synonym: "PTEN" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000768
+is_a: TO:0001121 ! compound leaf morphology trait
 
 [Term]
 id: CO_339:0000141
@@ -395,7 +393,7 @@ def: "Number of basal primary branches per plant" [CO:curators]
 synonym: "BPBR" EXACT []
 synonym: "Number of basal primary branches per plant" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000547
+is_a: TO:0000547  ! primary branch number
 
 [Term]
 id: CO_339:0000144
@@ -403,7 +401,7 @@ name: lentil root length trait
 def: "Cumulative root length of a sample" [CO:curators]
 synonym: "RL" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000227
+is_a: TO:0000227 ! root length
 
 [Term]
 id: CO_339:0000147
@@ -411,7 +409,7 @@ name: lentil root length density trait
 def: "The length of roots present in a unit volume of soil" [CO:curators]
 synonym: "RLD" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000227
+is_a: TO:0000227 ! root length
 
 [Term]
 id: CO_339:0000150
@@ -420,7 +418,7 @@ def: "Degree of resistance to rust disease. Causative agent: Uromyces viciae-fab
 comment: It produces lesions on stems and leaves which result leaf fall and premature plant death.
 synonym: "RUSR" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0001146
+is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_339:0000153
@@ -428,7 +426,7 @@ name: lentil salinity tolerance trait
 def: "Degree of tolerance to salinity" [CO:curators]
 synonym: "SALT" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0006001
+is_a: TO:0006001 ! salt tolerance
 
 [Term]
 id: CO_339:0000156
@@ -437,7 +435,7 @@ def: "Number of basal secondary branches per plant" [CO:curators]
 synonym: "BSBR" EXACT []
 synonym: "Number of basal secondary branches per plant" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0020019
+is_a: TO:0020019 ! secondary shoot branch number
 
 [Term]
 id: CO_339:0000159
@@ -445,7 +443,7 @@ name: lentil seed diameter trait
 def: "Seed diameter" [CO:curators]
 synonym: "SDDIA" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000391
+is_a: TO:0000149 ! seed width
 
 [Term]
 id: CO_339:0000162
@@ -453,7 +451,7 @@ name: lentil seed protein content trait
 def: "Amount of protein in the seed" [CO:curators]
 synonym: "PRT" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000490
+is_a: TO:0000490 ! seed protein content
 
 [Term]
 id: CO_339:0000165
@@ -461,7 +459,7 @@ name: lentil seed yield per plant trait
 def: "Seed yield from a single plant" [CO:curators]
 synonym: "SYPL" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000905
+is_a: TO:0000905 ! seed yield trait
 
 [Term]
 id: CO_339:0000168
@@ -469,7 +467,7 @@ name: lentil seed yield per area trait
 def: "Seed yield from a plot" [CO:curators]
 synonym: "SYPO" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000906
+is_a: TO:0000906 ! seed yield trait
 
 [Term]
 id: CO_339:0000171
@@ -477,7 +475,7 @@ name: lentil chlorophyll content trait
 def: "Proportions that indicate chlorophyll density and/or leaf thickness measured through a SPAD chlorophyll meter." [CO:curators]
 synonym: "SCMR" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0012002
+is_a: TO:0012002 ! leaf chlorophyll content
 
 [Term]
 id: CO_339:0000174
@@ -485,7 +483,7 @@ name: lentil stem weevil resistance trait
 def: "Degree of tolerance to stem weevil (Sitona crinitus). Damage seedlings and root nodules" [CO:curators]
 synonym: "SWVR" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000261
+is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_339:0000177
@@ -502,7 +500,7 @@ name: lentil stomatal conductance trait
 def: "It is the measure of the rate of passage of carbon dioxide entering, or water vapour exiting through the stomata of a leaf." [CO:curators]
 synonym: "STCC" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000522
+is_a: TO:0000522 ! stomatal conductance
 
 [Term]
 id: CO_339:0000183
@@ -511,7 +509,7 @@ def: "Number of tertiary branches per plant" [CO:curators]
 synonym: "Number of tertiary branches per plant" EXACT []
 synonym: "TRBR" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0020018
+is_a: TO:0020018 ! tertiary shoot branch number
 
 [Term]
 id: CO_339:0000186
@@ -519,7 +517,7 @@ name: lentil type of tendril trait
 def: "A qualitative trait discriminating different types of tendrils" [CO:curators]
 synonym: "TTEN" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000764
+is_a: TO:0001121 ! compound leaf morphology trait
 
 [Term]
 id: CO_339:0000189
@@ -527,7 +525,7 @@ name: lentil water logging tolerance trait
 def: "Degree of tolerance to waterlogging condition" [CO:curators]
 synonym: "WLOT" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000114
+is_a: TO:0000114 ! flooding related trait
 
 [Term]
 id: CO_339:0000192
@@ -535,7 +533,7 @@ name: lentil winter survival trait
 def: "Proportion of the plants emerged prior to winter and survived through winter" [CO:curators]
 synonym: "WSUR" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0001153
+is_a: TO:0001153 ! survival rate after freezing temperature stress
 
 [Term]
 id: CO_339:0000195
@@ -543,4 +541,4 @@ name: lentil time to flowering trait
 def: "Time elapsed between sowing to flowering" [CO:curators]
 synonym: "TF" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000344
+is_a: TO:0000344 ! days to flowering trait
