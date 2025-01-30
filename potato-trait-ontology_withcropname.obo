@@ -1044,7 +1044,7 @@ id: CO_330:0000487
 name: potato hailstorm tolerance trait
 def: "The tolerant to hailstorm of the plant" [CO:curators]
 synonym: "TolHst" EXACT []
-is_a: TO:0000168 TO:0000168 ! abiotic plant stress trait
+is_a: TO:0000168 ! abiotic plant stress trait
 
 [Term]
 id: CO_330:0000488
