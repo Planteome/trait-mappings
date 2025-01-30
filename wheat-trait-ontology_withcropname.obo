@@ -1262,7 +1262,7 @@ id: CO_321:0000393
 name: wheat in-season aboveground biomass trait
 def: "All above-ground biomass at any developmental stage and/or at regular intervals from the emergence to physiological maturity." [CO:curators]
 synonym: "ISBM" EXACT []
-is_a: TO:0000327 !shoot system yield trait
+is_a: TO:0000327 ! shoot system yield trait
 
 [Term]
 id: CO_321:0000395
