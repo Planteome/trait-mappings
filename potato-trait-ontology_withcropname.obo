@@ -874,7 +874,7 @@ is_a: TO:0003081 ! subterranean shoot axis tuber phosphorus content
 id: CO_330:0000460
 name: potato tuber sulfur concentration trait
 def: "The concentration of sulfur in tuber" [CO:curators]
-is_a: TO:0006046.! sulfur content
+is_a: TO:0006046 ! sulfur content
 
 [Term]
 id: CO_330:0000461
