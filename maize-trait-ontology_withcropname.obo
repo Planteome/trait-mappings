@@ -1155,6 +1155,7 @@ id: CO_322:0000526
 name: maize ear shelling ratio trait
 def: "The ratio of grain to total ear weight." [CO:curators]
 synonym: "Shell" EXACT []
+is_a: TO:0000919 ! grain weight
 
 [Term]
 id: CO_322:0000533
