@@ -9,21 +9,21 @@ name: wheat aboveground biomass at maturity trait
 def: "All above-ground biomass at maturity." [CO:curators]
 synonym: "Biological yield" EXACT []
 synonym: "BM" EXACT []
-is_a: TO:0000327
+is_a: TO:0000457 ! biomass yield
 
 [Term]
 id: CO_321:0000006
 name: wheat canopy temperature depression trait
 def: "Difference between ambient temperature and canopy temperature" [CO:curators]
 synonym: "CTD" EXACT []
-is_a: TO:0000157
+is_a: TO:0000157 ! canopy temperature
 
 [Term]
 id: CO_321:0000007
 name: wheat heading time trait
 def: "Heading time extends from the time of emergence of the tip of the spike from the flag leaf sheath to when the spike has completely emerged but has not yet started to flower." [CO:curators]
 synonym: "Hd" EXACT []
-is_a: TO:0000137
+is_a: TO:0000137 ! days to heading
 
 [Term]
 id: CO_321:0000009
@@ -39,7 +39,7 @@ name: wheat grain germination trait
 def: "Proportion of seed that germinate under proper condition." [CO:curators]
 synonym: "Germ" EXACT []
 synonym: "Seed germination" EXACT []
-is_a: TO:0000202
+is_a: TO:0000202 ! germination ratio
 
 [Term]
 id: CO_321:0000012
@@ -125,14 +125,14 @@ id: CO_321:0000026
 name: wheat awn length trait
 def: "Awn length." [CO:curators]
 synonym: "AwnLng" EXACT []
-is_a: TO:0000072
+is_a: TO:0000072 ! awn length
 
 [Term]
 id: CO_321:0000027
 name: wheat spike awnedness trait
 def: "Observation of awn type whether awnless/awnletted (short awns)/awned (conspicious awns)." [CO:curators]
 synonym: "Awns" EXACT []
-is_a: TO:0001110
+is_a: TO:0001110 ! spike inflorescence morphology trait
 
 [Term]
 id: CO_321:0000028
@@ -146,21 +146,21 @@ id: CO_321:0000029
 name: wheat coleoptile length trait
 def: "Length of coleoptile (a protective sheath that surrounds the shoot tip and the embryonic leaves of the young shoot of grasses)." [CO:curators]
 synonym: "ColeopLng" EXACT []
-is_a: TO:0001007
+is_a: TO:0001007 ! coleoptile length
 
 [Term]
 id: CO_321:0000031
 name: wheat glume color trait
 def: "Color observation on the outer glume at maturity." [CO:curators]
 synonym: "GlmCol" EXACT []
-is_a: TO:0000221
+is_a: TO:0000221 ! glume color
 
 [Term]
 id: CO_321:0000032
 name: wheat glume length trait
 def: "Length of glume." [CO:curators]
 synonym: "GlmLng" EXACT []
-is_a: TO:0020033
+is_a: TO:0020033 ! glume length
 
 [Term]
 id: CO_321:0000033
@@ -168,28 +168,28 @@ name: wheat glume pubescence density trait
 def: "Glume hairiness density on outer side of sterile glume." [CO:curators]
 synonym: "GlmPubDen" EXACT []
 synonym: "Glume hairiness" EXACT []
-is_a: TO:0020035
+is_a: TO:0020035 ! glume pubescence density
 
 [Term]
 id: CO_321:0000034
 name: wheat glume pubescence length trait
 def: "Glume pubescence length on outer side of sterile glume." [CO:curators]
 synonym: "GlmPubLng" EXACT []
-is_a: TO:0020037
+is_a: TO:0020037 ! glume pubescence length
 
 [Term]
 id: CO_321:0000035
 name: wheat glume glaucousness trait
 def: "Glaucousness in glume." [CO:curators]
 synonym: "GlmGlau" EXACT []
-is_a: TO:0000869
+is_a: TO:0000869 ! glume morphology trait
 
 [Term]
 id: CO_321:0000036
 name: wheat glume width trait
 def: "Width of glume." [CO:curators]
 synonym: "GlmWid" EXACT []
-is_a: TO:0020034
+is_a: TO:0020034 ! glume width
 
 [Term]
 id: CO_321:0000037
@@ -197,7 +197,7 @@ name: wheat grain color trait
 def: "Grain color." [CO:curators]
 synonym: "GCol" EXACT []
 synonym: "Kernel color" EXACT []
-is_a: TO:0001109
+is_a: TO:0001109 ! grain color trait
 
 [Term]
 id: CO_321:0000038
@@ -233,10 +233,10 @@ is_a: TO:0002759 ! grain number
 [Term]
 id: CO_321:0000042
 name: wheat grain vitreousness trait
-def: "One of the key quality parameters in the determination of durum quality referring to translucent or glass-like appearance when seeds are transversely sectioned and observed whether not vitreous/partly vitreous/vitreous. it is associated with high protein and hard grain." [CO:curators]
+def: "One of the key quality parameters in the determination of durum quality referring to translucent or glass-like appearance when seeds are transversely sectioned and observed whether not vitreous/partly vitreous/vitreous. It is associated with high protein and hard grain." [CO:curators]
 synonym: "GVtr" EXACT []
 synonym: "Seed vitreousness" EXACT []
-is_a: TO:0000162
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_321:0000044
@@ -264,14 +264,14 @@ id: CO_321:0000047
 name: wheat leaf thickness trait
 def: "Measurement of leaf thickness." [CO:curators]
 synonym: "LeafThk" EXACT []
-is_a: TO:0000258
+is_a: TO:0000258 ! leaf thickness
 
 [Term]
 id: CO_321:0000048
 name: wheat leaf glaucousness trait
 def: "Glaucousness in leaf." [CO:curators]
 synonym: "LeafGlau" EXACT []
-is_a: TO:0000748
+is_a: TO:0000748 ! leaf morphology trait
 
 [Term]
 id: CO_321:0000049
@@ -292,28 +292,28 @@ id: CO_321:0000051
 name: wheat node number trait
 def: "Number of nodes in the main stem." [CO:curators]
 synonym: "NodeN" EXACT []
-is_a: TO:0000634
+is_a: TO:0000634 ! node number
 
 [Term]
 id: CO_321:0000052
 name: wheat peduncle length trait
 def: "Length of peduncle." [CO:curators]
 synonym: "PedLng" EXACT []
-is_a: TO:0002691
+is_a: TO:0002691 ! peduncle length
 
 [Term]
 id: CO_321:0000053
 name: wheat peduncle pubescence density trait
 def: "Peduncle hairiness density." [CO:curators]
 synonym: "PedPubDen" EXACT []
-is_a: TO:0000776
+is_a: TO:0000776 ! peduncle morphology trait
 
 [Term]
 id: CO_321:0000054
 name: wheat peduncle glaucousness trait
 def: "Glaucousness in peduncle." [CO:curators]
 synonym: "PedGlau" EXACT []
-is_a: TO:0000776
+is_a: TO:0000776 ! peduncle morphology trait
 
 [Term]
 id: CO_321:0000055
@@ -321,35 +321,35 @@ name: wheat spike density trait
 def: "Density or compactness of a wheat spike." [CO:curators]
 synonym: "Spike compactness, ear compactness" EXACT []
 synonym: "SpkDen" EXACT []
-is_a: TO:0001110
+is_a: TO:0001110 ! spike inflorescence morphology trait
 
 [Term]
 id: CO_321:0000056
 name: wheat spike length trait
 def: "Length of spike." [CO:curators]
 synonym: "SpkLng" EXACT []
-is_a: TO:0000271
+is_a: TO:0000271 ! inflorescence length
 
 [Term]
 id: CO_321:0000057
 name: wheat spike shattering trait
 def: "Observation of grains dehiscence from spike at maturity." [CO:curators]
 synonym: "Shattering" EXACT []
-is_a: TO:0000473
+is_a: TO:0000473 !grain shattering
 
 [Term]
 id: CO_321:0000058
 name: wheat spikelet number trait
 def: "Number of spikelets per spike." [CO:curators]
 synonym: "SplN" EXACT []
-is_a: TO:0000456
+is_a: TO:0000456 ! spikelet number
 
 [Term]
 id: CO_321:0000059
 name: wheat canopy stay green trait
 def: "Ability of the plant to remain/maintain green leaves, stems and spikes at the time of senescing." [CO:curators]
 synonym: "StayGreen" EXACT []
-is_a: TO:0000839
+is_a: TO:0000839 ! plant structure morphology trait
 
 [Term]
 id: CO_321:0000060
@@ -357,7 +357,7 @@ name: wheat stem length trait
 def: "Length of stem." [CO:curators]
 synonym: "Culm length" EXACT []
 synonym: "StmLng" EXACT []
-is_a: TO:0000576
+is_a: TO:0000576 ! stem length
 
 [Term]
 id: CO_321:0000061
@@ -365,7 +365,7 @@ name: wheat stem solidness trait
 def: "Solidness of stem." [CO:curators]
 synonym: "Culm solidness" EXACT []
 synonym: "StmSol" EXACT []
-is_a: TO:0000051
+is_a: TO:0000051 ! stem morphology trait
 
 [Term]
 id: CO_321:0000062
@@ -373,14 +373,14 @@ name: wheat stem diameter trait
 def: "Stem outer diameter." [CO:curators]
 synonym: "StmDia" EXACT []
 synonym: "Straw diameter, Culm diameter" EXACT []
-is_a: TO:0020083
+is_a: TO:0020083 ! stem diameter
 
 [Term]
 id: CO_321:0000063
 name: wheat leaf stomatal resistance trait
 def: "Resistance to diffusion of water vapor through a plant stomata." [CO:curators]
 synonym: "StomaRes" EXACT []
-is_a: TO:0000523
+is_a: TO:0000523 ! stomatal resistance
 
 [Term]
 id: CO_321:0000064
@@ -408,14 +408,14 @@ id: CO_321:0000067
 name: wheat flour protein content trait
 def: "Total protein content (corrected to 12.5% moisture basis) in refined flour." [CO:curators]
 synonym: "FlrProt" EXACT []
-is_a: TO:0000162
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_321:0000068
 name: wheat flour yield trait
 def: "Proportion of flour recovered during milling." [CO:curators]
 synonym: "FlrYld" EXACT []
-is_a: TO:0000162
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_321:0000069
@@ -437,7 +437,7 @@ id: CO_321:0000071
 name: wheat whole meal flour falling number trait
 def: "Indication of the amount of sprout damage that has occurred within a wheat sample. falling number value of 350 seconds or longer indicates a low enzyme activity and very sound wheat quality. as the amount of enzyme activity increases, the falling number decreases. values below 200 seconds indicate high levels of enzyme activity." [CO:curators]
 synonym: "WMFlrFN" EXACT []
-is_a: TO:0000162
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_321:0000072
@@ -445,42 +445,42 @@ name: wheat grain hardness trait
 def: "Grain hardness is used as a grading factor to determine the type of wheat. it is a key determinant for classification of wheat and end product quality." [CO:curators]
 synonym: "GHrd" EXACT []
 synonym: "Grain texture" EXACT []
-is_a: TO:0000162
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_321:0000073
 name: wheat grain protein content trait
 def: "Content of protein (corrected to 12.5% moisture basis) in the whole wheat grain samples." [CO:curators]
 synonym: "GProt" EXACT []
-is_a: TO:0000162
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_321:0000074
 name: wheat semolina protein content trait
 def: "Protein content in durum wheat semolina." [CO:curators]
 synonym: "SemoProt" EXACT []
-is_a: TO:0000162
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_321:0000075
 name: wheat semolina color trait
 def: "The semolina color." [CO:curators]
 synonym: "SemoCol" EXACT []
-is_a: TO:0000162
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_321:0000078
 name: wheat acid soil tolerance trait
 def: "Plant tolerance to acid soil." [CO:curators]
 synonym: "AcdTol" EXACT []
-is_a: TO:0000178
+is_a: TO:0000178 ! acid soil sensitivity
 
 [Term]
 id: CO_321:0000079
 name: wheat aluminum tolerance trait
 def: "Plant tolerance to aluminum." [CO:curators]
 synonym: "AlTol" EXACT []
-is_a: TO:0000354
+is_a: TO:0000354 ! aluminum sensitivity
 
 [Term]
 id: CO_321:0000080
@@ -496,7 +496,7 @@ name: wheat sprouting tolerance trait
 def: "Tolerance of grain to sprout when in the spike." [CO:curators]
 synonym: "Pre-harvest sprouting tolerance" EXACT []
 synonym: "SproutTol" EXACT []
-is_a: TO:0000949
+is_a: TO:0000619 ! vivipary
 
 [Term]
 id: CO_321:0000082
@@ -532,7 +532,7 @@ id: CO_321:0000087
 name: wheat bird damage trait
 def: "The plant damage caused by birds." [CO:curators]
 synonym: "BirdDmg" EXACT []
-is_a: TO:0000260
+is_a: TO:0000260 ! bird damage response
 
 [Term]
 id: CO_321:0000088
@@ -553,7 +553,7 @@ id: CO_321:0000090
 name: wheat rodent damage trait
 def: "The plant damage caused by rodent." [CO:curators]
 synonym: "RodentDmg" EXACT []
-is_a: TO:0000117
+is_a: TO:0001141 ! rodent damage response
 
 [Term]
 id: CO_321:0000091
@@ -574,7 +574,7 @@ id: CO_321:0000093
 name: wheat snail damage trait
 def: "The plant damage caused by snails." [CO:curators]
 synonym: "SnailDmg" EXACT []
-is_a: TO:0000054
+is_a: TO:0000054 ! animal damage response trait
 
 [Term]
 id: CO_321:0000094
@@ -595,7 +595,7 @@ id: CO_321:0000096
 name: wheat barley yellow dwarf incidence trait
 def: "Wheat yellow dwarf incidence in the plants caused by the agent wheat yellow dwarf virus." [CO:curators]
 synonym: "BYDInc" EXACT []
-is_a: TO:0020067
+is_a: TO:0020067 ! barley yellow dwarf virus disease response
 
 [Term]
 id: CO_321:0000097
@@ -704,7 +704,7 @@ name: wheat harvest index trait
 def: "A ratio of grain yield to total above ground biomass" [CO:curators]
 synonym: "Biomass partitioning to grain" EXACT []
 synonym: "HI" EXACT []
-is_a: TO:0000895
+is_a: TO:0000895 ! fruit harvest index
 
 [Term]
 id: CO_321:0000124
@@ -718,7 +718,7 @@ id: CO_321:0000126
 name: wheat hail damage trait
 def: "Plant damage caused by hail." [CO:curators]
 synonym: "HailDmg" EXACT []
-is_a: TO:0000168 TO:0000168 ! abiotic plant stress trait
+is_a: TO:0000168 ! abiotic plant stress trait
 
 [Term]
 id: CO_321:0000127
@@ -753,21 +753,21 @@ id: CO_321:0000141
 name: wheat flag leaf area trait
 def: "Area of the flag leaf lamina." [CO:curators]
 synonym: "FLeafA" EXACT []
-is_a: TO:0000540
+is_a: TO:0000540 ! flag leaf area
 
 [Term]
 id: CO_321:0000142
 name: wheat leaf stomatal size trait
 def: "Stomata size." [CO:curators]
 synonym: "StomaSiz" EXACT []
-is_a: TO:0000843
+is_a: TO:0000843 ! portion of plant tissue morphology trait
 
 [Term]
 id: CO_321:0000143
 name: wheat leaf stomatal frequency trait
 def: "Number of stomata counted per unit area on the leaf surface." [CO:curators]
 synonym: "StomaFrq" EXACT []
-is_a: TO:0000566
+is_a: TO:0000566 ! leaf stomatal complex frequency
 
 [Term]
 id: CO_321:0000144
@@ -775,7 +775,7 @@ name: wheat dough alveograph value w trait
 def: "Dough strength by alveograph. w value is the area under the curve. it is a combination of dough strength (p value) and extensibility (l value)." [CO:curators]
 synonym: "AlvW" EXACT []
 synonym: "W value, Strength of dough" EXACT []
-is_a: TO:0001069
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_321:0000145
@@ -791,7 +791,7 @@ name: wheat flour sds sedimentation trait
 def: "Testing of refined flour quality by sds-sedimentation, a test estimating gluten-protein overall quality." [CO:curators]
 synonym: "FLRSDS" EXACT []
 synonym: "FlrSDS" EXACT []
-is_a: TO:0000162
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_321:0000147
@@ -799,7 +799,7 @@ name: wheat whole meal flour sds sedimentation trait
 def: "Testing of whole-meal flour quality by sds-sedimentation, a test estimating gluten-protein overall quality." [CO:curators]
 synonym: "grain SDS-sedimentation, whole meal flour SDS-sedimentation" EXACT []
 synonym: "WMFlrSDS" EXACT []
-is_a: TO:0000162
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_321:0000149
@@ -813,14 +813,14 @@ id: CO_321:0000152
 name: wheat glutenin glu-a1 composition trait
 def: "High molecular weight glutenin subunits of glu-a1." [CO:curators]
 synonym: "GluA1" EXACT []
-is_a: TO:0000162
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_321:0000153
 name: wheat glutenin glu-b1 composition trait
 def: "High molecular weight glutenin subunits of glu-b1." [CO:curators]
 synonym: "GluB1" EXACT []
-is_a: TO:0000162
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_321:0000154
@@ -834,21 +834,21 @@ id: CO_321:0000155
 name: wheat glutenin glu-a3 composition trait
 def: "Low molecular weight glutenin subunits of glu-a3." [CO:curators]
 synonym: "GluA3" EXACT []
-is_a: TO:0000162
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_321:0000156
 name: wheat glutenin glu-b3 composition trait
 def: "Low molecular weight glutenin subunits of glu-b3." [CO:curators]
 synonym: "GluB3" EXACT []
-is_a: TO:0000162
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_321:0000157
 name: wheat glutenin glu-d3 composition trait
 def: "Low molecular weight glutenin subunits of glu-d3." [CO:curators]
 synonym: "GluD3" EXACT []
-is_a: TO:0000162
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_321:0000158
@@ -856,7 +856,7 @@ name: wheat translocation 1bl/1rs trait
 def: "The 1bl/1rs translocation in wheat resulted from replacing the short arm of the chromosome 1b of wheat by the short arm of the chromosome 1r of rye (secale cereale l.)." [CO:curators]
 synonym: "1BL/1RS translocation" EXACT []
 synonym: "T1BL1RS" EXACT []
-is_a: TO:0000162
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_321:0000159
@@ -864,7 +864,7 @@ name: wheat grain test weight trait
 def: "Test weight or specific weight is the weight of a fixed volume of clean grains." [CO:curators]
 synonym: "Grain hectoliter weight, Grain specific weigh, Test weight" EXACT []
 synonym: "TestWt" EXACT []
-is_a: TO:0000162
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_321:0000160
@@ -872,7 +872,7 @@ name: wheat flour sds sedimentation index trait
 def: "Is the result of dividing sedimentation volume by flour protein content." [CO:curators]
 synonym: "SedIdx" EXACT []
 synonym: "Specific sedimentation value, Relative sedimentation index" EXACT []
-is_a: TO:0000162
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_321:0000161
@@ -902,7 +902,7 @@ id: CO_321:0000165
 name: wheat spike sterility index trait
 def: "Spike sterility observed as infertile florets." [CO:curators]
 synonym: "SpkSterility" EXACT []
-is_a: TO:0000485
+is_a: TO:0000485 ! sterility related trait
 
 [Term]
 id: CO_321:0000166
@@ -945,14 +945,14 @@ id: CO_321:0000174
 name: wheat grain yellow berry incidence trait
 def: "Refers to grains showing chalky or starchy endosperm areas." [CO:curators]
 synonym: "GYellBer" EXACT []
-is_a: TO:0000162
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_321:0000175
 name: wheat leaf tip necrosis incidence trait
 def: "A physiological phenomenon caused by hot, dry and windy weather. the whole tip of the flag leaf tends to be necrotic and will often fold over. leaf tip necrosis progresses from the margins of the flag leaf tip and lower leaves as well show some signs of it. leaf tip necrosis is observed to some extent in all wheat varieties containing the leaf rust gene resistance gene lr34." [CO:curators]
 synonym: "LeafTNecro" EXACT []
-is_a: TO:0000748
+is_a: TO:0000168 ! abiotic plant stress trait
 
 [Term]
 id: CO_321:0000176
@@ -974,7 +974,7 @@ id: CO_321:0000178
 name: wheat leaf rust plant response trait
 def: "Leaf rust (brown rust) response in the plants caused by the agent Puccinia recondita." [CO:curators, NCBITaxon:208348]
 synonym: "PrecoResp" EXACT []
-is_a: TO:0020057
+is_a: TO:0020057 ! wheat leaf rust disease resistance
 
 [Term]
 id: CO_321:0000179
@@ -982,7 +982,7 @@ name: wheat stripe rust plant response trait
 def: "Stripe rust (yellow rust) response in the plants caused by the agent Puccinia striiformis f. sp. tritici." [CO:curators, NCBITaxon:168172]
 synonym: "PstriResp" EXACT []
 synonym: "Stripe rust" EXACT []
-is_a: TO:0020055
+is_a: TO:0020055 ! wheat stripe rust disease resistance
 
 [Term]
 id: CO_321:0000182
@@ -1003,7 +1003,7 @@ id: CO_321:0000184
 name: wheat leaf area index trait
 def: "It is a dimensionless quantity that characterizes plant canopies and defined as the leaf area per unit ground surface area." [CO:curators]
 synonym: "LAI" EXACT []
-is_a: TO:0012001
+is_a: TO:0012001 ! leaf area index
 
 [Term]
 id: CO_321:0000186
@@ -1027,7 +1027,7 @@ name: wheat tillering capacity trait
 def: "An tillering capacity." [CO:curators]
 synonym: "Plant Tillering capacity" EXACT []
 synonym: "TllrCapacity" EXACT []
-is_a: TO:0000329
+is_a: TO:0000329 ! tillering ability
 
 [Term]
 id: CO_321:0000190
@@ -1048,119 +1048,119 @@ id: CO_321:0000193
 name: wheat canopy temperature trait
 def: "The surface temperature of the canopy is related to the amount of transpiration resulting in evaporative cooling." [CO:curators]
 synonym: "CT" EXACT []
-is_a: TO:0000157
+is_a: TO:0000157 ! canopy temperature
 
 [Term]
 id: CO_321:0000194
 name: wheat flag leaf senescence trait
 def: "Flag leaf senescence." [CO:curators]
 synonym: "FLeafSen" EXACT []
-is_a: TO:0000249
+is_a: TO:0000249 ! leaf senescence
 
 [Term]
 id: CO_321:0000195
 name: wheat grain carbon isotope discrimination trait
 def: "Grain carbon isotope discrimination at maturity from drought trials provides genotypic effects most likely to be related to transpiration rate or an integrative measurement of stomatal conductance." [CO:curators]
 synonym: "GCID" EXACT []
-is_a: TO:0000162
+is_a: TO:0001017 ! water use efficiency
 
 [Term]
 id: CO_321:0000196
 name: wheat leaf carbon isotope discrimination trait
 def: "Leaves carbon isotope discrimination can be measured in the leaves during early canopy development in well irrigated trials, in which case genotypic effects will be related mainly to transpiration efficiency." [CO:curators]
 synonym: "LeafCID" EXACT []
-is_a: TO:0000748
+is_a: TO:0001017 ! water use efficiency
 
 [Term]
 id: CO_321:0000197
 name: wheat canopy normalized pheophytinization index trait
 def: "Normalized pheophytinization index can be used to detect chlorophyll degradation." [CO:curators]
 synonym: "NPQI" EXACT []
-is_a: TO:0000839
+is_a: TO:0000237 ! water stress response trait
 
 [Term]
 id: CO_321:0000198
 name: wheat canopy normalized water index 1 trait
 def: "Normalized water index 1 is used track changes in rwc, leaf water potential, stomatal conductance, and foliage minus air temperature differences when plant water stress is well developed (rwc<0.85)" [CO:curators]
 synonym: "NWI1" EXACT []
-is_a: TO:0000839
+is_a: TO:0000237 ! water stress response trait
 
 [Term]
 id: CO_321:0000199
 name: wheat canopy normalized water index 2 trait
 def: "Normalized water index 2 is used track changes in rwc, leaf water potential, stomatal conductance, and foliage minus air temperature differences when plant water stress is well developed (rwc<0.85)" [CO:curators]
 synonym: "NWI2" EXACT []
-is_a: TO:0000839
+is_a: TO:0000237 ! water stress response trait
 
 [Term]
 id: CO_321:0000200
 name: wheat canopy normalized water index 3 trait
 def: "Normalized water index 3 is used track changes in rwc, leaf water potential, stomatal conductance, and foliage minus air temperature differences when plant water stress is well developed (rwc<0.85)" [CO:curators]
 synonym: "NWI3" EXACT []
-is_a: TO:0000839
+is_a: TO:0000237 ! water stress response trait
 
 [Term]
 id: CO_321:0000201
 name: wheat canopy normalized water index 4 trait
 def: "Normalized water index 4 is used track changes in rwc, leaf water potential, stomatal conductance, and foliage minus air temperature differences when plant water stress is well developed (rwc<0.85)" [CO:curators]
 synonym: "NWI4" EXACT []
-is_a: TO:0000839
+is_a: TO:0000237 ! water stress response trait
 
 [Term]
 id: CO_321:0000202
 name: wheat canopy photochemical reflectance index trait
 def: "Photochemical reflectance index is correlated with the de-epoxidation stage of the xanthophylls cycle, with zeaxanthin, and with radiation-use efficiency (filella et al., 1996). higher pri values indicate greater efficiency." [CO:curators]
 synonym: "PRI" EXACT []
-is_a: TO:0000839
+is_a: TO:0000316 ! photosynthetic ability
 
 [Term]
 id: CO_321:0000203
-name: wheat canopy ratio analysis of reflectance spectra  carotenoid trait
+name: wheat canopy ratio analysis of reflectance spectra carotenoid trait
 def: "Rarsc is an estimation of carotenoid content." [CO:curators]
 synonym: "RARSc" EXACT []
-is_a: TO:0000839
+is_a: TO:0000316 ! photosynthetic ability
 
 [Term]
 id: CO_321:0000204
 name: wheat canopy ratio analysis of reflectance spectra chlorophyll  a trait
 def: "Rarsa is an estimation of chlorophyll a content." [CO:curators]
 synonym: "RARSa" EXACT []
-is_a: TO:0000839
+is_a: TO:0000293 ! chlorophyll a content
 
 [Term]
 id: CO_321:0000205
-name: wheat canopy ratio analysis of reflectance spectra chlorophyll  b trait
+name: wheat canopy ratio analysis of reflectance spectra chlorophyll b trait
 def: "Rarsb is an estimation of chlorophyll b content." [CO:curators]
 synonym: "RARSb" EXACT []
-is_a: TO:0000839
+is_a: TO:0000295 ! chlorophyll b content
 
 [Term]
 id: CO_321:0000206
 name: wheat canopy simple ratio trait
 def: "A vegetation index related with canopy structure, light absorption and photosynthetic capacity." [CO:curators]
 synonym: "SR" EXACT []
-is_a: TO:0000839
+is_a: TO:0012001 ! leaf area index
 
 [Term]
 id: CO_321:0000207
 name: wheat stem water soluble carbohydrate trait
 def: "Water soluble carbohydrates accumulate up to and around anthesis and are partitioned to the stem, from where they are later available as a reservoir for remobilization to the developing grains. these reserves are an important source of carbon for grainfilling." [CO:curators]
 synonym: "StmWSC" EXACT []
-is_a: TO:0020088
+is_a: TO:0020088 ! total water soluble content
 
 [Term]
 id: CO_321:0000208
 name: wheat canopy structural independent pigment index trait
 def: "Structural independent pigment index uses wavelengths showing the best semi-empirical estimation of the carotenoid chlorophyll a ratio (car:chla ratio), and its formulation minimizes the disrupting effects of leaf surface and mesophyll structure." [CO:curators]
 synonym: "SIPI" EXACT []
-is_a: TO:0000839
+is_a: TO:0012001 ! leaf area index
 
 [Term]
 id: CO_321:0000209
 name: wheat canopy water index trait
 def: "Water index use reflectance at 970 nm as a wavelength sensitive to water content, while reflectance at 900 nm is taken as a reference which is similarly affected by canopy and leaf structures but with null absorption by water." [CO:curators]
 synonym: "WI" EXACT []
-is_a: TO:0000839
+is_a: TO:0012001 ! leaf area index
 
 [Term]
 id: CO_321:0000210
@@ -1198,7 +1198,7 @@ id: CO_321:0000214
 name: wheat flour color trait
 def: "Flour color." [CO:curators]
 synonym: "FlrCol" EXACT []
-is_a: TO:0000651
+is_a: TO:0000651 ! flour color
 
 [Term]
 id: CO_321:0000221
@@ -1206,28 +1206,28 @@ name: wheat grain end use type trait
 def: "Bread wheat end use quality is classified according several quality attributes." [CO:curators]
 synonym: "Grain use type" EXACT []
 synonym: "UseTyp" EXACT []
-is_a: TO:0000162
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_321:0000222
 name: wheat grain iron content trait
 def: "Content of iron in grain." [CO:curators]
 synonym: "GIron" EXACT []
-is_a: TO:0000162
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_321:0000223
 name: wheat grain phosphorous content trait
 def: "Content of phosphorus in grain." [CO:curators]
 synonym: "GPhos" EXACT []
-is_a: TO:0000162
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_321:0000224
 name: wheat grain zinc content trait
 def: "Content of zinc in grain." [CO:curators]
 synonym: "GZinc" EXACT []
-is_a: TO:0000162
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_321:0000225
@@ -1241,7 +1241,7 @@ id: CO_321:0000227
 name: wheat whole meal flour color trait
 def: "The whole meal flour color." [CO:curators]
 synonym: "WMFlrCol" EXACT []
-is_a: TO:0000162
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_321:0000228
@@ -1262,7 +1262,7 @@ id: CO_321:0000393
 name: wheat in-season aboveground biomass trait
 def: "All above-ground biomass at any developmental stage and/or at regular intervals from the emergence to physiological maturity." [CO:curators]
 synonym: "ISBM" EXACT []
-is_a: TO:0000327
+is_a: TO:0000327 !shoot system yield trait
 
 [Term]
 id: CO_321:0000395
@@ -1284,21 +1284,21 @@ id: CO_321:0000407
 name: wheat crop growth rate trait
 def: "It is the rate of dry matter production per unit area." [CO:curators]
 synonym: "CropGrwRate" EXACT []
-is_a: TO:0000515
+is_a: TO:0000515 ! relative growth rate
 
 [Term]
 id: CO_321:0000642
 name: wheat grain retention trait
 def: "Proportion of big grain remaining above the sieve." [CO:curators]
 synonym: "GReten" EXACT []
-is_a: TO:0000397
+is_a: TO:0000397 ! grain size
 
 [Term]
 id: CO_321:0000643
 name: wheat grain screenings trait
 def: "Proportion of small grain passing through a sieve." [CO:curators]
 synonym: "GScreen" EXACT []
-is_a: TO:0000397
+is_a: TO:0000397 ! grain size
 
 [Term]
 id: CO_321:0000644
@@ -1319,14 +1319,14 @@ id: CO_321:0000647
 name: wheat barley leaf rust severity trait
 def: "Barley leaf rust severity in the plants caused by the agent Puccinia hordei." [CO:curators, NCBITaxon:27345]
 synonym: "PhordSev" EXACT []
-is_a: TO:0020056
+is_a: TO:0020056 ! barley leaf rust disease response
 
 [Term]
 id: CO_321:0000649
 name: wheat common root rot incidence trait
 def: "Common root rot incidence in the plants caused by the agents Cochliobolus sativus, Fusarium spp., and Pythium species." [CO:curators]
 synonym: "RootRot" EXACT []
-is_a: TO:0020059
+is_a: TO:0020059 !wheat common root rot resistance
 
 [Term]
 id: CO_321:0000650
@@ -1341,14 +1341,14 @@ id: CO_321:0000651
 name: wheat Fusarium head blight audpc trait
 def: "Fusarium head blight (scab) incidence/severity/response in the plants caused by the agent Fusarium spp." [CO:curators]
 synonym: "FHBAUDPC" EXACT []
-is_a: TO:0000663
+is_a: TO:0000663 ! wheat fusarium head blight response
 
 [Term]
 id: CO_321:0000652
 name: wheat fusarium head blight don content trait
 def: "Content of deoxynivalenol or don (vomitoxin) that is often associated with fhb (fusarium spp.) infected grains." [CO:curators]
 synonym: "FHBDON" EXACT []
-is_a: TO:0000663
+is_a: TO:0000663 ! wheat fusarium head blight response
 
 [Term]
 id: CO_321:0000653
@@ -1363,14 +1363,14 @@ id: CO_321:0000654
 name: wheat fusarium head blight spike weight trait
 def: "Fusarium head blight (scab) incidence/severity/response in the plants caused by the agent fusarium spp." [CO:curators]
 synonym: "FHBSpkWt" EXACT []
-is_a: TO:0000663
+is_a: TO:0000663 ! wheat fusarium head blight response
 
 [Term]
 id: CO_321:0000655
 name: wheat foliar disease development trait
 def: "The plant damage caused by foliar diseases." [CO:curators]
 synonym: "FolDis" EXACT []
-is_a: TO:0000112
+is_a: TO:0000112 ! microbial disease response
 
 [Term]
 id: CO_321:0000656
@@ -1386,28 +1386,28 @@ name: wheat stem strength trait
 def: "Strength of the culm." [CO:curators]
 synonym: "StmStrength" EXACT []
 synonym: "Straw strength, Culm strength" EXACT []
-is_a: TO:0000051
+is_a: TO:0000051 ! stem strength
 
 [Term]
 id: CO_321:0000658
 name: wheat stem wall thickness trait
 def: "Stem wall thickness." [CO:curators]
 synonym: "StmWallThk" EXACT []
-is_a: TO:0000361
+is_a: TO:0000361 ! stem morphology trait
 
 [Term]
 id: CO_321:0000659
 name: wheat spike threshability trait
 def: "Threshability (ease to thresh) is a score where several spike-related traits such as rachis fragility (brittle or non-brittle rachis) and glume tenacity (hulled or free-threshing)." [CO:curators]
 synonym: "Threshblty" EXACT []
-is_a: TO:0001110
+is_a: TO:0001110 ! spike inflorescence morphology trait
 
 [Term]
 id: CO_321:0000664
 name: wheat grain filling period trait
 def: "Time period between anthesis (ds65) and maturity (ds87)." [CO:curators]
 synonym: "GFP" EXACT []
-is_a: TO:0002661
+is_a: TO:0002661 ! seed maturation
 
 [Term]
 id: CO_321:0000665
@@ -1437,28 +1437,28 @@ name: wheat plant photoperiod response trait
 def: "Extent to which long days hasten flowering." [CO:curators]
 synonym: "Daylength sensitivity" EXACT []
 synonym: "PhotopResp" EXACT []
-is_a: TO:0000075
+is_a: TO:0000075 ! light sensitivity
 
 [Term]
 id: CO_321:0000673
 name: wheat flour yellowness trait
 def: "Flour yellowness." [CO:curators]
 synonym: "FlrYellCls" EXACT []
-is_a: TO:0000162
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_321:0000674
 name: wheat semolina yellow pigment content trait
 def: "Semolina yellow pigment content due to the presence of xanthophyll and other related compounds." [CO:curators]
 synonym: "SemoYellPig" EXACT []
-is_a: TO:0000162
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_321:0000677
 name: wheat whole meal flour yellow pigment content trait
 def: "Whole meal flour yellow pigment content due to the presence of xanthophyll and other related compounds." [CO:curators]
 synonym: "WMFlrYellPig" EXACT []
-is_a: TO:0000162
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_321:0000678
@@ -1494,28 +1494,28 @@ id: CO_321:0000682
 name: wheat root disease development trait
 def: "The plant damage caused by root diseases." [CO:curators]
 synonym: "RootDis" EXACT []
-is_a: TO:0000112
+is_a: TO:0000112 ! microbial disease response
 
 [Term]
 id: CO_321:0000683
 name: wheat sharp eyespot incidence trait
 def: "Sharp eyespot incidence in the plants caused by the agent Rhizoctonia cerealis (Ceratobasidium cereale)." [CO:curators, NCBITaxon:76351]
 synonym: "RcereInc" EXACT []
-is_a: TO:0001146
+is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_321:0000684
 name: wheat spike disease development trait
 def: "The plant damage caused by spike diseases." [CO:curators]
 synonym: "SpkDis" EXACT []
-is_a: TO:0000112
+is_a: TO:0000112 ! microbial disease response
 
 [Term]
 id: CO_321:0000685
 name: wheat worm damage trait
 def: "The plant damage caused by worms." [CO:curators]
 synonym: "WormDmg" EXACT []
-is_a: TO:0000054
+is_a: TO:0000054 ! animal damage response trait
 
 [Term]
 id: CO_321:0000686
@@ -1529,7 +1529,7 @@ id: CO_321:0000687
 name: wheat leaf rust notes trait
 def: "Leaf rust (brown rust) incidence/severity/response in the plants caused by the agent Puccinia recondita." [CO:curators, NCBITaxon:208348]
 synonym: "PrecoNote" EXACT []
-is_a: TO:0020057
+is_a: TO:0020057 ! wheat leaf rust disease resistance
 
 [Term]
 id: CO_321:0000688
@@ -1545,7 +1545,7 @@ name: wheat stripe rust coefficient of infection trait
 def: "Stripe rust (yellow rust) incidence/severity/response in the plants caused by the agent Puccinia striiformis f. sp. tritici." [CO:curators, NCBITaxon:168172]
 synonym: "PstriCI" EXACT []
 synonym: "Stripe rust CI, Stripe rust" EXACT []
-is_a: TO:0020055
+is_a: TO:0020055 ! wheat stripe rust disease resistance
 
 [Term]
 id: CO_321:0000692
@@ -1553,21 +1553,21 @@ name: wheat barley leaf rust coefficient of infection trait
 def: "Barley leaf rust incidence/severity/response in the plants caused by the agent puccinia hordei." [CO:curators]
 synonym: "Barley leaf rust CI" EXACT []
 synonym: "PhordCI" EXACT []
-is_a: TO:0020055
+is_a: TO:0020055 ! wheat stripe rust disease resistance
 
 [Term]
 id: CO_321:0000710
 name: wheat barley scald severity trait
 def: "Barley scald severity in the plants caused by the agent Rhynchosporium secalis." [CO:curators, NCBITaxon:38038]
 synonym: "RSecaSev" EXACT []
-is_a: TO:0020051
+is_a: TO:0020051 ! barley leaf scald disease resistance
 
 [Term]
 id: CO_321:0000711
 name: wheat fusarium head blight spikelet incidence trait
 def: "Fusarium head blight (scab) spikelets incidence caused by the agent Fusarium spp." [CO:curators]
 synonym: "FHBSplInc" EXACT []
-is_a: TO:0000663
+is_a: TO:0000663 ! wheat fusarium head blight response
 
 [Term]
 id: CO_321:0000714
@@ -1611,7 +1611,7 @@ id: CO_321:0000723
 name: wheat spot blotch severity trait
 def: "Spot blotch severity in the plants caused by the agent Cochliobolus sativus (Helminthosporium sativum)." [CO:curators, NCBITaxon:45130]
 synonym: "HsatiLSev" EXACT []
-is_a: TO:0020053
+is_a: TO:0020053 ! wheat spot blotch disease response
 
 [Term]
 id: CO_321:0000897
@@ -1619,35 +1619,35 @@ name: wheat leaf rust coefficient of infection trait
 def: "Leaf rust (brown rust) incidence/severity/response in the plants caused by the agent puccinia recondita." [CO:curators, NCBITaxon:208348]
 synonym: "Leaf rust CI" EXACT []
 synonym: "PrecoCI" EXACT []
-is_a: TO:0020057
+is_a: TO:0020057 ! wheat leaf rust disease resistance
 
 [Term]
 id: CO_321:0000898
 name: wheat leaf rust incidence trait
 def: "Leaf rust (brown rust) incidence in the plants caused by the agent puccinia recondita." [CO:curators, NCBITaxon:208348]
 synonym: "PrecoInc" EXACT []
-is_a: TO:0020057
+is_a: TO:0020057 ! wheat leaf rust disease resistance
 
 [Term]
 id: CO_321:0000899
 name: wheat leaf rust legacy trait
 def: "Leaf rust (brown rust) incidence/severity/response in the plants caused by the agent puccinia recondita." [CO:curators, NCBITaxon:208348]
 synonym: "PrecoLegacy" EXACT []
-is_a: TO:0020057
+is_a: TO:0020057 ! wheat leaf rust disease resistance
 
 [Term]
 id: CO_321:0000901
 name: wheat leaf rust seedling response trait
 def: "Leaf rust (brown rust) response in the plants caused by the agent Puccinia recondita." [CO:curators, NCBITaxon:208348]
 synonym: "PrecoSdlgResp" EXACT []
-is_a: TO:0020057
+is_a: TO:0020057 ! wheat leaf rust disease resistance
 
 [Term]
 id: CO_321:0000902
 name: wheat leaf rust severity trait
 def: "Leaf rust (brown rust) severity in the plants caused by the agent Puccinia recondita (Puccinia triticina)." [CO:curators, NCBITaxon:208348]
 synonym: "PrecoSev" EXACT []
-is_a: TO:0020057
+is_a: TO:0020057 ! wheat leaf rust disease resistance
 
 [Term]
 id: CO_321:0000903
@@ -1678,14 +1678,14 @@ name: wheat stripe rust incidence trait
 def: "Stripe rust (yellow rust) incidence in the plants caused by the agent Puccinia striiformis f. sp. tritici." [CO:curators, NCBITaxon:168172]
 synonym: "PstriInc" EXACT []
 synonym: "Stripe rust" EXACT []
-is_a: TO:0020055
+is_a: TO:0020055 ! wheat stripe rust disease resistance
 
 [Term]
 id: CO_321:0000907
 name: wheat stripe rust notes trait
 def: "Stripe rust (yellow rust) incidence/severity/response in the plants caused by the agent Puccinia striiformis f. sp. tritici." [CO:curators, NCBITaxon:168172]
 synonym: "PstriNote" EXACT []
-is_a: TO:0020055
+is_a: TO:0020055 ! wheat stripe rust disease resistance
 
 [Term]
 id: CO_321:0000908
@@ -1693,7 +1693,7 @@ name: wheat stripe rust severity trait
 def: "Stripe rust (yellow rust) severity in the plants caused by the agent Puccinia striiformis f. sp. tritici." [CO:curators, NCBITaxon:168172]
 synonym: "PstriSev" EXACT []
 synonym: "Stripe rust" EXACT []
-is_a: TO:0020055
+is_a: TO:0020055 ! wheat stripe rust disease resistance
 
 [Term]
 id: CO_321:0000909
@@ -1701,7 +1701,7 @@ name: wheat stripe rust spike severity trait
 def: "Stripe rust (yellow rust) severity in the plants caused by the agent Puccinia striiformis f. sp. tritici." [CO:curatorsNCBITaxon\:168172]
 synonym: "PstriSpkSev" EXACT []
 synonym: "Stripe rust" EXACT []
-is_a: TO:0020055
+is_a: TO:0020055 ! wheat stripe rust disease resistance
 
 [Term]
 id: CO_321:0000910
@@ -1724,14 +1724,14 @@ id: CO_321:0000912
 name: wheat spot blotch incidence trait
 def: "Spot blotch incidence in the plants caused by the agent Cochliobolus sativus (Helminthosporium sativum)." [CO:curators, NCBITaxon:45130]
 synonym: "HsatiLInc" EXACT []
-is_a: TO:0020053
+is_a: TO:0020053 ! wheat spot blotch disease response
 
 [Term]
 id: CO_321:0000913
 name: wheat spot blotch legacy trait
 def: "Spot blotch incidence/severity/response in the plants caused by the agent Cochliobolus sativus (Helminthosporium sativum)." [CO:curators, NCBITaxon:45130]
 synonym: "HsatiLLegacy" EXACT []
-is_a: TO:0020053
+is_a: TO:0020053 ! wheat spot blotch disease response
 
 [Term]
 id: CO_321:0000914
@@ -1803,42 +1803,42 @@ id: CO_321:0000924
 name: wheat Fusarium graminearum incidence trait
 def: "Fusarium graminearum incidence in the plants." [CO:curators, NCBITaxon:5518]
 synonym: "FgramInc" EXACT []
-is_a: TO:0000663
+is_a: TO:0000663 ! wheat fusarium head blight response
 
 [Term]
 id: CO_321:0000925
 name: wheat Fusarium graminearum plant response trait
 def: "Fusarium graminearum response in the plants." [CO:curators, NCBITaxon:5518]
 synonym: "FgramResp" EXACT []
-is_a: TO:0000663
+is_a: TO:0000663 ! wheat fusarium head blight response
 
 [Term]
 id: CO_321:0000926
 name: wheat Fusarium graminearum severity trait
 def: "Fusarium graminearum severity in the plants." [CO:curators, NCBITaxon:5518]
 synonym: "FgramSev" EXACT []
-is_a: TO:0000663
+is_a: TO:0000663 ! wheat fusarium head blight response
 
 [Term]
 id: CO_321:0000927
 name: wheat Fusarium head blight grain incidence trait
 def: "Fusarium head blight (scab) incidence in the plants caused by the agent Fusarium spp." [CO:curators, NCBITaxon:5518]
 synonym: "FHBGInc" EXACT []
-is_a: TO:0000663
+is_a: TO:0000663 ! wheat fusarium head blight response
 
 [Term]
 id: CO_321:0000928
 name: wheat Fusarium head blight spike incidence trait
 def: "Fusarium head blight (scab) incidence in spikes caused by the agent Fusarium spp." [CO:curators, NCBITaxon:5518]
 synonym: "FHBSpkInc" EXACT []
-is_a: TO:0000663
+is_a: TO:0000663 ! wheat fusarium head blight response
 
 [Term]
 id: CO_321:0000929
 name: wheat Fusarium head blight spike response trait
 def: "Fusarium head blight (scab) spike response caused by the agent Fusarium spp." [CO:curators, NCBITaxon:5518]
 synonym: "FHBSpkResp" EXACT []
-is_a: TO:0000663
+is_a: TO:0000663 ! wheat fusarium head blight response
 
 [Term]
 id: CO_321:0000930
@@ -1855,7 +1855,7 @@ def: "Wheat bacterial leaf blight incidence in the plants caused by the agent Ps
 comment: Symptoms: small (less than 0.04 inches) water-soaked lesions expand and eventually coalesce. initial lesions become necrotic and turn from gray-green to tan-white. entire leaves may become necrotic, but heads and glumes are typically symptomless.
 synonym: "BLB, PSYRI" EXACT []
 synonym: "BLBInc" EXACT []
-is_a: TO:0000770
+is_a: TO:0000770 ! bacterial blight disease response
 
 [Term]
 id: CO_321:0000932
@@ -1864,7 +1864,7 @@ def: "Wheat bacterial leaf blight severity in the plants caused by the agent Pse
 comment: Symptoms: small (less than 0.04 inches) water-soaked lesions expand and eventually coalesce. initial lesions become necrotic and turn from gray-green to tan-white. entire leaves may become necrotic, but heads and glumes are typically symptomless.
 synonym: "BLB, PSYRI" EXACT []
 synonym: "BLBSev" EXACT []
-is_a: TO:0000770
+is_a: TO:0000770 ! bacterial blight disease response
 
 [Term]
 id: CO_321:0000933
@@ -1878,35 +1878,35 @@ id: CO_321:0000935
 name: wheat barley leaf rust incidence trait
 def: "Barley leaf rust incidence in the plants caused by the agent puccinia hordei." [CO:curators]
 synonym: "PhordInc" EXACT []
-is_a: TO:0020056
+is_a: TO:0020056 ! barley leaf rust disease response
 
 [Term]
 id: CO_321:0000936
 name: wheat barley scald incidence trait
 def: "Barley scald incidence in the plants caused by the agent Rhynchosporium secalis." [CO:curators, NCBITaxon:38038]
 synonym: "RsecaInc" EXACT []
-is_a: TO:0020051
+is_a: TO:0020051 ! barley leaf scald disease resistance
 
 [Term]
 id: CO_321:0000937
 name: wheat powdery mildew incidence trait
 def: "Powdery mildew incidence in the plants caused by the agent Blumeria graminis (Erysiphe graminis) f. sp. tritici." [CO:curators, NCBITaxon:34373]
 synonym: "EgramInc" EXACT []
-is_a: TO:0020061
+is_a: TO:0020061 ! wheat powdery mildew disease response
 
 [Term]
 id: CO_321:0000938
 name: wheat powdery mildew legacy trait
 def: "Powdery mildew incidence/severity/response in the plants caused by the agent Blumeria graminis (Erysiphe graminis) f. sp. tritici." [CO:curators, NCBITaxon:34373]
 synonym: "EgramLegacy" EXACT []
-is_a: TO:0020061
+is_a: TO:0020061 ! wheat powdery mildew disease response
 
 [Term]
 id: CO_321:0000939
 name: wheat powdery mildew severity trait
 def: "Powdery mildew severity in the plants caused by the agent Blumeria graminis (Erysiphe graminis) f. sp. tritici." [CO:curators, NCBITaxon:34373]
 synonym: "EgramSev" EXACT []
-is_a: TO:0020061
+is_a: TO:0020061 ! wheat powdery mildew disease response
 
 [Term]
 id: CO_321:0000940
@@ -1921,7 +1921,7 @@ name: wheat bacterial leaf streak severity trait
 def: "Bacterial leaf streak severity in the plants caused by the agent xanthomonas translucens. the disease, called black chaff when on the glumes." [CO:curators]
 synonym: "BLS, black chaff" EXACT []
 synonym: "BLSSev" EXACT []
-is_a: TO:0020066
+is_a: TO:0020066 ! barley leaf streak resistance
 
 [Term]
 id: CO_321:0500001
@@ -2040,21 +2040,21 @@ id: CO_321:0500019
 name: wheat fusarium head blight disease index trait
 def: "Fusarium head blight (scab) disease index. Index calculated as the disease incidence x severity/100, where incidence= % infected spikes in the sample (non-zero spikes/total spikes evaluated x 100), and severity= % of infected spikelets per spike." [CO:curators, NCBITaxon:5518]
 synonym: "FHBDI" EXACT []
-is_a: TO:0000663
+is_a: TO:0000663 ! wheat fusarium head blight response
 
 [Term]
 id: CO_321:0500020
 name: wheat fusarium head blight diseased florets trait
 def: "Percentage of florets infected with Fusarium head blight (FHB) following point inoculation." [CO:curators, NCBITaxon:5518]
 synonym: "FHBFlorets" EXACT []
-is_a: TO:0000663
+is_a: TO:0000663 ! wheat fusarium head blight response
 
 [Term]
 id: CO_321:0500021
 name: wheat fusarium head blight isk index trait
 def: "Fusarium head blight (scab) ISK Index." [CO:curators, NCBITaxon:5518]
 synonym: "FHBISK" EXACT []
-is_a: TO:0000663
+is_a: TO:0000663 ! wheat fusarium head blight response
 
 [Term]
 id: CO_321:0500022
@@ -2182,7 +2182,7 @@ id: CO_321:0500039
 name: wheat lactic acid src trait
 def: "Lactic acid solvent retention capacity" [CO:curators]
 synonym: "LASRC" EXACT []
-is_a: TO:0000162
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_321:0500040
@@ -2196,7 +2196,7 @@ id: CO_321:0500041
 name: wheat milling quality trait
 def: "Flour yield of a genotype relative to the standard variety used for that nursery" [CO:curators]
 synonym: "MQ" EXACT []
-is_a: TO:0000162
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_321:0500043
@@ -2217,7 +2217,7 @@ id: CO_321:0500045
 name: wheat powdery mildew plant response trait
 def: "Powdery mildew plant response caused by the agent Blumeria graminis (Erysiphe graminis) f. sp. tritici." [CO:curators, NCBITaxon:34373]
 synonym: "EgramResp" EXACT []
-is_a: TO:0020061
+is_a: TO:0020061 ! wheat powdery mildew disease response
 
 [Term]
 id: CO_321:0500046
@@ -2259,14 +2259,14 @@ id: CO_321:0500051
 name: wheat spike color trait
 def: "Color of spike." [CO:curators]
 synonym: "SpkCol" EXACT []
-is_a: TO:0001110
+is_a: TO:0001110 ! spike inflorescence morphology trait
 
 [Term]
 id: CO_321:0500052
 name: wheat spike glaucousness trait
 def: "Glaucousness on spike" [CO:curators]
 synonym: "SpkGlau" EXACT []
-is_a: TO:0001110
+is_a: TO:0001110 ! spike inflorescence morphology trait
 
 [Term]
 id: CO_321:0500053
@@ -2287,7 +2287,7 @@ id: CO_321:0500055
 name: wheat sucrose src trait
 def: "Sucrose solvent retention capacity (SRC) is the best predictor of cookie quality." [CO:curators]
 synonym: "SSRC" EXACT []
-is_a: TO:0000162
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_321:0500056
