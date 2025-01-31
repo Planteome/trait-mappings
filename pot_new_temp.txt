@@ -1,0 +1,415 @@
+[Term]
+id: CO_330:0000700
+name: potato shoot system dry matter content trait
+def: "The areal part dry matter content." [CO:curators]
+synonym: "ArplDm" EXACT []
+is_a: TO:0000457 ! biomass yield
+
+[Term]
+id: CO_330:0000701
+name: potato biomass dry matter content trait
+def: "The dry matter content of the entire plant." [CO:curators]
+synonym: "TBDMC" EXACT []
+is_a: TO:0000457 ! biomass yield
+
+
+[Term]
+id: CO_330:0000702
+name: potato biomass weight trait
+def: "The weight of the biomass of the entire plant." [CO:curators]
+synonym: "BmsWg" EXACT []
+is_a: TO:0000457 ! biomass yield
+
+
+[Term]
+id: CO_330:0000703
+name: potato canopy cover trait
+def: "The proportion of the plant that extends into the soil." [CO:curators]
+synonym: "CnpCov" EXACT []
+
+
+[Term]
+id: CO_330:0000704
+name: potato canopy reflectance trait
+def: "Reflectance indices are calculated from the visible and near-infrared light reflected by vegetation to estimate biomass and changes in leaf water content.." [CO:curators]
+synonym: "CnpRfl" EXACT []
+
+
+[Term]
+id: CO_330:0000705
+name: potato canopy temperature trait
+def: "The surface temperature of the canopy is related to the amount of transpiration resulting in evaporative cooling.." [CO:curators]
+synonym: "CnpTem" EXACT []
+
+
+[Term]
+id: CO_330:0000706
+name: potato canopy temperature depression trait
+def: "Difference between ambient temperature and canopy temperature.." [CO:curators]
+synonym: "CnpTemDp" EXACT []
+
+
+[Term]
+id: CO_330:0000707
+name: potato french fries texture trait
+def: "The texture of the french fries." [CO:curators]
+synonym: "FfrTex" EXACT []
+
+
+[Term]
+id: CO_330:0000708
+name: potato leaf chlorophyll content trait
+def: "The chlorophyll content of the leaf." [CO:curators]
+synonym: "LfChC" EXACT []
+
+
+[Term]
+id: CO_330:0000709
+name: potato leaflet area trait
+def: "The surface area of the leaflet." [CO:curators]
+synonym: "LfletAr" EXACT []
+
+
+
+[Term]
+id: CO_330:0000710
+name: potato plant productivity trait
+def: "The productivity of the plant." [CO:curators]
+synonym: "PrPlant" EXACT []
+
+
+[Term]
+id: CO_330:0000711
+name: potato root system dry matter content trait
+def: "The root system dry matter content." [CO:curators]
+synonym: "RsyDm" EXACT []
+
+
+
+[Term]
+id: CO_330:0000733
+name: potato harvest index trait
+def: "A ratio of yield and biomass that has been produced." [CO:curators]
+synonym: "PltHvsWg" EXACT []
+
+
+[Term]
+id: CO_330:0000739
+name: potato relative water content trait
+def: "The relative water content of the leaf." [CO:curators]
+synonym: "RelWC" EXACT []
+
+
+[Term]
+id: CO_330:0000756
+name: potato plant height trait
+def: "The plant height of the main stem." [CO:curators]
+synonym: "PltHeg" EXACT []
+
+
+[Term]
+id: CO_330:0000759
+name: potato root diameter trait
+def: "The diameter of the root." [CO:curators]
+synonym: "RDm" EXACT []
+
+
+[Term]
+id: CO_330:0000762
+name: potato root length trait
+def: "The length of the root." [CO:curators]
+synonym: "RtLgt" EXACT []
+
+
+[Term]
+id: CO_330:0000767 trait
+name: potato drought stress intensity
+def: "The grade of stress of the plant." [CO:curators]
+synonym: "SI" EXACT []
+
+
+[Term]
+id: CO_330:0000770
+name: potato degree of canopy wilting trait
+def: "The wilting of the canopy." [CO:curators]
+synonym: "CnpWil" EXACT []
+
+
+[Term]
+id: CO_330:0000774
+name: potato drought susceptibility index trait
+def: "The drought susceptibility of the plant." [CO:curators]
+synonym: "DSI" EXACT []
+
+
+[Term]
+id: CO_330:0000777
+name: potato drought tolerance index trait
+def: "The drought tolerance of the plant." [CO:curators]
+synonym: "DrTolind" EXACT []
+
+
+[Term]
+id: CO_330:0000782
+name: potato water use efficiency trait
+def: "The water use efficiency of the plant." [CO:curators]
+synonym: "WUE" EXACT []
+
+
+[Term]
+id: CO_330:0000787
+name: potato french fries appearance
+def: "The external appearance of the french fries." [CO:curators]
+synonym: "FfrApp" EXACT []
+
+
+[Term]
+id: CO_330:0000815
+name: potato leaflet turgid weight trait
+def: "The weight of the leaflet." [CO:curators]
+synonym: "LfletTgw" EXACT []
+
+
+[Term]
+id: CO_330:0000819
+name: potato plant disease incidence trait
+def: "Presence of any disease symptoms in the plant." [CO:curators]
+synonym: "PlDsIn" EXACT []
+
+
+[Term]
+id: CO_330:0000823
+name: potato plant evapotranspiration trait
+def: "The evapotranspiration of the plant." [CO:curators]
+synonym: "ET" EXACT []
+
+
+[Term]
+id: CO_330:0000831
+name: potato root density trait
+def: "The density of the root system." [CO:curators]
+synonym: "RtDns" EXACT []
+
+
+[Term]
+id: CO_330:0000844
+name: potato stem diameter trait
+def: "The diameter of the stem of the plant." [CO:curators]
+synonym: "StmDim" EXACT []
+
+
+[Term]
+id: CO_330:0000848
+name: potato stem number trait
+def: "The number of the stem of the plant." [CO:curators]
+synonym: "StmNum" EXACT []
+
+[Term]
+id: CO_330:0000869
+name: potato Tuber overall quality trait
+def: "Overall quality of the tuber." [CO:curators]
+synonym: "TbQual" EXACT []
+
+[Term]
+id: CO_330:0000873
+name: potato Plant pest incidence trait
+def: "Presence of any pest symptoms in the plant." [CO:curators]
+synonym: "PlPtIn" EXACT []
+
+
+[Term]
+id: CO_330:0000875
+name: potato Maturity time trait
+def: "Time until the plant is mature." [CO:curators]
+synonym: "MatTm" EXACT []
+is_a: CO_330:1000009 ! Physiological trait
+
+[Term]
+id: CO_330:0000877
+name: potato Marketable quality after harvest trait
+def: "The marketable qualities of tubers after harvest." [CO:curators]
+synonym: "TbMkquH" EXACT []
+
+
+[Term]
+id: CO_330:0000879
+name: potato Marketable quality after storage trait
+
+def: "The marketable qualities of tubers after storage." [CO:curators]
+synonym: "TbMkquS" EXACT []
+
+[Term]
+id: CO_330:0000903
+name: potato boiled potato moisture release trait
+def: "Textural attribute related to release of moisture from a product when pressure is applied." [CO:curators]
+synonym: "BoiPotatRelMoistinHd" EXACT []
+
+
+[Term]
+id: CO_330:0000904
+name: potato boiled potato bitter aftertaste trait
+def: "Gustatory sensation that remains after swallowing product associated with the taste produced by dilute aqueous solutions of substances such as quinine." [CO:curators]
+synonym: "BoiPotatBittAftrTast" EXACT []
+is_a: CO_330:1000020 ! After taste
+
+[Term]
+id: CO_330:0000905
+name: potato boiled potato crunchiness trait
+def: "Attribute of product to produce low pitched sound during rupturing." [CO:curators]
+synonym: "BoiPotatCrunchMout" EXACT []
+
+
+[Term]
+id: CO_330:0000906
+name: potato boiled potato translucency trait
+def: "Attribute of object that allows light to pass through it but not images to be distinguished." [CO:curators]
+synonym: "BoiPotatSurfTransl" EXACT []
+
+
+[Term]
+id: CO_330:0000907
+name: potato boiled potato cohesiveness (moldability) trait
+def: "Textural attribute relating to degree to which a substance can be deformed before it breaks." [CO:curators]
+synonym: "BoiPotatMoldIInHd" EXACT []
+
+
+[Term]
+id: CO_330:0000908
+name: potato boiled potato cooked carrot aroma trait
+def: "Distinct aroma of cooked carrot." [CO:curators]
+synonym: "BoiPotatCarrArom" EXACT []
+
+
+[Term]
+id: CO_330:0000909
+name: potato boiled potato fracturability in mouth trait
+def: "Mechanical textural attribute related to the  force necessary to break into crumbs or pieces." [CO:curators]
+synonym: "BoiPotatFractMout" EXACT []
+
+
+[Term]
+id: CO_330:0000910
+name: potato boiled potato green vegetable aroma trait
+def: "Distinct aroma of vegetables such as amaranth and beet root." [CO:curators]
+synonym: "BoiPotatVegArom" EXACT []
+
+
+[Term]
+id: CO_330:0000911
+name: potato boiled potato hardness in mouth trait
+def: "Mechanical textural attribute related to the  force necessary to achieve a certain deformation." [CO:curators]
+synonym: "BoiPotatHardMout" EXACT []
+
+
+[Term]
+id: CO_330:0000912
+name: potato boiled potato homogeneity of surface color trait
+def: "Evenness of the distribution of the colour across entire sample surface." [CO:curators]
+synonym: "BoiPotatColHom" EXACT []
+
+
+[Term]
+id: CO_330:0000913
+name: potato boiled potato mealiness in mouth trait
+def: "An attribute associated with gumminess characterized by powdery mouthfeel." [CO:curators]
+synonym: "BoiPotatMealnMout" EXACT []
+
+
+[Term]
+id: CO_330:0000914
+name: potato boiled potato moisture (in the mass) trait
+def: "Textural attribute which describes amount of water present in the sample mass." [CO:curators]
+synonym: "BoiPotatMassMoistMout" EXACT []
+
+
+[Term]
+id: CO_330:0000915
+name: potato boiled potato cooked potato odour trait
+def: "Odour of cooked potato." [CO:curators]
+synonym: "BoiPotatOdPotat" EXACT []
+
+
+[Term]
+id: CO_330:0000916
+name: potato boiled potato boiled carrot odour trait
+def: "Odour of boiled carrot." [CO:curators]
+synonym: "BoiPotatOdCarr" EXACT []
+
+
+[Term]
+id: CO_330:0000917
+name: potato boiled potato green vegetable odour trait
+def: "Odour of cooked amaranth and beet root." [CO:curators]
+synonym: "BoiPotatOdRtCr" EXACT []
+
+
+[Term]
+id: CO_330:0000918
+name: potato boiled potato cooked potato aroma trait
+def: "Distinct aroma of cooked potato." [CO:curators]
+synonym: "BoiPotatPotatArom" EXACT []
+
+
+[Term]
+id: CO_330:0000919
+name: potato boiled potato root tuber aroma trait
+def: "Distinct aroma of root drops such as cassava, sweet potato and climbing yam (balugu)." [CO:curators]
+synonym: "BoiPotatRtTubArom" EXACT []
+
+[Term]
+id: CO_330:0000920
+name: potato boiled potato root vegetable odour trait
+def: "Odor of root crops such as sweetpotato, cassava, and balugu (climbing yam)." [CO:curators]
+synonym: "BoiPotatOdVegroot" EXACT []
+
+[Term]
+id: CO_330:0000921
+name: potato boiled potato smoothness in mouth trait
+def: "Geometrical attribute associated with the overall degree of absence of particles within sample." [CO:curators]
+synonym: "BoiPotatSmoothMout" EXACT []
+
+
+[Term]
+id: CO_330:0000922
+name: potato boiled potato texture uniformity in mouth trait
+def: "Uniformity of the texture in mouth." [CO:curators]
+synonym: "BoiPotatTextUnif" EXACT []
+
+[Term]
+id: CO_330:0000923
+name: potato boiled potato yellow colour trait
+def: "Description of predominant color of potato and its relative intensity." [CO:curators]
+synonym: "BoiPotatYelCol" EXACT []
+
+
+[Term]
+id: CO_330:0000924
+name: potato boiled potato chalkiness of peeled surface colour trait
+def: "Chalkiness of the peeled surface colour." [CO:curators]
+synonym: "BoiPotSurfChalk" EXACT []
+
+[Term]
+id: CO_330:0000925
+name: potato boiled potato stickiness in hand trait
+def: "Textural attribute relating to degree to which a substance can be adhere to surfaces of different material." [CO:curators]
+synonym: "BoiPotStickInHd" EXACT []
+
+[Term]
+id: CO_330:0000967
+name: potato Common scab resistance trait
+def: "The tuber resistance to common scab." [CO:curators]
+synonym: "RCs" EXACT []
+
+
+[Term]
+id: CO_330:0000968
+name: potato Powdery scab root resistance trait
+def: "Root resistance to powdery scab." [CO:curators]
+synonym: "RRPs" EXACT []
+
+
+[Term]
+id: CO_330:0000969
+name: potato Powdery scab tuber resistance trait
+def: "The tuber resistance to powdery scab." [CO:curators]
+synonym: "TRPs" EXACT []
