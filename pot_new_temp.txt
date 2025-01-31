@@ -1,7 +1,7 @@
 [Term]
 id: CO_330:0000700
 name: potato shoot system dry matter content trait
-def: "The areal part dry matter content." [CO:curators]
+def: "The aerial part dry matter content." [CO:curators]
 synonym: "ArplDm" EXACT []
 is_a: TO:0000457 ! biomass yield
 
@@ -12,7 +12,6 @@ def: "The dry matter content of the entire plant." [CO:curators]
 synonym: "TBDMC" EXACT []
 is_a: TO:0000457 ! biomass yield
 
-
 [Term]
 id: CO_330:0000702
 name: potato biomass weight trait
@@ -20,13 +19,11 @@ def: "The weight of the biomass of the entire plant." [CO:curators]
 synonym: "BmsWg" EXACT []
 is_a: TO:0000457 ! biomass yield
 
-
 [Term]
 id: CO_330:0000703
 name: potato canopy cover trait
 def: "The proportion of the plant that extends into the soil." [CO:curators]
 synonym: "CnpCov" EXACT []
-
 
 [Term]
 id: CO_330:0000704
@@ -83,6 +80,7 @@ id: CO_330:0000711
 name: potato root system dry matter content trait
 def: "The root system dry matter content." [CO:curators]
 synonym: "RsyDm" EXACT []
+is_a: TO:0000457 ! biomass yield
 
 
 
