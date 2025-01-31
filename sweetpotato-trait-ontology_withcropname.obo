@@ -512,7 +512,7 @@ id: CO_331:0000298
 name: sweetpotato survival index trait
 def: "Survival index." [CO:curators]
 synonym: "IxSrv" EXACT []
-is_a: TO:0000597 ! plant vigor trait
+is_a: TO:0000250 ! plant vigor trait
 
 [Term]
 id: CO_331:0000307
