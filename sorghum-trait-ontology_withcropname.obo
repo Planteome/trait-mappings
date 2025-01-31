@@ -361,12 +361,7 @@ id: CO_324:0000121
 name: sorghum heading time trait
 def: "Heading time." [CO:curators]
 synonym: "Hd" EXACT []
-
-[Term]
-id: CO_324:0000124
-name: sorghum sowing time trait
-def: "Sowing time." [CO:curators]
-synonym: "Sow" EXACT []
+is_a: TO:0000137 ! days to heading
 
 [Term]
 id: CO_324:0000127
@@ -431,12 +426,14 @@ id: CO_324:0000151
 name: sorghum striga maximum vigor
 def: "Assessment of the Striga maximum vigor." [CO:curators]
 synonym: "StrigaMaxVig" EXACT []
+is_a: TO:0000444 ! parasitic weed response
 
 [Term]
 id: CO_324:0000154
 name: sorghum striga mean vigor
 def: "Assessment of the Striga mean vigor." [CO:curators]
 synonym: "StrigaMeanVig" EXACT []
+is_a: TO:0000444 ! parasitic weed response
 
 [Term]
 id: CO_324:0000157
@@ -454,12 +451,6 @@ synonym: "EPcleNo" EXACT []
 is_a: TO:0000152 ! panicle number
 
 [Term]
-id: CO_324:0000163
-name: sorghum number of harvested hills
-def: "Number of harvested hills in the plot." [CO:curators]
-synonym: "NHH" EXACT []
-
-[Term]
 id: CO_324:0000166
 name: sorghum panicle harvested number trait
 def: "Number of effectively harvested panicles." [CO:curators]
@@ -475,28 +466,18 @@ synonym: "PcleOTNo" EXACT []
 is_a: TO:0000152 ! panicle number
 
 [Term]
-id: CO_324:0000172
-name: sorghum number of seedling hills
-def: "Number of hills with plants at seedling stage." [CO:curators]
-synonym: "NSH" EXACT []
-
-[Term]
-id: CO_324:0000175
-name: sorghum seedling number trait
-def: "Seedling number after thinning." [CO:curators]
-synonym: "SdlgNo" EXACT []
-
-[Term]
 id: CO_324:0000178
 name: sorghum panicle selected number
 def: "Number of selected panicles selected in breeding nursery." [CO:curators]
 synonym: "NSPcle" EXACT []
+is_a: TO:0000152 ! panicle number
 
 [Term]
 id: CO_324:0000181
 name: sorghum striga plant number
 def: "Striga plant number." [CO:curators]
 synonym: "StrigaNo" EXACT []
+is_a: TO:0000444 ! parasitic weed response
 
 [Term]
 id: CO_324:0000184
@@ -809,12 +790,6 @@ name: sorghum panicle moisture content trait
 def: "Panicle moisture content." [CO:curators]
 synonym: "PcleMoi" EXACT []
 is_a: TO:0000847 ! panicle inflorescence morphology trait
-
-[Term]
-id: CO_324:0000485
-name: sorghum plant number trait
-def: "Plant number per plot." [CO:curators]
-synonym: "PNo" EXACT []
 
 [Term]
 id: CO_324:0000492
