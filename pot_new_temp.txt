@@ -24,6 +24,7 @@ id: CO_330:0000703
 name: potato canopy cover trait
 def: "The proportion of the plant that extends into the soil." [CO:curators]
 synonym: "CnpCov" EXACT []
+is_a: TO:0000398 ! whole plant morphology trait
 
 [Term]
 id: CO_330:0000704
@@ -374,6 +375,7 @@ id: CO_330:0000922
 name: potato boiled potato texture uniformity in mouth trait
 def: "Uniformity of the texture in mouth." [CO:curators]
 synonym: "BoiPotatTextUnif" EXACT []
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_330:0000923
