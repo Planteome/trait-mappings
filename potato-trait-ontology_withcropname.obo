@@ -303,6 +303,7 @@ id: CO_330:0000120
 name: potato ploidy trait
 def: "The ploidy of plant" [CO:curators]
 synonym: "Pldy" EXACT []
+is_a: TO:0000392 ! sterility or fertility trait
 
 [Term]
 id: CO_330:0000123
@@ -482,13 +483,6 @@ def: "The lipophilic antioxidant activity in dry weight basis" [CO:curators]
 is_a: TO:0001143 ! antioxidant activity trait
 
 [Term]
-id: CO_330:0000263
-name: potato number of tubers planted trait
-def: "The number of planted tubers" [CO:curators]
-synonym: "NTbPl" EXACT []
-synonym: "Plants planted number/Planted (sett)" EXACT []
-
-[Term]
 id: CO_330:0000266
 name: potato number of emerged plants trait
 def: "The number of emerged plants" [CO:curators]
@@ -524,20 +518,6 @@ def: "The proportion of plants emerged over tubers planted" [CO:curators]
 synonym: "Percentage of plants emerged" EXACT []
 synonym: "PPlEg" EXACT []
 is_a: TO:0000250 ! plant vigor trait
-
-[Term]
-id: CO_330:0000284
-name: potato number of harvested plants trait
-def: "The number of plants harvested" [CO:curators]
-synonym: "Harvested plant number" EXACT []
-synonym: "PltHrv" EXACT []
-
-[Term]
-id: CO_330:0000288
-name: potato proportion of plants harvested trait
-def: "The proportion of plant harvested over plant emerged" [CO:curators]
-synonym: "Percentage of Plants harvested" EXACT []
-synonym: "PPlHv" EXACT []
 
 [Term]
 id: CO_330:0000291
