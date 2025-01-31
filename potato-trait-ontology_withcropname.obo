@@ -313,21 +313,21 @@ is_a: TO:0001144 ! Oomycete disease response
 
 [Term]
 id: CO_330:0000126
-name: potato potato virus x resistance trait
+name: potato virus x resistance trait
 def: "The plant resistance to potato virus X." [CO:curators]
 synonym: "RPvx" EXACT []
 is_a: TO:0000148 ! viral disease response trait
 
 [Term]
 id: CO_330:0000129
-name: potato potato virus y resistance trait
+name: potato virus y resistance trait
 def: "The plant resistance to potato virus Y." [CO:curators]
 synonym: "Rpvy" EXACT []
 is_a: TO:0000148 ! viral disease response trait
 
 [Term]
 id: CO_330:0000132
-name: potato potato leaf roll virus resistance trait
+name: potato leaf roll virus resistance trait
 def: "The plant resistance to potato leaf roll virus." [CO:curators]
 synonym: "RPrlv" EXACT []
 is_a: TO:0000148 ! viral disease response trait
