@@ -1126,7 +1126,7 @@ is_a: TO:0000316 ! photosynthetic ability
 [Term]
 id: CO_330:0000705
 name: potato canopy temperature trait
-def: "The surface temperature of the canopy is related to the amount of transpiration resulting in evaporative cooling.." [CO:curators]
+def: "The surface temperature of the canopy is related to the amount of transpiration resulting in evaporative cooling." [CO:curators]
 synonym: "CnpTem" EXACT []
 is_a: TO:0000157 ! canopy temperature
 
@@ -1338,7 +1338,6 @@ id: CO_330:0000904
 name: potato boiled potato bitter aftertaste trait
 def: "Gustatory sensation that remains after swallowing product associated with the taste produced by dilute aqueous solutions of substances such as quinine." [CO:curators]
 synonym: "BoiPotatBittAftrTast" EXACT []
-is_a: CO_330:1000020 ! After taste
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
