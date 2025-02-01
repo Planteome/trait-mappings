@@ -1208,8 +1208,8 @@ synonym: "RtLgt" EXACT []
 is_a: TO:0000227 ! root length
 
 [Term]
-id: CO_330:0000767 trait
-name: potato drought stress intensity
+id: CO_330:0000767
+name: potato drought stress intensity trait
 def: "The grade of stress of the plant." [CO:curators]
 synonym: "SI" EXACT []
 is_a: TO:0000276 ! drought tolerance
