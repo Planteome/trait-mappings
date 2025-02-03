@@ -60,12 +60,6 @@ synonym: "PHT" EXACT []
 is_a: TO:0000207 ! plant height
 
 [Term]
-id: CO_341:0000024
-name: pigeonpea plant stand
-def: "Number of plants per plot" [CO:curators]
-synonym: "PST" EXACT []
-
-[Term]
 id: CO_341:0000027
 name: pigeonpea pod bearing length trait
 def: "Distance between uppermost and lowermost pod present on plant" [CO:curators]
