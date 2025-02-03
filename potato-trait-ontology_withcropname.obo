@@ -1328,84 +1328,84 @@ is_a: TO:0000322 ! phenotypic acceptability
 
 [Term]
 id: CO_330:0000903
-name: potato boiled potato moisture release trait
+name: boiled potato moisture release trait
 def: "Textural attribute related to release of moisture from a product when pressure is applied." [CO:curators]
 synonym: "BoiPotatRelMoistinHd" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_330:0000904
-name: potato boiled potato bitter aftertaste trait
+name: boiled potato bitter aftertaste trait
 def: "Gustatory sensation that remains after swallowing product associated with the taste produced by dilute aqueous solutions of substances such as quinine." [CO:curators]
 synonym: "BoiPotatBittAftrTast" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_330:0000905
-name: potato boiled potato crunchiness trait
+name: boiled potato crunchiness trait
 def: "Attribute of product to produce low pitched sound during rupturing." [CO:curators]
 synonym: "BoiPotatCrunchMout" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_330:0000906
-name: potato boiled potato translucency trait
+name: boiled potato translucency trait
 def: "Attribute of object that allows light to pass through it but not images to be distinguished." [CO:curators]
 synonym: "BoiPotatSurfTransl" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_330:0000907
-name: potato boiled potato cohesiveness (moldability) trait
+name: boiled potato cohesiveness (moldability) trait
 def: "Textural attribute relating to degree to which a substance can be deformed before it breaks." [CO:curators]
 synonym: "BoiPotatMoldIInHd" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_330:0000908
-name: potato boiled potato cooked carrot aroma trait
+name: boiled potato cooked carrot aroma trait
 def: "Distinct aroma of cooked carrot." [CO:curators]
 synonym: "BoiPotatCarrArom" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_330:0000909
-name: potato boiled potato fracturability in mouth trait
+name: boiled potato fracturability in mouth trait
 def: "Mechanical textural attribute related to the  force necessary to break into crumbs or pieces." [CO:curators]
 synonym: "BoiPotatFractMout" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_330:0000910
-name: potato boiled potato green vegetable aroma trait
+name: boiled potato green vegetable aroma trait
 def: "Distinct aroma of vegetables such as amaranth and beet root." [CO:curators]
 synonym: "BoiPotatVegArom" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_330:0000911
-name: potato boiled potato hardness in mouth trait
+name: boiled potato hardness in mouth trait
 def: "Mechanical textural attribute related to the  force necessary to achieve a certain deformation." [CO:curators]
 synonym: "BoiPotatHardMout" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_330:0000912
-name: potato boiled potato homogeneity of surface color trait
+name: boiled potato homogeneity of surface color trait
 def: "Evenness of the distribution of the colour across entire sample surface." [CO:curators]
 synonym: "BoiPotatColHom" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_330:0000913
-name: potato boiled potato mealiness in mouth trait
+name: boiled potato mealiness in mouth trait
 def: "An attribute associated with gumminess characterized by powdery mouthfeel." [CO:curators]
 synonym: "BoiPotatMealnMout" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_330:0000914
-name: potato boiled potato moisture (in the mass) trait
+name: boiled potato moisture (in the mass) trait
 def: "Textural attribute which describes amount of water present in the sample mass." [CO:curators]
 synonym: "BoiPotatMassMoistMout" EXACT []
 is_a: TO:0001069 ! cooking quality trait
@@ -1419,70 +1419,70 @@ is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_330:0000916
-name: potato boiled potato boiled carrot odour trait
+name: boiled potato boiled carrot odour trait
 def: "Odour of boiled carrot." [CO:curators]
 synonym: "BoiPotatOdCarr" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_330:0000917
-name: potato boiled potato green vegetable odour trait
+name: boiled potato green vegetable odour trait
 def: "Odour of cooked amaranth and beet root." [CO:curators]
 synonym: "BoiPotatOdRtCr" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_330:0000918
-name: potato boiled potato cooked potato aroma trait
+name: boiled potato cooked potato aroma trait
 def: "Distinct aroma of cooked potato." [CO:curators]
 synonym: "BoiPotatPotatArom" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_330:0000919
-name: potato boiled potato root tuber aroma trait
+name: boiled potato root tuber aroma trait
 def: "Distinct aroma of root drops such as cassava, sweet potato and climbing yam (balugu)." [CO:curators]
 synonym: "BoiPotatRtTubArom" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_330:0000920
-name: potato boiled potato root vegetable odour trait
+name: boiled potato root vegetable odour trait
 def: "Odor of root crops such as sweetpotato, cassava, and balugu (climbing yam)." [CO:curators]
 synonym: "BoiPotatOdVegroot" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_330:0000921
-name: potato boiled potato smoothness in mouth trait
+name: boiled potato smoothness in mouth trait
 def: "Geometrical attribute associated with the overall degree of absence of particles within sample." [CO:curators]
 synonym: "BoiPotatSmoothMout" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_330:0000922
-name: potato boiled potato texture uniformity in mouth trait
+name: boiled potato texture uniformity in mouth trait
 def: "Uniformity of the texture in mouth." [CO:curators]
 synonym: "BoiPotatTextUnif" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_330:0000923
-name: potato boiled potato yellow colour trait
+name: boiled potato yellow colour trait
 def: "Description of predominant color of potato and its relative intensity." [CO:curators]
 synonym: "BoiPotatYelCol" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_330:0000924
-name: potato boiled potato chalkiness of peeled surface colour trait
+name: boiled potato chalkiness of peeled surface colour trait
 def: "Chalkiness of the peeled surface colour." [CO:curators]
 synonym: "BoiPotSurfChalk" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_330:0000925
-name: potato boiled potato stickiness in hand trait
+name: boiled potato stickiness in hand trait
 def: "Textural attribute relating to degree to which a substance can be adhere to surfaces of different material." [CO:curators]
 synonym: "BoiPotStickInHd" EXACT []
 is_a: TO:0001069 ! cooking quality trait
