@@ -35,7 +35,7 @@ name: lentil biological yield per plant trait
 def: "The total biological yield of a plant (seed yield + straw yield)" [CO:curators]
 synonym: "BYPL" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000457 ! total biomass yield
+is_a: TO:0000457 ! biomass yield
 
 [Term]
 id: CO_339:0000012
@@ -43,7 +43,7 @@ name: lentil biological yield per area trait
 def: "The total biological yield (seed yield + straw yield) of plants in a plot" [CO:curators]
 synonym: "BYPO" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000458 ! drought recovery
+is_a: TO:0000457 ! biomass yield
 
 [Term]
 id: CO_339:0000015
