@@ -1,0 +1,14 @@
+format-version: 1.2
+import: http://purl.obolibrary.org/obo/co_320.owl
+import: http://purl.obolibrary.org/obo/co_321.owl
+import: http://purl.obolibrary.org/obo/co_322.owl
+import: http://purl.obolibrary.org/obo/co_324.owl
+import: http://purl.obolibrary.org/obo/co_330.owl
+import: http://purl.obolibrary.org/obo/co_331.owl
+import: http://purl.obolibrary.org/obo/co_334.owl
+import: http://purl.obolibrary.org/obo/co_336.owl
+import: http://purl.obolibrary.org/obo/co_339.owl
+import: http://purl.obolibrary.org/obo/co_341.owl
+import: http://purl.obolibrary.org/obo/co_343.owl
+ontology: http://www.semanticweb.org/cooperl/ontologies/2025/1/untitled-ontology-296
+
