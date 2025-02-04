@@ -769,23 +769,11 @@ synonym: "flwfrt" EXACT []
 is_a: TO:0000852 ! fruit set trait
 
 [Term]
-id: CO_334:0000416
-name: cassava number of planted stakes
-def: "Total number of stakes planted" [CO:curators]
-synonym: "stkplt" EXACT []
-
-[Term]
 id: CO_334:0000417
 name: cassava number of rotten stem trait
 def: "Number of rotten stem" [CO:curators]
 synonym: "RotStmNo" EXACT []
 is_a: TO:0000597 ! plant quality trait
-
-[Term]
-id: CO_334:0000418
-name: cassava number of seeds sown
-def: "Number of seeds sown per family" [CO:curators]
-synonym: "seedno" EXACT []
 
 [Term]
 id: CO_334:0000419
@@ -872,12 +860,6 @@ name: cassava plant shape trait
 def: "Shape of plant" [CO:curators]
 synonym: "pltshp" EXACT []
 is_a: TO:0000398 ! whole plant morphology trait
-
-[Term]
-id: CO_334:0000434
-name: cassava plant stands harvested
-def: "Number of plant stands harvested" [CO:curators]
-synonym: "nohav" EXACT []
 
 [Term]
 id: CO_334:0000435
@@ -1050,12 +1032,6 @@ name: cassava seedling number trait
 def: "Number of emerging seedlings" [CO:curators]
 synonym: "SdlngNo" EXACT []
 is_a: TO:0000250 ! plant vigor trait
-
-[Term]
-id: CO_334:0000461
-name: cassava selected variety
-def: "Selected variety" [CO:curators]
-synonym: "select" EXACT []
 
 [Term]
 id: CO_334:0000462
