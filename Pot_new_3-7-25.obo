@@ -1,0 +1,253 @@
+[Term]
+id: CO_330:0001000
+name: potato sprouting time trait
+def: "Sprouting time." [CO:curators]
+synonym: "SprtTm" EXACT []
+is_a: TO:0000654 ! shoot system growth and development trait
+
+[Term]
+id: CO_330:0001002
+name: potato sprouting rate trait
+def: "Sprouting time." [CO:curators]
+synonym: "Sprtrt" EXACT []
+is_a: TO:0000654 ! shoot system growth and development trait
+
+[Term]
+id: CO_330:0001004
+name: potato abiotic stress tolerance
+def: "Tolerance to abiotic stress ranked by comparison of the varieties at 45 days after planting." [CO:curators]
+
+[Term]
+id: CO_330:0001006
+name: potato disease tolerance
+def: "Tolerance to diseases ranked by comparison of the varieties at 45 days after planting." [CO:curators]
+
+[Term]
+id: CO_330:0001008
+name: potato pest tolerance
+def: "Tolerance to pests ranked by comparison of the varieties at 45 days after planting." [CO:curators]
+
+[Term]
+id: CO_330:0001010
+name: potato ease of harvesting
+def: "Ease of harvesting." [CO:curators]
+
+[Term]
+id: CO_330:0001012
+name: potato tuber size for target use/market
+def: "Quality of the tuber size for the targeted use or market." [CO:curators]
+
+[Term]
+id: CO_330:0001014
+name: potato storage problems tolerance
+def: "Tolerance to storage problems that were enumerated separatly." [CO:curators]
+
+[Term]
+id: CO_330:0001016
+name: potato storability
+def: "Quality of the roots for the storage." [CO:curators]
+
+[Term]
+id: CO_330:0001018
+name: potato overall preference
+def: "Overall preference of the tuber." [CO:curators]
+
+[Term]
+id: CO_330:0001020
+name: potato overall performance vs local with local
+def: "Overall performance vs local." [CO:curators]
+
+[Term]
+id: CO_330:0001022
+name: potato yield (qualitative)
+def: "xxxxxx." [CO:curators]
+
+[Term]
+id: CO_330:0001024
+name: potato cooked potato taste
+def: "xxxxxx." [CO:curators]
+
+[Term]
+id: CO_330:0001106
+name: potato tuber chaining
+def: "xxxxxx." [CO:curators]
+
+[Term]
+id: CO_330:0001107
+name: potato Number of sprouts per tuber
+def: "xxxxxx." [CO:curators]
+
+[Term]
+id: CO_330:0001108
+name: potato Final weight of tubers after in the last dormancy evaluation
+def: "xxxxxx." [CO:curators]
+
+[Term]
+id: CO_330:0001109
+name: potato Growth Cracks
+def: "xxxxxx." [CO:curators]
+
+[Term]
+id: CO_330:0001110
+name: potato Initial weight of tubers before to storage
+def: "xxxxxx." [CO:curators]
+
+[Term]
+id: CO_330:0001111
+name: potato Secondary growth
+def: "xxxxxx." [CO:curators]
+
+
+[Term]
+id: CO_330:0001112
+name: potato tuber Aluminum concentration
+def: "xxxxxx." [CO:curators]
+
+[Term]
+id: CO_330:0001113
+name: potato tuber Arsenic concentration
+def: "xxxxxx." [CO:curators]
+
+[Term]
+id: CO_330:0001114
+name: potato tuber Barium concentration
+
+[Term]
+id: CO_330:0001115
+name: potato tuber Beryllium concentration
+
+[Term]
+id: CO_330:0001116
+name: potato tuber Boron concentration
+
+[Term]
+id: CO_330:0001117
+name: potato tuber Cadmium concentration
+
+[Term]
+id: CO_330:0001118
+name: potato tuber Cesium concentration
+
+[Term]
+id: CO_330:0001119
+name: potato tuber Chromium concentration
+
+[Term]
+id: CO_330:0001120
+name: potato tuber Cobalt concentration
+
+[Term]
+id: CO_330:0001121
+name: potato tuber Copper concentration
+
+[Term]
+id: CO_330:0001122
+name: potato tuber Lead concentration
+
+[Term]
+id: CO_330:0001123
+name: potato tuber Lithium concentration
+
+[Term]
+id: CO_330:0001124
+name: potato tuber Manganese concentration
+
+[Term]
+id: CO_330:0001125
+name: potato tuber Molybdenum concentration
+
+[Term]
+id: CO_330:0001126
+name: potato tuber Nickel concentration
+
+[Term]
+id: CO_330:0001127
+name: potato tuber Rubidium concentration
+
+[Term]
+id: CO_330:0001128
+name: potato tuber Selenium concentration
+
+[Term]
+id: CO_330:0001129
+name: potato tuber Silver concentration
+
+[Term]
+id: CO_330:0001130
+name: potato tuber Sodium concentration
+
+[Term]
+id: CO_330:0001131
+name: potato tuber Strontium concentration
+
+[Term]
+id: CO_330:0001132
+name: potato tuber Thallium concentration
+
+[Term]
+id: CO_330:0001133
+name: potato tuber Titanium concentration
+
+[Term]
+id: CO_330:0001134
+name: potato tuber Uranium concentration
+
+[Term]
+id: CO_330:0001135
+name: potato tuber Vanadium concentration
+
+[Term]
+id: CO_330:0001136
+name: potato Sprouting
+
+[Term]
+id: CO_330:0001137
+name: potato tuber cryptochlorogenic acid concentration
+
+[Term]
+id: CO_330:0001138
+name: potato tuber epicatechin concentration
+
+[Term]
+id: CO_330:0001139
+name: potato tuber ferulic acid concentration
+
+[Term]
+id: CO_330:0001140
+name: potato tuber gallic acid concentration
+
+[Term]
+id: CO_330:0001141
+name: potato tuber neochlorogenic acid concentration
+
+[Term]
+id: CO_330:0001142
+name: potato tuber p-coumaric acid concentration
+
+[Term]
+id: CO_330:0001143
+name: potato tuber protocatechuic acid concentration
+
+[Term]
+id: CO_330:0001144
+name: potato tuber rutin concentration
+
+[Term]
+id: CO_330:0001145
+name: potato tuber syringic acid concentration
+
+[Term]
+id: CO_330:0001146
+name: potato tuber t-cinnamic acid concentration
+
+[Term]
+id: CO_330:0001147
+name: potato tuber vanillic acid concentration
+
+[Term]
+id: CO_330:0001148
+name: potato Type of plant
+
+[Term]
+id: CO_330:0001149
+name: potato weight loss percentage of sprouted tubers
