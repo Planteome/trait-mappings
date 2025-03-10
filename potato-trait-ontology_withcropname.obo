@@ -1507,3 +1507,360 @@ name: potato powdery scab tuber resistance trait
 def: "The tuber resistance to powdery scab." [CO:curators]
 synonym: "TRPs" EXACT []
 is_a: TO:0000112 ! microbial disease response
+
+[Term]
+id: CO_330:0001000
+name: potato sprouting time trait
+def: "Sprouting time." [CO:curators]
+synonym: "SprtTm" EXACT []
+is_a: TO:0000654 ! shoot system growth and development trait
+
+[Term]
+id: CO_330:0001002
+name: potato sprouting rate trait
+def: "Sprouting time." [CO:curators]
+synonym: "Sprtrt" EXACT []
+is_a: TO:0000654 ! shoot system growth and development trait
+
+[Term]
+id: CO_330:0001004
+name: potato abiotic stress tolerance trait
+def: "Tolerance to abiotic stress ranked by comparison of the varieties at 45 days after planting." [CO:curators]
+synonym: "AbStrtol" EXACT []
+is_a: TO:0000168 ! abiotic plant stress response trait
+
+[Term]
+id: CO_330:0001006
+name: potato disease tolerance trait
+def: "Tolerance to diseases ranked by comparison of the varieties at 45 days after planting." [CO:curators]
+synonym: "DisStrTol" EXACT []
+is_a: TO:0000112 ! microbial disease response
+
+[Term]
+id: CO_330:0001008
+name: potato pest tolerance trait
+def: "Tolerance to pests ranked by comparison of the varieties at 45 days after planting." [CO:curators]
+synonym: "PstStrTol" EXACT []
+is_a: TO:0000179 ! biotic plant stress trait
+
+[Term]
+id: CO_330:0001010
+name: potato ease of harvesting trait
+def: "Ease of harvesting." [CO:curators]
+synonym: "plEasHarv" EXACT []
+is_a: TO:0000597 ! plant quality trait
+
+[Term]
+id: CO_330:0001012
+name: potato tuber size for target use/market trait
+def: "Quality of the tuber size for the targeted use or market." [CO:curators]
+synonym: "Tbszmkt" EXACT []
+is_a: TO:0000744 ! subterranean shoot axis tuber size
+
+[Term]
+id: CO_330:0001014
+name: potato storage problems tolerance trait
+def: "Tolerance to storage problems that were enumerated separatly." [CO:curators]
+synonym: "Storprbtol" EXACT []
+is_a: TO:0000597 ! plant quality trait
+
+[Term]
+id: CO_330:0001016
+name: potato storability trait
+def: "Quality of the roots for the storage." [CO:curators]
+synonym: "Storabty" EXACT []
+is_a: TO:0000597 ! plant quality trait
+
+[Term]
+id: CO_330:0001018
+name: potato overall preference trait
+def: "Overall preference of the tuber." [CO:curators]
+synonym: "OvPerf" EXACT []
+is_a: TO:0000597 ! plant quality trait
+
+[Term]
+id: CO_330:0001020
+name: potato overall performance vs local trait
+def: "Overall performance vs local." [CO:curators]
+synonym: "OvPerfLocal" EXACT []
+is_a: TO:0000597 ! plant quality trait
+
+[Term]
+id: CO_330:0001022
+name: potato yield (qualitative) trait
+def: "The total tuber yield not adjusted per unit area." [CO:curators]
+synonym: "YldQual" EXACT []
+is_a: TO:0001071 ! shoot axis tuber yield
+
+[Term]
+id: CO_330:0001024
+name: potato cooked potato taste trait
+def: "Taste of the cooked potato." [CO:curators]
+synonym: "CkTbTst" EXACT []
+is_a: TO:0001069 ! cooking quality trait
+
+[Term]
+id: CO_330:0001106
+name: potato tuber chaining trait
+def: "The percentage of chains per plot." [CO:curators]
+is_a: TO:0000654 ! shoot system growth and development trait
+
+[Term]
+id: CO_330:0001107
+name: potato number of sprouts per tuber trait
+def: "The number of sprouts per tuber." [CO:curators]
+is_a: TO:0000654 ! shoot system growth and development trait
+
+[Term]
+id: CO_330:0001108
+name: potato final weight of tubers after last dormancy evaluation trait
+def: "The final weight of storage tuber." [CO:curators]
+is_a: TO:0000746 ! subterranean shoot axis tuber mass
+
+[Term]
+id: CO_330:0001109
+name: potato growth cracks trait
+def: "The percentage of growth cracks damage per plot." [CO:curators]
+is_a: TO:0000654 ! shoot system growth and development trait
+
+[Term]
+id: CO_330:0001110
+name: potato initial weight of tubers before to storage trait
+def: "The initial weight of storage tuber." [CO:curators]
+is_a: TO:0000746 ! subterranean shoot axis tuber mass
+
+[Term]
+id: CO_330:0001111
+name: potato secondary growth trait
+def: "The percentage of secondary growth per plot." [CO:curators]
+is_a: TO:0000654 ! shoot system growth and development trait
+
+[Term]
+id: CO_330:0001112
+name: potato tuber aluminum concentration trait
+def: "The concentration of aluminum in tuber." [CO:curators]
+is_a: TO:1000051 ! shoot system aluminum content
+
+[Term]
+id: CO_330:0001113
+name: potato tuber arsenic concentration trait
+def: "The concentration of arsenic in tuber." [CO:curators]
+is_a: TO:1000052 ! shoot system arsenic content
+
+[Term]
+id: CO_330:0001114
+name: potato tuber barium concentration trait
+def: "The concentration of barium in tuber." [CO:curators]
+is_a: TO:1000054 ! shoot system barium content
+
+[Term]
+id: CO_330:0001115
+name: potato tuber beryllium concentration trait
+def: "The concentration of beryllium in tuber." [CO:curators]
+is_a: TO:0000465 ! mineral and ion content trait
+
+[Term]
+id: CO_330:0001116
+name: potato tuber boron concentration trait
+def: "The concentration of boron in tuber." [CO:curators]
+is_a: TO:1000053 ! shoot system boron content
+
+[Term]
+id: CO_330:0001117
+name: potato tuber cadmium concentration trait
+def: "The concentration of cadmium in tuber." [CO:curators]
+is_a: TO:1000056 ! shoot system cadmium content
+
+[Term]
+id: CO_330:0001118
+name: potato tuber cesium concentration trait
+def: "The concentration of cesium in tuber." [CO:curators]
+is_a: TO:0000465 ! mineral and ion content trait
+
+[Term]
+id: CO_330:0001119
+name: potato tuber chromium concentration trait
+def: "The concentration of chromium in tuber." [CO:curators]
+is_a: TO:1000058 ! shoot system chromium content
+
+[Term]
+id: CO_330:0001120
+name: potato tuber cobalt concentration trait
+def: "The concentration of cobalt in tuber." [CO:curators]
+is_a: TO:1000057 ! shoot system cobalt content
+
+[Term]
+id: CO_330:0001121
+name: potato tuber copper concentration trait
+def: "The concentration of copper in tuber." [CO:curators]
+is_a: TO:1000059 ! shoot system copper content
+
+[Term]
+id: CO_330:0001122
+name: potato tuber lead concentration trait
+def: "The concentration of lead in tuber." [CO:curators]
+is_a: TO:1000067 ! shoot system lead content
+
+[Term]
+id: CO_330:0001123
+name: potato tuber lithium concentration trait
+def: "The concentration of lithium in tuber." [CO:curators]
+is_a: TO:1000062 ! shoot system lithium content
+
+[Term]
+id: CO_330:0001124
+name: potato tuber manganese concentration trait
+def: "The concentration of manganese in tuber." [CO:curators]
+is_a: TO:1000064 ! shoot system manganese content
+
+[Term]
+id: CO_330:0001125
+name: potato tuber molybdenum concentration trait
+def: "The concentration of molybdenum in tuber." [CO:curators]
+is_a: TO:1000065 ! shoot system molybdenum content
+
+[Term]
+id: CO_330:0001126
+name: potato tuber nickel concentration trait
+def: "The concentration of nickel in tuber." [CO:curators]
+is_a: TO:1000066 ! shoot system nickel content
+
+[Term]
+id: CO_330:0001127
+name: potato tuber rubidium concentration trait
+def: "The concentration of rubidium in tuber." [CO:curators]
+is_a: TO:1000068 ! shoot system rubidium content
+
+[Term]
+id: CO_330:0001128
+name: potato tuber selenium concentration trait
+def: "The concentration of selenium in tuber." [CO:curators]
+is_a: TO:1000070 ! shoot system selenium content
+
+[Term]
+id: CO_330:0001129
+name: potato tuber silver concentration trait
+def: "The concentration of silver in tuber." [CO:curators]
+is_a: TO:0000465 ! mineral and ion content trait
+
+[Term]
+id: CO_330:0001130
+name: potato tuber sodium concentration trait
+def: "The concentration of sodium in tuber." [CO:curators]
+is_a: TO:0020004 ! shoot system sodium content
+
+[Term]
+id: CO_330:0001131
+name: potato tuber strontium concentration trait
+def: "The concentration of strontium in tuber." [CO:curators]
+synonym: "PlTyp" EXACT []
+is_a: TO:1000072 ! shoot system strontium content
+
+[Term]
+id: CO_330:0001132
+name: potato tuber thallium concentration trait
+def: "The concentration of thallium in tuber." [CO:curators]
+is_a: TO:0000465 ! mineral and ion content trait
+
+[Term]
+id: CO_330:0001133
+name: potato tuber titanium concentration trait
+def: "The concentration of titanium in tuber." [CO:curators]
+is_a: TO:0000465 ! mineral and ion content trait
+
+[Term]
+id: CO_330:0001134
+name: potato tuber uranium concentration trait
+def: "The concentration of uranium in tuber." [CO:curators]
+is_a: TO:0000465 ! mineral and ion content trait
+
+[Term]
+id: CO_330:0001135
+name: potato tuber vanadium concentration trait
+def: "The concentration of vanadium in tuber." [CO:curators]
+is_a: TO:0000465 ! mineral and ion content trait
+
+[Term]
+id: CO_330:0001136
+name: potato sprouting trait
+def: "The percentage of sprouting per plot." [CO:curators]
+is_a: TO:0000654 ! shoot system growth and development trait
+
+[Term]
+id: CO_330:0001137
+name: potato tuber cryptochlorogenic acid concentration trait
+def: "The cryptochlorogenic acid concentration in tuber." [CO:curators]
+is_a: TO:0000281 ! metabolite content trait
+
+[Term]
+id: CO_330:0001138
+name: potato tuber epicatechin concentration trait
+def: "The epicatechin concentration in tuber." [CO:curators]
+is_a: TO:0000281 ! metabolite content trait
+
+[Term]
+id: CO_330:0001139
+name: potato tuber ferulic acid concentration trait
+def: "The ferulic acid concentration in tuber." [CO:curators]
+is_a: TO:0000281 ! metabolite content trait
+
+[Term]
+id: CO_330:0001140
+name: potato tuber gallic acid concentration trait
+def: "The gallic acid concentration in tuber." [CO:curators]
+is_a: TO:0000281 ! metabolite content trait
+
+[Term]
+id: CO_330:0001141
+name: potato tuber neochlorogenic acid concentration trait
+def: "The neochlorogenic acid concentration in tuber." [CO:curators]
+is_a: TO:0000281 ! metabolite content trait
+
+[Term]
+id: CO_330:0001142
+name: potato tuber p-coumaric acid concentration trait
+def: "The p-coumaric acid concentration in tuber." [CO:curators]
+is_a: TO:0000281 ! metabolite content trait
+
+[Term]
+id: CO_330:0001143
+name: potato tuber protocatechuic acid concentration trait
+def: "The protocatechuic acid concentration in tuber." [CO:curators]
+is_a: TO:0000281 ! metabolite content trait
+
+[Term]
+id: CO_330:0001144
+name: potato tuber rutin concentration trait
+def: "The rutin concentration in tuber." [CO:curators]
+is_a: TO:0000281 ! metabolite content trait
+
+[Term]
+id: CO_330:0001145
+name: potato tuber syringic acid concentration trait
+def: "The syringic acid concentration in tuber." [CO:curators]
+is_a: TO:0000281 ! metabolite content trait
+
+[Term]
+id: CO_330:0001146
+name: potato tuber t-cinnamic acid concentration trait
+def: "The t-cinnamic acid concentration in tuber." [CO:curators]
+is_a: TO:0000281 ! metabolite content trait
+
+[Term]
+id: CO_330:0001147
+name: potato tuber vanillic acid concentration trait
+def: "The vanillic acid concentration in tuber." [CO:curators]
+is_a: TO:0000281 ! metabolite content trait
+
+[Term]
+id: CO_330:0001148
+name: potato type of plant trait
+def: "Type of plant." [CO:curators]
+is_a: TO:0000398 ! whole plant morphology trait
+
+[Term]
+id: CO_330:0001149
+name: potato weight loss percentage of sprouted tubers trait
+def: "The weight loss percentage of sprouted tubers." [CO:curators]
+is_a: TO:0000746 ! subterranean shoot axis tuber mass
+
