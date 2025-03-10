@@ -197,7 +197,7 @@ id: CO_330:0000078
 name: potato predominant tuber skin color trait
 def: "The color of the predominant tuber skin." [CO:curators]
 synonym: "PSknCol" EXACT []
-synonym: "Tuber skin Predominant color" EXACT []
+synonym: "tuber skin Predominant color" EXACT []
 is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 [Term]
@@ -262,7 +262,7 @@ id: CO_330:0000105
 name: potato tuber depth eyes trait
 def: "The depth of the tuber eyes." [CO:curators]
 synonym: "DpEyTb" EXACT []
-synonym: "Tuber depth eyes" EXACT []
+synonym: "tuber depth eyes" EXACT []
 is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 [Term]
@@ -1293,7 +1293,7 @@ is_a: TO:0000953 ! stem number
 
 [Term]
 id: CO_330:0000869
-name: potato Tuber overall quality trait
+name: potato tuber overall quality trait
 def: "Overall quality of the tuber." [CO:curators]
 synonym: "TbQual" EXACT []
 is_a: TO:0000597 ! plant quality trait
