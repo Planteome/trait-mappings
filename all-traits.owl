@@ -20,7 +20,7 @@
     <Import>http://purl.obolibrary.org/obo/co_331.owl</Import>
     <Import>http://purl.obolibrary.org/obo/co_334.owl</Import>
     <Import>http://purl.obolibrary.org/obo/co_336.owl</Import>
-    <Import>http://purl.obolibrary.org/obo/co_339.owl</Import>
+    <Import>https://raw.githubusercontent.com/Planteome/trait-mappings/refs/heads/main/lentil-trait-ontology_withcropname.obo</Import>
     <Import>http://purl.obolibrary.org/obo/co_341.owl</Import>
     <Import>http://purl.obolibrary.org/obo/co_343.owl</Import>
     <Import>http://purl.obolibrary.org/obo/to.owl</Import>
