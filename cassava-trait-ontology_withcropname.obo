@@ -176,7 +176,7 @@ id: CO_334:0000279
 name: cassava amylose content trait
 def: "Amylose content" [CO:curators]
 synonym: "amyl" EXACT []
-is_a: TO:0000196
+is_a: TO:0000196 ! amylose content
 
 [Term]
 id: CO_334:0000280
@@ -464,7 +464,7 @@ id: CO_334:0000369
 name: cassava fresh shoot weight trait
 def: "Total fresh weight of harvested foliage and stems" [CO:curators]
 synonym: "ShFrWe" EXACT []
-is_a: TO:0000571 !shoot fresh weight
+is_a: TO:0000571 ! shoot fresh weight
 
 [Term]
 id: CO_334:0000370
@@ -634,7 +634,7 @@ name: cassava leaf retention trait
 def: "Leaf retention (stay green)" [CO:curators]
 synonym: "LfRet" EXACT []
 synonym: "Stay green, Leaf Retention - Cassavabase" EXACT []
-is_a: TO:0000077  ! shoot system morphology trait
+is_a: TO:0000077 ! shoot system morphology trait
 
 [Term]
 id: CO_334:0000397
@@ -732,7 +732,7 @@ id: CO_334:0000410
 name: cassava number of bemesia tabaci adult
 def: "Number of Bemesia tabaci adult white flies" [CO:curators]
 synonym: "BTAdtNo" EXACT []
-is_a: TO:0000261 !	insect damage response trait
+is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_334:0000411
@@ -746,7 +746,7 @@ id: CO_334:0000412
 name: cassava number of flowering stalks trait
 def: "Number of stalks carrying buds" [CO:curators]
 synonym: "FlwStlkNo" EXACT []
-is_a: TO:0000077  ! shoot system morphology trait
+is_a: TO:0000077 ! shoot system morphology trait
 
 [Term]
 id: CO_334:0000413
@@ -1367,7 +1367,7 @@ name: cassava number of forks by branch level trait
 def: "Number of forks or branches at specific branching levels." [CO:curator]
 created_by: AAfolabi
 creation_date: 2017-07-25T14:53:49Z
-is_a: TO:0000077  ! shoot system morphology trait
+is_a: TO:0000077 ! shoot system morphology trait
 
 [Term]
 id: CO_334:0000525
