@@ -224,7 +224,8 @@ is_a: TO:0000607 ! ash content
 [Term]
 id: CO_334:0000286
 name: cassava days to first male flower opens trait
-def: "TBA." [TO:cooperl]
+def: "First male flower (pistillate) mature and opens." [CO:curators]
+synonym: "flwdmo" EXACT []
 is_a: TO:0000365 ! male flowering
 
 [Term]
