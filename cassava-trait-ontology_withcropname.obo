@@ -813,6 +813,14 @@ synonym: "RtDMC" EXACT []
 is_a: TO:0001041 ! root yield
 
 [Term]
+id: CO_334:0000425
+name: cassava total leaf area trait
+def: "Measurement of leaf area." [CO:curator]
+created_by: AAfolabi
+creation_date: 2017-07-18T15:29:42Z
+is_a: TO:0000540 ! leaf area trait
+
+[Term]
 id: CO_334:0000427
 name: cassava petiole color trait
 def: "Petiole color" [CO:curators]
@@ -956,6 +964,14 @@ synonym: "rteval" EXACT []
 is_a: TO:0001042 ! root quality trait
 
 [Term]
+id: CO_334:0000449
+name: cassava days to branching trait
+def: "Days to forking event." [AAfolabi]
+created_by: AAfolabi
+creation_date: 2017-07-25T09:29:55Z
+is_a: TO:0000933 ! plant phenological trait
+
+[Term]
 id: CO_334:0000450
 name: cassava root length trait
 def: "Root length" [CO:curators]
@@ -1068,6 +1084,13 @@ name: cassava sprout count trait
 def: "Number of germinated stakes" [CO:curators]
 synonym: "sprtct" EXACT []
 is_a: TO:0000250 ! plant vigor trait
+
+[Term]
+id: CO_334:0000471
+name: cassava days to abortion by branching levels trait
+def: "Days to the death of immature flower." [AAfolabi]
+creation_date: 2017-07-25T11:14:47Z
+is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_334:0000472
@@ -2537,3 +2560,11 @@ name: cassava gari particle size trait
 def: "The  size indicate the granular size of the gari samples measure at 0-300, ps300-500, ps500-800, and ps800 um" [CO:curators]
 synonym: "granular size(um)" EXACT []
 is_a: TO:0001069 ! cooking quality trait
+
+[Term]
+id: CO_334:0004046
+name: cassava peak time viscosity trait
+def: "Time at which the viscosity of the sample reaches its maximum value during the RVA test" [CO:curators]
+synonym: "RVA-peak time" RELATED []
+is_a: TO:0000409 ! starch peak viscosity trait
+
