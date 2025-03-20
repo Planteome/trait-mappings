@@ -1,0 +1,1446 @@
+format-version: 1.2
+ontology: TEMP
+
+[Term]
+id: CO_350:0000000
+name: oat agronomic score trait
+def: "Rating of overall agronomical attributes and health of oat plants in a plot." []
+synonym: "nan" EXACT []
+is_a: TO:0000322 ! phenotypic acceptability
+
+[Term]
+id: CO_350:0000003
+name: oat breakage incidence trait
+def: "Proportion of the stems in a plot that are snapped/broken." []
+synonym: "nan" EXACT []
+is_a: TO:0000200 ! brittle culm
+
+[Term]
+id: CO_350:0000006
+name: oat grain yield trait
+def: "Total weight of grains harvested per unit area." []
+synonym: "nan" EXACT []
+is_a: TO:0000396 ! grain yield trait
+
+[Term]
+id: CO_350:0000009
+name: oat groat content trait
+def: "Groat content" []
+synonym: "GrtCnt" EXACT []
+is_a: TO:0000162 ! grain quality trait
+
+[Term]
+id: CO_350:0000012
+name: oat heading time trait
+def: "The time when heading occurs." []
+synonym: "HdDays" EXACT []
+is_a: TO:0000137 ! days to heading
+
+[Term]
+id: CO_350:0000015
+name: oat lodging incidence trait
+def: "Measure of the percentage of the stems of plants in a plot that have been permanently bent, usually as a result of adverse weather." []
+synonym: "nan" EXACT []
+is_a: TO:0000068 ! lodging incidence
+
+[Term]
+id: CO_350:0000018
+name: oat maturity time trait
+def: "The time when maturity occurs" []
+synonym: "MatDays" EXACT []
+is_a: TO:0000469 ! days to maturity
+
+[Term]
+id: CO_350:0000021
+name: oat plant height trait
+def: "Height of plant from ground to top of flag leaf ligule." []
+synonym: "PlntHtLig" EXACT []
+is_a: TO:0000207 ! plant height
+
+[Term]
+id: CO_350:0000024
+name: oat relative canopy development trait
+def: "Relative canopy development, each genotype is rated against the earliest genotypes, when those genotypes have a completely closed canopy." []
+synonym: "nan" EXACT []
+is_a: TO:0000357 ! plant growth and development trait
+
+[Term]
+id: CO_350:0000027
+name: oat snapback trait
+def: "Snapback, or recovery to a vertical position, of the plant after being held at a 45 degree angle." []
+synonym: "nan" EXACT []
+is_a: TO:0000051 ! stem strength
+
+[Term]
+id: CO_350:0000030
+name: oat winter survival trait
+def: "Percentage of plants in a plot sown in fall that are still growing in spring." []
+synonym: "nan" EXACT []
+is_a: TO:0001153 ! survival rate after freezing temperature stress
+
+[Term]
+id: CO_350:0000033
+name: oat avenanthramide content trait
+def: "Avenanthramide content" []
+synonym: "AveCnt" EXACT []
+is_a: TO:0020076 ! phenolic compound content
+
+[Term]
+id: CO_350:0000036
+name: oat beta-glucan content trait
+def: "Amount of beta-glucan present in the groat expressed as a percentage of the entire groat." []
+synonym: "BeGlCnt" EXACT []
+is_a: TO:0020068 ! beta-glucan content
+
+[Term]
+id: CO_350:0000039
+name: oat broken groats trait
+def: "The amount of broken groats after de-hulling, expressed as a percentage of the weight of the entire whole grain sample." []
+synonym: "nan" EXACT []
+is_a: TO:0000162 ! grain quality trait
+
+[Term]
+id: CO_350:0000042
+name: oat dietary fiber content trait
+def: "Dietary fiber content" []
+synonym: "DietFibCnt" EXACT []
+is_a: TO:0002642 ! fiber content trait
+
+[Term]
+id: CO_350:0000045
+name: oat deoxynivalenol concentration trait
+def: "Amount of the mycotoxin deoxynivalenol found in the grain after an infection by Fusarium sp." []
+synonym: "DON concentration" EXACT []
+is_a: TO:0000669 ! deoxynivalenol content
+
+[Term]
+id: CO_350:0000048
+name: oat grain protein content trait
+def: "The amount of protein in the grain, expressed as a percentage of the whole grain." []
+synonym: "nan" EXACT []
+is_a: TO:0001136 ! grain protein content
+
+[Term]
+id: CO_350:0000051
+name: oat groat oil content trait
+def: "The amount of oil in the groat, expressed as a percentage of the groat." []
+synonym: "nan" EXACT []
+is_a: TO:0000604 ! fat and essential oil content
+
+[Term]
+id: CO_350:0000054
+name: oat groat protein content trait
+def: "The amount of protein in the groat, expressed as a percentage of the groat." []
+synonym: "nan" EXACT []
+is_a: TO:0001136 ! grain protein content
+
+[Term]
+id: CO_350:0000057
+name: oat tocotrienol concentration trait
+def: "Tocotrienol concentration" []
+synonym: "TocotrCtn" EXACT []
+is_a: TO:0000281 ! metabolite content trait
+
+[Term]
+id: CO_350:0000060
+name: oat tocopherol concentration trait
+def: "Tocopherol concentration" []
+synonym: "TocophCtn" EXACT []
+is_a: TO:0000281 ! metabolite content trait
+
+[Term]
+id: CO_350:0000063
+name: oat undehulled seed trait
+def: "Amount of undehulled seed remaining after dehulling." []
+synonym: "nan" EXACT []
+is_a: TO:0000162 ! grain quality trait
+
+[Term]
+id: CO_350:0000066
+name: oat grain plumpness trait
+def: "The amount of a grain sample that does not pass through the holes of a sieve of defined size, expressed as a percentage weight of the entire sample." []
+synonym: "GrPlum" EXACT []
+is_a: TO:0000399 ! grain thickness
+
+[Term]
+id: CO_350:0000069
+name: oat grain color trait
+def: "Color of the hulled grain." []
+synonym: "nan" EXACT []
+is_a: TO:0001109 ! grain color trait
+
+[Term]
+id: CO_350:0000072
+name: oat groat color trait
+def: "Color of the de-hulled grain: the groat." []
+synonym: "nan" EXACT []
+is_a: TO:0000385 ! milled grain color
+
+[Term]
+id: CO_350:0000075
+name: oat test weight trait
+def: "A measure of the density or weight per unit volume of a grain at a standardized moisture level." []
+synonym: "nan" EXACT []
+is_a: TO:0000919 ! grain weight
+
+[Term]
+id: CO_350:0000078
+name: oat thousand grain weight trait
+def: "The thousand grain weight." []
+synonym: "TGW" EXACT []
+is_a: TO:0000382 ! 1000-grain weight
+
+[Term]
+id: CO_350:0000081
+name: oat barley yellow dwarf virus incidence trait
+def: "Percentage of plants in a plot showing symptoms of barley yellow dwarf virus." []
+synonym: "BYDV incidence" EXACT []
+is_a: TO:0020067 ! barley yellow dwarf virus disease resistance
+
+[Term]
+id: CO_350:0000084
+name: oat barley yellow dwarf virus severity trait
+def: "Severity of barley yellow dwarf virus symptoms observed in a plot." []
+synonym: "BYDV severity" EXACT []
+is_a: TO:0020067 ! barley yellow dwarf virus disease resistance
+
+[Term]
+id: CO_350:0000087
+name: oat crown rust infection type trait
+def: "A qualitative analysis of the type of crown rust symptoms that are exhibited." []
+synonym: "CRItype" EXACT []
+is_a: TO:0001146 ! Basidiomycete fungal disease response
+
+[Term]
+id: CO_350:0000090
+name: oat crown rust severity trait
+def: "Crown rust severity." []
+synonym: "CrnRst" EXACT []
+is_a: TO:0001146 ! Basidiomycete fungal disease response
+
+[Term]
+id: CO_350:0000093
+name: oat fusarium head blight incidence trait
+def: "Percentage of plants in a plot showing Fusarium head blight symptoms." []
+synonym: "FHB incidence" EXACT []
+is_a: TO:0001145 ! Ascomycete fungal disease response
+
+[Term]
+id: CO_350:0000096
+name: oat leaf blotch severity trait
+def: "Severity of leaf blotch symptoms observed in a plot." []
+synonym: "nan" EXACT []
+is_a: TO:0001145 ! Ascomycete fungal disease response
+
+[Term]
+id: CO_350:0000099
+name: oat powdery mildew incidence trait
+def: "Percentage of plants in a plot showing symptoms of powdery mildew." []
+synonym: "nan" EXACT []
+is_a: TO:0001145 ! Ascomycete fungal disease response
+
+[Term]
+id: CO_350:0000102
+name: oat root rot incidence trait
+def: "Percentage of plants in a plot showing symptoms of root rot." []
+synonym: "nan" EXACT []
+is_a: TO:0001145 ! Ascomycete fungal disease response
+
+[Term]
+id: CO_350:0000105
+name: oat smut incidence trait
+def: "Percentage of plants in a plot showing symptoms of smut." []
+synonym: "nan" EXACT []
+is_a: TO:0001146 ! Basidiomycete fungal disease response
+
+[Term]
+id: CO_350:0000108
+name: oat stem rust incidence trait
+def: "Percentage of plants in a plot showing symptoms of stem rust." []
+synonym: "nan" EXACT []
+is_a: TO:0001146 ! Basidiomycete fungal disease response
+
+[Term]
+id: CO_350:0000111
+name: oat stem rust infection type trait
+def: "A qualitative analysis of the type of stem rust symptoms that are exhibited." []
+synonym: "Srinftype" EXACT []
+is_a: TO:0001146 ! Basidiomycete fungal disease response
+
+[Term]
+id: CO_350:0000114
+name: oat stem rust severity trait
+def: "Stem rust severity." []
+synonym: "StmRst" EXACT []
+is_a: TO:0001146 ! Basidiomycete fungal disease response
+
+[Term]
+id: CO_350:0000117
+name: oat lodging severity trait
+def: "Severity of lodging symptoms observed in a plot: lodged plants do not stand erect." []
+synonym: "LodgSev" EXACT []
+is_a: TO:0000068 ! lodging incidence
+
+[Term]
+id: CO_350:0000120
+name: oat grain moisture content trait
+def: "Moisture content of grain." []
+synonym: "MoiCon" EXACT []
+is_a: TO:0000057 ! grain moisture content
+
+[Term]
+id: CO_350:0000121
+name: oat green area index trait
+def: "A dimensionless quantity that characterizes plant canopies and defined as the green area per unit ground surface area." []
+synonym: "GAI" EXACT []
+is_a: TO:0000559 ! plant volume
+
+[Term]
+id: CO_350:0000122
+name: oat green leaf area trait
+def: "The percentage area of a leaf that is green." []
+synonym: "GLA" EXACT []
+is_a: TO:0000299 ! leaf lamina color
+
+[Term]
+id: CO_350:0000123
+name: oat leaf area index trait
+def: "A dimensionless quantity that characterizes plant canopies and defined as the leaf area per unit ground surface area." []
+synonym: "LAI" EXACT []
+is_a: TO:0012001 ! leaf area index
+
+[Term]
+id: CO_350:0000125
+name: oat specific weight trait
+def: "A measure of the density or weight per unit volume of a oat/groat at a standardized moisture level." []
+synonym: "SpecWgt" EXACT []
+is_a: TO:0000919 ! grain weight
+
+[Term]
+id: CO_350:0000126
+name: oat stem water soluable carbohydrates trait
+def: "Water soluble carbohydrates accumulated into the stem." []
+synonym: "SWSC" EXACT []
+is_a: TO:0000291 ! carbohydrate content
+
+[Term]
+id: CO_350:0000127
+name: oat groat area trait
+def: "The groat area." []
+synonym: "GrtA" EXACT []
+is_a: TO:0000397 ! grain size
+
+[Term]
+id: CO_350:0000128
+name: oat groat aspect ratio trait
+def: "The groat aspect ratio." []
+synonym: "GrtAR" EXACT []
+is_a: TO:0002730 ! grain shape
+
+[Term]
+id: CO_350:0000129
+name: oat groat length trait
+def: "The groat length." []
+synonym: "GrtLn" EXACT []
+is_a: TO:0000734 ! grain length
+
+[Term]
+id: CO_350:0000130
+name: oat groat perimeter trait
+def: "The groat perimeter." []
+synonym: "GrtPrm" EXACT []
+is_a: TO:0000397 ! grain size
+
+[Term]
+id: CO_350:0000131
+name: oat groat ratio trait
+def: "The groat ratio." []
+synonym: "GrtRt" EXACT []
+is_a: TO:0000162 ! grain quality trait
+
+[Term]
+id: CO_350:0000132
+name: oat groat roundness trait
+def: "The groat roundness." []
+synonym: "GrtRd" EXACT []
+is_a: TO:0002730 ! grain shape
+
+[Term]
+id: CO_350:0000133
+name: oat groat width trait
+def: "The groat width." []
+synonym: "GrtWd" EXACT []
+is_a: TO:0000402 ! dehulled grain width
+
+[Term]
+id: CO_350:0000134
+name: oat groat/kernel ratio trait
+def: "The groat/kernel ratio." []
+synonym: "GrtKR" EXACT []
+is_a: TO:0000162 ! grain quality trait
+
+[Term]
+id: CO_350:0000135
+name: oat kernel area trait
+def: "The kernel area." []
+synonym: "KA" EXACT []
+is_a: TO:0000397 ! grain size
+
+[Term]
+id: CO_350:0000136
+name: oat kernel aspect ratio trait
+def: "The kernel aspect ratio." []
+synonym: "KAR" EXACT []
+is_a: TO:0002730 ! grain shape
+
+[Term]
+id: CO_350:0000137
+name: oat kernel content trait
+def: "The kernel content." []
+synonym: "KCnt" EXACT []
+is_a: TO:0000162 ! grain quality trait
+
+[Term]
+id: CO_350:0000138
+name: oat kernel length trait
+def: "The kernel length." []
+synonym: "KLn" EXACT []
+is_a: TO:0000734 ! grain length
+
+[Term]
+id: CO_350:0000139
+name: oat kernel perimeter trait
+def: "The kernel perimeter." []
+synonym: "KPrm" EXACT []
+is_a: TO:0000397 ! grain size
+
+[Term]
+id: CO_350:0000140
+name: oat kernel ratio trait
+def: "The kernel ratio." []
+synonym: "KRt" EXACT []
+is_a: TO:0000162 ! grain quality trait
+
+[Term]
+id: CO_350:0000141
+name: oat kernel width trait
+def: "The kernel width." []
+synonym: "Kwd" EXACT []
+is_a: TO:0000975 ! grain width
+
+[Term]
+id: CO_350:0000176
+name: oat plant phenotypic acceptability trait
+def: "The plant phenotypic acceptability." []
+synonym: "PlntPhnAcc" EXACT []
+is_a: TO:0000322 ! phenotypic acceptability
+
+[Term]
+id: CO_350:0000179
+name: oat vigor trait
+def: "The plant vigor." []
+synonym: "PlntVig" EXACT []
+is_a: TO:0000250 ! plant vigor trait
+
+[Term]
+id: CO_350:0000187
+name: oat acid soil tolerance trait
+def: "The plants tolerance to acid soil." []
+synonym: "AcdTol" EXACT []
+is_a: TO:0000178 ! acid soil sensitivity
+
+[Term]
+id: CO_350:0000190
+name: oat cold tolerance trait
+def: "The plants tolerance to lower temperatures than the optimum." []
+synonym: "cold susceptibility" EXACT []
+synonym: "ColdTol" EXACT []
+synonym: "low temperature tolerance" EXACT []
+is_a: TO:0000303 ! cold tolerance
+
+[Term]
+id: CO_350:0000193
+name: oat drought stress tolerance trait
+def: "The plant tolerance to drought stress." []
+synonym: "DrouTol" EXACT []
+is_a: TO:0000276 ! drought tolerance
+
+[Term]
+id: CO_350:0000196
+name: oat frost tolerance trait
+def: "The plant tolerance to frost." []
+synonym: "FrostTol" EXACT []
+is_a: TO:0001152 ! frost damage stress response
+
+[Term]
+id: CO_350:0000199
+name: oat heat tolerance trait
+def: "The plants tolerance to heat conditions." []
+synonym: "HeatTol" EXACT []
+is_a: TO:0000259 ! heat tolerance
+
+[Term]
+id: CO_350:0000202
+name: oat salinity tolerance trait
+def: "The plants tolerance to soil salinity." []
+synonym: "SaltTol" EXACT []
+is_a: TO:0006001 ! salt tolerance
+
+[Term]
+id: CO_350:0000205
+name: oat waterlogging tolerance trait
+def: "The plant tolerance to waterlogging." []
+synonym: "WtrLogTol" EXACT []
+is_a: TO:0000114 ! flooding related trait
+
+[Term]
+id: CO_350:0000208
+name: oat canopy green persistence trait
+def: "The relative proportion of the canopy thas has not senesced." []
+synonym: "CnpGrnP" EXACT []
+is_a: TO:0000249 ! leaf senescence trait
+
+[Term]
+id: CO_350:0000213
+name: oat canopy senescence trait
+def: "The relative proportion of the canopy that has senesced." []
+synonym: "CnpSen" EXACT []
+is_a: TO:0000249 ! leaf senescence trait
+
+[Term]
+id: CO_350:0000218
+name: oat canopy temperature trait
+def: "The temerature of the canopy." []
+synonym: "CnpTmp" EXACT []
+is_a: TO:0000157 ! canopy temperature
+
+[Term]
+id: CO_350:0000222
+name: oat canopy temperature depression trait
+def: "The difference in temperature between canopy and air." []
+synonym: "CnpTmpD" EXACT []
+is_a: TO:0000432 ! temperature response trait
+
+[Term]
+id: CO_350:0000226
+name: oat internode distance trait
+def: "The internode distance ." []
+synonym: "IntNd" EXACT []
+is_a: TO:0000145 ! shoot axis internode length
+
+[Term]
+id: CO_350:0000229
+name: oat leaf length trait
+def: "The leaf length." []
+synonym: "LfLn" EXACT []
+is_a: TO:0000135 ! leaf length
+
+[Term]
+id: CO_350:0000235
+name: oat stem length trait
+def: "The stem length." []
+synonym: "StmLn" EXACT []
+is_a: TO:0000576 ! stem length
+
+[Term]
+id: CO_350:0000238
+name: oat flowering time trait
+def: "The time when flowering occurs" []
+synonym: "FlwDays" EXACT []
+is_a: TO:0002616 ! flowering time trait
+
+[Term]
+id: CO_350:0000247
+name: oat groat weight trait
+def: "Groat weight." []
+synonym: "GrtrWght" EXACT []
+is_a: TO:0000919 ! grain weight
+
+[Term]
+id: CO_350:0000266
+name: oat grains per panicle trait
+def: "The number of grains per panicle." []
+synonym: "GrnPPn" EXACT []
+is_a: TO:0002759 ! grain number trait
+
+[Term]
+id: CO_350:0000276
+name: oat above ground dry biomass trait
+def: "Dry biomass of all above ground plant parts." []
+synonym: "AGDBM" EXACT []
+is_a: TO:0000327 ! shoot system yield trait
+
+[Term]
+id: CO_350:0000279
+name: oat above ground fresh biomass trait
+def: "Fresh biomass of all above ground plant parts." []
+synonym: "AGFBM" EXACT []
+is_a: TO:0000327 ! shoot system yield trait
+
+[Term]
+id: CO_350:0000282
+name: oat below ground dry biomass trait
+def: "Dry biomass of all below ground plant parts." []
+synonym: "BGDBM" EXACT []
+is_a: TO:0001041 ! root yield
+
+[Term]
+id: CO_350:0000285
+name: oat below ground fresh biomass trait
+def: "Fresh biomass of all below ground plant parts." []
+synonym: "BGFBM" EXACT []
+is_a: TO:0001041 ! root yield
+
+[Term]
+id: CO_350:0000288
+name: oat chaff dry biomass trait
+def: "The dry biomass of chaff." []
+synonym: "CFFDBM" EXACT []
+is_a: TO:0000457 ! biomass yield
+
+[Term]
+id: CO_350:0000291
+name: oat chaff fresh biomass trait
+def: "The fresh biomass of chaff." []
+synonym: "CFFFBM" EXACT []
+is_a: TO:0000457 ! biomass yield
+
+[Term]
+id: CO_350:0000294
+name: oat fertile tiller dry biomass trait
+def: "Dry biomass of all fertile tillers." []
+synonym: "FTDBM" EXACT []
+is_a: TO:0000327 ! shoot system yield trait
+
+[Term]
+id: CO_350:0000297
+name: oat fertile tiller fresh biomass trait
+def: "Fresh biomass of all fertile tillers." []
+synonym: "FTFBM" EXACT []
+is_a: TO:0000327 ! shoot system yield trait
+
+[Term]
+id: CO_350:0000300
+name: oat green leaf dry biomass trait
+def: "Dry biomass of all leaves that have a green area > 50%." []
+synonym: "GLDBM" EXACT []
+is_a: TO:0000457 ! biomass yield
+
+[Term]
+id: CO_350:0000303
+name: oat green leaf fresh biomass trait
+def: "Fresh biomass of all leaves that have a green area > 50%." []
+synonym: "GLFBM" EXACT []
+is_a: TO:0000457 ! biomass yield
+
+[Term]
+id: CO_350:0000306
+name: oat infertile tiller dry biomass trait
+def: "Dry biomass of all infertile tillers." []
+synonym: "ITDBM" EXACT []
+is_a: TO:0000327 ! shoot system yield trait
+
+[Term]
+id: CO_350:0000309
+name: oat infertile tiller fresh biomass trait
+def: "Fresh biomass of all infertile tillers." []
+synonym: "ITFBM" EXACT []
+is_a: TO:0000327 ! shoot system yield trait
+
+[Term]
+id: CO_350:0000312
+name: oat non-green leaf dry biomass trait
+def: "Dry biomass of all leaves that have a green area < 50%." []
+synonym: "NGLDBM" EXACT []
+is_a: TO:0000457 ! biomass yield
+
+[Term]
+id: CO_350:0000315
+name: oat non-green leaf fresh biomass trait
+def: "Fresh biomass of all leaves that have a green area < 50%." []
+synonym: "NGLFBM" EXACT []
+is_a: TO:0000457 ! biomass yield
+
+[Term]
+id: CO_350:0000318
+name: oat panicle dry biomass trait
+def: "Dry biomass of all panicles" []
+synonym: "PDBM" EXACT []
+is_a: TO:0000457 ! biomass yield
+
+[Term]
+id: CO_350:0000321
+name: oat panicle fresh biomass trait
+def: "Fresh biomass of all panicles." []
+synonym: "PFBM" EXACT []
+is_a: TO:0000457 ! biomass yield
+
+[Term]
+id: CO_350:0000324
+name: oat secondary tiller dry biomass trait
+def: "Dry biomass of all secondary tillers." []
+synonym: "STDBM" EXACT []
+is_a: TO:0000327 ! shoot system yield trait
+
+[Term]
+id: CO_350:0000327
+name: oat secondary tiller fresh biomass trait
+def: "Fresh biomass of all secondary tillers." []
+synonym: "STFBM" EXACT []
+is_a: TO:0000327 ! shoot system yield trait
+
+[Term]
+id: CO_350:0000330
+name: oat straw dry biomass trait
+def: "The straw dry biomass." []
+synonym: "StrwDBM" EXACT []
+is_a: TO:0000457 ! biomass yield
+
+[Term]
+id: CO_350:0000333
+name: oat straw fresh biomass trait
+def: "The straw fresh biomass." []
+synonym: "StrwFBM" EXACT []
+is_a: TO:0000457 ! biomass yield
+
+[Term]
+id: CO_350:0000338
+name: oat panicle area trait
+def: "The area of panicles." []
+synonym: "PA" EXACT []
+is_a: TO:0006032 ! panicle inflorescence size
+
+[Term]
+id: CO_350:0000341
+name: oat stem area trait
+def: "The area of stems." []
+synonym: "SA" EXACT []
+is_a: TO:0000892 ! stem size
+
+[Term]
+id: CO_350:0000354
+name: oat leaf stomatal resistance trait
+def: "The leaf stomatal resistance." []
+synonym: "LfStmRs" EXACT []
+is_a: TO:0000523 ! stomatal resistance
+
+[Term]
+id: CO_350:0000358
+name: oat above ground n content trait
+def: "The N content of all above ground plant parts." []
+synonym: "AbNcnt" EXACT []
+is_a: TO:0020093 ! nitrogen content
+
+[Term]
+id: CO_350:0000361
+name: oat chaff n content trait
+def: "The nitrogen content of the chaff." []
+synonym: "ChffNCnt" EXACT []
+is_a: TO:0020093 ! nitrogen content
+
+[Term]
+id: CO_350:0000364
+name: oat infertile tiller n content trait
+def: "The nitrogen content of the infertile tiller." []
+synonym: "IfTllrNCnt" EXACT []
+is_a: TO:0020093 ! nitrogen content
+
+[Term]
+id: CO_350:0000367
+name: oat leaf n content trait
+def: "The nitrogen content of the leaf." []
+synonym: "LfNCnt" EXACT []
+is_a: TO:0020093 ! nitrogen content
+
+[Term]
+id: CO_350:0000370
+name: oat oat/groat n content trait
+def: "The nitrogen content of the oat/groat." []
+synonym: "GrNCnt" EXACT []
+is_a: TO:0003068 ! grain nitrogen content
+
+[Term]
+id: CO_350:0000373
+name: oat panicle n content trait
+def: "The nitrogen content of the panicle." []
+synonym: "PNCnt" EXACT []
+is_a: TO:0003069 ! panicle nitrogen content
+
+[Term]
+id: CO_350:0000376
+name: oat plant n content trait
+def: "The nitrogen content of the plant." []
+synonym: "PlntNCnt" EXACT []
+is_a: TO:0020093 ! nitrogen content
+
+[Term]
+id: CO_350:0000379
+name: oat root n content trait
+def: "The nitrogen content of the root." []
+synonym: "RtNCnt" EXACT []
+is_a: TO:0003074 ! root nitrogen content
+
+[Term]
+id: CO_350:0000382
+name: oat secondary tiller n content trait
+def: "The nitrogen content of the secondary tiller." []
+synonym: "STllrNCnt" EXACT []
+is_a: TO:0020093 ! nitrogen content
+
+[Term]
+id: CO_350:0000385
+name: oat stem n content trait
+def: "The nitrogen content of the stem." []
+synonym: "StNCnt" EXACT []
+is_a: TO:0003062 ! stem nitrogen content
+
+[Term]
+id: CO_350:0000388
+name: oat straw n content trait
+def: "The nitrogen content of the straw." []
+synonym: "StNCnt" EXACT []
+is_a: TO:0020093 ! nitrogen content
+
+[Term]
+id: CO_350:0000391
+name: oat tiller n content trait
+def: "The nitrogen content of the tiller." []
+synonym: "TllrNCnt" EXACT []
+is_a: TO:0020093 ! nitrogen content
+
+[Term]
+id: CO_350:0000394
+name: oat leaf chlorophyll content trait
+def: "The leaf chlorophyll content." []
+synonym: "LfChlphCnt" EXACT []
+is_a: TO:0012002 ! leaf chlorophyll content
+
+[Term]
+id: CO_350:0000428
+name: oat leaf width trait
+def: "The leaf width." []
+synonym: "LfWd" EXACT []
+is_a: TO:0000370 ! leaf width
+
+[Term]
+id: CO_350:0000479
+name: oat leaf stomatal conductance trait
+def: "The leaf stomatal conductance." []
+synonym: "LfStmCnd" EXACT []
+is_a: TO:0000523 ! stomatal resistance
+
+[Term]
+id: CO_350:0000483
+name: oat normalized difference vegetation index trait
+def: "Normalized difference vegetation index." []
+synonym: "NDVI" EXACT []
+is_a: TO:0000249 ! leaf senescence trait
+
+[Term]
+id: CO_350:0000487
+name: oat fertile panicle number trait
+def: "The number of fertile panicles per plant." []
+synonym: "FrtPnNm" EXACT []
+is_a: TO:0000152 ! panicle number
+
+[Term]
+id: CO_350:0000491
+name: oat anthracnose severity trait
+def: "Anthracnose severity." []
+synonym: "Anthcn" EXACT []
+is_a: TO:0001145 ! Ascomycete fungal disease response
+
+[Term]
+id: CO_350:0000494
+name: oat bacterial blight (halo blight) severity trait
+def: "Bacterial blight (halo blight) severity." []
+synonym: "Blght" EXACT []
+is_a: TO:0000770 ! bacterial blight disease resistance
+
+[Term]
+id: CO_350:0000497
+name: oat bacterial stripe blight severity trait
+def: "Bacterial stripe blight severity." []
+synonym: "StrpBlght" EXACT []
+is_a: TO:0000770 ! bacterial blight disease resistance
+
+[Term]
+id: CO_350:0000500
+name: oat barley fraction trait
+def: "Fraction of barley." []
+synonym: "Bar" EXACT []
+is_a: TO:0000162 ! grain quality trait
+
+[Term]
+id: CO_350:0000503
+name: oat barley yellow dwarf virus severity trait
+def: "Barley yellow dwarf virus severity." []
+synonym: "BYDV" EXACT []
+is_a: TO:0020067 ! barley yellow dwarf virus disease resistance
+
+[Term]
+id: CO_350:0000506
+name: oat black chaff and bacterial streak (stripe) severity trait
+def: "Black chaff and bacterial streak (stripe) severity." []
+synonym: "BlckChff" EXACT []
+is_a: TO:0000315 ! bacterial disease response
+
+[Term]
+id: CO_350:0000509
+name: oat blast severity trait
+def: "Blast severity." []
+synonym: "Blst" EXACT []
+is_a: TO:0001145 ! Ascomycete fungal disease response
+
+[Term]
+id: CO_350:0000512
+name: oat covered smut severity trait
+def: "Covered smut severity." []
+synonym: "CvdSmt" EXACT []
+is_a: TO:0001146 ! Basidiomycete fungal disease response
+
+[Term]
+id: CO_350:0000517
+name: oat discoloured groats fraction trait
+def: "Fraction of discoloured groats." []
+synonym: "DisClrGrt" EXACT []
+is_a: TO:0000162 ! grain quality trait
+
+[Term]
+id: CO_350:0000520
+name: oat diseased leaf area trait
+def: "The percentage area of a leaf that is diseased." []
+synonym: "DLA" EXACT []
+is_a: TO:0000162 ! grain quality trait
+
+[Term]
+id: CO_350:0000523
+name: oat downy mildew severity trait
+def: "Downy mildew severity." []
+synonym: "DnyMd" EXACT []
+is_a: TO:0001144 ! Oomycete disease response
+
+[Term]
+id: CO_350:0000526
+name: oat ergot fraction trait
+def: "Fraction of ergot infected oats." []
+synonym: "Ergt" EXACT []
+is_a: TO:0001145 ! Ascomycete fungal disease response
+
+[Term]
+id: CO_350:0000529
+name: oat ergot severity trait
+def: "Ergot severity." []
+synonym: "Ergt" EXACT []
+is_a: TO:0001145 ! Ascomycete fungal disease response
+
+[Term]
+id: CO_350:0000532
+name: oat fusarium foot rot severity trait
+def: "Fusarium foot rot severity." []
+synonym: "FusFtRt" EXACT []
+is_a: TO:0001145 ! Ascomycete fungal disease response
+
+[Term]
+id: CO_350:0000545
+name: oat greens fraction trait
+def: "Fraction of green oats." []
+synonym: "Grns" EXACT []
+is_a: TO:0000162 ! grain quality trait
+
+[Term]
+id: CO_350:0000548
+name: oat groating yield trait
+def: "Groating yield." []
+synonym: "GrtYld" EXACT []
+is_a: TO:0000162 ! grain quality trait
+
+[Term]
+id: CO_350:0000551
+name: oat harvest index trait
+def: "The harvest index of the grain." []
+synonym: "HI" EXACT []
+is_a: TO:0000895 ! fruit harvest index
+
+[Term]
+id: CO_350:0000554
+name: oat head blight severity trait
+def: "Head blight severity." []
+synonym: "HdBlght" EXACT []
+is_a: TO:0001145 ! Ascomycete fungal disease response
+
+[Term]
+id: CO_350:0000557
+name: oat heated oats fraction trait
+def: "Fraction of heated oats." []
+synonym: "HtOat" EXACT []
+is_a: TO:0000162 ! grain quality trait
+
+[Term]
+id: CO_350:0000560
+name: oat infestation fraction trait
+def: "Fraction of infested oats." []
+synonym: "Inf" EXACT []
+is_a: TO:0000162 ! grain quality trait
+
+[Term]
+id: CO_350:0000569
+name: oat leaf blotch and crown rot severity trait
+def: "Leaf blotch and crown rot severity." []
+synonym: "LfBltch" EXACT []
+is_a: TO:0001145 ! Ascomycete fungal disease response
+
+[Term]
+id: CO_350:0000572
+name: oat lipid content trait
+def: "The lipid content of the grain." []
+synonym: "LpCnt" EXACT []
+is_a: TO:0000604 ! fat and essential oil content
+
+[Term]
+id: CO_350:0000575
+name: oat loose smut severity trait
+def: "Loose smut severity." []
+synonym: "LsSmt" EXACT []
+is_a: TO:0001146 ! Basidiomycete fungal disease response
+
+[Term]
+id: CO_350:0000578
+name: oat non-green leaf area trait
+def: "The percentage area of a leaf that is not green." []
+synonym: "NGLA" EXACT []
+is_a: TO:0000299 ! leaf lamina color
+
+[Term]
+id: CO_350:0000581
+name: oat oat blue dwarf virus severity trait
+def: "Oat blue dwarf virus severity." []
+synonym: "OBDV" EXACT []
+is_a: TO:0000148 ! viral disease response trait
+
+[Term]
+id: CO_350:0000584
+name: oat oat mosaic virus severity trait
+def: "Oat mosaic virus severity." []
+synonym: "OMV" EXACT []
+is_a: TO:0000148 ! viral disease response trait
+
+[Term]
+id: CO_350:0000587
+name: oat oat necrotic mottle virus severity trait
+def: "Oat necrotic mottle virus severity." []
+synonym: "ONMV" EXACT []
+is_a: TO:0000148 ! viral disease response trait
+
+[Term]
+id: CO_350:0000590
+name: oat oat/groat breakage fraction trait
+def: "Fraction of oat/groat broken." []
+synonym: "BrkFrt" EXACT []
+is_a: TO:0000162 ! grain quality trait
+
+[Term]
+id: CO_350:0000593
+name: oat odour fraction trait
+def: "Fraction of odour/tainted oats." []
+synonym: "Od" EXACT []
+is_a: TO:0000162 ! grain quality trait
+
+[Term]
+id: CO_350:0000596
+name: oat pink snow mold(fusarium patch) severity trait
+def: "Pink snow mold(Fusarium patch) severity." []
+synonym: "PnkMd" EXACT []
+is_a: TO:0001145 ! Ascomycete fungal disease response
+
+[Term]
+id: CO_350:0000599
+name: oat powdery mildew severity trait
+def: "Powdery mildew severity." []
+synonym: "PdMd" EXACT []
+is_a: TO:0001145 ! Ascomycete fungal disease response
+
+[Term]
+id: CO_350:0000602
+name: oat rhizoctonia root rot severity trait
+def: "Rhizoctonia root rot severity." []
+synonym: "RhzRtRt" EXACT []
+is_a: TO:0001146 ! Basidiomycete fungal disease response
+
+[Term]
+id: CO_350:0000605
+name: oat root rot severity trait
+def: "Root rot severity." []
+synonym: "RtRt" EXACT []
+is_a: TO:0001146 ! Basidiomycete fungal disease response
+
+[Term]
+id: CO_350:0000608
+name: oat seedling blight severity trait
+def: "Seedling blight severity." []
+synonym: "SdBlght" EXACT []
+is_a: TO:0000770 ! bacterial blight disease resistance
+
+[Term]
+id: CO_350:0000611
+name: oat sharp eyespot severity trait
+def: "Sharp eyespot severity." []
+synonym: "ShpESpt" EXACT []
+is_a: TO:0001146 ! Basidiomycete fungal disease response
+
+[Term]
+id: CO_350:0000614
+name: oat small groats fraction trait
+def: "Fraction of small groats." []
+synonym: "SmGrt" EXACT []
+is_a: TO:0000162 ! grain quality trait
+
+[Term]
+id: CO_350:0000617
+name: oat speckled blotch (septoria blight) severity trait
+def: "Speckled blotch (Septoria blight) severity." []
+synonym: "SpcBltch" EXACT []
+is_a: TO:0001145 ! Ascomycete fungal disease response
+
+[Term]
+id: CO_350:0000620
+name: oat speckled snow mold or gray (typhula blight) severity trait
+def: "Speckled snow mold or gray (Typhula blight) severity." []
+synonym: "SnMd" EXACT []
+is_a: TO:0001146 ! Basidiomycete fungal disease response
+
+[Term]
+id: CO_350:0000623
+name: oat sprouts fraction trait
+def: "Fraction of sprouted oats." []
+synonym: "Spr" EXACT []
+is_a: TO:0000162 ! grain quality trait
+
+[Term]
+id: CO_350:0000628
+name: oat take-all (white head) severity trait
+def: "Take-all (white head) severity." []
+synonym: "TkAll" EXACT []
+is_a: TO:0001145 ! Ascomycete fungal disease response
+
+[Term]
+id: CO_350:0000631
+name: oat thin oats fraction trait
+def: "Fraction of thin oats." []
+synonym: "ThnOat" EXACT []
+is_a: TO:0000162 ! grain quality trait
+
+[Term]
+id: CO_350:0000634
+name: oat victoria blight severity trait
+def: "Victoria blight severity." []
+synonym: "VicBlght" EXACT []
+is_a: TO:0001145 ! Ascomycete fungal disease response
+
+[Term]
+id: CO_350:0000637
+name: oat wheat fraction trait
+def: "Fraction of wheat." []
+synonym: "Wht" EXACT []
+is_a: TO:0000162 ! grain quality trait
+
+[Term]
+id: CO_350:0000647
+name: oat stover n yield trait
+def: "The stover N yield." []
+synonym: "StvrNYld" EXACT []
+is_a: TO:0020093 ! nitrogen content
+
+[Term]
+id: CO_350:0000651
+name: oat adjusted yield (15% moisture) trait
+def: "The moisture adjusted yield." []
+synonym: "AdjYld" EXACT []
+is_a: TO:0000396 ! grain yield trait
+
+[Term]
+id: CO_350:0000655
+name: oat stover yield trait
+def: "The stover yield." []
+synonym: "StvrYld" EXACT []
+is_a: TO:0000371 ! yield trait
+
+[Term]
+id: CO_350:0000659
+name: oat fertile tiller number trait
+def: "Number of fertile tillers." []
+synonym: "FertTllrNum" EXACT []
+is_a: TO:0000346 ! tiller number
+
+[Term]
+id: CO_350:0000662
+name: oat infertile tiller number trait
+def: "Number of infertile tillers." []
+synonym: "InfertTllrNum" EXACT []
+is_a: TO:0000346 ! tiller number
+
+[Term]
+id: CO_350:0000665
+name: oat secondary tiller number trait
+def: "Number of secondary tillers." []
+synonym: "SecTllrNum" EXACT []
+is_a: TO:0000346 ! tiller number
+
+[Term]
+id: CO_350:0000668
+name: oat tiller number trait
+def: "Number of tillers." []
+synonym: "TllrNum" EXACT []
+is_a: TO:0000346 ! tiller number
+
+[Term]
+id: CO_350:0000674
+name: oat emergence time trait
+def: "The time when plant emerges." []
+synonym: "EmDate" EXACT []
+is_a: TO:0006061 ! days to germinate
+
+[Term]
+id: CO_350:0000677
+name: oat first node time trait
+def: "The time when the first node is detectable." []
+synonym: "NdDate" EXACT []
+is_a: TO:0000654 ! shoot system growth and development trait
+
+[Term]
+id: CO_350:0000680
+name: oat flowering time trait
+def: "The time when flowering occurs" []
+synonym: "FlwDate" EXACT []
+is_a: TO:0002616 ! flowering time trait
+
+[Term]
+id: CO_350:0000683
+name: oat full flag leaf emergence time trait
+def: "The time when the flag leaf has fully emerged." []
+synonym: "FlgDate" EXACT []
+is_a: TO:0001008 ! days to flag leaf emergence
+
+[Term]
+id: CO_350:0000699
+name: oat insoluable fibre trait
+def: "The insoluable fibre." []
+synonym: "InSFbr" EXACT []
+is_a: TO:0002642 ! fiber content trait
+
+[Term]
+id: CO_350:0000703
+name: oat soluable fibre trait
+def: "The soluable fibre." []
+synonym: "SFbr" EXACT []
+is_a: TO:0002642 ! fiber content trait
+
+[Term]
+id: CO_350:0000707
+name: oat specific weight class trait
+def: "The specific weight class." []
+synonym: "SpecWgtClss" EXACT []
+is_a: TO:0000919 ! grain weight
+
+[Term]
+id: CO_350:0005401
+name: oat freeze damage severity trait
+def: "Severity of the symptoms of freeze damage observed in a plot" []
+synonym: "FDS" EXACT []
+is_a: TO:0001152 ! frost damage stress response
+
+[Term]
+id: CO_350:0005402
+name: oat storm damage severity trait
+def: "Severity of the damage inflicted by stormy weather" []
+synonym: "SDS" EXACT []
+is_a: TO:0000168 ! abiotic plant stress response trait
+
+[Term]
+id: CO_350:0005403
+name: oat winter stress severity trait
+def: "Mid-winter rating of the severity of the symptoms of winter stress observed in a plot" []
+synonym: "WSS" EXACT []
+is_a: TO:0000303 ! cold tolerance
+
+[Term]
+id: CO_350:0005404
+name: oat emergence trait
+def: "Percentage of plants in a plot that have emerged" []
+synonym: "PE" EXACT []
+is_a: TO:0000202 ! germination ratio
+
+[Term]
+id: CO_350:0005405
+name: oat forage rating trait
+def: "Yield potential in spring" []
+synonym: "FR" EXACT []
+is_a: TO:0000371 ! yield trait
+
+[Term]
+id: CO_350:0005406
+name: oat phenotype score trait
+def: "Relative rating of visual appeal that takes in to account plant vigor, diseases, etc." []
+synonym: "PS" EXACT []
+is_a: TO:0000322 ! phenotypic acceptability
+
+[Term]
+id: CO_350:0005407
+name: oat silage yield trait
+def: "Total weight of silage per unit area" []
+synonym: "SY" EXACT []
+is_a: TO:0000457 ! biomass yield
+
+[Term]
+id: CO_350:0005408
+name: oat bird damage severity trait
+def: "Severity of the symptoms of bird damage observed in a plot" []
+synonym: "BDS" EXACT []
+is_a: TO:0000260 ! bird damage response trait
+
+[Term]
+id: CO_350:0005409
+name: oat cereal leaf beetle damage severity trait
+def: "Severity of larval feeding damage caused by cereal leaf beetle (Oulema malanopus)." []
+synonym: "CLBS" EXACT []
+is_a: TO:0000261 ! insect damage response trait
+
+[Term]
+id: CO_350:0005410
+name: oat stagonospora severity trait
+def: "Severity of Stagonospora avenae f. sp. avenaria symptoms. Stagonospora causes leaf blotch and black stem of oat." []
+synonym: "SAS" EXACT []
+is_a: TO:0001145 ! Ascomycete fungal disease response
+
+[Term]
+id: CO_350:0005413
+name: oat growth habit trait
+def: "Growth habit rating ranging from very upright spring type to very prostrate winter type" []
+synonym: "GH" EXACT []
+is_a: TO:0000947 ! whole plant growth and development trait
+
+[Term]
+id: CO_350:0005414
+name: oat hull color trait
+def: "Hull color" []
+synonym: "HC" EXACT []
+is_a: TO:0000706 ! hull color
+
+[Term]
+id: CO_350:0005416
+name: oat leaf biomass trait
+def: "An estimation of the leaf biomass" []
+synonym: "LBM" EXACT []
+is_a: TO:0000457 ! biomass yield
+
+[Term]
+id: CO_350:0005417
+name: oat panicle length trait
+def: "Average panicle length" []
+synonym: "PL" EXACT []
+is_a: TO:0002759 ! grain number trait
+
+[Term]
+id: CO_350:0005418
+name: oat spikelets per panicle trait
+def: "Average number of spikelets per panicle" []
+synonym: "SPP" EXACT []
+is_a: TO:0000456 ! spikelet number
+
+[Term]
+id: CO_350:0005419
+name: oat avenanthramide relative abundance trait
+def: "Relative abundance of avenanthramide estimated by UPLC" []
+synonym: "AveAbd" EXACT []
+is_a: TO:0020076 ! phenolic compound content
+
+[Term]
+id: CO_350:0005420
+name: oat dehulling efficiency trait
+def: "Efficiency of dehulling seed by a machine" []
+synonym: "DHE" EXACT []
+is_a: TO:0000162 ! grain quality trait
+
+[Term]
+id: CO_350:0005421
+name: oat 3-acetyl-deoxynivalenol concentration trait
+def: "Amount of the mycotoxin 3-acetyl-deoxynivalenol found in the grain after an infection by Fusarium sp." []
+synonym: "DON3-acetyl" EXACT []
+is_a: TO:0000669 ! deoxynivalenol content
+
+[Term]
+id: CO_350:0005422
+name: oat fatty acid content trait
+def: "Fatty acid content of the grain" []
+synonym: "FAC" EXACT []
+is_a: TO:0000604 ! fat and essential oil content
+
+[Term]
+id: CO_350:0005423
+name: oat groat flour falling number trait
+def: "Flour falling number is used as an indirect measurement of the alpha amylase content of the groat" []
+synonym: "FFN" EXACT []
+is_a: TO:0001069 ! cooking quality trait
+
+[Term]
+id: CO_350:0005424
+name: oat lutein content trait
+def: "Lutein content" []
+synonym: "LutCnt" EXACT []
+is_a: TO:0002701 ! lutein content
+
+[Term]
+id: CO_350:0005425
+name: oat phytoene content trait
+def: "Phytoene content" []
+synonym: "PhyeCnt" EXACT []
+is_a: TO:0000496 ! carotenoid content
+
+[Term]
+id: CO_350:0005426
+name: oat phytofluene content trait
+def: "Phytofluene content" []
+synonym: "PhyfCnt" EXACT []
+is_a: TO:0000496 ! carotenoid content
+
+[Term]
+id: CO_350:0005427
+name: oat seed quality trait
+def: "Seed quality" []
+synonym: "SQ" EXACT []
+is_a: TO:0000162 ! grain quality trait
+
+[Term]
+id: CO_350:0005428
+name: oat silage moisture content trait
+def: "Moisture content of silage." []
+synonym: "SMQ" EXACT []
+is_a: TO:0000228 ! moisture content trait
+
+[Term]
+id: CO_350:0005429
+name: oat total toco concentration trait
+def: "Measure of the total -tocopherol and -tocotrienol content" []
+synonym: "TocoCtn" EXACT []
+is_a: TO:0000281 ! metabolite content trait
+
+[Term]
+id: CO_350:0005430
+name: oat tunaxanthin content trait
+def: "Tunaxanthin content" []
+synonym: "TaxCnt" EXACT []
+is_a: TO:0000281 ! metabolite content trait
+
+[Term]
+id: CO_350:0005431
+name: oat violaxanthin content trait
+def: "Violaxanthin content" []
+synonym: "VaxCnt" EXACT []
+is_a: TO:0020119 ! violaxanthin content
+
+[Term]
+id: CO_350:0005432
+name: oat zeaxanthin content trait
+def: "Zeaxanthin content" []
+synonym: "ZaxCnt" EXACT []
+is_a: TO:0020078 ! zeaxanthin content
