@@ -1,5 +1,7 @@
 format-version: 1.2
-ontology: TEMP
+saved-by: cooperl
+default-namespace: CO_350_oats
+ontology: co_350
 
 [Term]
 id: CO_350:0000000
