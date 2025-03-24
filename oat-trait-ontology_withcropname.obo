@@ -379,7 +379,7 @@ id: CO_350:0000134
 name: oat groat/kernel ratio trait
 def: "The groat/kernel ratio." [CO:curators]
 synonym: "GrtKR" EXACT []
-is_a: TO:0000162 ! grain quality trait
+is_a: TO:0000613 ! groat percentage
 
 [Term]
 id: CO_350:0000135
