@@ -467,7 +467,7 @@ name: lentil seed yield per area trait
 def: "Seed yield from a plot" [CO:curators]
 synonym: "SYPO" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000906 ! seed yield trait
+is_a: TO:0000905 ! seed yield trait
 
 [Term]
 id: CO_339:0000171
