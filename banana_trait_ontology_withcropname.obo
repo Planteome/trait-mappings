@@ -347,14 +347,14 @@ id: CO_325:0000243
 name: main underlying colour of pseudostem
 def: "Main colour of the pseudostem under the outermost sheath." []
 synonym: "Predominant underlying colour of the pseudostem" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000810 ! pseudostem color
 
 [Term]
 id: CO_325:0000248
 name: colour line along edge of petiole margin
 def: "Presence or absence of colour line along edge of petiole margin" []
 synonym: "Edge of petiole margin" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000765 ! petiole morphology trait
 
 [Term]
 id: CO_325:0000250
@@ -368,34 +368,34 @@ id: CO_325:0000252
 name: pigmentation of outer surface of cigar leaf on sucker
 def: "Colour of pigmentation on outer surface of cigar leaf on a developed sucker" []
 synonym: "Colour of cigar leaf dorsal surface" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000326 ! leaf color
 
 [Term]
 id: CO_325:0000256
 name: petiole margins winged
 def: "Behaviour of the petiole margins - winged or not winged. The petiole and pseudostem meet at shooting. Margin is the part of the petiole that can be bent outwards/inwards." []
 synonym: "Petiole margins" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000765 ! petiole morphology trait
 
 [Term]
 id: CO_325:0000260
 name: petiole margins clasping
 def: "Behaviour of the petiole margins - winged or not winged. the petiole and pseudostem meet at shooting. Margin is the part of the petiole that can be bent outwards/inwards" []
 synonym: "Petiole margins" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000765 ! petiole morphology trait
 
 [Term]
 id: CO_325:0000264
 name: petiole margin colour
 def: "Main colour of the petiole margin. Where the petiole and pseudostem meet at shooting. Margin is the part of the petiole that can be bent outwards/inwards" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000765 ! petiole morphology trait
 
 [Term]
 id: CO_325:0000270
 name: peel weight
 def: "Weigh peel, using a scale (g). Record the peel weight (g) of the central external finger on the second top cluster." []
 synonym: "peelweight" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000906 ! exocarp morphology trait
 
 [Term]
 id: CO_325:0000292
@@ -656,21 +656,21 @@ id: CO_325:0000427
 name: blotches relative area at petiole base
 def: "Percentage coverage of petiole base by blotches." []
 synonym: "Blotches at the petiole base" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000765 ! petiole morphology trait
 
 [Term]
 id: CO_325:0000430
 name: blotches colour at the petiole base
 def: "Colour of the blotches on the upper leaf sheath of the petiole base." []
 synonym: "Blotches colour" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000765 ! petiole morphology trait
 
 [Term]
 id: CO_325:0000433
 name: margin behaviour on petiole canal of third leaf
 def: "Margin behaviour of the petiole canal of the third leaf before bunch." []
 synonym: "Petiole canal of the third leaf, Petiole canal leaf III" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000765 ! petiole morphology trait
 
 [Term]
 id: CO_325:0000438
@@ -1216,7 +1216,7 @@ id: CO_325:0000927
 name: leaf chlorosis
 def: "leaf trait correlated to the health stage of the leaf" []
 synonym: "leafChlorosis" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000326 ! leaf color
 
 [Term]
 id: CO_325:0000928
