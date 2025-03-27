@@ -7,12 +7,10 @@ ontology: co_325
 [Term]
 id: CO_325:0000000
 name: CGIAR banana trait ontology
-namespace: BananaTrait
 
 [Term]
 id: CO_325:0000003
 name: time from shooting to harvest
-namespace: BananaTrait
 def: "The time elapsed from shooting (when the inflorescence emerges from the pseudostem and is still in an erect position) to the harvest of the bunch." []
 synonym: "shoot2harvest" EXACT []
 synonym: "Time of fruit-filling, Fruit-filling period, Bunch maturity period, Length of reproductive stage, Bunch maturation period" EXACT []
@@ -21,14 +19,12 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000004
 name: flowering
-namespace: BananaTrait
 def: "whole-plant flowering related trait" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000006
 name: plant crop cycle
-namespace: BananaTrait
 def: "The time elapsed from planting to the harvest of the bunch." []
 synonym: "Crop cycle, Mother plant crop cycle, Time from planting to harvest" EXACT []
 synonym: "plant2harvest" EXACT []
@@ -37,7 +33,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000009
 name: plant height
-namespace: BananaTrait
 def: "The height of the pseudostem of the plant, from the collar to the intersection of the petioles of the two youngest leaves." []
 synonym: "plantheightpetioles" EXACT []
 synonym: "Pseudostem height" EXACT []
@@ -46,7 +41,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000012
 name: plant circumference from the collar
-namespace: BananaTrait
 def: "The circumference of the pseudostem of the plant." []
 synonym: "Pseudostem girth, Plant circumference, Pseudostem circumference, Plant girth" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -54,7 +48,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000021
 name: monthly leaf emission rate
-namespace: BananaTrait
 def: "A rate that expresses the number of leaves that have emerged from the pseudostem in a month." []
 synonym: "LER" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -62,7 +55,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000024
 name: number of suckers
-namespace: BananaTrait
 def: "The number of all types of suckers in the mat." []
 synonym: "numsuckers" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -70,7 +62,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000027
 name: tallest sucker height
-namespace: BananaTrait
 def: "The height of the pseudostem of the tallest sucker within the same mat as the plant (the sucker that will become the next plant with a bunch, once the bunch from the current plant is harvested)" []
 synonym: "Height of tallest sucker, Following sucker height, Height of following sucker" EXACT []
 synonym: "suckerheight" EXACT []
@@ -79,7 +70,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000033
 name: bunch weight
-namespace: BananaTrait
 def: "The weight of the bunch, including the rachis." []
 synonym: "bunchweight" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -87,7 +77,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000036
 name: number of hands in bunch
-namespace: BananaTrait
 def: "The number of hands in the bunch." []
 synonym: "numhands" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -95,7 +84,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000039
 name: number of fingers in bunch
-namespace: BananaTrait
 def: "The number of fingers in the bunch." []
 synonym: "numfingersbunch" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -103,7 +91,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000042
 name: number of fingers in hand: count
-namespace: BananaTrait
 def: "The number of fingers in a third hand." []
 synonym: "numfingershand" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -111,7 +98,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000045
 name: hand weight
-namespace: BananaTrait
 def: "The weight of a hand." []
 synonym: "handweight" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -119,7 +105,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000048
 name: finger weight
-namespace: BananaTrait
 def: "The weight of a finger." []
 synonym: "fingerweight" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -127,7 +112,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000051
 name: finger external length
-namespace: BananaTrait
 def: "The length of a finger measured along the external (dorsal) arc, excluding the pedicel and the fruit tip." []
 synonym: "Finger dorsal length" EXACT []
 synonym: "fingerextlength" EXACT []
@@ -136,7 +120,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000054
 name: finger circumference
-namespace: BananaTrait
 def: "The circumference of a finger." []
 synonym: "Finger girth" EXACT []
 synonym: "fingercircumf" EXACT []
@@ -145,7 +128,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000057
 name: black leaf streak disease incubation time
-namespace: BananaTrait
 def: "The time elapsed between a tagged cigar leaf at Brun's stage B of unrolling and the development of black leaf streak disease symptoms at Foure's black leaf streak disease severity grade 1." []
 synonym: "Black Sigatoka disease incubation time" EXACT []
 synonym: "DIT" EXACT []
@@ -154,7 +136,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000060
 name: black leaf streak disease evolution time
-namespace: BananaTrait
 def: "The time elapsed between the development of black leaf streak disease symptoms at Foure's black leaf streak disease severity grade 1, to 6." []
 synonym: "Black Sigatoka disease evolution time" EXACT []
 synonym: "DET" EXACT []
@@ -163,7 +144,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000066
 name: number of functional leaves
-namespace: BananaTrait
 def: "The number of leaves on the plant that have 50% or more of the leaf surface area as green, healthy, photosynthetic tissue." []
 synonym: "functleaves" EXACT []
 synonym: "numFuncLeaves" EXACT []
@@ -172,49 +152,42 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000069
 name: number of standing leaves
-namespace: BananaTrait
 def: "The number of leaves attached to the plant that have an erect petiole (not bent or broken)." []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000072
 name: extent of internal discolouration in corm of tallest sucker caused by fusarium wilt
-namespace: BananaTrait
 def: "The extent of discolouration in the corm of the tallest sucker, caused by Fusarium wilt." []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000075
 name: distance of internal discolouration in pseudostem of plant caused by fusarium wilt
-namespace: BananaTrait
 def: "The distance of discolouration in the pseudostem of the plant, caused by Fusarium wilt." []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000078
 name: percentage of plants with external disease symptoms caused by fusarium wilt
-namespace: BananaTrait
 def: "The percentage of plants with any or multiple of the external disease symptoms - yellowing leaves, splitting of pseudostem base, changes in new leaves, petiole collapse, caused by Fusarium wilt." []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000081
 name: percentage of plants with internal disease symptoms caused by fusarium wilt
-namespace: BananaTrait
 def: "The percentage of plants with any or multiple of the internal disease symptoms - discolouration in the corm, and/or discolouration in the pseudostem, caused by Fusarium wilt." []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000084
 name: time from start of crop cycle to first external disease symptoms caused by fusarium wilt
-namespace: BananaTrait
 def: "The time elapsed from the start of the crop cycle to the appearance on the plant of any of the external disease symptoms - - yellowing leaves, splitting pseudostem base, changes in new leaves, petiole collapse, caused by Fusarium wilt." []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000087
 name: presence of yellowing leaves caused by fusarium wilt
-namespace: BananaTrait
 def: "The presence/absence of yellowing leaves, caused by Fusarium wilt." []
 synonym: "YL" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -222,7 +195,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000090
 name: presence of splitting pseudostem base caused by fusarium wilt
-namespace: BananaTrait
 def: "The presence/absence of a splitting pseudostem base, caused by Fusarium wilt." []
 synonym: "SP" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -230,7 +202,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000093
 name: presence of changes in new leaves caused by fusarium wilt
-namespace: BananaTrait
 def: "The presence/absence of changes in new leaves - irregular pale margins, narrowing of lamina, burning plus ripping of lamina, lamina becoming more erect, caused by Fusarium wilt." []
 synonym: "CNL" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -238,7 +209,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000096
 name: presence of petiole collapse caused by fusarium wilt
-namespace: BananaTrait
 def: "The presence/absence of petiole collapse, caused by Fusarium wilt." []
 synonym: "PC" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -246,7 +216,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000099
 name: youngest leaf spotted
-namespace: BananaTrait
 def: "The rank (order) of the first fully unfurled leaf with at least 10 discrete, mature, necrotic lesions or one large necrotic area with 10 leaf spot light-coloued dry centres, caused by black leaf streak disease." []
 synonym: "YLS" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -254,7 +223,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000102
 name: index of non-spotted leaves
-namespace: BananaTrait
 def: "An index to express the proportion of standing leaves without the typical late-stage symptoms of black leaf streak disease, i.e. a black spot with a necrotic centre. This index provides an estimation of available photosynthetic leaf area prior to fruit filling and is a measure of resistance. It also corrects for the difference in the number of leaves produced by different types of bananas." []
 synonym: "INSL" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -262,7 +230,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000105
 name: black leaf streak disease severity index
-namespace: BananaTrait
 def: "An index to express the degree of leaf area of all standing leaves on the plant affected by black leaf streak disease." []
 synonym: "Black Sigatoka disease infection index" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -270,21 +237,18 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000108
 name: number of dead roots
-namespace: BananaTrait
 def: "The number of dead roots in a standard-size excavation of 20 x 20 x 20 cm extending outwards from the corm of the plant." []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000111
 name: number of functional roots
-namespace: BananaTrait
 def: "The number of functional roots in a standard-size excavation of 20 x 20 x 20 cm extending outwards from the corm of the plant." []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000123
 name: root necrosis caused by nematodes
-namespace: BananaTrait
 def: "The percentage of the root cortex of five functional roots approximately 10 cm long that is necrotic due to nematode damage." []
 is_a: TO:xxxxxxx ! xxxx
 
@@ -292,7 +256,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000221
 name: number of maiden suckers
-namespace: BananaTrait
 def: "The number of maiden suckers (fully grown suckers with foliage leaves) in the mat." []
 synonym: "nummaidensuckers" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -300,7 +263,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000225
 name: Number of sword suckers
-namespace: BananaTrait
 def: "The number of sword suckers (suckers with narrow leaves and a large rhizome) in the mat." []
 synonym: "numswordsuckers" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -308,7 +270,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000229
 name: number of peeper suckers
-namespace: BananaTrait
 def: "The number of peeper suckers (suckers < 15 cm tall) in the mat." []
 synonym: "numpeepersuckers" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -316,7 +277,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000233
 name: finger lateral diameter
-namespace: BananaTrait
 def: "The lateral (side to side) diameter of a finger." []
 synonym: "Finger grade, Fruit diameter, Fruit grade" EXACT []
 synonym: "fingerlatdiam" EXACT []
@@ -325,7 +285,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000236
 name: finger peel thickness
-namespace: BananaTrait
 def: "The thickness of the peel of a finger." []
 synonym: "peelthickness" EXACT []
 synonym: "Width of the peel, Width of the skin, Width of the exocarp, Finger peel thickness" EXACT []
@@ -334,7 +293,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000240
 name: fruit pulp lateral diameter
-namespace: BananaTrait
 def: "The lateral (side to side) diameter of the pulp of a fruit." []
 synonym: "Finger pulp diameter" EXACT []
 synonym: "pulpdiam" EXACT []
@@ -344,7 +302,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000243
 name: main underlying colour of pseudostem
-namespace: BananaTrait
 def: "Main colour of the pseudostem under the outermost sheath." []
 synonym: "Predominant underlying colour of the pseudostem" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -352,7 +309,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000248
 name: colour line along edge of petiole margin
-namespace: BananaTrait
 def: "Presence or absence of colour line along edge of petiole margin" []
 synonym: "Edge of petiole margin" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -360,7 +316,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000250
 name: pulp weight
-namespace: BananaTrait
 def: "Peel the fruit and weigh the pulp using a scale (g). Record the pulp weight (g) of the central external finger on the second top cluster." []
 synonym: "pulpweight" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -368,7 +323,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000252
 name: pigmentation of outer surface of cigar leaf on sucker
-namespace: BananaTrait
 def: "Colour of pigmentation on outer surface of cigar leaf on a developed sucker" []
 synonym: "Colour of cigar leaf dorsal surface" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -377,7 +331,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000256
 name: petiole margins winged
-namespace: BananaTrait
 def: "Behaviour of the petiole margins - winged or not winged. The petiole and pseudostem meet at shooting. Margin is the part of the petiole that can be bent outwards/inwards." []
 synonym: "Petiole margins" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -385,7 +338,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000260
 name: petiole margins clasping
-namespace: BananaTrait
 def: "Behaviour of the petiole margins - winged or not winged. the petiole and pseudostem meet at shooting. Margin is the part of the petiole that can be bent outwards/inwards" []
 synonym: "Petiole margins" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -393,14 +345,12 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000264
 name: petiole margin colour
-namespace: BananaTrait
 def: "Main colour of the petiole margin. Where the petiole and pseudostem meet at shooting. Margin is the part of the petiole that can be bent outwards/inwards" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000270
 name: peel weight
-namespace: BananaTrait
 def: "Weigh peel, using a scale (g). Record the peel weight (g) of the central external finger on the second top cluster." []
 synonym: "peelweight" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -408,7 +358,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000292
 name: time from flowering to harvest
-namespace: BananaTrait
 def: "The time elapsed from flowering (when the last bracts fall from the most distal hand to display the female flowers) to the harvest of the bunch." []
 synonym: "flower2harvest" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -416,7 +365,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000294
 name: time from planting to death
-namespace: BananaTrait
 def: "The time elapsed from planting to the death of the plant." []
 synonym: "plant2death" EXACT []
 synonym: "Time to death" EXACT []
@@ -425,7 +373,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000296
 name: time from harvest to death
-namespace: BananaTrait
 def: "The time elapsed from the harvest of the bunch of the plant from the preceding crop cycle to the death of the plant from the current crop cycle." []
 synonym: "harvest2death" EXACT []
 synonym: "Time to death of the ratoon plant" EXACT []
@@ -434,7 +381,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000298
 name: ratoon crop cycle
-namespace: BananaTrait
 def: "The time elapsed from the harvest of the bunch of the plant from the preceding crop cycle to the harvest of the bunch of the plant from the current crop cycle." []
 synonym: "harvest2harvest" EXACT []
 synonym: "Time from harvest to harvest" EXACT []
@@ -443,7 +389,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000307
 name: plant height to neck of peduncle
-namespace: BananaTrait
 def: "The height of the pseudostem of the plant from the collar to the curved neck of the peduncle." []
 synonym: "plantheightneck" EXACT []
 synonym: "Pseudostem height" EXACT []
@@ -452,7 +397,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000310
 name: number of water suckers
-namespace: BananaTrait
 def: "The number of water suckers (suckers with broad leaves, a small rhizome, and a weak connection to the plant) in the mat." []
 synonym: "numwatersuckers" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -460,7 +404,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000312
 name: bunch maturity stage at harvest
-namespace: BananaTrait
 def: "The stage of maturity of the bunch at harvest." []
 synonym: "bunchmaturity" EXACT []
 synonym: "Stage of harvesting" EXACT []
@@ -469,7 +412,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000314
 name: rachis weight
-namespace: BananaTrait
 def: "The weight of the rachis." []
 synonym: "rachisweight" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -477,7 +419,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000316
 name: total finger weight
-namespace: BananaTrait
 def: "The weight of all the hands of the bunch, excluding the rachis." []
 synonym: "Total fruit weight, Total hand weight" EXACT []
 synonym: "totalfingerweight" EXACT []
@@ -486,7 +427,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000318
 name: hand rank
-namespace: BananaTrait
 def: "The rank (order) of a hand in the bunch." []
 synonym: "handid" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -495,7 +435,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000320
 name: multiple number of fingers in hand
-namespace: BananaTrait
 def: "The number of fingers in multiple hands." []
 synonym: "multnumfingshand" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -504,7 +443,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000322
 name: number of hands measured
-namespace: BananaTrait
 def: "The number of hands used to obtain a measurement." []
 synonym: "numhandsmeas" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -512,7 +450,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000324
 name: average number of fingers in hand
-namespace: BananaTrait
 def: "The average number of fingers in a hand." []
 synonym: "avenumfingshand_rltv" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -520,7 +457,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000327
 name: multiple hand weight
-namespace: BananaTrait
 def: "The weight of multiple hands." []
 synonym: "multhandweight" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -528,7 +464,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000329
 name: average hand weight
-namespace: BananaTrait
 def: "The average weight of the hands." []
 synonym: "avehandweight" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -536,7 +471,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000331
 name: multiple finger weight
-namespace: BananaTrait
 def: "The weight of multiple fingers." []
 synonym: "multfingerweight" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -544,7 +478,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000333
 name: number of fingers measured
-namespace: BananaTrait
 def: "The number of fingers used to obtain a measurement." []
 synonym: "numfingersmeas" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -552,7 +485,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000335
 name: average finger weight
-namespace: BananaTrait
 def: "The average weight of the fingers." []
 synonym: "avefingerweight" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -560,7 +492,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000337
 name: average finger external length
-namespace: BananaTrait
 def: "The average length of the fingers measured along the external (dorsal) arc, excluding the pedicel and the fruit tip." []
 synonym: "avefingerextlength" EXACT []
 synonym: "Average finger dorsal length" EXACT []
@@ -569,7 +500,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000339
 name: finger internal length
-namespace: BananaTrait
 def: "The length of a finger measured along the internal (ventral) arc, excluding the pedicel and the fruit tip." []
 synonym: "Finger ventral length" EXACT []
 synonym: "fingerintlength" EXACT []
@@ -578,7 +508,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000341
 name: average finger internal length
-namespace: BananaTrait
 def: "The average length of the fingers measured along the internal (ventral) arc, excluding the pedicel and the fruit tip." []
 synonym: "avefingerintlength" EXACT []
 synonym: "Average finger ventral length" EXACT []
@@ -588,7 +517,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000344
 name: average finger circumference
-namespace: BananaTrait
 def: "The average circumference of the fingers." []
 synonym: "avefingercircumf" EXACT []
 synonym: "Average finger girth" EXACT []
@@ -597,7 +525,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000348
 name: average finger lateral diameter
-namespace: BananaTrait
 def: "The average lateral (side to side) diameter of a finger." []
 synonym: "avefingerlatdiam" EXACT []
 synonym: "Finger grade, Fruit diameter, Fruit grade" EXACT []
@@ -606,7 +533,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000352
 name: average fruit pulp lateral diameter
-namespace: BananaTrait
 def: "The average lateral (side to side) diameter of the pulp of a fruit." []
 synonym: "avepulpdiam" EXACT []
 synonym: "Finger pulp diameter" EXACT []
@@ -615,7 +541,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000355
 name: average finger peel thickness
-namespace: BananaTrait
 def: "The average thickness of the peel of a finger." []
 synonym: "avepeelthickness" EXACT []
 synonym: "Width of the peel, Width of the skin, Width of the exocarp, Finger peel thickness" EXACT []
@@ -624,7 +549,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000357
 name: number of plants planted
-namespace: BananaTrait
 def: "The number of plants that are planted." []
 synonym: "numplanted" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -632,7 +556,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000359
 name: plant spacing
-namespace: BananaTrait
 def: "The area allocated to one plant." []
 synonym: "plantspacing" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -640,7 +563,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000361
 name: plant density
-namespace: BananaTrait
 def: "The number of plants that are planted, in a defined area." []
 synonym: "plantdens" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -648,7 +570,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000363
 name: number of plants dead
-namespace: BananaTrait
 def: "The number of plants that are dead." []
 synonym: "numdead" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -656,7 +577,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000365
 name: number of plants harvested
-namespace: BananaTrait
 def: "The number of plants that are harvested." []
 synonym: "numharv" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -664,7 +584,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000367
 name: number of plants not harvested
-namespace: BananaTrait
 def: "The number of plants that are alive but not harvested (e.g. due to slow or poor development)." []
 synonym: "numnotharv" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -672,7 +591,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000369
 name: death proportion
-namespace: BananaTrait
 def: "The proportion of plants that are dead, from the number of plants planted." []
 synonym: "deathprop" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -680,7 +598,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000371
 name: death density
-namespace: BananaTrait
 def: "The number of plants that are dead, in a defined area." []
 synonym: "deathdens" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -688,7 +605,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000373
 name: harvest proportion
-namespace: BananaTrait
 def: "The proportion of plants that are harvested, from the number of plants planted." []
 synonym: "harvprop" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -696,7 +612,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000375
 name: harvest density
-namespace: BananaTrait
 def: "The number of plants that are harvested, in a defined area." []
 synonym: "harvdens" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -704,7 +619,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000377
 name: non-harvest proportion
-namespace: BananaTrait
 def: "The proportion of plants that are alive but not harvested (e.g. due to slow or poor development), from the number of plants planted." []
 synonym: "nonharvprop" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -712,7 +626,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000379
 name: non-harvest density
-namespace: BananaTrait
 def: "The number of plants that are alive but not harvested (e.g. due to slow or poor development), in a defined area." []
 synonym: "nonharvdens" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -720,7 +633,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000381
 name: annual crop cycle proportion
-namespace: BananaTrait
 def: "The proportion of the crop cycle that takes place in one year." []
 synonym: "anncropcycprop" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -728,7 +640,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000383
 name: plant annual yield
-namespace: BananaTrait
 def: "The bunch weight produced by the plant over the course of the crop cycle, averaged across one year." []
 synonym: "plantannyield" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -736,7 +647,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000385
 name: average actual annual yield
-namespace: BananaTrait
 def: "The average actual annual yield, taking into account the proportion of plants harvested, from the number of plants planted" []
 synonym: "actualannyield" EXACT []
 synonym: "Yield" EXACT []
@@ -745,7 +655,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000387
 name: average potential annual yield
-namespace: BananaTrait
 def: "The average potential annual yield, assuming that all plants are harvested, from the number of plants planted." []
 synonym: "potannyield" EXACT []
 synonym: "Yield" EXACT []
@@ -754,7 +663,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000389
 name: overall fruit pendulance quality
-namespace: BananaTrait
 def: "The overall estimation fruit pendulance on a bunch" []
 synonym: "pendulantfruit" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -762,7 +670,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000391
 name: overall bunch quality
-namespace: BananaTrait
 def: "The overall estimation of the bunch quality on a mat" []
 synonym: "goodbunch" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -770,7 +677,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000393
 name: fruitfill
-namespace: BananaTrait
 def: "The overall estimation of fruitfilling level on a bunch" []
 synonym: "goodfruitfill" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -778,7 +684,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000395
 name: overall suckering quality
-namespace: BananaTrait
 def: "The overall estimation of sucker quality on a mat" []
 synonym: "suckering" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -786,7 +691,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000397
 name: dwarfism
-namespace: BananaTrait
 def: "The presence or absence of dwarfism on a mat" []
 synonym: "dwarfism" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -794,7 +698,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000425
 name: pseudostem height
-namespace: BananaTrait
 def: "Distance from the base of the pseudostem to the emerging point of the peduncle." []
 synonym: "Plant height" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -802,7 +705,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000427
 name: blotches relative area at petiole base
-namespace: BananaTrait
 def: "Percentage coverage of petiole base by blotches." []
 synonym: "Blotches at the petiole base" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -810,7 +712,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000430
 name: blotches colour at the petiole base
-namespace: BananaTrait
 def: "Colour of the blotches on the upper leaf sheath of the petiole base." []
 synonym: "Blotches colour" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -818,7 +719,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000433
 name: margin behaviour on petiole canal of third leaf
-namespace: BananaTrait
 def: "Margin behaviour of the petiole canal of the third leaf before bunch." []
 synonym: "Petiole canal of the third leaf, Petiole canal leaf III" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -826,28 +726,24 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000438
 name: bunch orientation
-namespace: BananaTrait
 def: "Angle between the axis of the bunch and the vertical" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000440
 name: bunch shape
-namespace: BananaTrait
 def: "Shape of the fully developed bunch on a plant" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000442
 name: male rachis type
-namespace: BananaTrait
 def: "Behaviour of male rachis - truncated or present. Truncated means there is no bract scar below the last hand. Present means there is a degenerated or persistent male bud" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000444
 name: male rachis position
-namespace: BananaTrait
 def: "Angle of the rachis between last hand and male bud" []
 synonym: "Rachis angle" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -855,7 +751,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000446
 name: male rachis appearance
-namespace: BananaTrait
 def: "Appearance of flowers/bracts on the male rachis" []
 synonym: "Rachis appearance" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -863,14 +758,12 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000448
 name: male bud shape
-namespace: BananaTrait
 def: "Shape of the male bud defined as the ratio of male bud broadest width to total male bud length" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000451
 name: male bud length
-namespace: BananaTrait
 def: "Length of male bud from end of rachis to apex of the bud" []
 synonym: "Male bud size" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -878,7 +771,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000454
 name: male bud shoulder
-namespace: BananaTrait
 def: "Male bud shoulder description" []
 synonym: "Male bud size" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -886,14 +778,12 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000456
 name: bract apex shape
-namespace: BananaTrait
 def: "Appearance of flowers/bracts on the male rachis" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000459
 name: bract imbrication at apex of male bud
-namespace: BananaTrait
 def: "Alignment of bracts at the apex of the male bud" []
 synonym: "Bract imbrication" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -901,7 +791,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000461
 name: bract behaviour before falling
-namespace: BananaTrait
 def: "Behaviour of the last lifted bract - revolute or not revolute" []
 is_a: TO:xxxxxxx ! xxxx
 
@@ -909,7 +798,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000463
 name: colour of bract external face
-namespace: BananaTrait
 def: "Main colour of the first external unlifted bract external face" []
 synonym: "Colour of the bract external face" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -917,7 +805,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000466
 name: colour of bract internal face
-namespace: BananaTrait
 def: "Main colour of the first external unlifted bract internal face" []
 synonym: "Colour of the bract internal face" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -925,7 +812,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000469
 name: compound tepal main colour
-namespace: BananaTrait
 def: "Main colour of the backside of the compound tepal" []
 synonym: "Tepal colour, Compound tepal basic colour" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -933,7 +819,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000472
 name: lobe colour of tip of compound tepal
-namespace: BananaTrait
 def: "Main colour of the tip of the compound tepal (lobe)" []
 synonym: "Lobe colour, Lobe colour of compound tepal" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -941,14 +826,12 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000475
 name: anther colour
-namespace: BananaTrait
 def: "Main colour of the face of anther opposite to dehiscence" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000478
 name: number of hands on whole bunch
-namespace: BananaTrait
 def: "Number of hands on bunch **subsume" []
 synonym: "Number of hands" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -956,7 +839,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000480
 name: number of fruits on mid-hand of the bunch
-namespace: BananaTrait
 def: "Number of fruits on the mid-hand of the bunch **subsume" []
 synonym: "Number of fruits" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -964,7 +846,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000482
 name: fruit length
-namespace: BananaTrait
 def: "Length of the internal arc of a finger ** subsume" []
 synonym: "Fruit length" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -972,7 +853,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000485
 name: fruit shape of curve
-namespace: BananaTrait
 def: "Shape of a fruit (finger) in the middle of the bunch **subsume" []
 synonym: "Fruit shape (longitudinal curve)" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -980,7 +860,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000488
 name: fruit apex point
-namespace: BananaTrait
 def: "Description of fruit apex" []
 synonym: "Fruit apex" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -988,91 +867,78 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000490
 name: remains of flower relicts at fruit apex
-namespace: BananaTrait
 def: "Percentage of flower relicts at fruit apex" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000493
 name: fruit pedicel length
-namespace: BananaTrait
 def: "Length of the fruit pedicel from rachis to the beginning of the pulp" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000496
 name: fusion of pedicels
-namespace: BananaTrait
 def: "Degree of fusion of the pedicels before they join the rachis" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000498
 name: fruit mashed pulp colour
-namespace: BananaTrait
 def: "The color of the mashed pulp of a mature fruit" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000500
 name: fruit unmashed pulp colour
-namespace: BananaTrait
 def: "The color of the unmashed pulp of a mature fruit" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000502
 name: fruit mashed pulp taste
-namespace: BananaTrait
 def: "The taste of the mashed pulp of a mature fruit" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000504
 name: fruit unmashed pulp taste
-namespace: BananaTrait
 def: "The taste of the unmashed pulp of a mature fruit" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000506
 name: fruit mashed pulp texture
-namespace: BananaTrait
 def: "The texture of the mashed pulp of a mature fruit" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000508
 name: fruit unmashed pulp texture
-namespace: BananaTrait
 def: "The texture of the unmashed pulp of a mature fruit" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000510
 name: fruit mashed pulp smoothness-mouth feel
-namespace: BananaTrait
 def: "The smoothness-mouth feel of the mashed pulp of a mature fruit" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000512
 name: fruit unmashed pulp smoothness-mouth feel
-namespace: BananaTrait
 def: "The smoothness-mouth feel of the unmashed pulp of a mature fruit" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000514
 name: fruit mashed pulp aroma/smell
-namespace: BananaTrait
 def: "The pulp aroma of the mashed pulp of a mature fruit" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000516
 name: damage to periphery of peeled corm caused by weevils
-namespace: BananaTrait
 def: "The amount of damage to the periphery of the peeled corm, assessed by tunnels caused by weevils" []
 synonym: "peripheral damage" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1080,14 +946,12 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000518
 name: nematode reproduction factor (microplot screening)
-namespace: BananaTrait
 def: "Nematode multiplication from single root inoculation of 50 nematodes per 8 cm length after 12 weeks" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000520
 name: nematode population density per soil sample
-namespace: BananaTrait
 def: "Number of nematodes in soil" []
 is_a: TO:xxxxxxx ! xxxx
 
@@ -1095,98 +959,84 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000524
 name: number of rotylenchulus spp.per soil sample
-namespace: BananaTrait
 def: "Number of Rotylenchulus spp.in soil" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000526
 name: number of meloidogyne spp. per soil sample
-namespace: BananaTrait
 def: "Number of Meloidogyne spp. in soil" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000528
 name: number of hoplolaimus spp. per soil sample
-namespace: BananaTrait
 def: "Number of Hoplolaimus spp. in soil" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000530
 name: number of pratylenchus coffeae per soil sample
-namespace: BananaTrait
 def: "Number of Pratylenchus coffeae in soil" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000531
 name: root nematode density
-namespace: BananaTrait
 def: "The number of nematode individuals per unit of fresh root weight." []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000533
 name: number of radopholus similis
-namespace: BananaTrait
 def: "Number of Radopholus similis" []
 is_a: CO_325:0003019 ! Radopholus similis damage
 
 [Term]
 id: CO_325:0000535
 name: number of meloidogyne spp. per fresh root weight
-namespace: BananaTrait
 def: "Number of Meloidogyne spp. in roots" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000537
 name: number of pratylenchus spp.
-namespace: BananaTrait
 def: "Number of Pratylenchus spp. in roots" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000539
 name: number of hoplolaimus spp. per fresh root weight
-namespace: BananaTrait
 def: "Number of Hoplolaimus spp. in roots" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000541
 name: number of pratylenchus goodeyi
-namespace: BananaTrait
 def: "Number of Pratylenchus goodeyi in roots" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000543
 name: number of pratylenchus coffeae per fresh root weight
-namespace: BananaTrait
 def: "Number of Pratylenchus coffeae in roots" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000548
 name: rank of oldest standing leaf
-namespace: BananaTrait
 def: "The rank (order) of the oldest (most-distal) standing leaf (with an erect petiole)." []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000559
 name: extent of internal discolouration in corm of plant caused by fusarium wilt
-namespace: BananaTrait
 def: "The extent of discolouration in the corm of the plant, caused by Fusarium wilt." []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000564
 name: rank of marked youngest leaf
-namespace: BananaTrait
 def: "The rank (position) of the youngest completely unrolled leaf." []
 synonym: "rankyoungleaf" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1194,7 +1044,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000566
 name: Rank of previously marked leaf
-namespace: BananaTrait
 def: "The current rank (position) of the leaf that was previously marked as the youngest leaf at the time of the last data collection event." []
 synonym: "rankprevleaf" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1202,14 +1051,12 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000570
 name: time from planting to first youngest leaf spotted
-namespace: BananaTrait
 def: "Time elapsed between planting and the appearance of the first youngest leaf spotted." []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000572
 name: number of spotted leaves
-namespace: BananaTrait
 def: "The number of leaves with at least 10 discrete, mature, necrotic lesions or one large necrotic area with 10 light-coloured dry centres, caused by black leaf streak disease." []
 synonym: "Number and severity of spotted leaves" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1217,7 +1064,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000574
 name: black leaf streak disease severity and stage
-namespace: BananaTrait
 def: "An indication of the extent of damage on an individual leaf caused by black leaf streak disease." []
 synonym: "Black Sigatoka disease severity; Percentage area necrotic" EXACT []
 synonym: "BLS" EXACT []
@@ -1226,7 +1072,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000580
 name: number of leaves with black leaf streak disease severity grade 0
-namespace: BananaTrait
 def: "The number of leaves on a plant with a black leaf streak disease severity grade of 0." []
 synonym: "Number of leaves with black Sigatoka disease severity grade 0" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1234,7 +1079,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000582
 name: number of leaves with black leaf streak disease severity grade 1
-namespace: BananaTrait
 def: "The number of leaves on a plant with a black leaf streak disease severity grade of 1." []
 synonym: "Number of leaves with black Sigatoka disease severity grade 1" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1242,7 +1086,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000584
 name: number of leaves with black leaf streak disease severity grade 2
-namespace: BananaTrait
 def: "The number of leaves on a plant with a black leaf streak disease severity grade of 2." []
 synonym: "Number of leaves with black Sigatoka disease severity grade 2" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1250,7 +1093,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000586
 name: number of leaves with black leaf streak disease severity grade 3
-namespace: BananaTrait
 def: "The number of leaves on a plant with a black leaf streak disease severity grade of 3." []
 synonym: "Number of leaves with black Sigatoka disease severity grade 3" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1258,7 +1100,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000588
 name: number of leaves with black leaf streak disease severity grade 4
-namespace: BananaTrait
 def: "The number of leaves on a plant with a black leaf streak disease severity grade of 4." []
 synonym: "Number of leaves with black Sigatoka disease severity grade 4" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1267,7 +1108,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000590
 name: number of leaves with black leaf streak disease severity grade 5
-namespace: BananaTrait
 def: "The number of leaves on a plant with a black leaf streak disease severity grade of 5." []
 synonym: "Number of leaves with black Sigatoka disease severity grade 5" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1276,7 +1116,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000592
 name: number of leaves with black leaf streak disease severity grade 6
-namespace: BananaTrait
 def: "The number of leaves on a plant with a black leaf streak disease severity grade of 6." []
 synonym: "Number of leaves with black Sigatoka disease severity grade 6" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1284,175 +1123,150 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000594
 name: distance of internal discolouration in pseudostem of tallest sucker caused by fusarium wilt
-namespace: BananaTrait
 def: "The distance of discolouration in the pseudostem of the tallest sucker, caused by Fusarium wilt." []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000600
 name: percentage of plants with yellowing leaves caused by fusarium wilt
-namespace: BananaTrait
 def: "Percentage of plants with yellowing leaves, caused by Fusarium wilt." []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000602
 name: percentage of plants with a splitting pseudostem base caused by fusarium wilt
-namespace: BananaTrait
 def: "Percentage of plants with a splitting pseudostem base, caused by Fusarium wilt." []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000604
 name: percentage of plants with changes in new leaves caused by fusarium wilt
-namespace: BananaTrait
 def: "Percentage of plants with changes in new leaves, caused by Fusarium wilt." []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000606
 name: percentage of plants with petiole collapse caused by fusarium wilt
-namespace: BananaTrait
 def: "Percentage of plants with petiole collapse, caused by Fusarium wilt." []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000610
 name: number of banana weevil adults per trap
-namespace: BananaTrait
 def: "How many banana weevil adults caught per trap." []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000612
 name: number of banana weevil traps used
-namespace: BananaTrait
 def: "How many banana weevil traps used." []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000614
 name: average number of banana weevil adults per trap
-namespace: BananaTrait
 def: "The average of how many adult banana weevils caught per trap." []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000616
 name: number of banana weevil larvae per trap
-namespace: BananaTrait
 def: "How many banana weevil larvae caught per trap." []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000618
 name: average number of banana weevil larvae per trap
-namespace: BananaTrait
 def: "The average of how many banana weevil larvae caught per trap." []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000620
 name: number of banana weevil adults measured
-namespace: BananaTrait
 def: "How many banana weevil adults used to obtain a measurement." []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000622
 name: number of banana weevil larvae measured
-namespace: BananaTrait
 def: "How many banana weevil larvae used to obtain a measurement." []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000624
 name: banana weevil adult head capsule width
-namespace: BananaTrait
 def: "The width of a banana weevil adult weevil head." []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000626
 name: banana weevil adult average head capsule width
-namespace: BananaTrait
 def: "The average width of a banana weevil adult head." []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000628
 name: banana weevil adult body length
-namespace: BananaTrait
 def: "The length of a banana weevil adult body, from the head to the tip of the abdomen." []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000630
 name: banana weevil adult average body length
-namespace: BananaTrait
 def: "The average length of a banana weevil adult body, from the head to the tip of the abdomen." []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000632
 name: banana weevil adult body weight
-namespace: BananaTrait
 def: "The weight of a banana weevil adult weevil body." []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000634
 name: banana weevil adult average body weight
-namespace: BananaTrait
 def: "The average weight of a banana weevil adult body." []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000636
 name: banana weevil larvae head capsule width
-namespace: BananaTrait
 def: "The width of a weevil larvae head capsule." []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000638
 name: banana weevil larvae average head capsule width
-namespace: BananaTrait
 def: "The average width of a banana weevil larvae head capsule." []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000640
 name: banana weevil larvae body length
-namespace: BananaTrait
 def: "The length of a weevil larvae body, from the weevil larvae head to the tip of the abdomen." []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000642
 name: banana weevil larvae average body length
-namespace: BananaTrait
 def: "The average length of a weevil larvae body, from the head to the tip of the abdomen." []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000644
 name: banana weevil larvae body weight
-namespace: BananaTrait
 def: "The weight of a banana weevil larvae body." []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000646
 name: banana weevil larvae average body weight
-namespace: BananaTrait
 def: "The average weight of a banana weevil larvae body." []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000677
 name: percentage damage to lower cross-section inner corm caused by weevils
-namespace: BananaTrait
 def: "The amount of damage to the inner corm (central cylinder) lower cross-section, assessed by percentage of tunnels caused by weevils." []
 synonym: "Damage index-X-inner" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1460,7 +1274,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000679
 name: percentage damage to lower cross-section outer corm caused by weevils
-namespace: BananaTrait
 def: "The amount of damage to the outer corm (cortex) lower cross-section, assessed by percentage of tunnels caused by weevils." []
 synonym: "Damage index-X-outer" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1468,7 +1281,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000726
 name: weekly leaf emission rate
-namespace: BananaTrait
 def: "A rate that expresses the number of leaves that have emerged from the pseudostem in a week." []
 synonym: "LER" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1476,7 +1288,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000793
 name: bunch height
-namespace: BananaTrait
 def: "The height of the bunch" []
 synonym: "bunchheight" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1484,7 +1295,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000795
 name: bunch circumference
-namespace: BananaTrait
 def: "The circumference of the bunch" []
 synonym: "bunchcircumference" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1492,7 +1302,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000841
 name: damage to the corm of the mother plant caused by weevils
-namespace: BananaTrait
 def: "The score of damage to the mother plant corm, assessed by tunnels caused by weevils" []
 synonym: "damagemothercorm" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1500,7 +1309,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000843
 name: size of corm inner diameter after weevils introduction
-namespace: BananaTrait
 def: "The diameter of the inner corm after weevil introduction" []
 synonym: "sizeinnercorm" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1508,7 +1316,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000845
 name: size of corm outter diameter after weevils introduction
-namespace: BananaTrait
 def: "The diameter of the outter corm after weevil introduction" []
 synonym: "sizeouttercorm" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1516,7 +1323,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000857
 name: male bud width
-namespace: BananaTrait
 def: "Width of male bud at its largets point" []
 synonym: "Male bud size" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1524,7 +1330,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000859
 name: fruit dry matter content
-namespace: BananaTrait
 def: "The average dry matter content per unit of fruit fresh weight" []
 synonym: "drymattercontent" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1532,7 +1337,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000921
 name: projected top area
-namespace: BananaTrait
 def: "The projected leaf area of a plant (photosynthetic surface)" []
 synonym: "topLeafArea" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1540,7 +1344,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000922
 name: leaf area
-namespace: BananaTrait
 def: "The area of all leaves" []
 synonym: "totLeafArea" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1548,7 +1351,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000923
 name: leaf area to plant area ratio
-namespace: BananaTrait
 def: "Ratio of projected leaf area to the actual leaf area, measure for the compactness of the plant crown" []
 synonym: "leafAreaRatio" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1556,7 +1358,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000924
 name: total length of all leaves
-namespace: BananaTrait
 def: "The length of a leaf" []
 synonym: "totLeafLength" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1564,7 +1365,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000925
 name: single leaf length
-namespace: BananaTrait
 def: "The length of a leaf" []
 synonym: "singleLeafLength" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1572,7 +1372,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000926
 name: single leaf width
-namespace: BananaTrait
 def: "The width of a leaf" []
 synonym: "singleLeafWidth" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1580,7 +1379,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000927
 name: leaf chlorosis
-namespace: BananaTrait
 def: "leaf trait correlated to the health stage of the leaf" []
 synonym: "leafChlorosis" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1588,7 +1386,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000928
 name: leaf dry weight
-namespace: BananaTrait
 def: "The dry weight of a leaf" []
 synonym: "leafDryMass" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1596,7 +1393,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000929
 name: pseudostem dry weight
-namespace: BananaTrait
 def: "The dry weight of the pseudostem" []
 synonym: "pseudostemDryMass" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1604,7 +1400,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000930
 name: root dry weight
-namespace: BananaTrait
 def: "The dry weight of the root system" []
 synonym: "rootDryMass" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1612,7 +1407,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000931
 name: plant dry weight
-namespace: BananaTrait
 def: "The dry weight of the whole plant." []
 synonym: "plantDryMass" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1620,7 +1414,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000932
 name: ratio root to shoot
-namespace: BananaTrait
 def: "The ratio of dry mass of belowground (root) to abovegrund (shoot) biomass" []
 synonym: "rootShootDry" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1628,7 +1421,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000933
 name: leaf relative water content
-namespace: BananaTrait
 def: "The relative water content in a leaf" []
 synonym: "rwcLeaf" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1636,7 +1428,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000934
 name: pseudostem relative water content
-namespace: BananaTrait
 def: "The relative water content in a pseudostem" []
 synonym: "rwcPseudostem" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1644,7 +1435,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000935
 name: root relative water content
-namespace: BananaTrait
 def: "The relative water content in a root" []
 synonym: "rwcRoot" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1652,7 +1442,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000936
 name: plant relative water content
-namespace: BananaTrait
 def: "The relative water content in the whole plant" []
 synonym: "rwcPlant" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1660,7 +1449,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000937
 name: pseudostem length
-namespace: BananaTrait
 def: "The length of a pseudostem" []
 synonym: "lengthPseudostem" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1668,7 +1456,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000938
 name: leaf number
-namespace: BananaTrait
 def: "The number of all leaves (including dried/dead/wilted/yellow) in a shoot system" []
 synonym: "numLeaves" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1676,7 +1463,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000940
 name: system water loss
-namespace: BananaTrait
 def: "The amount of water loss in the system over time" []
 synonym: "waterLossSyst" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1684,7 +1470,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000941
 name: plant water loss
-namespace: BananaTrait
 def: "The amount of water loss through the plant over time" []
 synonym: "waterLossPlant" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1692,7 +1477,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000942
 name: transpiration efficiency
-namespace: BananaTrait
 def: "The growth (weight increase) per volume transpired water" []
 synonym: "transpirationEfficiency" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1700,7 +1484,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000943
 name: leaf fresh weight
-namespace: BananaTrait
 def: "A leaf weight trait which is the fresh weight of a leaf" []
 synonym: "leafFreshMass" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1708,7 +1491,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000944
 name: pseudostem fresh weight
-namespace: BananaTrait
 def: "A pseudostem weight trait which is the fresh weight of a pseudostem" []
 synonym: "pseudostemFreshMass" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1716,7 +1498,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000945
 name: root fresh weight
-namespace: BananaTrait
 def: "A root weight trait which is the fresh weight of a root" []
 synonym: "rootFreshMass" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1724,7 +1505,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000946
 name: plant fresh weight
-namespace: BananaTrait
 def: "A plant weight trait which is the fresh weight of a plant" []
 synonym: "plantFreshMass" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1732,7 +1512,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000947
 name: leaf to whole plant mass ratio
-namespace: BananaTrait
 def: "Measure for the biomass allocation: dry mass of leaves versus whole plant dry mass ratio" []
 synonym: "leafToPlantMassRatio_dry" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1740,7 +1519,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000948
 name: pseudostem to whole plant mass ratio
-namespace: BananaTrait
 def: "Measure for the biomass allocation: dry mass of pseudostem versus whole plant dry mass ratio" []
 synonym: "pseudostemToPlantMassRatio_dry" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1748,7 +1526,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000949
 name: root to whole plant mass ratio
-namespace: BananaTrait
 def: "Measure for the biomass allocation: dry mass of roots versus whole plant dry mass ratio" []
 synonym: "rootToPlantMassRatio_dry" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1756,7 +1533,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000950
 name: daily rate of water loss
-namespace: BananaTrait
 def: "The average daily water loss" []
 synonym: "waterLossDay" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1764,7 +1540,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000951
 name: system water loss per leaf area
-namespace: BananaTrait
 def: "The amount of water loss in the system normalized by the leaf area" []
 synonym: "waterLossSystPerLeafArea" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1772,7 +1547,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000952
 name: dry plant growth
-namespace: BananaTrait
 def: "Dry mass accumulation over time" []
 synonym: "growthDry" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1780,7 +1554,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000953
 name: fresh plant growth
-namespace: BananaTrait
 def: "Fresh mass accumulation over time" []
 synonym: "growthFresh" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1788,7 +1561,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000954
 name: increase of leaf area
-namespace: BananaTrait
 def: "Leaf area increase over time" []
 synonym: "leafAreaIncrease" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1796,7 +1568,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000955
 name: height increase of pseudostem
-namespace: BananaTrait
 def: "Pseudostem height increase over time" []
 synonym: "pseudostemHeightIncrease" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1804,7 +1575,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000956
 name: pseudostem height increase per leaf formed
-namespace: BananaTrait
 def: "Stunting expressed as height growth per new formed leaf" []
 synonym: "pseudostemHeightIncreasePerFormedLeaf" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1812,7 +1582,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000957
 name: leaves formed per pseudostem height increase
-namespace: BananaTrait
 def: "Stunting expressed as number of leaves per height growth" []
 synonym: "leavesFormedPerPseudostemGrowth" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1820,7 +1589,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000958
 name: time from planting to shooting
-namespace: BananaTrait
 def: "The time elapsed from planting to shooting (when the inflorescence emerges from the pseudostem and is still in an erect position)." []
 synonym: "Length of vegetative stage" EXACT []
 synonym: "plant2shoot" EXACT []
@@ -1829,7 +1597,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000967
 name: pollen germination
-namespace: BananaTrait
 def: "The rate of pollen grain germinating" []
 synonym: "pollenGerm" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1837,7 +1604,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000970
 name: pollen viability
-namespace: BananaTrait
 def: "The amount of pollen grains which germinate and generate viable plantlets" []
 synonym: "pollenVia" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1845,7 +1611,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000971
 name: pollen per anther
-namespace: BananaTrait
 def: "pollen grains per one anther of a male flower" []
 synonym: "pollenPerAnth" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1853,7 +1618,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000973
 name: black sigatoka leaf necrosis
-namespace: BananaTrait
 def: "Black sigatoka leaf symptoms evaluation" []
 synonym: "BSLN" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1861,7 +1625,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000974
 name: yellow sigatoka leaf necrosis
-namespace: BananaTrait
 def: "Yellow sigatoka leaf symptoms evaluation" []
 synonym: "YSLN" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1869,7 +1632,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000975
 name: emusacea leaf spot necrosis
-namespace: BananaTrait
 def: "Eumusacea leaf spot symptom evaluation" []
 synonym: "ELSN" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1877,41 +1639,35 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0000984
 name: youngest leaf with streak disease
-namespace: BananaTrait
 def: "first leaf with first streak disease development stage counted from the first 50% or more of unfurl leaf." []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000985
 name: pollen grain per anther
-namespace: BananaTrait
 def: "number of pollen grains per anther" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000995
 name: fruit parthenocarpy
-namespace: BananaTrait
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0000998
 name: presence of fusarium wilt tropical race 4
-namespace: BananaTrait
 def: "The presence of symptoms of fusarium tropical race 4 (foc TR4) on a banana plant" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0001001
 name: suckering behavior of the plant
-namespace: BananaTrait
 def: "Banana plant sucker apical dominance type" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0001003
 name: bunch size
-namespace: BananaTrait
 def: "The overall size of a banana bunch at mature green stage" []
 synonym: "BSZ" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1919,7 +1675,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0001008
 name: total carotenoids
-namespace: BananaTrait
 def: "Total caroteinoids with provitamin A activity: pVACs (μg/g)=α-\ncarotene+13-cis-BC+9-cis-BC+trans-BC and TC computed as TC\n(μg/g)=Total pVACs+lutein" []
 synonym: "TC" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1927,14 +1682,12 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0001009
 name: α- carotene
-namespace: BananaTrait
 def: "Content in alpha - carotene quantified by HPLC in ug/g" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0001010
 name: 13-cis-beta-carotene
-namespace: BananaTrait
 def: "Content in 13-cis-beta-carotene quantified by HPLC in ug/g" []
 synonym: "13-cis-BC" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1942,7 +1695,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0001011
 name: 9-cis-beta-carotene
-namespace: BananaTrait
 def: "Content in 9-cis-beta-carotene quantified by HPLC in ug/g" []
 synonym: "9-cis-BC" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1950,7 +1702,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0001012
 name: pro-vitamine A
-namespace: BananaTrait
 def: "pVACs (μg/g)=α-carotene+13-cis-BC+9-cis-BC+trans-BC" []
 synonym: "CO_325:0001012" EXACT []
 synonym: "pVACs" EXACT []
@@ -1959,7 +1710,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0001013
 name: trans-beta-carotene
-namespace: BananaTrait
 def: "Content in trans beta- carotene quantified by HPLC in ug/g" []
 synonym: "trans-BC" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -1967,7 +1717,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0001014
 name: lutein
-namespace: BananaTrait
 def: "Content in lutein quantified by HPLC in ug/g" []
 is_a: TO:xxxxxxx ! xxxx
 
@@ -1975,206 +1724,176 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0002043
 name: Matooke homogeneity of colour
-namespace: BananaTrait
 def: "Uniformity of color of the surface of the sample" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0002044
 name: Matooke firmness
-namespace: BananaTrait
 def: "mechanical textural attribute relating to the force required to achieve a given deformation, penetration, or breakage of a product." []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0002045
 name: Matooke moisture
-namespace: BananaTrait
 def: "perception of moisture content of a food by the tactile receptors in the mouth and also in relation to the lubricating properties of the product" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0002046
 name: Matooke smoothness
-namespace: BananaTrait
 def: "geometrical textural attribute relating to lack of presence of particles in a product" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0002047
 name: Matooke hardness
-namespace: BananaTrait
 def: "mechanical textural attribute relating to the force required to achieve a given deformation, penetration, or breakage of a product." []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0002048
 name: Matooke moldability
-namespace: BananaTrait
 def: "mechanical textural attribute relating to the degree to which a substance can be deformed before it breaks" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0002049
 name: Matooke stickiness
-namespace: BananaTrait
 def: "mechanical textural attribute relating to the force required to remove material that sticks to the mouth" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0002050
 name: Matooke sweetness
-namespace: BananaTrait
 def: "basic taste produced by dilute aqueous solutions of natural or artificial substances such as sucrose" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0002051
 name: Matooke astringency
-namespace: BananaTrait
 def: "complex sensation, accompanied by shrinking, drawing or puckering of the skin or mucosal surface in the mouth, produced by substances such as kaki tannins or sloe tannins" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0002052
 name: Matooke sourness
-namespace: BananaTrait
 def: "gustatory complex sensation, generally due to presence of organic acids" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0002053
 name: Matooke aroma matooke
-namespace: BananaTrait
 def: "Aroma of the local matooke" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0002054
 name: Matooke aroma pumpkin
-namespace: BananaTrait
 def: "Aroma of pumpkin" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0002055
 name: Matooke aroma grassy
-namespace: BananaTrait
 def: "Aroma of fresh grass" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0002056
 name: Matooke yellowness
-namespace: BananaTrait
 def: "Color of the surface of the sample from light yellow to bright yellow" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0003000
 name: raw pulp color
-namespace: BananaTrait
 def: "A quick field evaluation of the raw pulp to determine acceptability based on yellow color using Mbwazirume as a standard control." []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0003003
 name: sap amount
-namespace: BananaTrait
 def: "A quick field evaluation of the raw pulp to determine acceptability based on yellow color using Mbwazirume as a standard control." []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0003004
 name: weevil damage assessment
-namespace: BananaTrait
 def: "Weevil damage assesssment" []
-is_a: CO_325:0003045 ! insect damage
+is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0003014
 name: nematode damage
-namespace: BananaTrait
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0003015
 name: Helicotylincus mulicinctus damage
-namespace: BananaTrait
 def: "Helicotylincus mulicinctus damage assesssment" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0003019
 name: Radopholus similis damage
-namespace: BananaTrait
 def: "Radopholus similis damage assesssment" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0003023
 name: Pratylenchus goodeyi damage
-namespace: BananaTrait
 def: "Pratylenchus goodeyi damage assesssment" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0003027
 name: Sensory traits
-namespace: BananaTrait
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0003028
 name: fruit acceptability
-namespace: BananaTrait
 def: "A general take of the panelist about the sample after the aroma, colour, taste, and mouth-feel specific tests." []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0003030
 name: weevil insect assessment
-namespace: BananaTrait
 def: "Weevil insect assesssment" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0003034
 name: number of helicotylenchus multicinctus
-namespace: BananaTrait
 def: "Number of Helicotylenchus multicinctus in root" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0003037
 name: Pratylenchus spp. damage
-namespace: BananaTrait
 def: "Pratylenchus spp. damage assesssment" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0003038
 name: Pratylenchus coffeae damage
-namespace: BananaTrait
 def: "Pratylenchus coffeae damage assesssment" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0003045
 name: insect damage
-namespace: BananaTrait
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0003046
 name: bacterial damage
-namespace: BananaTrait
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0003047
 name: banana xanthomonas wilt damage
-namespace: BananaTrait
 def: "banana xanthomonas wilt damage assesssment" []
 synonym: "BXW" EXACT []
 is_a: CO_325:0003046 ! bacterial damage
@@ -2182,53 +1901,45 @@ is_a: CO_325:0003046 ! bacterial damage
 [Term]
 id: CO_325:0003050
 name: number of banana weevil pupae measured
-namespace: BananaTrait
 def: "How many banana weevil larvae used to obtain a measurement." []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0003055
 name: damage to upper cross-section inner corm caused by weevils
-namespace: BananaTrait
 def: "Damage to the inner corm (central cylinder) upper cross-section caused by weevils." []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0003056
 name: damage to upper cross-section outer corm caused by weevils
-namespace: BananaTrait
 def: "Damage to the outer corm (cortex) upper cross-section caused by weevils." []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0003057
 name: fertility traits
-namespace: BananaTrait
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0003058
 name: female fertility
-namespace: BananaTrait
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0003059
 name: male fertility
-namespace: BananaTrait
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0003064
 name: number of dead leaves
-namespace: BananaTrait
 def: "The number of dead leaves on the plant." []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0003066
 name: Rhizome weight
-namespace: BananaTrait
 def: "corm weigh" []
 synonym: "corm weight" EXACT []
 is_a: TO:xxxxxxx ! xxxx
@@ -2236,63 +1947,54 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0003074
 name: damage to the pseudostem caused by weevils
-namespace: BananaTrait
 def: "Does weevil damage extend into the pseudostem" []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0003082
 name: plant stature
-namespace: BananaTrait
 def: "A ratio of plant circumference to plant height." []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0120047
 name: Boiled plantain Firmness
-namespace: BananaTrait
 def: "Force required to obtain deformation, penetration or rupture of the banana"
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0120051
 name: Boiled plantain Chewiness
-namespace: BananaTrait
 def: "Energy or number of chews necessary to chew the banana to make it ready to be swallowed"
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0120055
 name: Boiled plantain Mealiness
-namespace: BananaTrait
 def: "Mechanical property linked to cohesion and the presence of fine particles in the product during chewing"
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0120059
 name: Boiled plantain Stickiness
-namespace: BananaTrait
 def: "Force required to peel off the fraction of product adhering to the interior of the oral cavity"
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0120063
 name: Boiled plantain Sweetness
-namespace: BananaTrait
 def: "Elemental flavor caused by dilute aqueous solutions of various substances such as sucrose or aspartame"
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0120067
 name: Boiled plantain Moistness
-namespace: BananaTrait
 def: "Perception of the amount of water absorbed or released by the product"
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
 id: CO_325:0003106
 name: Boiled plantain textural characteristic hardness
-namespace: BananaTrait
 def: "The amount of force required to deform or to overcome resistance to puncture of the food material. Hardness is determined as the highest peak force in g measured during the first TPA compression."
 xref: https://doi.org/10.18167/agritrop/00685
 is_a: TO:xxxxxxx ! xxxx
@@ -2300,7 +2002,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0003106
 name: Boiled plantain textural characteristic hardness
-namespace: BananaTrait
 def: "It is the amount of force required to deform or to overcome resistance to puncture of the food material. The maximum force registered when boiled plantain sample is punctured."
 xref: https://doi.org/10.18167/agritrop/00685
 is_a: TO:xxxxxxx ! xxxx
@@ -2308,7 +2009,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0003108
 name: Boiled plantain textural characteristic distance at Fmax
-namespace: BananaTrait
 def: "The depth at which the hardness of boiled plantain is registered. It represents the the distance into the sample where hardness is the highest. High distances mean the sample has softer pulp. A  proxy for firmness which is the property of a food material being unyielding to touch."
 xref: https://doi.org/10.18167/agritrop/00685
 is_a: TO:xxxxxxx ! xxxx
@@ -2316,7 +2016,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0003109
 name: Boiled plantain textural characteristic penetration area
-namespace: BananaTrait
 def: "Work done or energy required to penetrate the boiled plantain sample. It represents the amount of energy that must be expended to penetrate the sample. Work done to penetrate sample in g.mm determined as total area under the curve."
 xref: https://doi.org/10.18167/agritrop/00685
 is_a: TO:xxxxxxx ! xxxx
@@ -2324,7 +2023,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0003110
 name: Boiled plantain textural characteristic distance to max force first TPA compression
-namespace: BananaTrait
 def: "Textural parameter used to calculate springness. It represents the depth of the sample where hardness is registered on first compression cycle. Textural parameter used to calculate cheweness and springness."
 xref: https://doi.org/10.18167/agritrop/00685
 is_a: TO:xxxxxxx ! xxxx
@@ -2333,7 +2031,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0003111
 name: Boiled plantain textural characteristic distance to max force second TPA compression
-namespace: BananaTrait
 def: "Textural parameter used to calculate springness. It represents the depth of the sample where hardness is registered on second compression cycle. The distance in mm between the beginning of the second compression and the highest peak force of the second compression."
 xref: https://doi.org/10.18167/agritrop/00685
 is_a: TO:xxxxxxx ! xxxx
@@ -2341,7 +2038,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0003112
 name: Boiled plantain textural characteristic area under curve first compression
-namespace: BananaTrait
 def: "Textural parameter used to calculate cohesiveness and resilience. It represents the work done to compress sample on first compression cycle. The area underneath the curve in g.mm between beginning of first compression and highest peak force of first compression."
 xref: https://doi.org/10.18167/agritrop/00685
 is_a: TO:xxxxxxx ! xxxx
@@ -2349,7 +2045,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0003113
 name: Boiled plantain textural characteristic area under curve first withdrawal
-namespace: BananaTrait
 def: "Textural parameter used to calculate cohesiveness and resilience. It represents the work done to decompress sample on first withdrawal cycle. The area underneath the curve in g.mm between highest peak force of first compression and end of first withdrawal."
 xref: https://doi.org/10.18167/agritrop/00685
 is_a: TO:xxxxxxx ! xxxx
@@ -2357,7 +2052,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0003114
 name: Boiled plantain textural characteristic area under curve second compression
-namespace: BananaTrait
 def: "Textural parameter used to calculate cohesiveness. It represents the work done to compress sample on second compression cycle. The area underneath the curve in g.mm between beginning of second compression and highest peak force of second compression."
 xref: https://doi.org/10.18167/agritrop/00685
 is_a: TO:xxxxxxx ! xxxx
@@ -2365,7 +2059,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0003115
 name: Boiled plantain textural characteristic area under curve second withdrawal
-namespace: BananaTrait
 def: "Textural parameter used to calculate cohesiveness. It represents the work done to decompress sample on second withdrawal cycle. The area underneath the curve in g.mm between highest peak force of second compression and end of second withdrawal."
 xref: https://doi.org/10.18167/agritrop/00685
 is_a: TO:xxxxxxx ! xxxx
@@ -2373,7 +2066,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0003116
 name: Boiled plantain textural characteristic adhesiveness/stickness
-namespace: BananaTrait
 def: "The work required in overcoming the attractive force between a product and the contact surface.  It represents how sticky the boiled plantain sample is. Adhesiveness is represented by the area in g.s covered by the first negative peak (c)."
 xref: https://doi.org/10.18167/agritrop/00685
 is_a: TO:xxxxxxx ! xxxx
@@ -2381,36 +2073,29 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0003117
 name: Boiled plantain textural characteristic cohesiveness
-namespace: BananaTrait
 def: "The work required to overcome the internal bonds of a material. It represents the ability of the boiled plantain sample to remain compact and not fracture or disintegrate into bits. Cohesiveness is calculated as area underneath the second compression and withdrawal curves divided by the area underneath the first compression and withdrawal curves [(d+e)/(a+b)]."
 xref: https://doi.org/10.18167/agritrop/00685
 is_a: TO:xxxxxxx ! xxxx
 
-
 [Term]
 id: CO_325:0003118
 name: Boiled plantain textural characteristic springiness
-namespace: BananaTrait
 def: "The degree to which food can recover between the end of the first bite and the beginning of the second bite in the mouth. Springiness represents the ability of boiled plantain to regain its ''elastic'' nature after compression. Springness is calculated as a ratio or percentage of a product’s recovery to its original height [(Distance 2)/(Distance 1)]*100 or (Time 2/Time 1)*100."
 is_a: TO:xxxxxxx ! xxxx
 xref: https://doi.org/10.18167/agritrop/00685
 is_a: TO:xxxxxxx ! xxxx
 
-
 [Term]
 id: CO_325:0003119
 name: Boiled plantain textural characteristic gumminess
-namespace: BananaTrait
 def: "Mechanical textural attribute related to the cohesiveness of a tender product. The product of cohesiveness and hardness calculated from Hardness x Cohesiveness F1*[(d+e)/(a+b)]."
 is_a: TO:xxxxxxx ! xxxx
 xref: https://doi.org/10.18167/agritrop/00685
 is_a: TO:xxxxxxx ! xxxx
 
-
 [Term]
 id: CO_325:0003120
 name: Boiled plantain textural characteristic chewiness
-namespace: BananaTrait
 def: "The mechanical textural attribute related to the amount of work required to masticate a solid. It is the product of gumminess and springiness. Cheweness is calculated from Hardness x Cohesiveness x Springiness (F1*((d+e)/(a+b))*(Distance 2/Distance 1))."
 xref: https://doi.org/10.18167/agritrop/00685
 is_a: TO:xxxxxxx ! xxxx
@@ -2418,7 +2103,6 @@ is_a: TO:xxxxxxx ! xxxx
 [Term]
 id: CO_325:0003121
 name: Boiled plantain textural characteristic resilience
-namespace: BananaTrait
 def: "The mechanical textural attribute relating to the rapidity of recovery from a deforming force or the degree to which a deformed material returns to its original condition after the deforming force is removed. The textural attribute representing the ability of boiled plantain to recover to its original size after compression."
 xref: https://doi.org/10.18167/agritrop/00685
 is_a: TO:xxxxxxx ! xxxx
