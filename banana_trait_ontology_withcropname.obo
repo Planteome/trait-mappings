@@ -361,7 +361,7 @@ id: CO_325:0000250
 name: pulp weight
 def: "Peel the fruit and weigh the pulp using a scale (g). Record the pulp weight (g) of the central external finger on the second top cluster." []
 synonym: "pulpweight" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0003031 ! pepo fruit weight
 
 [Term]
 id: CO_325:0000252
@@ -402,7 +402,7 @@ id: CO_325:0000292
 name: time from flowering to harvest
 def: "The time elapsed from flowering (when the last bracts fall from the most distal hand to display the female flowers) to the harvest of the bunch." []
 synonym: "flower2harvest" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000366 ! reproductive growth time
 
 [Term]
 id: CO_325:0000294
@@ -410,7 +410,7 @@ name: time from planting to death
 def: "The time elapsed from planting to the death of the plant." []
 synonym: "plant2death" EXACT []
 synonym: "Time to death" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_325:0000296
@@ -418,7 +418,7 @@ name: time from harvest to death
 def: "The time elapsed from the harvest of the bunch of the plant from the preceding crop cycle to the death of the plant from the current crop cycle." []
 synonym: "harvest2death" EXACT []
 synonym: "Time to death of the ratoon plant" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_325:0000298
@@ -426,7 +426,7 @@ name: ratoon crop cycle
 def: "The time elapsed from the harvest of the bunch of the plant from the preceding crop cycle to the harvest of the bunch of the plant from the current crop cycle." []
 synonym: "harvest2harvest" EXACT []
 synonym: "Time from harvest to harvest" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_325:0000307
@@ -434,7 +434,7 @@ name: plant height to neck of peduncle
 def: "The height of the pseudostem of the plant from the collar to the curved neck of the peduncle." []
 synonym: "plantheightneck" EXACT []
 synonym: "Pseudostem height" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000207 ! plant height
 
 [Term]
 id: CO_325:0000310
@@ -449,14 +449,14 @@ name: bunch maturity stage at harvest
 def: "The stage of maturity of the bunch at harvest." []
 synonym: "bunchmaturity" EXACT []
 synonym: "Stage of harvesting" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001076 ! infructescence development trait
 
 [Term]
 id: CO_325:0000314
 name: rachis weight
 def: "The weight of the rachis." []
 synonym: "rachisweight" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000782 ! inflorescence axis morphology trait
 
 [Term]
 id: CO_325:0000316
@@ -471,7 +471,7 @@ id: CO_325:0000318
 name: hand rank
 def: "The rank (order) of a hand in the bunch." []
 synonym: "handid" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:1000004 ! infructescence position
 
 [Term]
 id: CO_325:0000320
@@ -485,7 +485,7 @@ id: CO_325:0000322
 name: number of hands measured
 def: "The number of hands used to obtain a measurement." []
 synonym: "numhandsmeas" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000936 ! infructescence yield trait
 
 [Term]
 id: CO_325:0000324
@@ -499,14 +499,14 @@ id: CO_325:0000327
 name: multiple hand weight
 def: "The weight of multiple hands." []
 synonym: "multhandweight" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000583 ! infructescence weight
 
 [Term]
 id: CO_325:0000329
 name: average hand weight
 def: "The average weight of the hands." []
 synonym: "avehandweight" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000583 ! infructescence weight
 
 [Term]
 id: CO_325:0000331
@@ -520,7 +520,7 @@ id: CO_325:0000335
 name: average finger weight
 def: "The average weight of the fingers." []
 synonym: "avefingerweight" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0003031 ! pepo fruit weight
 
 [Term]
 id: CO_325:0000337
@@ -528,7 +528,7 @@ name: average finger external length
 def: "The average length of the fingers measured along the external (dorsal) arc, excluding the pedicel and the fruit tip." []
 synonym: "avefingerextlength" EXACT []
 synonym: "Average finger dorsal length" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0002626 ! fruit length
 
 [Term]
 id: CO_325:0000339
@@ -536,7 +536,7 @@ name: finger internal length
 def: "The length of a finger measured along the internal (ventral) arc, excluding the pedicel and the fruit tip." []
 synonym: "Finger ventral length" EXACT []
 synonym: "fingerintlength" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0002626 ! fruit length
 
 [Term]
 id: CO_325:0000341
@@ -544,8 +544,7 @@ name: average finger internal length
 def: "The average length of the fingers measured along the internal (ventral) arc, excluding the pedicel and the fruit tip." []
 synonym: "avefingerintlength" EXACT []
 synonym: "Average finger ventral length" EXACT []
-is_a: TO:xxxxxxx ! xxxx
-
+is_a: TO:0002626 ! fruit length
 
 [Term]
 id: CO_325:0000344
@@ -553,7 +552,7 @@ name: average finger circumference
 def: "The average circumference of the fingers." []
 synonym: "avefingercircumf" EXACT []
 synonym: "Average finger girth" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001098 ! pepo fruit morphology trait
 
 [Term]
 id: CO_325:0000348
@@ -561,7 +560,7 @@ name: average finger lateral diameter
 def: "The average lateral (side to side) diameter of a finger." []
 synonym: "avefingerlatdiam" EXACT []
 synonym: "Finger grade, Fruit diameter, Fruit grade" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000848 ! fruit diameter
 
 [Term]
 id: CO_325:0000352
@@ -569,7 +568,7 @@ name: average fruit pulp lateral diameter
 def: "The average lateral (side to side) diameter of the pulp of a fruit." []
 synonym: "avepulpdiam" EXACT []
 synonym: "Finger pulp diameter" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000945 ! pericarp morphology trait
 
 [Term]
 id: CO_325:0000355
@@ -577,21 +576,21 @@ name: average finger peel thickness
 def: "The average thickness of the peel of a finger." []
 synonym: "avepeelthickness" EXACT []
 synonym: "Width of the peel, Width of the skin, Width of the exocarp, Finger peel thickness" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000907 ! exocarp thickness
 
 [Term]
 id: CO_325:0000381
 name: annual crop cycle proportion
 def: "The proportion of the crop cycle that takes place in one year." []
 synonym: "anncropcycprop" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_325:0000383
 name: plant annual yield
 def: "The bunch weight produced by the plant over the course of the crop cycle, averaged across one year." []
 synonym: "plantannyield" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000936 ! infructescence yield trait
 
 [Term]
 id: CO_325:0000385
@@ -599,7 +598,7 @@ name: average actual annual yield
 def: "The average actual annual yield, taking into account the proportion of plants harvested, from the number of plants planted" []
 synonym: "actualannyield" EXACT []
 synonym: "Yield" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000936 ! infructescence yield trait
 
 [Term]
 id: CO_325:0000387
@@ -607,28 +606,28 @@ name: average potential annual yield
 def: "The average potential annual yield, assuming that all plants are harvested, from the number of plants planted." []
 synonym: "potannyield" EXACT []
 synonym: "Yield" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000936 ! infructescence yield trait
 
 [Term]
 id: CO_325:0000389
 name: overall fruit pendulance quality
 def: "The overall estimation fruit pendulance on a bunch" []
 synonym: "pendulantfruit" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000920 ! infructescence morphology trait
 
 [Term]
 id: CO_325:0000391
 name: overall bunch quality
 def: "The overall estimation of the bunch quality on a mat" []
 synonym: "goodbunch" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0002728 ! fruit quality
 
 [Term]
 id: CO_325:0000393
 name: fruitfill
 def: "The overall estimation of fruitfilling level on a bunch" []
 synonym: "goodfruitfill" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000929 ! fruit growth and development trait
 
 [Term]
 id: CO_325:0000395
@@ -642,14 +641,14 @@ id: CO_325:0000397
 name: dwarfism
 def: "The presence or absence of dwarfism on a mat" []
 synonym: "dwarfism" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000398 ! whole plant morphology trait
 
 [Term]
 id: CO_325:0000425
 name: pseudostem height
 def: "Distance from the base of the pseudostem to the emerging point of the peduncle." []
 synonym: "Plant height" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000207 ! plant height
 
 [Term]
 id: CO_325:0000427
@@ -676,114 +675,113 @@ is_a: TO:0000765 ! petiole morphology trait
 id: CO_325:0000438
 name: bunch orientation
 def: "Angle between the axis of the bunch and the vertical" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:1000004 ! infructescence position
 
 [Term]
 id: CO_325:0000440
 name: bunch shape
 def: "Shape of the fully developed bunch on a plant" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000920 ! infructescence morphology trait
 
 [Term]
 id: CO_325:0000442
 name: male rachis type
 def: "Behaviour of male rachis - truncated or present. Truncated means there is no bract scar below the last hand. Present means there is a degenerated or persistent male bud" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000782 ! inflorescence axis morphology trait
 
 [Term]
 id: CO_325:0000444
 name: male rachis position
 def: "Angle of the rachis between last hand and male bud" []
 synonym: "Rachis angle" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000782 ! inflorescence axis morphology trait
 
 [Term]
 id: CO_325:0000446
 name: male rachis appearance
 def: "Appearance of flowers/bracts on the male rachis" []
 synonym: "Rachis appearance" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000782 ! inflorescence axis morphology trait
 
 [Term]
 id: CO_325:0000448
 name: male bud shape
 def: "Shape of the male bud defined as the ratio of male bud broadest width to total male bud length" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000789 ! bud morphology trait
 
 [Term]
 id: CO_325:0000451
 name: male bud length
 def: "Length of male bud from end of rachis to apex of the bud" []
 synonym: "Male bud size" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000789 ! bud morphology trait
 
 [Term]
 id: CO_325:0000454
 name: male bud shoulder
 def: "Male bud shoulder description" []
 synonym: "Male bud size" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000789 ! bud morphology trait
 
 [Term]
 id: CO_325:0000456
 name: bract apex shape
 def: "Appearance of flowers/bracts on the male rachis" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000816 ! inflorescence bract morphology trait
 
 [Term]
 id: CO_325:0000459
 name: bract imbrication at apex of male bud
 def: "Alignment of bracts at the apex of the male bud" []
 synonym: "Bract imbrication" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000816 ! inflorescence bract morphology trait
 
 [Term]
 id: CO_325:0000461
 name: bract behaviour before falling
 def: "Behaviour of the last lifted bract - revolute or not revolute" []
-is_a: TO:xxxxxxx ! xxxx
-
+is_a: TO:0000816 ! inflorescence bract morphology trait
 
 [Term]
 id: CO_325:0000463
 name: colour of bract external face
 def: "Main colour of the first external unlifted bract external face" []
 synonym: "Colour of the bract external face" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000819 ! inflorescence bract color
 
 [Term]
 id: CO_325:0000466
 name: colour of bract internal face
 def: "Main colour of the first external unlifted bract internal face" []
 synonym: "Colour of the bract internal face" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000819 ! inflorescence bract color
 
 [Term]
 id: CO_325:0000469
 name: compound tepal main colour
 def: "Main colour of the backside of the compound tepal" []
 synonym: "Tepal colour, Compound tepal basic colour" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000574 ! tepal color
 
 [Term]
 id: CO_325:0000472
 name: lobe colour of tip of compound tepal
 def: "Main colour of the tip of the compound tepal (lobe)" []
 synonym: "Lobe colour, Lobe colour of compound tepal" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000574 ! tepal color
 
 [Term]
 id: CO_325:0000475
 name: anther colour
 def: "Main colour of the face of anther opposite to dehiscence" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000187 ! anther color
 
 [Term]
 id: CO_325:0000478
 name: number of hands on whole bunch
 def: "Number of hands on bunch **subsume" []
 synonym: "Number of hands" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000894 ! fruit number trait
 
 [Term]
 id: CO_325:0000480
@@ -1279,7 +1277,7 @@ id: CO_325:0000936
 name: plant relative water content
 def: "The relative water content in the whole plant" []
 synonym: "rwcPlant" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000398 ! whole plant morphology trait
 
 [Term]
 id: CO_325:0000937
@@ -1342,7 +1340,7 @@ id: CO_325:0000946
 name: plant fresh weight
 def: "A plant weight trait which is the fresh weight of a plant" []
 synonym: "plantFreshMass" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000398 ! whole plant morphology trait
 
 [Term]
 id: CO_325:0000947
