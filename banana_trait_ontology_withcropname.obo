@@ -75,7 +75,7 @@ id: CO_325:0000033
 name: bunch weight
 def: "The weight of the bunch, including the rachis." []
 synonym: "bunchweight" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000583 ! infructescence weight
 
 [Term]
 id: CO_325:0000036
@@ -103,14 +103,14 @@ id: CO_325:0000045
 name: hand weight
 def: "The weight of a hand." []
 synonym: "handweight" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000583 ! infructescence weight
 
 [Term]
 id: CO_325:0000048
 name: finger weight
 def: "The weight of a finger." []
 synonym: "fingerweight" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0003031 ! pepo fruit weight
 
 [Term]
 id: CO_325:0000051
@@ -118,7 +118,7 @@ name: finger external length
 def: "The length of a finger measured along the external (dorsal) arc, excluding the pedicel and the fruit tip." []
 synonym: "Finger dorsal length" EXACT []
 synonym: "fingerextlength" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001098 ! pepo fruit morphology trait
 
 [Term]
 id: CO_325:0000054
@@ -126,7 +126,7 @@ name: finger circumference
 def: "The circumference of a finger." []
 synonym: "Finger girth" EXACT []
 synonym: "fingercircumf" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001098 ! pepo fruit morphology trait
 
 [Term]
 id: CO_325:0000057
@@ -134,7 +134,7 @@ name: black leaf streak disease incubation time
 def: "The time elapsed between a tagged cigar leaf at Brun's stage B of unrolling and the development of black leaf streak disease symptoms at Foure's black leaf streak disease severity grade 1." []
 synonym: "Black Sigatoka disease incubation time" EXACT []
 synonym: "DIT" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000060
@@ -142,7 +142,7 @@ name: black leaf streak disease evolution time
 def: "The time elapsed between the development of black leaf streak disease symptoms at Foure's black leaf streak disease severity grade 1, to 6." []
 synonym: "Black Sigatoka disease evolution time" EXACT []
 synonym: "DET" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000066
@@ -150,110 +150,152 @@ name: number of functional leaves
 def: "The number of leaves on the plant that have 50% or more of the leaf surface area as green, healthy, photosynthetic tissue." []
 synonym: "functleaves" EXACT []
 synonym: "numFuncLeaves" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TTO:0000241 ! leaf number
 
 [Term]
 id: CO_325:0000069
 name: number of standing leaves
 def: "The number of leaves attached to the plant that have an erect petiole (not bent or broken)." []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TTO:0000241 ! leaf number
 
 [Term]
 id: CO_325:0000072
 name: extent of internal discolouration in corm of tallest sucker caused by fusarium wilt
 def: "The extent of discolouration in the corm of the tallest sucker, caused by Fusarium wilt." []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000075
 name: distance of internal discolouration in pseudostem of plant caused by fusarium wilt
 def: "The distance of discolouration in the pseudostem of the plant, caused by Fusarium wilt." []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000078
 name: percentage of plants with external disease symptoms caused by fusarium wilt
 def: "The percentage of plants with any or multiple of the external disease symptoms - yellowing leaves, splitting of pseudostem base, changes in new leaves, petiole collapse, caused by Fusarium wilt." []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000081
 name: percentage of plants with internal disease symptoms caused by fusarium wilt
 def: "The percentage of plants with any or multiple of the internal disease symptoms - discolouration in the corm, and/or discolouration in the pseudostem, caused by Fusarium wilt." []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000084
 name: time from start of crop cycle to first external disease symptoms caused by fusarium wilt
 def: "The time elapsed from the start of the crop cycle to the appearance on the plant of any of the external disease symptoms - - yellowing leaves, splitting pseudostem base, changes in new leaves, petiole collapse, caused by Fusarium wilt." []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000087
 name: presence of yellowing leaves caused by fusarium wilt
 def: "The presence/absence of yellowing leaves, caused by Fusarium wilt." []
 synonym: "YL" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000090
 name: presence of splitting pseudostem base caused by fusarium wilt
 def: "The presence/absence of a splitting pseudostem base, caused by Fusarium wilt." []
 synonym: "SP" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000093
 name: presence of changes in new leaves caused by fusarium wilt
 def: "The presence/absence of changes in new leaves - irregular pale margins, narrowing of lamina, burning plus ripping of lamina, lamina becoming more erect, caused by Fusarium wilt." []
 synonym: "CNL" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000096
 name: presence of petiole collapse caused by fusarium wilt
 def: "The presence/absence of petiole collapse, caused by Fusarium wilt." []
 synonym: "PC" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000099
 name: youngest leaf spotted
 def: "The rank (order) of the first fully unfurled leaf with at least 10 discrete, mature, necrotic lesions or one large necrotic area with 10 leaf spot light-coloued dry centres, caused by black leaf streak disease." []
 synonym: "YLS" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000102
 name: index of non-spotted leaves
 def: "An index to express the proportion of standing leaves without the typical late-stage symptoms of black leaf streak disease, i.e. a black spot with a necrotic centre. This index provides an estimation of available photosynthetic leaf area prior to fruit filling and is a measure of resistance. It also corrects for the difference in the number of leaves produced by different types of bananas." []
 synonym: "INSL" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000105
 name: black leaf streak disease severity index
 def: "An index to express the degree of leaf area of all standing leaves on the plant affected by black leaf streak disease." []
 synonym: "Black Sigatoka disease infection index" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000108
 name: number of dead roots
 def: "The number of dead roots in a standard-size excavation of 20 x 20 x 20 cm extending outwards from the corm of the plant." []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001042 ! root quality trait
 
 [Term]
 id: CO_325:0000111
 name: number of functional roots
 def: "The number of functional roots in a standard-size excavation of 20 x 20 x 20 cm extending outwards from the corm of the plant." []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001042 ! root quality trait
+
+[Term]
+id: CO_325:0000114
+name: Number of all roots
+def: "The total number of all roots (both dead and functional) in a standard-size excavation of 20 x 20 x 20 cm extending outwards from the corm of the plant." []
+is_a: TO:0000084 ! root number
+
+[Term]
+id: CO_325:0000117
+name: Percentage of functional roots
+def: "The percentage of all roots in a standard-size excavation of 20 x 20 x 20 cm extending outwards from the corm of the plant that are functional." []
+is_a: TO:0001042 ! root quality trait
+
+[Term]
+id: CO_325:0000120
+name: Percentage of dead roots
+def: "The percentage of the root cortex of five functional roots approximately 10 cm long that is necrotic due to nematode damage." []
+is_a: TO:0001042 ! root quality trait
 
 [Term]
 id: CO_325:0000123
 name: root necrosis caused by nematodes
 def: "The percentage of the root cortex of five functional roots approximately 10 cm long that is necrotic due to nematode damage." []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000384 ! nematode damage response trait
+
+[Term]
+id: CO_325:0000126
+name: Nematode root knot galling extent
+def: "The extent of root knot nematodes, observed externally as galls on the roots.." []
+is_a: TO:0000384 ! nematode damage response trait
+
+[Term]
+id: CO_325:0000129
+name: Nematode egg-laying females extent
+def: "The extent of egg-laying female root knot nematodes, observed internally as pit-like structures on the roots." []
+is_a: TO:0000384 ! nematode damage response trait
+
+[Term]
+id: CO_325:0000211
+name: Date of shooting
+def: "The date the inflorescence emerges from the pseudostem and is still in an erect position." []
+is_a: TO:0001021 ! days to inflorescence exsertion
+
+[Term]
+id: CO_325:0000218
+name: Date of flowering
+def: "The date the last bracts fall from the most distal hand (closest to the male bud) to display the female flowers." []
+is_a: TO:0002616 ! flowering time trait
 
 [Term]
 id: CO_325:0000221
@@ -282,7 +324,7 @@ name: finger lateral diameter
 def: "The lateral (side to side) diameter of a finger." []
 synonym: "Finger grade, Fruit diameter, Fruit grade" EXACT []
 synonym: "fingerlatdiam" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000848 ! fruit diameter
 
 [Term]
 id: CO_325:0000236
@@ -290,7 +332,7 @@ name: finger peel thickness
 def: "The thickness of the peel of a finger." []
 synonym: "peelthickness" EXACT []
 synonym: "Width of the peel, Width of the skin, Width of the exocarp, Finger peel thickness" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000907 ! exocarp thickness
 
 [Term]
 id: CO_325:0000240
@@ -298,7 +340,7 @@ name: fruit pulp lateral diameter
 def: "The lateral (side to side) diameter of the pulp of a fruit." []
 synonym: "Finger pulp diameter" EXACT []
 synonym: "pulpdiam" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001098 ! pepo fruit morphology trait
 
 [Term]
 id: CO_325:0000243
@@ -422,7 +464,7 @@ name: total finger weight
 def: "The weight of all the hands of the bunch, excluding the rachis." []
 synonym: "Total fruit weight, Total hand weight" EXACT []
 synonym: "totalfingerweight" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0003031 ! pepo fruit weight
 
 [Term]
 id: CO_325:0000318
@@ -471,7 +513,7 @@ id: CO_325:0000331
 name: multiple finger weight
 def: "The weight of multiple fingers." []
 synonym: "multfingerweight" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0003031 ! pepo fruit weight
 
 [Term]
 id: CO_325:0000335
