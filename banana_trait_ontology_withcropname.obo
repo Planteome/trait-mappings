@@ -6,7 +6,10 @@ ontology: co_325
 
 [Term]
 id: CO_325:0000000
-name: CGIAR banana trait ontology
+name: Time from planting to shooting
+def: "The time elapsed from planting to shooting (when the inflorescence emerges from the pseudostem and is still in an erect position)." []
+synonym: "plant2shoot" EXACT []
+is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_325:0000003
@@ -14,13 +17,13 @@ name: time from shooting to harvest
 def: "The time elapsed from shooting (when the inflorescence emerges from the pseudostem and is still in an erect position) to the harvest of the bunch." []
 synonym: "shoot2harvest" EXACT []
 synonym: "Time of fruit-filling, Fruit-filling period, Bunch maturity period, Length of reproductive stage, Bunch maturation period" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_325:0000004
 name: flowering
 def: "whole-plant flowering related trait" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0002616 ! flowering time trait
 
 [Term]
 id: CO_325:0000006
@@ -28,7 +31,7 @@ name: plant crop cycle
 def: "The time elapsed from planting to the harvest of the bunch." []
 synonym: "Crop cycle, Mother plant crop cycle, Time from planting to harvest" EXACT []
 synonym: "plant2harvest" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_325:0000009
@@ -36,28 +39,28 @@ name: plant height
 def: "The height of the pseudostem of the plant, from the collar to the intersection of the petioles of the two youngest leaves." []
 synonym: "plantheightpetioles" EXACT []
 synonym: "Pseudostem height" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000207 ! plant height
 
 [Term]
 id: CO_325:0000012
 name: plant circumference from the collar
 def: "The circumference of the pseudostem of the plant." []
 synonym: "Pseudostem girth, Plant circumference, Pseudostem circumference, Plant girth" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000811 ! pseudostem diameter
 
 [Term]
 id: CO_325:0000021
 name: monthly leaf emission rate
 def: "A rate that expresses the number of leaves that have emerged from the pseudostem in a month." []
 synonym: "LER" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000735 ! plastochron
 
 [Term]
 id: CO_325:0000024
 name: number of suckers
 def: "The number of all types of suckers in the mat." []
 synonym: "numsuckers" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000077 ! shoot system morphology trait
 
 [Term]
 id: CO_325:0000027
@@ -65,7 +68,7 @@ name: tallest sucker height
 def: "The height of the pseudostem of the tallest sucker within the same mat as the plant (the sucker that will become the next plant with a bunch, once the bunch from the current plant is harvested)" []
 synonym: "Height of tallest sucker, Following sucker height, Height of following sucker" EXACT []
 synonym: "suckerheight" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000988 ! shoot-borne shoot system morphology trait
 
 [Term]
 id: CO_325:0000033
@@ -79,21 +82,21 @@ id: CO_325:0000036
 name: number of hands in bunch
 def: "The number of hands in the bunch." []
 synonym: "numhands" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000894 ! fruit number trait
 
 [Term]
 id: CO_325:0000039
 name: number of fingers in bunch
 def: "The number of fingers in the bunch." []
 synonym: "numfingersbunch" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000894 ! fruit number trait
 
 [Term]
 id: CO_325:0000042
 name: number of fingers in hand: count
 def: "The number of fingers in a third hand." []
 synonym: "numfingershand" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000894 ! fruit number trait
 
 [Term]
 id: CO_325:0000045
@@ -252,27 +255,26 @@ name: root necrosis caused by nematodes
 def: "The percentage of the root cortex of five functional roots approximately 10 cm long that is necrotic due to nematode damage." []
 is_a: TO:xxxxxxx ! xxxx
 
-
 [Term]
 id: CO_325:0000221
 name: number of maiden suckers
 def: "The number of maiden suckers (fully grown suckers with foliage leaves) in the mat." []
 synonym: "nummaidensuckers" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000077 ! shoot system morphology trait
 
 [Term]
 id: CO_325:0000225
 name: Number of sword suckers
 def: "The number of sword suckers (suckers with narrow leaves and a large rhizome) in the mat." []
 synonym: "numswordsuckers" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000077 ! shoot system morphology trait
 
 [Term]
 id: CO_325:0000229
 name: number of peeper suckers
 def: "The number of peeper suckers (suckers < 15 cm tall) in the mat." []
 synonym: "numpeepersuckers" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000077 ! shoot system morphology trait
 
 [Term]
 id: CO_325:0000233
@@ -297,7 +299,6 @@ def: "The lateral (side to side) diameter of the pulp of a fruit." []
 synonym: "Finger pulp diameter" EXACT []
 synonym: "pulpdiam" EXACT []
 is_a: TO:xxxxxxx ! xxxx
-
 
 [Term]
 id: CO_325:0000243
@@ -326,7 +327,6 @@ name: pigmentation of outer surface of cigar leaf on sucker
 def: "Colour of pigmentation on outer surface of cigar leaf on a developed sucker" []
 synonym: "Colour of cigar leaf dorsal surface" EXACT []
 is_a: TO:xxxxxxx ! xxxx
-
 
 [Term]
 id: CO_325:0000256
@@ -399,7 +399,7 @@ id: CO_325:0000310
 name: number of water suckers
 def: "The number of water suckers (suckers with broad leaves, a small rhizome, and a weak connection to the plant) in the mat." []
 synonym: "numwatersuckers" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000077 ! shoot system morphology trait
 
 [Term]
 id: CO_325:0000312
@@ -431,14 +431,12 @@ def: "The rank (order) of a hand in the bunch." []
 synonym: "handid" EXACT []
 is_a: TO:xxxxxxx ! xxxx
 
-
 [Term]
 id: CO_325:0000320
 name: multiple number of fingers in hand
 def: "The number of fingers in multiple hands." []
 synonym: "multnumfingshand" EXACT []
-is_a: TO:xxxxxxx ! xxxx
-
+is_a: TO:0000894 ! fruit number trait
 
 [Term]
 id: CO_325:0000322
@@ -452,7 +450,7 @@ id: CO_325:0000324
 name: average number of fingers in hand
 def: "The average number of fingers in a hand." []
 synonym: "avenumfingshand_rltv" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000894 ! fruit number trait
 
 [Term]
 id: CO_325:0000327
@@ -473,13 +471,6 @@ id: CO_325:0000331
 name: multiple finger weight
 def: "The weight of multiple fingers." []
 synonym: "multfingerweight" EXACT []
-is_a: TO:xxxxxxx ! xxxx
-
-[Term]
-id: CO_325:0000333
-name: number of fingers measured
-def: "The number of fingers used to obtain a measurement." []
-synonym: "numfingersmeas" EXACT []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
@@ -547,90 +538,6 @@ synonym: "Width of the peel, Width of the skin, Width of the exocarp, Finger pee
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
-id: CO_325:0000357
-name: number of plants planted
-def: "The number of plants that are planted." []
-synonym: "numplanted" EXACT []
-is_a: TO:xxxxxxx ! xxxx
-
-[Term]
-id: CO_325:0000359
-name: plant spacing
-def: "The area allocated to one plant." []
-synonym: "plantspacing" EXACT []
-is_a: TO:xxxxxxx ! xxxx
-
-[Term]
-id: CO_325:0000361
-name: plant density
-def: "The number of plants that are planted, in a defined area." []
-synonym: "plantdens" EXACT []
-is_a: TO:xxxxxxx ! xxxx
-
-[Term]
-id: CO_325:0000363
-name: number of plants dead
-def: "The number of plants that are dead." []
-synonym: "numdead" EXACT []
-is_a: TO:xxxxxxx ! xxxx
-
-[Term]
-id: CO_325:0000365
-name: number of plants harvested
-def: "The number of plants that are harvested." []
-synonym: "numharv" EXACT []
-is_a: TO:xxxxxxx ! xxxx
-
-[Term]
-id: CO_325:0000367
-name: number of plants not harvested
-def: "The number of plants that are alive but not harvested (e.g. due to slow or poor development)." []
-synonym: "numnotharv" EXACT []
-is_a: TO:xxxxxxx ! xxxx
-
-[Term]
-id: CO_325:0000369
-name: death proportion
-def: "The proportion of plants that are dead, from the number of plants planted." []
-synonym: "deathprop" EXACT []
-is_a: TO:xxxxxxx ! xxxx
-
-[Term]
-id: CO_325:0000371
-name: death density
-def: "The number of plants that are dead, in a defined area." []
-synonym: "deathdens" EXACT []
-is_a: TO:xxxxxxx ! xxxx
-
-[Term]
-id: CO_325:0000373
-name: harvest proportion
-def: "The proportion of plants that are harvested, from the number of plants planted." []
-synonym: "harvprop" EXACT []
-is_a: TO:xxxxxxx ! xxxx
-
-[Term]
-id: CO_325:0000375
-name: harvest density
-def: "The number of plants that are harvested, in a defined area." []
-synonym: "harvdens" EXACT []
-is_a: TO:xxxxxxx ! xxxx
-
-[Term]
-id: CO_325:0000377
-name: non-harvest proportion
-def: "The proportion of plants that are alive but not harvested (e.g. due to slow or poor development), from the number of plants planted." []
-synonym: "nonharvprop" EXACT []
-is_a: TO:xxxxxxx ! xxxx
-
-[Term]
-id: CO_325:0000379
-name: non-harvest density
-def: "The number of plants that are alive but not harvested (e.g. due to slow or poor development), in a defined area." []
-synonym: "nonharvdens" EXACT []
-is_a: TO:xxxxxxx ! xxxx
-
-[Term]
 id: CO_325:0000381
 name: annual crop cycle proportion
 def: "The proportion of the crop cycle that takes place in one year." []
@@ -686,7 +593,7 @@ id: CO_325:0000395
 name: overall suckering quality
 def: "The overall estimation of sucker quality on a mat" []
 synonym: "suckering" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000988 ! shoot-borne shoot system morphology trait
 
 [Term]
 id: CO_325:0000397
@@ -841,7 +748,7 @@ id: CO_325:0000480
 name: number of fruits on mid-hand of the bunch
 def: "Number of fruits on the mid-hand of the bunch **subsume" []
 synonym: "Number of fruits" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000894 ! fruit number trait
 
 [Term]
 id: CO_325:0000482
@@ -1148,120 +1055,6 @@ is_a: TO:xxxxxxx ! xxxx
 id: CO_325:0000606
 name: percentage of plants with petiole collapse caused by fusarium wilt
 def: "Percentage of plants with petiole collapse, caused by Fusarium wilt." []
-is_a: TO:xxxxxxx ! xxxx
-
-[Term]
-id: CO_325:0000610
-name: number of banana weevil adults per trap
-def: "How many banana weevil adults caught per trap." []
-is_a: TO:xxxxxxx ! xxxx
-
-[Term]
-id: CO_325:0000612
-name: number of banana weevil traps used
-def: "How many banana weevil traps used." []
-is_a: TO:xxxxxxx ! xxxx
-
-[Term]
-id: CO_325:0000614
-name: average number of banana weevil adults per trap
-def: "The average of how many adult banana weevils caught per trap." []
-is_a: TO:xxxxxxx ! xxxx
-
-[Term]
-id: CO_325:0000616
-name: number of banana weevil larvae per trap
-def: "How many banana weevil larvae caught per trap." []
-is_a: TO:xxxxxxx ! xxxx
-
-[Term]
-id: CO_325:0000618
-name: average number of banana weevil larvae per trap
-def: "The average of how many banana weevil larvae caught per trap." []
-is_a: TO:xxxxxxx ! xxxx
-
-[Term]
-id: CO_325:0000620
-name: number of banana weevil adults measured
-def: "How many banana weevil adults used to obtain a measurement." []
-is_a: TO:xxxxxxx ! xxxx
-
-[Term]
-id: CO_325:0000622
-name: number of banana weevil larvae measured
-def: "How many banana weevil larvae used to obtain a measurement." []
-is_a: TO:xxxxxxx ! xxxx
-
-[Term]
-id: CO_325:0000624
-name: banana weevil adult head capsule width
-def: "The width of a banana weevil adult weevil head." []
-is_a: TO:xxxxxxx ! xxxx
-
-[Term]
-id: CO_325:0000626
-name: banana weevil adult average head capsule width
-def: "The average width of a banana weevil adult head." []
-is_a: TO:xxxxxxx ! xxxx
-
-[Term]
-id: CO_325:0000628
-name: banana weevil adult body length
-def: "The length of a banana weevil adult body, from the head to the tip of the abdomen." []
-is_a: TO:xxxxxxx ! xxxx
-
-[Term]
-id: CO_325:0000630
-name: banana weevil adult average body length
-def: "The average length of a banana weevil adult body, from the head to the tip of the abdomen." []
-is_a: TO:xxxxxxx ! xxxx
-
-[Term]
-id: CO_325:0000632
-name: banana weevil adult body weight
-def: "The weight of a banana weevil adult weevil body." []
-is_a: TO:xxxxxxx ! xxxx
-
-[Term]
-id: CO_325:0000634
-name: banana weevil adult average body weight
-def: "The average weight of a banana weevil adult body." []
-is_a: TO:xxxxxxx ! xxxx
-
-[Term]
-id: CO_325:0000636
-name: banana weevil larvae head capsule width
-def: "The width of a weevil larvae head capsule." []
-is_a: TO:xxxxxxx ! xxxx
-
-[Term]
-id: CO_325:0000638
-name: banana weevil larvae average head capsule width
-def: "The average width of a banana weevil larvae head capsule." []
-is_a: TO:xxxxxxx ! xxxx
-
-[Term]
-id: CO_325:0000640
-name: banana weevil larvae body length
-def: "The length of a weevil larvae body, from the weevil larvae head to the tip of the abdomen." []
-is_a: TO:xxxxxxx ! xxxx
-
-[Term]
-id: CO_325:0000642
-name: banana weevil larvae average body length
-def: "The average length of a weevil larvae body, from the head to the tip of the abdomen." []
-is_a: TO:xxxxxxx ! xxxx
-
-[Term]
-id: CO_325:0000644
-name: banana weevil larvae body weight
-def: "The weight of a banana weevil larvae body." []
-is_a: TO:xxxxxxx ! xxxx
-
-[Term]
-id: CO_325:0000646
-name: banana weevil larvae average body weight
-def: "The average weight of a banana weevil larvae body." []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
@@ -1663,7 +1456,7 @@ is_a: TO:xxxxxxx ! xxxx
 id: CO_325:0001001
 name: suckering behavior of the plant
 def: "Banana plant sucker apical dominance type" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000988 ! shoot-borne shoot system morphology trait
 
 [Term]
 id: CO_325:0001003
@@ -1719,7 +1512,6 @@ id: CO_325:0001014
 name: lutein
 def: "Content in lutein quantified by HPLC in ug/g" []
 is_a: TO:xxxxxxx ! xxxx
-
 
 [Term]
 id: CO_325:0002043
@@ -1957,52 +1749,9 @@ def: "A ratio of plant circumference to plant height." []
 is_a: TO:xxxxxxx ! xxxx
 
 [Term]
-id: CO_325:0120047
-name: Boiled plantain Firmness
-def: "Force required to obtain deformation, penetration or rupture of the banana"
-is_a: TO:xxxxxxx ! xxxx
-
-[Term]
-id: CO_325:0120051
-name: Boiled plantain Chewiness
-def: "Energy or number of chews necessary to chew the banana to make it ready to be swallowed"
-is_a: TO:xxxxxxx ! xxxx
-
-[Term]
-id: CO_325:0120055
-name: Boiled plantain Mealiness
-def: "Mechanical property linked to cohesion and the presence of fine particles in the product during chewing"
-is_a: TO:xxxxxxx ! xxxx
-
-[Term]
-id: CO_325:0120059
-name: Boiled plantain Stickiness
-def: "Force required to peel off the fraction of product adhering to the interior of the oral cavity"
-is_a: TO:xxxxxxx ! xxxx
-
-[Term]
-id: CO_325:0120063
-name: Boiled plantain Sweetness
-def: "Elemental flavor caused by dilute aqueous solutions of various substances such as sucrose or aspartame"
-is_a: TO:xxxxxxx ! xxxx
-
-[Term]
-id: CO_325:0120067
-name: Boiled plantain Moistness
-def: "Perception of the amount of water absorbed or released by the product"
-is_a: TO:xxxxxxx ! xxxx
-
-[Term]
 id: CO_325:0003106
 name: Boiled plantain textural characteristic hardness
 def: "The amount of force required to deform or to overcome resistance to puncture of the food material. Hardness is determined as the highest peak force in g measured during the first TPA compression."
-xref: https://doi.org/10.18167/agritrop/00685
-is_a: TO:xxxxxxx ! xxxx
-
-[Term]
-id: CO_325:0003106
-name: Boiled plantain textural characteristic hardness
-def: "It is the amount of force required to deform or to overcome resistance to puncture of the food material. The maximum force registered when boiled plantain sample is punctured."
 xref: https://doi.org/10.18167/agritrop/00685
 is_a: TO:xxxxxxx ! xxxx
 
@@ -2105,4 +1854,40 @@ id: CO_325:0003121
 name: Boiled plantain textural characteristic resilience
 def: "The mechanical textural attribute relating to the rapidity of recovery from a deforming force or the degree to which a deformed material returns to its original condition after the deforming force is removed. The textural attribute representing the ability of boiled plantain to recover to its original size after compression."
 xref: https://doi.org/10.18167/agritrop/00685
+is_a: TO:xxxxxxx ! xxxx
+
+[Term]
+id: CO_325:0120047
+name: Boiled plantain Firmness
+def: "Force required to obtain deformation, penetration or rupture of the banana"
+is_a: TO:xxxxxxx ! xxxx
+
+[Term]
+id: CO_325:0120051
+name: Boiled plantain Chewiness
+def: "Energy or number of chews necessary to chew the banana to make it ready to be swallowed"
+is_a: TO:xxxxxxx ! xxxx
+
+[Term]
+id: CO_325:0120055
+name: Boiled plantain Mealiness
+def: "Mechanical property linked to cohesion and the presence of fine particles in the product during chewing"
+is_a: TO:xxxxxxx ! xxxx
+
+[Term]
+id: CO_325:0120059
+name: Boiled plantain Stickiness
+def: "Force required to peel off the fraction of product adhering to the interior of the oral cavity"
+is_a: TO:xxxxxxx ! xxxx
+
+[Term]
+id: CO_325:0120063
+name: Boiled plantain Sweetness
+def: "Elemental flavor caused by dilute aqueous solutions of various substances such as sucrose or aspartame"
+is_a: TO:xxxxxxx ! xxxx
+
+[Term]
+id: CO_325:0120067
+name: Boiled plantain Moistness
+def: "Perception of the amount of water absorbed or released by the product"
 is_a: TO:xxxxxxx ! xxxx
