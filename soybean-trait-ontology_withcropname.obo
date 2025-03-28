@@ -534,7 +534,7 @@ name: soybean leaf number trait
 def: "The number of leaves (petioles) originating from a node on a stem" [CO:curators]
 synonym: "LEAFNUMBER" EXACT []
 xref: SOY:0000071
-is_a: TO:0000241
+is_a: TO:0000241 ! leaf number
 
 [Term]
 id: CO_336:0000189

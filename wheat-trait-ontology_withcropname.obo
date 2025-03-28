@@ -753,7 +753,7 @@ id: CO_321:0000141
 name: wheat flag leaf area trait
 def: "Area of the flag leaf lamina." [CO:curators]
 synonym: "FLeafA" EXACT []
-is_a: TO:0000540 ! flag leaf area
+is_a: TO:0000540 ! leaf area
 
 [Term]
 id: CO_321:0000142

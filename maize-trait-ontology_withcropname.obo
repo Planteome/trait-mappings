@@ -841,7 +841,7 @@ id: CO_322:0000141
 name: maize water index trait
 def: "A ratio between the reflectance at a water band wavelength to a nearby reference wavelength where there is no absorption due to water content variability." [CO:curators]
 synonym: "WI" EXACT []
-is_a: TO:0000136 ! relative water content
+is_a: TO:0000136 ! leaf relative water content
 
 [Term]
 id: CO_322:0000142

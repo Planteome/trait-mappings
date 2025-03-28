@@ -56,7 +56,7 @@ id: CO_330:0000021
 name: potato fruit shape trait
 def: "The shape of the fruit." [CO:curators]
 synonym: "FrtShp" EXACT []
-is_a: TO:0002628
+is_a: TO:0002628 ! fruit shape
 
 [Term]
 id: CO_330:0000024
