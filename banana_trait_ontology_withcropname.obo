@@ -1410,42 +1410,42 @@ id: CO_325:0000952
 name: dry plant growth
 def: "Dry mass accumulation over time" []
 synonym: "growthDry" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000947 ! whole plant growth and development trait
 
 [Term]
 id: CO_325:0000953
 name: fresh plant growth
 def: "Fresh mass accumulation over time" []
 synonym: "growthFresh" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000947 ! whole plant growth and development trait
 
 [Term]
 id: CO_325:0000954
 name: increase of leaf area
 def: "Leaf area increase over time" []
 synonym: "leafAreaIncrease" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000540 ! leaf area trait
 
 [Term]
 id: CO_325:0000955
 name: height increase of pseudostem
 def: "Pseudostem height increase over time" []
 synonym: "pseudostemHeightIncrease" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000928 ! plant structure growth and development trait
 
 [Term]
 id: CO_325:0000956
 name: pseudostem height increase per leaf formed
 def: "Stunting expressed as height growth per new formed leaf" []
 synonym: "pseudostemHeightIncreasePerFormedLeaf" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000928 ! plant structure growth and development trait
 
 [Term]
 id: CO_325:0000957
 name: leaves formed per pseudostem height increase
 def: "Stunting expressed as number of leaves per height growth" []
 synonym: "leavesFormedPerPseudostemGrowth" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000655 ! leaf growth and development trait
 
 [Term]
 id: CO_325:0000958
@@ -1453,72 +1453,72 @@ name: time from planting to shooting
 def: "The time elapsed from planting to shooting (when the inflorescence emerges from the pseudostem and is still in an erect position)." []
 synonym: "Length of vegetative stage" EXACT []
 synonym: "plant2shoot" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_325:0000967
 name: pollen germination
 def: "The rate of pollen grain germinating" []
 synonym: "pollenGerm" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000421 ! pollen fertility
 
 [Term]
 id: CO_325:0000970
 name: pollen viability
 def: "The amount of pollen grains which germinate and generate viable plantlets" []
 synonym: "pollenVia" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000421 ! pollen fertility
 
 [Term]
 id: CO_325:0000971
 name: pollen per anther
 def: "pollen grains per one anther of a male flower" []
 synonym: "pollenPerAnth" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:1000022 ! anther morphology trait
 
 [Term]
 id: CO_325:0000973
 name: black sigatoka leaf necrosis
 def: "Black sigatoka leaf symptoms evaluation" []
 synonym: "BSLN" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000974
 name: yellow sigatoka leaf necrosis
 def: "Yellow sigatoka leaf symptoms evaluation" []
 synonym: "YSLN" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000975
 name: emusacea leaf spot necrosis
 def: "Eumusacea leaf spot symptom evaluation" []
 synonym: "ELSN" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000984
 name: youngest leaf with streak disease
 def: "first leaf with first streak disease development stage counted from the first 50% or more of unfurl leaf." []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000985
 name: pollen grain per anther
 def: "number of pollen grains per anther" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:1000022 ! anther morphology trait
 
 [Term]
 id: CO_325:0000995
 name: fruit parthenocarpy
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000929 ! fruit growth and development trait
 
 [Term]
 id: CO_325:0000998
 name: presence of fusarium wilt tropical race 4
 def: "The presence of symptoms of fusarium tropical race 4 (foc TR4) on a banana plant" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0001001
@@ -1531,368 +1531,355 @@ id: CO_325:0001003
 name: bunch size
 def: "The overall size of a banana bunch at mature green stage" []
 synonym: "BSZ" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000920 ! infructescence morphology trait
 
 [Term]
 id: CO_325:0001008
 name: total carotenoids
 def: "Total caroteinoids with provitamin A activity: pVACs (μg/g)=α-\ncarotene+13-cis-BC+9-cis-BC+trans-BC and TC computed as TC\n(μg/g)=Total pVACs+lutein" []
 synonym: "TC" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000496 ! carotenoid content
 
 [Term]
 id: CO_325:0001009
-name: α- carotene
+name: α-carotene content
 def: "Content in alpha - carotene quantified by HPLC in ug/g" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0002696 ! alpha carotene content
 
 [Term]
 id: CO_325:0001010
-name: 13-cis-beta-carotene
+name: 13-cis-beta-carotene content
 def: "Content in 13-cis-beta-carotene quantified by HPLC in ug/g" []
 synonym: "13-cis-BC" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0002695 ! beta-carotene content
 
 [Term]
 id: CO_325:0001011
-name: 9-cis-beta-carotene
+name: 9-cis-beta-carotene content
 def: "Content in 9-cis-beta-carotene quantified by HPLC in ug/g" []
 synonym: "9-cis-BC" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0002695 ! beta-carotene content
 
 [Term]
 id: CO_325:0001012
-name: pro-vitamine A
+name: pro-vitamine A content
 def: "pVACs (μg/g)=α-carotene+13-cis-BC+9-cis-BC+trans-BC" []
-synonym: "CO_325:0001012" EXACT []
 synonym: "pVACs" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000496 ! carotenoid content
 
 [Term]
 id: CO_325:0001013
 name: trans-beta-carotene
 def: "Content in trans beta- carotene quantified by HPLC in ug/g" []
 synonym: "trans-BC" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0002695 ! beta-carotene content
 
 [Term]
 id: CO_325:0001014
-name: lutein
+name: lutein content
 def: "Content in lutein quantified by HPLC in ug/g" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0002701 ! lutein content
 
 [Term]
 id: CO_325:0002043
 name: Matooke homogeneity of colour
 def: "Uniformity of color of the surface of the sample" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000909 ! fruit color uniformity
 
 [Term]
 id: CO_325:0002044
 name: Matooke firmness
 def: "mechanical textural attribute relating to the force required to achieve a given deformation, penetration, or breakage of a product." []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0002634 ! fruit firmness
 
 [Term]
 id: CO_325:0002045
 name: Matooke moisture
 def: "perception of moisture content of a food by the tactile receptors in the mouth and also in relation to the lubricating properties of the product" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0003040 ! pepo fruit moisture content
 
 [Term]
 id: CO_325:0002046
 name: Matooke smoothness
 def: "geometrical textural attribute relating to lack of presence of particles in a product" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001098 ! pepo fruit morphology trait
 
 [Term]
 id: CO_325:0002047
 name: Matooke hardness
 def: "mechanical textural attribute relating to the force required to achieve a given deformation, penetration, or breakage of a product." []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0002634 ! fruit firmness
 
 [Term]
 id: CO_325:0002048
 name: Matooke moldability
 def: "mechanical textural attribute relating to the degree to which a substance can be deformed before it breaks" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_325:0002049
 name: Matooke stickiness
 def: "mechanical textural attribute relating to the force required to remove material that sticks to the mouth" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_325:0002050
 name: Matooke sweetness
 def: "basic taste produced by dilute aqueous solutions of natural or artificial substances such as sucrose" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000700 ! fruit sweetness
 
 [Term]
 id: CO_325:0002051
 name: Matooke astringency
 def: "complex sensation, accompanied by shrinking, drawing or puckering of the skin or mucosal surface in the mouth, produced by substances such as kaki tannins or sloe tannins" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000910 ! fruit bitterness trait
 
 [Term]
 id: CO_325:0002052
 name: Matooke sourness
 def: "gustatory complex sensation, generally due to presence of organic acids" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0002694 ! fruit flavor trait
 
 [Term]
 id: CO_325:0002053
 name: Matooke aroma matooke
 def: "Aroma of the local matooke" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_325:0002054
 name: Matooke aroma pumpkin
 def: "Aroma of pumpkin" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_325:0002055
 name: Matooke aroma grassy
 def: "Aroma of fresh grass" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000684 ! grassy flavor
 
 [Term]
 id: CO_325:0002056
 name: Matooke yellowness
 def: "Color of the surface of the sample from light yellow to bright yellow" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0002617 ! fruit color
 
 [Term]
 id: CO_325:0003000
 name: raw pulp color
 def: "A quick field evaluation of the raw pulp to determine acceptability based on yellow color using Mbwazirume as a standard control." []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0002617 ! fruit color
 
 [Term]
 id: CO_325:0003003
 name: sap amount
 def: "A quick field evaluation of the raw pulp to determine acceptability based on yellow color using Mbwazirume as a standard control." []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001098 ! pepo fruit morphology trait
 
 [Term]
 id: CO_325:0003004
 name: weevil damage assessment
 def: "Weevil damage assesssment" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_325:0003014
 name: nematode damage
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000384 ! nematode damage resistance
 
 [Term]
 id: CO_325:0003015
 name: Helicotylincus mulicinctus damage
 def: "Helicotylincus mulicinctus damage assesssment" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000384 ! nematode damage resistance
 
 [Term]
 id: CO_325:0003019
 name: Radopholus similis damage
 def: "Radopholus similis damage assesssment" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000384 ! nematode damage resistance
 
 [Term]
 id: CO_325:0003023
 name: Pratylenchus goodeyi damage
 def: "Pratylenchus goodeyi damage assesssment" []
-is_a: TO:xxxxxxx ! xxxx
-
-[Term]
-id: CO_325:0003027
-name: Sensory traits
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000384 ! nematode damage resistance
 
 [Term]
 id: CO_325:0003028
 name: fruit acceptability
 def: "A general take of the panelist about the sample after the aroma, colour, taste, and mouth-feel specific tests." []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000322 ! phenotypic acceptability
 
 [Term]
 id: CO_325:0003030
 name: weevil insect assessment
 def: "Weevil insect assesssment" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_325:0003034
 name: number of helicotylenchus multicinctus
 def: "Number of Helicotylenchus multicinctus in root" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000384 ! nematode damage resistance
 
 [Term]
 id: CO_325:0003037
 name: Pratylenchus spp. damage
 def: "Pratylenchus spp. damage assesssment" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000384 ! nematode damage resistance
 
 [Term]
 id: CO_325:0003038
 name: Pratylenchus coffeae damage
 def: "Pratylenchus coffeae damage assesssment" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000384 ! nematode damage resistance
 
 [Term]
 id: CO_325:0003045
 name: insect damage
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_325:0003046
 name: bacterial damage
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000315 ! bacterial disease response
 
 [Term]
 id: CO_325:0003047
 name: banana xanthomonas wilt damage
 def: "banana xanthomonas wilt damage assesssment" []
 synonym: "BXW" EXACT []
-is_a: CO_325:0003046 ! bacterial damage
-
-[Term]
-id: CO_325:0003050
-name: number of banana weevil pupae measured
-def: "How many banana weevil larvae used to obtain a measurement." []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000315 ! bacterial disease response
 
 [Term]
 id: CO_325:0003055
 name: damage to upper cross-section inner corm caused by weevils
 def: "Damage to the inner corm (central cylinder) upper cross-section caused by weevils." []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_325:0003056
 name: damage to upper cross-section outer corm caused by weevils
 def: "Damage to the outer corm (cortex) upper cross-section caused by weevils." []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_325:0003057
 name: fertility traits
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000392 ! sterility or fertility trait
 
 [Term]
 id: CO_325:0003058
 name: female fertility
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000392 ! sterility or fertility trait
 
 [Term]
 id: CO_325:0003059
 name: male fertility
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000392 ! sterility or fertility trait
 
 [Term]
 id: CO_325:0003064
 name: number of dead leaves
 def: "The number of dead leaves on the plant." []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000250 ! plant vigor trait
 
 [Term]
 id: CO_325:0003066
 name: Rhizome weight
 def: "corm weigh" []
 synonym: "corm weight" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000568 ! shoot axis weight
 
 [Term]
 id: CO_325:0003074
 name: damage to the pseudostem caused by weevils
 def: "Does weevil damage extend into the pseudostem" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_325:0003082
 name: plant stature
 def: "A ratio of plant circumference to plant height." []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:1000012 ! whole plant size
 
 [Term]
 id: CO_325:0003106
 name: Boiled plantain textural characteristic hardness
 def: "The amount of force required to deform or to overcome resistance to puncture of the food material. Hardness is determined as the highest peak force in g measured during the first TPA compression."
 xref: https://doi.org/10.18167/agritrop/00685
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_325:0003108
 name: Boiled plantain textural characteristic distance at Fmax
 def: "The depth at which the hardness of boiled plantain is registered. It represents the the distance into the sample where hardness is the highest. High distances mean the sample has softer pulp. A  proxy for firmness which is the property of a food material being unyielding to touch."
 xref: https://doi.org/10.18167/agritrop/00685
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_325:0003109
 name: Boiled plantain textural characteristic penetration area
 def: "Work done or energy required to penetrate the boiled plantain sample. It represents the amount of energy that must be expended to penetrate the sample. Work done to penetrate sample in g.mm determined as total area under the curve."
 xref: https://doi.org/10.18167/agritrop/00685
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_325:0003110
 name: Boiled plantain textural characteristic distance to max force first TPA compression
 def: "Textural parameter used to calculate springness. It represents the depth of the sample where hardness is registered on first compression cycle. Textural parameter used to calculate cheweness and springness."
 xref: https://doi.org/10.18167/agritrop/00685
-is_a: TO:xxxxxxx ! xxxx
-
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_325:0003111
 name: Boiled plantain textural characteristic distance to max force second TPA compression
 def: "Textural parameter used to calculate springness. It represents the depth of the sample where hardness is registered on second compression cycle. The distance in mm between the beginning of the second compression and the highest peak force of the second compression."
 xref: https://doi.org/10.18167/agritrop/00685
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_325:0003112
 name: Boiled plantain textural characteristic area under curve first compression
 def: "Textural parameter used to calculate cohesiveness and resilience. It represents the work done to compress sample on first compression cycle. The area underneath the curve in g.mm between beginning of first compression and highest peak force of first compression."
 xref: https://doi.org/10.18167/agritrop/00685
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_325:0003113
 name: Boiled plantain textural characteristic area under curve first withdrawal
 def: "Textural parameter used to calculate cohesiveness and resilience. It represents the work done to decompress sample on first withdrawal cycle. The area underneath the curve in g.mm between highest peak force of first compression and end of first withdrawal."
 xref: https://doi.org/10.18167/agritrop/00685
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_325:0003114
 name: Boiled plantain textural characteristic area under curve second compression
 def: "Textural parameter used to calculate cohesiveness. It represents the work done to compress sample on second compression cycle. The area underneath the curve in g.mm between beginning of second compression and highest peak force of second compression."
 xref: https://doi.org/10.18167/agritrop/00685
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_325:0003115
 name: Boiled plantain textural characteristic area under curve second withdrawal
 def: "Textural parameter used to calculate cohesiveness. It represents the work done to decompress sample on second withdrawal cycle. The area underneath the curve in g.mm between highest peak force of second compression and end of second withdrawal."
 xref: https://doi.org/10.18167/agritrop/00685
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_325:0003116
 name: Boiled plantain textural characteristic adhesiveness/stickness
 def: "The work required in overcoming the attractive force between a product and the contact surface.  It represents how sticky the boiled plantain sample is. Adhesiveness is represented by the area in g.s covered by the first negative peak (c)."
 xref: https://doi.org/10.18167/agritrop/00685
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_325:0003117
 name: Boiled plantain textural characteristic cohesiveness
 def: "The work required to overcome the internal bonds of a material. It represents the ability of the boiled plantain sample to remain compact and not fracture or disintegrate into bits. Cohesiveness is calculated as area underneath the second compression and withdrawal curves divided by the area underneath the first compression and withdrawal curves [(d+e)/(a+b)]."
 xref: https://doi.org/10.18167/agritrop/00685
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_325:0003118
@@ -1900,7 +1887,7 @@ name: Boiled plantain textural characteristic springiness
 def: "The degree to which food can recover between the end of the first bite and the beginning of the second bite in the mouth. Springiness represents the ability of boiled plantain to regain its ''elastic'' nature after compression. Springness is calculated as a ratio or percentage of a product’s recovery to its original height [(Distance 2)/(Distance 1)]*100 or (Time 2/Time 1)*100."
 is_a: TO:xxxxxxx ! xxxx
 xref: https://doi.org/10.18167/agritrop/00685
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_325:0003119
@@ -1908,54 +1895,54 @@ name: Boiled plantain textural characteristic gumminess
 def: "Mechanical textural attribute related to the cohesiveness of a tender product. The product of cohesiveness and hardness calculated from Hardness x Cohesiveness F1*[(d+e)/(a+b)]."
 is_a: TO:xxxxxxx ! xxxx
 xref: https://doi.org/10.18167/agritrop/00685
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_325:0003120
 name: Boiled plantain textural characteristic chewiness
 def: "The mechanical textural attribute related to the amount of work required to masticate a solid. It is the product of gumminess and springiness. Cheweness is calculated from Hardness x Cohesiveness x Springiness (F1*((d+e)/(a+b))*(Distance 2/Distance 1))."
 xref: https://doi.org/10.18167/agritrop/00685
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_325:0003121
 name: Boiled plantain textural characteristic resilience
 def: "The mechanical textural attribute relating to the rapidity of recovery from a deforming force or the degree to which a deformed material returns to its original condition after the deforming force is removed. The textural attribute representing the ability of boiled plantain to recover to its original size after compression."
 xref: https://doi.org/10.18167/agritrop/00685
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_325:0120047
-name: Boiled plantain Firmness
+name: Boiled plantain firmness
 def: "Force required to obtain deformation, penetration or rupture of the banana"
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_325:0120051
 name: Boiled plantain Chewiness
 def: "Energy or number of chews necessary to chew the banana to make it ready to be swallowed"
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_325:0120055
 name: Boiled plantain Mealiness
 def: "Mechanical property linked to cohesion and the presence of fine particles in the product during chewing"
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_325:0120059
 name: Boiled plantain Stickiness
 def: "Force required to peel off the fraction of product adhering to the interior of the oral cavity"
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_325:0120063
 name: Boiled plantain Sweetness
 def: "Elemental flavor caused by dilute aqueous solutions of various substances such as sucrose or aspartame"
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_325:0120067
 name: Boiled plantain Moistness
 def: "Perception of the amount of water absorbed or released by the product"
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001069 ! cooking quality trait
