@@ -795,218 +795,247 @@ id: CO_325:0000482
 name: fruit length
 def: "Length of the internal arc of a finger ** subsume" []
 synonym: "Fruit length" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0002626 ! fruit length
 
 [Term]
 id: CO_325:0000485
 name: fruit shape of curve
 def: "Shape of a fruit (finger) in the middle of the bunch **subsume" []
 synonym: "Fruit shape (longitudinal curve)" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0002628 ! fruit shape
 
 [Term]
 id: CO_325:0000488
 name: fruit apex point
 def: "Description of fruit apex" []
 synonym: "Fruit apex" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001098 ! pepo fruit morphology trait
 
 [Term]
 id: CO_325:0000490
 name: remains of flower relicts at fruit apex
 def: "Percentage of flower relicts at fruit apex" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001098 ! pepo fruit morphology trait
 
 [Term]
 id: CO_325:0000493
 name: fruit pedicel length
 def: "Length of the fruit pedicel from rachis to the beginning of the pulp" []
-is_a: TO:xxxxxxx ! xxxx
+is_a:  TO:0000630 ! pedicel length
 
 [Term]
 id: CO_325:0000496
 name: fusion of pedicels
 def: "Degree of fusion of the pedicels before they join the rachis" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000920 ! infructescence morphology trait
 
 [Term]
 id: CO_325:0000498
 name: fruit mashed pulp colour
 def: "The color of the mashed pulp of a mature fruit" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0002619 ! mesocarp color
 
 [Term]
 id: CO_325:0000500
 name: fruit unmashed pulp colour
 def: "The color of the unmashed pulp of a mature fruit" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0002619 ! mesocarp color
 
 [Term]
 id: CO_325:0000502
 name: fruit mashed pulp taste
 def: "The taste of the mashed pulp of a mature fruit" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0002694 ! fruit flavor trait
 
 [Term]
 id: CO_325:0000504
 name: fruit unmashed pulp taste
 def: "The taste of the unmashed pulp of a mature fruit" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0002694 ! fruit flavor trait
 
 [Term]
 id: CO_325:0000506
 name: fruit mashed pulp texture
 def: "The texture of the mashed pulp of a mature fruit" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000948 ! mesocarp morphology trait
 
 [Term]
 id: CO_325:0000508
 name: fruit unmashed pulp texture
 def: "The texture of the unmashed pulp of a mature fruit" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000948 ! mesocarp morphology trait
 
 [Term]
 id: CO_325:0000510
 name: fruit mashed pulp smoothness-mouth feel
 def: "The smoothness-mouth feel of the mashed pulp of a mature fruit" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001098 ! pepo fruit morphology trait
 
 [Term]
 id: CO_325:0000512
 name: fruit unmashed pulp smoothness-mouth feel
 def: "The smoothness-mouth feel of the unmashed pulp of a mature fruit" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001098 ! pepo fruit morphology trait
 
 [Term]
 id: CO_325:0000514
 name: fruit mashed pulp aroma/smell
 def: "The pulp aroma of the mashed pulp of a mature fruit" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0002694 ! fruit flavor trait
 
 [Term]
 id: CO_325:0000516
 name: damage to periphery of peeled corm caused by weevils
 def: "The amount of damage to the periphery of the peeled corm, assessed by tunnels caused by weevils" []
 synonym: "peripheral damage" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_325:0000518
 name: nematode reproduction factor (microplot screening)
 def: "Nematode multiplication from single root inoculation of 50 nematodes per 8 cm length after 12 weeks" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
 id: CO_325:0000520
 name: nematode population density per soil sample
 def: "Number of nematodes in soil" []
-is_a: TO:xxxxxxx ! xxxx
-
+is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
 id: CO_325:0000524
 name: number of rotylenchulus spp.per soil sample
 def: "Number of Rotylenchulus spp.in soil" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
 id: CO_325:0000526
 name: number of meloidogyne spp. per soil sample
 def: "Number of Meloidogyne spp. in soil" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
 id: CO_325:0000528
 name: number of hoplolaimus spp. per soil sample
 def: "Number of Hoplolaimus spp. in soil" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
 id: CO_325:0000530
 name: number of pratylenchus coffeae per soil sample
 def: "Number of Pratylenchus coffeae in soil" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
 id: CO_325:0000531
 name: root nematode density
 def: "The number of nematode individuals per unit of fresh root weight." []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
 id: CO_325:0000533
 name: number of radopholus similis
 def: "Number of Radopholus similis" []
-is_a: CO_325:0003019 ! Radopholus similis damage
+is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
 id: CO_325:0000535
 name: number of meloidogyne spp. per fresh root weight
 def: "Number of Meloidogyne spp. in roots" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
 id: CO_325:0000537
 name: number of pratylenchus spp.
 def: "Number of Pratylenchus spp. in roots" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
 id: CO_325:0000539
 name: number of hoplolaimus spp. per fresh root weight
 def: "Number of Hoplolaimus spp. in roots" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
 id: CO_325:0000541
 name: number of pratylenchus goodeyi
 def: "Number of Pratylenchus goodeyi in roots" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
 id: CO_325:0000543
 name: number of pratylenchus coffeae per fresh root weight
 def: "Number of Pratylenchus coffeae in roots" []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000384 ! nematode damage response trait
+
+[Term]
+id: CO_325:0000545
+name: Date of first youngest leaf spotted
+def: "The date a youngest leaf spotted is first observed on the plant, caused by black leaf streak disease.." []
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000548
 name: rank of oldest standing leaf
 def: "The rank (order) of the oldest (most-distal) standing leaf (with an erect petiole)." []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000541 ! leaf position
+
+[Term]
+id: CO_325:0000550
+name: Date of tagged cigar leaf unrolling at Bruns stage B
+def: "The date a tagged cigar leaf is at Bruns stage B of unrolling." []
+is_a: TO:0000933 ! plant phenological trait
+
+[Term]
+id: CO_325:0000553
+name: Date of tagged leaf presenting black leaf streak disease symptoms at Foures stage 1
+def: "The date a tagged leaf presents black leaf streak disease symptoms at Foures black leaf streak disease severity grade 1." []
+is_a: TO:0001145 ! Ascomycete fungal disease response
+
+[Term]
+id: CO_325:0000556
+name: Date of tagged leaf presenting black leaf streak disease symptoms at Foures stage 6
+def: "The date a tagged leaf presents black leaf streak disease symptoms at Foures black leaf streak disease severity grade 6." []
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000559
 name: extent of internal discolouration in corm of plant caused by fusarium wilt
 def: "The extent of discolouration in the corm of the plant, caused by Fusarium wilt." []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001145 ! Ascomycete fungal disease response
+
+[Term]
+id: CO_325:0000561
+name: Date of first external disease symptoms caused by Fusarium wilt
+def: "The date of the appearance on the plant of any of the external disease symptoms - yellowing leaves, splitting pseudostem base, changes in new leaves, petiole collapse, caused by Fusarium wilt." []
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000564
 name: rank of marked youngest leaf
 def: "The rank (position) of the youngest completely unrolled leaf." []
 synonym: "rankyoungleaf" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000541 ! leaf position
 
 [Term]
 id: CO_325:0000566
 name: Rank of previously marked leaf
 def: "The current rank (position) of the leaf that was previously marked as the youngest leaf at the time of the last data collection event." []
 synonym: "rankprevleaf" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000541 ! leaf position
 
 [Term]
 id: CO_325:0000570
 name: time from planting to first youngest leaf spotted
 def: "Time elapsed between planting and the appearance of the first youngest leaf spotted." []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_325:0000572
 name: number of spotted leaves
 def: "The number of leaves with at least 10 discrete, mature, necrotic lesions or one large necrotic area with 10 light-coloured dry centres, caused by black leaf streak disease." []
 synonym: "Number and severity of spotted leaves" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000574
@@ -1014,42 +1043,42 @@ name: black leaf streak disease severity and stage
 def: "An indication of the extent of damage on an individual leaf caused by black leaf streak disease." []
 synonym: "Black Sigatoka disease severity; Percentage area necrotic" EXACT []
 synonym: "BLS" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000580
 name: number of leaves with black leaf streak disease severity grade 0
 def: "The number of leaves on a plant with a black leaf streak disease severity grade of 0." []
 synonym: "Number of leaves with black Sigatoka disease severity grade 0" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000582
 name: number of leaves with black leaf streak disease severity grade 1
 def: "The number of leaves on a plant with a black leaf streak disease severity grade of 1." []
 synonym: "Number of leaves with black Sigatoka disease severity grade 1" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000584
 name: number of leaves with black leaf streak disease severity grade 2
 def: "The number of leaves on a plant with a black leaf streak disease severity grade of 2." []
 synonym: "Number of leaves with black Sigatoka disease severity grade 2" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000586
 name: number of leaves with black leaf streak disease severity grade 3
 def: "The number of leaves on a plant with a black leaf streak disease severity grade of 3." []
 synonym: "Number of leaves with black Sigatoka disease severity grade 3" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000588
 name: number of leaves with black leaf streak disease severity grade 4
 def: "The number of leaves on a plant with a black leaf streak disease severity grade of 4." []
 synonym: "Number of leaves with black Sigatoka disease severity grade 4" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 
 [Term]
@@ -1057,7 +1086,7 @@ id: CO_325:0000590
 name: number of leaves with black leaf streak disease severity grade 5
 def: "The number of leaves on a plant with a black leaf streak disease severity grade of 5." []
 synonym: "Number of leaves with black Sigatoka disease severity grade 5" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 
 [Term]
@@ -1065,149 +1094,155 @@ id: CO_325:0000592
 name: number of leaves with black leaf streak disease severity grade 6
 def: "The number of leaves on a plant with a black leaf streak disease severity grade of 6." []
 synonym: "Number of leaves with black Sigatoka disease severity grade 6" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000594
 name: distance of internal discolouration in pseudostem of tallest sucker caused by fusarium wilt
 def: "The distance of discolouration in the pseudostem of the tallest sucker, caused by Fusarium wilt." []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000600
 name: percentage of plants with yellowing leaves caused by fusarium wilt
 def: "Percentage of plants with yellowing leaves, caused by Fusarium wilt." []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000602
 name: percentage of plants with a splitting pseudostem base caused by fusarium wilt
 def: "Percentage of plants with a splitting pseudostem base, caused by Fusarium wilt." []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000604
 name: percentage of plants with changes in new leaves caused by fusarium wilt
 def: "Percentage of plants with changes in new leaves, caused by Fusarium wilt." []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000606
 name: percentage of plants with petiole collapse caused by fusarium wilt
 def: "Percentage of plants with petiole collapse, caused by Fusarium wilt." []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001145 ! Ascomycete fungal disease response
+
+[Term]
+id: CO_325:0000650
+name: Percentage damage to upper cross-section inner corm caused by weevils
+def: "The amount of damage to the inner corm (central cylinder) upper cross-section, assessed by the percentage of tunnels caused by weevils." []
+is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_325:0000677
 name: percentage damage to lower cross-section inner corm caused by weevils
 def: "The amount of damage to the inner corm (central cylinder) lower cross-section, assessed by percentage of tunnels caused by weevils." []
 synonym: "Damage index-X-inner" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_325:0000679
 name: percentage damage to lower cross-section outer corm caused by weevils
 def: "The amount of damage to the outer corm (cortex) lower cross-section, assessed by percentage of tunnels caused by weevils." []
 synonym: "Damage index-X-outer" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_325:0000726
 name: weekly leaf emission rate
 def: "A rate that expresses the number of leaves that have emerged from the pseudostem in a week." []
 synonym: "LER" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TTO:0000659 ! phyllochron trait
 
 [Term]
 id: CO_325:0000793
 name: bunch height
 def: "The height of the bunch" []
 synonym: "bunchheight" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:1000004 ! infructescence position
 
 [Term]
 id: CO_325:0000795
 name: bunch circumference
 def: "The circumference of the bunch" []
 synonym: "bunchcircumference" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000920 ! infructescence morphology trait
 
 [Term]
 id: CO_325:0000841
 name: damage to the corm of the mother plant caused by weevils
 def: "The score of damage to the mother plant corm, assessed by tunnels caused by weevils" []
 synonym: "damagemothercorm" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_325:0000843
 name: size of corm inner diameter after weevils introduction
 def: "The diameter of the inner corm after weevil introduction" []
 synonym: "sizeinnercorm" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_325:0000845
 name: size of corm outter diameter after weevils introduction
 def: "The diameter of the outter corm after weevil introduction" []
 synonym: "sizeouttercorm" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_325:0000857
 name: male bud width
 def: "Width of male bud at its largets point" []
 synonym: "Male bud size" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000789 ! bud morphology trait
 
 [Term]
 id: CO_325:0000859
 name: fruit dry matter content
 def: "The average dry matter content per unit of fruit fresh weight" []
 synonym: "drymattercontent" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000457 ! biomass yield
 
 [Term]
 id: CO_325:0000921
 name: projected top area
 def: "The projected leaf area of a plant (photosynthetic surface)" []
 synonym: "topLeafArea" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000540 ! leaf area trait
 
 [Term]
 id: CO_325:0000922
 name: leaf area
 def: "The area of all leaves" []
 synonym: "totLeafArea" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000540 ! leaf area trait
 
 [Term]
 id: CO_325:0000923
 name: leaf area to plant area ratio
 def: "Ratio of projected leaf area to the actual leaf area, measure for the compactness of the plant crown" []
 synonym: "leafAreaRatio" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000540 ! leaf area trait
 
 [Term]
 id: CO_325:0000924
 name: total length of all leaves
 def: "The length of a leaf" []
 synonym: "totLeafLength" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000135 ! leaf length
 
 [Term]
 id: CO_325:0000925
 name: single leaf length
 def: "The length of a leaf" []
 synonym: "singleLeafLength" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000135 ! leaf length
 
 [Term]
 id: CO_325:0000926
 name: single leaf width
 def: "The width of a leaf" []
 synonym: "singleLeafWidth" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000370 ! leaf width
 
 [Term]
 id: CO_325:0000927
@@ -1221,161 +1256,154 @@ id: CO_325:0000928
 name: leaf dry weight
 def: "The dry weight of a leaf" []
 synonym: "leafDryMass" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001014 ! leaf dry weight
 
 [Term]
 id: CO_325:0000929
 name: pseudostem dry weight
 def: "The dry weight of the pseudostem" []
 synonym: "pseudostemDryMass" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000807 ! pseudostem morphology trait
 
 [Term]
 id: CO_325:0000930
 name: root dry weight
 def: "The dry weight of the root system" []
 synonym: "rootDryMass" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000078 ! root dry weight
 
 [Term]
 id: CO_325:0000931
 name: plant dry weight
 def: "The dry weight of the whole plant." []
 synonym: "plantDryMass" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000352 ! plant dry weight
 
 [Term]
 id: CO_325:0000932
 name: ratio root to shoot
 def: "The ratio of dry mass of belowground (root) to abovegrund (shoot) biomass" []
 synonym: "rootShootDry" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000078 ! root dry weight
 
 [Term]
 id: CO_325:0000933
 name: leaf relative water content
 def: "The relative water content in a leaf" []
 synonym: "rwcLeaf" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000136 ! leaf relative water content
 
 [Term]
 id: CO_325:0000934
 name: pseudostem relative water content
 def: "The relative water content in a pseudostem" []
 synonym: "rwcPseudostem" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000807 ! pseudostem morphology trait
 
 [Term]
 id: CO_325:0000935
 name: root relative water content
 def: "The relative water content in a root" []
 synonym: "rwcRoot" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0003036 ! root moisture content
 
 [Term]
 id: CO_325:0000936
 name: plant relative water content
 def: "The relative water content in the whole plant" []
 synonym: "rwcPlant" EXACT []
-is_a: TO:0000398 ! whole plant morphology trait
+is_a: TO:0003037 ! plant moisture content
 
 [Term]
 id: CO_325:0000937
 name: pseudostem length
 def: "The length of a pseudostem" []
 synonym: "lengthPseudostem" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000808 ! pseudostem length
 
 [Term]
 id: CO_325:0000938
 name: leaf number
 def: "The number of all leaves (including dried/dead/wilted/yellow) in a shoot system" []
 synonym: "numLeaves" EXACT []
-is_a: TO:xxxxxxx ! xxxx
-
-[Term]
-id: CO_325:0000940
-name: system water loss
-def: "The amount of water loss in the system over time" []
-synonym: "waterLossSyst" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000241 ! leaf number
 
 [Term]
 id: CO_325:0000941
 name: plant water loss
 def: "The amount of water loss through the plant over time" []
 synonym: "waterLossPlant" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001018 ! transpiration rate
 
 [Term]
 id: CO_325:0000942
 name: transpiration efficiency
 def: "The growth (weight increase) per volume transpired water" []
 synonym: "transpirationEfficiency" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001017 ! water use efficiency
 
 [Term]
 id: CO_325:0000943
 name: leaf fresh weight
 def: "A leaf weight trait which is the fresh weight of a leaf" []
 synonym: "leafFreshMass" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000891 ! leaf wet weight
 
 [Term]
 id: CO_325:0000944
 name: pseudostem fresh weight
 def: "A pseudostem weight trait which is the fresh weight of a pseudostem" []
 synonym: "pseudostemFreshMass" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000807 ! pseudostem morphology trait
 
 [Term]
 id: CO_325:0000945
 name: root fresh weight
 def: "A root weight trait which is the fresh weight of a root" []
 synonym: "rootFreshMass" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000578 ! root fresh weight
 
 [Term]
 id: CO_325:0000946
 name: plant fresh weight
 def: "A plant weight trait which is the fresh weight of a plant" []
 synonym: "plantFreshMass" EXACT []
-is_a: TO:0000398 ! whole plant morphology trait
+is_a: TO:0000442 ! plant fresh weight
 
 [Term]
 id: CO_325:0000947
 name: leaf to whole plant mass ratio
 def: "Measure for the biomass allocation: dry mass of leaves versus whole plant dry mass ratio" []
 synonym: "leafToPlantMassRatio_dry" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001014 ! leaf dry weight
 
 [Term]
 id: CO_325:0000948
 name: pseudostem to whole plant mass ratio
 def: "Measure for the biomass allocation: dry mass of pseudostem versus whole plant dry mass ratio" []
 synonym: "pseudostemToPlantMassRatio_dry" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0000807 ! pseudostem morphology trait
 
 [Term]
 id: CO_325:0000949
 name: root to whole plant mass ratio
 def: "Measure for the biomass allocation: dry mass of roots versus whole plant dry mass ratio" []
 synonym: "rootToPlantMassRatio_dry" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001014 ! leaf dry weight
 
 [Term]
 id: CO_325:0000950
 name: daily rate of water loss
 def: "The average daily water loss" []
 synonym: "waterLossDay" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001018 ! transpiration rate
 
 [Term]
 id: CO_325:0000951
 name: system water loss per leaf area
 def: "The amount of water loss in the system normalized by the leaf area" []
 synonym: "waterLossSystPerLeafArea" EXACT []
-is_a: TO:xxxxxxx ! xxxx
+is_a: TO:0001018 ! transpiration rate
 
 [Term]
 id: CO_325:0000952
