@@ -5,14 +5,14 @@ ontology: co_325
 
 [Term]
 id: CO_325:0000000
-name: banana Time from planting to shooting
+name: banana time from planting to shooting trait
 def: "The time elapsed from planting to shooting (when the inflorescence emerges from the pseudostem and is still in an erect position)." []
 synonym: "plant2shoot" EXACT []
 is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_325:0000003
-name: banana time from shooting to harvest
+name: banana time from shooting to harvest trait
 def: "The time elapsed from shooting (when the inflorescence emerges from the pseudostem and is still in an erect position) to the harvest of the bunch." []
 synonym: "shoot2harvest" EXACT []
 synonym: "Time of fruit-filling, Fruit-filling period, Bunch maturity period, Length of reproductive stage, Bunch maturation period" EXACT []
@@ -20,13 +20,13 @@ is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_325:0000004
-name: banana flowering
+name: banana flowering trait
 def: "whole-plant flowering related trait" []
 is_a: TO:0002616 ! flowering time trait
 
 [Term]
 id: CO_325:0000006
-name: banana plant crop cycle
+name: banana plant crop cycle trait
 def: "The time elapsed from planting to the harvest of the bunch." []
 synonym: "Crop cycle, Mother plant crop cycle, Time from planting to harvest" EXACT []
 synonym: "plant2harvest" EXACT []
@@ -34,7 +34,7 @@ is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_325:0000009
-name: banana plant height
+name: banana plant height trait
 def: "The height of the pseudostem of the plant, from the collar to the intersection of the petioles of the two youngest leaves." []
 synonym: "plantheightpetioles" EXACT []
 synonym: "Pseudostem height" EXACT []
@@ -42,28 +42,28 @@ is_a: TO:0000207 ! plant height
 
 [Term]
 id: CO_325:0000012
-name: banana plant circumference from the collar
+name: banana plant circumference from the collar trait
 def: "The circumference of the pseudostem of the plant." []
 synonym: "Pseudostem girth, Plant circumference, Pseudostem circumference, Plant girth" EXACT []
 is_a: TO:0000811 ! pseudostem diameter
 
 [Term]
 id: CO_325:0000021
-name: banana monthly leaf emission rate
+name: banana monthly leaf emission rate trait
 def: "A rate that expresses the number of leaves that have emerged from the pseudostem in a month." []
 synonym: "LER" EXACT []
 is_a: TO:0000735 ! plastochron
 
 [Term]
 id: CO_325:0000024
-name: banana number of suckers
+name: banana number of suckers trait
 def: "The number of all types of suckers in the mat." []
 synonym: "numsuckers" EXACT []
 is_a: TO:0000077 ! shoot system morphology trait
 
 [Term]
 id: CO_325:0000027
-name: banana tallest sucker height
+name: banana tallest sucker height trait
 def: "The height of the pseudostem of the tallest sucker within the same mat as the plant (the sucker that will become the next plant with a bunch, once the bunch from the current plant is harvested)" []
 synonym: "Height of tallest sucker, Following sucker height, Height of following sucker" EXACT []
 synonym: "suckerheight" EXACT []
@@ -71,49 +71,49 @@ is_a: TO:0000988 ! shoot-borne shoot system morphology trait
 
 [Term]
 id: CO_325:0000033
-name: banana bunch weight
+name: banana bunch weight trait
 def: "The weight of the bunch, including the rachis." []
 synonym: "bunchweight" EXACT []
 is_a: TO:0000583 ! infructescence weight
 
 [Term]
 id: CO_325:0000036
-name: banana number of hands in bunch
+name: banana number of hands in bunch trait
 def: "The number of hands in the bunch." []
 synonym: "numhands" EXACT []
 is_a: TO:0000894 ! fruit number trait
 
 [Term]
 id: CO_325:0000039
-name: banana number of fingers in bunch
+name: banana number of fingers in bunch trait
 def: "The number of fingers in the bunch." []
 synonym: "numfingersbunch" EXACT []
 is_a: TO:0000894 ! fruit number trait
 
 [Term]
 id: CO_325:0000042
-name: banana number of fingers in hand: count
+name: banana number of fingers in hand: count trait
 def: "The number of fingers in a third hand." []
 synonym: "numfingershand" EXACT []
 is_a: TO:0000894 ! fruit number trait
 
 [Term]
 id: CO_325:0000045
-name: banana hand weight
+name: banana hand weight trait
 def: "The weight of a hand." []
 synonym: "handweight" EXACT []
 is_a: TO:0000583 ! infructescence weight
 
 [Term]
 id: CO_325:0000048
-name: banana finger weight
+name: banana finger weight trait
 def: "The weight of a finger." []
 synonym: "fingerweight" EXACT []
 is_a: TO:0003031 ! pepo fruit weight
 
 [Term]
 id: CO_325:0000051
-name: banana finger external length
+name: banana finger external length trait
 def: "The length of a finger measured along the external (dorsal) arc, excluding the pedicel and the fruit tip." []
 synonym: "Finger dorsal length" EXACT []
 synonym: "fingerextlength" EXACT []
@@ -121,7 +121,7 @@ is_a: TO:0001098 ! pepo fruit morphology trait
 
 [Term]
 id: CO_325:0000054
-name: banana finger circumference
+name: banana finger circumference trait
 def: "The circumference of a finger." []
 synonym: "Finger girth" EXACT []
 synonym: "fingercircumf" EXACT []
@@ -129,7 +129,7 @@ is_a: TO:0001098 ! pepo fruit morphology trait
 
 [Term]
 id: CO_325:0000057
-name: banana black leaf streak disease incubation time
+name: banana black leaf streak disease incubation time trait
 def: "The time elapsed between a tagged cigar leaf at Brun's stage B of unrolling and the development of black leaf streak disease symptoms at Foure's black leaf streak disease severity grade 1." []
 synonym: "Black Sigatoka disease incubation time" EXACT []
 synonym: "DIT" EXACT []
@@ -137,7 +137,7 @@ is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000060
-name: banana black leaf streak disease evolution time
+name: banana black leaf streak disease evolution time trait
 def: "The time elapsed between the development of black leaf streak disease symptoms at Foure's black leaf streak disease severity grade 1, to 6." []
 synonym: "Black Sigatoka disease evolution time" EXACT []
 synonym: "DET" EXACT []
@@ -145,7 +145,7 @@ is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000066
-name: banana number of functional leaves
+name: banana number of functional leaves trait
 def: "The number of leaves on the plant that have 50% or more of the leaf surface area as green, healthy, photosynthetic tissue." []
 synonym: "functleaves" EXACT []
 synonym: "numFuncLeaves" EXACT []
@@ -153,173 +153,173 @@ is_a: TTO:0000241 ! leaf number
 
 [Term]
 id: CO_325:0000069
-name: banana number of standing leaves
+name: banana number of standing leaves trait
 def: "The number of leaves attached to the plant that have an erect petiole (not bent or broken)." []
 is_a: TTO:0000241 ! leaf number
 
 [Term]
 id: CO_325:0000072
-name: banana extent of internal discolouration in corm of tallest sucker caused by fusarium wilt
+name: banana extent of internal discolouration in corm of tallest sucker caused by fusarium wilt trait
 def: "The extent of discolouration in the corm of the tallest sucker, caused by Fusarium wilt." []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000075
-name: banana distance of internal discolouration in pseudostem of plant caused by fusarium wilt
+name: banana distance of internal discolouration in pseudostem of plant caused by fusarium wilt trait
 def: "The distance of discolouration in the pseudostem of the plant, caused by Fusarium wilt." []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000078
-name: banana percentage of plants with external disease symptoms caused by fusarium wilt
+name: banana percentage of plants with external disease symptoms caused by fusarium wilt trait
 def: "The percentage of plants with any or multiple of the external disease symptoms - yellowing leaves, splitting of pseudostem base, changes in new leaves, petiole collapse, caused by Fusarium wilt." []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000081
-name: banana percentage of plants with internal disease symptoms caused by fusarium wilt
+name: banana percentage of plants with internal disease symptoms caused by fusarium wilt trait
 def: "The percentage of plants with any or multiple of the internal disease symptoms - discolouration in the corm, and/or discolouration in the pseudostem, caused by Fusarium wilt." []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000084
-name: banana time from start of crop cycle to first external disease symptoms caused by fusarium wilt
+name: banana time from start of crop cycle to first external disease symptoms caused by fusarium wilt trait
 def: "The time elapsed from the start of the crop cycle to the appearance on the plant of any of the external disease symptoms - - yellowing leaves, splitting pseudostem base, changes in new leaves, petiole collapse, caused by Fusarium wilt." []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000087
-name: banana presence of yellowing leaves caused by fusarium wilt
+name: banana presence of yellowing leaves caused by fusarium wilt trait
 def: "The presence/absence of yellowing leaves, caused by Fusarium wilt." []
 synonym: "YL" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000090
-name: banana presence of splitting pseudostem base caused by fusarium wilt
+name: banana presence of splitting pseudostem base caused by fusarium wilt trait
 def: "The presence/absence of a splitting pseudostem base, caused by Fusarium wilt." []
 synonym: "SP" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000093
-name: banana presence of changes in new leaves caused by fusarium wilt
+name: banana presence of changes in new leaves caused by fusarium wilt trait
 def: "The presence/absence of changes in new leaves - irregular pale margins, narrowing of lamina, burning plus ripping of lamina, lamina becoming more erect, caused by Fusarium wilt." []
 synonym: "CNL" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000096
-name: banana presence of petiole collapse caused by fusarium wilt
+name: banana presence of petiole collapse caused by fusarium wilt trait
 def: "The presence/absence of petiole collapse, caused by Fusarium wilt." []
 synonym: "PC" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000099
-name: banana youngest leaf spotted
+name: banana youngest leaf spotted trait
 def: "The rank (order) of the first fully unfurled leaf with at least 10 discrete, mature, necrotic lesions or one large necrotic area with 10 leaf spot light-coloued dry centres, caused by black leaf streak disease." []
 synonym: "YLS" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000102
-name: banana index of non-spotted leaves
+name: banana index of non-spotted leaves trait
 def: "An index to express the proportion of standing leaves without the typical late-stage symptoms of black leaf streak disease, i.e. a black spot with a necrotic centre. This index provides an estimation of available photosynthetic leaf area prior to fruit filling and is a measure of resistance. It also corrects for the difference in the number of leaves produced by different types of bananas." []
 synonym: "INSL" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000105
-name: banana black leaf streak disease severity index
+name: banana black leaf streak disease severity index trait
 def: "An index to express the degree of leaf area of all standing leaves on the plant affected by black leaf streak disease." []
 synonym: "Black Sigatoka disease infection index" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000108
-name: banana number of dead roots
+name: banana number of dead roots trait
 def: "The number of dead roots in a standard-size excavation of 20 x 20 x 20 cm extending outwards from the corm of the plant." []
 is_a: TO:0001042 ! root quality trait
 
 [Term]
 id: CO_325:0000111
-name: banana number of functional roots
+name: banana number of functional roots trait
 def: "The number of functional roots in a standard-size excavation of 20 x 20 x 20 cm extending outwards from the corm of the plant." []
 is_a: TO:0001042 ! root quality trait
 
 [Term]
 id: CO_325:0000114
-name: banana Number of all roots
+name: banana number of all roots trait
 def: "The total number of all roots (both dead and functional) in a standard-size excavation of 20 x 20 x 20 cm extending outwards from the corm of the plant." []
 is_a: TO:0000084 ! root number
 
 [Term]
 id: CO_325:0000117
-name: banana Percentage of functional roots
+name: banana percentage of functional roots trait
 def: "The percentage of all roots in a standard-size excavation of 20 x 20 x 20 cm extending outwards from the corm of the plant that are functional." []
 is_a: TO:0001042 ! root quality trait
 
 [Term]
 id: CO_325:0000120
-name: banana Percentage of dead roots
+name: banana percentage of dead roots trait
 def: "The percentage of the root cortex of five functional roots approximately 10 cm long that is necrotic due to nematode damage." []
 is_a: TO:0001042 ! root quality trait
 
 [Term]
 id: CO_325:0000123
-name: banana root necrosis caused by nematodes
+name: banana root necrosis caused by nematodes trait
 def: "The percentage of the root cortex of five functional roots approximately 10 cm long that is necrotic due to nematode damage." []
 is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
 id: CO_325:0000126
-name: banana Nematode root knot galling extent
+name: banana nematode root knot galling extent trait
 def: "The extent of root knot nematodes, observed externally as galls on the roots.." []
 is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
 id: CO_325:0000129
-name: banana Nematode egg-laying females extent
+name: banana nematode egg-laying females extent trait
 def: "The extent of egg-laying female root knot nematodes, observed internally as pit-like structures on the roots." []
 is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
 id: CO_325:0000211
-name: banana Date of shooting
+name: banana date of shooting trait
 def: "The date the inflorescence emerges from the pseudostem and is still in an erect position." []
 is_a: TO:0001021 ! days to inflorescence exsertion
 
 [Term]
 id: CO_325:0000218
-name: banana Date of flowering
+name: banana date of flowering trait
 def: "The date the last bracts fall from the most distal hand (closest to the male bud) to display the female flowers." []
 is_a: TO:0002616 ! flowering time trait
 
 [Term]
 id: CO_325:0000221
-name: banana number of maiden suckers
+name: banana number of maiden suckers trait
 def: "The number of maiden suckers (fully grown suckers with foliage leaves) in the mat." []
 synonym: "nummaidensuckers" EXACT []
 is_a: TO:0000077 ! shoot system morphology trait
 
 [Term]
 id: CO_325:0000225
-name: banana Number of sword suckers
+name: banana number of sword suckers trait
 def: "The number of sword suckers (suckers with narrow leaves and a large rhizome) in the mat." []
 synonym: "numswordsuckers" EXACT []
 is_a: TO:0000077 ! shoot system morphology trait
 
 [Term]
 id: CO_325:0000229
-name: banana number of peeper suckers
+name: banana number of peeper suckers trait
 def: "The number of peeper suckers (suckers < 15 cm tall) in the mat." []
 synonym: "numpeepersuckers" EXACT []
 is_a: TO:0000077 ! shoot system morphology trait
 
 [Term]
 id: CO_325:0000233
-name: banana finger lateral diameter
+name: banana finger lateral diameter trait
 def: "The lateral (side to side) diameter of a finger." []
 synonym: "Finger grade, Fruit diameter, Fruit grade" EXACT []
 synonym: "fingerlatdiam" EXACT []
@@ -327,7 +327,7 @@ is_a: TO:0000848 ! fruit diameter
 
 [Term]
 id: CO_325:0000236
-name: banana finger peel thickness
+name: banana finger peel thickness trait
 def: "The thickness of the peel of a finger." []
 synonym: "peelthickness" EXACT []
 synonym: "Width of the peel, Width of the skin, Width of the exocarp, Finger peel thickness" EXACT []
@@ -335,7 +335,7 @@ is_a: TO:0000907 ! exocarp thickness
 
 [Term]
 id: CO_325:0000240
-name: banana fruit pulp lateral diameter
+name: banana fruit pulp lateral diameter trait
 def: "The lateral (side to side) diameter of the pulp of a fruit." []
 synonym: "Finger pulp diameter" EXACT []
 synonym: "pulpdiam" EXACT []
@@ -343,69 +343,69 @@ is_a: TO:0001098 ! pepo fruit morphology trait
 
 [Term]
 id: CO_325:0000243
-name: banana main underlying colour of pseudostem
+name: banana main underlying colour of pseudostem trait
 def: "Main colour of the pseudostem under the outermost sheath." []
 synonym: "Predominant underlying colour of the pseudostem" EXACT []
 is_a: TO:0000810 ! pseudostem color
 
 [Term]
 id: CO_325:0000248
-name: banana colour line along edge of petiole margin
+name: banana colour line along edge of petiole margin trait
 def: "Presence or absence of colour line along edge of petiole margin" []
 synonym: "Edge of petiole margin" EXACT []
 is_a: TO:0000765 ! petiole morphology trait
 
 [Term]
 id: CO_325:0000250
-name: banana pulp weight
+name: banana pulp weight trait
 def: "Peel the fruit and weigh the pulp using a scale (g). Record the pulp weight (g) of the central external finger on the second top cluster." []
 synonym: "pulpweight" EXACT []
 is_a: TO:0003031 ! pepo fruit weight
 
 [Term]
 id: CO_325:0000252
-name: banana pigmentation of outer surface of cigar leaf on sucker
+name: banana pigmentation of outer surface of cigar leaf on sucker trait
 def: "Colour of pigmentation on outer surface of cigar leaf on a developed sucker" []
 synonym: "Colour of cigar leaf dorsal surface" EXACT []
 is_a: TO:0000326 ! leaf color
 
 [Term]
 id: CO_325:0000256
-name: banana petiole margins winged
+name: banana petiole margins winged trait
 def: "Behaviour of the petiole margins - winged or not winged. The petiole and pseudostem meet at shooting. Margin is the part of the petiole that can be bent outwards/inwards." []
 synonym: "Petiole margins" EXACT []
 is_a: TO:0000765 ! petiole morphology trait
 
 [Term]
 id: CO_325:0000260
-name: banana petiole margins clasping
+name: banana petiole margins clasping trait
 def: "Behaviour of the petiole margins - winged or not winged. the petiole and pseudostem meet at shooting. Margin is the part of the petiole that can be bent outwards/inwards" []
 synonym: "Petiole margins" EXACT []
 is_a: TO:0000765 ! petiole morphology trait
 
 [Term]
 id: CO_325:0000264
-name: banana petiole margin colour
+name: banana petiole margin colour trait
 def: "Main colour of the petiole margin. Where the petiole and pseudostem meet at shooting. Margin is the part of the petiole that can be bent outwards/inwards" []
 is_a: TO:0000765 ! petiole morphology trait
 
 [Term]
 id: CO_325:0000270
-name: banana peel weight
+name: banana peel weight trait
 def: "Weigh peel, using a scale (g). Record the peel weight (g) of the central external finger on the second top cluster." []
 synonym: "peelweight" EXACT []
 is_a: TO:0000906 ! exocarp morphology trait
 
 [Term]
 id: CO_325:0000292
-name: banana time from flowering to harvest
+name: banana time from flowering to harvest trait
 def: "The time elapsed from flowering (when the last bracts fall from the most distal hand to display the female flowers) to the harvest of the bunch." []
 synonym: "flower2harvest" EXACT []
 is_a: TO:0000366 ! reproductive growth time
 
 [Term]
 id: CO_325:0000294
-name: banana time from planting to death
+name: banana time from planting to death trait
 def: "The time elapsed from planting to the death of the plant." []
 synonym: "plant2death" EXACT []
 synonym: "Time to death" EXACT []
@@ -413,7 +413,7 @@ is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_325:0000296
-name: banana time from harvest to death
+name: banana time from harvest to death trait
 def: "The time elapsed from the harvest of the bunch of the plant from the preceding crop cycle to the death of the plant from the current crop cycle." []
 synonym: "harvest2death" EXACT []
 synonym: "Time to death of the ratoon plant" EXACT []
@@ -421,7 +421,7 @@ is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_325:0000298
-name: banana ratoon crop cycle
+name: banana ratoon crop cycle trait
 def: "The time elapsed from the harvest of the bunch of the plant from the preceding crop cycle to the harvest of the bunch of the plant from the current crop cycle." []
 synonym: "harvest2harvest" EXACT []
 synonym: "Time from harvest to harvest" EXACT []
@@ -429,7 +429,7 @@ is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_325:0000307
-name: banana plant height to neck of peduncle
+name: banana plant height to neck of peduncle trait
 def: "The height of the pseudostem of the plant from the collar to the curved neck of the peduncle." []
 synonym: "plantheightneck" EXACT []
 synonym: "Pseudostem height" EXACT []
@@ -437,14 +437,14 @@ is_a: TO:0000207 ! plant height
 
 [Term]
 id: CO_325:0000310
-name: banana number of water suckers
+name: banana number of water suckers trait
 def: "The number of water suckers (suckers with broad leaves, a small rhizome, and a weak connection to the plant) in the mat." []
 synonym: "numwatersuckers" EXACT []
 is_a: TO:0000077 ! shoot system morphology trait
 
 [Term]
 id: CO_325:0000312
-name: banana bunch maturity stage at harvest
+name: banana bunch maturity stage at harvest trait
 def: "The stage of maturity of the bunch at harvest." []
 synonym: "bunchmaturity" EXACT []
 synonym: "Stage of harvesting" EXACT []
@@ -452,14 +452,14 @@ is_a: TO:0001076 ! infructescence development trait
 
 [Term]
 id: CO_325:0000314
-name: banana rachis weight
+name: banana rachis weight trait
 def: "The weight of the rachis." []
 synonym: "rachisweight" EXACT []
 is_a: TO:0000782 ! inflorescence axis morphology trait
 
 [Term]
 id: CO_325:0000316
-name: banana total finger weight
+name: banana total finger weight trait
 def: "The weight of all the hands of the bunch, excluding the rachis." []
 synonym: "Total fruit weight, Total hand weight" EXACT []
 synonym: "totalfingerweight" EXACT []
@@ -467,63 +467,63 @@ is_a: TO:0003031 ! pepo fruit weight
 
 [Term]
 id: CO_325:0000318
-name: banana hand rank
+name: banana hand rank trait
 def: "The rank (order) of a hand in the bunch." []
 synonym: "handid" EXACT []
 is_a: TO:1000004 ! infructescence position
 
 [Term]
 id: CO_325:0000320
-name: banana multiple number of fingers in hand
+name: banana multiple number of fingers in hand trait
 def: "The number of fingers in multiple hands." []
 synonym: "multnumfingshand" EXACT []
 is_a: TO:0000894 ! fruit number trait
 
 [Term]
 id: CO_325:0000322
-name: banana number of hands measured
+name: banana number of hands measured trait
 def: "The number of hands used to obtain a measurement." []
 synonym: "numhandsmeas" EXACT []
 is_a: TO:0000936 ! infructescence yield trait
 
 [Term]
 id: CO_325:0000324
-name: banana average number of fingers in hand
+name: banana average number of fingers in hand trait
 def: "The average number of fingers in a hand." []
 synonym: "avenumfingshand_rltv" EXACT []
 is_a: TO:0000894 ! fruit number trait
 
 [Term]
 id: CO_325:0000327
-name: banana multiple hand weight
+name: banana multiple hand weight trait
 def: "The weight of multiple hands." []
 synonym: "multhandweight" EXACT []
 is_a: TO:0000583 ! infructescence weight
 
 [Term]
 id: CO_325:0000329
-name: banana average hand weight
+name: banana average hand weight trait
 def: "The average weight of the hands." []
 synonym: "avehandweight" EXACT []
 is_a: TO:0000583 ! infructescence weight
 
 [Term]
 id: CO_325:0000331
-name: banana multiple finger weight
+name: banana multiple finger weight trait
 def: "The weight of multiple fingers." []
 synonym: "multfingerweight" EXACT []
 is_a: TO:0003031 ! pepo fruit weight
 
 [Term]
 id: CO_325:0000335
-name: banana average finger weight
+name: banana average finger weight trait
 def: "The average weight of the fingers." []
 synonym: "avefingerweight" EXACT []
 is_a: TO:0003031 ! pepo fruit weight
 
 [Term]
 id: CO_325:0000337
-name: banana average finger external length
+name: banana average finger external length trait
 def: "The average length of the fingers measured along the external (dorsal) arc, excluding the pedicel and the fruit tip." []
 synonym: "avefingerextlength" EXACT []
 synonym: "Average finger dorsal length" EXACT []
@@ -531,7 +531,7 @@ is_a: TO:0002626 ! fruit length
 
 [Term]
 id: CO_325:0000339
-name: banana finger internal length
+name: banana finger internal length trait
 def: "The length of a finger measured along the internal (ventral) arc, excluding the pedicel and the fruit tip." []
 synonym: "Finger ventral length" EXACT []
 synonym: "fingerintlength" EXACT []
@@ -539,7 +539,7 @@ is_a: TO:0002626 ! fruit length
 
 [Term]
 id: CO_325:0000341
-name: banana average finger internal length
+name: banana average finger internal length trait
 def: "The average length of the fingers measured along the internal (ventral) arc, excluding the pedicel and the fruit tip." []
 synonym: "avefingerintlength" EXACT []
 synonym: "Average finger ventral length" EXACT []
@@ -547,7 +547,7 @@ is_a: TO:0002626 ! fruit length
 
 [Term]
 id: CO_325:0000344
-name: banana average finger circumference
+name: banana average finger circumference trait
 def: "The average circumference of the fingers." []
 synonym: "avefingercircumf" EXACT []
 synonym: "Average finger girth" EXACT []
@@ -555,7 +555,7 @@ is_a: TO:0001098 ! pepo fruit morphology trait
 
 [Term]
 id: CO_325:0000348
-name: banana average finger lateral diameter
+name: banana average finger lateral diameter trait
 def: "The average lateral (side to side) diameter of a finger." []
 synonym: "avefingerlatdiam" EXACT []
 synonym: "Finger grade, Fruit diameter, Fruit grade" EXACT []
@@ -563,7 +563,7 @@ is_a: TO:0000848 ! fruit diameter
 
 [Term]
 id: CO_325:0000352
-name: banana average fruit pulp lateral diameter
+name: banana average fruit pulp lateral diameter trait
 def: "The average lateral (side to side) diameter of the pulp of a fruit." []
 synonym: "avepulpdiam" EXACT []
 synonym: "Finger pulp diameter" EXACT []
@@ -571,7 +571,7 @@ is_a: TO:0000945 ! pericarp morphology trait
 
 [Term]
 id: CO_325:0000355
-name: banana average finger peel thickness
+name: banana average finger peel thickness trait
 def: "The average thickness of the peel of a finger." []
 synonym: "avepeelthickness" EXACT []
 synonym: "Width of the peel, Width of the skin, Width of the exocarp, Finger peel thickness" EXACT []
@@ -579,21 +579,21 @@ is_a: TO:0000907 ! exocarp thickness
 
 [Term]
 id: CO_325:0000381
-name: banana annual crop cycle proportion
+name: banana annual crop cycle proportion trait
 def: "The proportion of the crop cycle that takes place in one year." []
 synonym: "anncropcycprop" EXACT []
 is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_325:0000383
-name: banana plant annual yield
+name: banana plant annual yield trait
 def: "The bunch weight produced by the plant over the course of the crop cycle, averaged across one year." []
 synonym: "plantannyield" EXACT []
 is_a: TO:0000936 ! infructescence yield trait
 
 [Term]
 id: CO_325:0000385
-name: banana average actual annual yield
+name: banana average actual annual yield trait
 def: "The average actual annual yield, taking into account the proportion of plants harvested, from the number of plants planted" []
 synonym: "actualannyield" EXACT []
 synonym: "Yield" EXACT []
@@ -601,7 +601,7 @@ is_a: TO:0000936 ! infructescence yield trait
 
 [Term]
 id: CO_325:0000387
-name: banana average potential annual yield
+name: banana average potential annual yield trait
 def: "The average potential annual yield, assuming that all plants are harvested, from the number of plants planted." []
 synonym: "potannyield" EXACT []
 synonym: "Yield" EXACT []
@@ -609,436 +609,436 @@ is_a: TO:0000936 ! infructescence yield trait
 
 [Term]
 id: CO_325:0000389
-name: banana overall fruit pendulance quality
+name: banana overall fruit pendulance quality trait
 def: "The overall estimation fruit pendulance on a bunch" []
 synonym: "pendulantfruit" EXACT []
 is_a: TO:0000920 ! infructescence morphology trait
 
 [Term]
 id: CO_325:0000391
-name: banana overall bunch quality
+name: banana overall bunch quality trait
 def: "The overall estimation of the bunch quality on a mat" []
 synonym: "goodbunch" EXACT []
 is_a: TO:0002728 ! fruit quality
 
 [Term]
 id: CO_325:0000393
-name: banana fruitfill
+name: banana fruitfill trait
 def: "The overall estimation of fruitfilling level on a bunch" []
 synonym: "goodfruitfill" EXACT []
 is_a: TO:0000929 ! fruit growth and development trait
 
 [Term]
 id: CO_325:0000395
-name: banana overall suckering quality
+name: banana overall suckering quality trait
 def: "The overall estimation of sucker quality on a mat" []
 synonym: "suckering" EXACT []
 is_a: TO:0000988 ! shoot-borne shoot system morphology trait
 
 [Term]
 id: CO_325:0000397
-name: banana dwarfism
+name: banana dwarfism trait
 def: "The presence or absence of dwarfism on a mat" []
 synonym: "dwarfism" EXACT []
 is_a: TO:0000398 ! whole plant morphology trait
 
 [Term]
 id: CO_325:0000425
-name: banana pseudostem height
+name: banana pseudostem height trait
 def: "Distance from the base of the pseudostem to the emerging point of the peduncle." []
 synonym: "Plant height" EXACT []
 is_a: TO:0000207 ! plant height
 
 [Term]
 id: CO_325:0000427
-name: banana blotches relative area at petiole base
+name: banana blotches relative area at petiole base trait
 def: "Percentage coverage of petiole base by blotches." []
 synonym: "Blotches at the petiole base" EXACT []
 is_a: TO:0000765 ! petiole morphology trait
 
 [Term]
 id: CO_325:0000430
-name: banana blotches colour at the petiole base
+name: banana blotches colour at the petiole base trait
 def: "Colour of the blotches on the upper leaf sheath of the petiole base." []
 synonym: "Blotches colour" EXACT []
 is_a: TO:0000765 ! petiole morphology trait
 
 [Term]
 id: CO_325:0000433
-name: banana margin behaviour on petiole canal of third leaf
+name: banana margin behaviour on petiole canal of third leaf trait
 def: "Margin behaviour of the petiole canal of the third leaf before bunch." []
 synonym: "Petiole canal of the third leaf, Petiole canal leaf III" EXACT []
 is_a: TO:0000765 ! petiole morphology trait
 
 [Term]
 id: CO_325:0000438
-name: banana bunch orientation
+name: banana bunch orientation trait
 def: "Angle between the axis of the bunch and the vertical" []
 is_a: TO:1000004 ! infructescence position
 
 [Term]
 id: CO_325:0000440
-name: banana bunch shape
+name: banana bunch shape trait
 def: "Shape of the fully developed bunch on a plant" []
 is_a: TO:0000920 ! infructescence morphology trait
 
 [Term]
 id: CO_325:0000442
-name: banana male rachis type
+name: banana male rachis type trait
 def: "Behaviour of male rachis - truncated or present. Truncated means there is no bract scar below the last hand. Present means there is a degenerated or persistent male bud" []
 is_a: TO:0000782 ! inflorescence axis morphology trait
 
 [Term]
 id: CO_325:0000444
-name: banana male rachis position
+name: banana male rachis position trait
 def: "Angle of the rachis between last hand and male bud" []
 synonym: "Rachis angle" EXACT []
 is_a: TO:0000782 ! inflorescence axis morphology trait
 
 [Term]
 id: CO_325:0000446
-name: banana male rachis appearance
+name: banana male rachis appearance trait
 def: "Appearance of flowers/bracts on the male rachis" []
 synonym: "Rachis appearance" EXACT []
 is_a: TO:0000782 ! inflorescence axis morphology trait
 
 [Term]
 id: CO_325:0000448
-name: banana male bud shape
+name: banana male bud shape trait
 def: "Shape of the male bud defined as the ratio of male bud broadest width to total male bud length" []
 is_a: TO:0000789 ! bud morphology trait
 
 [Term]
 id: CO_325:0000451
-name: banana male bud length
+name: banana male bud length trait
 def: "Length of male bud from end of rachis to apex of the bud" []
 synonym: "Male bud size" EXACT []
 is_a: TO:0000789 ! bud morphology trait
 
 [Term]
 id: CO_325:0000454
-name: banana male bud shoulder
+name: banana male bud shoulder trait
 def: "Male bud shoulder description" []
 synonym: "Male bud size" EXACT []
 is_a: TO:0000789 ! bud morphology trait
 
 [Term]
 id: CO_325:0000456
-name: banana bract apex shape
+name: banana bract apex shape trait
 def: "Appearance of flowers/bracts on the male rachis" []
 is_a: TO:0000816 ! inflorescence bract morphology trait
 
 [Term]
 id: CO_325:0000459
-name: banana bract imbrication at apex of male bud
+name: banana bract imbrication at apex of male bud trait
 def: "Alignment of bracts at the apex of the male bud" []
 synonym: "Bract imbrication" EXACT []
 is_a: TO:0000816 ! inflorescence bract morphology trait
 
 [Term]
 id: CO_325:0000461
-name: banana bract behaviour before falling
+name: banana bract behaviour before falling trait
 def: "Behaviour of the last lifted bract - revolute or not revolute" []
 is_a: TO:0000816 ! inflorescence bract morphology trait
 
 [Term]
 id: CO_325:0000463
-name: banana colour of bract external face
+name: banana colour of bract external face trait
 def: "Main colour of the first external unlifted bract external face" []
 synonym: "Colour of the bract external face" EXACT []
 is_a: TO:0000819 ! inflorescence bract color
 
 [Term]
 id: CO_325:0000466
-name: banana colour of bract internal face
+name: banana colour of bract internal face trait
 def: "Main colour of the first external unlifted bract internal face" []
 synonym: "Colour of the bract internal face" EXACT []
 is_a: TO:0000819 ! inflorescence bract color
 
 [Term]
 id: CO_325:0000469
-name: banana compound tepal main colour
+name: banana compound tepal main colour trait
 def: "Main colour of the backside of the compound tepal" []
 synonym: "Tepal colour, Compound tepal basic colour" EXACT []
 is_a: TO:0000574 ! tepal color
 
 [Term]
 id: CO_325:0000472
-name: banana lobe colour of tip of compound tepal
+name: banana lobe colour of tip of compound tepal trait
 def: "Main colour of the tip of the compound tepal (lobe)" []
 synonym: "Lobe colour, Lobe colour of compound tepal" EXACT []
 is_a: TO:0000574 ! tepal color
 
 [Term]
 id: CO_325:0000475
-name: banana anther colour
+name: banana anther colour trait
 def: "Main colour of the face of anther opposite to dehiscence" []
 is_a: TO:0000187 ! anther color
 
 [Term]
 id: CO_325:0000478
-name: banana number of hands on whole bunch
-def: "Number of hands on bunch **subsume" []
-synonym: "Number of hands" EXACT []
+name: banana number of hands on whole bunch trait
+def: "number of hands on bunch **subsume" []
+synonym: "number of hands" EXACT []
 is_a: TO:0000894 ! fruit number trait
 
 [Term]
 id: CO_325:0000480
-name: banana number of fruits on mid-hand of the bunch
-def: "Number of fruits on the mid-hand of the bunch **subsume" []
-synonym: "Number of fruits" EXACT []
+name: banana number of fruits on mid-hand of the bunch trait
+def: "number of fruits on the mid-hand of the bunch **subsume" []
+synonym: "number of fruits" EXACT []
 is_a: TO:0000894 ! fruit number trait
 
 [Term]
 id: CO_325:0000482
-name: banana fruit length
+name: banana fruit length trait
 def: "Length of the internal arc of a finger ** subsume" []
 synonym: "Fruit length" EXACT []
 is_a: TO:0002626 ! fruit length
 
 [Term]
 id: CO_325:0000485
-name: banana fruit shape of curve
+name: banana fruit shape of curve trait
 def: "Shape of a fruit (finger) in the middle of the bunch **subsume" []
 synonym: "Fruit shape (longitudinal curve)" EXACT []
 is_a: TO:0002628 ! fruit shape
 
 [Term]
 id: CO_325:0000488
-name: banana fruit apex point
+name: banana fruit apex point trait
 def: "Description of fruit apex" []
 synonym: "Fruit apex" EXACT []
 is_a: TO:0001098 ! pepo fruit morphology trait
 
 [Term]
 id: CO_325:0000490
-name: banana remains of flower relicts at fruit apex
+name: banana remains of flower relicts at fruit apex trait
 def: "Percentage of flower relicts at fruit apex" []
 is_a: TO:0001098 ! pepo fruit morphology trait
 
 [Term]
 id: CO_325:0000493
-name: banana fruit pedicel length
+name: banana fruit pedicel length trait
 def: "Length of the fruit pedicel from rachis to the beginning of the pulp" []
 is_a:  TO:0000630 ! pedicel length
 
 [Term]
 id: CO_325:0000496
-name: banana fusion of pedicels
+name: banana fusion of pedicels trait
 def: "Degree of fusion of the pedicels before they join the rachis" []
 is_a: TO:0000920 ! infructescence morphology trait
 
 [Term]
-id: CO_325:0000498
+id: CO_325:0000498 trait
 name: banana fruit mashed pulp colour
 def: "The color of the mashed pulp of a mature fruit" []
 is_a: TO:0002619 ! mesocarp color
 
 [Term]
-id: CO_325:0000500
+id: CO_325:0000500 trait
 name: banana fruit unmashed pulp colour
 def: "The color of the unmashed pulp of a mature fruit" []
 is_a: TO:0002619 ! mesocarp color
 
 [Term]
 id: CO_325:0000502
-name: banana fruit mashed pulp taste
+name: banana fruit mashed pulp taste trait
 def: "The taste of the mashed pulp of a mature fruit" []
 is_a: TO:0002694 ! fruit flavor trait
 
 [Term]
 id: CO_325:0000504
-name: banana fruit unmashed pulp taste
+name: banana fruit unmashed pulp taste trait
 def: "The taste of the unmashed pulp of a mature fruit" []
 is_a: TO:0002694 ! fruit flavor trait
 
 [Term]
 id: CO_325:0000506
-name: banana fruit mashed pulp texture
+name: banana fruit mashed pulp texture trait
 def: "The texture of the mashed pulp of a mature fruit" []
 is_a: TO:0000948 ! mesocarp morphology trait
 
 [Term]
 id: CO_325:0000508
-name: banana fruit unmashed pulp texture
+name: banana fruit unmashed pulp texture trait
 def: "The texture of the unmashed pulp of a mature fruit" []
 is_a: TO:0000948 ! mesocarp morphology trait
 
 [Term]
 id: CO_325:0000510
-name: banana fruit mashed pulp smoothness-mouth feel
+name: banana fruit mashed pulp smoothness-mouth feel trait
 def: "The smoothness-mouth feel of the mashed pulp of a mature fruit" []
 is_a: TO:0001098 ! pepo fruit morphology trait
 
 [Term]
 id: CO_325:0000512
-name: banana fruit unmashed pulp smoothness-mouth feel
+name: banana fruit unmashed pulp smoothness-mouth feel trait
 def: "The smoothness-mouth feel of the unmashed pulp of a mature fruit" []
 is_a: TO:0001098 ! pepo fruit morphology trait
 
 [Term]
 id: CO_325:0000514
-name: banana fruit mashed pulp aroma/smell
+name: banana fruit mashed pulp aroma/smell trait
 def: "The pulp aroma of the mashed pulp of a mature fruit" []
 is_a: TO:0002694 ! fruit flavor trait
 
 [Term]
 id: CO_325:0000516
-name: banana damage to periphery of peeled corm caused by weevils
+name: banana damage to periphery of peeled corm caused by weevils trait
 def: "The amount of damage to the periphery of the peeled corm, assessed by tunnels caused by weevils" []
 synonym: "peripheral damage" EXACT []
 is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_325:0000518
-name: banana nematode reproduction factor (microplot screening)
+name: banana nematode reproduction factor (microplot screening) trait
 def: "Nematode multiplication from single root inoculation of 50 nematodes per 8 cm length after 12 weeks" []
 is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
 id: CO_325:0000520
-name: banana nematode population density per soil sample
-def: "Number of nematodes in soil" []
+name: banana nematode population density per soil sample trait
+def: "number of nematodes in soil" []
 is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
 id: CO_325:0000524
-name: banana number of rotylenchulus spp.per soil sample
-def: "Number of Rotylenchulus spp.in soil" []
+name: banana number of rotylenchulus spp.per soil sample trait
+def: "number of Rotylenchulus spp.in soil" []
 is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
 id: CO_325:0000526
-name: banana number of meloidogyne spp. per soil sample
-def: "Number of Meloidogyne spp. in soil" []
+name: banana number of meloidogyne spp. per soil sample trait
+def: "number of Meloidogyne spp. in soil" []
 is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
 id: CO_325:0000528
-name: banana number of hoplolaimus spp. per soil sample
-def: "Number of Hoplolaimus spp. in soil" []
+name: banana number of hoplolaimus spp. per soil sample trait
+def: "number of Hoplolaimus spp. in soil" []
 is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
 id: CO_325:0000530
-name: banana number of pratylenchus coffeae per soil sample
-def: "Number of Pratylenchus coffeae in soil" []
+name: banana number of pratylenchus coffeae per soil sample trait
+def: "number of Pratylenchus coffeae in soil" []
 is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
 id: CO_325:0000531
-name: banana root nematode density
+name: banana root nematode density trait
 def: "The number of nematode individuals per unit of fresh root weight." []
 is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
 id: CO_325:0000533
-name: banana number of radopholus similis
-def: "Number of Radopholus similis" []
+name: banana number of radopholus similis trait
+def: "number of Radopholus similis" []
 is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
 id: CO_325:0000535
-name: banana number of meloidogyne spp. per fresh root weight
-def: "Number of Meloidogyne spp. in roots" []
+name: banana number of meloidogyne spp. per fresh root weight trait
+def: "number of Meloidogyne spp. in roots" []
 is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
 id: CO_325:0000537
-name: banana number of pratylenchus spp.
-def: "Number of Pratylenchus spp. in roots" []
+name: banana number of pratylenchus spp. trait
+def: "number of Pratylenchus spp. in roots" []
 is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
 id: CO_325:0000539
-name: banana number of hoplolaimus spp. per fresh root weight
-def: "Number of Hoplolaimus spp. in roots" []
+name: banana number of hoplolaimus spp. per fresh root weight trait
+def: "number of Hoplolaimus spp. in roots" []
 is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
 id: CO_325:0000541
-name: banana number of pratylenchus goodeyi
-def: "Number of Pratylenchus goodeyi in roots" []
+name: banana number of pratylenchus goodeyi trait
+def: "number of Pratylenchus goodeyi in roots" []
 is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
 id: CO_325:0000543
-name: banana number of pratylenchus coffeae per fresh root weight
-def: "Number of Pratylenchus coffeae in roots" []
+name: banana number of pratylenchus coffeae per fresh root weight trait
+def: "number of Pratylenchus coffeae in roots" []
 is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
 id: CO_325:0000545
-name: banana Date of first youngest leaf spotted
+name: banana date of first youngest leaf spotted trait
 def: "The date a youngest leaf spotted is first observed on the plant, caused by black leaf streak disease.." []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000548
-name: banana rank of oldest standing leaf
+name: banana rank of oldest standing leaf trait
 def: "The rank (order) of the oldest (most-distal) standing leaf (with an erect petiole)." []
 is_a: TO:0000541 ! leaf position
 
 [Term]
 id: CO_325:0000550
-name: banana Date of tagged cigar leaf unrolling at Bruns stage B
+name: banana date of tagged cigar leaf unrolling at Bruns stage B trait
 def: "The date a tagged cigar leaf is at Bruns stage B of unrolling." []
 is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_325:0000553
-name: banana Date of tagged leaf presenting black leaf streak disease symptoms at Foures stage 1
+name: banana date of tagged leaf presenting black leaf streak disease symptoms at Foures stage 1 trait
 def: "The date a tagged leaf presents black leaf streak disease symptoms at Foures black leaf streak disease severity grade 1." []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000556
-name: banana Date of tagged leaf presenting black leaf streak disease symptoms at Foures stage 6
+name: banana date of tagged leaf presenting black leaf streak disease symptoms at Foures stage 6 trait
 def: "The date a tagged leaf presents black leaf streak disease symptoms at Foures black leaf streak disease severity grade 6." []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000559
-name: banana extent of internal discolouration in corm of plant caused by fusarium wilt
+name: banana extent of internal discolouration in corm of plant caused by fusarium wilt trait
 def: "The extent of discolouration in the corm of the plant, caused by Fusarium wilt." []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000561
-name: banana Date of first external disease symptoms caused by Fusarium wilt
+name: banana date of first external disease symptoms caused by Fusarium wilt trait
 def: "The date of the appearance on the plant of any of the external disease symptoms - yellowing leaves, splitting pseudostem base, changes in new leaves, petiole collapse, caused by Fusarium wilt." []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000564
-name: banana rank of marked youngest leaf
+name: banana rank of marked youngest leaf trait
 def: "The rank (position) of the youngest completely unrolled leaf." []
 synonym: "rankyoungleaf" EXACT []
 is_a: TO:0000541 ! leaf position
 
 [Term]
 id: CO_325:0000566
-name: banana Rank of previously marked leaf
+name: banana Rank of previously marked leaf trait
 def: "The current rank (position) of the leaf that was previously marked as the youngest leaf at the time of the last data collection event." []
 synonym: "rankprevleaf" EXACT []
 is_a: TO:0000541 ! leaf position
 
 [Term]
 id: CO_325:0000570
-name: banana time from planting to first youngest leaf spotted
+name: banana time from planting to first youngest leaf spotted trait
 def: "Time elapsed between planting and the appearance of the first youngest leaf spotted." []
 is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_325:0000572
-name: banana number of spotted leaves
+name: banana number of spotted leaves trait
 def: "The number of leaves with at least 10 discrete, mature, necrotic lesions or one large necrotic area with 10 light-coloured dry centres, caused by black leaf streak disease." []
-synonym: "Number and severity of spotted leaves" EXACT []
+synonym: "number and severity of spotted leaves" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000574
-name: banana black leaf streak disease severity and stage
+name: banana black leaf streak disease severity and stage trait
 def: "An indication of the extent of damage on an individual leaf caused by black leaf streak disease." []
 synonym: "Black Sigatoka disease severity; Percentage area necrotic" EXACT []
 synonym: "BLS" EXACT []
@@ -1046,304 +1046,304 @@ is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000580
-name: banana number of leaves with black leaf streak disease severity grade 0
+name: banana number of leaves with black leaf streak disease severity grade 0 trait
 def: "The number of leaves on a plant with a black leaf streak disease severity grade of 0." []
-synonym: "Number of leaves with black Sigatoka disease severity grade 0" EXACT []
+synonym: "number of leaves with black Sigatoka disease severity grade 0" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000582
-name: banana number of leaves with black leaf streak disease severity grade 1
+name: banana number of leaves with black leaf streak disease severity grade 1 trait
 def: "The number of leaves on a plant with a black leaf streak disease severity grade of 1." []
-synonym: "Number of leaves with black Sigatoka disease severity grade 1" EXACT []
+synonym: "number of leaves with black Sigatoka disease severity grade 1" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000584
-name: banana number of leaves with black leaf streak disease severity grade 2
+name: banana number of leaves with black leaf streak disease severity grade 2 trait
 def: "The number of leaves on a plant with a black leaf streak disease severity grade of 2." []
-synonym: "Number of leaves with black Sigatoka disease severity grade 2" EXACT []
+synonym: "number of leaves with black Sigatoka disease severity grade 2" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000586
-name: banana number of leaves with black leaf streak disease severity grade 3
+name: banana number of leaves with black leaf streak disease severity grade 3 trait
 def: "The number of leaves on a plant with a black leaf streak disease severity grade of 3." []
-synonym: "Number of leaves with black Sigatoka disease severity grade 3" EXACT []
+synonym: "number of leaves with black Sigatoka disease severity grade 3" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000588
-name: banana number of leaves with black leaf streak disease severity grade 4
+name: banana number of leaves with black leaf streak disease severity grade 4 trait
 def: "The number of leaves on a plant with a black leaf streak disease severity grade of 4." []
-synonym: "Number of leaves with black Sigatoka disease severity grade 4" EXACT []
+synonym: "number of leaves with black Sigatoka disease severity grade 4" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 
 [Term]
 id: CO_325:0000590
-name: banana number of leaves with black leaf streak disease severity grade 5
+name: banana number of leaves with black leaf streak disease severity grade 5 trait
 def: "The number of leaves on a plant with a black leaf streak disease severity grade of 5." []
-synonym: "Number of leaves with black Sigatoka disease severity grade 5" EXACT []
+synonym: "number of leaves with black Sigatoka disease severity grade 5" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 
 [Term]
 id: CO_325:0000592
-name: banana number of leaves with black leaf streak disease severity grade 6
+name: banana number of leaves with black leaf streak disease severity grade 6 trait
 def: "The number of leaves on a plant with a black leaf streak disease severity grade of 6." []
-synonym: "Number of leaves with black Sigatoka disease severity grade 6" EXACT []
+synonym: "number of leaves with black Sigatoka disease severity grade 6" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000594
-name: banana distance of internal discolouration in pseudostem of tallest sucker caused by fusarium wilt
+name: banana distance of internal discolouration in pseudostem of tallest sucker caused by fusarium wilt trait
 def: "The distance of discolouration in the pseudostem of the tallest sucker, caused by Fusarium wilt." []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000600
-name: banana percentage of plants with yellowing leaves caused by fusarium wilt
+name: banana percentage of plants with yellowing leaves caused by fusarium wilt trait
 def: "Percentage of plants with yellowing leaves, caused by Fusarium wilt." []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000602
-name: banana percentage of plants with a splitting pseudostem base caused by fusarium wilt
+name: banana percentage of plants with a splitting pseudostem base caused by fusarium wilt trait
 def: "Percentage of plants with a splitting pseudostem base, caused by Fusarium wilt." []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000604
-name: banana percentage of plants with changes in new leaves caused by fusarium wilt
+name: banana percentage of plants with changes in new leaves caused by fusarium wilt trait
 def: "Percentage of plants with changes in new leaves, caused by Fusarium wilt." []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000606
-name: banana percentage of plants with petiole collapse caused by fusarium wilt
+name: banana percentage of plants with petiole collapse caused by fusarium wilt trait
 def: "Percentage of plants with petiole collapse, caused by Fusarium wilt." []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000650
-name: banana Percentage damage to upper cross-section inner corm caused by weevils
+name: banana Percentage damage to upper cross-section inner corm caused by weevils trait
 def: "The amount of damage to the inner corm (central cylinder) upper cross-section, assessed by the percentage of tunnels caused by weevils." []
 is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_325:0000677
-name: banana percentage damage to lower cross-section inner corm caused by weevils
+name: banana percentage damage to lower cross-section inner corm caused by weevils trait
 def: "The amount of damage to the inner corm (central cylinder) lower cross-section, assessed by percentage of tunnels caused by weevils." []
 synonym: "Damage index-X-inner" EXACT []
 is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_325:0000679
-name: banana percentage damage to lower cross-section outer corm caused by weevils
+name: banana percentage damage to lower cross-section outer corm caused by weevils trait
 def: "The amount of damage to the outer corm (cortex) lower cross-section, assessed by percentage of tunnels caused by weevils." []
 synonym: "Damage index-X-outer" EXACT []
 is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_325:0000726
-name: banana weekly leaf emission rate
+name: banana weekly leaf emission rate trait
 def: "A rate that expresses the number of leaves that have emerged from the pseudostem in a week." []
 synonym: "LER" EXACT []
 is_a: TTO:0000659 ! phyllochron trait
 
 [Term]
 id: CO_325:0000793
-name: banana bunch height
+name: banana bunch height trait
 def: "The height of the bunch" []
 synonym: "bunchheight" EXACT []
 is_a: TO:1000004 ! infructescence position
 
 [Term]
 id: CO_325:0000795
-name: banana bunch circumference
+name: banana bunch circumference trait
 def: "The circumference of the bunch" []
 synonym: "bunchcircumference" EXACT []
 is_a: TO:0000920 ! infructescence morphology trait
 
 [Term]
 id: CO_325:0000841
-name: banana damage to the corm of the mother plant caused by weevils
+name: banana damage to the corm of the mother plant caused by weevils trait
 def: "The score of damage to the mother plant corm, assessed by tunnels caused by weevils" []
 synonym: "damagemothercorm" EXACT []
 is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_325:0000843
-name: banana size of corm inner diameter after weevils introduction
+name: banana size of corm inner diameter after weevils introduction trait
 def: "The diameter of the inner corm after weevil introduction" []
 synonym: "sizeinnercorm" EXACT []
 is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_325:0000845
-name: banana size of corm outter diameter after weevils introduction
+name: banana size of corm outer diameter after weevils introduction trait
 def: "The diameter of the outter corm after weevil introduction" []
 synonym: "sizeouttercorm" EXACT []
 is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_325:0000857
-name: banana male bud width
+name: banana male bud width trait
 def: "Width of male bud at its largets point" []
 synonym: "Male bud size" EXACT []
 is_a: TO:0000789 ! bud morphology trait
 
 [Term]
 id: CO_325:0000859
-name: banana fruit dry matter content
+name: banana fruit dry matter content trait
 def: "The average dry matter content per unit of fruit fresh weight" []
 synonym: "drymattercontent" EXACT []
 is_a: TO:0000457 ! biomass yield
 
 [Term]
 id: CO_325:0000921
-name: banana projected top area
+name: banana projected top area trait
 def: "The projected leaf area of a plant (photosynthetic surface)" []
 synonym: "topLeafArea" EXACT []
 is_a: TO:0000540 ! leaf area trait
 
 [Term]
 id: CO_325:0000922
-name: banana leaf area
+name: banana leaf area trait
 def: "The area of all leaves" []
 synonym: "totLeafArea" EXACT []
 is_a: TO:0000540 ! leaf area trait
 
 [Term]
 id: CO_325:0000923
-name: banana leaf area to plant area ratio
+name: banana leaf area to plant area ratio trait
 def: "Ratio of projected leaf area to the actual leaf area, measure for the compactness of the plant crown" []
 synonym: "leafAreaRatio" EXACT []
 is_a: TO:0000540 ! leaf area trait
 
 [Term]
 id: CO_325:0000924
-name: banana total length of all leaves
+name: banana total length of all leaves trait
 def: "The length of a leaf" []
 synonym: "totLeafLength" EXACT []
 is_a: TO:0000135 ! leaf length
 
 [Term]
 id: CO_325:0000925
-name: banana single leaf length
+name: banana single leaf length trait
 def: "The length of a leaf" []
 synonym: "singleLeafLength" EXACT []
 is_a: TO:0000135 ! leaf length
 
 [Term]
 id: CO_325:0000926
-name: banana single leaf width
+name: banana single leaf width trait
 def: "The width of a leaf" []
 synonym: "singleLeafWidth" EXACT []
 is_a: TO:0000370 ! leaf width
 
 [Term]
 id: CO_325:0000927
-name: banana leaf chlorosis
+name: banana leaf chlorosis trait
 def: "leaf trait correlated to the health stage of the leaf" []
 synonym: "leafChlorosis" EXACT []
 is_a: TO:0000326 ! leaf color
 
 [Term]
 id: CO_325:0000928
-name: banana leaf dry weight
+name: banana leaf dry weight trait
 def: "The dry weight of a leaf" []
 synonym: "leafDryMass" EXACT []
 is_a: TO:0001014 ! leaf dry weight
 
 [Term]
 id: CO_325:0000929
-name: banana pseudostem dry weight
+name: banana pseudostem dry weight trait
 def: "The dry weight of the pseudostem" []
 synonym: "pseudostemDryMass" EXACT []
 is_a: TO:0000807 ! pseudostem morphology trait
 
 [Term]
 id: CO_325:0000930
-name: banana root dry weight
+name: banana root dry weight trait
 def: "The dry weight of the root system" []
 synonym: "rootDryMass" EXACT []
 is_a: TO:0000078 ! root dry weight
 
 [Term]
 id: CO_325:0000931
-name: banana plant dry weight
+name: banana plant dry weight trait
 def: "The dry weight of the whole plant." []
 synonym: "plantDryMass" EXACT []
 is_a: TO:0000352 ! plant dry weight
 
 [Term]
 id: CO_325:0000932
-name: banana ratio root to shoot
+name: banana ratio root to shoot trait
 def: "The ratio of dry mass of belowground (root) to abovegrund (shoot) biomass" []
 synonym: "rootShootDry" EXACT []
 is_a: TO:0000078 ! root dry weight
 
 [Term]
 id: CO_325:0000933
-name: banana leaf relative water content
+name: banana leaf relative water content trait
 def: "The relative water content in a leaf" []
 synonym: "rwcLeaf" EXACT []
 is_a: TO:0000136 ! leaf relative water content
 
 [Term]
 id: CO_325:0000934
-name: banana pseudostem relative water content
+name: banana pseudostem relative water content trait
 def: "The relative water content in a pseudostem" []
 synonym: "rwcPseudostem" EXACT []
 is_a: TO:0000807 ! pseudostem morphology trait
 
 [Term]
 id: CO_325:0000935
-name: banana root relative water content
+name: banana root relative water content trait
 def: "The relative water content in a root" []
 synonym: "rwcRoot" EXACT []
 is_a: TO:0003036 ! root moisture content
 
 [Term]
 id: CO_325:0000936
-name: banana plant relative water content
+name: banana plant relative water content trait
 def: "The relative water content in the whole plant" []
 synonym: "rwcPlant" EXACT []
 is_a: TO:0003037 ! plant moisture content
 
 [Term]
 id: CO_325:0000937
-name: banana pseudostem length
+name: banana pseudostem length trait
 def: "The length of a pseudostem" []
 synonym: "lengthPseudostem" EXACT []
 is_a: TO:0000808 ! pseudostem length
 
 [Term]
 id: CO_325:0000938
-name: banana leaf number
+name: banana leaf number trait
 def: "The number of all leaves (including dried/dead/wilted/yellow) in a shoot system" []
 synonym: "numLeaves" EXACT []
 is_a: TO:0000241 ! leaf number
 
 [Term]
 id: CO_325:0000941
-name: banana plant water loss
+name: banana plant water loss trait
 def: "The amount of water loss through the plant over time" []
 synonym: "waterLossPlant" EXACT []
 is_a: TO:0001018 ! transpiration rate
 
 [Term]
 id: CO_325:0000942
-name: banana transpiration efficiency
+name: banana transpiration efficiency trait
 def: "The growth (weight increase) per volume transpired water" []
 synonym: "transpirationEfficiency" EXACT []
 is_a: TO:0001017 ! water use efficiency
 
 [Term]
 id: CO_325:0000943
-name: banana leaf fresh weight
+name: banana leaf fresh weight trait
 def: "A leaf weight trait which is the fresh weight of a leaf" []
 synonym: "leafFreshMass" EXACT []
 is_a: TO:0000891 ! leaf wet weight
@@ -1357,98 +1357,98 @@ is_a: TO:0000807 ! pseudostem morphology trait
 
 [Term]
 id: CO_325:0000945
-name: banana root fresh weight
+name: banana root fresh weight trait
 def: "A root weight trait which is the fresh weight of a root" []
 synonym: "rootFreshMass" EXACT []
 is_a: TO:0000578 ! root fresh weight
 
 [Term]
 id: CO_325:0000946
-name: banana plant fresh weight
+name: banana plant fresh weight trait
 def: "A plant weight trait which is the fresh weight of a plant" []
 synonym: "plantFreshMass" EXACT []
 is_a: TO:0000442 ! plant fresh weight
 
 [Term]
 id: CO_325:0000947
-name: banana leaf to whole plant mass ratio
+name: banana leaf to whole plant mass ratio trait
 def: "Measure for the biomass allocation: dry mass of leaves versus whole plant dry mass ratio" []
 synonym: "leafToPlantMassRatio_dry" EXACT []
 is_a: TO:0001014 ! leaf dry weight
 
 [Term]
 id: CO_325:0000948
-name: banana pseudostem to whole plant mass ratio
+name: banana pseudostem to whole plant mass ratio trait
 def: "Measure for the biomass allocation: dry mass of pseudostem versus whole plant dry mass ratio" []
 synonym: "pseudostemToPlantMassRatio_dry" EXACT []
 is_a: TO:0000807 ! pseudostem morphology trait
 
 [Term]
 id: CO_325:0000949
-name: banana root to whole plant mass ratio
+name: banana root to whole plant mass ratio trait
 def: "Measure for the biomass allocation: dry mass of roots versus whole plant dry mass ratio" []
 synonym: "rootToPlantMassRatio_dry" EXACT []
 is_a: TO:0001014 ! leaf dry weight
 
 [Term]
 id: CO_325:0000950
-name: banana daily rate of water loss
+name: banana daily rate of water loss trait
 def: "The average daily water loss" []
 synonym: "waterLossDay" EXACT []
 is_a: TO:0001018 ! transpiration rate
 
 [Term]
 id: CO_325:0000951
-name: banana system water loss per leaf area
+name: banana system water loss per leaf area trait
 def: "The amount of water loss in the system normalized by the leaf area" []
 synonym: "waterLossSystPerLeafArea" EXACT []
 is_a: TO:0001018 ! transpiration rate
 
 [Term]
 id: CO_325:0000952
-name: banana dry plant growth
+name: banana dry plant growth trait
 def: "Dry mass accumulation over time" []
 synonym: "growthDry" EXACT []
 is_a: TO:0000947 ! whole plant growth and development trait
 
 [Term]
 id: CO_325:0000953
-name: banana fresh plant growth
+name: banana fresh plant growth trait
 def: "Fresh mass accumulation over time" []
 synonym: "growthFresh" EXACT []
 is_a: TO:0000947 ! whole plant growth and development trait
 
 [Term]
 id: CO_325:0000954
-name: banana increase of leaf area
+name: banana increase of leaf area trait
 def: "Leaf area increase over time" []
 synonym: "leafAreaIncrease" EXACT []
 is_a: TO:0000540 ! leaf area trait
 
 [Term]
 id: CO_325:0000955
-name: banana height increase of pseudostem
+name: banana height increase of pseudostem trait
 def: "Pseudostem height increase over time" []
 synonym: "pseudostemHeightIncrease" EXACT []
 is_a: TO:0000928 ! plant structure growth and development trait
 
 [Term]
 id: CO_325:0000956
-name: banana pseudostem height increase per leaf formed
+name: banana pseudostem height increase per leaf formed trait
 def: "Stunting expressed as height growth per new formed leaf" []
 synonym: "pseudostemHeightIncreasePerFormedLeaf" EXACT []
 is_a: TO:0000928 ! plant structure growth and development trait
 
 [Term]
 id: CO_325:0000957
-name: banana leaves formed per pseudostem height increase
+name: banana leaves formed per pseudostem height increase trait
 def: "Stunting expressed as number of leaves per height growth" []
 synonym: "leavesFormedPerPseudostemGrowth" EXACT []
 is_a: TO:0000655 ! leaf growth and development trait
 
 [Term]
 id: CO_325:0000958
-name: banana time from planting to shooting
+name: banana time from planting to shooting trait
 def: "The time elapsed from planting to shooting (when the inflorescence emerges from the pseudostem and is still in an erect position)." []
 synonym: "Length of vegetative stage" EXACT []
 synonym: "plant2shoot" EXACT []
@@ -1456,433 +1456,433 @@ is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_325:0000967
-name: banana pollen germination
+name: banana pollen germination trait
 def: "The rate of pollen grain germinating" []
 synonym: "pollenGerm" EXACT []
 is_a: TO:0000421 ! pollen fertility
 
 [Term]
 id: CO_325:0000970
-name: banana pollen viability
+name: banana pollen viability trait
 def: "The amount of pollen grains which germinate and generate viable plantlets" []
 synonym: "pollenVia" EXACT []
 is_a: TO:0000421 ! pollen fertility
 
 [Term]
 id: CO_325:0000971
-name: banana pollen per anther
+name: banana pollen per anther trait
 def: "pollen grains per one anther of a male flower" []
 synonym: "pollenPerAnth" EXACT []
 is_a: TO:1000022 ! anther morphology trait
 
 [Term]
 id: CO_325:0000973
-name: banana black sigatoka leaf necrosis
+name: banana black sigatoka leaf necrosis trait
 def: "Black sigatoka leaf symptoms evaluation" []
 synonym: "BSLN" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000974
-name: banana yellow sigatoka leaf necrosis
+name: banana yellow sigatoka leaf necrosis trait
 def: "Yellow sigatoka leaf symptoms evaluation" []
 synonym: "YSLN" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000975
-name: banana emusacea leaf spot necrosis
+name: banana emusacea leaf spot necrosis trait
 def: "Eumusacea leaf spot symptom evaluation" []
 synonym: "ELSN" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000984
-name: banana youngest leaf with streak disease
+name: banana youngest leaf with streak disease trait
 def: "first leaf with first streak disease development stage counted from the first 50% or more of unfurl leaf." []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0000985
-name: banana pollen grain per anther
+name: banana pollen grain per anther trait
 def: "number of pollen grains per anther" []
 is_a: TO:1000022 ! anther morphology trait
 
 [Term]
 id: CO_325:0000995
-name: banana fruit parthenocarpy
+name: banana fruit parthenocarpy trait
 is_a: TO:0000929 ! fruit growth and development trait
 
 [Term]
 id: CO_325:0000998
-name: banana presence of fusarium wilt tropical race 4
+name: banana presence of fusarium wilt tropical race 4 trait
 def: "The presence of symptoms of fusarium tropical race 4 (foc TR4) on a banana plant" []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_325:0001001
-name: banana suckering behavior of the plant
+name: banana suckering behavior of the plant trait
 def: "Banana plant sucker apical dominance type" []
 is_a: TO:0000988 ! shoot-borne shoot system morphology trait
 
 [Term]
 id: CO_325:0001003
-name: banana bunch size
+name: banana bunch size trait
 def: "The overall size of a banana bunch at mature green stage" []
 synonym: "BSZ" EXACT []
 is_a: TO:0000920 ! infructescence morphology trait
 
 [Term]
 id: CO_325:0001008
-name: banana total carotenoids
+name: banana total carotenoids trait
 def: "Total caroteinoids with provitamin A activity: pVACs (μg/g)=α-\ncarotene+13-cis-BC+9-cis-BC+trans-BC and TC computed as TC\n(μg/g)=Total pVACs+lutein" []
 synonym: "TC" EXACT []
 is_a: TO:0000496 ! carotenoid content
 
 [Term]
 id: CO_325:0001009
-name: banana α-carotene content
-def: "Content in alpha - carotene quantified by HPLC in ug/g" []
+name: banana α-carotene content trait
+def: "Content in alpha-carotene quantified by HPLC in ug/g" []
 is_a: TO:0002696 ! alpha carotene content
 
 [Term]
 id: CO_325:0001010
-name: banana 13-cis-beta-carotene content
+name: banana 13-cis-beta-carotene content trait
 def: "Content in 13-cis-beta-carotene quantified by HPLC in ug/g" []
 synonym: "13-cis-BC" EXACT []
 is_a: TO:0002695 ! beta-carotene content
 
 [Term]
 id: CO_325:0001011
-name: banana 9-cis-beta-carotene content
+name: banana 9-cis-beta-carotene content trait
 def: "Content in 9-cis-beta-carotene quantified by HPLC in ug/g" []
 synonym: "9-cis-BC" EXACT []
 is_a: TO:0002695 ! beta-carotene content
 
 [Term]
 id: CO_325:0001012
-name: banana pro-vitamine A content
+name: banana pro-vitamine A content trait
 def: "pVACs (μg/g)=α-carotene+13-cis-BC+9-cis-BC+trans-BC" []
 synonym: "pVACs" EXACT []
 is_a: TO:0000496 ! carotenoid content
 
 [Term]
 id: CO_325:0001013
-name: banana trans-beta-carotene
+name: banana trans-beta-carotene trait
 def: "Content in trans beta- carotene quantified by HPLC in ug/g" []
 synonym: "trans-BC" EXACT []
 is_a: TO:0002695 ! beta-carotene content
 
 [Term]
 id: CO_325:0001014
-name: banana lutein content
+name: banana lutein content trait
 def: "Content in lutein quantified by HPLC in ug/g" []
 is_a: TO:0002701 ! lutein content
 
 [Term]
 id: CO_325:0002043
-name: banana Matooke homogeneity of colour
+name: banana Matooke homogeneity of colour trait
 def: "Uniformity of color of the surface of the sample" []
 is_a: TO:0000909 ! fruit color uniformity
 
 [Term]
 id: CO_325:0002044
-name: banana Matooke firmness
+name: banana Matooke firmness trait
 def: "mechanical textural attribute relating to the force required to achieve a given deformation, penetration, or breakage of a product." []
 is_a: TO:0002634 ! fruit firmness
 
 [Term]
 id: CO_325:0002045
-name: banana Matooke moisture
+name: banana Matooke moisture trait
 def: "perception of moisture content of a food by the tactile receptors in the mouth and also in relation to the lubricating properties of the product" []
 is_a: TO:0003040 ! pepo fruit moisture content
 
 [Term]
 id: CO_325:0002046
-name: banana Matooke smoothness
+name: banana Matooke smoothness trait
 def: "geometrical textural attribute relating to lack of presence of particles in a product" []
 is_a: TO:0001098 ! pepo fruit morphology trait
 
 [Term]
 id: CO_325:0002047
-name: banana Matooke hardness
+name: banana Matooke hardness trait 
 def: "mechanical textural attribute relating to the force required to achieve a given deformation, penetration, or breakage of a product." []
 is_a: TO:0002634 ! fruit firmness
 
 [Term]
 id: CO_325:0002048
-name: banana Matooke moldability
+name: banana Matooke moldability trait
 def: "mechanical textural attribute relating to the degree to which a substance can be deformed before it breaks" []
 is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_325:0002049
-name: banana Matooke stickiness
+name: banana Matooke stickiness trait
 def: "mechanical textural attribute relating to the force required to remove material that sticks to the mouth" []
 is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_325:0002050
-name: banana Matooke sweetness
+name: banana Matooke sweetness trait
 def: "basic taste produced by dilute aqueous solutions of natural or artificial substances such as sucrose" []
 is_a: TO:0000700 ! fruit sweetness
 
 [Term]
 id: CO_325:0002051
-name: banana Matooke astringency
+name: banana Matooke astringency trait
 def: "complex sensation, accompanied by shrinking, drawing or puckering of the skin or mucosal surface in the mouth, produced by substances such as kaki tannins or sloe tannins" []
 is_a: TO:0000910 ! fruit bitterness trait
 
 [Term]
 id: CO_325:0002052
-name: banana Matooke sourness
+name: banana Matooke sourness trait
 def: "gustatory complex sensation, generally due to presence of organic acids" []
 is_a: TO:0002694 ! fruit flavor trait
 
 [Term]
 id: CO_325:0002053
-name: banana Matooke aroma matooke
+name: banana Matooke aroma matooke trait
 def: "Aroma of the local matooke" []
 is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_325:0002054
-name: banana Matooke aroma pumpkin
+name: banana Matooke aroma pumpkin trait
 def: "Aroma of pumpkin" []
 is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_325:0002055
-name: banana Matooke aroma grassy
+name: banana Matooke aroma grassy trait
 def: "Aroma of fresh grass" []
 is_a: TO:0000684 ! grassy flavor
 
 [Term]
 id: CO_325:0002056
-name: banana Matooke yellowness
+name: banana Matooke yellowness trait
 def: "Color of the surface of the sample from light yellow to bright yellow" []
 is_a: TO:0002617 ! fruit color
 
 [Term]
 id: CO_325:0003000
-name: banana raw pulp color
+name: banana raw pulp color trait
 def: "A quick field evaluation of the raw pulp to determine acceptability based on yellow color using Mbwazirume as a standard control." []
 is_a: TO:0002617 ! fruit color
 
 [Term]
 id: CO_325:0003003
-name: banana sap amount
+name: banana sap amount trait
 def: "A quick field evaluation of the raw pulp to determine acceptability based on yellow color using Mbwazirume as a standard control." []
 is_a: TO:0001098 ! pepo fruit morphology trait
 
 [Term]
 id: CO_325:0003004
-name: banana weevil damage assessment
+name: banana weevil damage assessment trait
 def: "Weevil damage assesssment" []
 is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_325:0003014
-name: banana nematode damage
+name: banana nematode damage trait
 is_a: TO:0000384 ! nematode damage resistance
 
 [Term]
 id: CO_325:0003015
-name: banana Helicotylincus mulicinctus damage
+name: banana Helicotylincus mulicinctus damage trait
 def: "Helicotylincus mulicinctus damage assesssment" []
 is_a: TO:0000384 ! nematode damage resistance
 
 [Term]
 id: CO_325:0003019
-name: banana Radopholus similis damage
+name: banana Radopholus similis damage trait
 def: "Radopholus similis damage assesssment" []
 is_a: TO:0000384 ! nematode damage resistance
 
 [Term]
 id: CO_325:0003023
-name: banana Pratylenchus goodeyi damage
+name: banana Pratylenchus goodeyi damage trait
 def: "Pratylenchus goodeyi damage assesssment" []
 is_a: TO:0000384 ! nematode damage resistance
 
 [Term]
 id: CO_325:0003028
-name: banana fruit acceptability
+name: banana fruit acceptability trait
 def: "A general take of the panelist about the sample after the aroma, colour, taste, and mouth-feel specific tests." []
 is_a: TO:0000322 ! phenotypic acceptability
 
 [Term]
 id: CO_325:0003030
-name: banana weevil insect assessment
+name: banana weevil insect assessment trait
 def: "Weevil insect assesssment" []
 is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_325:0003034
-name: banana number of helicotylenchus multicinctus
-def: "Number of Helicotylenchus multicinctus in root" []
+name: banana number of helicotylenchus multicinctus trait
+def: "number of Helicotylenchus multicinctus in root" []
 is_a: TO:0000384 ! nematode damage resistance
 
 [Term]
 id: CO_325:0003037
-name: banana Pratylenchus spp. damage
+name: banana Pratylenchus spp. damage trait
 def: "Pratylenchus spp. damage assesssment" []
 is_a: TO:0000384 ! nematode damage resistance
 
 [Term]
 id: CO_325:0003038
-name: banana Pratylenchus coffeae damage
+name: banana Pratylenchus coffeae damage trait
 def: "Pratylenchus coffeae damage assesssment" []
 is_a: TO:0000384 ! nematode damage resistance
 
 [Term]
 id: CO_325:0003045
-name: banana insect damage
+name: banana insect damage trait
 is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_325:0003046
-name: banana bacterial damage
+name: banana bacterial damage trait
 is_a: TO:0000315 ! bacterial disease response
 
 [Term]
 id: CO_325:0003047
-name: banana banana xanthomonas wilt damage
+name: banana xanthomonas wilt damage trait
 def: "banana xanthomonas wilt damage assesssment" []
 synonym: "BXW" EXACT []
 is_a: TO:0000315 ! bacterial disease response
 
 [Term]
 id: CO_325:0003055
-name: banana damage to upper cross-section inner corm caused by weevils
+name: banana damage to upper cross-section inner corm caused by weevils trait
 def: "Damage to the inner corm (central cylinder) upper cross-section caused by weevils." []
 is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_325:0003056
-name: banana damage to upper cross-section outer corm caused by weevils
+name: banana damage to upper cross-section outer corm caused by weevils trait
 def: "Damage to the outer corm (cortex) upper cross-section caused by weevils." []
 is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_325:0003057
-name: banana fertility traits
+name: banana fertility trait
 is_a: TO:0000392 ! sterility or fertility trait
 
 [Term]
 id: CO_325:0003058
-name: banana female fertility
+name: banana female fertility trait
 is_a: TO:0000392 ! sterility or fertility trait
 
 [Term]
 id: CO_325:0003059
-name: banana male fertility
+name: banana male fertility trait
 is_a: TO:0000392 ! sterility or fertility trait
 
 [Term]
 id: CO_325:0003064
-name: banana number of dead leaves
+name: banana number of dead leaves trait
 def: "The number of dead leaves on the plant." []
 is_a: TO:0000250 ! plant vigor trait
 
 [Term]
 id: CO_325:0003066
-name: banana Rhizome weight
+name: banana rhizome weight trait
 def: "corm weigh" []
 synonym: "corm weight" EXACT []
 is_a: TO:0000568 ! shoot axis weight
 
 [Term]
 id: CO_325:0003074
-name: banana damage to the pseudostem caused by weevils
+name: banana damage to the pseudostem caused by weevils trait
 def: "Does weevil damage extend into the pseudostem" []
 is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_325:0003082
-name: banana plant stature
+name: banana plant stature trait
 def: "A ratio of plant circumference to plant height." []
 is_a: TO:1000012 ! whole plant size
 
 [Term]
 id: CO_325:0003106
-name: banana Boiled plantain textural characteristic hardness
+name: banana boiled plantain textural characteristic hardness trait
 def: "The amount of force required to deform or to overcome resistance to puncture of the food material. Hardness is determined as the highest peak force in g measured during the first TPA compression."
 xref: https://doi.org/10.18167/agritrop/00685
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_325:0003108
-name: banana Boiled plantain textural characteristic distance at Fmax
-def: "The depth at which the hardness of boiled plantain is registered. It represents the the distance into the sample where hardness is the highest. High distances mean the sample has softer pulp. A  proxy for firmness which is the property of a food material being unyielding to touch."
+name: banana boiled plantain textural characteristic distance at Fmax trait
+def: "The depth at which the hardness of boiled plantain is registered. It represents the the distance into the sample where hardness is the highest. High distances mean the sample has softer pulp. A proxy for firmness which is the property of a food material being unyielding to touch."
 xref: https://doi.org/10.18167/agritrop/00685
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_325:0003109
-name: banana Boiled plantain textural characteristic penetration area
+name: banana boiled plantain textural characteristic penetration area trait
 def: "Work done or energy required to penetrate the boiled plantain sample. It represents the amount of energy that must be expended to penetrate the sample. Work done to penetrate sample in g.mm determined as total area under the curve."
 xref: https://doi.org/10.18167/agritrop/00685
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_325:0003110
-name: banana Boiled plantain textural characteristic distance to max force first TPA compression
+name: banana boiled plantain textural characteristic distance to max force first TPA compression trait
 def: "Textural parameter used to calculate springness. It represents the depth of the sample where hardness is registered on first compression cycle. Textural parameter used to calculate cheweness and springness."
 xref: https://doi.org/10.18167/agritrop/00685
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_325:0003111
-name: banana Boiled plantain textural characteristic distance to max force second TPA compression
+name: banana boiled plantain textural characteristic distance to max force second TPA compression trait
 def: "Textural parameter used to calculate springness. It represents the depth of the sample where hardness is registered on second compression cycle. The distance in mm between the beginning of the second compression and the highest peak force of the second compression."
 xref: https://doi.org/10.18167/agritrop/00685
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_325:0003112
-name: banana Boiled plantain textural characteristic area under curve first compression
+name: banana boiled plantain textural characteristic area under curve first compression trait
 def: "Textural parameter used to calculate cohesiveness and resilience. It represents the work done to compress sample on first compression cycle. The area underneath the curve in g.mm between beginning of first compression and highest peak force of first compression."
 xref: https://doi.org/10.18167/agritrop/00685
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_325:0003113
-name: banana Boiled plantain textural characteristic area under curve first withdrawal
+name: banana boiled plantain textural characteristic area under curve first withdrawal trait
 def: "Textural parameter used to calculate cohesiveness and resilience. It represents the work done to decompress sample on first withdrawal cycle. The area underneath the curve in g.mm between highest peak force of first compression and end of first withdrawal."
 xref: https://doi.org/10.18167/agritrop/00685
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_325:0003114
-name: banana Boiled plantain textural characteristic area under curve second compression
+name: banana boiled plantain textural characteristic area under curve second compression trait
 def: "Textural parameter used to calculate cohesiveness. It represents the work done to compress sample on second compression cycle. The area underneath the curve in g.mm between beginning of second compression and highest peak force of second compression."
 xref: https://doi.org/10.18167/agritrop/00685
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_325:0003115
-name: banana Boiled plantain textural characteristic area under curve second withdrawal
+name: banana boiled plantain textural characteristic area under curve second withdrawal trait
 def: "Textural parameter used to calculate cohesiveness. It represents the work done to decompress sample on second withdrawal cycle. The area underneath the curve in g.mm between highest peak force of second compression and end of second withdrawal."
 xref: https://doi.org/10.18167/agritrop/00685
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_325:0003116
-name: banana Boiled plantain textural characteristic adhesiveness/stickness
+name: banana boiled plantain textural characteristic adhesiveness/stickness trait
 def: "The work required in overcoming the attractive force between a product and the contact surface.  It represents how sticky the boiled plantain sample is. Adhesiveness is represented by the area in g.s covered by the first negative peak (c)."
 xref: https://doi.org/10.18167/agritrop/00685
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_325:0003117
-name: banana Boiled plantain textural characteristic cohesiveness
+name: banana boiled plantain textural characteristic cohesiveness trait
 def: "The work required to overcome the internal bonds of a material. It represents the ability of the boiled plantain sample to remain compact and not fracture or disintegrate into bits. Cohesiveness is calculated as area underneath the second compression and withdrawal curves divided by the area underneath the first compression and withdrawal curves [(d+e)/(a+b)]."
 xref: https://doi.org/10.18167/agritrop/00685
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_325:0003118
-name: banana Boiled plantain textural characteristic springiness
+name: banana boiled plantain textural characteristic springiness trait
 def: "The degree to which food can recover between the end of the first bite and the beginning of the second bite in the mouth. Springiness represents the ability of boiled plantain to regain its ''elastic'' nature after compression. Springness is calculated as a ratio or percentage of a product’s recovery to its original height [(Distance 2)/(Distance 1)]*100 or (Time 2/Time 1)*100."
 is_a: TO:xxxxxxx ! xxxx
 xref: https://doi.org/10.18167/agritrop/00685
@@ -1890,7 +1890,7 @@ is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_325:0003119
-name: banana Boiled plantain textural characteristic gumminess
+name: banana boiled plantain textural characteristic gumminess trait
 def: "Mechanical textural attribute related to the cohesiveness of a tender product. The product of cohesiveness and hardness calculated from Hardness x Cohesiveness F1*[(d+e)/(a+b)]."
 is_a: TO:xxxxxxx ! xxxx
 xref: https://doi.org/10.18167/agritrop/00685
@@ -1898,50 +1898,50 @@ is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_325:0003120
-name: banana Boiled plantain textural characteristic chewiness
+name: banana boiled plantain textural characteristic chewiness trait
 def: "The mechanical textural attribute related to the amount of work required to masticate a solid. It is the product of gumminess and springiness. Cheweness is calculated from Hardness x Cohesiveness x Springiness (F1*((d+e)/(a+b))*(Distance 2/Distance 1))."
 xref: https://doi.org/10.18167/agritrop/00685
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_325:0003121
-name: banana Boiled plantain textural characteristic resilience
+name: banana boiled plantain textural characteristic resilience trait
 def: "The mechanical textural attribute relating to the rapidity of recovery from a deforming force or the degree to which a deformed material returns to its original condition after the deforming force is removed. The textural attribute representing the ability of boiled plantain to recover to its original size after compression."
 xref: https://doi.org/10.18167/agritrop/00685
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_325:0120047
-name: banana Boiled plantain firmness
+name: banana boiled plantain firmness trait
 def: "Force required to obtain deformation, penetration or rupture of the banana"
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_325:0120051
-name: banana Boiled plantain Chewiness
+name: banana boiled plantain chewiness trait
 def: "Energy or number of chews necessary to chew the banana to make it ready to be swallowed"
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_325:0120055
-name: banana Boiled plantain Mealiness
+name: banana boiled plantain mealiness trait
 def: "Mechanical property linked to cohesion and the presence of fine particles in the product during chewing"
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_325:0120059
-name: banana Boiled plantain Stickiness
+name: banana boiled plantain stickiness trait
 def: "Force required to peel off the fraction of product adhering to the interior of the oral cavity"
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_325:0120063
-name: banana Boiled plantain Sweetness
+name: banana boiled plantain sweetness trait
 def: "Elemental flavor caused by dilute aqueous solutions of various substances such as sucrose or aspartame"
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_325:0120067
-name: banana Boiled plantain Moistness
+name: banana boiled plantain moistness trait
 def: "Perception of the amount of water absorbed or released by the product"
 is_a: TO:0001069 ! cooking quality trait
