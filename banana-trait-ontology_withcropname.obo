@@ -829,13 +829,13 @@ def: "Degree of fusion of the pedicels before they join the rachis." [CO:curator
 is_a: TO:0000920 ! infructescence morphology trait
 
 [Term]
-id: CO_325:0000498 trait
+id: CO_325:0000498
 name: banana fruit mashed pulp colour
 def: "The color of the mashed pulp of a mature fruit." [CO:curators]
 is_a: TO:0002619 ! mesocarp color
 
 [Term]
-id: CO_325:0000500 trait
+id: CO_325:0000500
 name: banana fruit unmashed pulp colour
 def: "The color of the unmashed pulp of a mature fruit." [CO:curators]
 is_a: TO:0002619 ! mesocarp color
