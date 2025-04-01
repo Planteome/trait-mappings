@@ -275,7 +275,7 @@ is_a: TO:0000384 ! nematode damage response trait
 [Term]
 id: CO_325:0000126
 name: banana nematode root knot galling extent trait
-def: "The extent of root knot nematodes, observed externally as galls on the roots.." [CO:curators]
+def: "The extent of root knot nematodes, observed externally as galls on the roots." [CO:curators]
 is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
@@ -904,25 +904,25 @@ is_a: TO:0000384 ! nematode damage response trait
 [Term]
 id: CO_325:0000524
 name: banana number of rotylenchulus spp.per soil sample trait
-def: "number of Rotylenchulus spp.in soil." [CO:curators]
+def: "Number of Rotylenchulus spp.in soil." [CO:curators]
 is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
 id: CO_325:0000526
 name: banana number of meloidogyne spp. per soil sample trait
-def: "number of Meloidogyne spp. in soil." [CO:curators]
+def: "Number of Meloidogyne spp. in soil." [CO:curators]
 is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
 id: CO_325:0000528
 name: banana number of hoplolaimus spp. per soil sample trait
-def: "number of Hoplolaimus spp. in soil." [CO:curators]
+def: "Number of Hoplolaimus spp. in soil." [CO:curators]
 is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
 id: CO_325:0000530
 name: banana number of pratylenchus coffeae per soil sample trait
-def: "number of Pratylenchus coffeae in soil." [CO:curators]
+def: "Number of Pratylenchus coffeae in soil." [CO:curators]
 is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
@@ -934,37 +934,37 @@ is_a: TO:0000384 ! nematode damage response trait
 [Term]
 id: CO_325:0000533
 name: banana number of radopholus similis trait
-def: "number of Radopholus similis." [CO:curators]
+def: "Number of Radopholus similis." [CO:curators]
 is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
 id: CO_325:0000535
 name: banana number of meloidogyne spp. per fresh root weight trait
-def: "number of Meloidogyne spp. in roots." [CO:curators]
+def: "Number of Meloidogyne spp. in roots." [CO:curators]
 is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
 id: CO_325:0000537
 name: banana number of pratylenchus spp. trait
-def: "number of Pratylenchus spp. in roots." [CO:curators]
+def: "Number of Pratylenchus spp. in roots." [CO:curators]
 is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
 id: CO_325:0000539
 name: banana number of hoplolaimus spp. per fresh root weight trait
-def: "number of Hoplolaimus spp. in roots." [CO:curators]
+def: "Number of Hoplolaimus spp. in roots." [CO:curators]
 is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
 id: CO_325:0000541
 name: banana number of pratylenchus goodeyi trait
-def: "number of Pratylenchus goodeyi in roots." [CO:curators]
+def: "Number of Pratylenchus goodeyi in roots." [CO:curators]
 is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
 id: CO_325:0000543
 name: banana number of pratylenchus coffeae per fresh root weight trait
-def: "number of Pratylenchus coffeae in roots." [CO:curators]
+def: "Number of Pratylenchus coffeae in roots." [CO:curators]
 is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
