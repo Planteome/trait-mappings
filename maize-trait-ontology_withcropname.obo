@@ -9,8 +9,7 @@ name: maize anthesis silking interval trait
 def: "Anthesis silking interval." [CO:curators]
 synonym: "ASI" EXACT []
 xref: MaizeGDB_QTL:62044
-is_a: TO:0000463 ! TO:0000463
-
+is_a: TO:0000463 ! anthesis silking interval
 
 [Term]
 id: CO_322:0000003
