@@ -21,7 +21,8 @@ is_a: TO:0012002 ! leaf chlorophyll content
 [Term]
 id: CO_322:0000005
 name: maize grain yield trait
-def: "Grain yield per unit area, either field weight basis, dry weight basis or adjusted to 12.5% grain moisture." [CO:curators]
+def: "Grain yield per unit area." [CO:curators]
+comment: It may be either field weight basis, dry weight basis or adjusted to 12.5% grain moisture
 synonym: "GY" EXACT []
 is_a: TO:0000396 ! grain yield trait
 
@@ -45,7 +46,8 @@ is_a: TO:0002759 ! grain number trait
 [Term]
 id: CO_322:0000011
 name: maize plant aspect trait
-def: "Qualitative observation of plant ideotype. In another word, it rates characteristics such as plant and ear height, uniformity of plants, disease and insect damage, and lodging." [CO:curators]
+def: "Qualitative observation of plant ideotype." [CO:curators]
+comment: It is a measure of characteristics such as plant and ear height, uniformity of plants, disease and insect damage, and lodging.
 synonym: "PAsp" EXACT []
 is_a: TO:0000737 ! plant aspect
 
@@ -831,7 +833,7 @@ is_a: TO:0000607 ! ash content
 [Term]
 id: CO_322:0000140
 name: maize photochemical radiation index trait
-def: "Photochemical radiation index. A canopy reflectance index indicating photosynthetic radiation use efficiency." [CO:curators]
+def: "A canopy reflectance index indicating photosynthetic radiation use efficiency." [CO:curators]
 synonym: "PRI" EXACT []
 is_a: TO:0000161 ! radiation response trait
 
@@ -1161,7 +1163,7 @@ id: CO_322:0000533
 name: maize grain oil content trait
 def: "Whole-grain oil content." [CO:curators]
 synonym: "GOil" EXACT []
-synonym: "Whole-grain oil content" EXACT []
+synonym: "WGOil" EXACT []
 xref: GRINDesc:89051
 xref: MaizeGDB_QTL:62174
 is_a: TO:0000604 ! oil content
@@ -1284,7 +1286,7 @@ is_a: TO:0000261 ! insect damage response trait
 [Term]
 id: CO_322:0000829
 name: maize sorghum downy mildew severity trait
-def: "Sorghum downy mildew (Peronosclerospora sorghi) severity." [CO:curators]
+def: "Sorghum downy mildew (Peronosclerospora sorghi) severity." [CO:curators, NCBITaxon:230839]
 synonym: "DMSSev" EXACT []
 is_a: TO:0001144 ! Oomycete disease response
 
@@ -1312,7 +1314,7 @@ is_a: TO:0000068 ! lodging incidence
 [Term]
 id: CO_322:0000878
 name: maize streak virus severity trait
-def: "Maize streak virus severity (MSV) severity." [CO:curators]
+def: "Maize streak virus severity (MSV) severity." [CO:curators, NCBITaxon:10821]
 synonym: "MSVSev" EXACT []
 is_a: TO:0000148 ! viral disease response trait
 
@@ -1326,7 +1328,7 @@ is_a: TO:0000922 ! cob weight
 [Term]
 id: CO_322:0000938
 name: maize striga plant number
-def: "Number of Striga hermonthica plants." [CO:curators]
+def: "Number of Striga hermonthica plants." [CO:curators, NCBITaxon:68872]
 synonym: "StrigaPN" EXACT []
 is_a: TO:0000444 ! parasitic weed response
 
@@ -1391,9 +1393,9 @@ is_a: TO:0000280 ! seedling vigor
 [Term]
 id: CO_322:0001054
 name: maize dwarf mosaic virus severity trait
-def: "Maize dwarf mosaic virus (MDMV) severity." [CO:curators]
+def: "Maize dwarf mosaic virus (MDMV) severity." [CO:curators, NCBITaxon:12203]
 synonym: "DMVSev" EXACT []
-is_a: TO:0000148 ! viral disease resistance
+is_a: TO:0000148 ! viral disease response trait
 
 [Term]
 id: CO_322:0001083
@@ -1464,3 +1466,73 @@ name: maize root sucrose content trait
 def: "Sucrose content in the root." [CO:curators]
 synonym: "RSucrose" EXACT []
 is_a: TO:0000328 ! sucrose content
+
+[Term]
+id: CO_322:0001120
+name: maize grain nitrogen content trait
+def: "Whole-grain nitrogen content.." [CO:curators]
+synonym: "WGNC" EXACT []
+synonym: "GNC" EXACT []
+is_a: TO:0000328 ! sucrose content
+
+[Term]
+id: CO_322:0001165
+name: maize germination rate trait
+def: "Germination rate is calculated by dividing the number of seeds that sprout by the total number of seeds started, and then multiplying that number by 100 to get a percentage.." [CO:curators]
+is_a: TO:0000430 ! germination rate
+
+[Term]
+id: CO_322:0001168
+name: maize disease tolerance trait
+def: "The hosts ability to reduce the effect of infection on its fitness regardless of the level of disease pathogen multiplication." [CO:curators]
+is_a: TO:0000112 ! microbial disease response
+
+[Term]
+id: CO_322:0001170
+name: maize pest tolerance trait
+def: "The hosts ability to reduce the effect of damages on its fitness regardless of the level of pest pathogen multiplication." [CO:curators]
+is_a: TO:0000179 ! biotic plant stress trait
+
+[Term]
+id: CO_322:0001172
+name: maize abiotic stress tolerance trait
+def: "The hosts ability to reduce the effect of stress on its fitness regardless of the level of abiotic stress (flood, drought, …) applied." [CO:curators]
+is_a: TO:0000168 ! abiotic plant stress response trait
+
+[Term]
+id: CO_322:0001174
+name: maize cob number trait
+def: "Number of cobs." [CO:curators]
+is_a: TO:0000921 ! infructescence axis morphology trait
+
+[Term]
+id: CO_322:0001176
+name: maize grain size for target use/market trait
+def: "Size of grains matching demand for a use or a market.." [CO:curators]
+is_a: TO:0000397 ! grain size
+
+[Term]
+id: CO_322:0001178
+name: maize grain taste trait
+def: "Taste of the grain." [CO:curators]
+is_a: TO:0002694 ! fruit flavor trait
+
+id: CO_322:0001180
+name: maize grain marketability trait
+def: "The commercial viability or attractiveness of a particular type of grain for sale in the agricultural market." [CO:curators]
+is_a: TO:0000322 ! phenotypic acceptability
+
+id: CO_322:0001182
+name: maize overall performance trait
+def: "Plant's ability to thrive, adapt, and produce desired outcomes in a given environment or context." [CO:curators]
+is_a: TO:0000322 ! phenotypic acceptability
+
+id: CO_322:0001184
+name: maize comparison with local trait
+def: "Performance of a maize variety compared with the local variety." [CO:curators]
+is_a: TO:0000322 ! phenotypic acceptability
+
+id: CO_322:0001186
+name: maize grain storability trait
+def: "The ability of grains to remain viable and maintain their quality over a period of time when stored under a given condition." [CO:curators]
+is_a: TO:0000162 ! grain quality trait
