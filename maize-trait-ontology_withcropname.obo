@@ -1470,7 +1470,7 @@ is_a: TO:0000328 ! sucrose content
 [Term]
 id: CO_322:0001120
 name: maize grain nitrogen content trait
-def: "Whole-grain nitrogen content.." [CO:curators]
+def: "Whole-grain nitrogen content." [CO:curators]
 synonym: "WGNC" EXACT []
 synonym: "GNC" EXACT []
 is_a: TO:0000328 ! sucrose content
@@ -1478,7 +1478,7 @@ is_a: TO:0000328 ! sucrose content
 [Term]
 id: CO_322:0001165
 name: maize germination rate trait
-def: "Germination rate is calculated by dividing the number of seeds that sprout by the total number of seeds started, and then multiplying that number by 100 to get a percentage.." [CO:curators]
+def: "Germination rate is calculated by dividing the number of seeds that sprout by the total number of seeds started, and then multiplying that number by 100 to get a percentage." [CO:curators]
 is_a: TO:0000430 ! germination rate
 
 [Term]
