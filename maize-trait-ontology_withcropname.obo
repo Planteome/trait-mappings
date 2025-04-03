@@ -1517,21 +1517,25 @@ name: maize grain taste trait
 def: "Taste of the grain." [CO:curators]
 is_a: TO:0002694 ! fruit flavor trait
 
+[Term]
 id: CO_322:0001180
 name: maize grain marketability trait
 def: "The commercial viability or attractiveness of a particular type of grain for sale in the agricultural market." [CO:curators]
 is_a: TO:0000322 ! phenotypic acceptability
 
+[Term]
 id: CO_322:0001182
 name: maize overall performance trait
 def: "Plant's ability to thrive, adapt, and produce desired outcomes in a given environment or context." [CO:curators]
 is_a: TO:0000322 ! phenotypic acceptability
 
+[Term]
 id: CO_322:0001184
 name: maize comparison with local trait
 def: "Performance of a maize variety compared with the local variety." [CO:curators]
 is_a: TO:0000322 ! phenotypic acceptability
 
+[Term]
 id: CO_322:0001186
 name: maize grain storability trait
 def: "The ability of grains to remain viable and maintain their quality over a period of time when stored under a given condition." [CO:curators]
