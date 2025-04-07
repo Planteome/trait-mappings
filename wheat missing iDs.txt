@@ -1,0 +1,27 @@
+CO_321:0000967 Grain lysine content
+
+CO_321:0000991 ?
+
+CO_321:0001032 Forage dry matter
+ 
+CO_321:0001253 ?
+
+CO_321:0001484 Infertile spike number
+
+CO_321:0001525 Flag leaf lamina width
+
+CO_321:0001581 ?
+
+CO_321:0001593 ?
+
+CO_321:1000008 ?
+
+CO_321:1000009 ?
+
+CO_321:1000010  ?
+
+CO_321:1000011 ?
+
+CO_321:1000012 ?
+
+CO_321:1000017 ?
