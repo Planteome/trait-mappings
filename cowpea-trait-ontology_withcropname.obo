@@ -25,15 +25,15 @@ is_a: TO:0000445 ! fruit seed number
 
 [Term]
 id: CO_340:0000242
-name: cowpea grain yield per plant trait
-def: "Harvested grain weight." [CO:curators]
+name: cowpea seed yield per plant trait
+def: "Harvested seed weight." [CO:curators]
 synonym: "YLDPLANT" EXACT []
 is_a: TO:0000905 ! seed yield trait
 
 [Term]
 id: CO_340:0000245
-name: cowpea grain yield per plot trait
-def: "Harvested grain weight." [CO:curators]
+name: cowpea seed yield per plot trait
+def: "Harvested seed weight." [CO:curators]
 synonym: "YLDPLOT" EXACT []
 is_a: TO:0000905 ! seed yield trait
 
@@ -90,7 +90,7 @@ is_a: TO:0000444 ! parasitic weed
 [Term]
 id: CO_340:0000293
 name: cowpea harvest index trait
-def: "Ratio of grain weight over plant biomass." [CO:curators]
+def: "Ratio of seed weight over plant biomass." [CO:curators]
 synonym: "HI" EXACT []
 synonym: "Plant biomass partitioning" EXACT []
 is_a: TO:0000897 ! seed harvest index
@@ -510,7 +510,7 @@ is_a: TO:0000439 ! fungal disease response
 
 [Term]
 id: CO_340:0000548
-name: cowpea grain sucrose content trait
+name: cowpea seed sucrose content trait
 def: "Grain sucrose content." [CO:curators]
 synonym: "SUCROS" EXACT []
 is_a: TO:0000328 ! sucrose content
@@ -553,8 +553,8 @@ is_a: TO:0000439 ! fungal disease response
 
 [Term]
 id: CO_340:0000575
-name: cowpea grain protein content trait
-def: "Protein content of the grain." [CO:curators]
+name: cowpea seed protein content trait
+def: "Protein content of the seed." [CO:curators]
 synonym: "PROTEIN" EXACT []
 is_a: TO:0000490 ! seed protein composition trait
 
@@ -645,8 +645,8 @@ is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_340:0000638
-name: cowpea grain yield trait
-def: "Harvested grain weight." [CO:curators]
+name: cowpea seed yield trait
+def: "Harvested seed weight." [CO:curators]
 synonym: "GrYld" EXACT []
 is_a: TO:0000905 ! seed yield trait
 
@@ -1205,22 +1205,22 @@ is_a: TO:0000444 ! parasitic weed
 
 [Term]
 id: CO_340:0008031
-name: cowpea grain size trait
-def: "Size of the grain." [CO:curators]
+name: cowpea seed size trait
+def: "Size of the seed." [CO:curators]
 synonym: "GraiSiz" EXACT []
 is_a: TO:0000391 ! seed size
 
 [Term]
 id: CO_340:0008033
-name: cowpea grain size for target use or market trait
-def: "Size of the grain for the targeted market or use." [CO:curators]
+name: cowpea seed size for target use or market trait
+def: "Size of the seed for the targeted market or use." [CO:curators]
 synonym: "GraSizMarkUse" EXACT []
 is_a: TO:0000392 ! seed size
 
 [Term]
 id: CO_340:0008035
-name: cowpea grain quality trait
-def: "Quality of the grain for marketability." [CO:curators]
+name: cowpea seed quality trait
+def: "Quality of the seed for marketability." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000931 ! seed quality trait
 
@@ -1240,8 +1240,8 @@ is_a: TO:0001142 ! legume fruit yield trait
 
 [Term]
 id: CO_340:0008041
-name: cowpea grain marketability trait
-def: "Quality of the grain for marketability." [CO:curators]
+name: cowpea seed marketability trait
+def: "Quality of the seed for marketability." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000931 ! seed quality trait
 
@@ -1261,29 +1261,29 @@ is_a: TO:0000322 ! phenotypic acceptability
 
 [Term]
 id: CO_340:0008047
-name: cowpea grain yield (kg) trait
+name: cowpea seed yield (kg) trait
 def: "Yield in kilograms." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000905 ! seed yield trait
 
 [Term]
 id: CO_340:0008049
-name: cowpea grain storage problems tolerance trait
+name: cowpea seed storage problems tolerance trait
 def: "Tolerance to the storage problems identified by user." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000931 ! seed quality trait
 
 [Term]
 id: CO_340:0008051
-name: cowpea grain storability trait
+name: cowpea seed storability trait
 def: "Seed storability refers to the ability of seeds to remain viable and maintain their quality over a period of time when stored under a given condition.." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000931 ! seed quality trait
 
 [Term]
 id: CO_340:0008053
-name: cowpea grain taste trait
-def: "Taste of the grain." [CO:curators]
+name: cowpea seed taste trait
+def: "Taste of the seed." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000931 ! seed quality trait
 
