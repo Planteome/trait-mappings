@@ -1,5 +1,6 @@
 format-version: 1.2
-ontology:  co_340
+default-namespace: CO_340_cowpea
+ontology: co_340
 
 [Term]
 id: CO_340:0000233
