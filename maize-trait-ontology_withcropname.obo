@@ -1521,7 +1521,7 @@ is_a: TO:0002694 ! fruit flavor trait
 id: CO_322:0001180
 name: maize grain marketability trait
 def: "The commercial viability or attractiveness of a particular type of grain for sale in the agricultural market." [CO:curators]
-is_a: TO:0000322 ! phenotypic acceptability
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_322:0001182
