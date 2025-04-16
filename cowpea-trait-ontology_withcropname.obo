@@ -55,14 +55,14 @@ id: CO_340:0000275
 name: cowpea virus severity trait
 def: "Severity of symptoms caused by viruses." [CO:curators]
 synonym: "VIRSEV" EXACT []
-is_a: TO:0000148 ! viral disease resistance
+is_a: TO:0000148 ! viral disease response
 
 [Term]
 id: CO_340:0000278
 name: cowpea virus incidence trait
 def: "Proportion of plant infected by virus." [CO:curators]
 synonym: "VIRINC" EXACT []
-is_a: TO:0000148 ! viral disease resistance
+is_a: TO:0000148 ! viral disease response
 
 [Term]
 id: CO_340:0000281
@@ -99,7 +99,7 @@ id: CO_340:0000296
 name: cowpea cowpea aphid-borne mosaic virus severity trait
 def: "Severity of the symtoms caused by cowpea aphid-borne mosaic virus." [CO:curators]
 synonym: "CAMV" EXACT []
-is_a: TO:0000148 ! viral disease resistance
+is_a: TO:0000148 ! viral disease response
 
 [Term]
 id: CO_340:0000299
@@ -150,7 +150,7 @@ id: CO_340:0000323
 name: cowpea blackeye cowpea mosaic virus severity trait
 def: "Severity of the symtoms caused by cowpea blackeye mosaic virus." [CO:curators]
 synonym: "BLCMV" EXACT []
-is_a: TO:0000148 ! viral disease resistance
+is_a: TO:0000148 ! viral disease response
 
 [Term]
 id: CO_340:0000329
@@ -178,7 +178,7 @@ id: CO_340:0000338
 name: cowpea bacteria pustule trait
 def: "Damage caused by bacteria pustule." [CO:curators]
 synonym: "BACTPUST" EXACT []
-is_a: TO:0000315 ! bacterial disease resistance
+is_a: TO:0000315 ! bacterial disease response
 
 [Term]
 id: CO_340:0000341
@@ -236,7 +236,7 @@ id: CO_340:0000368
 name: cowpea stem rot damage trait
 def: "Damage caused by Stem rot." [CO:curators]
 synonym: "STMRT" EXACT []
-is_a: TO:0000439 ! fungal disease resistance
+is_a: TO:0000439 ! fungal disease response
 
 [Term]
 id: CO_340:0000371
@@ -257,21 +257,21 @@ id: CO_340:0000377
 name: cowpea blackeye cowpea mosaic virus trait
 def: "Resistance to blackeye cowpea mosaic virus." [CO:curators]
 synonym: "BLCMV" EXACT []
-is_a: TO:0000148 ! viral disease resistance
+is_a: TO:0000148 ! viral disease response
 
 [Term]
 id: CO_340:0000380
 name: cowpea fusarium wilt race 3 damage trait
 def: "Damage caused by Fusarium wilt Race 3." [CO:curators]
 synonym: "FUSWILTR3" EXACT []
-is_a: TO:0000439 ! fungal disease resistance
+is_a: TO:0000439 ! fungal disease response
 
 [Term]
 id: CO_340:0000383
 name: cowpea fusarium wilt race 4 damage trait
 def: "Damage caused by Fusarium wilt Race 4." [CO:curators]
 synonym: "FUSWILTR4" EXACT []
-is_a: TO:0000439 ! fungal disease resistance
+is_a: TO:0000439 ! fungal disease response
 
 [Term]
 id: CO_340:0000386
@@ -308,7 +308,7 @@ id: CO_340:0000398
 name: cowpea septoria severity trait
 def: "Severity of the symptoms caused by Septoria." [CO:curators]
 synonym: "SEPT" EXACT []
-is_a: TO:0000439 ! fungal disease resistance
+is_a: TO:0000439 ! fungal disease response
 
 [Term]
 id: CO_340:0000401
@@ -322,7 +322,7 @@ id: CO_340:0000410
 name: cowpea anthracnose damage trait
 def: "Anthracnose damage." [CO:curators]
 synonym: "ATNSE" EXACT []
-is_a: TO:0000439 ! fungal disease resistance
+is_a: TO:0000439 ! fungal disease response
 
 [Term]
 id: CO_340:0000413
@@ -413,7 +413,7 @@ id: CO_340:0000452
 name: cowpea resistance to bacterial blight (x. vignicola) trait
 def: "Resistance to bacterial blight (Xanthomonas vignicola)." [CO:curators]
 synonym: "BB" EXACT []
-is_a: TO:0000770 ! bacterial blight disease resistance
+is_a: TO:0000770 ! bacterial blight disease response
 
 [Term]
 id: CO_340:0000458
@@ -505,7 +505,7 @@ id: CO_340:0000545
 name: cowpea leaf scab infestation trait
 def: "Infestation by Leaf scab." [CO:curators]
 synonym: "LEAFSC" EXACT []
-is_a: TO:0000439 ! fungal disease resistance
+is_a: TO:0000439 ! fungal disease response
 
 [Term]
 id: CO_340:0000548
@@ -548,7 +548,7 @@ id: CO_340:0000572
 name: cowpea phoma infestation trait
 def: "Infestation by phoma." [CO:curators]
 synonym: "PHOMA" EXACT []
-is_a: TO:0000439 ! fungal disease resistance
+is_a: TO:0000439 ! fungal disease response
 
 [Term]
 id: CO_340:0000575
@@ -569,7 +569,7 @@ id: CO_340:0000584
 name: cowpea leaf rust infestation trait
 def: "Infestation by Leaf rust." [CO:curators]
 synonym: "LEAFRU" EXACT []
-is_a: TO:0000439 ! fungal disease resistance
+is_a: TO:0000439 ! fungal disease response
 
 [Term]
 id: CO_340:0000596
@@ -1032,7 +1032,7 @@ id: CO_340:0000699
 name: cowpea number of basal region roots trait
 def: "Number of basal region roots." [CO:curators]
 synonym: "BasRtNo" EXACT []
-is_a: TO:0001006 ! adventitious root number
+is_a: TO:0000084 ! root number
 
 [Term]
 id: CO_340:0000700
@@ -1067,7 +1067,7 @@ id: CO_340:0000704
 name: cowpea number of basal region roots trait
 def: "Number of adventitious roots." [CO:curators]
 synonym: "AdvNo" EXACT []
-is_a: TO:0001006 ! adventitious root number
+is_a: TO:0000084 ! root number
 
 [Term]
 id: CO_340:0000705
@@ -1123,7 +1123,7 @@ id: CO_340:0002640
 name: cowpea bacterial blight (x. vignicola) severity trait
 def: "Severity of the bacteria blight symptoms caused by X. vignicola." [CO:curators]
 synonym: "BCTBLT" EXACT []
-is_a: TO:0000315 ! bacterial disease resistance
+is_a: TO:0000315 ! bacterial disease response
 
 [Term]
 id: CO_340:0003641
@@ -1183,7 +1183,7 @@ is_a: TO:0000179 ! biotic plant stress trait
 
 [Term]
 id: CO_340:0008024
-name: cowpea disease resistance trait
+name: cowpea disease response trait
 def: "Estimated resistance to diseases observed in the field." [CO:curators]
 synonym: "PlDisRes" EXACT []
 is_a: TO:0000112 ! microbial disease response

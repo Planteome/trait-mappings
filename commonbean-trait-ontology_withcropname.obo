@@ -328,49 +328,49 @@ id: CO_335:0000811
 name: common bean presence of marker linked to bc-3 gene trait
 def: "The absence/presence bc-3 gene conditioning resistance to the BCMNV." [CO:curators]
 synonym: "nan" EXACT []
-is_a: TO:0000148 ! viral disease resistance
+is_a: TO:0000148 ! viral disease response
 
 [Term]
 id: CO_335:0000812
 name: common bean presence of marker linked to bgm-1 gene trait
 def: "The absence/presence of bgm-1 gene conditioning resistance to the BGYMV." [CO:curators]
 synonym: "nan" EXACT []
-is_a: TO:0000148 ! viral disease resistance
+is_a: TO:0000148 ! viral disease response
 
 [Term]
 id: CO_335:0000813
 name: common bean presence of marker linked to w12 qtl trait
 def: "The absence/presence of W12 QTL conditioning resistance to the BGYMV." [CO:curators]
 synonym: "nan" EXACT []
-is_a: TO:0000148 ! viral disease resistance
+is_a: TO:0000148 ! viral disease response
 
 [Term]
 id: CO_335:0000814
 name: common bean angular leaf spot disease severity on leaves trait
 def: "The severity of disease caused by Phaeoisariopsis griseola (Isariopsis griseola) on leaves." [CO:curators]
 synonym: "nan" EXACT []
-is_a: TO:0000439 ! fungal disease resistance
+is_a: TO:0000439 ! fungal disease response
 
 [Term]
 id: CO_335:0000815
 name: common bean angular leaf spot disease severity on pods trait
 def: "The severity of disease caused by Phaeoisariopsis griseola (Isariopsis griseola) on pods." [CO:curators]
 synonym: "nan" EXACT []
-is_a: TO:0000439 ! fungal disease resistance
+is_a: TO:0000439 ! fungal disease response
 
 [Term]
 id: CO_335:0000816
 name: common bean anthracnose disease severity on leaves trait
 def: "The severity of disease caused by Colletotrichum lindemuthianum on leaves." [CO:curators]
 synonym: "nan" EXACT []
-is_a: TO:0000439 ! fungal disease resistance
+is_a: TO:0000439 ! fungal disease response
 
 [Term]
 id: CO_335:0000817
 name: common bean anthracnose disease severity on pods trait
 def: "The severity of disease caused by Colletotrichum lindemuthianum on pods." [CO:curators]
 synonym: "nan" EXACT []
-is_a: TO:0000439 ! fungal disease resistance
+is_a: TO:0000439 ! fungal disease response
 
 [Term]
 id: CO_335:0000818
@@ -384,35 +384,35 @@ id: CO_335:0000819
 name: common bean ascochyta blight disease severity on leaves trait
 def: "The severity of disease caused by Phoma exigua var. diversispora on leaves." [CO:curators]
 synonym: "nan" EXACT []
-is_a: TO:0000439 ! fungal disease resistance
+is_a: TO:0000439 ! fungal disease response
 
 [Term]
 id: CO_335:0000820
 name: common bean ascochyta blight disease severity on pods trait
 def: "The severity of disease caused by Phoma exigua var. diversispora on pods." [CO:curators]
 synonym: "nan" EXACT []
-is_a: TO:0000439 ! fungal disease resistance
+is_a: TO:0000439 ! fungal disease response
 
 [Term]
 id: CO_335:0000821
 name: common bean bean common mosaic necrosis virus reaction trait
 def: "The reaction to BCMNV infection." [CO:curators]
 synonym: "nan" EXACT []
-is_a: TO:0000148 ! viral disease resistance
+is_a: TO:0000148 ! viral disease response
 
 [Term]
 id: CO_335:0000822
 name: common bean bean golden yellow mosaic virus reaction trait
 def: "The plant reaction to BGYMV infection." [CO:curators]
 synonym: "nan" EXACT []
-is_a: TO:0000148 ! viral disease resistance
+is_a: TO:0000148 ! viral disease response
 
 [Term]
 id: CO_335:0000823
 name: common bean bean golden yellow mosaic virus severity trait
 def: "The severity of Bean Common Mosaic Necrosis Virus disease." [CO:curators]
 synonym: "nan" EXACT []
-is_a: TO:0000148 ! viral disease resistance
+is_a: TO:0000148 ! viral disease response
 
 [Term]
 id: CO_335:0000824
@@ -433,42 +433,42 @@ id: CO_335:0000826
 name: common bean common bacterial blight disease severity on leaves trait
 def: "The severity of disease caused by Xanthomonas axonopodis pv. phaseoli on leaves." [CO:curators]
 synonym: "nan" EXACT []
-is_a: TO:0000315 ! bacterial disease resistance
+is_a: TO:0000315 ! bacterial disease response
 
 [Term]
 id: CO_335:0000827
 name: common bean common bacterial blight disease severity on pods trait
 def: "The severity of disease caused by Xanthomonas axonopodis pv. Phaseoli on pods." [CO:curators]
 synonym: "nan" EXACT []
-is_a: TO:0000315 ! bacterial disease resistance
+is_a: TO:0000315 ! bacterial disease response
 
 [Term]
 id: CO_335:0000828
 name: common bean floury leaf spot disease severity trait
 def: "The severity of disease caused by Mycovellosiella phaseoli (Ramularia phaseoli)." [CO:curators]
 synonym: "nan" EXACT []
-is_a: TO:0000439 ! fungal disease resistance
+is_a: TO:0000439 ! fungal disease response
 
 [Term]
 id: CO_335:0000829
 name: common bean fusarium solani disease severity trait
 def: "The severity of root rot disease caused by Fusarium solani." [CO:curators]
 synonym: "nan" EXACT []
-is_a: TO:0000439 ! fungal disease resistance
+is_a: TO:0000439 ! fungal disease response
 
 [Term]
 id: CO_335:0000830
 name: common bean halo blight disease severity on leaves trait
 def: "The severity of disease caused by Pseudomonas syringae pv. phaseolicola on leaves." [CO:curators]
 synonym: "nan" EXACT []
-is_a: TO:0000315 ! bacterial disease resistance
+is_a: TO:0000315 ! bacterial disease response
 
 [Term]
 id: CO_335:0000831
 name: common bean halo blight disease severity on pods trait
 def: "The severity of disease caused by Pseudomonas syringae pv. phaseolicola on pods." [CO:curators]
 synonym: "nan" EXACT []
-is_a: TO:0000315 ! bacterial disease resistance
+is_a: TO:0000315 ! bacterial disease response
 
 [Term]
 id: CO_335:0000832
@@ -482,42 +482,42 @@ id: CO_335:0000833
 name: common bean macrophomina disease severity trait
 def: "The severity of disease caused by Macrophomina phaseolina." [CO:curators]
 synonym: "nan" EXACT []
-is_a: TO:0000439 ! fungal disease resistance
+is_a: TO:0000439 ! fungal disease response
 
 [Term]
 id: CO_335:0000835
 name: common bean rhizoctonia disease severity trait
 def: "The severity of disease caused by Rhizoctonia solani." [CO:curators]
 synonym: "nan" EXACT []
-is_a: TO:0000439 ! fungal disease resistance
+is_a: TO:0000439 ! fungal disease response
 
 [Term]
 id: CO_335:0000836
 name: common bean rust disease severity on leaves trait
 def: "The severity of disease caused by Uromyces appendiculatus var. appendiculatus (Uromyces phaseoli) on leaves." [CO:curators]
 synonym: "nan" EXACT []
-is_a: TO:0000439 ! fungal disease resistance
+is_a: TO:0000439 ! fungal disease response
 
 [Term]
 id: CO_335:0000837
 name: common bean southern blight disease severity trait
 def: "The severity of disease caused by Sclerotium rolfsii." [CO:curators]
 synonym: "nan" EXACT []
-is_a: TO:0000439 ! fungal disease resistance
+is_a: TO:0000439 ! fungal disease response
 
 [Term]
 id: CO_335:0000838
 name: common bean web blight disease severity trait
 def: "The severity of disease caused by Thanatephorus cucumeris." [CO:curators]
 synonym: "nan" EXACT []
-is_a: TO:0000439 ! fungal disease resistance
+is_a: TO:0000439 ! fungal disease response
 
 [Term]
 id: CO_335:0000839
 name: common bean white mold disease severity trait
 def: "The severity of disease caused by Sclerotinia sclerotiorum." [CO:curators]
 synonym: "nan" EXACT []
-is_a: TO:0000439 ! fungal disease resistance
+is_a: TO:0000439 ! fungal disease response
 
 [Term]
 id: CO_335:0000841
@@ -828,10 +828,17 @@ synonym: "nan" EXACT []
 is_a: TO:0000900 ! root nodule number
 
 [Term]
+id: CO_335:0000891
+name: common plant flowering photoperiod response trait
+def: "The plant flowering sensibility to duration of the day." [CO:curators]
+synonym: "PHOR" EXACT []
+is_a: TO:0000900 ! root nodule number
+
+[Term]
 id: CO_335:0000892
 name: common bean plant nodules number trait
 def: "The number of nodules per plant." [CO:curators]
-synonym: "nan" EXACT []
+synonym: "NN" EXACT []
 is_a: TO:0000900 ! root nodule number
 
 [Term]
@@ -1045,7 +1052,7 @@ name: seed length
 
 [Term]
 id: TO:0000148
-name: viral disease resistance
+name: viral disease response
 
 [Term]
 id: TO:0000149
@@ -1089,7 +1096,7 @@ name: seed thickness
 
 [Term]
 id: TO:0000315
-name: bacterial disease resistance
+name: bacterial disease response
 
 [Term]
 id: TO:0000344
@@ -1105,7 +1112,7 @@ name: drought related trait
 
 [Term]
 id: TO:0000439
-name: fungal disease resistance
+name: fungal disease response
 
 [Term]
 id: TO:0000445
