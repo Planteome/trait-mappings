@@ -1074,7 +1074,6 @@ is_a: TO:0000084 ! root number
 id: CO_340:0000705
 name: cowpea number of tap laterals trait
 def: "Number of roots in 5-10cm below soil surface region with a diameter greater than 1.5mm at 2cm from hypocotyl that are perpendicular to the tap root." [CO:curators]
-synonym: "nan" EXACT []
 is_a: TO:0001013 ! lateral root number
 
 [Term]
@@ -1221,75 +1220,65 @@ is_a: TO:0000392 ! seed size
 id: CO_340:0008035
 name: cowpea seed quality trait
 def: "Quality of the seed for marketability." [CO:curators]
-synonym: "nan" EXACT []
 is_a: TO:0000931 ! seed quality trait
 
 [Term]
 id: CO_340:0008037
 name: cowpea yield (qualitative) trait
 def: "Yield estimated considering pods and grains harvested from the plant with a comparative ranking of varieties." [CO:curators]
-synonym: "nan" EXACT []
+
 is_a: TO:0001142 ! legume fruit yield trait
 
 [Term]
 id: CO_340:0008039
 name: cowpea yield (quantitative) trait
 def: "Yield measured with a quantitative unit (kg, t, etc)." [CO:curators]
-synonym: "nan" EXACT []
 is_a: TO:0001142 ! legume fruit yield trait
 
 [Term]
 id: CO_340:0008041
 name: cowpea seed marketability trait
 def: "Quality of the seed for marketability." [CO:curators]
-synonym: "nan" EXACT []
 is_a: TO:0000931 ! seed quality trait
 
 [Term]
 id: CO_340:0008043
 name: cowpea overall performance trait
 def: "Overall variety assessment/observation." [CO:curators]
-synonym: "nan" EXACT []
 is_a: TO:0000322 ! phenotypic acceptability
 
 [Term]
 id: CO_340:0008045
 name: cowpea overall vs local trait
 def: "Overall variety assessment/observation compared to the locam variety." [CO:curators]
-synonym: "nan" EXACT []
 is_a: TO:0000322 ! phenotypic acceptability
 
 [Term]
 id: CO_340:0008047
 name: cowpea seed yield (kg) trait
 def: "Yield in kilograms." [CO:curators]
-synonym: "nan" EXACT []
 is_a: TO:0000905 ! seed yield trait
 
 [Term]
 id: CO_340:0008049
 name: cowpea seed storage problems tolerance trait
 def: "Tolerance to the storage problems identified by user." [CO:curators]
-synonym: "nan" EXACT []
 is_a: TO:0000931 ! seed quality trait
 
 [Term]
 id: CO_340:0008051
 name: cowpea seed storability trait
 def: "Seed storability refers to the ability of seeds to remain viable and maintain their quality over a period of time when stored under a given condition.." [CO:curators]
-synonym: "nan" EXACT []
 is_a: TO:0000931 ! seed quality trait
 
 [Term]
 id: CO_340:0008053
 name: cowpea seed taste trait
 def: "Taste of the seed." [CO:curators]
-synonym: "nan" EXACT []
 is_a: TO:0000931 ! seed quality trait
 
 [Term]
 id: CO_340:0008055
 name: cowpea leaf quality for consumption trait
 def: "Quality of the leaf for consumption at harvest." [CO:curators]
-synonym: "nan" EXACT []
 is_a: TO:0000597 ! plant quality trait
