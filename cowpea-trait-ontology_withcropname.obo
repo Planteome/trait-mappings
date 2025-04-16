@@ -1,87 +1,87 @@
 format-version: 1.2
-ontology: TEMP
+ontology:  co_340
 
 [Term]
 id: CO_340:0000233
 name: cowpea flowering time trait
-def: "Flowering time" []
+def: "Flowering time." [CO:curators]
 synonym: "FlwT" EXACT []
 is_a: TO:0002616 ! flowering time trait
 
 [Term]
 id: CO_340:0000236
 name: cowpea maturity time trait
-def: "Time of maturity after planting" []
+def: "Time of maturity after planting." [CO:curators]
 synonym: "MatTim" EXACT []
 is_a: TO:0000469 ! days to maturity
 
 [Term]
 id: CO_340:0000239
 name: cowpea seed per pod trait
-def: "Number of seed per pod" []
+def: "Number of seed per pod." [CO:curators]
 synonym: "SEEDPOD" EXACT []
 is_a: TO:0000445 ! fruit seed number
 
 [Term]
 id: CO_340:0000242
 name: cowpea grain yield per plant trait
-def: "Harvested grain weight" []
+def: "Harvested grain weight." [CO:curators]
 synonym: "YLDPLANT" EXACT []
 is_a: TO:0000905 ! seed yield trait
 
 [Term]
 id: CO_340:0000245
 name: cowpea grain yield per plot trait
-def: "Harvested grain weight" []
+def: "Harvested grain weight." [CO:curators]
 synonym: "YLDPLOT" EXACT []
 is_a: TO:0000905 ! seed yield trait
 
 [Term]
 id: CO_340:0000269
 name: cowpea drought induced senescence trait
-def: "Plant senescence due to drought" []
+def: "Plant senescence due to drought." [CO:curators]
 synonym: "FLDSN" EXACT []
 is_a: TO:0000276 ! drought tolerance
 
 [Term]
 id: CO_340:0000272
 name: cowpea seed coat pattern trait
-def: "Seedcoat pattern" []
+def: "Seedcoat pattern." [CO:curators]
 synonym: "FLDSN" EXACT []
 is_a: TO:0000904 ! seed coat pattern
 
 [Term]
 id: CO_340:0000275
 name: cowpea virus severity trait
-def: "Severity of symptoms caused by viruses" []
+def: "Severity of symptoms caused by viruses." [CO:curators]
 synonym: "VIRSEV" EXACT []
 is_a: TO:0000148 ! viral disease resistance
 
 [Term]
 id: CO_340:0000278
 name: cowpea virus incidence trait
-def: "Proportion of plant infected by virus" []
+def: "Proportion of plant infected by virus." [CO:curators]
 synonym: "VIRINC" EXACT []
 is_a: TO:0000148 ! viral disease resistance
 
 [Term]
 id: CO_340:0000281
 name: cowpea brown blotch trait
-def: "Infestation by Brown blotch" []
+def: "Infestation by Brown blotch." [CO:curators]
 synonym: "BRBL" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_340:0000284
 name: cowpea pods kg/h trait
-def: "POD weight Kg/ha" []
+def: "POD weight Kg/ha." [CO:curators]
 synonym: "PDWT" EXACT []
 is_a: TO:0000871 ! fruit yield trait
 
 [Term]
 id: CO_340:0000290
 name: cowpea resistance to striga gesnerioides trait
-def: "Resistance to Striga gesnerioides parasitic weed." []
+def: "Resistance to Striga gesnerioides parasitic weed." [CO:curators]
 synonym: "PLOT INFECTED WITH STRIGA" EXACT []
 synonym: "STRRES" EXACT []
 is_a: TO:0000444 ! parasitic weed
@@ -89,7 +89,7 @@ is_a: TO:0000444 ! parasitic weed
 [Term]
 id: CO_340:0000293
 name: cowpea harvest index trait
-def: "Ratio of grain weight over plant biomass" []
+def: "Ratio of grain weight over plant biomass." [CO:curators]
 synonym: "HI" EXACT []
 synonym: "Plant biomass partitioning" EXACT []
 is_a: TO:0000897 ! seed harvest index
@@ -97,35 +97,35 @@ is_a: TO:0000897 ! seed harvest index
 [Term]
 id: CO_340:0000296
 name: cowpea cowpea aphid-borne mosaic virus severity trait
-def: "Severity of the symtoms caused by cowpea aphid-borne mosaic virus" []
+def: "Severity of the symtoms caused by cowpea aphid-borne mosaic virus." [CO:curators]
 synonym: "CAMV" EXACT []
 is_a: TO:0000148 ! viral disease resistance
 
 [Term]
 id: CO_340:0000299
 name: cowpea thrip damage to podset trait
-def: "Damage to podset caused by thrips" []
+def: "Damage to podset caused by thrips." [CO:curators]
 synonym: "THRIPDAM" EXACT []
 is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_340:0000302
 name: cowpea pods per peduncule trait
-def: "Number of pods per peduncles" []
+def: "Number of pods per peduncles." [CO:curators]
 synonym: "PODPED" EXACT []
 is_a: TO:0001125 ! pod number trait
 
 [Term]
 id: CO_340:0000305
 name: cowpea diseases trait
-def: "Disease score" []
+def: "Disease score." [CO:curators]
 synonym: "DISES" EXACT []
 is_a: TO:0000112 ! microbial disease response
 
 [Term]
 id: CO_340:0000308
 name: cowpea maruca damage trait
-def: "Pod damage caused by Maruca (insect) attack" []
+def: "Pod damage caused by Maruca (insect) attack." [CO:curators]
 synonym: "MARUCA" EXACT []
 synonym: "Maruca resistance" EXACT []
 synonym: "Resistance to Maruca" EXACT []
@@ -134,84 +134,84 @@ is_a: TO:0000261 ! insect damage response trait
 [Term]
 id: CO_340:0000311
 name: cowpea insects trait
-def: "Insect infestation" []
+def: "Insect infestation." [CO:curators]
 synonym: "INST" EXACT []
 is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_340:0000317
 name: cowpea pod sucking bug severity trait
-def: "Severity of pod sucking bug symptoms" []
+def: "Severity of pod sucking bug symptoms." [CO:curators]
 synonym: "PODSB" EXACT []
 is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_340:0000323
 name: cowpea blackeye cowpea mosaic virus severity trait
-def: "Severity of the symtoms caused by cowpea blackeye mosaic virus" []
+def: "Severity of the symtoms caused by cowpea blackeye mosaic virus." [CO:curators]
 synonym: "BLCMV" EXACT []
 is_a: TO:0000148 ! viral disease resistance
 
 [Term]
 id: CO_340:0000329
 name: cowpea total seed harvested trait
-def: "Total seed harvested" []
+def: "Total seed harvested." [CO:curators]
 synonym: "TSDHV" EXACT []
 is_a: TO:0000905 ! seed yield trait
 
 [Term]
 id: CO_340:0000332
 name: cowpea total pods harvested trait
-def: "Total pods harvested" []
+def: "Total pods harvested." [CO:curators]
 synonym: "TPDHV" EXACT []
 is_a: TO:0001142 ! legume fruit yield trait
 
 [Term]
 id: CO_340:0000335
 name: cowpea pod weight per plot trait
-def: "Pod weight per plot" []
+def: "Pod weight per plot." [CO:curators]
 synonym: "PODWT" EXACT []
 is_a: TO:0001142 ! legume fruit yield trait
 
 [Term]
 id: CO_340:0000338
 name: cowpea bacteria pustule trait
-def: "Damage caused by bacteria pustule" []
+def: "Damage caused by bacteria pustule." [CO:curators]
 synonym: "BACTPUST" EXACT []
 is_a: TO:0000315 ! bacterial disease resistance
 
 [Term]
 id: CO_340:0000341
 name: cowpea time to first flower trait
-def: "Time elapsed from planting to first flowering" []
+def: "Time elapsed from planting to first flowering." [CO:curators]
 synonym: "Tto1stFlw" EXACT []
 is_a: TO:0002616 ! flowering time trait
 
 [Term]
 id: CO_340:0000344
 name: cowpea time to first mature pod trait
-def: "Time elapsed of days from planting to first pod maturity" []
+def: "Time elapsed of days from planting to first pod maturity." [CO:curators]
 synonym: "Tto1MatPod" EXACT []
 is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_340:0000353
 name: cowpea pods per peduncule trait
-def: "Number of Pods per peduncle - Recorded under total insect control. Average number of 10 randomly selected peduncles" []
+def: "Number of Pods per peduncle - Recorded under total insect control. Average number of 10 randomly selected peduncles." [CO:curators]
 synonym: "PODPED" EXACT []
 is_a: TO:0001125 ! pod number trait
 
 [Term]
 id: CO_340:0000356
 name: cowpea pod per plant trait
-def: "Number of pods per plant" []
+def: "Number of pods per plant." [CO:curators]
 synonym: "PODPLA" EXACT []
 is_a: TO:0001125 ! pod number trait
 
 [Term]
 id: CO_340:0000359
 name: cowpea plant infected with striga trait
-def: "Number of plant infested by Striga" []
+def: "Number of plant infested by Striga." [CO:curators]
 synonym: "PLSTRG" EXACT []
 synonym: "Resistance to Striga gesnerioides" EXACT []
 is_a: TO:0000444 ! parasitic weed
@@ -219,7 +219,7 @@ is_a: TO:0000444 ! parasitic weed
 [Term]
 id: CO_340:0000362
 name: cowpea thrip resistance trait
-def: "Resistance to Thrips" []
+def: "Resistance to Thrips." [CO:curators]
 synonym: "THRIPS" EXACT []
 synonym: "THRIPSTIP" EXACT []
 is_a: TO:0000261 ! insect damage response trait
@@ -227,63 +227,63 @@ is_a: TO:0000261 ! insect damage response trait
 [Term]
 id: CO_340:0000365
 name: cowpea web blight damage trait
-def: "Damage caused by WEB BLIGHT" []
+def: "Damage caused by WEB BLIGHT." [CO:curators]
 synonym: "WEBB" EXACT []
 is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_340:0000368
 name: cowpea stem rot damage trait
-def: "Damage caused by Stem rot" []
+def: "Damage caused by Stem rot." [CO:curators]
 synonym: "STMRT" EXACT []
 is_a: TO:0000439 ! fungal disease resistance
 
 [Term]
 id: CO_340:0000371
 name: cowpea grpodkgh trait
-def: "Grain and Pod weight in kg/ha" []
+def: "Grain and Pod weight in kg/ha." [CO:curators]
 synonym: "GRPODK" EXACT []
 is_a: TO:0001092 ! legume fruit weight
 
 [Term]
 id: CO_340:0000374
 name: cowpea threshability trait
-def: "How easy it is to separate the seed from the shafts" []
+def: "How easy it is to separate the seed from the shafts." [CO:curators]
 synonym: "THRS" EXACT []
 is_a: TO:0001073 ! fruit shattering
 
 [Term]
 id: CO_340:0000377
 name: cowpea blackeye cowpea mosaic virus trait
-def: "Resistance to blackeye cowpea mosaic virus" []
+def: "Resistance to blackeye cowpea mosaic virus." [CO:curators]
 synonym: "BLCMV" EXACT []
 is_a: TO:0000148 ! viral disease resistance
 
 [Term]
 id: CO_340:0000380
 name: cowpea fusarium wilt race 3 damage trait
-def: "Damage caused by Fusarium wilt Race 3" []
+def: "Damage caused by Fusarium wilt Race 3." [CO:curators]
 synonym: "FUSWILTR3" EXACT []
 is_a: TO:0000439 ! fungal disease resistance
 
 [Term]
 id: CO_340:0000383
 name: cowpea fusarium wilt race 4 damage trait
-def: "Damage caused by Fusarium wilt Race 4" []
+def: "Damage caused by Fusarium wilt Race 4." [CO:curators]
 synonym: "FUSWILTR4" EXACT []
 is_a: TO:0000439 ! fungal disease resistance
 
 [Term]
 id: CO_340:0000386
 name: cowpea aphid damage trait
-def: "Damage caused by aphid in specialized nursery" []
+def: "Damage caused by aphid in specialized nursery." [CO:curators]
 synonym: "APHIDRES" EXACT []
 is_a: TO:0006067 ! aphid resistance
 
 [Term]
 id: CO_340:0000389
 name: cowpea thrip damage to stipules trait
-def: "Flower thrip damage to stipules" []
+def: "Flower thrip damage to stipules." [CO:curators]
 synonym: "THRIPDAM" EXACT []
 synonym: "THRIPFLOW" EXACT []
 synonym: "THRIPSTIP" EXACT []
@@ -292,189 +292,189 @@ is_a: TO:0000261 ! insect damage response trait
 [Term]
 id: CO_340:0000392
 name: cowpea termites infestation trait
-def: "Extent of the infestation by termites" []
+def: "Extent of the infestation by termites." [CO:curators]
 synonym: "TRMTS" EXACT []
 is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_340:0000395
 name: cowpea pigment bleeding trait
-def: "Seedcoat pigment bleeding" []
+def: "Seedcoat pigment bleeding." [CO:curators]
 synonym: "EYELEAK" EXACT []
 is_a: TO:0000902 ! seed coat pigment bleeding
 
 [Term]
 id: CO_340:0000398
 name: cowpea septoria severity trait
-def: "Severity of the symptoms caused by Septoria" []
+def: "Severity of the symptoms caused by Septoria." [CO:curators]
 synonym: "SEPT" EXACT []
 is_a: TO:0000439 ! fungal disease resistance
 
 [Term]
 id: CO_340:0000401
 name: cowpea length of pods trait
-def: "Length of pods" []
+def: "Length of pods." [CO:curators]
 synonym: "PODLNGTH" EXACT []
 is_a: TO:0002626 ! fruit length
 
 [Term]
 id: CO_340:0000410
 name: cowpea anthracnose damage trait
-def: "Anthracnose damage" []
+def: "Anthracnose damage." [CO:curators]
 synonym: "ATNSE" EXACT []
 is_a: TO:0000439 ! fungal disease resistance
 
 [Term]
 id: CO_340:0000413
 name: cowpea seedcoat trait
-def: "Seedcoat texture" []
+def: "Seedcoat texture." [CO:curators]
 synonym: "SDTEXT" EXACT []
 is_a: TO:0000903 ! seed coat texture
 
 [Term]
 id: CO_340:0000416
 name: cowpea seedcoat color trait
-def: "Seed coat color" []
+def: "Seed coat color." [CO:curators]
 synonym: "SDCOLOR" EXACT []
 is_a: TO:0000190 ! seed coat color
 
 [Term]
 id: CO_340:0000419
 name: cowpea seed shape trait
-def: "Seed shape" []
+def: "Seed shape." [CO:curators]
 synonym: "SDSHAPE" EXACT []
 is_a: TO:0000484 ! seed shape
 
 [Term]
 id: CO_340:0000422
 name: cowpea cercospora trait
-def: "Damage caused by Cercospora" []
+def: "Damage caused by Cercospora." [CO:curators]
 synonym: "CRCSP" EXACT []
 is_a: TO:0002702 ! cercospora leaf spot resistance
 
 [Term]
 id: CO_340:0000425
 name: cowpea alectra trait
-def: "Alectra vogelii infestation" []
+def: "Alectra vogelii infestation." [CO:curators]
 synonym: "ALCTRA" EXACT []
 is_a: TO:0000444 ! parasitic weed
 
 [Term]
 id: CO_340:0000428
 name: cowpea foliar thrip damage trait
-def: "Foliar thrip damage" []
+def: "Foliar thrip damage." [CO:curators]
 synonym: "FOLTHRIP" EXACT []
 is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_340:0000431
 name: cowpea flower color trait
-def: "Flower color" []
+def: "Flower color." [CO:curators]
 synonym: "FLOWCOL" EXACT []
 is_a: TO:0000537 ! flower color
 
 [Term]
 id: CO_340:0000434
 name: cowpea canopy height trait
-def: "Canopy Height" []
+def: "Canopy Height." [CO:curators]
 synonym: "CANOPYHT" EXACT []
 is_a: TO:0000207 ! plant height
 
 [Term]
 id: CO_340:0000437
 name: cowpea color of dry pod trait
-def: "Dry pod color" []
+def: "Dry pod color." [CO:curators]
 synonym: "DRYPODCOL" EXACT []
 is_a: TO:0000901 ! dry fruit color
 
 [Term]
 id: CO_340:0000440
 name: cowpea macrophomina severity trait
-def: "Severity of the symptoms caused by macrophomina" []
+def: "Severity of the symptoms caused by macrophomina." [CO:curators]
 synonym: "MACROPH" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_340:0000443
 name: cowpea lygus bug damage trait
-def: "Damage caused by lygus bug" []
+def: "Damage caused by lygus bug." [CO:curators]
 synonym: "LYGUSRES" EXACT []
 is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_340:0000449
 name: cowpea pods per plot trait
-def: "Pods per plot" []
+def: "Pods per plot." [CO:curators]
 synonym: "PODN" EXACT []
 is_a: TO:0000871 ! fruit yield trait
 
 [Term]
 id: CO_340:0000452
 name: cowpea resistance to bacterial blight (x. vignicola) trait
-def: "Resistance to bacterial blight (Xanthomonas vignicola)" []
+def: "Resistance to bacterial blight (Xanthomonas vignicola)." [CO:curators]
 synonym: "BB" EXACT []
 is_a: TO:0000770 ! bacterial blight disease resistance
 
 [Term]
 id: CO_340:0000458
 name: cowpea total pods trait
-def: "Total pods harvested" []
+def: "Total pods harvested." [CO:curators]
 synonym: "TPDHV" EXACT []
 is_a: TO:0001142 ! legume fruit yield trait
 
 [Term]
 id: CO_340:0000467
 name: cowpea growth habit trait
-def: "Type of growth habit" []
+def: "Type of growth habit." [CO:curators]
 synonym: "GROHAB" EXACT []
 is_a: TO:0000947 ! whole plant growth and development trait
 
 [Term]
 id: CO_340:0000476
 name: cowpea cooking time trait
-def: "Time needed for cowpea sample to cook" []
+def: "Time needed for cowpea sample to cook." [CO:curators]
 synonym: "CKTME" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_340:0000494
 name: cowpea pod scab infestation trait
-def: "Pod infestation by SCAB" []
+def: "Pod infestation by SCAB." [CO:curators]
 synonym: "PODSCAB" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_340:0000497
 name: cowpea phytium infestation trait
-def: "Extent of the infestation by Pythium" []
+def: "Extent of the infestation by Pythium." [CO:curators]
 synonym: "PHYTM" EXACT []
 is_a: TO:0001144 ! Oomycete disease response
 
 [Term]
 id: CO_340:0000500
 name: cowpea fresh pod trait
-def: "Weight of fresh pod" []
+def: "Weight of fresh pod." [CO:curators]
 synonym: "FRESHP" EXACT []
 is_a: TO:0003030 ! legume fruit fresh weight
 
 [Term]
 id: CO_340:0000503
 name: cowpea m. javanica root knot nematode trait
-def: "Damage caused by M. javanica root knot nematode" []
+def: "Damage caused by M. javanica root knot nematode." [CO:curators]
 synonym: "RootNemRes" EXACT []
 is_a: TO:0002706 ! Meloidogyne javanica resistance
 
 [Term]
 id: CO_340:0000509
 name: cowpea chlorophyll content trait
-def: "Chlorophyll content" []
+def: "Chlorophyll content." [CO:curators]
 synonym: "SPAD" EXACT []
 is_a: TO:0012002 ! leaf chlorophyll content
 
 [Term]
 id: CO_340:0000530
 name: cowpea dry fodder weight trait
-def: "Dry fodder weight" []
+def: "Dry fodder weight." [CO:curators]
 synonym: "DFWT" EXACT []
 synonym: "dry fodder" EXACT []
 is_a: TO:0000327 ! shoot system yield trait
@@ -482,49 +482,49 @@ is_a: TO:0000327 ! shoot system yield trait
 [Term]
 id: CO_340:0000533
 name: cowpea pode emergence time trait
-def: "Time to pod Emergence" []
+def: "Time to pod Emergence." [CO:curators]
 synonym: "DFRSTPO" EXACT []
 is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_340:0000539
 name: cowpea smut infestation trait
-def: "Infestation by Smut" []
+def: "Infestation by Smut." [CO:curators]
 synonym: "SMUT" EXACT []
 is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_340:0000542
 name: cowpea resistance to m. incognita root knot nematode trait
-def: "Resistance to M. incognita root knot nematode" []
+def: "Resistance to M. incognita root knot nematode." [CO:curators]
 synonym: "RESMIN" EXACT []
 is_a: TO:0002704 ! Meloidogyne incognita resistance
 
 [Term]
 id: CO_340:0000545
 name: cowpea leaf scab infestation trait
-def: "Infestation by Leaf scab" []
+def: "Infestation by Leaf scab." [CO:curators]
 synonym: "LEAFSC" EXACT []
 is_a: TO:0000439 ! fungal disease resistance
 
 [Term]
 id: CO_340:0000548
 name: cowpea grain sucrose content trait
-def: "Grain sucrose content" []
+def: "Grain sucrose content." [CO:curators]
 synonym: "SUCROS" EXACT []
 is_a: TO:0000328 ! sucrose content
 
 [Term]
 id: CO_340:0000557
 name: cowpea m. incognita root knot nematode trait
-def: "Resistance to M. incognita root knot nematode" []
+def: "Resistance to M. incognita root knot nematode." [CO:curators]
 synonym: "RSMICG" EXACT []
 is_a: TO:0002704 ! Meloidogyne incognita resistance
 
 [Term]
 id: CO_340:0000563
 name: cowpea leaf spot infestation trait
-def: "Leaf spot infestation" []
+def: "Leaf spot infestation." [CO:curators]
 synonym: "LFSPT" EXACT []
 synonym: "Septoria" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
@@ -532,70 +532,70 @@ is_a: TO:0001145 ! Ascomycete fungal disease response
 [Term]
 id: CO_340:0000566
 name: cowpea leaf weight trait
-def: "Leaf weight" []
+def: "Leaf weight." [CO:curators]
 synonym: "LfWt" EXACT []
 is_a: TO:0000505 ! leaf weight
 
 [Term]
 id: CO_340:0000569
 name: cowpea plant height trait
-def: "Plant height" []
+def: "Plant height." [CO:curators]
 synonym: "PTHT" EXACT []
 is_a: TO:0000207 ! plant height
 
 [Term]
 id: CO_340:0000572
 name: cowpea phoma infestation trait
-def: "Infestation by phoma" []
+def: "Infestation by phoma." [CO:curators]
 synonym: "PHOMA" EXACT []
 is_a: TO:0000439 ! fungal disease resistance
 
 [Term]
 id: CO_340:0000575
 name: cowpea grain protein content trait
-def: "Protein content of the grain" []
+def: "Protein content of the grain." [CO:curators]
 synonym: "PROTEIN" EXACT []
 is_a: TO:0000490 ! seed protein composition trait
 
 [Term]
 id: CO_340:0000578
 name: cowpea percent protein trait
-def: "PERCENT PROTEIN" []
+def: "PERCENT PROTEIN." [CO:curators]
 synonym: "PPTP" EXACT []
 is_a: TO:0000598 ! protein content
 
 [Term]
 id: CO_340:0000584
 name: cowpea leaf rust infestation trait
-def: "Infestation by Leaf rust" []
+def: "Infestation by Leaf rust." [CO:curators]
 synonym: "LEAFRU" EXACT []
 is_a: TO:0000439 ! fungal disease resistance
 
 [Term]
 id: CO_340:0000596
 name: cowpea wasps trait
-def: "Undefined trait" []
+def: "Undefined trait." [CO:curators]
 synonym: "WASPS" EXACT []
 is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_340:0000599
 name: cowpea resistance to m. javanica root knot nematode trait
-def: "Resistance to M. javanica root knot nematode" []
+def: "Resistance to M. javanica root knot nematode." [CO:curators]
 synonym: "RSMJAV" EXACT []
 is_a: TO:0002706 ! Meloidogyne javanica resistance
 
 [Term]
 id: CO_340:0000602
 name: cowpea leaf harvest trait
-def: "Weight of LEAF HARVESTed per plot every week" []
+def: "Weight of LEAF HARVESTed per plot every week." [CO:curators]
 synonym: "LFHV" EXACT []
 is_a: TO:0000870 ! leaf yield trait
 
 [Term]
 id: CO_340:0000608
 name: cowpea zinc concentration trait
-def: "Zinc concentration in the seed" []
+def: "Zinc concentration in the seed." [CO:curators]
 synonym: "dry fodder yield" EXACT []
 synonym: "ZNCONC" EXACT []
 is_a: TO:0006053 ! zinc concentration
@@ -603,56 +603,56 @@ is_a: TO:0006053 ! zinc concentration
 [Term]
 id: CO_340:0000611
 name: cowpea iron concentration trait
-def: "Iron concentration in the seed" []
+def: "Iron concentration in the seed." [CO:curators]
 synonym: "ICONC" EXACT []
 is_a: TO:0006049 ! iron concentration
 
 [Term]
 id: CO_340:0000614
 name: cowpea fresh fodder weight trait
-def: "Weight of fresh fodder" []
+def: "Weight of fresh fodder." [CO:curators]
 synonym: "FFWT" EXACT []
 is_a: TO:0000457 ! biomass yield
 
 [Term]
 id: CO_340:0000617
 name: cowpea nodule weight trait
-def: "Weight of nodule" []
+def: "Weight of nodule." [CO:curators]
 synonym: "NDLWT" EXACT []
 is_a: TO:0000899 ! root nodule weight
 
 [Term]
 id: CO_340:0000620
 name: cowpea nodule number trait
-def: "Number of nodules" []
+def: "Number of nodules." [CO:curators]
 synonym: "NodNo" EXACT []
 is_a: TO:0000900 ! root nodule number
 
 [Term]
 id: CO_340:0000623
 name: cowpea peduncle length trait
-def: "Length of peduncules at full growth" []
+def: "Length of peduncules at full growth." [CO:curators]
 synonym: "PedLen" EXACT []
 is_a: TO:0002691 ! peduncle length
 
 [Term]
 id: CO_340:0000629
 name: cowpea diabrotica trait
-def: "Infestation by diabrotica" []
+def: "Infestation by diabrotica." [CO:curators]
 synonym: "DIABRT" EXACT []
 is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_340:0000638
 name: cowpea grain yield trait
-def: "Harvested grain weight" []
+def: "Harvested grain weight." [CO:curators]
 synonym: "GrYld" EXACT []
 is_a: TO:0000905 ! seed yield trait
 
 [Term]
 id: CO_340:0000639
 name: cowpea plant stand at emergence trait
-def: "Number of plants germinated within one week after planting" []
+def: "Number of plants germinated within one week after planting." [CO:curators]
 synonym: "GERM" EXACT []
 synonym: "Hills with plants emerged" EXACT []
 synonym: "Plants germinated" EXACT []
@@ -661,35 +661,35 @@ is_a: TO:0000202 ! germination ratio
 [Term]
 id: CO_340:0000640
 name: cowpea harvested leaf weight trait
-def: "Weight of harvested leaves" []
+def: "Weight of harvested leaves." [CO:curators]
 synonym: "TWL" EXACT []
 is_a: TO:0000870 ! leaf yield trait
 
 [Term]
 id: CO_340:0000641
 name: cowpea aphid incidence trait
-def: "Aphid Incidence Score" []
+def: "Aphid Incidence Score." [CO:curators]
 synonym: "AphIS" EXACT []
 is_a: TO:0006067 ! aphid resistance
 
 [Term]
 id: CO_340:0000642
 name: cowpea aphid severity trait
-def: "Severity of aphid infestation" []
+def: "Severity of aphid infestation." [CO:curators]
 synonym: "AphSev" EXACT []
 is_a: TO:0006067 ! aphid resistance
 
 [Term]
 id: CO_340:0000643
 name: cowpea leafhopper (empoasca) damage trait
-def: "Damage caused by leafhopper (Empoasca)" []
+def: "Damage caused by leafhopper (Empoasca)." [CO:curators]
 synonym: "EmpRes" EXACT []
 is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_340:0000644
 name: cowpea flower thrip damage trait
-def: "Flower thrip damage to stipules, flower buds and peduncles" []
+def: "Flower thrip damage to stipules, flower buds and peduncles." [CO:curators]
 synonym: "FOLTHRIP" EXACT []
 synonym: "THRIPFLOW" EXACT []
 synonym: "THRIPS" EXACT []
@@ -699,182 +699,182 @@ is_a: TO:0000261 ! insect damage response trait
 [Term]
 id: CO_340:0000652
 name: cowpea twinning tendency trait
-def: "Twinning tendency" []
+def: "Twinning tendency." [CO:curators]
 synonym: "TwiTend" EXACT []
 is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_340:0000653
 name: cowpea plant pigmentation trait
-def: "Pigmentation of the plant part" []
+def: "Pigmentation of the plant part." [CO:curators]
 synonym: "PlaPig" EXACT []
 is_a: TO:0000708 ! plant color
 
 [Term]
 id: CO_340:0000654
 name: cowpea terminal leaflet shape trait
-def: "Shape of terminal leaflet" []
+def: "Shape of terminal leaflet." [CO:curators]
 synonym: "TerLEASh" EXACT []
 is_a: TO:0001116 ! leaflet shape
 
 [Term]
 id: CO_340:0000655
 name: cowpea plant hairiness trait
-def: "Presence of hair on plant" []
+def: "Presence of hair on plant." [CO:curators]
 synonym: "PlaHair" EXACT []
 is_a: TO:0002722 ! leaf pubescence
 
 [Term]
 id: CO_340:0000656
 name: cowpea raceme position trait
-def: "Position of raceme" []
+def: "Position of raceme." [CO:curators]
 synonym: "RacPos" EXACT []
 is_a: TO:0000682 ! inflorescence height
 
 [Term]
 id: CO_340:0000657
 name: cowpea pod attachment to peduncle trait
-def: "Attachment of the pod to the peduncle" []
+def: "Attachment of the pod to the peduncle." [CO:curators]
 synonym: "PodAtt" EXACT []
 is_a: TO:0001082 ! legume fruit morphology trait
 
 [Term]
 id: CO_340:0000658
 name: cowpea immature pod pigmentation trait
-def: "Pigmentation of immature pod" []
+def: "Pigmentation of immature pod." [CO:curators]
 synonym: "ImmPodPig" EXACT []
 is_a: TO:0001082 ! legume fruit morphology trait
 
 [Term]
 id: CO_340:0000659
 name: cowpea pod curvature trait
-def: "Curvature of th pod" []
+def: "Curvature of th pod." [CO:curators]
 synonym: "PodCur" EXACT []
 is_a: TO:0001082 ! legume fruit morphology trait
 
 [Term]
 id: CO_340:0000660
 name: cowpea seed shape trait
-def: "Shape of the seed" []
+def: "Shape of the seed." [CO:curators]
 synonym: "SeeSha" EXACT []
 is_a: TO:0000484 ! seed shape
 
 [Term]
 id: CO_340:0000661
 name: cowpea testa texture trait
-def: "The texture of the testa" []
+def: "The texture of the testa." [CO:curators]
 synonym: "TesTex" EXACT []
 is_a: TO:0000903 ! seed coat texture
 
 [Term]
 id: CO_340:0000662
 name: cowpea eye colour trait
-def: "The color of the eye" []
+def: "The color of the eye." [CO:curators]
 synonym: "EyeCol" EXACT []
 is_a: TO:0000968 ! hilum color
 
 [Term]
 id: CO_340:0000663
 name: cowpea eye pattern trait
-def: "The shape of the pigment pattern which surrounds the hilum. The front of the hilum is the non-micropylar end." []
+def: "The shape of the pigment pattern which surrounds the hilum. The front of the hilum is the non-micropylar end.." [CO:curators]
 synonym: "EyePat" EXACT []
 is_a: TO:0000904 ! seed coat pattern
 
 [Term]
 id: CO_340:0000664
 name: cowpea hypocotyl length trait
-def: "Length of the hypocotyl" []
+def: "Length of the hypocotyl." [CO:curators]
 synonym: "HypLen" EXACT []
 is_a: TO:0006065 ! seedling hypocotyl length
 
 [Term]
 id: CO_340:0000665
 name: cowpea leaf colour trait
-def: "Intensity of green Colour of the leaf" []
+def: "Intensity of green Colour of the leaf." [CO:curators]
 synonym: "LeaCol" EXACT []
 is_a: TO:0000326 ! leaf color
 
 [Term]
 id: CO_340:0000666
 name: cowpea leaf marking trait
-def: "Presence/absence of V-mark on leaflets" []
+def: "Presence/absence of V-mark on leaflets." [CO:curators]
 synonym: "LeaMar" EXACT []
 is_a: TO:0000748 ! leaf morphology trait
 
 [Term]
 id: CO_340:0000667
 name: cowpea terminal leaflet length trait
-def: "Length of terminal leaflet whose shape was recorded" []
+def: "Length of terminal leaflet whose shape was recorded." [CO:curators]
 synonym: "TerLeaLen" EXACT []
 is_a: TO:0001115 ! leaflet length
 
 [Term]
 id: CO_340:0000668
 name: cowpea terminal leaflet width trait
-def: "The widest dimension of the terminal leaflet whose shape" []
+def: "The widest dimension of the terminal leaflet whose shape." [CO:curators]
 synonym: "TerLeaWid" EXACT []
 is_a: TO:0001118 ! leaflet width
 
 [Term]
 id: CO_340:0000669
 name: cowpea leaf texture trait
-def: "Leaf appearance" []
+def: "Leaf appearance." [CO:curators]
 synonym: "LeaTex" EXACT []
 is_a: TO:0000748 ! leaf morphology trait
 
 [Term]
 id: CO_340:0000670
 name: cowpea stipule length trait
-def: "Measure of stipule length" []
+def: "Measure of stipule length." [CO:curators]
 synonym: "StiLen" EXACT []
 is_a: TO:1000020 ! stipule length
 
 [Term]
 id: CO_340:0000671
 name: cowpea stipule width trait
-def: "Measure of stipule width" []
+def: "Measure of stipule width." [CO:curators]
 synonym: "StiWid" EXACT []
 is_a: TO:0000754 ! cardinal organ part morphology trait
 
 [Term]
 id: CO_340:0000672
 name: cowpea number of main branches trait
-def: "Number of main branches" []
+def: "Number of main branches." [CO:curators]
 synonym: "NumMaiBra" EXACT []
 is_a: TO:0000547 ! primary branch number
 
 [Term]
 id: CO_340:0000673
 name: cowpea number of nodes trait
-def: "Number of nodes" []
+def: "Number of nodes." [CO:curators]
 synonym: "NumNodMainSte" EXACT []
 is_a: TO:0000634 ! stem node number
 
 [Term]
 id: CO_340:0000674
 name: cowpea plant vigour trait
-def: "Status of the plant" []
+def: "Status of the plant." [CO:curators]
 synonym: "PlaVig" EXACT []
 is_a: TO:0000250 ! plant vigor trait
 
 [Term]
 id: CO_340:0000675
 name: cowpea leaf/stem ratio trait
-def: "Weight of leaves divided by weight of other parts of shoot" []
+def: "Weight of leaves divided by weight of other parts of shoot." [CO:curators]
 synonym: "LeaSteRat" EXACT []
 is_a: TO:0000278 ! root to shoot ratio
 
 [Term]
 id: CO_340:0000676
 name: cowpea plant dry weight content trait
-def: "Plant matter content" []
+def: "Plant matter content." [CO:curators]
 synonym: "PerDryWei" EXACT []
 is_a: TO:0000457 ! biomass yield
 
 [Term]
 id: CO_340:0000677
 name: cowpea fresh biomass at flowering trait
-def: "Total above ground fresh biomass" []
+def: "Total above ground fresh biomass." [CO:curators]
 synonym: "FBMFlw" EXACT []
 synonym: "Yield of green matter" EXACT []
 is_a: TO:0000457 ! biomass yield
@@ -882,91 +882,91 @@ is_a: TO:0000457 ! biomass yield
 [Term]
 id: CO_340:0000678
 name: cowpea capacity for re-growth trait
-def: "Weight of green matter in grams at 50% flowering after the accession has been cut at six week stage" []
+def: "Weight of green matter in grams at 50% flowering after the accession has been cut at six week stage." [CO:curators]
 synonym: "CapReGro" EXACT []
 is_a: TO:0000250 ! plant vigor trait
 
 [Term]
 id: CO_340:0000679
 name: cowpea dry matter digestibility trait
-def: "Digestibility of green fodder" []
+def: "Digestibility of green fodder." [CO:curators]
 synonym: "DMDig" EXACT []
 is_a: TO:0002644 ! dry matter digestibility
 
 [Term]
 id: CO_340:0000680
 name: cowpea flowering pigment pattern trait
-def: "Pigmentation pattern of newly opened flowers" []
+def: "Pigmentation pattern of newly opened flowers." [CO:curators]
 synonym: "FloPigPat" EXACT []
 is_a: TO:0000537 ! flower color
 
 [Term]
 id: CO_340:0000681
 name: cowpea flower length trait
-def: "Length of flowers" []
+def: "Length of flowers." [CO:curators]
 synonym: "StaLen" EXACT []
 is_a: TO:0000860 ! flower length
 
 [Term]
 id: CO_340:0000682
 name: cowpea calyx lobe length trait
-def: "Flower calyx lobe length" []
+def: "Flower calyx lobe length." [CO:curators]
 synonym: "CaLobLen" EXACT []
 is_a: TO:0000864 ! sepal morphology trait
 
 [Term]
 id: CO_340:0000683
 name: cowpea number of racemes trait
-def: "Number of racemes" []
+def: "Number of racemes." [CO:curators]
 synonym: "NumRacPla" EXACT []
 is_a: TO:0000582 ! inflorescence number
 
 [Term]
 id: CO_340:0000684
 name: cowpea pod width trait
-def: "Width of pods" []
+def: "Width of pods." [CO:curators]
 synonym: "PodWdt" EXACT []
 is_a: TO:0001082 ! legume fruit morphology trait
 
 [Term]
 id: CO_340:0000685
 name: cowpea pod wall thickness trait
-def: "Tickness of pod wall" []
+def: "Tickness of pod wall." [CO:curators]
 synonym: "PodWaiTh" EXACT []
 is_a: TO:0001082 ! legume fruit morphology trait
 
 [Term]
 id: CO_340:0000686
 name: cowpea pod colour trait
-def: "Colour of the pod" []
+def: "Colour of the pod." [CO:curators]
 synonym: "PodCol" EXACT []
 is_a: TO:0001082 ! legume fruit morphology trait
 
 [Term]
 id: CO_340:0000687
 name: cowpea seed length trait
-def: "Average length of seeds" []
+def: "Average length of seeds." [CO:curators]
 synonym: "SeeLen" EXACT []
 is_a: TO:0000146 ! seed length
 
 [Term]
 id: CO_340:0000688
 name: cowpea seed width trait
-def: "Average width of seeds" []
+def: "Average width of seeds." [CO:curators]
 synonym: "SeeWdt" EXACT []
 is_a: TO:0000149 ! seed width
 
 [Term]
 id: CO_340:0000689
 name: cowpea seed thickness trait
-def: "Tickness of the seed" []
+def: "Tickness of the seed." [CO:curators]
 synonym: "SeeThi" EXACT []
 is_a: TO:0000304 ! seed thickness
 
 [Term]
 id: CO_340:0000690
 name: cowpea seed crowding trait
-def: "Seed crowding or compression, indicating the spacing within the pod" []
+def: "Seed crowding or compression, indicating the spacing within the pod." [CO:curators]
 synonym: "SeeCro" EXACT []
 synonym: "Seed compression" EXACT []
 is_a: TO:0001082 ! legume fruit morphology trait
@@ -974,321 +974,321 @@ is_a: TO:0001082 ! legume fruit morphology trait
 [Term]
 id: CO_340:0000691
 name: cowpea splitting of testa trait
-def: "Splitting of the testa" []
+def: "Splitting of the testa." [CO:curators]
 synonym: "SplTes" EXACT []
 is_a: TO:0000838 ! seed coat morphology trait
 
 [Term]
 id: CO_340:0000692
 name: cowpea attachment of testa trait
-def: "Attachment of the testa to the seed" []
+def: "Attachment of the testa to the seed." [CO:curators]
 synonym: "AttTes" EXACT []
 is_a: TO:0000838 ! seed coat morphology trait
 
 [Term]
 id: CO_340:0000693
 name: cowpea adventitous root growth angle trait
-def: "Angle of adventitious roots" []
+def: "Angle of adventitious roots." [CO:curators]
 synonym: "ang_ad" EXACT []
 is_a: TO:0000043 ! root morphology trait
 
 [Term]
 id: CO_340:0000694
 name: cowpea basal root growth angle trait
-def: "Angle of basal region roots" []
+def: "Angle of basal region roots." [CO:curators]
 synonym: "ang bas" EXACT []
 is_a: TO:0000043 ! root morphology trait
 
 [Term]
 id: CO_340:0000695
 name: cowpea stem diameter trait
-def: "Stem diameter" []
+def: "Stem diameter." [CO:curators]
 synonym: "stemD" EXACT []
 is_a: TO:0020083 ! stem diameter
 
 [Term]
 id: CO_340:0000696
 name: cowpea tap root diameter at 5 trait
-def: "Tap diameter 5cm below soil surface or just below basal region" []
+def: "Tap diameter 5cm below soil surface or just below basal region." [CO:curators]
 synonym: "TD5" EXACT []
 is_a: TO:0000306 ! root thickness
 
 [Term]
 id: CO_340:0000697
 name: cowpea tap root diameter at 10 trait
-def: "Tap diameter 10 below soil surface" []
+def: "Tap diameter 10 below soil surface." [CO:curators]
 synonym: "TD10" EXACT []
 is_a: TO:0000306 ! root thickness
 
 [Term]
 id: CO_340:0000698
 name: cowpea tap root diameter at 15 trait
-def: "Tap diameter 15cm below soil surface" []
+def: "Tap diameter 15cm below soil surface." [CO:curators]
 synonym: "TD15" EXACT []
 is_a: TO:0000084 ! root number
 
 [Term]
 id: CO_340:0000699
 name: cowpea number of basal region roots trait
-def: "Number of basal region roots" []
+def: "Number of basal region roots." [CO:curators]
 synonym: "BasRtNo" EXACT []
 is_a: TO:0001006 ! adventitious root number
 
 [Term]
 id: CO_340:0000700
 name: cowpea number of adventitious roots trait
-def: "Number of adventitious roots" []
+def: "Number of adventitious roots." [CO:curators]
 synonym: "AdvNo" EXACT []
 is_a: TO:0001006 ! adventitious root number
 
 [Term]
 id: CO_340:0000701
 name: cowpea branching density 5-10 trait
-def: "Number of 1st order lateral roots (not counting basal region roots) between 5 and 10 cm or from just below basal region to 10cm below soil level" []
+def: "Number of 1st order lateral roots (not counting basal region roots) between 5 and 10 cm or from just below basal region to 10cm below soil level." [CO:curators]
 synonym: "BD10" EXACT []
 is_a: TO:0001013 ! lateral root number
 
 [Term]
 id: CO_340:0000702
 name: cowpea branching density 10-15 trait
-def: "Number of 1st order lateral roots between 10 and 15cm below soil surface" []
+def: "Number of 1st order lateral roots between 10 and 15cm below soil surface." [CO:curators]
 synonym: "BD15" EXACT []
 is_a: TO:0001013 ! lateral root number
 
 [Term]
 id: CO_340:0000703
 name: cowpea number of adventitious roots trait
-def: "Number of basal region roots" []
+def: "Number of basal region roots." [CO:curators]
 synonym: "BasRtNo" EXACT []
 is_a: TO:0001006 ! adventitious root number
 
 [Term]
 id: CO_340:0000704
 name: cowpea number of basal region roots trait
-def: "Number of adventitious roots" []
+def: "Number of adventitious roots." [CO:curators]
 synonym: "AdvNo" EXACT []
 is_a: TO:0001006 ! adventitious root number
 
 [Term]
 id: CO_340:0000705
 name: cowpea number of tap laterals trait
-def: "Number of roots in 5-10cm below soil surface region with a diameter greater than 1.5mm at 2cm from hypocotyl that are perpendicular to the tap root" []
+def: "Number of roots in 5-10cm below soil surface region with a diameter greater than 1.5mm at 2cm from hypocotyl that are perpendicular to the tap root." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0001013 ! lateral root number
 
 [Term]
 id: CO_340:0000706
 name: cowpea 3rd order branching density trait
-def: "3 order branching density" []
+def: "3 order branching density." [CO:curators]
 synonym: "3BD" EXACT []
 is_a: TO:0002639 ! shoot branching
 
 [Term]
 id: CO_340:0000708
 name: cowpea tap root diameter trait
-def: "Tap root diameter" []
+def: "Tap root diameter." [CO:curators]
 synonym: "RtDiam" EXACT []
 is_a: TO:0000306 ! root thickness
 
 [Term]
 id: CO_340:0000709
 name: cowpea branching density trait
-def: "Number of 1st order lateral roots whithout counting basal region roots" []
+def: "Number of 1st order lateral roots whithout counting basal region roots." [CO:curators]
 synonym: "BrnchDen" EXACT []
 is_a: TO:0001013 ! lateral root number
 
 [Term]
 id: CO_340:0000875
 name: cowpea leaf protein content trait
-def: "Protein content of the leaf" []
+def: "Protein content of the leaf." [CO:curators]
 synonym: "PROTEIN" EXACT []
 is_a: TO:0000598 ! protein content
 
 [Term]
 id: CO_340:0000879
 name: cowpea zinc concentration trait
-def: "Zinc concentration in the leaf" []
+def: "Zinc concentration in the leaf." [CO:curators]
 synonym: "ZNCONC" EXACT []
 is_a: TO:0006053 ! zinc concentration
 
 [Term]
 id: CO_340:0000890
 name: cowpea iron concentration trait
-def: "Iron concentration in the leaf" []
+def: "Iron concentration in the leaf." [CO:curators]
 synonym: "ICONC" EXACT []
 is_a: TO:0006049 ! iron concentration
 
 [Term]
 id: CO_340:0002640
 name: cowpea bacterial blight (x. vignicola) severity trait
-def: "Severity of the bacteria blight symptoms caused by X. vignicola" []
+def: "Severity of the bacteria blight symptoms caused by X. vignicola." [CO:curators]
 synonym: "BCTBLT" EXACT []
 is_a: TO:0000315 ! bacterial disease resistance
 
 [Term]
 id: CO_340:0003641
 name: cowpea pod yield trait
-def: "Weight of harvested pods" []
+def: "Weight of harvested pods." [CO:curators]
 synonym: "PODWT" EXACT []
 is_a: TO:0001142 ! legume fruit yield trait
 
 [Term]
 id: CO_340:0004642
 name: cowpea fodder biomass at flowering trait
-def: "Fodder biomass i.e., above ground biomass excluding the pods, at 50% Flowering" []
+def: "Fodder biomass i.e., above ground biomass excluding the pods, at 50% Flowering." [CO:curators]
 synonym: "FODMID" EXACT []
 is_a: TO:0000327 ! shoot system yield trait
 
 [Term]
 id: CO_340:0005643
 name: cowpea seed weight trait
-def: "Weight of seeds" []
+def: "Weight of seeds." [CO:curators]
 synonym: "SdWt" EXACT []
 is_a: TO:0000181 ! seed weight
 
 [Term]
 id: CO_340:0006644
 name: cowpea biomass at maturity trait
-def: "Fodder biomass i.e., above ground biomass excluding the pods, at 90% maturity" []
+def: "Fodder biomass i.e., above ground biomass excluding the pods, at 90% maturity." [CO:curators]
 synonym: "FODMAT" EXACT []
 is_a: TO:0000457 ! biomass yield
 
 [Term]
 id: CO_340:0007645
 name: cowpea floral abscision trait
-def: "Floral abscision" []
+def: "Floral abscision." [CO:curators]
 synonym: "DTFLWRAB" EXACT []
 is_a: TO:0000622 ! flower development trait
 
 [Term]
 id: CO_340:0008016
 name: cowpea germination rate trait
-def: "Number of germinated seeds" []
+def: "Number of germinated seeds." [CO:curators]
 synonym: "GermRat" EXACT []
 is_a: TO:0000430 ! germination rate
 
 [Term]
 id: CO_340:0008020
 name: cowpea germination time trait
-def: "Time of germination after planting" []
+def: "Time of germination after planting." [CO:curators]
 synonym: "GermTim" EXACT []
 is_a: TO:0006061 ! days to germinate
 
 [Term]
 id: CO_340:0008022
 name: cowpea pest resistance trait
-def: "Estimated resistance to pests observed in the field" []
+def: "Estimated resistance to pests observed in the field." [CO:curators]
 synonym: "PlPestRes" EXACT []
 is_a: TO:0000179 ! biotic plant stress trait
 
 [Term]
 id: CO_340:0008024
 name: cowpea disease resistance trait
-def: "Estimated resistance to diseases observed in the field" []
+def: "Estimated resistance to diseases observed in the field." [CO:curators]
 synonym: "PlDisRes" EXACT []
 is_a: TO:0000112 ! microbial disease response
 
 [Term]
 id: CO_340:0008026
 name: cowpea abiotic stress tolerance trait
-def: "Estimated resistance to Abiotic stress observed in the field" []
+def: "Estimated resistance to Abiotic stress observed in the field." [CO:curators]
 synonym: "PlAbiotRes" EXACT []
 is_a: TO:0000168 ! abiotic plant stress response trait
 
 [Term]
 id: CO_340:0008028
 name: cowpea striga tolerance trait
-def: "Estimated resistance to Striga observed in the field" []
+def: "Estimated resistance to Striga observed in the field." [CO:curators]
 synonym: "PlStrigRes" EXACT []
 is_a: TO:0000444 ! parasitic weed
 
 [Term]
 id: CO_340:0008031
 name: cowpea grain size trait
-def: "Size of the grain" []
+def: "Size of the grain." [CO:curators]
 synonym: "GraiSiz" EXACT []
 is_a: TO:0000391 ! seed size
 
 [Term]
 id: CO_340:0008033
 name: cowpea grain size for target use or market trait
-def: "Size of the grain for the targeted market or use" []
+def: "Size of the grain for the targeted market or use." [CO:curators]
 synonym: "GraSizMarkUse" EXACT []
 is_a: TO:0000392 ! seed size
 
 [Term]
 id: CO_340:0008035
 name: cowpea grain quality trait
-def: "Quality of the grain for marketability" []
+def: "Quality of the grain for marketability." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000931 ! seed quality trait
 
 [Term]
 id: CO_340:0008037
 name: cowpea yield (qualitative) trait
-def: "Yield estimated considering pods and grains harvested from the plant with a comparative ranking of varieties" []
+def: "Yield estimated considering pods and grains harvested from the plant with a comparative ranking of varieties." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0001142 ! legume fruit yield trait
 
 [Term]
 id: CO_340:0008039
 name: cowpea yield (quantitative) trait
-def: "Yield measured with a quantitative unit (kg, t, etc)" []
+def: "Yield measured with a quantitative unit (kg, t, etc)." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0001142 ! legume fruit yield trait
 
 [Term]
 id: CO_340:0008041
 name: cowpea grain marketability trait
-def: "Quality of the grain for marketability" []
+def: "Quality of the grain for marketability." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000931 ! seed quality trait
 
 [Term]
 id: CO_340:0008043
 name: cowpea overall performance trait
-def: "Overall variety assessment/observation" []
+def: "Overall variety assessment/observation." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000322 ! phenotypic acceptability
 
 [Term]
 id: CO_340:0008045
 name: cowpea overall vs local trait
-def: "Overall variety assessment/observation compared to the locam variety" []
+def: "Overall variety assessment/observation compared to the locam variety." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000322 ! phenotypic acceptability
 
 [Term]
 id: CO_340:0008047
 name: cowpea grain yield (kg) trait
-def: "Yield in kilograms" []
+def: "Yield in kilograms." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000905 ! seed yield trait
 
 [Term]
 id: CO_340:0008049
 name: cowpea grain storage problems tolerance trait
-def: "Tolerance to the storage problems identified by user" []
+def: "Tolerance to the storage problems identified by user." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000931 ! seed quality trait
 
 [Term]
 id: CO_340:0008051
 name: cowpea grain storability trait
-def: "Seed storability refers to the ability of seeds to remain viable and maintain their quality over a period of time when stored under a given condition." []
+def: "Seed storability refers to the ability of seeds to remain viable and maintain their quality over a period of time when stored under a given condition.." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000931 ! seed quality trait
 
 [Term]
 id: CO_340:0008053
 name: cowpea grain taste trait
-def: "Taste of the grain" []
+def: "Taste of the grain." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000931 ! seed quality trait
 
 [Term]
 id: CO_340:0008055
 name: cowpea leaf quality for consumption trait
-def: "Quality of the leaf for consumption at harvest" []
+def: "Quality of the leaf for consumption at harvest." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000597 ! plant quality trait

@@ -1,1025 +1,1025 @@
 format-version: 1.2
-ontology: TEMP
+ontology: co_335
 
 [Term]
 id: CO_335:0000764
 name: common bean geometric mean of days to physiological maturity trait
-def: "The geometric mean of days to physiological maturity determined for the genotype entry using no stress and drought stress values." []
+def: "The geometric mean of days to physiological maturity determined for the genotype entry using no stress and drought stress values." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000469 ! days to maturity
 
 [Term]
 id: CO_335:0000765
 name: common bean geometric mean of hundred seed weight trait
-def: "The geometric mean of hundred seeds weight determined for the genotype entry using no stress and drought stress values." []
+def: "The geometric mean of hundred seeds weight determined for the genotype entry using no stress and drought stress values." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000181 ! seed weight
 
 [Term]
 id: CO_335:0000766
 name: common bean geometric mean of seed yield trait
-def: "The geometric mean of seed yield determined for the genotype entry using no stress and drought stress values." []
+def: "The geometric mean of seed yield determined for the genotype entry using no stress and drought stress values." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000905 ! seed yield trait
 
 [Term]
 id: CO_335:0000767
 name: common bean seed yield drought susceptibility index trait
-def: "The drought susceptibility index for seed yield as a relationship between drought yield and irrigated yield for each genotype." []
+def: "The drought susceptibility index for seed yield as a relationship between drought yield and irrigated yield for each genotype." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000188 ! drought sensitivity
 
 [Term]
 id: CO_335:0000768
 name: common bean canopy width trait
-def: "The spread of the canopy." []
+def: "The spread of the canopy." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0006062 ! plant width
 
 [Term]
 id: CO_335:0000769
 name: common bean dead leaf biomass at r8 trait
-def: "The dead leaf biomass per sample or area unit at mid-podfilling (R8) stage." []
+def: "The dead leaf biomass per sample or area unit at mid-podfilling (R8) stage." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000457 ! total biomass yield
 
 [Term]
 id: CO_335:0000770
 name: common bean hundred seed weight trait
-def: "The weight of hundred seeds." []
+def: "The weight of hundred seeds." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000181 ! seed weight
 
 [Term]
 id: CO_335:0000771
 name: common bean leaf area trait
-def: "The leaf area per sample or area unit, it is defined as the one-sided green leaf area per ground surface area." []
+def: "The leaf area per sample or area unit, it is defined as the one-sided green leaf area per ground surface area." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0012001 ! leaf area index
 
 [Term]
 id: CO_335:0000772
 name: common bean leaf area index trait
-def: "The leaf area index (LAI) is a dimensionless quantity that characterizes plant canopies. It is defined as the one-sided green leaf area per unit ground surface area." []
+def: "The leaf area index (LAI) is a dimensionless quantity that characterizes plant canopies. It is defined as the one-sided green leaf area per unit ground surface area." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0012001 ! leaf area index
 
 [Term]
 id: CO_335:0000773
 name: common bean leaf biomass at r8 trait
-def: "The leaf biomass per sample or area unit at mid-podfilling (R8) stage." []
+def: "The leaf biomass per sample or area unit at mid-podfilling (R8) stage." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000457 ! total biomass yield
 
 [Term]
 id: CO_335:0000774
 name: common bean mean root diameter trait
-def: "The mean root diameter. Average root diamater" []
+def: "The mean root diameter. Average root diamater." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0001112 ! root width
 
 [Term]
 id: CO_335:0000776
 name: common bean plant height trait
-def: "The plant height." []
+def: "The plant height." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000207 ! plant height
 
 [Term]
 id: CO_335:0000777
 name: common bean plant leaf area trait
-def: "The leaf area per plant, it is defined as the one-sided green leaf area per plant." []
+def: "The leaf area per plant, it is defined as the one-sided green leaf area per plant." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000540 ! leaf area trait
 
 [Term]
 id: CO_335:0000778
 name: common bean plant pod number trait
-def: "The number of pods per plant." []
+def: "The number of pods per plant." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0001125 ! pod number trait
 
 [Term]
 id: CO_335:0000779
 name: common bean plant root volume trait
-def: "The root volume per plant." []
+def: "The root volume per plant." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000233 ! root volume
 
 [Term]
 id: CO_335:0000780
 name: common bean plant seed number trait
-def: "The number of seeds per plant." []
+def: "The number of seeds per plant." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000445 ! fruit seed number
 
 [Term]
 id: CO_335:0000781
 name: common bean plant seed yield trait
-def: "The amount (weight) of seed harvested per plant." []
+def: "The amount (weight) of seed harvested per plant." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000905 ! seed yield trait
 
 [Term]
 id: CO_335:0000782
 name: common bean plant shoot biomass trait
-def: "The shoot (total aboveground) biomass per plant." []
+def: "The shoot (total aboveground) biomass per plant." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000457 ! total biomass yield
 
 [Term]
 id: CO_335:0000783
 name: common bean plant total root biomass trait
-def: "The total root biomass per plant." []
+def: "The total root biomass per plant." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0001041 ! root yield
 
 [Term]
 id: CO_335:0000784
 name: common bean plant total root length trait
-def: "The total root length per plant." []
+def: "The total root length per plant." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000227 ! root length
 
 [Term]
 id: CO_335:0000785
 name: common bean pod biomass at r8 trait
-def: "The pod biomass per sample or area unit at mid-podfilling (R8) stage." []
+def: "The pod biomass per sample or area unit at mid-podfilling (R8) stage." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000871 ! fruit yield trait
 
 [Term]
 id: CO_335:0000786
 name: common bean pod biomass at r9 trait
-def: "The pod biomass per sample or area unit at physiological maturity (R9) stage." []
+def: "The pod biomass per sample or area unit at physiological maturity (R9) stage." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000871 ! fruit yield trait
 
 [Term]
 id: CO_335:0000787
 name: common bean pod dehiscence type trait
-def: "The capacity of mature pods to open and release the seeds. The dehiscence depends on the fiber content of the pod." []
+def: "The capacity of mature pods to open and release the seeds. The dehiscence depends on the fiber content of the pod." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0001074 ! legume fruit shattering
 
 [Term]
 id: CO_335:0000788
 name: common bean pod harvest index trait
-def: "The proportion of seed biomass at harvest respect to the pod biomass at harvest." []
+def: "The proportion of seed biomass at harvest respect to the pod biomass at harvest." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000905 ! seed yield trait
 
 [Term]
 id: CO_335:0000789
 name: common bean pod number trait
-def: "The number of pods per sample or area unit." []
+def: "The number of pods per sample or area unit." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0001125 ! pod number trait
 
 [Term]
 id: CO_335:0000790
 name: common bean pod partitioning index trait
-def: "The pod partitioning index as proportion of pod biomass at harvest respect to the total shoot (total aboveground) biomass at mid-podfilling." []
+def: "The pod partitioning index as proportion of pod biomass at harvest respect to the total shoot (total aboveground) biomass at mid-podfilling." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000871 ! fruit yield trait
 
 [Term]
 id: CO_335:0000791
 name: common bean pod seed number trait
-def: "The number of seeds per pod." []
+def: "The number of seeds per pod." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000445 ! fruit seed number
 
 [Term]
 id: CO_335:0000792
 name: common bean pod wall biomass at r9 trait
-def: "The pod wall biomass per sample or area unit at physiological maturity (R9) stage." []
+def: "The pod wall biomass per sample or area unit at physiological maturity (R9) stage." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000871 ! fruit yield trait
 
 [Term]
 id: CO_335:0000793
 name: common bean root depth trait
-def: "The plant rooting depth." []
+def: "The plant rooting depth." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000519 ! rooting depth
 
 [Term]
 id: CO_335:0000794
 name: common bean root volume trait
-def: "The root volume per sample or area unit." []
+def: "The root volume per sample or area unit." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000233 ! root volume
 
 [Term]
 id: CO_335:0000795
 name: common bean seed ash content trait
-def: "The content of ash in seeds." []
+def: "The content of ash in seeds." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000607 ! ash content
 
 [Term]
 id: CO_335:0000796
 name: common bean seed harvest index trait
-def: "The proportion of seed biomass at harvest respect to the total shoot (total aboveground) biomass at mid-podfilling." []
+def: "The proportion of seed biomass at harvest respect to the total shoot (total aboveground) biomass at mid-podfilling." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000905 ! seed yield trait
 
 [Term]
 id: CO_335:0000797
 name: common bean seed moisture content trait
-def: "The content of moisture in seeds." []
+def: "The content of moisture in seeds." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000228 ! moisture content trait
 
 [Term]
 id: CO_335:0000798
 name: common bean seed number trait
-def: "The number of seeds per sample or area unit." []
+def: "The number of seeds per sample or area unit." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000445 ! fruit seed number
 
 [Term]
 id: CO_335:0000799
 name: common bean seed size trait
-def: "The size of the seeds." []
+def: "The size of the seeds." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000391 ! seed size
 
 [Term]
 id: CO_335:0000800
 name: common bean seed yield trait
-def: "The amount (weight) of seed harvested per sample or area unit." []
+def: "The amount (weight) of seed harvested per sample or area unit." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000905 ! seed yield trait
 
 [Term]
 id: CO_335:0000801
 name: common bean seed yield productivity rate trait
-def: "The rate of yield productivity." []
+def: "The rate of yield productivity." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000905 ! seed yield trait
 
 [Term]
 id: CO_335:0000802
 name: common bean shoot ash content trait
-def: "The content of ash in shoot (total aboveground) biomass." []
+def: "The content of ash in shoot (total aboveground) biomass." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000607 ! ash content
 
 [Term]
 id: CO_335:0000803
 name: common bean shoot biomass trait
-def: "The shoot (total aboveground) biomass per sample or area unit." []
+def: "The shoot (total aboveground) biomass per sample or area unit." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000457 ! total biomass yield
 
 [Term]
 id: CO_335:0000804
 name: common bean shoot biomass at r8 trait
-def: "The shoot (total aboveground) biomass per sample or area unit at mid-podfilling (R8) stage." []
+def: "The shoot (total aboveground) biomass per sample or area unit at mid-podfilling (R8) stage." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000457 ! total biomass yield
 
 [Term]
 id: CO_335:0000805
 name: common bean specific root length trait
-def: "The specific root length as relationship of root length and root dry weight." []
+def: "The specific root length as relationship of root length and root dry weight." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000227 ! root length
 
 [Term]
 id: CO_335:0000806
 name: common bean stem biomass at r8 trait
-def: "The stem biomass per sample or area unit at mid-podfilling (R8) stage." []
+def: "The stem biomass per sample or area unit at mid-podfilling (R8) stage." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000457 ! total biomass yield
 
 [Term]
 id: CO_335:0000807
 name: common bean stem biomass at r9 trait
-def: "The stem biomass per sample or area unit at physiological maturity (R9) stage." []
+def: "The stem biomass per sample or area unit at physiological maturity (R9) stage." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000457 ! total biomass yield
 
 [Term]
 id: CO_335:0000808
 name: common bean stem biomass reduction trait
-def: "The stem biomass reduction from mid-podfilling to maturity (harvest) stage." []
+def: "The stem biomass reduction from mid-podfilling to maturity (harvest) stage." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000457 ! total biomass yield
 
 [Term]
 id: CO_335:0000809
 name: common bean total root biomass trait
-def: "The total root biomass per sample or area unit. Root biomass" []
+def: "The total root biomass per sample or area unit. Root biomass." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0001019 ! root to total biomass ratio
 
 [Term]
 id: CO_335:0000810
 name: common bean total root length trait
-def: "The total root length per sample or area unit." []
+def: "The total root length per sample or area unit." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000227 ! root length
 
 [Term]
 id: CO_335:0000811
 name: common bean presence of marker linked to bc-3 gene trait
-def: "The absence/presence bc-3 gene conditioning resistance to the BCMNV." []
+def: "The absence/presence bc-3 gene conditioning resistance to the BCMNV." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000148 ! viral disease resistance
 
 [Term]
 id: CO_335:0000812
 name: common bean presence of marker linked to bgm-1 gene trait
-def: "The absence/presence of bgm-1 gene conditioning resistance to the BGYMV." []
+def: "The absence/presence of bgm-1 gene conditioning resistance to the BGYMV." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000148 ! viral disease resistance
 
 [Term]
 id: CO_335:0000813
 name: common bean presence of marker linked to w12 qtl trait
-def: "The absence/presence of W12 QTL conditioning resistance to the BGYMV." []
+def: "The absence/presence of W12 QTL conditioning resistance to the BGYMV." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000148 ! viral disease resistance
 
 [Term]
 id: CO_335:0000814
 name: common bean angular leaf spot disease severity on leaves trait
-def: "The severity of disease caused by Phaeoisariopsis griseola (Isariopsis griseola) on leaves." []
+def: "The severity of disease caused by Phaeoisariopsis griseola (Isariopsis griseola) on leaves." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000439 ! fungal disease resistance
 
 [Term]
 id: CO_335:0000815
 name: common bean angular leaf spot disease severity on pods trait
-def: "The severity of disease caused by Phaeoisariopsis griseola (Isariopsis griseola) on pods." []
+def: "The severity of disease caused by Phaeoisariopsis griseola (Isariopsis griseola) on pods." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000439 ! fungal disease resistance
 
 [Term]
 id: CO_335:0000816
 name: common bean anthracnose disease severity on leaves trait
-def: "The severity of disease caused by Colletotrichum lindemuthianum on leaves." []
+def: "The severity of disease caused by Colletotrichum lindemuthianum on leaves." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000439 ! fungal disease resistance
 
 [Term]
 id: CO_335:0000817
 name: common bean anthracnose disease severity on pods trait
-def: "The severity of disease caused by Colletotrichum lindemuthianum on pods." []
+def: "The severity of disease caused by Colletotrichum lindemuthianum on pods." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000439 ! fungal disease resistance
 
 [Term]
 id: CO_335:0000818
 name: common bean aphids damage trait
-def: "The qualification of aphids (Aphis spp., Myzus persicae) damage on the crop." []
+def: "The qualification of aphids (Aphis spp., Myzus persicae) damage on the crop." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0006067 ! aphid resistance
 
 [Term]
 id: CO_335:0000819
 name: common bean ascochyta blight disease severity on leaves trait
-def: "The severity of disease caused by Phoma exigua var. diversispora on leaves." []
+def: "The severity of disease caused by Phoma exigua var. diversispora on leaves." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000439 ! fungal disease resistance
 
 [Term]
 id: CO_335:0000820
 name: common bean ascochyta blight disease severity on pods trait
-def: "The severity of disease caused by Phoma exigua var. diversispora on pods." []
+def: "The severity of disease caused by Phoma exigua var. diversispora on pods." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000439 ! fungal disease resistance
 
 [Term]
 id: CO_335:0000821
 name: common bean bean common mosaic necrosis virus reaction trait
-def: "The reaction to BCMNV infection." []
+def: "The reaction to BCMNV infection." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000148 ! viral disease resistance
 
 [Term]
 id: CO_335:0000822
 name: common bean bean golden yellow mosaic virus reaction trait
-def: "The plant reaction to BGYMV infection." []
+def: "The plant reaction to BGYMV infection." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000148 ! viral disease resistance
 
 [Term]
 id: CO_335:0000823
 name: common bean bean golden yellow mosaic virus severity trait
-def: "The severity of Bean Common Mosaic Necrosis Virus disease." []
+def: "The severity of Bean Common Mosaic Necrosis Virus disease." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000148 ! viral disease resistance
 
 [Term]
 id: CO_335:0000824
 name: common bean bean stem maggot damage trait
-def: "The qualification of Bean Fly (Ophiomyia spp.) damage on the crop." []
+def: "The qualification of Bean Fly (Ophiomyia spp.) damage on the crop." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000261 ! insect damage resistance
 
 [Term]
 id: CO_335:0000825
 name: common bean bruchid damage on seeds trait
-def: "The quantification of bruchid (Zabrotes subfasciatus, Acanthocelides obtectus) damage on seed." []
+def: "The quantification of bruchid (Zabrotes subfasciatus, Acanthocelides obtectus) damage on seed." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000261 ! insect damage resistance
 
 [Term]
 id: CO_335:0000826
 name: common bean common bacterial blight disease severity on leaves trait
-def: "The severity of disease caused by Xanthomonas axonopodis pv. phaseoli on leaves." []
+def: "The severity of disease caused by Xanthomonas axonopodis pv. phaseoli on leaves." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000315 ! bacterial disease resistance
 
 [Term]
 id: CO_335:0000827
 name: common bean common bacterial blight disease severity on pods trait
-def: "The severity of disease caused by Xanthomonas axonopodis pv. Phaseoli on pods." []
+def: "The severity of disease caused by Xanthomonas axonopodis pv. Phaseoli on pods." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000315 ! bacterial disease resistance
 
 [Term]
 id: CO_335:0000828
 name: common bean floury leaf spot disease severity trait
-def: "The severity of disease caused by Mycovellosiella phaseoli (Ramularia phaseoli)." []
+def: "The severity of disease caused by Mycovellosiella phaseoli (Ramularia phaseoli)." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000439 ! fungal disease resistance
 
 [Term]
 id: CO_335:0000829
 name: common bean fusarium solani disease severity trait
-def: "The severity of root rot disease caused by Fusarium solani." []
+def: "The severity of root rot disease caused by Fusarium solani." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000439 ! fungal disease resistance
 
 [Term]
 id: CO_335:0000830
 name: common bean halo blight disease severity on leaves trait
-def: "The severity of disease caused by Pseudomonas syringae pv. phaseolicola on leaves." []
+def: "The severity of disease caused by Pseudomonas syringae pv. phaseolicola on leaves." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000315 ! bacterial disease resistance
 
 [Term]
 id: CO_335:0000831
 name: common bean halo blight disease severity on pods trait
-def: "The severity of disease caused by Pseudomonas syringae pv. phaseolicola on pods." []
+def: "The severity of disease caused by Pseudomonas syringae pv. phaseolicola on pods." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000315 ! bacterial disease resistance
 
 [Term]
 id: CO_335:0000832
 name: common bean leafhopper damage trait
-def: "The qualification of Leafhopper (Empoasca kraemeri, chicharrita, saltahojas, cigarrinha verde) damage on the crop." []
+def: "The qualification of Leafhopper (Empoasca kraemeri, chicharrita, saltahojas, cigarrinha verde) damage on the crop." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000261 ! insect damage resistance
 
 [Term]
 id: CO_335:0000833
 name: common bean macrophomina disease severity trait
-def: "The severity of disease caused by Macrophomina phaseolina." []
+def: "The severity of disease caused by Macrophomina phaseolina." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000439 ! fungal disease resistance
 
 [Term]
 id: CO_335:0000835
 name: common bean rhizoctonia disease severity trait
-def: "The severity of disease caused by Rhizoctonia solani." []
+def: "The severity of disease caused by Rhizoctonia solani." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000439 ! fungal disease resistance
 
 [Term]
 id: CO_335:0000836
 name: common bean rust disease severity on leaves trait
-def: "The severity of disease caused by Uromyces appendiculatus var. appendiculatus (Uromyces phaseoli) on leaves." []
+def: "The severity of disease caused by Uromyces appendiculatus var. appendiculatus (Uromyces phaseoli) on leaves." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000439 ! fungal disease resistance
 
 [Term]
 id: CO_335:0000837
 name: common bean southern blight disease severity trait
-def: "The severity of disease caused by Sclerotium rolfsii." []
+def: "The severity of disease caused by Sclerotium rolfsii." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000439 ! fungal disease resistance
 
 [Term]
 id: CO_335:0000838
 name: common bean web blight disease severity trait
-def: "The severity of disease caused by Thanatephorus cucumeris." []
+def: "The severity of disease caused by Thanatephorus cucumeris." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000439 ! fungal disease resistance
 
 [Term]
 id: CO_335:0000839
 name: common bean white mold disease severity trait
-def: "The severity of disease caused by Sclerotinia sclerotiorum." []
+def: "The severity of disease caused by Sclerotinia sclerotiorum." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000439 ! fungal disease resistance
 
 [Term]
 id: CO_335:0000841
 name: common bean emerging cotyledon color trait
-def: "The color of cotyledons at emergence stage." []
+def: "The color of cotyledons at emergence stage." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000750 ! seedling cotyledon color
 
 [Term]
 id: CO_335:0000842
 name: common bean flower color trait
-def: "The most prominent color of flowers." []
+def: "The most prominent color of flowers." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000537 ! flower color
 
 [Term]
 id: CO_335:0000843
 name: common bean flower standard color trait
-def: "The prominent color of standards." []
+def: "The prominent color of standards." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000572 ! petal color
 
 [Term]
 id: CO_335:0000844
 name: common bean flower wings color trait
-def: "The prominent color of wings." []
+def: "The prominent color of wings." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000572 ! petal color
 
 [Term]
 id: CO_335:0000845
 name: common bean hypocotyl pigmentation trait
-def: "The coloration of hypocotyls." []
+def: "The coloration of hypocotyls." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000759 ! seedling hypocotyl color
 
 [Term]
 id: CO_335:0000846
 name: common bean mature pod color trait
-def: "The color of pods at physiological maturity." []
+def: "The color of pods at physiological maturity." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0002617 ! fruit color
 
 [Term]
 id: CO_335:0000847
 name: common bean plant basal root length trait
-def: "The basal root length per plant." []
+def: "The basal root length per plant." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000227 ! root length
 
 [Term]
 id: CO_335:0000848
 name: common bean plant basal root number trait
-def: "The number of basal roots per plant." []
+def: "The number of basal roots per plant." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000084 ! root number
 
 [Term]
 id: CO_335:0000849
 name: common bean plant basal root whorl number trait
-def: "The number of basal root whorls per plant." []
+def: "The number of basal root whorls per plant." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000084 ! root number
 
 [Term]
 id: CO_335:0000850
 name: common bean plant growth habit trait
-def: "The growth habit the plants." []
+def: "The growth habit the plants." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000947 ! whole plant growth and development trait
 
 [Term]
 id: CO_335:0000851
 name: common bean plant pod position trait
-def: "The placement of pods on the vertical axis of plants." []
+def: "The placement of pods on the vertical axis of plants." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:1000011 ! fruit position
 
 [Term]
 id: CO_335:0000852
 name: common bean pod beak orientation trait
-def: "The pod beak orientation." []
+def: "The pod beak orientation." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0001082 ! legume fruit morphology trait
 
 [Term]
 id: CO_335:0000853
 name: common bean pod beak position trait
-def: "The beak position of pods." []
+def: "The beak position of pods." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0001082 ! legume fruit morphology trait
 
 [Term]
 id: CO_335:0000854
 name: common bean pod cross section trait
-def: "The cross section of immature fully expanded pods." []
+def: "The cross section of immature fully expanded pods." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0002625 ! fruit size
 
 [Term]
 id: CO_335:0000855
 name: common bean pod curvature trait
-def: "The curvature of immature fully expanded pods." []
+def: "The curvature of immature fully expanded pods." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0001082 ! legume fruit morphology trait
 
 [Term]
 id: CO_335:0000856
 name: common bean pod length trait
-def: "The length of pods." []
+def: "The length of pods." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0002626 ! fruit length
 
 [Term]
 id: CO_335:0000857
 name: common bean pod width trait
-def: "The width of pods." []
+def: "The width of pods." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0002627 ! fruit width
 
 [Term]
 id: CO_335:0000858
 name: common bean seed brilliance trait
-def: "The shininess or opaqueness of seeds at harvest." []
+def: "The shininess or opaqueness of seeds at harvest." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000486 ! seed color
 
 [Term]
 id: CO_335:0000859
 name: common bean seed color pattern trait
-def: "The pattern of color distribution on seed coat." []
+def: "The pattern of color distribution on seed coat." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000904 ! seed coat pattern
 
 [Term]
 id: CO_335:0000860
 name: common bean seed height trait
-def: "The height of seeds. The height is the distance between the hilum and the side of the seed opposite the hilum." []
+def: "The height of seeds. The height is the distance between the hilum and the side of the seed opposite the hilum." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000304 ! seed thickness
 
 [Term]
 id: CO_335:0000861
 name: common bean seed length trait
-def: "The length of seeds. The length is the longest dimension of the seed." []
+def: "The length of seeds. The length is the longest dimension of the seed." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000146 ! seed length
 
 [Term]
 id: CO_335:0000862
 name: common bean seed primary color trait
-def: "The predominant color of seeds." []
+def: "The predominant color of seeds." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000486 ! seed color
 
 [Term]
 id: CO_335:0000863
 name: common bean seed secondary color trait
-def: "The secondary color, when present, of seeds." []
+def: "The secondary color, when present, of seeds." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000486 ! seed color
 
 [Term]
 id: CO_335:0000864
 name: common bean seed shape trait
-def: "The shape of seeds." []
+def: "The shape of seeds." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000484 ! seed shape
 
 [Term]
 id: CO_335:0000865
 name: common bean seed width trait
-def: "The width of seeds as the distance between the 2 lateral sides." []
+def: "The width of seeds as the distance between the 2 lateral sides." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000149 ! seed width
 
 [Term]
 id: CO_335:0000866
 name: common bean stem pigmentation trait
-def: "The prominent color of stems." []
+def: "The prominent color of stems." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000056 ! stem color
 
 [Term]
 id: CO_335:0000868
 name: common bean flowering date trait
-def: "The date when 50% of plants have at least one flower." []
+def: "The date when 50% of plants have at least one flower." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000344 ! days to flowering trait
 
 [Term]
 id: CO_335:0000872
 name: common bean physiological maturity date trait
-def: "The date when the first pod begins to discolor in 50% of the plants." []
+def: "The date when the first pod begins to discolor in 50% of the plants." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000469 ! days to maturity
 
 [Term]
 id: CO_335:0000874
 name: common bean plant days to flowering trait
-def: "The number of days from planting to when 50% of plants have at least one flower." []
+def: "The number of days from planting to when 50% of plants have at least one flower." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000344 ! days to flowering trait
 
 [Term]
 id: CO_335:0000875
 name: common bean plant days to physiological maturity trait
-def: "The number of days from planting to when the first pod begins to discolor in 50% of the plants." []
+def: "The number of days from planting to when the first pod begins to discolor in 50% of the plants." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000469 ! days to maturity
 
 [Term]
 id: CO_335:0000877
 name: common bean canopy temperature trait
-def: "The temperature of canopies." []
+def: "The temperature of canopies." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000504 ! leaf temperature
 
 [Term]
 id: CO_335:0000878
 name: common bean canopy temperature depression trait
-def: "The canopy temperature depression relative to air temperature." []
+def: "The canopy temperature depression relative to air temperature." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000504 ! leaf temperature
 
 [Term]
 id: CO_335:0000879
 name: common bean crop agronomic water efficiency trait
-def: "The agronomic water efficiency of the crop." []
+def: "The agronomic water efficiency of the crop." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0001017 ! water use efficiency
 
 [Term]
 id: CO_335:0000880
 name: common bean crop evapotranspiration rate trait
-def: "The rate of evapotranspiration of the crop." []
+def: "The rate of evapotranspiration of the crop." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0001018 ! transpiration rate
 
 [Term]
 id: CO_335:0000881
 name: common bean leaf 15n natural abundance trait
-def: "The 15N natural abundance in seeds, used to determine symbiotic nitrogen fixation (SNF) ability." []
+def: "The 15N natural abundance in seeds, used to determine symbiotic nitrogen fixation (SNF) ability." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0020093 ! nitrogen content
 
 [Term]
 id: CO_335:0000882
 name: common bean leaf carbon isotope discrimination trait
-def: "The carbon isotope discrimination determined on leaves." []
+def: "The carbon isotope discrimination determined on leaves." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0002643 ! carbon isotope discrimination
 
 [Term]
 id: CO_335:0000883
 name: common bean leaf chlorophyll content trait
-def: "The chlorophyll content on leaves." []
+def: "The chlorophyll content on leaves." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0012002 ! leaf chlorophyll content
 
 [Term]
 id: CO_335:0000884
 name: common bean leaf loss trait
-def: "The loss of leaves." []
+def: "The loss of leaves." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000108 ! leaf shattering
 
 [Term]
 id: CO_335:0000885
 name: common bean leaf persistence trait
-def: "The persistence of leaves at harvest time." []
+def: "The persistence of leaves at harvest time." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000108 ! leaf shattering
 
 [Term]
 id: CO_335:0000886
 name: common bean leaf quantum yield of photosystem ii trait
-def: "The quantum yield (QY) is a measure of the Photosystem II efficiency. QY is equivalent to Fv/Fm in dark-adapted samples and to Fv /Fm in light-adapted samples." []
+def: "The quantum yield (QY) is a measure of the Photosystem II efficiency. QY is equivalent to Fv/Fm in dark-adapted samples and to Fv /Fm in light-adapted samples." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0012004 ! quantum yield
 
 [Term]
 id: CO_335:0000887
 name: common bean leaf relative water content trait
-def: "The water status of leaves." []
+def: "The water status of leaves." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000136 ! leaf relative water content
 
 [Term]
 id: CO_335:0000888
 name: common bean leaf stomatal conductance trait
-def: "The stomatal conductance of leaves." []
+def: "The stomatal conductance of leaves." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000522 ! stomatal conductance
 
 [Term]
 id: CO_335:0000889
 name: common bean leaf total non-structural carbohydrates content trait
-def: "The total non-structural carbohydrates content in leaves." []
+def: "The total non-structural carbohydrates content in leaves." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000291 ! carbohydrate content
 
 [Term]
 id: CO_335:0000890
 name: common bean plant effective nodules number trait
-def: "The number of effective Rhizobium spp. nodules per plant." []
+def: "The number of effective Rhizobium spp. nodules per plant." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000900 ! root nodule number
 
 [Term]
 id: CO_335:0000892
 name: common bean plant nodules number trait
-def: "The number of nodules per plant." []
+def: "The number of nodules per plant." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000900 ! root nodule number
 
 [Term]
 id: CO_335:0000893
 name: common bean plant nodules weight trait
-def: "The weight of nodules per plant." []
+def: "The weight of nodules per plant." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000899 ! root nodule weight
 
 [Term]
 id: CO_335:0000894
 name: common bean plant wilting score trait
-def: "The wilting score of plants." []
+def: "The wilting score of plants." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000394 ! drought related trait
 
 [Term]
 id: CO_335:0000895
 name: common bean pod production efficiency trait
-def: "The pod production effieciency as relationship between number of pods at harvest and shoot biomass at mid-podfilling." []
+def: "The pod production effieciency as relationship between number of pods at harvest and shoot biomass at mid-podfilling." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0001125 ! pod number trait
 
 [Term]
 id: CO_335:0000896
 name: common bean pod wall biomass proportion trait
-def: "The proportion of pod wall biomass in pods biomass." []
+def: "The proportion of pod wall biomass in pods biomass." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0001092 ! legume fruit weight
 
 [Term]
 id: CO_335:0000897
 name: common bean seed 15n natural abundance trait
-def: "The 15N natural abundance in leaves, used to determine symbiotic nitrogen fixation (SNF) ability." []
+def: "The 15N natural abundance in leaves, used to determine symbiotic nitrogen fixation (SNF) ability." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0020093 ! nitrogen content
 
 [Term]
 id: CO_335:0000898
 name: common bean seed calcium content trait
-def: "The content of calcium in seeds." []
+def: "The content of calcium in seeds." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0006047 ! calcium content trait
 
 [Term]
 id: CO_335:0000899
 name: common bean seed carbon isotope discrimination trait
-def: "The carbon isotope discrimination determined on seeds." []
+def: "The carbon isotope discrimination determined on seeds." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0002643 ! carbon isotope discrimination
 
 [Term]
 id: CO_335:0000900
 name: common bean seed filling index trait
-def: "The seed filling index." []
+def: "The seed filling index." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0002661 ! seed maturation
 
 [Term]
 id: CO_335:0000901
 name: common bean seed magnesium content trait
-def: "The content of magnesium in seeds." []
+def: "The content of magnesium in seeds." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0006044 ! magnesium content
 
 [Term]
 id: CO_335:0000902
 name: common bean seed nitrogen content trait
-def: "The content of nitrogen in seeds." []
+def: "The content of nitrogen in seeds." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0020093 ! nitrogen content
 
 [Term]
 id: CO_335:0000903
 name: common bean seed potassium content trait
-def: "The content of potassium in seeds." []
+def: "The content of potassium in seeds." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000609 ! potassium content
 
 [Term]
 id: CO_335:0000904
 name: common bean seed production efficiency trait
-def: "The seed production efficiency as relationship between number of seeds at harvest and shoot biomass at mid-podfilling." []
+def: "The seed production efficiency as relationship between number of seeds at harvest and shoot biomass at mid-podfilling." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000445 ! fruit seed number
 
 [Term]
 id: CO_335:0000905
 name: common bean seed total non-structural carbohydrates content trait
-def: "The total non-structural carbohydrates content in seeds." []
+def: "The total non-structural carbohydrates content in seeds." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000291 ! carbohydrate content
 
 [Term]
 id: CO_335:0000906
 name: common bean seed yield production efficiency trait
-def: "The seed yield production efficiency as relationship between seed yield (biomass) at harvest and shoot biomass at mid-podfilling." []
+def: "The seed yield production efficiency as relationship between seed yield (biomass) at harvest and shoot biomass at mid-podfilling." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000905 ! seed yield trait
 
 [Term]
 id: CO_335:0000907
 name: common bean shoot calcium content trait
-def: "The content of calcium in shoots." []
+def: "The content of calcium in shoots." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:1000055 ! shoot system calcium content
 
 [Term]
 id: CO_335:0000908
 name: common bean shoot magnesium content trait
-def: "The content of magnesium in shoots." []
+def: "The content of magnesium in shoots." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:1000063 ! shoot system magnesium content
 
 [Term]
 id: CO_335:0000909
 name: common bean shoot nitrogen content trait
-def: "The content of nitrogen in shoots." []
+def: "The content of nitrogen in shoots." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0003062 ! stem nitrogen content
 
 [Term]
 id: CO_335:0000910
 name: common bean shoot phosphorus content trait
-def: "The content of phosphorus in shoots." []
+def: "The content of phosphorus in shoots." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0020114 ! shoot system phosphorus content
 
 [Term]
 id: CO_335:0000911
 name: common bean shoot potassium content trait
-def: "The content of potassium in shoots." []
+def: "The content of potassium in shoots." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0003050 ! stem potassium content
 
 [Term]
 id: CO_335:0000912
 name: common bean shoot total non-structural carbohydrates content trait
-def: "The total non-structural carbohydrates content in shoots." []
+def: "The total non-structural carbohydrates content in shoots." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000291 ! carbohydrate content
 
 [Term]
 id: CO_335:0000913
 name: common bean stem total non-structural carbohydrates content trait
-def: "The total non-structural carbohydrates content in stems." []
+def: "The total non-structural carbohydrates content in stems." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000291 ! carbohydrate content
 
 [Term]
 id: CO_335:0000914
 name: common bean seed cooking time trait
-def: "The time taken for 96 to 100% of seeds to reach soft texture during cooking." []
+def: "The time taken for 96 to 100% of seeds to reach soft texture during cooking." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_335:0000915
 name: common bean seed iron content trait
-def: "The content of iron in seeds." []
+def: "The content of iron in seeds." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:1000060 ! shoot system iron content
 
 [Term]
 id: CO_335:0000916
 name: common bean seed phosphorus content trait
-def: "The content of phosphorus in seeds." []
+def: "The content of phosphorus in seeds." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0020114 ! shoot system phosphorus content
 
 [Term]
 id: CO_335:0000917
 name: common bean seed protein content trait
-def: "The content of protein in seeds." []
+def: "The content of protein in seeds." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000490 ! seed protein composition trait
 
 [Term]
 id: CO_335:0000918
 name: common bean seed total phytates content trait
-def: "The content of total phytates in seeds." []
+def: "The content of total phytates in seeds." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0020114 ! shoot system phosphorus content
 
 [Term]
 id: CO_335:0000919
 name: common bean seed zinc content trait
-def: "The content of zinc in seeds." []
+def: "The content of zinc in seeds." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:1000073 ! shoot system zinc content
 
