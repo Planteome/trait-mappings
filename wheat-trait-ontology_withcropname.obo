@@ -30,7 +30,7 @@ id: CO_321:0000009
 name: wheat plant early vigour trait
 def: "Capacity of a seedling or plant to grow vegetatively in early stages of development." [CO:curators]
 synonym: "ErlVig" EXACT []
-synonym: "Seedling vigour, Plant early vigor" EXACT []
+synonym: "seedling vigour, plant early vigor" EXACT []
 is_a: TO:0000250 ! plant vigor trait
 
 [Term]
