@@ -950,7 +950,7 @@ is_a: TO:0000162 ! grain quality trait
 [Term]
 id: CO_321:0000175
 name: wheat leaf tip necrosis incidence trait
-def: "A physiological phenomenon caused by hot, dry and windy weather. the whole tip of the flag leaf tends to be necrotic and will often fold over. leaf tip necrosis progresses from the margins of the flag leaf tip and lower leaves as well show some signs of it. leaf tip necrosis is observed to some extent in all wheat varieties containing the leaf rust gene resistance gene lr34." [CO:curators]
+def: "A physiological phenomenon caused by hot, dry and windy weather. The whole tip of the flag leaf tends to be necrotic and will often fold over. leaf tip necrosis progresses from the margins of the flag leaf tip and lower leaves as well show some signs of it. leaf tip necrosis is observed to some extent in all wheat varieties containing the leaf rust gene resistance gene lr34." [CO:curators]
 synonym: "LeafTNecro" EXACT []
 is_a: TO:0000168 ! abiotic plant stress trait
 
