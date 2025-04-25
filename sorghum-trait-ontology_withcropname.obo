@@ -466,13 +466,6 @@ synonym: "PcleOTNo" EXACT []
 is_a: TO:0000152 ! panicle number
 
 [Term]
-id: CO_324:0000178
-name: sorghum panicle selected number
-def: "Number of selected panicles selected in breeding nursery." [CO:curators]
-synonym: "NSPcle" EXACT []
-is_a: TO:0000152 ! panicle number
-
-[Term]
 id: CO_324:0000181
 name: sorghum striga plant number
 def: "Striga plant number." [CO:curators]
