@@ -809,98 +809,98 @@ is_a: TO:0006061 ! days to germinate
 
 [Term]
 id: CO_324:0001101
-name: sorghum germination rate�� trait
+name: sorghum germination rate trait
 def: "Rate of germination." [CO:curators]
 synonym: "GermRt" EXACT []
 is_a: TO:0000430 ! germination rate
 
 [Term]
 id: CO_324:0001103
-name: sorghum disease tolerance�� trait
+name: sorghum disease tolerance trait
 def: "Tolerance to diseases - the disease type is documented in complementary data." [CO:curators]
 synonym: "DisTol" EXACT []
 is_a: TO:0000112 ! microbial disease response
 
 [Term]
 id: CO_324:0001105
-name: sorghum pest tolerance�� trait
+name: sorghum pest tolerance trait
 def: "Tolerance to Pests - the pest identification is documented in complementary data." [CO:curators]
 synonym: "PtTol" EXACT []
 is_a: TO:0000179 ! biotic plant stress trait
 
 [Term]
 id: CO_324:0001107
-name: sorghum abiotic stress tolerance�� trait
+name: sorghum abiotic stress tolerance trait
 def: "Tolerance to abiotic stress - stress type is docuelnetd in complementary data." [CO:curators]
 synonym: "AbSt" EXACT []
 is_a: TO:0000168 ! abiotic plant stress response trait
 
 [Term]
 id: CO_324:0001109
-name: sorghum plant survival�� trait
+name: sorghum plant survival trait
 def: "Survival of plants." [CO:curators]
 synonym: "PlSur" EXACT []
 is_a: TO:0000250 ! plant vigor trait
 
 [Term]
 id: CO_324:0001111
-name: sorghum maturity�� trait
+name: sorghum maturity trait
 def: "nan." [CO:curators]
 synonym: "Mat" EXACT []
 is_a: TO:0000469 ! days to maturity
 
 [Term]
 id: CO_324:0001113
-name: sorghum stay green���� trait
+name: sorghum stay green trait
 def: "nan." [CO:curators]
 synonym: "StGr" EXACT []
 is_a: TO:0002712 ! stay green trait
 
 [Term]
 id: CO_324:0001115
-name: sorghum marketability�� trait
+name: sorghum marketability trait
 def: "nan." [CO:curators]
 synonym: "Mkt" EXACT []
 is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_324:0001117
-name: sorghum taste�� trait
+name: sorghum taste trait
 def: "nan." [CO:curators]
 synonym: "Tst" EXACT []
 is_a: TO:0002694 ! fruit flavor trait
 
 [Term]
 id: CO_324:0001119
-name: sorghum threshability�� trait
+name: sorghum threshability trait
 def: "nan." [CO:curators]
 synonym: "Thr" EXACT []
 is_a: TO:0000406 ! panicle threshability
 
 [Term]
 id: CO_324:0001121
-name: sorghum overall preference�� trait
+name: sorghum overall preference trait
 def: "nan." [CO:curators]
 synonym: "OvPrf" EXACT []
 is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_324:0001123
-name: sorghum overall performance vs local�� trait
+name: sorghum overall performance vs local trait
 def: "nan." [CO:curators]
 synonym: "OvPrfvLoc" EXACT []
 is_a: TO:0000322 ! phenotypic acceptability
 
 [Term]
 id: CO_324:0001125
-name: sorghum storage problems��tolerance trait
+name: sorghum storage problemstolerance trait
 def: "nan." [CO:curators]
 synonym: "StoPrbTol" EXACT []
 is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_324:0001127
-name: sorghum storability���� trait
+name: sorghum storability trait
 def: "nan." [CO:curators]
 synonym: "Stobly" EXACT []
 is_a: TO:0000396 ! grain yield trait
@@ -914,7 +914,7 @@ is_a: TO:0000396 ! grain yield trait
 
 [Term]
 id: CO_324:0001131
-name: sorghum grain size for target market/use�� trait
+name: sorghum grain size for target market/use trait
 def: "Quality and adequacy of the size for target use and/or markets." [CO:curators]
 synonym: "GrSzUs" EXACT []
 is_a: TO:0000397 ! grain size
