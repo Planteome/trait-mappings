@@ -1916,12 +1916,644 @@ synonym: "TSpl" EXACT []
 is_a: TO:0000933 ! plant phenological trait
 
 [Term]
+id: CO_321:0000960
+name: wheat awn color trait
+def: "Awn color." [CO:curators]
+synonym: "AwnCol" EXACT []
+is_a: TO:0000141 ! awn color
+
+[Term]
+id: CO_321:0000961
+name: wheat canopy green normalized difference vegetation index trait
+def: "Normalized difference vegetation index is used to measure vegetative greenness and canopy photosynthetic size." [CO:curators]
+synonym: "GNDVI" EXACT []
+is_a: TO:0000249 ! leaf senescence trait
+
+[Term]
+id: CO_321:0000962
+name: wheat canopy red normalized difference vegetation index trait
+def: "Normalized difference vegetation index is used to measure vegetative greenness and canopy photosynthetic size." [CO:curators]
+synonym: "RNDVI" EXACT []
+is_a: TO:0000249 ! leaf senescence trait
+
+[Term]
+id: CO_321:0000963
+name: wheat winter survival trait
+def: "Ability to survive or withstand cold temperatures in the late fall, winter, or early spring." [CO:curators]
+synonym: "winter hardiness" EXACT []
+synonym: "Wsurv" EXACT []
+is_a: TO:0001153 ! survival rate after freezing temperature stress
+
+[Term]
+id: CO_321:0000966
+name: wheat grain amylopectin content trait
+def: "Content of amylopectin in grain." [CO:curators]
+synonym: "GAmyloPec" EXACT []
+is_a: TO:0000097 ! amylopectin content
+
+[Term]
+id: CO_321:0000967
+name: wheat grain lysine content trait
+def: "Lysine content of the kernel/grain." [CO:curators]
+synonym: "GLys" EXACT []
+is_a: TO:0002673 ! amino acid content
+
+[Term]
+id: CO_321:0000970
+name: wheat rachis length trait
+def: "Length of rachis." [CO:curators]
+synonym: "RachLng" EXACT []
+is_a: TO:0001072 ! inflorescence axis length
+
+[Term]
+id: CO_321:0000971
+name: wheat spike type trait
+def: "Shape characteristics of typical mature spikes." [CO:curators]
+synonym: "SpkTyp" EXACT []
+is_a: TO:0000267 ! inflorescence type
+
+[Term]
+id: CO_321:0000972
+name: wheat stand establishment trait
+def: "Measurement of plant emergence and vigor in the field." [CO:curators]
+synonym: "StdEst" EXACT []
+is_a: TO:0000250 ! plant vigor trait
+
+[Term]
+id: CO_321:0000973
+name: wheat stem color trait
+def: "Color of the stems." [CO:curators]
+synonym: "StmCol" EXACT []
+is_a: TO:0000056 ! stem color
+
+[Term]
+id: CO_321:0000974
+name: wheat straw breakage trait
+def: "Amount of straw breakage." [CO:curators]
+synonym: "StrawBreak" EXACT []
+is_a: TO:0000200 ! brittle culm
+
+[Term]
+id: CO_321:0000975
+name: wheat straw color trait
+def: "Color of straw." [CO:curators]
+synonym: "StrawCol" EXACT []
+is_a: TO:0000056 ! stem color
+
+[Term]
+id: CO_321:0000976
+name: wheat straw strength trait
+def: "Strength of straw." [CO:curators]
+synonym: "StrawStn" EXACT []
+is_a: TO:0000200 ! brittle culm
+
+[Term]
+id: CO_321:0000977
+name: wheat straw yield trait
+def: "Amount (weight) of straw." [CO:curators]
+synonym: "StrawDW" EXACT []
+synonym: "StrawYld" EXACT []
+synonym: "STRBM" EXACT []
+is_a: TO:0000327 ! shoot system yield trait
+
+[Term]
+id: CO_321:0000978
+name: wheat whole meal flour ash content trait
+def: "Ash content in flour." [CO:curators]
+synonym: "WMFlrAsh" EXACT []
+is_a: TO:0000607 ! ash content
+
+[Term]
+id: CO_321:0000979
+name: wheat grain length trait
+def: "Length of whole grain." [CO:curators]
+synonym: "GLng" EXACT []
+synonym: "kernel length" EXACT []
+is_a: TO:0000734 ! grain length
+
+[Term]
+id: CO_321:0000980
+name: wheat grain width trait
+def: "Width of whole grain." [CO:curators]
+synonym: "GWid" EXACT []
+synonym: "kernel width" EXACT []
+is_a: TO:0000975 ! grain width
+
+[Term]
+id: CO_321:0000981
+name: wheat grain thickness trait
+def: "Thickness of whole grain." [CO:curators]
+synonym: "GThk" EXACT []
+synonym: "kernel thickeness" EXACT []
+is_a: TO:0000399 ! grain thickness
+
+[Term]
+id: CO_321:0000982
+name: wheat anther extrusion trait
+def: "Extrusion of anthers." [CO:curators]
+synonym: "AnthExt" EXACT []
+is_a: TO:0000274 ! spikelet floret morphology trait
+
+[Term]
 id: CO_321:0001019
 name: wheat bacterial leaf streak severity trait
 def: "Bacterial leaf streak severity in the plants caused by the agent Xanthomonas translucens. the disease, called black chaff when on the glumes." [CO:curators]
 synonym: "BLS, black chaff" EXACT []
 synonym: "BLSSev" EXACT []
 is_a: TO:0020066 ! barley leaf streak resistance
+
+[Term]
+id: CO_321:0001031
+name: wheat wheat blast severity trait
+def: "Wheat blast severity in the spikes caused by the agent Magnaporthe grisea (Pyricularia oryzae). Symptoms: It can infect all above-ground parts of the wheat plant, but head blast, resembling Fusarium head blight in appearance, is the most common symptom in the field. Infected spikes become bleached and produce small shriveled seed or none at all." [CO:curators]
+synonym: "MgrisSev" EXACT []
+is_a: TO:0001145 ! Ascomycete fungal disease response
+
+[Term]
+id: CO_321:0001032
+name: wheat forage dry matter trait
+def: "Forage dry matter." [CO:curators]
+synonym: "ForgDM" EXACT []
+is_a: TO:0000388 ! forage yield
+
+[Term]
+id: CO_321:0001484
+name: wheat infertile spike number trait
+def: "Number of infertile spikelet per spike." [CO:curators]
+synonym: "InfertSpkN" EXACT []
+synonym: "InflSPKLSP" EXACT []
+is_a: TO:0000392 ! sterility or fertility trait
+
+[Term]
+id: CO_321:0001485
+name: wheat rapid spike growth period trait
+def: "Rapid spike growth period." [CO:curators]
+synonym: "RSGP" EXACT []
+synonym: "RSpkGP" EXACT []
+is_a: TO:0000654 ! shoot system growth and development trait
+
+[Term]
+id: CO_321:0001486
+name: wheat grain yield production rate trait
+def: "Grain yield production rate." [CO:curators]
+synonym: "GYPR" EXACT []
+is_a: TO:0000396 ! grain yield trait
+
+[Term]
+id: CO_321:0001487
+name: wheat biomass production rate trait
+def: "Biomass production rate." [CO:curators]
+synonym: "BMPR" EXACT []
+is_a: TO:0000457 ! biomass yield
+
+[Term]
+id: CO_321:0001488
+name: wheat terminal spikelet thermal time trait
+def: "Thermal time from emergence to Terminal Spikelet (GS30)." [CO:curators]
+synonym: "TTTS" EXACT []
+is_a: TO:0000933 ! plant phenological trait
+
+[Term]
+id: CO_321:0001489
+name: wheat booting initiation thermal time trait
+def: "Thermal time from emergence to Initiation of Booting (GS41)." [CO:curators]
+synonym: "TTIB" EXACT []
+is_a: TO:0000933 ! plant phenological trait
+
+[Term]
+id: CO_321:0001490
+name: wheat booting thermal time trait
+def: "Thermal time from emergence to Booting (GS45)." [CO:curators]
+synonym: "TTB" EXACT []
+is_a: TO:0000933 ! plant phenological trait
+
+[Term]
+id: CO_321:0001491
+name: wheat heading thermal time trait
+def: "Thermal time from emergence to Heading (GS55)." [CO:curators]
+synonym: "TTH" EXACT []
+is_a: TO:0000933 ! plant phenological trait
+
+[Term]
+id: CO_321:0001492
+name: wheat anthesis thermal time trait
+def: "Thermal time from emergence to Anthesis (GS65)." [CO:curators]
+synonym: "TTA" EXACT []
+is_a: TO:0000933 ! plant phenological trait
+
+[Term]
+id: CO_321:0001493
+name: wheat physiological maturity thermal time trait
+def: "Thermal time from emergence to Physiological Maturity (GS87)." [CO:curators]
+synonym: "TTM" EXACT []
+is_a: TO:0000933 ! plant phenological trait
+
+[Term]
+id: CO_321:0001494
+name: wheat spike photosynthesis contribution trait
+def: "Photosynthetic contribution of the spike (ear) to grain yield." [CO:curators]
+synonym: "SpkPho" EXACT []
+is_a: TO:0000316 ! photosynthetic ability
+
+[Term]
+id: CO_321:0001495
+name: wheat fruiting efficiency trait
+def: "The final outcome of the floret developmental rates (determining the number of floret primordia that reach the stage of fertile florets at anthesis) and the proportion of grain set per fertile floret (the opposite to grain abortion), per unit of spike weight." [CO:curators]
+synonym: "FE" EXACT []
+is_a: TO:0000396 ! grain yield trait
+
+[Term]
+id: CO_321:0001496
+name: wheat spike partitioning index trait
+def: "Spike partitioning index." [CO:curators]
+synonym: "SPI" EXACT []
+synonym: "SpkPI" EXACT []
+is_a: TO:0000895 ! fruit harvest index
+
+[Term]
+id: CO_321:0001497
+name: wheat leaf lamina partitioning index trait
+def: "Leaf lamina partitioning index." [CO:curators]
+synonym: "LeafPI" EXACT []
+synonym: "LPI" EXACT []
+is_a: TO:0000128 ! harvest index
+
+[Term]
+id: CO_321:0001498
+name: wheat leaf sheath partitioning index trait
+def: "Leaf sheath partitioning index." [CO:curators]
+synonym: "LeafSPI" EXACT []
+synonym: "LSPI" EXACT []
+is_a: TO:0000128 ! harvest index
+
+[Term]
+id: CO_321:0001499
+name: wheat true stem partitioning index trait
+def: "True stem partitioning index." [CO:curators]
+synonym: "TSPI" EXACT []
+is_a: TO:0000128 ! harvest index
+
+[Term]
+id: CO_321:0001500
+name: wheat specific leaf area trait
+def: "A ratio of the leaf area to dry mass." [CO:curators]
+synonym: "SLA" EXACT []
+is_a: TO:0000562 ! specific leaf area
+
+[Term]
+id: CO_321:0001501
+name: wheat leaf net photosynthesis rate trait
+def: "Carbon fixation by photosynthesis." [CO:curators]
+synonym: "Anet" EXACT []
+is_a: TO:0001015 ! photosynthetic rate
+
+[Term]
+id: CO_321:0001502
+name: wheat leaf light-saturated net photosynthesis trait
+def: "Carbon fixation by photosynthesis at saturating light." [CO:curators]
+synonym: "Asat" EXACT []
+is_a: TO:0001015 ! photosynthetic rate
+
+[Term]
+id: CO_321:0001503
+name: wheat leaf light and carbon dioxide-saturated net photosynthesis trait
+def: "Carbon fixation by photosynthesis at saturating light and CO2." [CO:curators]
+synonym: "Amax" EXACT []
+is_a: TO:0001015 ! photosynthetic rate
+
+[Term]
+id: CO_321:0001504
+name: wheat leaf intercellular carbon dioxide concentration trait
+def: "Intercellular carbon dioxide concentration." [CO:curators]
+synonym: "Ci" EXACT []
+is_a: TO:0000316 ! photosynthetic ability
+
+[Term]
+id: CO_321:0001505
+name: wheat leaf quantum yield of photosystem ii trait
+def: "Quantum yield of electron transfer at PSII." [CO:curators]
+synonym: "PhiPS2" EXACT []
+is_a: TO:0012004 ! quantum yield
+
+[Term]
+id: CO_321:0001506
+name: wheat leaf quantum yield of carbon dioxide fixation trait
+def: "Quantum yield of carbon dioxide (CO2) fixation." [CO:curators]
+synonym: "PhiCO2" EXACT []
+is_a: TO:0012004 ! quantum yield
+
+[Term]
+id: CO_321:0001507
+name: wheat leaf electron transport rate trait
+def: "Transfer of electrons during photosynthesis in light saturated leaf." [CO:curators]
+synonym: "ETR" EXACT []
+is_a: TO:0001015 ! photosynthetic rate
+
+[Term]
+id: CO_321:0001508
+name: wheat leaf maximal fluorescence intensity trait
+def: "Maximal level of fluorescence intensity measured in the leaf." [CO:curators]
+synonym: "FmDL" EXACT []
+is_a: TO:0012006 ! fluorescence related trait
+
+[Term]
+id: CO_321:0001509
+name: wheat leaf minimal fluorescence intensity trait
+def: "Minimal level of fluorescence intensity measured in the leaf." [CO:curators]
+synonym: "FoLA" EXACT []
+is_a: TO:0012006 ! fluorescence related trait
+
+[Term]
+id: CO_321:0001510
+name: wheat leaf variable fluorescence trait
+def: "Variable fluorescence measured in the leaf." [CO:curators]
+synonym: "FvLA" EXACT []
+is_a: TO:0012006 ! fluorescence related trait
+
+[Term]
+id: CO_321:0001511
+name: wheat leaf maximum efficiency of psii photochemistry trait
+def: "Maximum quantum yield of PSII measured in the leaf." [CO:curators]
+synonym: "FvLAFmLA" EXACT []
+is_a: TO:0012004 ! quantum yield
+
+[Term]
+id: CO_321:0001512
+name: wheat leaf steady-state fluorescence trait
+def: "The fluorescence emitting during steady state." [CO:curators]
+synonym: "Fs" EXACT []
+is_a: TO:0012006 ! fluorescence related trait
+
+[Term]
+id: CO_321:0001513
+name: wheat leaf transpiration rate trait
+def: "Leaf transpiration rate." [CO:curators]
+synonym: "LeafTR" EXACT []
+synonym: "Tr" EXACT []
+is_a: TO:0001018 ! transpiration rate
+
+[Term]
+id: CO_321:0001514
+name: wheat leaf intercellular to ambient carbon dioxide ratio trait
+def: "Intercellular to ambient carbon dioxide ratio." [CO:curators]
+synonym: "CiCa" EXACT []
+is_a: TO:0000316 ! photosynthetic ability
+
+[Term]
+id: CO_321:0001515
+name: wheat canopy light interception trait
+def: "Light energy intercepted by the canopy." [CO:curators]
+synonym: "LI" EXACT []
+is_a: TO:0000316 ! photosynthetic ability
+
+[Term]
+id: CO_321:0001516
+name: wheat radiation use efficiency trait
+def: "The amount of biomass produced per unit of intercepted solar radiation." [CO:curators]
+synonym: "RUE_T" EXACT []
+is_a: TO:0000161 ! radiation response trait
+
+[Term]
+id: CO_321:0001517
+name: wheat pigment simple ratio chlorophyll a trait
+def: "Chlorophyll content in leaf green tissue. It includes ONLY chlorophyll-a. Chlorophyll is the green pigment found in plants." [CO:curators]
+synonym: "LeafPSSRa" EXACT []
+synonym: "PSSRa" EXACT []
+is_a: TO:0000293 ! chlorophyll a content
+
+[Term]
+id: CO_321:0001518
+name: wheat pigment simple ratio chlorophyll b trait
+def: "Chlorophyll content in leaf green tissue. It includes ONLY chlorophyll-b. Chlorophyll is the green pigment found in plants." [CO:curators]
+synonym: "LeafPSSRb" EXACT []
+synonym: "PSSRb" EXACT []
+is_a: TO:0000295 ! chlorophyll b content
+
+[Term]
+id: CO_321:0001519
+name: wheat leaf spectral reflectance 675 nm trait
+def: "The normalized amount of electromagnetic radiation that is reflected by the leaf at R675 nm wavelength." [CO:curators]
+synonym: "LeafR675" EXACT []
+synonym: "R675" EXACT []
+is_a: TO:0000316 ! photosynthetic ability
+
+[Term]
+id: CO_321:0001520
+name: wheat leaf spectral reflectance 550 nm trait
+def: "The normalized amount of electromagnetic radiation that is reflected by the leaf at R550 nm wavelength." [CO:curators]
+synonym: "LeafR550" EXACT []
+synonym: "R550" EXACT []
+is_a: TO:0000316 ! photosynthetic ability
+
+[Term]
+id: CO_321:0001521
+name: wheat leaf spectral reflectance 750/550 nm trait
+def: "The normalized amount of electromagnetic radiation that is reflected by the leaf at R750/R550 nm wavelength." [CO:curators]
+synonym: "LeafR750R700" EXACT []
+synonym: "R750R700" EXACT []
+is_a: TO:0000316 ! photosynthetic ability
+
+[Term]
+id: CO_321:0001522
+name: wheat leaf spectral reflectance 750/700 nm trait
+def: "The normalized amount of electromagnetic radiation that is reflected by the leaf at R750/R700 nm wavelength." [CO:curators]
+synonym: "LeafR750R700" EXACT []
+synonym: "R750R700" EXACT []
+is_a: TO:0000316 ! photosynthetic ability
+
+[Term]
+id: CO_321:0001523
+name: wheat spike dry weight trait
+def: "Dry weight of spike(s)." [CO:curators]
+synonym: "SpkDW" EXACT []
+is_a: TO:0000803 ! inflorescence weight
+
+[Term]
+id: CO_321:0001524
+name: wheat flag leaf lamina length trait
+def: "Length of flag leaf lamina." [CO:curators]
+synonym: "FLeafLLng" EXACT []
+is_a: TO:0002757 ! flag leaf length
+
+[Term]
+id: CO_321:0001525
+name: wheat flag leaf lamina width trait
+def: "Width of flag leaf lamina." [CO:curators]
+synonym: "FLeafLWid" EXACT []
+is_a: TO:0002758 ! flag leaf lamina width
+
+[Term]
+id: CO_321:0001526
+name: wheat grain weight per spike trait
+def: "Grain weight per spike." [CO:curators]
+synonym: "SpkGW" EXACT []
+is_a: TO:0000919 ! grain weight
+
+[Term]
+id: CO_321:0001527
+name: wheat stripe rust seedling response trait
+def: "Stripe rust (yellow rust) response in the seedlings caused by the agent Puccinia striiformis f.sp. tritici." [CO:curators]
+synonym: "PSTRIL" EXACT []
+synonym: "PstriSdlgResp" EXACT []
+synonym: "Stripe rust" EXACT []
+synonym: "YRResp" EXACT []
+synonym: "YRustResp" EXACT []
+is_a: TO:0020055 ! wheat stripe rust disease response
+
+[Term]
+id: CO_321:0001528
+name: wheat leaf rolling severity trait
+def: "Severity of leaf rolling, usually scored under drought stress." [CO:curators]
+synonym: "LRollSev" EXACT []
+is_a: TO:0000085 ! leaf rolling
+
+[Term]
+id: CO_321:0001529
+name: wheat leaf rolling incidence trait
+def: "Incidence of leaf rolling, usually scored under drought stress." [CO:curators]
+synonym: "LRollInc" EXACT []
+is_a: TO:0000085 ! leaf rolling
+
+[Term]
+id: CO_321:0001652
+name: wheat grain number per tiller trait
+def: "Number of grains per tiller." [CO:curators]
+synonym: "GRATIL" EXACT []
+is_a: TO:0000919 ! grain weight
+
+[Term]
+id: CO_321:0001653
+name: wheat grain weight per tiller trait
+def: "Grain weight per tiller." [CO:curators]
+synonym: "GWTTILL" EXACT []
+is_a: TO:0000919 ! grain weight
+
+[Term]
+id: CO_321:0001659
+name: wheat grain filling period thermal time trait
+def: "Time period between anthesis (ds65) and maturity (ds87) in thermal time." [CO:curators]
+synonym: "GfillPeriodTT" EXACT []
+synonym: "GFPTT" EXACT []
+is_a: TO:0000933 ! plant phenological trait
+
+[Term]
+id: CO_321:0001660
+name: wheat grain fill rate trait
+def: "Grain weight increase per day in the period between anthesis (ds65) and maturity (ds87)." [CO:curators]
+synonym: "GfillRate" EXACT []
+synonym: "GFR" EXACT []
+is_a: TO:0000933 ! plant phenological trait
+
+[Term]
+id: CO_321:0001661
+name: wheat grain fill rate thermal time trait
+def: "Grain weight increase per degree day in the period between anthesis (ds65) and maturity (ds87)." [CO:curators]
+synonym: "GfillRateTT" EXACT []
+synonym: "GFRTT" EXACT []
+is_a: TO:0000933 ! plant phenological trait
+
+[Term]
+id: CO_321:0001662
+name: wheat above ground biomass nitrogen content trait
+def: "Nitrogen content of the above ground biomass." [CO:curators]
+synonym: "AGN" EXACT []
+synonym: "BMNitr" EXACT []
+is_a: TO:0020093 ! nitrogen content
+
+[Term]
+id: CO_321:0001663
+name: wheat grain nitrogen uptake trait
+def: "Uptake of Nitrogen in the whole wheat grain samples." [CO:curators]
+synonym: "GNUp" EXACT []
+is_a: TO:0003068 ! grain nitrogen content
+
+[Term]
+id: CO_321:0001664
+name: wheat above ground biomass nitrogen uptake trait
+def: "Uptake of Nitrogen in the above ground biomass at maturity." [CO:curators]
+synonym: "BMNUp" EXACT []
+is_a: TO:0020093 ! nitrogen content
+
+[Term]
+id: CO_321:0001665
+name: wheat straw nitrogen uptake trait
+def: "Uptake of Nitrogen in the whole above ground straw." [CO:curators]
+synonym: "STRNUp" EXACT []
+is_a: TO:0020093 ! nitrogen content
+
+[Term]
+id: CO_321:0001666
+name: wheat nitrogen harvest index trait
+def: "The fraction of Nitrogen recovered in the harvested grain as a function of the total Nitrogen taken up." [CO:curators]
+synonym: "NHI" EXACT []
+is_a: TO:0020093 ! nitrogen content
+
+[Term]
+id: CO_321:0001667
+name: wheat nitrogen uptake efficiency trait
+def: "N-uptake efficiency as the total amount of Nitrogen in the above-ground plant at harvest in relation to the available Nitrogen in soil." [CO:curators]
+synonym: "BMNUpE" EXACT []
+synonym: "NupE" EXACT []
+is_a: TO:0020093 ! nitrogen content
+
+[Term]
+id: CO_321:0001668
+name: wheat grain nitrogen utilization efficiency trait
+def: "Nitrogen utilization efficiency as the grain dry mass in relation to the total amount of Nitrogen in above-ground plant at harvest." [CO:curators]
+synonym: "NutE" EXACT []
+is_a: TO:0003068 ! grain nitrogen content
+
+[Term]
+id: CO_321:0001669
+name: wheat biomass nitrogen utilization efficiency trait
+def: "Biomass Nitrogen Utilization Efficiency as the biomass in relation to the total amount of N in above-ground plant at harvest." [CO:curators]
+synonym: "BMNUtE" EXACT []
+is_a: TO:0020093 ! nitrogen content
+
+[Term]
+id: CO_321:0001670
+name: wheat nitrogen use efficiency trait
+def: "The grain dry mass (grain yield) production per Nitrogen available to a plant." [CO:curators]
+synonym: "NUE" EXACT []
+is_a: TO:0020093 ! nitrogen content
+
+[Term]
+id: CO_321:0001671
+name: wheat above ground biomass nitrogen efficiency trait
+def: "The above ground biomass production per total Nitrogen available to a plant." [CO:curators]
+synonym: "BMNUE" EXACT []
+is_a: TO:0020093 ! nitrogen content
+
+[Term]
+id: CO_321:0001672
+name: wheat grain protein deviation trait
+def: "Deviation from the grain yield -grain protein linear regression." [CO:curators]
+synonym: "GPD" EXACT []
+is_a: TO:0001136 ! grain protein content
+
+[Term]
+id: CO_321:0001673
+name: wheat grain fibre content trait
+def: "Content of fibre (corrected to 12.5% moisture basis) in the whole wheat grain samples." [CO:curators]
+synonym: "Gfibre" EXACT []
+synonym: "GRNFibre" EXACT []
+is_a: TO:0002642 ! fiber content trait
+
+[Term]
+id: CO_321:0001674
+name: wheat grain starch content trait
+def: "Content of starch (corrected to 12.5% moisture basis) in the whole wheat grain samples." [CO:curators]
+synonym: "GRNSTARCH" EXACT []
+synonym: "Gstarch" EXACT []
+is_a: TO:0000696 ! starch content
+
+[Term]
+id: CO_321:0001675
+name: wheat grain surface area trait
+def: "Surface of whole grain." [CO:curators]
+synonym: "GRSA" EXACT []
+synonym: "GsurfA" EXACT []
+is_a: TO:0000397 ! grain size
 
 [Term]
 id: CO_321:0500001
@@ -2295,3 +2927,19 @@ name: wheat vegetative protein content at maturity trait
 def: "Protein concentration of vegetative biomass harvested at physiological maturity" [CO:curators]
 synonym: "VegPrt" EXACT []
 is_a: TO:0000598 ! protein content
+
+[Term]
+id: CO_321:1010043
+name: wheat straw nitrogen content trait
+def: "Nitrogen content of the above ground straw biomass." [CO:curators]
+synonym: "StrawN" EXACT []
+synonym: "STRNitr" EXACT []
+is_a: TO:0020093 ! nitrogen content
+
+[Term]
+id: CO_321:1010105
+name: wheat grain nitrogen content trait
+def: "Whole-grain Nitrogen content." [CO:curators]
+synonym: "GNC" EXACT []
+synonym: "GNitr" EXACT []
+is_a: TO:0003068 ! grain nitrogen content
