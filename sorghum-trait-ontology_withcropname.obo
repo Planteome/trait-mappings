@@ -881,3 +881,921 @@ name: sorghum decorticated grain weight trait
 def: "Grain weight after decortication." [CO:curators]
 synonym: "DecGW" EXACT []
 is_a: TO:0000590 ! dehulled grain weight
+
+[Term]
+id: CO_324:0000693
+name: sorghum basic vegetative phase trait
+def: "Basic vegetative phase." [CO:curators]
+synonym: "BVP" EXACT []
+is_a: TO:0000461 ! basic vegetative phase
+
+[Term]
+id: CO_324:0000696
+name: sorghum critical photoperiod trait
+def: "Critical photoperiod : In short day plants, flowering occurs when day length becomes shorter than a critical photoperiod." [CO:curators]
+synonym: "P2O" EXACT []
+is_a: TO:0000229 ! photoperiod sensitivity trait
+
+[Term]
+id: CO_324:0000702
+name: sorghum thermal time to panicle inititation trait
+def: "Thermal time to panicle inititation derived from the Thermal Time from emergence to flag leaf ligulation (TTFL) using the linear formula proposed by Folliard et al. (2004)." [CO:curators]
+synonym: "TTPI" EXACT []
+is_a: TO:0002616 ! flowering time trait
+
+[Term]
+id: CO_324:0000705
+name: sorghum photoperiod sensitivity coefficient of the variety based on ceres model trait
+def: "CERES model considers that, above criticial photoperiod (P2O), a linear growth of the duration of the vegetative phase (in degree days) as a function of photoperiod. The slope of this line (P2R) defines photoperiod-sensitivity." [CO:curators]
+synonym: "P2R" EXACT []
+is_a: TO:0000229 ! photoperiod sensitivity trait
+
+[Term]
+id: CO_324:0000709
+name: sorghum internode acid detergent fiber content of dry matter trait
+def: "Internode acid detergent fiber content of dry matter. This fraction contains lignins, cellulose, silica and insoluble forms of nitrogen but not hemicellulose. Internode rank and time of observation must be provided when using this trait." [CO:curators]
+synonym: "InterNodADFDM" EXACT []
+is_a: TO:0002641 ! acid detergent fiber content
+
+[Term]
+id: CO_324:0000712
+name: sorghum internode cellulose content of dry matter trait
+def: "Internode cellulose content of dry matter. Internode rank and time of observation must be provided when using this trait." [CO:curators]
+synonym: "InterNodCellDM" EXACT []
+is_a: TO:0000993 ! cellulose content
+
+[Term]
+id: CO_324:0000715
+name: sorghum internode cell wall residue content of dry matter trait
+def: "Internode Cell Wall Residue content of dry matter. Internode rank and time of observation must be provided when using this trait." [CO:curators]
+synonym: "InterNodCWRDM" EXACT []
+is_a: TO:0000993 ! cellulose content
+
+[Term]
+id: CO_324:0000718
+name: sorghum internode hemicellulose content of dry matter trait
+def: "Internode hemicellulose content of dry matter. Internode rank and time of observation must be provided when using this trait." [CO:curators]
+synonym: "InterNodHemiDM" EXACT []
+is_a: TO:0006007 ! polysaccharide content
+
+[Term]
+id: CO_324:0000721
+name: sorghum internode lignin content of dry matter trait
+def: "Internode lignin content of dry matter. Internode rank and time of observation must be provided when using this trait." [CO:curators]
+synonym: "InterNodLigDM" EXACT []
+is_a: TO:0000731 ! lignin content
+
+[Term]
+id: CO_324:0000724
+name: sorghum main shoot stem in vitro dry matter digestibility trait
+def: "Main shoot stem In Vitro Dry Matter Digestibility." [CO:curators]
+synonym: "StmMnShoIVDMD" EXACT []
+is_a: TO:0002644 ! dry matter digestibility
+
+[Term]
+id: CO_324:0000725
+name: sorghum main shoot stem in vitro cell wall residues digestibility trait
+def: "Main shoot stem In Vitro Cell Wall Residues digestibility." [CO:curators]
+synonym: "StmMnShoIVCWRD" EXACT []
+is_a: TO:0002644 ! dry matter digestibility
+
+[Term]
+id: CO_324:0000726
+name: sorghum main shoot stem in vitro organic matter digestibility trait
+def: "Main shoot stem In Vitro Organic Matter Digestibility." [CO:curators]
+synonym: "StmMnShoIVOMD" EXACT []
+is_a: TO:0002644 ! dry matter digestibility
+
+[Term]
+id: CO_324:0000727
+name: sorghum main shoot stem crude fiber content of dry matter trait
+def: "Main shoot stem crude fiber content of dry matter." [CO:curators]
+synonym: "StmMnShoCFDM" EXACT []
+is_a: TO:0002642 ! fiber content trait
+
+[Term]
+id: CO_324:0000728
+name: sorghum main shoot stem soluble sugars including starch weight trait
+def: "Main shoot stem soluble sugars including starch (RoughSS: Rough Soluble Sugars) weight." [CO:curators]
+synonym: "MnShoStmRoughSSDM" EXACT []
+is_a: TO:0000333 ! sugar content
+
+[Term]
+id: CO_324:0000729
+name: sorghum main shoot stem crude protein content of dry matter trait
+def: "Main shoot stem crude protein content of dry matter." [CO:curators]
+synonym: "StmMnShoCPDM" EXACT []
+is_a: TO:0000340 ! total soluble sugar content
+
+[Term]
+id: CO_324:0000730
+name: sorghum main shoot stem mineral matter content of dry matter trait
+def: "Main shoot stem mineral matter content of dry matter." [CO:curators]
+synonym: "StmMnShoMMDM" EXACT []
+is_a: TO:0000607 ! ash content
+
+[Term]
+id: CO_324:0000731
+name: sorghum main shoot stem acid detergent fiber content of dry matter trait
+def: "Main shoot stem acid detergent fiber content of dry matter. This fraction contains lignins, cellulose, silica and insoluble forms of nitrogen but not hemicellulose." [CO:curators]
+synonym: "StmMnShoADFDM" EXACT []
+is_a: TO:0002641 ! acid detergent fiber content
+
+[Term]
+id: CO_324:0000732
+name: sorghum main shoot stem lignin content of cell wall residues trait
+def: "Main shoot stem lignin content of Cell Wall Residues." [CO:curators]
+synonym: "StmMnShoLigCWR" EXACT []
+is_a: TO:0000731 ! lignin content
+
+[Term]
+id: CO_324:0000733
+name: sorghum main shoot stem cellulose content of dry matter trait
+def: "Main shoot stem cellulose content of dry matter." [CO:curators]
+synonym: "StmMnShoCellDM" EXACT []
+is_a: TO:0000993 ! cellulose content
+
+[Term]
+id: CO_324:0000734
+name: sorghum main shoot stem cellulose content of cell wall residues trait
+def: "Main shoot stem cellulose content of Cell Wall Residues." [CO:curators]
+synonym: "StmMnShoCellCWR" EXACT []
+is_a: TO:0000993 ! cellulose content
+
+[Term]
+id: CO_324:0000735
+name: sorghum main shoot stem hemicellulose content of dry matter trait
+def: "Main shoot stem hemicellulose content of dry matter." [CO:curators]
+synonym: "StmMnShoHemiDM" EXACT []
+is_a: TO:0006007 ! polysaccharide content
+
+[Term]
+id: CO_324:0000736
+name: sorghum main shoot stem hemicellulose content of cell wall residues trait
+def: "Main shoot stem hemicellulose content of Cell Wall Residues." [CO:curators]
+synonym: "StmMnShoHemiCWR" EXACT []
+is_a: TO:0006007 ! polysaccharide content
+
+[Term]
+id: CO_324:0000737
+name: sorghum main shoot stem lignin content of dry matter trait
+def: "Main shoot stem lignin content of dry matter." [CO:curators]
+synonym: "StmMnShoLigDM" EXACT []
+is_a: TO:0000731 ! lignin content
+
+[Term]
+id: CO_324:0000738
+name: sorghum main shoot stem cell wall residue content of dry matter trait
+def: "Main shoot stem cell wall residue content of dry matter." [CO:curators]
+synonym: "StmMnShoCWRDM" EXACT []
+is_a: TO:0000993 ! cellulose content
+
+[Term]
+id: CO_324:0000764
+name: sorghum internode dry matter content trait
+def: "Internode dry matter content. Internode rank and time of observation must be provided when using this trait. Internode stands here for internode of the main shoot." [CO:curators]
+synonym: "InterNodDM" EXACT []
+is_a: TO:0000457 ! biomass yield
+
+[Term]
+id: CO_324:0000765
+name: sorghum internode fresh weight trait
+def: "Internode fresh weight. Internode rank and time of observation must be provided when using this trait. Internode stands here for internode of the main shoot." [CO:curators]
+synonym: "InterNodFW" EXACT []
+is_a: TO:0003000 ! stem fresh weight
+
+[Term]
+id: CO_324:0000766
+name: sorghum blue-colored area in the internode inner zone (z2) trait
+def: "Blue-colored area in the internode inner zone (Z2), obtained after fasga staining of the internode. Outer and inner zones are delimited visually based on their anatomical differences. Internode rank and time of observation must be provided when using this trait. Internode stands here for internode of the main shoot." [CO:curators]
+synonym: "InterNodZ2BlueArea" EXACT []
+is_a: TO:0000426 ! stem internode color
+
+[Term]
+id: CO_324:0000767
+name: sorghum internode inner zone (z2) area trait
+def: "Internode inner zone (Z2) area, obtained after fasga staining of the internode. Outer and inner zones are delimited visually based on their anatomical differences. Internode rank and time of observation must be provided when using this trait. Internode stands here for internode of the main shoot." [CO:curators]
+synonym: "InterNodZ2Area" EXACT []
+is_a: TO:0000756 ! stem internode morphology trait
+
+[Term]
+id: CO_324:0000768
+name: sorghum internode outer zone (z1) area trait
+def: "Outer zone (Z1) area of the internode cross section. Outer and inner zones are delimited visually based on their anatomical differences. Internode rank and time of observation must be provided when using this trait. Internode stands here for internode of the main shoot." [CO:curators]
+synonym: "InterNodZ1Area" EXACT []
+is_a: TO:0000756 ! stem internode morphology trait
+
+[Term]
+id: CO_324:0000769
+name: sorghum internode soluble sugars content in dry matter trait
+def: "Internode soluble sugars content in dry matter." [CO:curators]
+synonym: "InterNodSSDM" EXACT []
+is_a: TO:0000340 ! total soluble sugar content
+
+[Term]
+id: CO_324:0000770
+name: sorghum main shoot leaves dry matter content trait
+def: "Main shoot leaves dry matter content." [CO:curators]
+synonym: "MnShoLfDM" EXACT []
+is_a: TO:0000457 ! biomass yield
+
+[Term]
+id: CO_324:0000771
+name: sorghum main shoot leaves dry weight trait
+def: "Main shoot leaves dry weight." [CO:curators]
+synonym: "MnShoLfDW" EXACT []
+is_a: TO:0001014 ! leaf dry weight
+
+[Term]
+id: CO_324:0000772
+name: sorghum main shoot leaves fresh weight trait
+def: "Main shoot leaves fresh weight." [CO:curators]
+synonym: "MnShoLfFW" EXACT []
+is_a: TO:0000891 ! leaf wet weight
+
+[Term]
+id: CO_324:0000773
+name: sorghum main shoot panicle dry matter content trait
+def: "Main shoot panicle dry matter content." [CO:curators]
+synonym: "MnShoPcleDM" EXACT []
+is_a: TO:0000457 ! biomass yield
+
+[Term]
+id: CO_324:0000774
+name: sorghum main shoot panicle fresh weight trait
+def: "Main shoot panicle fresh weight." [CO:curators]
+synonym: "MnShoPcleFW" EXACT []
+is_a: TO:0000457 ! biomass yield
+
+[Term]
+id: CO_324:0000775
+name: sorghum main shoot stem dry matter content trait
+def: "Main shoot stem dry matter content." [CO:curators]
+synonym: "MnShoStmDM" EXACT []
+is_a: TO:0000457 ! biomass yield
+
+[Term]
+id: CO_324:0000776
+name: sorghum main shoot stem dry weight trait
+def: "Main shoot stem dry weight." [CO:curators]
+synonym: "MnShoStmDW" EXACT []
+is_a: TO:0000457 ! biomass yield
+
+[Term]
+id: CO_324:0000777
+name: sorghum main shoot stem fresh weight trait
+def: "Main shoot stem fresh weight." [CO:curators]
+synonym: "MnShoStmFW" EXACT []
+is_a: TO:0000571 ! shoot fresh weight
+
+[Term]
+id: CO_324:0000778
+name: sorghum panicles dry weight trait
+def: "Panicles dry weight." [CO:curators]
+synonym: "PcleDW" EXACT []
+is_a: TO:0003021 ! panicle dry weight
+
+[Term]
+id: CO_324:0000779
+name: sorghum panicles fresh weight trait
+def: "Panicles fresh weight." [CO:curators]
+synonym: "PcleFW" EXACT []
+is_a: TO:0003020 ! panicle fresh weight
+
+[Term]
+id: CO_324:0000780
+name: sorghum red-colored area in the internode inner zone (z2) trait
+def: "Red-colored area in the internode inner zone (Z2), obtained after fasga staining of the internode. Outer and inner zones are delimited visually based on their anatomical differences. Internode rank and time of observation must be provided when using this trait. Internode stands here for internode of the main shoot." [CO:curators]
+synonym: "InterNodZ2RedArea" EXACT []
+is_a: TO:0000426 ! stem internode color
+
+[Term]
+id: CO_324:0000781
+name: sorghum red-colored area in the internode outer zone (z1) trait
+def: "Red-colored area in the internode outer zone (Z1), obtained after fasga staining of the internode. Outer and inner zones are delimited visually based on their anatomical differences. Internode rank and time of observation must be provided when using this trait. Internode stands here for internode of the main shoot." [CO:curators]
+synonym: "InterNodZ1RedArea" EXACT []
+is_a: TO:0000426 ! stem internode color
+
+[Term]
+id: CO_324:0000782
+name: sorghum tillers dry matter content trait
+def: "Basal and nodal tillers (even dead) dry matter content." [CO:curators]
+synonym: "TllrDM" EXACT []
+is_a: TO:0000457 ! biomass yield
+
+[Term]
+id: CO_324:0000783
+name: sorghum tillers dry weight trait
+def: "Tillers dry weight." [CO:curators]
+synonym: "TllrDW" EXACT []
+is_a: TO:0000552 ! shoot dry weight
+
+[Term]
+id: CO_324:0000784
+name: sorghum tillers fresh weight trait
+def: "Tillers fresh weight." [CO:curators]
+synonym: "TllrFW" EXACT []
+is_a: TO:0000571 ! shoot fresh weight
+
+[Term]
+id: CO_324:0000802
+name: sorghum nmlch4g: normal litre of ch4 per gram trait
+def: "Main shoot panicle dry weight." [CO:curators]
+synonym: "MnShoPcleDW" EXACT []
+is_a: TO:0003021 ! panicle dry weight
+
+[Term]
+id: CO_324:0000803
+name: sorghum internode ethanol-soluble fructose content in dry matter trait
+def: "Internode ethanol-soluble fructose content in dry matter. Internode rank and time of observation must be provided when using this trait. Internode stands here for internode of the main shoot." [CO:curators]
+synonym: "InterNodFructDM" EXACT []
+is_a: TO:0006005 ! fructose content
+
+[Term]
+id: CO_324:0000806
+name: sorghum internode ethanol-soluble glucose content in dry matter trait
+def: "Internode ethanol-soluble glucose content in dry matter. Internode rank and time of observation must be provided when using this trait. Internode stands here for internode of the main shoot." [CO:curators]
+synonym: "InterNodGlucDM" EXACT []
+is_a: TO:0000300 ! glucose content
+
+[Term]
+id: CO_324:0000809
+name: sorghum internode ethanol-soluble sucrose content in dry matter trait
+def: "Internode ethanol-soluble sucrose content in dry matter." [CO:curators]
+synonym: "InterNodSucrDM" EXACT []
+is_a: TO:0000328 ! sucrose content
+
+[Term]
+id: CO_324:0000812
+name: sorghum internode ethanol-soluble sugars content in dry matter trait
+def: "Internode ethanol-soluble sugars content in dry matter." [CO:curators]
+synonym: "InterNodSSDM" EXACT []
+is_a: TO:0000333 ! sugar content
+
+[Term]
+id: CO_324:0000815
+name: sorghum internode lignin content of dry matter trait
+def: "Internode lignin content of dry matter. Internode rank and time of observation must be provided when using this trait. Internode stands here for internode of the main shoot." [CO:curators]
+synonym: "InterNodLigDM" EXACT []
+is_a: TO:0000731 ! lignin content
+
+[Term]
+id: CO_324:0000865
+name: sorghum main shoot and tillers panicles dry weight trait
+def: "Main shoot and tillers panicles dry weight." [CO:curators]
+synonym: "PcleDW" EXACT []
+is_a: TO:0003021 ! panicle dry weight
+
+[Term]
+id: CO_324:0000869
+name: sorghum main shoot and tillers panicles fresh weight trait
+def: "Main shoot and tillers panicles fresh weight." [CO:curators]
+synonym: "PcleFW" EXACT []
+is_a: TO:0003020 ! panicle fresh weight
+
+[Term]
+id: CO_324:0000889
+name: sorghum basal and nodal tillers fresh weight trait
+def: "Basal and nodal tillers (even dead) fresh weight." [CO:curators]
+synonym: "TllrFW" EXACT []
+is_a: TO:0000571 ! shoot fresh weight
+
+[Term]
+id: CO_324:0000897
+name: sorghum basal tillers fresh weight trait
+def: "Basal tillers fresh weight." [CO:curators]
+synonym: "BasalTllrFW" EXACT []
+is_a: TO:0000571 ! shoot fresh weight
+
+[Term]
+id: CO_324:0000899
+name: sorghum internode cell wall residues content of dry matter trait
+def: "Internode Cell Wall Residues (CWR) content of dry matter. Internode rank and time of observation must be provided when using this trait. Internode stands here for internode of the main shoot." [CO:curators]
+synonym: "InterNodCWRDM" EXACT []
+is_a: TO:0000457 ! biomass yield
+
+[Term]
+id: CO_324:0000902
+name: sorghum internode cellulose content of cell wall residues trait
+def: "Internode cellulose content of Cell Wall Residues (CWR). Internode rank and time of observation must be provided when using this trait. Internode stands here for internode of the main shoot." [CO:curators]
+synonym: "InterNodCellCWR" EXACT []
+is_a: TO:0000457 ! biomass yield
+
+[Term]
+id: CO_324:0000904
+name: sorghum internode cross section area trait
+def: "Internode cross section area. Internode rank and time of observation must be provided when using this trait. Internode stands here for internode of the main shoot." [CO:curators]
+synonym: "InterNodArea" EXACT []
+is_a: TO:0000756 ! stem internode morphology trait
+
+[Term]
+id: CO_324:0000907
+name: sorghum internode crude fiber content of dry matter trait
+def: "Internode CrudeFiber content of Dry Matter. Internode rank and time of observation must be provided when using this trait. Internode stands here for internode of the main shoot." [CO:curators]
+synonym: "InterNodCFDM" EXACT []
+is_a: TO:0002642 ! fiber content trait
+
+[Term]
+id: CO_324:0000909
+name: sorghum internode crude protein content of dry matter trait
+def: "Internode Crude Protein content of Dry Matter. Internode rank and time of observation must be provided when using this trait. Internode stands here for internode of the main shoot." [CO:curators]
+synonym: "InterNodCPDM" EXACT []
+is_a: TO:0000598 ! protein content
+
+[Term]
+id: CO_324:0000911
+name: sorghum internode diameter trait
+def: "Internode cross section diameter. Internode rank and time of observation must be provided when using this trait. Internode stands here for internode of the main shoot." [CO:curators]
+synonym: "InterNodDia" EXACT []
+is_a: TO:0000756 ! stem internode morphology trait
+
+[Term]
+id: CO_324:0000914
+name: sorghum internode hemicellulose content of cell wall residues trait
+def: "Internode hemicellulose content of Cell Wall Residues (CWR). Internode rank and time of observation must be provided when using this trait. Internode stands here for internode of the main shoot." [CO:curators]
+synonym: "InterNodHemiCWR" EXACT []
+is_a: TO:0006007 ! polysaccharide content
+
+[Term]
+id: CO_324:0000916
+name: sorghum internode in vitro cell wall residues digestibility trait
+def: "Internode In Vitro Cell Wall Residues Digestibility." [CO:curators]
+synonym: "InterNodIVCWRD" EXACT []
+is_a: TO:0002644 ! dry matter digestibility
+
+[Term]
+id: CO_324:0000918
+name: sorghum internode in vitro dry matter digestibility trait
+def: "Internode In Vitro Dry Matter Digestibility." [CO:curators]
+synonym: "InterNodIVDMD" EXACT []
+is_a: TO:0002644 ! dry matter digestibility
+
+[Term]
+id: CO_324:0000920
+name: sorghum internode in vitro organic matter digestibility trait
+def: "Internode In Vitro Organic Matter Digestibility." [CO:curators]
+synonym: "InterNodIVOMD" EXACT []
+is_a: TO:0002644 ! dry matter digestibility
+
+[Term]
+id: CO_324:0000922
+name: sorghum internode inner zone (z2) dry weight trait
+def: "Internode inner zone (Z2) dry weight. Outer and inner zones are delimited visually based on their anatomical differences and separated by peeling. Internode rank and time of observation must be provided when using this trait. Internode stands here for internode of the main shoot." [CO:curators]
+synonym: "InterNodZ2DW" EXACT []
+is_a: TO:0000552 ! shoot dry weight
+
+[Term]
+id: CO_324:0000924
+name: sorghum internode inner zone (z2) fresh weight trait
+def: "Internode inner zone (Z2) fresh weight. Outer and inner zones are delimited visually based on their anatomical differences and separated by peeling. Internode rank and time of observation must be provided when using this trait. Internode stands here for internode of the main shoot." [CO:curators]
+synonym: "InterNodZ2FW" EXACT []
+is_a: TO:0000571 ! shoot fresh weight
+
+[Term]
+id: CO_324:0000926
+name: sorghum internode length trait
+def: "Internode length. Internode rank and time of observation must be provided when using this trait. Internode stands here for internode of the main shoot." [CO:curators]
+synonym: "InterNodLng" EXACT []
+is_a: TO:0000145 ! shoot axis internode length
+
+[Term]
+id: CO_324:0000929
+name: sorghum internode lignin content of cell wall residues trait
+def: "Internode lignin (ADL) content of Cell Wall Residues (CWR) estimated through the Neutral Detergent Fiber (NDF). Internode rank and time of observation must be provided when using this trait. Internode stands here for internode of the main shoot." [CO:curators]
+synonym: "InterNodLigCWR" EXACT []
+is_a: TO:0000731 ! lignin content
+
+[Term]
+id: CO_324:0000931
+name: sorghum internode maximum diameter trait
+def: "Internode maximum diameter. Internode rank and time of observation must be provided when using this trait. Internode stands here for internode of the main shoot." [CO:curators]
+synonym: "InterNodDiaMax" EXACT []
+is_a: TO:0000132 ! internode diameter
+
+[Term]
+id: CO_324:0000934
+name: sorghum internode mineral matter content of dry matter trait
+def: "Internode mineral matter content of dry matter. Internode rank and time of observation must be provided when using this trait.  Internode stands here for internode of the main shoot." [CO:curators]
+synonym: "InterNodMMDM" EXACT []
+is_a: TO:0000607 ! ash content
+
+[Term]
+id: CO_324:0000936
+name: sorghum internode minimum diameter trait
+def: "Internode minimum diameter. Internode rank and time of observation must be provided when using this trait. Internode stands here for internode of the main shoot." [CO:curators]
+synonym: "InterNodDiaMin" EXACT []
+is_a: TO:0000756 ! stem internode morphology trait
+
+[Term]
+id: CO_324:0000939
+name: sorghum internode outer zone (z1) dry weight trait
+def: "Internode outer zone (Z1) dry weight. Outer and inner zones are delimited visually based on their anatomical differences and separated by peeling. Internode rank and time of observation must be provided when using this trait. Internode stands here for internode of the main shoot." [CO:curators]
+synonym: "InterNodZ1DW" EXACT []
+is_a: TO:0000552 ! shoot dry weight
+
+[Term]
+id: CO_324:0000941
+name: sorghum internode outer zone (z1) fresh weight trait
+def: "Internode outer zone (Z1) fresh weight. Outer and inner zones are delimited visually based on their anatomical differences and separated by peeling. Internode rank and time of observation must be provided when using this trait. Internode stands here for internode of the main shoot." [CO:curators]
+synonym: "InterNodZ1FW" EXACT []
+is_a: TO:0000571 ! shoot fresh weight
+
+[Term]
+id: CO_324:0000943
+name: sorghum internode sample dry weight trait
+def: "Internode sample dry weight. Internode rank and time of observation must be provided when using this trait. Internode stands here for internode of the main shoot." [CO:curators]
+synonym: "InterNodSampleDW" EXACT []
+is_a: TO:0000552 ! shoot dry weight
+
+[Term]
+id: CO_324:0000945
+name: sorghum internode sample fresh weight trait
+def: "Internode sample fresh weight. Internode rank and time of observation must be provided when using this trait. Internode stands here for internode of the main shoot." [CO:curators]
+synonym: "InterNodSampleFW" EXACT []
+is_a: TO:0000571 ! shoot fresh weight
+
+[Term]
+id: CO_324:0000947
+name: sorghum internode soluble sugars including starch content of dry matter trait
+def: "Internode soluble sugars including starch (RoughSS: Rough Soluble Sugars) content of dry matter. Internode rank and time of observation must be provided when using this trait. Internode stands here for internode of the main shoot." [CO:curators]
+synonym: "InterNodRoughSSDM" EXACT []
+is_a: TO:0000340 ! total soluble sugar content
+
+[Term]
+id: CO_324:0000949
+name: sorghum leaves dry weight trait
+def: "Leaves dry weight of the main shoot and of the tillers." [CO:curators]
+synonym: "LfDW" EXACT []
+is_a: TO:0001014 ! leaf dry weight
+
+[Term]
+id: CO_324:0000951
+name: sorghum leaves fresh weight trait
+def: "Leaves fresh weight of the main shoot and of the tillers." [CO:curators]
+synonym: "LfFW" EXACT []
+is_a: TO:0000891 ! leaf wet weight
+
+[Term]
+id: CO_324:0000953
+name: sorghum main shoot leaves sample dry weight trait
+def: "Main shoot leaves sample dry weight." [CO:curators]
+synonym: "MnShoLfSampleDW" EXACT []
+is_a: TO:0001014 ! leaf dry weight
+
+[Term]
+id: CO_324:0000955
+name: sorghum main shoot leaves sample fresh weight trait
+def: "Main shoot leaves sample fresh weight." [CO:curators]
+synonym: "MnShoLfSampleFW" EXACT []
+is_a: TO:0000891 ! leaf wet weight
+
+[Term]
+id: CO_324:0000957
+name: sorghum main shoot leaves water content trait
+def: "Main shoot leaves water content." [CO:curators]
+synonym: "MnShoLfWC" EXACT []
+is_a: TO:0003034 ! leaf moisture content
+
+[Term]
+id: CO_324:0000959
+name: sorghum main shoot panicle sample dry weight trait
+def: "Main shoot panicle sample dry weight." [CO:curators]
+synonym: "MnShoPcleSampleDW" EXACT []
+is_a: TO:0003021 ! panicle dry weight
+
+[Term]
+id: CO_324:0000961
+name: sorghum main shoot panicle sample fresh weight trait
+def: "Main shoot panicle sample fresh weight." [CO:curators]
+synonym: "MnShoPcleSampleFW" EXACT []
+is_a: TO:0003020 ! panicle fresh weight
+
+[Term]
+id: CO_324:0000963
+name: sorghum main shoot panicle water content trait
+def: "Main shoot panicle water content." [CO:curators]
+synonym: "MnShoPcleWC" EXACT []
+is_a: TO:0003045 ! panicle moisture content
+
+[Term]
+id: CO_324:0000965
+name: sorghum main shoot stem biomethane potential measured on the basis of the total solids (ts) (ts being equivalent to the dry matter dm) trait
+def: "Main shoot stem biomethane potential measured on the basis of the Total Solids (TS) (TS being equivalent to the dry matter)." [CO:curators]
+synonym: "MnShoStmBMPDM" EXACT []
+synonym: "MnShoStmBMPTS" EXACT []
+is_a: TO:0000457 ! biomass yield
+
+[Term]
+id: CO_324:0000968
+name: sorghum main shoot stem biomethane potential measured on the basis of the volatile solids (vs) trait
+def: "Main shoot stem biomethane potential measured on the basis of the Volatile Solids (VS)." [CO:curators]
+synonym: "MnShoStmBMPVS" EXACT []
+is_a: TO:0000457 ! biomass yield
+
+[Term]
+id: CO_324:0000971
+name: sorghum main shoot stem density trait
+def: "Main shoot stem density." [CO:curators]
+synonym: "MnShoStmDen" EXACT []
+is_a: TO:0000077 ! shoot system morphology trait
+
+[Term]
+id: CO_324:0000974
+name: sorghum main shoot stem height based on the position of the base of the panicle trait
+def: "Main shoot stem height based on the position of the base of the panicle." [CO:curators]
+synonym: "MnShoPcleBaseHt" EXACT []
+is_a: TO:0000576 ! stem length
+
+[Term]
+id: CO_324:0000977
+name: sorghum main shoot stem height based on the position of the ligule of the last ligulated leaf trait
+def: "Main shoot stem height based on the position of the ligule of the last ligulated leaf." [CO:curators]
+synonym: "MnShoLastLiguLfHt" EXACT []
+is_a: TO:0000576 ! stem length
+
+[Term]
+id: CO_324:0000980
+name: sorghum main shoot stem higher heating value of the dry matter trait
+def: "Main shoot stem higher heating value of the dry matter." [CO:curators]
+synonym: "MnShoStmHHVDM" EXACT []
+is_a: TO:0000457 ! biomass yield
+
+[Term]
+id: CO_324:0000984
+name: sorghum main shoot stem sample dry weight trait
+def: "Main shoot stem sample dry weight." [CO:curators]
+synonym: "MnShoStmSampleDW" EXACT []
+is_a: TO:0000552 ! shoot dry weight
+
+[Term]
+id: CO_324:0000986
+name: sorghum main shoot stem sample fresh weight trait
+def: "Main shoot stem sample fresh weight." [CO:curators]
+synonym: "MnShoStmSampleFW" EXACT []
+is_a: TO:0000571 ! shoot fresh weight
+
+[Term]
+id: CO_324:0000988
+name: sorghum main shoot stem soluble sugars content in dry matter trait
+def: "Main shoot stem soluble sugars content in dry matter." [CO:curators]
+synonym: "MnShoStmSSDM" EXACT []
+is_a: TO:0000340 ! total soluble sugar content
+
+[Term]
+id: CO_324:0000990
+name: sorghum main shoot stem structural density trait
+def: "Main shoot stem structural density." [CO:curators]
+synonym: "MnShoStmStructDen" EXACT []
+is_a: TO:0000051 ! stem strength
+
+[Term]
+id: CO_324:0000993
+name: sorghum main shoot stem volume trait
+def: "Main shoot stem volume." [CO:curators]
+synonym: "MnShoStmVol" EXACT []
+is_a: TO:0000560 ! space per culm
+
+[Term]
+id: CO_324:0000997
+name: sorghum main shoot stem water content trait
+def: "Main shoot stem water content." [CO:curators]
+synonym: "MnShoStmWC" EXACT []
+is_a: TO:0003035 ! stem moisture content
+
+[Term]
+id: CO_324:0000999
+name: sorghum main shoot whole above-ground biomass (wab) dry matter content trait
+def: "Main shoot Whole Above-ground Biomass (WAB) dry matter content." [CO:curators]
+synonym: "MnShoWABDM" EXACT []
+is_a: TO:0000457 ! biomass yield
+
+[Term]
+id: CO_324:0001002
+name: sorghum node dry matter content trait
+def: "Node dry matter content. Node rank and time of observation must be provided when using this trait. Node stands here for node of the main shoot phytomer, located below the internode under study." [CO:curators]
+synonym: "NodDM" EXACT []
+is_a: TO:0000457 ! biomass yield
+
+[Term]
+id: CO_324:0001004
+name: sorghum node dry weight trait
+def: "Node dry weight. Node rank and time of observation must be provided when using this trait. Node stands here for node of the main shoot phytomer, located below the internode under study." [CO:curators]
+synonym: "NodDW" EXACT []
+is_a: TO:0000552 ! shoot dry weight
+
+[Term]
+id: CO_324:0001006
+name: sorghum node fresh weight trait
+def: "Node fresh weight. Node rank and time of observation must be provided when using this trait. Node stands here for node of the main shoot phytomer, located below the internode under study." [CO:curators]
+synonym: "NodFW" EXACT []
+is_a: TO:0000571 ! shoot fresh weight
+
+[Term]
+id: CO_324:0001008
+name: sorghum node length trait
+def: "Node length. Node rank and time of observation must be provided when using this trait. Node stands here for node of the main shoot phytomer, located below the internode under study." [CO:curators]
+synonym: "NodLng" EXACT []
+is_a: TO:0000754 ! cardinal organ part morphology trait
+
+[Term]
+id: CO_324:0001011
+name: sorghum number of main shoot green leaves trait
+def: "Number of green leaves on the main shoot. Time of observation must be provided when using this trait." [CO:curators]
+synonym: "MnShoGrLfNo" EXACT []
+is_a: TO:0000241 ! leaf number
+
+[Term]
+id: CO_324:0001015
+name: sorghum number of main shoot leaves emitted since the sowing trait
+def: "Total number of leaves emitted on the main shoot since the sowing. Time of observation must be provided when using this trait." [CO:curators]
+synonym: "MnShoLfNo" EXACT []
+is_a: TO:0000241 ! leaf number
+
+[Term]
+id: CO_324:0001019
+name: sorghum number of main shoot ligulated leaves emitted since the sowing trait
+def: "Number of main shoot ligulated leaves emitted since the sowing. Time of observation must be provided when using this trait." [CO:curators]
+synonym: "MnShoLiguLfNo" EXACT []
+is_a: TO:0000241 ! leaf number
+
+[Term]
+id: CO_324:0001023
+name: sorghum number of vascular bundles in the internode inner zone (z2) trait
+def: "Number of vascular bundles in the internode inner zone (Z2). Outer and inner zones are delimited visually based on their anatomical differences. Internode rank and time of observation must be provided when using this trait. Internode stands here for internode of the main shoot." [CO:curators]
+synonym: "InterNodZ2VB" EXACT []
+is_a: TO:0000472 ! vascular bundle number
+
+[Term]
+id: CO_324:0001027
+name: sorghum panicles dry matter content trait
+def: "Dry matter content of main shoot and tillers panicles." [CO:curators]
+synonym: "PcleDM" EXACT []
+is_a: TO:0000457 ! biomass yield
+
+[Term]
+id: CO_324:0001029
+name: sorghum panicles sample dry weight trait
+def: "Panicles sample dry weight." [CO:curators]
+synonym: "PcleSampleDW" EXACT []
+is_a: TO:0003021 ! panicle dry weight
+
+[Term]
+id: CO_324:0001031
+name: sorghum panicles sample fresh weight trait
+def: "Panicles sample fresh weight." [CO:curators]
+synonym: "PcleSampleFW" EXACT []
+is_a: TO:0003020 ! panicle fresh weight
+
+[Term]
+id: CO_324:0001033
+name: sorghum phytomer length trait
+def: "Phytomer length. Phytomer rank and time of observation must be provided when using this trait. Phytomer stands here for phytomer of the main shoot." [CO:curators]
+synonym: "PhytomLng" EXACT []
+is_a: TO:0000145 ! shoot axis internode length
+
+[Term]
+id: CO_324:0001036
+name: sorghum seedling emergence time trait
+def: "Emergence time." [CO:curators]
+synonym: "Emer" EXACT []
+is_a: TO:0000933 ! plant phenological trait
+
+[Term]
+id: CO_324:0001039
+name: sorghum tillers sample dry weight trait
+def: "Basal and nodal tillers (even dead) sample dry weight." [CO:curators]
+synonym: "TllrSampleDW" EXACT []
+is_a: TO:0000552 ! shoot dry weight
+
+[Term]
+id: CO_324:0001041
+name: sorghum tillers sample fresh weight trait
+def: "Basal and nodal tillers (even dead) sample fresh weight." [CO:curators]
+synonym: "TllrSampleFW" EXACT []
+is_a: TO:0000571 ! shoot fresh weight
+
+[Term]
+id: CO_324:0001043
+name: sorghum vascular bundle density in the internode inner zone (z2) trait
+def: "Vascular bundle density in the internode inner zone (Z2). Outer and inner zones are delimited visually based on their anatomical differences. Internode rank and time of observation must be provided when using this trait. Internode stands here for internode of the main shoot." [CO:curators]
+synonym: "InterNodZ2VBDen" EXACT []
+is_a: TO:0000472 ! vascular bundle number
+
+[Term]
+id: CO_324:0001099
+name: sorghum germination time trait
+def: "Time of germination after planting." [CO:curators]
+synonym: "GermTim" EXACT []
+is_a: TO:0006061 ! days to germinate
+
+[Term]
+id: CO_324:0001101
+name: sorghum germination rate trait
+def: "Rate of germination." [CO:curators]
+synonym: "GermRt" EXACT []
+is_a: TO:0000430 ! germination rate
+
+[Term]
+id: CO_324:0001103
+name: sorghum disease tolerance trait
+def: "Tolerance to diseases - the disease type is documented in complementary data." [CO:curators]
+synonym: "DisTol" EXACT []
+is_a: TO:0000112 ! microbial disease response
+
+[Term]
+id: CO_324:0001105
+name: sorghum pest tolerance trait
+def: "Tolerance to Pests - the pest identification is documented in complementary data." [CO:curators]
+synonym: "PtTol" EXACT []
+is_a: TO:0000179 ! biotic plant stress trait
+
+[Term]
+id: CO_324:0001107
+name: sorghum abiotic stress tolerance trait
+def: "Tolerance to abiotic stress - stress type is docuelnetd in complementary data." [CO:curators]
+synonym: "AbSt" EXACT []
+is_a: TO:0000168 ! abiotic plant stress response trait
+
+[Term]
+id: CO_324:0001109
+name: sorghum plant survival trait
+def: "Survival of plants." [CO:curators]
+synonym: "PlSur" EXACT []
+is_a: TO:0000250 ! plant vigor trait
+
+[Term]
+id: CO_324:0001111
+name: sorghum maturity trait
+def: "nan." [CO:curators]
+synonym: "Mat" EXACT []
+is_a: TO:0000469 ! days to maturity
+
+[Term]
+id: CO_324:0001113
+name: sorghum stay green trait
+def: "nan." [CO:curators]
+synonym: "StGr" EXACT []
+is_a: TO:0002712 ! stay green trait
+
+[Term]
+id: CO_324:0001115
+name: sorghum marketability trait
+def: "nan." [CO:curators]
+synonym: "Mkt" EXACT []
+is_a: TO:0000162 ! grain quality trait
+
+[Term]
+id: CO_324:0001117
+name: sorghum taste trait
+def: "nan." [CO:curators]
+synonym: "Tst" EXACT []
+is_a: TO:0002694 ! fruit flavor trait
+
+[Term]
+id: CO_324:0001119
+name: sorghum threshability trait
+def: "nan." [CO:curators]
+synonym: "Thr" EXACT []
+is_a: TO:0000406 ! panicle threshability
+
+[Term]
+id: CO_324:0001121
+name: sorghum overall preference trait
+def: "nan." [CO:curators]
+synonym: "OvPrf" EXACT []
+is_a: TO:0000162 ! grain quality trait
+
+[Term]
+id: CO_324:0001123
+name: sorghum overall performance vs local trait
+def: "nan." [CO:curators]
+synonym: "OvPrfvLoc" EXACT []
+is_a: TO:0000322 ! phenotypic acceptability
+
+[Term]
+id: CO_324:0001125
+name: sorghum storage problemstolerance trait
+def: "nan." [CO:curators]
+synonym: "StoPrbTol" EXACT []
+is_a: TO:0000162 ! grain quality trait
+
+[Term]
+id: CO_324:0001127
+name: sorghum storability trait
+def: "nan." [CO:curators]
+synonym: "Stobly" EXACT []
+is_a: TO:0000396 ! grain yield trait
+
+[Term]
+id: CO_324:0001129
+name: sorghum grain yield (qualitative) trait
+def: "Yield as expressed by the farmer in a TRICOT trial." [CO:curators]
+synonym: "GrYldQual" EXACT []
+is_a: TO:0000396 ! grain yield trait
+
+[Term]
+id: CO_324:0001131
+name: sorghum grain size for target market/use trait
+def: "Quality and adequacy of the size for target use and/or markets." [CO:curators]
+synonym: "GrSzUs" EXACT []
+is_a: TO:0000397 ! grain size
