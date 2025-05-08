@@ -913,7 +913,7 @@ id: CO_350:0000520
 name: oat diseased leaf area trait
 def: "The percentage area of a leaf that is diseased." [CO:curators]
 synonym: "DLA" EXACT []
-is_a: TO:0000162 ! grain quality trait
+is_a: TO:0000112 ! microbial disease response
 
 [Term]
 id: CO_350:0000523
@@ -1327,6 +1327,13 @@ name: oat hull color trait
 def: "Hull color" [CO:curators]
 synonym: "HC" EXACT []
 is_a: TO:0000706 ! hull color
+
+[Term]
+id: CO_350:0005415
+name: oat Kernels per spikelet trait
+def: "Average number of kernels per spikelet" [CO:curators]
+synonym: "KPS" EXACT []
+is_a: TO:0000396 ! grain yield trait
 
 [Term]
 id: CO_350:0005416
