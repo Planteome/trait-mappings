@@ -1019,7 +1019,7 @@ name: wheat plant stand trait
 def: "Plant population or plant density." [CO:curators]
 synonym: "Plant establishment, Crop stand, Plant density, Plant population" EXACT []
 synonym: "PlntStnd" EXACT []
-is_a: TO:0000250  ! plant vigor trait
+is_a: TO:0000250 ! plant vigor trait
 
 [Term]
 id: CO_321:0000189
