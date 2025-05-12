@@ -2595,7 +2595,7 @@ id: CO_321:0500008
 name: wheat flag leaf angle trait
 def: "Visual estimation of flag leaf angle" [CO:curators]
 synonym: "FLeafAng" EXACT []
-is_a: TO:0000124
+is_a: TO:0000124 ! flag leaf angle
 
 [Term]
 id: CO_321:0500009
