@@ -1407,7 +1407,7 @@ id: CO_321:0000664
 name: wheat grain filling period trait
 def: "Time period between anthesis (ds65) and maturity (ds87)." [CO:curators]
 synonym: "GFP" EXACT []
-is_a: TO:0002661 ! seed maturation
+is_a: TO:0000929 ! fruit growth and development trait
 
 [Term]
 id: CO_321:0000665
