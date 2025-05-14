@@ -1,28 +1,4 @@
 
-[Term]
-id: CO_343:0003036
-name: yam tuber appearance quality
-def: "The quality of the tuber appearance." [CO:curators]
-
-
-[Term]
-id: CO_343:0000188
-name: yam tuber appearance trait
-def: "Tuber surface look in relation to presence or absence of roots, thorns and sprouted buds on the tuber surface" [CO:curators]
-synonym: "Tbrappr" EXACT []
-
------------------------
-
-[Term]
-id: CO_343:0000147
-name: yam tuber flesh color trait
-def: "The surface color of the yam tuber flesh" [CO:curators]
-synonym: "Tbrfclr" EXACT [
-
-[Term]
-id: CO_343:0100238
-name: yam tuber flesh color
-def: "The surface color of the yam tuber flesh" [CO:curators]
 
 -----------------------
 [Term]

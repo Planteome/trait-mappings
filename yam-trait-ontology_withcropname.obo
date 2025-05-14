@@ -1425,12 +1425,6 @@ def: "Time between 5% emergence and 95% senescence." [CO:curators]
 is_a: TO:0000933 ! plant phenological trait
 
 [Term]
-id: CO_343:0100238
-name: yam tuber flesh color
-def: "The surface color of the yam tuber flesh." [CO:curators]
-is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
-
-[Term]
 id: CO_343:0100241
 name: yam tuber flesh uniformity trait
 def: "Uniformity of tuber flesh surface color in longitudinal section." [CO:curators]
