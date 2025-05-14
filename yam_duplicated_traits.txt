@@ -1,18 +1,5 @@
 
 [Term]
-id: CO_343:0100278
-name: pounded yam hardness trait
-def: "Softness is when it is quite easy to compress the sample, while hardness is when force is used to compress the sample or takes effort to compress the sample" [CO:curators]
-is_a: TO:0001068 ! processing quality trait
-
-[Term]
-id: CO_343:0003005
-name: hardness of pounded yam trait
-def: "Measurement of hardness of pounded yam." [CO:curators]
-is_a: TO:0001068 ! processing quality trait
------------------------
-
-[Term]
 id: CO_343:0100279
 name: pounded yam smoothness trait
 def: "Absence of lumps" [CO:curators]

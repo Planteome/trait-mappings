@@ -1491,24 +1491,6 @@ def: "Ability of pounded yam to stretch when pulled apart with fingers." [CO:cur
 is_a: TO:0001068 ! processing quality trait
 
 [Term]
-id: CO_343:0100278
-name: pounded yam hardness trait
-def: "Softness is when it is quite easy to compress the sample, while hardness is when force is used to compress the sample or takes effort to compress the sample." [CO:curators]
-is_a: TO:0001068 ! processing quality trait
-
-[Term]
-id: CO_343:0100279
-name: pounded yam smoothness trait
-def: "Absence of lumps." [CO:curators]
-is_a: TO:0001068 ! processing quality trait
-
-[Term]
-id: CO_343:0100283
-name: yam tuber flesh oxidation trait
-def: "Oxidation ratio of flesh." [CO:curators]
-is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
-
-[Term]
 id: CO_343:0100284
 name: yam tuber shape regularity trait
 def: "Regularity of tuber shape." [CO:curators]
