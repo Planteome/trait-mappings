@@ -1,41 +1,5 @@
 
 [Term]
-id: CO_343:0100279
-name: pounded yam smoothness trait
-def: "Absence of lumps" [CO:curators]
-
-[Term]
-id: CO_343:0000448
-name: yam smoothness of pounded yam trait
-def: "Smoothnessof the material, i.e., absence of lumps" [CO:curators]
-
------------------------
-[Term]
-id: CO_343:0000150
-name: yam tuber flesh oxidation trait
-def: "Tuber flesh enzymatic oxidation rate" [CO:curators]
-synonym: "Tfoxd" EXACT [
-
-[Term]
-id: CO_343:0100283
-name: yam tuber flesh oxidation trait
-def: "Oxidation ratio of flesh" [CO:curators]
------------------------
-
-[Term]
-id: CO_343:0000442
-name: yam tuber flesh oxidation color trait
-def: "Surface color resulting of tuber flesh enzymatic oxidation" [CO:curators]
-synonym: "Foxdc" EXACT []
-
-[Term]
-id: CO_343:0000437
-name: yam tuber flesh oxidation intensity trait
-def: "Intensity of tuber flesh enzymatic oxidation (degree of flesh color change or browning of cut yam tuber)" [CO:curators]
-synonym: "Intoxd" EXACT [] 
-
------------------------
-[Term]
 id: CO_343:0003036
 name: yam tuber appearance quality
 def: "The quality of the tuber appearance." [CO:curators]
