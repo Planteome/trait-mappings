@@ -2486,7 +2486,7 @@ id: CO_321:0001666
 name: wheat nitrogen harvest index trait
 def: "The fraction of Nitrogen recovered in the harvested grain as a function of the total Nitrogen taken up." [CO:curators]
 synonym: "NHI" EXACT []
-is_a: TO:0020093 ! nitrogen content
+is_a: TO:0003068 ! grain nitrogen content
 
 [Term]
 id: CO_321:0001667
