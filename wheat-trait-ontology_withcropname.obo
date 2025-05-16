@@ -2419,7 +2419,7 @@ id: CO_321:0001652
 name: wheat grain number per tiller trait
 def: "Number of grains per tiller." [CO:curators]
 synonym: "GRATIL" EXACT []
-is_a: TO:0000919 ! grain weight
+is_a: TO:0002759 ! grain number trait
 
 [Term]
 id: CO_321:0001653
