@@ -376,7 +376,7 @@ name: lentil pod weight trait
 def: "Weight of pods" [CO:curators]
 synonym: "PDWT" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0002746 ! fruit weight
+is_a: TO:0001092 ! legume fruit weight
 
 [Term]
 id: CO_339:0000138
