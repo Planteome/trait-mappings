@@ -1019,7 +1019,7 @@ name: wheat plant stand trait
 def: "Plant population or plant density." [CO:curators]
 synonym: "Plant establishment, Crop stand, Plant density, Plant population" EXACT []
 synonym: "PlntStnd" EXACT []
-is_a: TO:0000250  ! plant vigor trait
+is_a: TO:0000250 ! plant vigor trait
 
 [Term]
 id: CO_321:0000189
@@ -1407,7 +1407,7 @@ id: CO_321:0000664
 name: wheat grain filling period trait
 def: "Time period between anthesis (ds65) and maturity (ds87)." [CO:curators]
 synonym: "GFP" EXACT []
-is_a: TO:0002661 ! seed maturation
+is_a: TO:0000929 ! fruit growth and development trait
 
 [Term]
 id: CO_321:0000665
@@ -2419,7 +2419,7 @@ id: CO_321:0001652
 name: wheat grain number per tiller trait
 def: "Number of grains per tiller." [CO:curators]
 synonym: "GRATIL" EXACT []
-is_a: TO:0000919 ! grain weight
+is_a: TO:0002759 ! grain number trait
 
 [Term]
 id: CO_321:0001653
@@ -2486,7 +2486,7 @@ id: CO_321:0001666
 name: wheat nitrogen harvest index trait
 def: "The fraction of Nitrogen recovered in the harvested grain as a function of the total Nitrogen taken up." [CO:curators]
 synonym: "NHI" EXACT []
-is_a: TO:0020093 ! nitrogen content
+is_a: TO:0003068 ! grain nitrogen content
 
 [Term]
 id: CO_321:0001667
@@ -2595,7 +2595,7 @@ id: CO_321:0500008
 name: wheat flag leaf angle trait
 def: "Visual estimation of flag leaf angle" [CO:curators]
 synonym: "FLeafAng" EXACT []
-is_a: TO:0000124
+is_a: TO:0000124 ! flag leaf angle
 
 [Term]
 id: CO_321:0500009
@@ -2694,7 +2694,7 @@ name: wheat glaucousness trait
 def: "Overall plant glaucousness" [CO:curators]
 synonym: "Glau" EXACT []
 synonym: "waxiness" EXACT []
-is_a: TO:0000709
+is_a: TO:0000709 ! leaf gloss
 
 [Term]
 id: CO_321:0500023
@@ -2702,14 +2702,14 @@ name: wheat glume pubescence presence trait
 def: "The presence of fine hairs on the external face of the glumes" [CO:curators]
 synonym: "GlmPub" EXACT []
 synonym: "glume pubescence" EXACT []
-is_a: TO:0020036
+is_a: TO:0020036 ! glume pubescence
 
 [Term]
 id: CO_321:0500024
 name: wheat grain arsenic content trait
 def: "Content of Arsenic in grain." [CO:curators]
 synonym: "GArse" EXACT []
-is_a: TO:0006054
+is_a: TO:0006054 ! arsenic content trait
 
 [Term]
 id: CO_321:0500025
@@ -2723,7 +2723,7 @@ id: CO_321:0500026
 name: wheat grain cadmium content trait
 def: "Content of Cadmium in grain." [CO:curators]
 synonym: "GCadm" EXACT []
-is_a: TO:0006059
+is_a: TO:0006059 ! cadmium content trait
 
 [Term]
 id: CO_321:0500027
@@ -2737,28 +2737,28 @@ id: CO_321:0500028
 name: wheat grain cobalt content trait
 def: "Content of Cobalt in grain." [CO:curators]
 synonym: "GCoba" EXACT []
-is_a: TO:0001044
+is_a: TO:0001044 ! cobalt content trait
 
 [Term]
 id: CO_321:0500029
 name: wheat grain copper content trait
 def: "Content of Copper in grain." [CO:curators]
 synonym: "GCopp" EXACT []
-is_a: TO:0020092
+is_a: TO:0020092 ! copper content trait
 
 [Term]
 id: CO_321:0500030
 name: wheat grain lead content trait
 def: "Content of Lead in grain." [CO:curators]
 synonym: "GLead" EXACT []
-is_a: TO:0001047
+is_a: TO:0001047 ! lead content trait
 
 [Term]
 id: CO_321:0500031
 name: wheat grain lithium content trait
 def: "Content of Lithium in grain." [CO:curators]
 synonym: "GLith" EXACT []
-is_a: TO:0006042
+is_a: TO:0006042 ! lithium content
 
 [Term]
 id: CO_321:0500032
@@ -2772,42 +2772,42 @@ id: CO_321:0500033
 name: wheat grain manganese content trait
 def: "Content Manganese in grain." [CO:curators]
 synonym: "GMang" EXACT []
-is_a: TO:0020091
+is_a: TO:0020091 ! manganese content
 
 [Term]
 id: CO_321:0500034
 name: wheat grain molybdenum content trait
 def: "Content of Molybdenum in grain." [CO:curators]
 synonym: "GMoly" EXACT []
-is_a: TO:0006056
+is_a: TO:0006056 ! molybdenum content
 
 [Term]
 id: CO_321:0500035
 name: wheat grain nickel content trait
 def: "Content of Nickel in grain." [CO:curators]
 synonym: "GNick" EXACT []
-is_a: TO:0006051
+is_a: TO:0006051 ! nickel content
 
 [Term]
 id: CO_321:0500036
 name: wheat grain potassium content trait
 def: "Content of Potasium in grain." [CO:curators]
 synonym: "GPota" EXACT []
-is_a: TO:0000609
+is_a: TO:0000609 ! potassium content
 
 [Term]
 id: CO_321:0500037
 name: wheat grain sulphur content trait
 def: "Content of Sulphur in grain." [CO:curators]
 synonym: "GSulp" EXACT []
-is_a: TO:0006046
+is_a: TO:0006046 ! sulfur content
 
 [Term]
 id: CO_321:0500038
 name: wheat grain width trait
 def: "Width of grain" [CO:curators]
 synonym: "GWid" EXACT []
-is_a: TO:0000975
+is_a: TO:0000975 ! grain width
 
 [Term]
 id: CO_321:0500039
@@ -2835,14 +2835,14 @@ id: CO_321:0500043
 name: wheat nivalenol level trait
 def: "Nivalenol concentration" [CO:curators]
 synonym: "NIV" EXACT []
-is_a: TO:0000668
+is_a: TO:0000668 ! mycotoxin content
 
 [Term]
 id: CO_321:0500044
 name: wheat polyphenol oxidase activity trait
 def: "Measures oxidation of an L-DOPA substrate to a red-colored product as an indirect measure of PPO activity" [CO:curators]
 synonym: "PPOActivity" EXACT []
-is_a: TO:0000599
+is_a: TO:0000599 ! enzyme activity trait
 
 [Term]
 id: CO_321:0500045
@@ -2856,7 +2856,7 @@ id: CO_321:0500046
 name: wheat pseudo-black glume color trait
 def: "Pseudo-black chaff or melanism. False black chaff is a physiological condition resulting from a deposition of melaniod pigments and is completely associated with the presence of the stem rust resistance gene Sr2. Symptoms include brown to black discoloration of the glume extending from slight longitudinal marks to large black areas covering most of the glume surface. In severe expression, the stem area below the last node may become distinctly brown to black discoloured. The trait appears post-flowering with a peak at late milk-soft dough stage." [CO:curators]
 synonym: "BlkGlmCol" EXACT []
-is_a: TO:0000221
+is_a: TO:0000221 ! glume color
 
 [Term]
 id: CO_321:0500047
@@ -2870,7 +2870,7 @@ id: CO_321:0500048
 name: wheat softness equivalent trait
 def: "Softness equivalent is a flour particle size test that is correlated to break flour yields" [CO:curators]
 synonym: "SE" EXACT []
-is_a: TO:0002646
+is_a: TO:0002646 ! flour particle size
 
 [Term]
 id: CO_321:0500049

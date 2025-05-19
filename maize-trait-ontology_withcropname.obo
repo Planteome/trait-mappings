@@ -671,7 +671,7 @@ name: maize grain zinc content trait
 def: "Whole-grain zinc content." [CO:curators]
 synonym: "GZinc" EXACT []
 synonym: "Whole-grain zinc content" EXACT []
-is_a: TO:0020090
+is_a: TO:0020090 ! zinc content trait
 
 [Term]
 id: CO_322:0000112
@@ -1473,7 +1473,7 @@ name: maize grain nitrogen content trait
 def: "Whole-grain nitrogen content." [CO:curators]
 synonym: "WGNC" EXACT []
 synonym: "GNC" EXACT []
-is_a: TO:0000328 ! sucrose content
+is_a: TO:0003068 ! grain nitrogen content
 
 [Term]
 id: CO_322:0001165

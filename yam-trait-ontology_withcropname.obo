@@ -1177,12 +1177,6 @@ synonym: "arompoundedyam" EXACT []
 is_a: TO:0001068 ! processing quality trait
 
 [Term]
-id: CO_343:0000503
-name: yam starch breakdown trait
-def: "The breakdown of yam starch extracted from fresh tubers as determined using a Rapid Visco-Analyser (RVA-TecMaster, Perten Instruments, Australia)." [CO:curators]
-is_a: TO:0000374 ! starch breakdown viscosity
-
-[Term]
 id: CO_343:0002000
 name: yam peak viscosity trait
 def: "Maximum viscosity during the heating or hold phase of the RVA test. It describes the water-holding capacity of the starch." [CO:curators]
@@ -1431,12 +1425,6 @@ def: "Time between 5% emergence and 95% senescence." [CO:curators]
 is_a: TO:0000933 ! plant phenological trait
 
 [Term]
-id: CO_343:0100238
-name: yam tuber flesh color
-def: "The surface color of the yam tuber flesh." [CO:curators]
-is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
-
-[Term]
 id: CO_343:0100241
 name: yam tuber flesh uniformity trait
 def: "Uniformity of tuber flesh surface color in longitudinal section." [CO:curators]
@@ -1491,46 +1479,10 @@ def: "Mean starch grain size of yam tuber flour." [CO:curators]
 is_a: TO:0001068 ! processing quality trait
 
 [Term]
-id: CO_343:0100274
-name: pounded yam colour trait
-def: "The degree of whiteness of the pounded yam sample like a plain white paper or white flip chart/colour of boiled egg albumen, or colour of the pounded yam comparable to that of Soymilk or “Eba” from white “Gaari”, or colour of Pounded yam comparable to that of greyness covering a boiled egg yolk, or colour of pounded yam, or colour of pounded yam comparable to that of evaporated liquid milk such as Peak milk, or colour of pounded yam comparable to boiled egg yolk that is light in colour, or colour of Pounded yam comparable to deep colour of Yellow maize, or colour of pounded yam comparable to the colour whole wheat meal or colour of pounded yam comparable to the colour of carton paper." [CO:curators]
-is_a: TO:0001068 ! processing quality trait
-
-[Term]
 id: CO_343:0100275
 name: pounded yam stretchability trait
 def: "Ability of pounded yam to stretch when pulled apart with fingers." [CO:curators]
 is_a: TO:0001068 ! processing quality trait
-
-[Term]
-id: CO_343:0100276
-name: pounded yam mouldability/cohesiveness trait
-def: "Ability of the pounded yam to stick together easily without disintegrating or cohesive and being easy to mould." [CO:curators]
-is_a: TO:0001068 ! processing quality trait
-
-[Term]
-id: CO_343:0100277
-name: pounded yam stickiness trait
-def: "This is when the pounded yam sticks or adhere to the fingers when it is touched with fingers or during moulding into bolus for swallowing." [CO:curators]
-is_a: TO:0001068 ! processing quality trait
-
-[Term]
-id: CO_343:0100278
-name: pounded yam hardness trait
-def: "Softness is when it is quite easy to compress the sample, while hardness is when force is used to compress the sample or takes effort to compress the sample." [CO:curators]
-is_a: TO:0001068 ! processing quality trait
-
-[Term]
-id: CO_343:0100279
-name: pounded yam smoothness trait
-def: "Absence of lumps." [CO:curators]
-is_a: TO:0001068 ! processing quality trait
-
-[Term]
-id: CO_343:0100283
-name: yam tuber flesh oxidation trait
-def: "Oxidation ratio of flesh." [CO:curators]
-is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 [Term]
 id: CO_343:0100284

@@ -951,7 +951,7 @@ is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_334:0000447
-name: cassava root dry matter content trait
+name: cassava dry matter content trait
 def: "Dry matter content of storage roots" [CO:curators]
 synonym: "dm" EXACT []
 is_a: TO:0001041 ! root yield

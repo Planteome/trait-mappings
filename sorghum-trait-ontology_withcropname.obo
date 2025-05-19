@@ -617,9 +617,9 @@ is_a: TO:0001136 ! grain protein content
 [Term]
 id: CO_324:0000253
 name: sorghum To color trait
-def: "Color of TO porridge prepared from the sorghum grain." [CO:curators]
+def: "Color of To porridge prepared from the sorghum grain." [CO:curators]
 synonym: "ToCol" EXACT []
-synonym: "TÃ´ color" EXACT []
+synonym: "TA color" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
@@ -627,7 +627,7 @@ id: CO_324:0000256
 name: sorghum TO consistency trait
 def: "Consistency of TO porridge prepared from the sorghum grain." [CO:curators]
 synonym: "ToCons" EXACT []
-synonym: "TÃ´ consistency" EXACT []
+synonym: "TA consistency" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
