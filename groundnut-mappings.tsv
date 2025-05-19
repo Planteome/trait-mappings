@@ -1,0 +1,125 @@
+Trait ID	Trait name	Trait description	synonyms	TO label	TO ID
+CO_337:0000001	emergence time	Emergence time usually recorded as days from sowing or date.	Em	days to germinate	TO:0006061
+CO_337:0000002	flowering time	Flowering time usually recorded as days from sowing or date.	Flw	flowering time trait	TO:0002616
+CO_337:0000004	harvest time	Harvest time usually recorded as days from sowing or date.	maturity, harv	days to maturity	TO:0000469
+CO_337:0000005	pod yield (qualitative)	Assessement of pods weight per unit area or plot.	PYq	fruit yield trait	TO:0000871
+CO_337:0000006	general disease severity	General disease severity for plants infected with leafspots and/or rust.	DS	fungal disease response	TO:0000439
+CO_337:0000007	Rosette disease incidence	Rosette disease incidence caused by a complex of two viruses.	Disease Score RO:Rosette, DRO	viral disease response	TO:0000148
+CO_337:0000008	insect pest damage	Damage caused by insect pest.	insect pest score, IPS	insect damage response	TO:0000261
+CO_337:0000009	shelling ratio	Proportion of seed weight to total pod weight.	SH	seed yield trait	TO:0000905
+CO_337:0000010	seed sound mature proportion	Proportion of mature seed to total seed weight.	SM	seed quality trait	TO:0000931
+CO_337:0000011	seed weight	Weight of seed.	SW	seed weight	TO:0000181
+CO_337:0000012	seed appearance and uniformity	Appearance of seeds and their uniformity.	SAU	seed quality trait	TO:0000931
+CO_337:0000013	seed oil content	Oil content of seeds.	Oil	fat and essential oil content	TO:0000604
+CO_337:0000014	seed protein content	Protein content of seeds.	Prot	seed protein contenet trait	TO:0000490
+CO_337:0000015	growth habit	A qualitative description of the growth habit of the plant.	GH	whole plant growth and development trait	TO:0000947
+CO_337:0000016	Branching habit	A qualitative description of the branch habit of the plant, whether number of branches/architecture-erect/semi-erect/prostrate/spreading/semi-spreading	BH	shoot branching	TO:0002639
+CO_337:0000017	Stem pigmentation	A qualitative trait indicating the extent of anthocyanin pigmentation in the stem.	Haulm pigmentation, StPig, SP	stem color	TO:0000056
+CO_337:0000018	Peg pigmentation	A qualitative trait indicating the extent pigmentation in the peg.	PegPig, PP	shoot axis morphology trait	TO:0000739
+CO_337:0000019	leaf size	Size of the leaf.	LS	leaf size	TO:0002637
+CO_337:0000020	leaf color	A qualitative expression of leaf color.	LC	leaf color	TO:0000326
+CO_337:0000021	leaf shape	Visual appearance of leaf shape.	LSp	leaf shape	TO:0000492
+CO_337:0000022	flower standard petal color	A qualitative trait indicating flower standard petal color.	FC	petal color	TO:0000572
+CO_337:0000023	marking on standard petal	A quantitative appearance of wing petal.	MSP	petal morphology trait	TO:0000863
+CO_337:0000024	flower crescent color	A qualitative trait indicating flower crescent color.	FCC	petal color	TO:0000572
+CO_337:0000025	hairiness on mainstem	Morphological character measuring density of hairs on main stem.	hairiness on main haulm, HMSt, HM	stem hairiness	TO:0000879
+CO_337:0000026	hairiness on mature leaflet	Morphological character measuring density of hairs on leaf.	HML	leaf pubescence	TO:0002722
+CO_337:0000027	pod seed number	Number of seeds per pod.	seed per pod, PSN	fruit seed number	TO:0000445
+CO_337:0000028	pod size	Length of pod.	PSz	fruit length	TO:0002626
+CO_337:0000029	pod constriction	A qualitative trait indicating shape of pod.	Con	fruit shape	TO:0002628
+CO_337:0000030	pod beak	Tip of the pod.	B	fruit shape	TO:0002628
+CO_337:0000031	pod reticulation	Reticulation (venation, ribbing, ridging) on the shell of the pod	RL	pericarp texture	TO:0002623
+CO_337:0000032	pod ridge	Texture of each seed in pod.	R	seed coat texture	TO:0000903
+CO_337:0000033	pod shell thickness	A quantitative measurement of pod thickness.	ST	pericarp morphology trait	TO:0000945
+CO_337:0000034	seed color	A qualitative trait indicating seed coat color.	SCP	seed coat color	TO:0000190
+CO_337:0000035	seed size	A trait indicating seed size.	SSz	seed size	TO:0000391
+CO_337:0000036	seed shape	A qualitative trait indicating seed shape.	SSp	seed shape	TO:0000484
+CO_337:0000037	seed ends	A qualitative trait indicating seed end shape.	E	seed shape	TO:0000484
+CO_337:0000038	cultivar group	A classification of varieties of groundnut.	CG	not a trait	
+CO_337:0000039	canopy height	Height of the canopy.	plant height, main stem height, CH	plant height	TO:0000207
+CO_337:0000040	canopy width	Width of the canopy.	canopy diameter, CW	plant width	TO:0006062
+CO_337:0000041	root depth	Maximum rooting depth.	RD	rooting depth	TO:0000519
+CO_337:0000042	root biomass	Root dry weight of a sample.	RBM	root dry weight	TO:0000078
+CO_337:0000043	root length	Root length of a sample.	RL	root length	TO:0000227
+CO_337:0000044	root diameter	Root diameter.	RDM	root width	TO:0001112
+CO_337:0000045	root to shoot ratio	Root/shoot dry weight ratio.	RSR	root to shoot ratio	TO:0000278
+CO_337:0000046	biomass	The amount (weight) of biomass that was harvested per unit area or plant.	BM	biomass yield	TO:0000457
+CO_337:0000047	leaf weight	Weight of leaf.	LW	leaf weight	TO:0000505
+					
+CO_337:0000049	specific leaf area	Specific leaf area as leaf area/leaf weight ratio.	SLA	specific leaf area	TO:0000562
+CO_337:0000050	plant stem weight	Weight of stems per plant.	haulm weight, PlntStW	stem weight	TO:0000952
+CO_337:0000051	plant leaf weight	Total leaves weight per plant.	PlntLW	leaf weight 	TO:0000505
+CO_337:0000052	plant pod number	Number of pods per plant.	pods per plant, PlntPN	pod number trait	TO:0001125
+CO_337:0000053	plant pod weight	Weight of pods per plant.	PlntPW	legume fruit weight	TO:0001092
+CO_337:0000054	plant peg number	Number of pegs per plant.	pegs per plant, PlntPegN	shoot system morphology trait	TO:0000077
+CO_337:0000055	leaf sodium content	Leaf sodium content.	NaL	shoot system sodium content	TO:0020004
+CO_337:0000056	stem sodium content	Stem sodium content.	haulm sodium content, NaSt, NaS	shoot system sodium content	TO:0020004
+CO_337:0000057	leaf potassium content	Leaf potassium content.	KL	leaf potassium content	TO:0003049
+CO_337:0000058	stem potassium content	Stem potassium content.	haulm potassium content, KSt, KS	stem potassium content	TO:0003050
+CO_337:0000059	harvest index	Proportion of seed yield over total biomass yield.	plant biomass partitioning to seed, HI	seed harvest index	TO:0000897
+CO_337:0000060	seed oleic / linoleic acid ratio	Ratio of oleic to linoleic acid content in seeds	OLR	linoleic acid content	TO:0005001
+CO_337:0000061	transpiration	The amount of water transpired by leaf stomata.	TP	transpiration rate	TO:0001018
+CO_337:0000062	transpiration efficiency	The amount of water used for the amount of biomass production.	TE	water use efficiency	TO:0001017
+CO_337:0000063	SPAD at the start of stress	A qualitative measurement of leaf chlorophyll content.	SPADS	leaf chlorophyll content	TO:0012002
+CO_337:0000064	SPAD after 7days under stress	A qualitative measurement of leaf chlorophyll content after 7 days under stress.	SPAD7	leaf chlorophyll content	TO:0012002
+CO_337:0000065	SPAD at harvest (10d)	A qualitative measurement of leaf chlorophyll content at harvest.	SPADH	leaf chlorophyll content	TO:0012002
+CO_337:0000066	leaf carbon isotope discrimination	Ratio of Carbon isotope 13C discrimination.	Delta 13C, D13C	carbon isotope discrimination	TO:0002643
+CO_337:0000067	leaf area	A measurement leaf area.	LA	leaf area trait	TO:0000540
+CO_337:0000068	seed yield (qualitative)	Weight of seeds per unit area or plot.	SYq	seed yield trait	TO:0000905
+CO_337:0000069	fresh seed dormancy	Duration of seed dormancy.	seed dormancy, FSD	seed dormancy	TO:0000253
+CO_337:0000212	bud necrosis disease incidence	Bud necrosis disease incidence caused by agent peanut bud necrosis virus (PBNV).	BND	viral disease response	TO:0000148
+CO_337:0000218	specific leaf area	Specific leaf area as leaf area/leaf weight ratio.	SLA, SPAD7	specific leaf area	TO:0000562
+CO_337:0000233	collar rot incidence	Collar rot incidence caused by agent Aspergillus niger.	CR	Ascomycete fungal disease response	TO:0001145
+CO_337:0000239	early leaf spot severity	Early leaf spot disease severity caused by agent Cercospora arachidicola.	ELS	Ascomycete fungal disease response	TO:0001145
+CO_337:0000242	late leaf spot severity	Late leaf spot disease severity caused by agent Phaeoisariopsis personata.	LLS	Ascomycete fungal disease response	TO:0001145
+CO_337:0000245	plant branch number	Number of branches per plant.	branch per plant, PlntBN	primary shoot branch number	TO:0020020
+CO_337:0000248	plant seed number	Number of seeds per plant.	seed per plant, PlntSN	seed yield trait	TO:0000905
+CO_337:0000251	plant seed weight	Weight of seeds per plant.	PlntSW	seed yield trait	TO:0000905
+CO_337:0000254	plant vigour	Assessment of plant growth to describe the capacity of plant to grow.	PlntVig	plant vigor trait	TO:0000250
+CO_337:0000257	rust severity	Rust disease severity caused by Puccinia arachidis.	Rust	Basidiomycete fungal disease response	TO:0001146
+CO_337:0000260	stem rot incidence	Stem rot incidence caused by agent Sclerotium rolfsii.	StR	Basidiomycete fungal disease response	TO:0001146
+CO_337:0000601	groundnut bruchid	The reaction of the plant to Caryedon serratus activity and/or traits that affect the biology of the Coleopteran insect in the presence of the plant. Caryedon serratus is commonly known as the groundnut bruchid, groundnut borer, and groundnut seed beetle.	GB	insect damage response	TO:0000261
+CO_337:0000602	haulm weight	Weight of the leaves and stems of a single plant.	HlmW	stem weight	TO:0000952
+CO_337:0000603	main stem	Mainstem prominence	MS	stem morphology trait	TO:0000361
+CO_337:0000604	Peanut root-knot nematode reaction	The reaction of the plant to nematode Meloidogyne arenaria activity and/or traits that affect the biology of the nematode in the presence of the plant.	PRN	nematode damage response trait	TO:0000384
+CO_337:0000605	pod weight	Weight of a single pod.	PW	legume fruit weight	TO:0001092
+CO_337:0000606	pod width	Width of the pod. Trait may refer to the width of either the short axis perpendicular to the suture plane or the short axis that lies on that plane.	PWd	legume fruit morphology trait	TO:0001082
+CO_337:0000607	Plant seed number - Method - 120 days after planting	The reaction of the plant to nematode Meloidogyne arenaria activity and/or traits that affect the biology of the nematode in the presence of the plant.	PRN	fruit seed number	TO:0000445
+CO_337:0000612	aflatoxin	Effect of infection by Aspergillus flavus and/or Aspergillus parasiticus.	Afl	Ascomycete fungal disease response	TO:0001145
+CO_337:0000615	axis flowers	Flowers on main axis at 60 - 90 days	Axf	flower number trait	TO:0002736
+CO_337:0000624	determinacy of pod maturity	The determinacy of pod maturity. Trait may be measured by the proportion of pods at harvest that are mature.	PM	fruit ripening trait	TO:0002633
+CO_337:0000652	Late and Early leaf spot	The reaction of the plant to Nothopassalora personata and/or Cercospora arachidicola infections. Indicates that the two Leaf spot diseases coexisit on the same plants or are not distinguished.	LELS	Ascomycete fungal disease response	TO:0001145
+CO_337:0000655	Lateral branch length	Length of a single lateral branch (primary branch).	LaBL	branch morphology trait	TO:0000740
+CO_337:0000667	leaf length	The length of a single leaf	LL	leaf length	TO:0000135
+CO_337:0000671	leaf length/width ratio	The ratio of leaf length to width	LLW	leaf length to width ratio	TO:0000542
+CO_337:0000674	leaf width	The width of a single leaf	LW	leaf width	TO:0000370
+CO_337:0000699	peg length	Length of peg (gynophore).	PgL	pedicel length	TO:0000630
+CO_337:0000704	plant height/width ratio	Plant height to plant width ratio	PlHW	whole plant morphology trait	TO:0000398
+CO_337:0000707	plant pod shell weight	Total weight of shells produced by a plant.	pod wall weight per plant, PWallW	legume fruit weight	TO:0001092
+CO_337:0000713	plant size	A descripion of plant size	PlS	whole plant size	TO:1000012
+CO_337:0000717	plant weight	Weight of an entire single plant. Includes all developed aboveground, belowground, vegetative, and reproductive organs.	PlW	plant fresh weight	TO:0000442
+CO_337:0000724	pod harvest index	Ratio of the pod weight per plant to the total plant weight.	PHI	fruit harvest index	TO:0000895
+CO_337:0000732	pod shape	Pod shape at harvest	PSh	fruit shape	TO:0002628
+CO_337:0000744	pollen viability	Ability of pollen to germinate under appropriate conditions and the potential to deliver male gametes to the female gametophyte.	PolV	pollen fertility	TO:0000421
+CO_337:0000750	root weight/haulm weight ratio	Ratio of the weight of the root system to the weight of the haulm (leaves and stems).		root system morphology trait	TO:0000985
+CO_337:0000754	seed coat pattern	Color pattern on seed coat (testa) at harvest.	SCP	seed coat pattern	TO:0000904
+CO_337:0000760	seed length	Length of a seed measured in its longest dimension with the hylum face up).	SL	seed length	TO:0000146
+CO_337:0000763	seed linoleic acid content	Linoleic acid content of seeds.	L	linoleic acid content	TO:0005001
+CO_337:0000766	seed oleic acid content	Oleic acid content of seeds.	O	oleic acid content	TO:0005002
+CO_337:0000772	seed width	Width of a seed measured from side to side with the hylum face up.	SWd	seed width	TO:0000149
+CO_337:0000777	shoot weight	Weight of the entire shoot system of a single plant, including the leaves, stems, pegs, and pods.	ShW	shoot system morphology trait	TO:0000077
+CO_337:0000786	thrips	The reaction of the plant or plant part to thrips and/or traits that affect the biology of the Thysanopteran insect in the presence of the plant.	Th	insect damage response	TO:0000261
+CO_337:0000789	TSWV	The reaction of the plant to infection by Tomato spotted wilt virus (TSWV) and/or traits that affect the virus in the presence of the plant	TSWV	viral disease response	TO:0000148
+CO_337:0000808	germination	Proportion of seed that germinate	Ger	germination ratio	TO:0000202
+CO_337:0000810	drought tolerance 	Tolerance of the plant to drought conditions	TolDrgh	drought tolerance	TO:0000276
+CO_337:0000812	flooding tolerance 	Tolerance of the plant to flooding	TolFld	flooding related trait	TO:0000114
+CO_337:0000814	salinity tolerance	Tolerance of the plant to salinity	TolSal	salt tolerance	TO:0006001
+CO_337:0000816	pest resistance	Tolerance of the plant to pests	TolPst	biotic plant stress trait	TO:0000179
+CO_337:0000818	stay-green	Proportion of leaves that stayed green until the maturity stage	Stgr	stay green trait	TO:0002712
+CO_337:0000820	marketability 	Quality of the grain for marketability	Mrkt	seed quality trait	TO:0000931
+CO_337:0000822	overall performance 	Overall performance of the plant	OPCh	phenotypic acceptability	TO:0000322
+CO_337:0000824	overall vs local 	Overall performance of the plant vs local check	OPCh	phenotypic acceptability	TO:0000322
+CO_337:0000826	seed size for target use	Size of the seeds adequate for a given use	Sszus	seed size	TO:0000391
+CO_337:0000828	storage problem tolerance	Tolerance of the storage problems documented by the farmer	TolStPrb	seed quality trait	TO:0000931
+CO_337:0000830	storability	Quality of the seed for storage	QSStor	seed quality trait	TO:0000931
+CO_337:0000832	taste after cooking	Taste after cooking	TaC	cooking quality trait	TO:0001069

@@ -1,82 +1,82 @@
-Trait ID	Trait name	Trait description	Trait synonyms	TO:ID	TO Label
-CO_338:0000003	Pod number	Is a count of the number of pods per plant grown in the pot or field.	PODNO	TO:0001125	pod number trait
-CO_338:0000027	Seed yield per ha	Seed yield at maturity (kg ha-1)	SYHA	TO:0000905	seed yield trait
-CO_338:0000043	Days to 50% flowering	Number of days from sowing to when 50% of the plants have started flowering	DFTFL	TO:0000344	days to flowering trait
-CO_338:0000051	Seed yield per plot	Seed yield at maturity (g per plot)	SYPLOT	TO:0000905	seed yield trait
-CO_338:0000056	Days to first flower	Number of days from sowing to appearance of first flower	DFFL	TO:0000344	days to flowering trait
-CO_338:0000086	Root dry weight	Root dry weight of a sample	RDW	TO:0000078	root dry weight
-CO_338:0000002	Pod weight	Weight of pods from a plant	PDWT	TO:0001092	legume fruit weight
-CO_338:0000004	Pods per plant	Number of pods counted per plant	PDPL	TO:0001125	pod number trait
-CO_338:0000005	Seeds per pod	Number of seeds per pod from a plant	SDPD	TO:0000445	fruit seed number
-CO_338:0000011	Growth habit	Growth habit of the plant	GRH	TO:0000947	whole plant growth and development trait
-CO_338:0000014	Plant width	Width of the plant i.e., the spread of the plant canopy	Plant canopy width, PLWTH	TO:0006062	plant width
-CO_338:0000015	Plant pigmentation	Extent of anthocyanin pigmentation in the plant	Stem pigmentation, PLPIG	TO:0000708	plant color
-CO_338:0000017	Flower color	Color of the flower	FLCOL	TO:0000537	flower color
-CO_338:0000019	Seed shape	Shape of the seed e.g., angular/pea shaped/owls head	SDSHP	TO:0000484	seed shape
-CO_338:0000020	Seed color	Color of the seed coat. It can describe the main color of the seed coat (e.g., black, brown, green, yellow, white), its different color shades, its combination of colors	testa color, seed coat color, SDCOL	TO:0000486	seed color
-CO_338:0000021	Seed surface	Surface of the seed e.g., rough, smooth, tuberculated	SDSRF	TO:0000903	seed coat texture
-CO_338:0000023	Plant height	Height of the plant described as the distance between the soil and the plant canopy	PLHGT	TO:0000207	plant height
-CO_338:0000025	Seed yield per plant	Weight of seeds obtained from a plant.	seed weight, SYPL	TO:0000905	seed yield trait
-CO_338:0000026	Seed weight	Weight of a seed	100-seed mass	TO:0000181	seed weight
-CO_338:0000029	Harvest index	Proportion of grain yield over total biomass yield	HI	TO:0000897	seed harvest index
-CO_338:0000030	Shoot dry weight	Weight of the shoot without roots	biomass, SHWT	TO:0000077	shoot system morphology trait
-CO_338:0000034	Root dry weight	Dry weight of the root	RTWT	TO:0000078	root dry weight
-CO_338:0000036	Botrytis grey mold resistance	Causative agent: Botrytis cinerea. It causes water soaked and irregular lesions on the pod that contain either small shriveled seeds or no seeds at all, lesions girdle the stem completely	BGMR	TO:0001145	Ascomycete fungal disease response
-CO_338:0000037	Fusarium wilt resistance	Causative agent: Fusarium oxysporum f.sp.ciceris. It causes seedlings to die, seedlings collapse and lie flat on the ground, when uprooted plants show uneven shrinking of the stem above and below the collar region	FWR	TO:0001145	Ascomycete fungal disease response
-CO_338:0000038	Colletotrichum blight resistance	Causative agent: Colletotrichum capsici. It causes elongated, sunken, dark brown spots on the lower part of the stem, wilting and drying due to severe infection	COLBR	TO:0001145	Ascomycete fungal disease response
-CO_338:0000039	Ascochyta blight resistance	Causative agent: Ascochyta rabiei. It causes dark brown lesions at the base of the stem of emerging seedlings, seen during the flowering and podding phases of blighted plants in the field, affected seedlings die	ABR	TO:0001145	Ascomycete fungal disease response
-CO_338:0000041	Pod borer resistance	The extent of damage caused by the pod borer. Causative agent:Helicoverpa armigera. The insect feeds on all green parts and defoliate young crops, large larvae cut round holes in the pod wall and devour the seed inside.	PBR	TO:0000261	insect damage response trait
-CO_338:0000044	Time to maturity	Time elpased from sowing to maturity	TimeMat	TO:0000469	days to maturity
-CO_338:0000047	Biomass yield per plant	The dry weight of the whole plant (excluding roots)	BYPL	TO:0000352	plant dry weight
-CO_338:0000049	Flowering duration	Period during which plants continue to flower	FLD	TO:0002616	flowering time trait
-CO_338:0000052	Seed per plant	Number of seeds per plant	SDNPL	TO:0000905	seed yield trait
-CO_338:0000054	Number of flowers per peduncle	Number of flowers per peduncle	FLPED	TO:0002736	flower number
-CO_338:0000055	Seed diameter	Seed diameter of fully dried seed	SDDIA	TO:0000149	seed width
-CO_338:0000057	Cold tolerance	Degree of tolerance to cold	CT	TO:0000303	cold tolerance
-CO_338:0000058	No. of fertile pods per plant	Number of pods with seed	NPDPL	TO:0001125	pod number trait
-CO_338:0000059	Biomass yield	The dry weight of the plant (excluding roots) harvested from an area	BY	TO:0000352	plant dry weight
-CO_338:0000060	Seed protein content	Protein content of the whole seed	PRT	TO:0000490	seed protein content
-CO_338:0000061	Cooking time	Cooking time for dry seed without soaking	CKT	TO:0000667	cooking or brewing quality
-CO_338:0000062	Canopy height	Height of the canopy	Plant canopy height, CH	TO:0001069	cooking quality trait
-CO_338:0000063	Growth vigor	Vigor of the plant growth charaterized by the plant height and shoot biomass	GRV	TO:0000250	plant vigor trait
-CO_338:0000064	Collar rot resistance	Causative agent: Sclerotium rolfsii. It causes constriction of collar region and rotting. White strands grow over affected tissue. Sclerotia, small round fungal structures that look like mustard seeds, are seen on the dead tissues	COLRR	TO:0001145	Ascomycete fungal disease response
-CO_338:0000065	Leaf miner resistance	Causative agent: Liriomyza cicerina. The leaflets are mined, have a reduced photosynthetic capacity and senesce prematurely.	LMR	TO:0000261	insect damage response trait
-CO_338:0000066	Leaf type	Type of leaf of the plant e.g., normal/simple/multipinnate	LFT	TO:0001121	compound leaf morphology trait
-CO_338:0000068	Dry root rot resistance	Causative agent: Rhizoctonia bataticola. It causes drying up of plants. Roots become brittle and minute sclerotia are seen on the exposed roots	DRRR	TO:0001145	Ascomycete fungal disease response
-CO_338:0000074	Time to pod formation	Time elapsed between sowing and pod formation	DFPD	TO:0000852	fruit set trait
-CO_338:0000076	Pod length	Length of pods	PDLTH	TO:0002626	fruit length
-CO_338:0000265	Seed yield	Weight of seed per unit of area	SY	TO:0000905	seed yield trait
-CO_338:0000266	Time to flowering	Time elpased from sowing to flowering	TimeFlw	TO:0000344	days to flowering trait
-CO_338:0000007	Apical primary branches number per plant	Number of apical primary branches per plant	APBR	TO:0000547	primary branch number
-CO_338:0000008	Apical secondary branches number per plant	Number of apical secondary branches per plant	ASBR	TO:0000557	secondary branch number
-CO_338:0000009	Basal primary branches number per plant	Number of basal primary branches per plant	BPBR	TO:0000547	primary branch number
-CO_338:0000010	Basal secondary branches number per plant	Number of basal secondary branches per plant	BSBR	TO:0000557	secondary branch number
-CO_338:0000012	Tertiary branches number per plant	Number of tertiary branches per plant	TRBR	TO:0006034	tertiary branch number
-CO_338:0000022	Dots on seed coat	Trait indicating the presence or absence of dots on the seed coat.	DOTSD	TO:0000904	seed coat pattern
-CO_338:0000032	Shoot sodium	Shoot sodium content from plants/subset of plants.	SHSOD	TO:0020004	shoot system sodium content
-CO_338:0000033	Shoot potassium	Shoot potassium content from plants/subset of plants.	SHPOT	TO:0020003	shoot system potassium content
-CO_338:0000048	Filled double pod number	Is a count of the number of filled chickpea double pods produced by a double podded line.	FDPN	TO:0001125	pod number trait
-CO_338:0000067	High temperature tolerance	Degree of tolerance to high temperature	Heat tolerance, HTT	TO:0000259	heat tolerance
-CO_338:0000069	Viral (stunt) resistance	Causative agent: Pea leaf roll virus. It causes stunted growth and discoloured (yellow, orange or brown) foliage	VRLR	TO:0000148	viral disease response
-CO_338:0000070	Taste	Taste of seed for consuming	TST	TO:0000931	seed quality trait
-CO_338:0000071	Root length	Cumulative root length of a sample	RL	TO:0000227	root length
-CO_338:0000072	Salinity tolerance	Degree of tolerance to soil salinity	SALT	TO:0006001	salt tolerance
-CO_338:0000073	Rooting depth	Rooting depth of the plant	RDp	TO:0000519	rooting depth
-CO_338:0000075	Cyst nematode resistance	Causative agent: Heterodera spp. Syncytia are formed on the roots which become necrotic.	CYSNR	TO:0000384	nematode damage response trait
-CO_338:0000078	Leaflet margin	Type of leaflet margin e.g., smooth, serrated	LFLM	TO:0002635	leaf margin morphology trait
-CO_338:0000079	Number of leaflets per leaf	Number of leaflets in a fully developed leaf	LFLN	TO:0002636	leaflet number
-CO_338:0000080	Plant pubescence	Extent of hairiness of the shoot	Plant hairiness, PLPUB	TO:0000879	stem hairiness
-CO_338:0000081	Alternaria blight resistance	Causative agent: Alternaria alternata. It causes water-soaked purple lesions on leaflets which later turn brown to dark brown	ALTBR	TO:0001145	Ascomycete fungal disease response
-CO_338:0000082	Root knot nematode resistance	Causative agent: Meloidogyne spp. It causes formation of galls on the root	RTKNR	TO:0000384	nematode damage response trait
-CO_338:0000084	Stem dry weight	Stem dry weight of a sample	StemDW	TO:0003001	stem dry weight
-CO_338:0000085	Leaf dry weight	Leaf dry weight of a sample	LeafDW	TO:0001014	leaf dry weight
-CO_338:0000087	Root dry weight/total plant dry weight	Ratio of root dry weight to that of the whole plant dry weight	RTRatio	TO:0000078	root dry weight
-CO_338:0000088	Root length density	The length of roots present in a unit volume of soil	RLD	TO:0000227	root length
-CO_338:0000089	Root surface area	Surface of roots	RSA	TO:0000043	root morphology trait
-CO_338:0000090	Root volume	Volume of root	RV	TO:0000233	root volume
-CO_338:0000091	Carbon isotope discrimination	Ratio of carbon isotope in tissue relative to the air	Delta carbon, CID	TO:0002643	carbon isotope discrimination
-CO_338:0000092	Specific leaf area	Leaf area per dry weight of leaves	SLA	TO:0000562	specific leaf area
-CO_338:0000093	Leaf chlorophyll content	Chlorophyll content in the leaf	SPAD values, LfChlorCt	TO:0012002	leaf chlorophyll content
-CO_338:0000094	Transpiration efficiency	Ratio of shoot biomass produced per unit of transpired water	TE	TO:0001017	water use efficiency
-CO_338:0000095	Water use efficiency	Ratio of shoot biomass produced per unit of water lost from the field through both transpiration and evaporation	WUE	TO:0001017	water use efficiency
-CO_338:0000096	Drought tolerance	Standard residual after removing the effects of flowering time and yield potential advantages from the drought yields	Drought index, DTI	TO:0000276	drought tolerance
+Trait ID	Trait name	Trait description	Trait synonyms	TO Label	TO:ID
+CO_338:0000003	Pod number	Is a count of the number of pods per plant grown in the pot or field.	PODNO	pod number trait	TO:0001125
+CO_338:0000027	Seed yield per ha	Seed yield at maturity (kg ha-1)	SYHA	seed yield trait	TO:0000905
+CO_338:0000043	Days to 50% flowering	Number of days from sowing to when 50% of the plants have started flowering	DFTFL	days to flowering trait	TO:0000344
+CO_338:0000051	Seed yield per plot	Seed yield at maturity (g per plot)	SYPLOT	seed yield trait	TO:0000905
+CO_338:0000056	Days to first flower	Number of days from sowing to appearance of first flower	DFFL	days to flowering trait	TO:0000344
+CO_338:0000086	Root dry weight	Root dry weight of a sample	RDW	root dry weight	TO:0000078
+CO_338:0000002	Pod weight	Weight of pods from a plant	PDWT	legume fruit weight	TO:0001092
+CO_338:0000004	Pods per plant	Number of pods counted per plant	PDPL	pod number trait	TO:0001125
+CO_338:0000005	Seeds per pod	Number of seeds per pod from a plant	SDPD	fruit seed number	TO:0000445
+CO_338:0000011	Growth habit	Growth habit of the plant	GRH	whole plant growth and development trait	TO:0000947
+CO_338:0000014	Plant width	Width of the plant i.e., the spread of the plant canopy	Plant canopy width, PLWTH	plant width	TO:0006062
+CO_338:0000015	Plant pigmentation	Extent of anthocyanin pigmentation in the plant	Stem pigmentation, PLPIG	plant color	TO:0000708
+CO_338:0000017	Flower color	Color of the flower	FLCOL	flower color	TO:0000537
+CO_338:0000019	Seed shape	Shape of the seed e.g., angular/pea shaped/owls head	SDSHP	seed shape	TO:0000484
+CO_338:0000020	Seed color	Color of the seed coat. It can describe the main color of the seed coat (e.g., black, brown, green, yellow, white), its different color shades, its combination of colors	testa color, seed coat color, SDCOL	seed color	TO:0000486
+CO_338:0000021	Seed surface	Surface of the seed e.g., rough, smooth, tuberculated	SDSRF	seed coat texture	TO:0000903
+CO_338:0000023	Plant height	Height of the plant described as the distance between the soil and the plant canopy	PLHGT	plant height	TO:0000207
+CO_338:0000025	Seed yield per plant	Weight of seeds obtained from a plant.	seed weight, SYPL	seed yield trait	TO:0000905
+CO_338:0000026	Seed weight	Weight of a seed	100-seed mass	seed weight	TO:0000181
+CO_338:0000029	Harvest index	Proportion of grain yield over total biomass yield	HI	seed harvest index	TO:0000897
+CO_338:0000030	Shoot dry weight	Weight of the shoot without roots	biomass, SHWT	shoot system morphology trait	TO:0000077
+CO_338:0000034	Root dry weight	Dry weight of the root	RTWT	root dry weight	TO:0000078
+CO_338:0000036	Botrytis grey mold resistance	Causative agent: Botrytis cinerea. It causes water soaked and irregular lesions on the pod that contain either small shriveled seeds or no seeds at all, lesions girdle the stem completely	BGMR	Ascomycete fungal disease response	TO:0001145
+CO_338:0000037	Fusarium wilt resistance	Causative agent: Fusarium oxysporum f.sp.ciceris. It causes seedlings to die, seedlings collapse and lie flat on the ground, when uprooted plants show uneven shrinking of the stem above and below the collar region	FWR	Ascomycete fungal disease response	TO:0001145
+CO_338:0000038	Colletotrichum blight resistance	Causative agent: Colletotrichum capsici. It causes elongated, sunken, dark brown spots on the lower part of the stem, wilting and drying due to severe infection	COLBR	Ascomycete fungal disease response	TO:0001145
+CO_338:0000039	Ascochyta blight resistance	Causative agent: Ascochyta rabiei. It causes dark brown lesions at the base of the stem of emerging seedlings, seen during the flowering and podding phases of blighted plants in the field, affected seedlings die	ABR	Ascomycete fungal disease response	TO:0001145
+CO_338:0000041	Pod borer resistance	The extent of damage caused by the pod borer. Causative agent:Helicoverpa armigera. The insect feeds on all green parts and defoliate young crops, large larvae cut round holes in the pod wall and devour the seed inside.	PBR	insect damage response trait	TO:0000261
+CO_338:0000044	Time to maturity	Time elpased from sowing to maturity	TimeMat	days to maturity	TO:0000469
+CO_338:0000047	Biomass yield per plant	The dry weight of the whole plant (excluding roots)	BYPL	plant dry weight	TO:0000352
+CO_338:0000049	Flowering duration	Period during which plants continue to flower	FLD	flowering time trait	TO:0002616
+CO_338:0000052	Seed per plant	Number of seeds per plant	SDNPL	seed yield trait	TO:0000905
+CO_338:0000054	Number of flowers per peduncle	Number of flowers per peduncle	FLPED	flower number	TO:0002736
+CO_338:0000055	Seed diameter	Seed diameter of fully dried seed	SDDIA	seed width	TO:0000149
+CO_338:0000057	Cold tolerance	Degree of tolerance to cold	CT	cold tolerance	TO:0000303
+CO_338:0000058	No. of fertile pods per plant	Number of pods with seed	NPDPL	pod number trait	TO:0001125
+CO_338:0000059	Biomass yield	The dry weight of the plant (excluding roots) harvested from an area	BY	plant dry weight	TO:0000352
+CO_338:0000060	Seed protein content	Protein content of the whole seed	PRT	seed protein content	TO:0000490
+CO_338:0000061	Cooking time	Cooking time for dry seed without soaking	CKT	cooking or brewing quality	TO:0000667
+CO_338:0000062	Canopy height	Height of the canopy	Plant canopy height, CH	cooking quality trait	TO:0001069
+CO_338:0000063	Growth vigor	Vigor of the plant growth charaterized by the plant height and shoot biomass	GRV	plant vigor trait	TO:0000250
+CO_338:0000064	Collar rot resistance	Causative agent: Sclerotium rolfsii. It causes constriction of collar region and rotting. White strands grow over affected tissue. Sclerotia, small round fungal structures that look like mustard seeds, are seen on the dead tissues	COLRR	Ascomycete fungal disease response	TO:0001145
+CO_338:0000065	Leaf miner resistance	Causative agent: Liriomyza cicerina. The leaflets are mined, have a reduced photosynthetic capacity and senesce prematurely.	LMR	insect damage response trait	TO:0000261
+CO_338:0000066	Leaf type	Type of leaf of the plant e.g., normal/simple/multipinnate	LFT	compound leaf morphology trait	TO:0001121
+CO_338:0000068	Dry root rot resistance	Causative agent: Rhizoctonia bataticola. It causes drying up of plants. Roots become brittle and minute sclerotia are seen on the exposed roots	DRRR	Ascomycete fungal disease response	TO:0001145
+CO_338:0000074	Time to pod formation	Time elapsed between sowing and pod formation	DFPD	fruit set trait	TO:0000852
+CO_338:0000076	Pod length	Length of pods	PDLTH	fruit length	TO:0002626
+CO_338:0000265	Seed yield	Weight of seed per unit of area	SY	seed yield trait	TO:0000905
+CO_338:0000266	Time to flowering	Time elpased from sowing to flowering	TimeFlw	days to flowering trait	TO:0000344
+CO_338:0000007	Apical primary branches number per plant	Number of apical primary branches per plant	APBR	primary branch number	TO:0000547
+CO_338:0000008	Apical secondary branches number per plant	Number of apical secondary branches per plant	ASBR	secondary branch number	TO:0000557
+CO_338:0000009	Basal primary branches number per plant	Number of basal primary branches per plant	BPBR	primary branch number	TO:0000547
+CO_338:0000010	Basal secondary branches number per plant	Number of basal secondary branches per plant	BSBR	secondary branch number	TO:0000557
+CO_338:0000012	Tertiary branches number per plant	Number of tertiary branches per plant	TRBR	tertiary branch number	TO:0006034
+CO_338:0000022	Dots on seed coat	Trait indicating the presence or absence of dots on the seed coat.	DOTSD	seed coat pattern	TO:0000904
+CO_338:0000032	Shoot sodium	Shoot sodium content from plants/subset of plants.	SHSOD	shoot system sodium content	TO:0020004
+CO_338:0000033	Shoot potassium	Shoot potassium content from plants/subset of plants.	SHPOT	shoot system potassium content	TO:0020003
+CO_338:0000048	Filled double pod number	Is a count of the number of filled chickpea double pods produced by a double podded line.	FDPN	pod number trait	TO:0001125
+CO_338:0000067	High temperature tolerance	Degree of tolerance to high temperature	Heat tolerance, HTT	heat tolerance	TO:0000259
+CO_338:0000069	Viral (stunt) resistance	Causative agent: Pea leaf roll virus. It causes stunted growth and discoloured (yellow, orange or brown) foliage	VRLR	viral disease response	TO:0000148
+CO_338:0000070	Taste	Taste of seed for consuming	TST	seed quality trait	TO:0000931
+CO_338:0000071	Root length	Cumulative root length of a sample	RL	root length	TO:0000227
+CO_338:0000072	Salinity tolerance	Degree of tolerance to soil salinity	SALT	salt tolerance	TO:0006001
+CO_338:0000073	Rooting depth	Rooting depth of the plant	RDp	rooting depth	TO:0000519
+CO_338:0000075	Cyst nematode resistance	Causative agent: Heterodera spp. Syncytia are formed on the roots which become necrotic.	CYSNR	nematode damage response trait	TO:0000384
+CO_338:0000078	Leaflet margin	Type of leaflet margin e.g., smooth, serrated	LFLM	leaf margin morphology trait	TO:0002635
+CO_338:0000079	Number of leaflets per leaf	Number of leaflets in a fully developed leaf	LFLN	leaflet number	TO:0002636
+CO_338:0000080	Plant pubescence	Extent of hairiness of the shoot	Plant hairiness, PLPUB	stem hairiness	TO:0000879
+CO_338:0000081	Alternaria blight resistance	Causative agent: Alternaria alternata. It causes water-soaked purple lesions on leaflets which later turn brown to dark brown	ALTBR	Ascomycete fungal disease response	TO:0001145
+CO_338:0000082	Root knot nematode resistance	Causative agent: Meloidogyne spp. It causes formation of galls on the root	RTKNR	nematode damage response trait	TO:0000384
+CO_338:0000084	Stem dry weight	Stem dry weight of a sample	StemDW	stem dry weight	TO:0003001
+CO_338:0000085	Leaf dry weight	Leaf dry weight of a sample	LeafDW	leaf dry weight	TO:0001014
+CO_338:0000087	Root dry weight/total plant dry weight	Ratio of root dry weight to that of the whole plant dry weight	RTRatio	root dry weight	TO:0000078
+CO_338:0000088	Root length density	The length of roots present in a unit volume of soil	RLD	root length	TO:0000227
+CO_338:0000089	Root surface area	Surface of roots	RSA	root morphology trait	TO:0000043
+CO_338:0000090	Root volume	Volume of root	RV	root volume	TO:0000233
+CO_338:0000091	Carbon isotope discrimination	Ratio of carbon isotope in tissue relative to the air	Delta carbon, CID	carbon isotope discrimination	TO:0002643
+CO_338:0000092	Specific leaf area	Leaf area per dry weight of leaves	SLA	specific leaf area	TO:0000562
+CO_338:0000093	Leaf chlorophyll content	Chlorophyll content in the leaf	SPAD values, LfChlorCt	leaf chlorophyll content	TO:0012002
+CO_338:0000094	Transpiration efficiency	Ratio of shoot biomass produced per unit of transpired water	TE	water use efficiency	TO:0001017
+CO_338:0000095	Water use efficiency	Ratio of shoot biomass produced per unit of water lost from the field through both transpiration and evaporation	WUE	water use efficiency	TO:0001017
+CO_338:0000096	Drought tolerance	Standard residual after removing the effects of flowering time and yield potential advantages from the drought yields	Drought index, DTI	drought tolerance	TO:0000276
