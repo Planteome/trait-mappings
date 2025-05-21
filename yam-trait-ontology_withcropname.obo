@@ -1015,7 +1015,7 @@ is_a: TO:0001068 ! processing quality trait
 [Term]
 id: CO_343:0000450
 name: yam fibrousness of pounded yam trait
-def: "Presenceof ﬁber strands." [CO:curators]
+def: "Presence of ﬁber strands." [CO:curators]
 synonym: "fbrpdym" EXACT []
 is_a: TO:0001068 ! processing quality trait
 
