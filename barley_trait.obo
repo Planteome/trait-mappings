@@ -1,0 +1,1223 @@
+format-version: 1.4
+
+[Term]
+id: CO_323:0000003
+name: barley plant early vigour trait
+def: "The initial vigour of the seedling." []
+synonym: "initial growth vigour" EXACT []
+synonym: "PEarlyVig" EXACT []
+is_a: TO:0000280
+
+[Term]
+id: CO_323:0000006
+name: barley plant tillering capacity trait
+def: "The capacity of plants to produce tillers." []
+synonym: "PTllrCapacity" EXACT []
+is_a: TO:0000329
+
+[Term]
+id: CO_323:0000009
+name: barley effective tiller number trait
+def: "The number of effective tillers bearing spikes per area." []
+synonym: "EffTllrN" EXACT []
+synonym: "fertile tiller number" EXACT []
+is_a: TO:0000346
+
+[Term]
+id: CO_323:0000012
+name: barley flowering time trait
+def: "The timing of the flowering." []
+synonym: "Flw" EXACT []
+is_a: TO:0002616
+
+[Term]
+id: CO_323:0000015
+name: barley maturity time trait
+def: "The timing of the physiological maturity." []
+synonym: "Mat" EXACT []
+is_a: TO:0000469
+
+[Term]
+id: CO_323:0000018
+name: barley grain filling period duration trait
+def: "The duration of the grain filling period." []
+synonym: "GFP" EXACT []
+is_a: TO:0000929
+
+[Term]
+id: CO_323:0000021
+name: barley plant lodging incidence trait
+def: "The plant lodging incidence." []
+synonym: "LodgInc" EXACT []
+is_a: TO:0000068
+
+[Term]
+id: CO_323:0000024
+name: barley plant height trait
+def: "The height of plant from ground to top part." []
+synonym: "PH" EXACT []
+is_a: TO:0000207
+
+[Term]
+id: CO_323:0000027
+name: barley grain number per spike trait
+def: "The number of grains per spike." []
+synonym: "SGN" EXACT []
+synonym: "spike grain number" EXACT []
+is_a: TO:0002759
+
+[Term]
+id: CO_323:0000030
+name: barley spike length trait
+def: "The length of the spike." []
+synonym: "SpkLng" EXACT []
+is_a: TO:0000271
+
+[Term]
+id: CO_323:0000033
+name: barley rachis brittleness trait
+def: "The tendency of rachis breaking from spike peduncle at maturity." []
+synonym: "RachisBrit" EXACT []
+is_a: TO:0000473
+
+[Term]
+id: CO_323:0000036
+name: barley thousand grain weight trait
+def: "The weight of thousand grains." []
+synonym: "TGW" EXACT []
+is_a: TO:0000382
+
+[Term]
+id: CO_323:0000039
+name: barley aboveground biomass yield fresh weight basis trait
+def: "The amount in fresh weight basis of aboveground biomass that was harvested per unit area or plant." []
+synonym: "BMFW" EXACT []
+is_a: TO:0000457
+
+[Term]
+id: CO_323:0000042
+name: barley grain yield fresh weight basis trait
+def: "The amount in fresh weight basis of grain that was harvested per unit area or plant." []
+synonym: "GYFW" EXACT []
+is_a: TO:0000396
+
+[Term]
+id: CO_323:0000045
+name: barley harvest index trait
+def: "The biomass partitioning to grain, as ratio of grain yield to aboveground biomass yield." []
+synonym: "HI" EXACT []
+is_a: TO:0000128
+
+[Term]
+id: CO_323:0000048
+name: barley growth habit trait
+def: "The plant growth habit during vegetative stages." []
+synonym: "GwtHabit" EXACT []
+is_a: TO:0000928
+
+[Term]
+id: CO_323:0000051
+name: barley stem pigmentation trait
+def: "The stem pigmentation." []
+synonym: "StmPig" EXACT []
+is_a: TO:0000056
+
+[Term]
+id: CO_323:0000054
+name: barley auricle pigmentation trait
+def: "The pigmentation of the auricles." []
+synonym: "AuclePig" EXACT []
+is_a: TO:0000294
+
+[Term]
+id: CO_323:0000057
+name: barley stem upper node pigmentation trait
+def: "The pigmentation of the upper node in the stem." []
+synonym: "StmPig" EXACT []
+is_a: TO:0000059
+
+[Term]
+id: CO_323:0000060
+name: barley flag leaf attitude trait
+def: "The angle or attitude of the flag leaf respect the culm." []
+synonym: "FLfAtt" EXACT []
+is_a: TO:0000124
+
+[Term]
+id: CO_323:0000063
+name: barley flag leaf length trait
+def: "The length of flag leaf." []
+synonym: "FLfLng" EXACT []
+is_a: TO:0002757
+
+[Term]
+id: CO_323:0000066
+name: barley flag leaf width trait
+def: "The width of flag leaf at mid-point of the leaf blade." []
+synonym: "FLfWid" EXACT []
+is_a: TO:0002758
+
+[Term]
+id: CO_323:0000069
+name: barley peduncle length trait
+def: "The length of the peduncles." []
+synonym: "PedLng" EXACT []
+is_a: TO:0002691
+
+[Term]
+id: CO_323:0000072
+name: barley spike waxiness trait
+def: "The presence and intensity of wax in the spike" []
+synonym: "SWax" EXACT []
+is_a: TO:0001110
+
+[Term]
+id: CO_323:0000075
+name: barley spike colour trait
+def: "The colour of the spike." []
+synonym: "SCol" EXACT []
+is_a: TO:0000787
+
+[Term]
+id: CO_323:0000078
+name: barley spike attitude trait
+def: "The angle or attitude of spike respect the culm." []
+synonym: "SAtt" EXACT []
+is_a: TO:0001110
+
+[Term]
+id: CO_323:0000081
+name: barley spike type trait
+def: "The type of spike according its row number." []
+synonym: "STy" EXACT []
+is_a: TO:0000267
+
+[Term]
+id: CO_323:0000084
+name: barley lateral spikelet presence trait
+def: "The presence of lateral spikelets in two row types." []
+synonym: "LSpkltPre" EXACT []
+is_a: TO:0001110
+
+[Term]
+id: CO_323:0000087
+name: barley lateral spikelet fertility trait
+def: "The fertility of lateral spikelet sin two row types." []
+synonym: "LSpkltFert" EXACT []
+is_a: TO:0000180
+
+[Term]
+id: CO_323:0000090
+name: barley spike density trait
+def: "The arrangement and compactness of the spikelets on the spike." []
+synonym: "SpkDen" EXACT []
+is_a: TO:0000625
+
+[Term]
+id: CO_323:0000093
+name: barley spike basal sterility presence trait
+def: "The presence of sterility on spike basal spikelets." []
+synonym: "SBsSterPre" EXACT []
+is_a: TO:0000180
+
+[Term]
+id: CO_323:0000096
+name: barley awn presence trait
+def: "The presence or absence of awns." []
+synonym: "AwnPre" EXACT []
+is_a: TO:0002734
+
+[Term]
+id: CO_323:0000099
+name: barley awn type trait
+def: "The lemma awns type." []
+synonym: "AwnTy" EXACT []
+is_a: TO:0002718
+
+[Term]
+id: CO_323:0000102
+name: barley awn length trait
+def: "The length of awns." []
+synonym: "AwnLng" EXACT []
+is_a: TO:0000072
+
+[Term]
+id: CO_323:0000105
+name: barley awn tip pigmentation presence trait
+def: "The presence or absence of pigmentation on awn tips." []
+synonym: "AwnTipPigPre" EXACT []
+is_a: TO:0002718
+
+[Term]
+id: CO_323:0000108
+name: barley awn texture trait
+def: "The smoothness or roughness of the lemma awn barbs." []
+synonym: "AwnTx" EXACT []
+is_a: TO:0002719
+
+[Term]
+id: CO_323:0000111
+name: barley lemma colour trait
+def: "The colour of the lemma (husk)." []
+synonym: "LemmCol" EXACT []
+is_a: TO:0000264
+
+[Term]
+id: CO_323:0000114
+name: barley mature spike colour trait
+def: "The colour of the mature spikes." []
+synonym: "MatSCol" EXACT []
+is_a: TO:0001110
+
+[Term]
+id: CO_323:0000117
+name: barley grain colour trait
+def: "The colour of the grains." []
+synonym: "GCol" EXACT []
+is_a: TO:0001109
+
+[Term]
+id: CO_323:0000120
+name: barley grain hullness trait
+def: "The husk covering on the grain, whether lemma and palea adhere to the cariopsis." []
+synonym: "GHull" EXACT []
+synonym: "kernel covering" EXACT []
+is_a: TO:0001079
+
+[Term]
+id: CO_323:0000123
+name: barley grain shape trait
+def: "The shape of the grains." []
+synonym: "GShp" EXACT []
+is_a: TO:0002730
+
+[Term]
+id: CO_323:0000126
+name: barley lemma surface type trait
+def: "The lemmas surface type." []
+synonym: "LemmSurfTy" EXACT []
+is_a: TO:1000023
+
+[Term]
+id: CO_323:0000129
+name: barley rachilla hair length trait
+def: "The length of the rachilla hairs." []
+synonym: "RacllHrLng" EXACT []
+is_a: TO:0000974
+
+[Term]
+id: CO_323:0000132
+name: barley grain crease width trait
+def: "The width of grain creases." []
+synonym: "GCreWid" EXACT []
+is_a: TO:0001079
+
+[Term]
+id: CO_323:0000135
+name: barley salinity tolerance trait
+def: "The plant response to soil/water salinity conditions." []
+synonym: "SalTol" EXACT []
+is_a: TO:0000974
+
+[Term]
+id: CO_323:0000138
+name: barley cold tolerance trait
+def: "The plant response to cold or low temperatures." []
+synonym: "ColdTol" EXACT []
+is_a: TO:0000303
+
+[Term]
+id: CO_323:0000141
+name: barley drought tolerance trait
+def: "The plant response to drought conditions." []
+synonym: "DrouTol" EXACT []
+is_a: TO:0000276
+
+[Term]
+id: CO_323:0000144
+name: barley boron tolerance trait
+def: "The plant response to high levels of boron in soil." []
+synonym: "BTol" EXACT []
+is_a: TO:0000018
+
+[Term]
+id: CO_323:0000147
+name: barley leaf stripe incidence trait
+def: "The Leaf Stripe incidence caused by the agent Pyrenophora graminea (Helminthosporium gramineum)." []
+synonym: "LfStripeInc" EXACT []
+is_a: TO:0001145
+
+[Term]
+id: CO_323:0000150
+name: barley smuts incidence trait
+def: "The general Smuts incidence. Diseases caused by Covered (Ustilago hordei) or Loose (U. nuda) Smuts." []
+synonym: "SmutInc" EXACT []
+is_a: TO:0001146
+
+[Term]
+id: CO_323:0000153
+name: barley spot blotch severity trait
+def: "The Spot Blotch (spot form of leaf blotch) severity caused by the agent Cochliobolus sativus (Bipolaris sorokiniana, Helminthosporium sativum)." []
+synonym: "SpotBloSev" EXACT []
+is_a: TO:0020053
+
+[Term]
+id: CO_323:0000156
+name: barley net blotch severity trait
+def: "The Net Blotch (net form of leaf blotch) severity caused by the agent Pyrenophora teres (Dreschlera teres f.sp. teres, Helminthosporium teres)." []
+synonym: "NetBloSev" EXACT []
+is_a: TO:0001145
+
+[Term]
+id: CO_323:0000159
+name: barley leaf scald severity trait
+def: "The Leaf Scald severity caused by the agent Rhyncosporium secalis." []
+synonym: "LfScaldSev" EXACT []
+is_a: TO:0020051
+
+[Term]
+id: CO_323:0000162
+name: barley spikelet fusarium head blight incidence trait
+def: "The Fusarium Head Blight (Scab) incidence on spikelets caused by the agent Fusarium spp." []
+synonym: "SpkltFHBInc" EXACT []
+is_a: TO:0000662
+
+[Term]
+id: CO_323:0000168
+name: barley powdery mildew susceptibility trait
+def: "The plant susceptibility to Powdery Mildew caused by the agent Erysiphe graminis (Blumeria graminis f.sp. Hordei)." []
+synonym: "PMSus" EXACT []
+is_a: TO:0020060
+
+[Term]
+id: CO_323:0000171
+name: barley aphids susceptibility trait
+def: "The plant susceptibility to aphids in general, without distinguishing species. For example, Corn leaf aphid (Rhopalosiphum maidis), Russian wheat aphid (Diuraphis noxia), Greenbug (Schizaphis graminum), etc." []
+synonym: "AphidSus" EXACT []
+is_a: TO:0006067
+
+[Term]
+id: CO_323:0000174
+name: barley barley yellow dwarf virus susceptibility trait
+def: "The plant susceptibility to Barley Yellow Dwarf Virus (BYDV)." []
+synonym: "BYDVSus" EXACT []
+is_a: TO:0020067
+
+[Term]
+id: CO_323:0000177
+name: barley grain plumpness fraction 2.5 mm trait
+def: "The grain fraction with kernel size bigger than 2.5 mm of the raw grain." []
+synonym: "GPlumpF25" EXACT []
+is_a: TO:0000397
+
+[Term]
+id: CO_323:0000180
+name: barley grain test weight trait
+def: "The grain weight of a known volume." []
+synonym: "GTestW" EXACT []
+synonym: "grain density" EXACT []
+synonym: "grain specific gravity" EXACT []
+is_a: TO:0000919
+
+[Term]
+id: CO_323:0000183
+name: barley grain husk content trait
+def: "The husk content of the grains." []
+synonym: "GHuskC" EXACT []
+is_a: TO:0000162
+
+[Term]
+id: CO_323:0000186
+name: barley grain protein content trait
+def: "The protein content of the grains in dry weight basis." []
+synonym: "GProtC" EXACT []
+is_a: TO:0001136
+
+[Term]
+id: CO_323:0000192
+name: barley grain starch content trait
+def: "The starch content in grains." []
+synonym: "GStarchC" EXACT []
+is_a: TO:0000696
+
+[Term]
+id: CO_323:0000195
+name: barley grain germinative energy trait
+def: "The germinative energy determine the germination of grains as proportion within a 72 hour period using a standard method." []
+synonym: "GGermEn" EXACT []
+is_a: TO:0000202
+
+[Term]
+id: CO_323:0000198
+name: barley grain germination capacity trait
+def: "The grains capability to germinate. Germinative Capacity is also referred to as viability." []
+synonym: "Grain viability" EXACT []
+synonym: "GGermCap" EXACT []
+is_a: TO:0000202
+
+[Term]
+id: CO_323:0000204
+name: barley malt yield trait
+def: "The malt recovery yield." []
+synonym: "MaltY" EXACT []
+is_a: TO:0001070
+
+[Term]
+id: CO_323:0000207
+name: barley malt friability trait
+def: "The degree and homogeneity of malt modification." []
+synonym: "MaltF" EXACT []
+is_a: TO:0001070
+
+[Term]
+id: CO_323:0000210
+name: barley malt hot water extract trait
+def: "The extract content indicates the fraction of soluble substances (particularly starch and protein) in the wort, and it is the most important characteristic for brewing quality" []
+synonym: "MaltHWE" EXACT []
+is_a: TO:0001070
+
+[Term]
+id: CO_323:0000213
+name: barley malt diastatic power trait
+def: "The total starch degrading enzymes activity in malt." []
+synonym: "MaltDP" EXACT []
+is_a: TO:0001070
+
+[Term]
+id: CO_323:0000216
+name: barley wort filtration rate trait
+def: "The filtration efficiency of wort." []
+synonym: "WortFR" EXACT []
+is_a: TO:0001070
+
+[Term]
+id: CO_323:0000219
+name: barley malt kolbach index trait
+def: "The Kobalch index (protein solution degree) is the nitrogen in the wort as proportion of total nitrogen in malt. It represents the proportion of solved protein in the wort." []
+synonym: "Malt Kolbach value" EXACT []
+synonym: "Malt protein solution degree" EXACT []
+synonym: "MaltKI" EXACT []
+is_a: TO:0001070
+
+[Term]
+id: CO_323:0000222
+name: barley malt alpha amylase activity trait
+def: "The alpha amylase activity of the malt." []
+synonym: "MaltAAmyCct" EXACT []
+is_a: TO:0000288
+
+[Term]
+id: CO_323:0000225
+name: barley grain deoxynivalenol content trait
+def: "The content of the mycotoxin Deoxynivalenol in grains." []
+synonym: "GDONC" EXACT []
+is_a: TO:0000668
+
+[Term]
+id: CO_323:0000228
+name: barley aboveground biomass yield dry weight basis trait
+def: "The amount in dry weight basis of aboveground biomass that was harvested per unit area or plant." []
+synonym: "BMDW" EXACT []
+is_a: TO:0000457
+
+[Term]
+id: CO_323:0000229
+name: barley grain yield dry weight basis trait
+def: "The amount in dry weight basis of grain that was harvested per unit area or plant." []
+synonym: "GYDW" EXACT []
+is_a: TO:0000396
+
+[Term]
+id: CO_323:0000230
+name: barley heading time trait
+def: "The timing of the heading." []
+synonym: "Head" EXACT []
+is_a: TO:0000137
+
+[Term]
+id: CO_323:0000253
+name: barley awn colour trait
+def: "The colour of the awns." []
+synonym: "AwnCol" EXACT []
+is_a: TO:0000141
+
+[Term]
+id: CO_323:0000274
+name: barley black rust coefficient of infection trait
+def: "The Black Rust (Stem Rust) coefficient of infection. Disease caused by the agent Puccinia graminis f. sp. tritici." []
+synonym: "BlkRustCI" EXACT []
+is_a: TO:0001146
+
+[Term]
+id: CO_323:0000277
+name: barley black rust plant response trait
+def: "The plant response to Black Rust (Stem Rust) caused by the agent Puccinia graminis f. sp. tritici." []
+synonym: "BlkRustResp" EXACT []
+is_a: TO:0001146
+
+[Term]
+id: CO_323:0000280
+name: barley black rust severity trait
+def: "The Black Rust (Stem Rust) severity caused by the agent Puccinia graminis f. sp. tritici." []
+synonym: "BlkRustSev" EXACT []
+is_a: TO:0001146
+
+[Term]
+id: CO_323:0000283
+name: barley black rust severity and response trait
+def: "The Black Rust (Stem Rust) severity and response notes. Disease caused by the agent Puccinia graminis f. sp. tritici." []
+synonym: "BlkRustNotes" EXACT []
+is_a: TO:0001146
+
+[Term]
+id: CO_323:0000286
+name: barley black rust susceptibility trait
+def: "The plant susceptibility to Black Rust (Stem Rust) caused by the agent Puccinia graminis f. sp. tritici." []
+synonym: "BlkRustSus" EXACT []
+is_a: TO:0001146
+
+[Term]
+id: CO_323:0000291
+name: barley brown rust coefficient of infection trait
+def: "The Brown Rust (Dwarf Leaf Rust) coefficient of infection. Disease caused by the agent Puccinia hordei." []
+synonym: "BwnRustCI" EXACT []
+is_a: TO:0001146
+
+[Term]
+id: CO_323:0000294
+name: barley brown rust plant response trait
+def: "The plant response to Brown Rust (Dwarf Leaf Rust) caused by the agent Puccinia hordei." []
+synonym: "BwnRustResp" EXACT []
+is_a: TO:0001146
+
+[Term]
+id: CO_323:0000297
+name: barley brown rust severity trait
+def: "The Brown Rust (Dwarf Leaf Rust) severity caused by the agent Puccinia hordei." []
+synonym: "BwnRustSev" EXACT []
+is_a: TO:0001146
+
+[Term]
+id: CO_323:0000300
+name: barley brown rust severity and response trait
+def: "The Brown Rust (Dwarf Leaf Rust) severity and response notes. Disease caused by the agent Puccinia hordei." []
+synonym: "BwnRustNotes" EXACT []
+is_a: TO:0001146
+
+[Term]
+id: CO_323:0000303
+name: barley brown rust susceptibility trait
+def: "The plant susceptibility to Brown Rust (Dwarf Leaf Rust) caused by the agent Puccinia hordei." []
+synonym: "BwnRustSus" EXACT []
+is_a: TO:0001146
+
+[Term]
+id: CO_323:0000308
+name: barley drought susceptibility trait
+def: "The plant susceptibility to drought conditions." []
+synonym: "DrouSus" EXACT []
+is_a: TO:0000188
+
+[Term]
+id: CO_323:0000315
+name: barley emergence time trait
+def: "The timing of the crop emergence." []
+synonym: "Emer" EXACT []
+is_a: TO:0000933
+
+[Term]
+id: CO_323:0000332
+name: barley fusarium head blight severity trait
+def: "The Fusarium Head Blight severity caused by the agent Fusarium spp." []
+synonym: "FHBSev" EXACT []
+is_a: TO:0000662
+
+[Term]
+id: CO_323:0000336
+name: barley malt beta glucan content trait
+def: "The Beta Glucan content of the malt." []
+synonym: "GBGlucan" EXACT []
+is_a: TO:0020068
+
+[Term]
+id: CO_323:0000355
+name: barley grain iron content trait
+def: "The Iron content of grains." []
+synonym: "GFeC" EXACT []
+is_a: TO:0020089
+
+[Term]
+id: CO_323:0000358
+name: barley grain moisture content trait
+def: "The moisture content of the grain." []
+synonym: "GMoist" EXACT []
+is_a: TO:0000057
+
+[Term]
+id: CO_323:0000361
+name: barley grain nitrogen content trait
+def: "The Nitrogen content of the grains in dry weight basis." []
+synonym: "GNC" EXACT []
+is_a: TO:0003068
+
+[Term]
+id: CO_323:0000364
+name: barley grain number trait
+def: "The number of grains per area." []
+synonym: "GN" EXACT []
+is_a: TO:0002759
+
+[Term]
+id: CO_323:0000370
+name: barley grain plumpness fraction 2.2 mm trait
+def: "The grain fraction with kernel size bigger than 2.2 mm of the raw grain." []
+synonym: "GPlumpF22" EXACT []
+is_a: TO:0000397
+
+[Term]
+id: CO_323:0000375
+name: barley grain plumpness fraction 2.8 mm trait
+def: "The grain fraction with kernel size bigger than 2.8 mm of the raw grain." []
+synonym: "GPlumpF28" EXACT []
+is_a: TO:0000397
+
+[Term]
+id: CO_323:0000388
+name: barley grain yield adjusted weight basis trait
+def: "The amount in adjusted weight basis (at commercial/standard moisture content) of grain that was harvested per unit area or plant." []
+synonym: "GYAdjW" EXACT []
+is_a: TO:0000396
+
+[Term]
+id: CO_323:0000397
+name: barley grain zinc content trait
+def: "The Zinc content of grains." []
+synonym: "GZnC" EXACT []
+is_a: TO:0020090
+
+[Term]
+id: CO_323:0000402
+name: barley growth type class trait
+def: "The plant growth type class or seasonality." []
+synonym: "GwtClass" EXACT []
+is_a: TO:0000947
+
+[Term]
+id: CO_323:0000412
+name: barley hessian fly susceptibility trait
+def: "The plant susceptibility to Hessian Fly (Mayetiola destructor)." []
+synonym: "HessFlySus" EXACT []
+is_a: TO:0000261
+
+[Term]
+id: CO_323:0000415
+name: barley high soil moisture susceptibility trait
+def: "The plant susceptibility to waterlogging conditions." []
+synonym: "HiSoilMoistSus" EXACT []
+is_a: TO:0000114
+
+[Term]
+id: CO_323:0000418
+name: barley high temperature susceptibility trait
+def: "The plant susceptibility to high temperatures." []
+synonym: "HiTmpSus" EXACT []
+is_a: TO:0000259
+
+[Term]
+id: CO_323:0000429
+name: barley leaf scald susceptibility trait
+def: "The plant susceptibility to Leaf Scald caused by the agent Rhyncosporium secalis." []
+synonym: "LfScaldSus" EXACT []
+is_a: TO:0020051
+
+[Term]
+id: CO_323:0000434
+name: barley leaf stripe susceptibility trait
+def: "The plant susceptibility to Leaf stripe caused by the agent Pyrenophora graminea (Helminthosporium gramineum)." []
+synonym: "LfStripeSus" EXACT []
+is_a: TO:0001145
+
+[Term]
+id: CO_323:0000447
+name: barley low temperature susceptibility trait
+def: "The plant susceptibility to cold or low temperatures." []
+synonym: "LoTmpSus" EXACT []
+is_a: TO:0000303
+
+[Term]
+id: CO_323:0000452
+name: barley malt beta glucan content trait
+def: "The Beta Glucan content of the grains." []
+synonym: "MaltBGlucan" EXACT []
+is_a: TO:0020068
+
+[Term]
+id: CO_323:0000475
+name: barley net blotch susceptibility trait
+def: "The plant susceptibility to Net Blotch (net form of leaf blotch) caused by the agent Pyrenophora teres (Dreschlera teres f.sp. teres, Helminthosporium teres)." []
+synonym: "NetBloSus" EXACT []
+is_a: TO:0020062
+
+[Term]
+id: CO_323:0000478
+name: barley non-bearing tiller number trait
+def: "The number of non-bearing (infertile) tillers per area." []
+synonym: "NoBearTllrN" EXACT []
+synonym: "infertile tiller number" EXACT []
+is_a: TO:0000346
+
+[Term]
+id: CO_323:0000485
+name: barley pericarp colour trait
+def: "The pericarp colour of the grains." []
+synonym: "PericCol" EXACT []
+is_a: TO:0000707
+
+[Term]
+id: CO_323:0000503
+name: barley plant vigour trait
+def: "The vigour of the plant." []
+synonym: "PVig" EXACT []
+is_a: TO:0000250
+
+[Term]
+id: CO_323:0000512
+name: barley salinity susceptibility trait
+def: "The plant susceptibility to water/soil salinity conditions." []
+synonym: "SalSus" EXACT []
+is_a: TO:0000429
+
+[Term]
+id: CO_323:0000519
+name: barley soil acidity susceptibility trait
+def: "The plant susceptibility to soil acidity conditions." []
+synonym: "SoilAcidSus" EXACT []
+is_a: TO:0000178
+
+[Term]
+id: CO_323:0000535
+name: barley spike number trait
+def: "The number of spikes per area." []
+synonym: "SN" EXACT []
+is_a: TO:0000582
+
+[Term]
+id: CO_323:0000547
+name: barley spikelet number per spike trait
+def: "The number of spikelets per spike." []
+synonym: "spike spikelet number" EXACT []
+synonym: "SSpkltN" EXACT []
+is_a: TO:0000456
+
+[Term]
+id: CO_323:0000551
+name: barley spikelet shattering susceptibility trait
+def: "The plant susceptibility to shattering as tendency spikelets to break from rachis." []
+synonym: "SpkltShattSus" EXACT []
+is_a: TO:0000473
+
+[Term]
+id: CO_323:0000558
+name: barley spot blotch susceptibility trait
+def: "The plant susceptibility to Spot Blotch (spot form of leaf blotch) caused by the agent Cochliobolus sativus (Bipolaris sorokiniana/ Helminthosporium sativum)." []
+synonym: "SpotBloSus" EXACT []
+is_a: TO:0020052
+
+[Term]
+id: CO_323:0000561
+name: barley sprouting susceptibility trait
+def: "The plant susceptibility to sprouting as tendency to sprout in the spike before harvest." []
+synonym: "SproutSus" EXACT []
+is_a: TO:0000619
+
+[Term]
+id: CO_323:0000573
+name: barley tiller number trait
+def: "The total number of tillers per area." []
+synonym: "total tiller number" EXACT []
+synonym: "TllrN" EXACT []
+is_a: TO:0000346
+
+[Term]
+id: CO_323:0000576
+name: barley winter kill susceptibility trait
+def: "The plant susceptibility to winter-kill." []
+synonym: "WKillSus" EXACT []
+is_a: TO:0001153
+
+[Term]
+id: CO_323:0000579
+name: barley wort fan content trait
+def: "The free amino acid nitrogen content of the wort." []
+synonym: "WortFAN" EXACT []
+is_a: TO:0020073
+
+[Term]
+id: CO_323:0000584
+name: barley wort viscosity trait
+def: "The viscosity of the wort." []
+synonym: "WortVis" EXACT []
+is_a: TO:0001070
+
+[Term]
+id: CO_323:0000588
+name: barley yellow rust coefficient of infection trait
+def: "The Yellow Rust (Stripe Rust) coefficient of infection. Disease caused by the agent Puccinia striiformis f. sp. hordei." []
+synonym: "YwRustCI" EXACT []
+is_a: TO:0001146
+
+[Term]
+id: CO_323:0000591
+name: barley yellow rust plant response trait
+def: "The plant response to Yellow Rust (Stripe Rust) caused by the agent Puccinia striiformis f. sp. hordei." []
+synonym: "YwRustResp" EXACT []
+is_a: TO:0001146
+
+[Term]
+id: CO_323:0000594
+name: barley yellow rust severity trait
+def: "The Yellow Rust (Stripe Rust) severity caused by the agent Puccinia striiformis f. sp. hordei." []
+synonym: "YwRustSev" EXACT []
+is_a: TO:0001146
+
+[Term]
+id: CO_323:0000597
+name: barley yellow rust severity and response trait
+def: "The Yellow Rust (Stripe Rust) severity severity and response notes. Disease caused by the agent Puccinia striiformis f. sp. hordei." []
+synonym: "YwRustNotes" EXACT []
+is_a: TO:0001146
+
+[Term]
+id: CO_323:0000600
+name: barley yellow rust susceptibility trait
+def: "The plant susceptibility to Yellow Rust (Stripe Rust) caused by the agent Puccinia striiformis f. sp. hordei." []
+synonym: "YwRustSus" EXACT []
+is_a: TO:0001146
+
+[Term]
+id: TO:0000018
+name: boron sensitivity
+
+[Term]
+id: TO:0000056
+name: stem color
+
+[Term]
+id: TO:0000057
+name: grain moisture content
+
+[Term]
+id: TO:0000059
+name: node color
+
+[Term]
+id: TO:0000068
+name: lodging incidence
+
+[Term]
+id: TO:0000072
+name: awn length
+
+[Term]
+id: TO:0000114
+name: flooding related trait
+
+[Term]
+id: TO:0000124
+name: flag leaf angle
+
+[Term]
+id: TO:0000128
+name: harvest index
+
+[Term]
+id: TO:0000137
+name: days to heading
+
+[Term]
+id: TO:0000141
+name: awn color
+
+[Term]
+id: TO:0000162
+name: grain quality trait
+
+[Term]
+id: TO:0000178
+name: acid soil sensitivity
+
+[Term]
+id: TO:0000180
+name: spikelet fertility
+
+[Term]
+id: TO:0000188
+name: drought sensitivity
+
+[Term]
+id: TO:0000202
+name: germination ratio
+
+[Term]
+id: TO:0000207
+name: plant height
+
+[Term]
+id: TO:0000250
+name: plant vigor trait
+
+[Term]
+id: TO:0000259
+name: high temperature stress response
+
+[Term]
+id: TO:0000261
+name: insect damage response trait
+
+[Term]
+id: TO:0000264
+name: lemma and palea color
+
+[Term]
+id: TO:0000267
+name: inflorescence type
+
+[Term]
+id: TO:0000271
+name: inflorescence length
+
+[Term]
+id: TO:0000276
+name: drought tolerance
+
+[Term]
+id: TO:0000280
+name: seedling vigor
+
+[Term]
+id: TO:0000288
+name: alpha-amylase activity trait
+
+[Term]
+id: TO:0000294
+name: leaf sheath auricle color
+
+[Term]
+id: TO:0000303
+name: low temperature stress response
+
+[Term]
+id: TO:0000329
+name: tillering ability
+
+[Term]
+id: TO:0000346
+name: tiller number
+
+[Term]
+id: TO:0000382
+name: 1000-grain weight
+
+[Term]
+id: TO:0000396
+name: grain yield trait
+
+[Term]
+id: TO:0000397
+name: grain size
+
+[Term]
+id: TO:0000429
+name: salt sensitivity
+
+[Term]
+id: TO:0000456
+name: spikelet number
+
+[Term]
+id: TO:0000457
+name: biomass yield
+
+[Term]
+id: TO:0000469
+name: days to maturity
+
+[Term]
+id: TO:0000473
+name: grain shattering
+
+[Term]
+id: TO:0000582
+name: inflorescence number
+
+[Term]
+id: TO:0000619
+name: vivipary
+
+[Term]
+id: TO:0000625
+name: spikelet density
+
+[Term]
+id: TO:0000662
+name: Name barley fusarium head blight response
+
+[Term]
+id: TO:0000668
+name: mycotoxin content
+
+[Term]
+id: TO:0000696
+name: starch content
+
+[Term]
+id: TO:0000707
+name: pericarp color
+
+[Term]
+id: TO:0000787
+name: inflorescence waxiness
+
+[Term]
+id: TO:0000919
+name: grain weight
+
+[Term]
+id: TO:0000928
+name: plant structure growth and development trait
+
+[Term]
+id: TO:0000929
+name: fruit growth and development trait
+
+[Term]
+id: TO:0000933
+name: plant phenological trait
+
+[Term]
+id: TO:0000947
+name: whole plant growth and development trait
+
+[Term]
+id: TO:0000974
+name: spikelet rachilla hair type
+
+[Term]
+id: TO:0001070
+name: brewing quality trait
+
+[Term]
+id: TO:0001079
+name: caryopsis fruit morphology trait
+
+[Term]
+id: TO:0001109
+name: grain color trait
+
+[Term]
+id: TO:0001110
+name: spike inflorescence morphology trait
+
+[Term]
+id: TO:0001136
+name: grain protein content
+
+[Term]
+id: TO:0001145
+name: Ascomycete fungal disease response
+
+[Term]
+id: TO:0001146
+name: Basidiomycete fungal disease response
+
+[Term]
+id: TO:0001153
+name: survival rate after freezing temperature stress
+
+[Term]
+id: TO:0002616
+name: flowering time trait
+
+[Term]
+id: TO:0002691
+name: peduncle length
+
+[Term]
+id: TO:0002718
+name: awn morphology trait
+
+[Term]
+id: TO:0002719
+name: awn morphology trait
+
+[Term]
+id: TO:0002730
+name: grain shape
+
+[Term]
+id: TO:0002734
+name: awn presence
+
+[Term]
+id: TO:0002757
+name: flag leaf length
+
+[Term]
+id: TO:0002758
+name: flag leaf lamina width
+
+[Term]
+id: TO:0002759
+name: grain number
+
+[Term]
+id: TO:0003068
+name: grain nitrogen content
+
+[Term]
+id: TO:0006067
+name: aphid resistance
+
+[Term]
+id: TO:0020051
+name: barley leaf scald disease resistance
+
+[Term]
+id: TO:0020052
+name: barley spot blotch disease response
+
+[Term]
+id: TO:0020053
+name: wheat spot blotch disease response
+
+[Term]
+id: TO:0020060
+name: barley powdery mildew disease response
+
+[Term]
+id: TO:0020062
+name: barley net form net blotch disease response
+
+[Term]
+id: TO:0020067
+name: barley yellow dwarf virus disease response
+
+[Term]
+id: TO:0020068
+name: beta-glucan content
+
+[Term]
+id: TO:0020073
+name: barley wort protein concentration
+
+[Term]
+id: TO:0020089
+name: iron content trait
+
+[Term]
+id: TO:0020090
+name: zinc content trait
+
+[Term]
+id: TO:1000023
+name: lemma morphology trait
