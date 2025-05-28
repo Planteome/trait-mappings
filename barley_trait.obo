@@ -6,14 +6,14 @@ name: barley plant early vigour trait
 def: "The initial vigour of the seedling." []
 synonym: "initial growth vigour" EXACT []
 synonym: "PEarlyVig" EXACT []
-is_a: TO:0000280
+is_a: TO:0000280 ! seedling vigor
 
 [Term]
 id: CO_323:0000006
 name: barley plant tillering capacity trait
 def: "The capacity of plants to produce tillers." []
 synonym: "PTllrCapacity" EXACT []
-is_a: TO:0000329
+is_a: TO:0000329 ! tillering ability
 
 [Term]
 id: CO_323:0000009
@@ -21,7 +21,7 @@ name: barley effective tiller number trait
 def: "The number of effective tillers bearing spikes per area." []
 synonym: "EffTllrN" EXACT []
 synonym: "fertile tiller number" EXACT []
-is_a: TO:0000346
+is_a: TO:0000346 ! tiller number
 
 [Term]
 id: CO_323:0000012
@@ -764,7 +764,7 @@ name: barley non-bearing tiller number trait
 def: "The number of non-bearing (infertile) tillers per area." []
 synonym: "NoBearTllrN" EXACT []
 synonym: "infertile tiller number" EXACT []
-is_a: TO:0000346
+is_a: TO:0000346 ! tiller number
 
 [Term]
 id: CO_323:0000485
@@ -836,7 +836,7 @@ name: barley tiller number trait
 def: "The total number of tillers per area." []
 synonym: "total tiller number" EXACT []
 synonym: "TllrN" EXACT []
-is_a: TO:0000346
+is_a: TO:0000346 ! tiller number
 
 [Term]
 id: CO_323:0000576
