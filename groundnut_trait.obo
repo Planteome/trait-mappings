@@ -1,18 +1,20 @@
-format-version: 1.4
+format-version: 1.2
+default-namespace: CO_337_groundnut
+ontology: co_337
 
 [Term]
 id: CO_337:0000001
 name: groundnut emergence time trait
 def: "Emergence time usually recorded as days from sowing or date." []
 synonym: "Em" EXACT []
-is_a: TO:0006061
+is_a: TO:0006061 ! days to germinate
 
 [Term]
 id: CO_337:0000002
 name: groundnut flowering time trait
 def: "Flowering time usually recorded as days from sowing or date." []
 synonym: "Flw" EXACT []
-is_a: TO:0002616
+is_a: TO:0002616 ! flowering time trait
 
 [Term]
 id: CO_337:0000004
@@ -20,21 +22,21 @@ name: groundnut harvest time trait
 def: "Harvest time usually recorded as days from sowing or date." []
 synonym: "maturity" EXACT []
 synonym: "harv" EXACT []
-is_a: TO:0000469
+is_a: TO:0000469 ! days to maturity
 
 [Term]
 id: CO_337:0000005
 name: groundnut pod yield (qualitative) trait
 def: "Assessement of pods weight per unit area or plot." []
 synonym: "PYq" EXACT []
-is_a: TO:0000871
+is_a: TO:0000871 ! fruit yield trait
 
 [Term]
 id: CO_337:0000006
 name: groundnut general disease severity trait
 def: "General disease severity for plants infected with leafspots and/or rust." []
 synonym: "DS" EXACT []
-is_a: TO:0000439
+is_a: TO:0000439 ! fungal disease response
 
 [Term]
 id: CO_337:0000007
@@ -42,7 +44,7 @@ name: groundnut rosette disease incidence trait
 def: "Rosette disease incidence caused by a complex of two viruses." []
 synonym: "Disease Score RO:Rosette" EXACT []
 synonym: "DRO" EXACT []
-is_a: TO:0000148
+is_a: TO:0000148 ! viral disease response
 
 [Term]
 id: CO_337:0000008
@@ -50,21 +52,21 @@ name: groundnut insect pest damage trait
 def: "Damage caused by insect pest." []
 synonym: "insect pest score" EXACT []
 synonym: "IPS" EXACT []
-is_a: TO:0000261
+is_a: TO:0000261 ! insect damage response
 
 [Term]
 id: CO_337:0000009
 name: groundnut shelling ratio trait
 def: "Proportion of seed weight to total pod weight." []
 synonym: "SH" EXACT []
-is_a: TO:0000905
+is_a: TO:0000905 ! seed yield trait
 
 [Term]
 id: CO_337:0000010
 name: groundnut seed sound mature proportion trait
 def: "Proportion of mature seed to total seed weight." []
 synonym: "SM" EXACT []
-is_a: TO:0000931
+is_a: TO:0000931 ! seed quality trait
 
 [Term]
 id: CO_337:0000011
@@ -474,7 +476,7 @@ id: CO_337:0000068
 name: groundnut seed yield (qualitative) trait
 def: "Weight of seeds per unit area or plot." []
 synonym: "SYq" EXACT []
-is_a: TO:0000905
+is_a: TO:0000905 ! seed yield trait
 
 [Term]
 id: CO_337:0000069
@@ -534,14 +536,14 @@ name: groundnut plant seed number trait
 def: "Number of seeds per plant." []
 synonym: "seed per plant" EXACT []
 synonym: "PlntSN" EXACT []
-is_a: TO:0000905
+is_a: TO:0000905 ! seed yield trait
 
 [Term]
 id: CO_337:0000251
 name: groundnut plant seed weight trait
 def: "Weight of seeds per plant." []
 synonym: "PlntSW" EXACT []
-is_a: TO:0000905
+is_a: TO:0000905 ! seed yield trait
 
 [Term]
 id: CO_337:0000254
@@ -569,7 +571,7 @@ id: CO_337:0000601
 name: groundnut groundnut bruchid trait
 def: "The reaction of the plant to Caryedon serratus activity and/or traits that affect the biology of the Coleopteran insect in the presence of the plant. Caryedon serratus is commonly known as the groundnut bruchid, groundnut borer, and groundnut seed beetle." []
 synonym: "GB" EXACT []
-is_a: TO:0000261
+is_a: TO:0000261 ! insect damage response
 
 [Term]
 id: CO_337:0000602
@@ -780,7 +782,7 @@ id: CO_337:0000786
 name: groundnut thrips trait
 def: "The reaction of the plant or plant part to thrips and/or traits that affect the biology of the Thysanopteran insect in the presence of the plant." []
 synonym: "Th" EXACT []
-is_a: TO:0000261
+is_a: TO:0000261 ! insect damage response
 
 [Term]
 id: CO_337:0000789
@@ -879,359 +881,3 @@ name: groundnut taste after cooking trait
 def: "Taste after cooking" []
 synonym: "TaC" EXACT []
 is_a: TO:0001069
-
-[Term]
-id: TO:0000056
-name: stem color
-
-[Term]
-id: TO:0000077
-name: shoot system morphology trait
-
-[Term]
-id: TO:0000078
-name: root dry weight
-
-[Term]
-id: TO:0000114
-name: flooding related trait
-
-[Term]
-id: TO:0000135
-name: leaf length
-
-[Term]
-id: TO:0000146
-name: seed length
-
-[Term]
-id: TO:0000148
-name: viral disease response
-
-[Term]
-id: TO:0000149
-name: seed width
-
-[Term]
-id: TO:0000179
-name: biotic plant stress trait
-
-[Term]
-id: TO:0000181
-name: seed weight
-
-[Term]
-id: TO:0000190
-name: seed coat color
-
-[Term]
-id: TO:0000202
-name: germination ratio
-
-[Term]
-id: TO:0000207
-name: plant height
-
-[Term]
-id: TO:0000227
-name: root length
-
-[Term]
-id: TO:0000250
-name: plant vigor trait
-
-[Term]
-id: TO:0000253
-name: seed dormancy
-
-[Term]
-id: TO:0000261
-name: insect damage response
-
-[Term]
-id: TO:0000276
-name: drought tolerance
-
-[Term]
-id: TO:0000278
-name: root to shoot ratio
-
-[Term]
-id: TO:0000322
-name: phenotypic acceptability
-
-[Term]
-id: TO:0000326
-name: leaf color
-
-[Term]
-id: TO:0000361
-name: stem morphology trait
-
-[Term]
-id: TO:0000370
-name: leaf width
-
-[Term]
-id: TO:0000384
-name: nematode damage response trait
-
-[Term]
-id: TO:0000391
-name: seed size
-
-[Term]
-id: TO:0000398
-name: whole plant morphology trait
-
-[Term]
-id: TO:0000421
-name: pollen fertility
-
-[Term]
-id: TO:0000439
-name: fungal disease response
-
-[Term]
-id: TO:0000442
-name: plant fresh weight
-
-[Term]
-id: TO:0000445
-name: fruit seed number
-
-[Term]
-id: TO:0000457
-name: biomass yield
-
-[Term]
-id: TO:0000469
-name: days to maturity
-
-[Term]
-id: TO:0000484
-name: seed shape
-
-[Term]
-id: TO:0000490
-name: seed protein contenet trait
-
-[Term]
-id: TO:0000492
-name: leaf shape
-
-[Term]
-id: TO:0000505
-name: leaf weight
-
-[Term]
-id: TO:0000519
-name: rooting depth
-
-[Term]
-id: TO:0000540
-name: leaf area trait
-
-[Term]
-id: TO:0000542
-name: leaf length to width ratio
-
-[Term]
-id: TO:0000562
-name: specific leaf area
-
-[Term]
-id: TO:0000572
-name: petal color
-
-[Term]
-id: TO:0000604
-name: fat and essential oil content
-
-[Term]
-id: TO:0000630
-name: pedicel length
-
-[Term]
-id: TO:0000739
-name: shoot axis morphology trait
-
-[Term]
-id: TO:0000740
-name: branch morphology trait
-
-[Term]
-id: TO:0000863
-name: petal morphology trait
-
-[Term]
-id: TO:0000871
-name: fruit yield trait
-
-[Term]
-id: TO:0000879
-name: stem hairiness
-
-[Term]
-id: TO:0000895
-name: fruit harvest index
-
-[Term]
-id: TO:0000897
-name: seed harvest index
-
-[Term]
-id: TO:0000903
-name: seed coat texture
-
-[Term]
-id: TO:0000904
-name: seed coat pattern
-
-[Term]
-id: TO:0000905
-name: seed yield trait
-
-[Term]
-id: TO:0000931
-name: seed quality trait
-
-[Term]
-id: TO:0000945
-name: pericarp morphology trait
-
-[Term]
-id: TO:0000947
-name: whole plant growth and development trait
-
-[Term]
-id: TO:0000952
-name: stem weight
-
-[Term]
-id: TO:0000985
-name: root system morphology trait
-
-[Term]
-id: TO:0001017
-name: water use efficiency
-
-[Term]
-id: TO:0001018
-name: transpiration rate
-
-[Term]
-id: TO:0001069
-name: cooking quality trait
-
-[Term]
-id: TO:0001082
-name: legume fruit morphology trait
-
-[Term]
-id: TO:0001092
-name: legume fruit weight
-
-[Term]
-id: TO:0001112
-name: root width
-
-[Term]
-id: TO:0001125
-name: pod number trait
-
-[Term]
-id: TO:0001145
-name: Ascomycete fungal disease response
-
-[Term]
-id: TO:0001146
-name: Basidiomycete fungal disease response
-
-[Term]
-id: TO:0002616
-name: flowering time trait
-
-[Term]
-id: TO:0002623
-name: pericarp texture
-
-[Term]
-id: TO:0002626
-name: fruit length
-
-[Term]
-id: TO:0002628
-name: fruit shape
-
-[Term]
-id: TO:0002633
-name: fruit ripening trait
-
-[Term]
-id: TO:0002637
-name: leaf size
-
-[Term]
-id: TO:0002639
-name: shoot branching
-
-[Term]
-id: TO:0002643
-name: carbon isotope discrimination
-
-[Term]
-id: TO:0002712
-name: stay green trait
-
-[Term]
-id: TO:0002722
-name: leaf pubescence
-
-[Term]
-id: TO:0002736
-name: flower number trait
-
-[Term]
-id: TO:0003049
-name: leaf potassium content
-
-[Term]
-id: TO:0003050
-name: stem potassium content
-
-[Term]
-id: TO:0005001
-name: linoleic acid content
-
-[Term]
-id: TO:0005002
-name: oleic acid content
-
-[Term]
-id: TO:0006001
-name: salt tolerance
-
-[Term]
-id: TO:0006061
-name: days to germinate
-
-[Term]
-id: TO:0006062
-name: plant width
-
-[Term]
-id: TO:0012002
-name: leaf chlorophyll content
-
-[Term]
-id: TO:0020004
-name: shoot system sodium content
-
-[Term]
-id: TO:0020020
-name: primary shoot branch number
-
-[Term]
-id: TO:1000012
-name: whole plant size

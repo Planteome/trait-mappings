@@ -1,0 +1,178 @@
+
+is_a: TO:0000056 ! stem color
+
+is_a: TO:0000077 ! shoot system morphology trait
+
+is_a: TO:0000078 ! root dry weight
+
+is_a: TO:0000114 ! flooding related trait
+
+is_a: TO:0000135 ! leaf length
+
+is_a: TO:0000146 ! seed length
+
+is_a: TO:0000148 ! viral disease response
+
+is_a: TO:0000149 ! seed width
+
+is_a: TO:0000179 ! biotic plant stress trait
+
+is_a: TO:0000181 ! seed weight
+
+is_a: TO:0000190 ! seed coat color
+
+is_a: TO:0000202 ! germination ratio
+
+is_a: TO:0000207 ! plant height
+
+is_a: TO:0000227 ! root length
+
+is_a: TO:0000250 ! plant vigor trait
+
+is_a: TO:0000253 ! seed dormancy
+
+is_a: TO:0000261 ! insect damage response
+
+is_a: TO:0000276 ! drought tolerance
+
+is_a: TO:0000278 ! root to shoot ratio
+
+is_a: TO:0000322 ! phenotypic acceptability
+
+is_a: TO:0000326 ! leaf color
+
+is_a: TO:0000361 ! stem morphology trait
+
+is_a: TO:0000370 ! leaf width
+
+is_a: TO:0000384 ! nematode damage response trait
+
+is_a: TO:0000391 ! seed size
+
+is_a: TO:0000398 ! whole plant morphology trait
+
+is_a: TO:0000421 ! pollen fertility
+
+is_a: TO:0000439 ! fungal disease response
+
+is_a: TO:0000442 ! plant fresh weight
+
+is_a: TO:0000445 ! fruit seed number
+
+is_a: TO:0000457 ! biomass yield
+
+is_a: TO:0000469 ! days to maturity
+
+is_a: TO:0000484 ! seed shape
+
+is_a: TO:0000490 ! seed protein contenet trait
+
+is_a: TO:0000492 ! leaf shape
+
+is_a: TO:0000505 ! leaf weight
+
+is_a: TO:0000519 ! rooting depth
+
+is_a: TO:0000540 ! leaf area trait
+
+is_a: TO:0000542 ! leaf length to width ratio
+
+is_a: TO:0000562 ! specific leaf area
+
+is_a: TO:0000572 ! petal color
+
+is_a: TO:0000604 ! fat and essential oil content
+
+is_a: TO:0000630 ! pedicel length
+
+is_a: TO:0000739 ! shoot axis morphology trait
+
+is_a: TO:0000740 ! branch morphology trait
+
+is_a: TO:0000863 ! petal morphology trait
+
+is_a: TO:0000871 ! fruit yield trait
+
+is_a: TO:0000879 ! stem hairiness
+
+is_a: TO:0000895 ! fruit harvest index
+
+is_a: TO:0000897 ! seed harvest index
+
+is_a: TO:0000903 ! seed coat texture
+
+is_a: TO:0000904 ! seed coat pattern
+
+is_a: TO:0000905 ! seed yield trait
+
+is_a: TO:0000931 ! seed quality trait
+
+is_a: TO:0000945 ! pericarp morphology trait
+
+is_a: TO:0000947 ! whole plant growth and development trait
+
+is_a: TO:0000952 ! stem weight
+
+is_a: TO:0000985 ! root system morphology trait
+
+is_a: TO:0001017 ! water use efficiency
+
+is_a: TO:0001018 ! transpiration rate
+
+is_a: TO:0001069 ! cooking quality trait
+
+is_a: TO:0001082 ! legume fruit morphology trait
+
+is_a: TO:0001092 ! legume fruit weight
+
+is_a: TO:0001112 ! root width
+
+is_a: TO:0001125 ! pod number trait
+
+is_a: TO:0001145 ! Ascomycete fungal disease response
+
+is_a: TO:0001146 ! Basidiomycete fungal disease response
+
+is_a: TO:0002616 ! flowering time trait
+
+is_a: TO:0002623 ! pericarp texture
+
+is_a: TO:0002626 ! fruit length
+
+is_a: TO:0002628 ! fruit shape
+
+is_a: TO:0002633 ! fruit ripening trait
+
+is_a: TO:0002637 ! leaf size
+
+is_a: TO:0002639 ! shoot branching
+
+is_a: TO:0002643 ! carbon isotope discrimination
+
+is_a: TO:0002712 ! stay green trait
+
+is_a: TO:0002722 ! leaf pubescence
+
+is_a: TO:0002736 ! flower number trait
+
+is_a: TO:0003049 ! leaf potassium content
+
+is_a: TO:0003050 ! stem potassium content
+
+is_a: TO:0005001 ! linoleic acid content
+
+is_a: TO:0005002 ! oleic acid content
+
+is_a: TO:0006001 ! salt tolerance
+
+is_a: TO:0006061 ! days to germinate
+
+is_a: TO:0006062 ! plant width
+
+is_a: TO:0012002 ! leaf chlorophyll content
+
+is_a: TO:0020004 ! shoot system sodium content
+
+is_a: TO:0020020 ! primary shoot branch number
+
+is_a: TO:1000012 ! whole plant size
