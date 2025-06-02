@@ -81,7 +81,7 @@ is_a: TO:0000562 ! specific leaf area
 
 is_a: TO:0000572 ! petal color
 
-is_a: TO:0000604 ! fat and essential oil content
+is_a: TO:0000604 ! fat and oil content
 
 is_a: TO:0000630 ! pedicel length
 
