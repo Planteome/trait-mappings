@@ -28,35 +28,35 @@ id: CO_323:0000012
 name: barley flowering time trait
 def: "The timing of the flowering." []
 synonym: "Flw" EXACT []
-is_a: TO:0002616
+is_a: TO:0002616 ! flowering time trait
 
 [Term]
 id: CO_323:0000015
 name: barley maturity time trait
 def: "The timing of the physiological maturity." []
 synonym: "Mat" EXACT []
-is_a: TO:0000469
+is_a: TO:0000469 ! days to maturity
 
 [Term]
 id: CO_323:0000018
 name: barley grain filling period duration trait
 def: "The duration of the grain filling period." []
 synonym: "GFP" EXACT []
-is_a: TO:0000929
+is_a: TO:0000929 ! fruit growth and development trait
 
 [Term]
 id: CO_323:0000021
 name: barley plant lodging incidence trait
 def: "The plant lodging incidence." []
 synonym: "LodgInc" EXACT []
-is_a: TO:0000068
+is_a: TO:0000068 ! lodging incidence
 
 [Term]
 id: CO_323:0000024
 name: barley plant height trait
 def: "The height of plant from ground to top part." []
 synonym: "PH" EXACT []
-is_a: TO:0000207
+is_a: TO:0000207 ! plant height
 
 [Term]
 id: CO_323:0000027
@@ -71,119 +71,119 @@ id: CO_323:0000030
 name: barley spike length trait
 def: "The length of the spike." []
 synonym: "SpkLng" EXACT []
-is_a: TO:0000271
+is_a: TO:0000271 ! inflorescence length
 
 [Term]
 id: CO_323:0000033
 name: barley rachis brittleness trait
 def: "The tendency of rachis breaking from spike peduncle at maturity." []
 synonym: "RachisBrit" EXACT []
-is_a: TO:0000473
+is_a: TO:0000473 ! grain shattering
 
 [Term]
 id: CO_323:0000036
 name: barley thousand grain weight trait
 def: "The weight of thousand grains." []
 synonym: "TGW" EXACT []
-is_a: TO:0000382
+is_a: TO:0000382 ! 1000-grain weight
 
 [Term]
 id: CO_323:0000039
 name: barley aboveground biomass yield fresh weight basis trait
 def: "The amount in fresh weight basis of aboveground biomass that was harvested per unit area or plant." []
 synonym: "BMFW" EXACT []
-is_a: TO:0000457
+is_a: TO:0000457 ! biomass yield
 
 [Term]
 id: CO_323:0000042
 name: barley grain yield fresh weight basis trait
 def: "The amount in fresh weight basis of grain that was harvested per unit area or plant." []
 synonym: "GYFW" EXACT []
-is_a: TO:0000396
+is_a: TO:0000396 ! grain yield trait
 
 [Term]
 id: CO_323:0000045
 name: barley harvest index trait
 def: "The biomass partitioning to grain, as ratio of grain yield to aboveground biomass yield." []
 synonym: "HI" EXACT []
-is_a: TO:0000128
+is_a: TO:0000128 ! harvest index
 
 [Term]
 id: CO_323:0000048
 name: barley growth habit trait
 def: "The plant growth habit during vegetative stages." []
 synonym: "GwtHabit" EXACT []
-is_a: TO:0000928
+is_a: TO:0000928 ! plant structure growth and development trait
 
 [Term]
 id: CO_323:0000051
 name: barley stem pigmentation trait
 def: "The stem pigmentation." []
 synonym: "StmPig" EXACT []
-is_a: TO:0000056
+is_a: TO:0000056 ! stem color
 
 [Term]
 id: CO_323:0000054
 name: barley auricle pigmentation trait
 def: "The pigmentation of the auricles." []
 synonym: "AuclePig" EXACT []
-is_a: TO:0000294
+is_a: TO:0000294 ! leaf sheath auricle color
 
 [Term]
 id: CO_323:0000057
 name: barley stem upper node pigmentation trait
 def: "The pigmentation of the upper node in the stem." []
 synonym: "StmPig" EXACT []
-is_a: TO:0000059
+is_a: TO:0000059 ! node color
 
 [Term]
 id: CO_323:0000060
 name: barley flag leaf attitude trait
 def: "The angle or attitude of the flag leaf respect the culm." []
 synonym: "FLfAtt" EXACT []
-is_a: TO:0000124
+is_a: TO:0000124 ! flag leaf angle
 
 [Term]
 id: CO_323:0000063
 name: barley flag leaf length trait
 def: "The length of flag leaf." []
 synonym: "FLfLng" EXACT []
-is_a: TO:0002757
+is_a: TO:0002757 ! flag leaf length
 
 [Term]
 id: CO_323:0000066
 name: barley flag leaf width trait
 def: "The width of flag leaf at mid-point of the leaf blade." []
 synonym: "FLfWid" EXACT []
-is_a: TO:0002758
+is_a: TO:0002758 ! flag leaf width
 
 [Term]
 id: CO_323:0000069
 name: barley peduncle length trait
 def: "The length of the peduncles." []
 synonym: "PedLng" EXACT []
-is_a: TO:0002691
+is_a: TO:0002691 ! peduncle length
 
 [Term]
 id: CO_323:0000072
 name: barley spike waxiness trait
 def: "The presence and intensity of wax in the spike" []
 synonym: "SWax" EXACT []
-is_a: TO:0001110
+is_a: TO:0001110 ! spike inflorescence morphology trait
 
 [Term]
 id: CO_323:0000075
 name: barley spike colour trait
 def: "The colour of the spike." []
 synonym: "SCol" EXACT []
-is_a: TO:0000787
+is_a: TO:0000787 ! inflorescence waxiness
 
 [Term]
 id: CO_323:0000078
 name: barley spike attitude trait
 def: "The angle or attitude of spike respect the culm." []
 synonym: "SAtt" EXACT []
-is_a: TO:0001110
+is_a: TO:0001110 ! spike inflorescence morphology trait
 
 [Term]
 id: CO_323:0000081
@@ -197,84 +197,84 @@ id: CO_323:0000084
 name: barley lateral spikelet presence trait
 def: "The presence of lateral spikelets in two row types." []
 synonym: "LSpkltPre" EXACT []
-is_a: TO:0001110
+is_a: TO:0001110 ! spike inflorescence morphology trait
 
 [Term]
 id: CO_323:0000087
 name: barley lateral spikelet fertility trait
 def: "The fertility of lateral spikelet sin two row types." []
 synonym: "LSpkltFert" EXACT []
-is_a: TO:0000180
+is_a: TO:0000180 ! spikelet fertility
 
 [Term]
 id: CO_323:0000090
 name: barley spike density trait
 def: "The arrangement and compactness of the spikelets on the spike." []
 synonym: "SpkDen" EXACT []
-is_a: TO:0000625
+is_a: TO:0000625 ! spikelet density
 
 [Term]
 id: CO_323:0000093
 name: barley spike basal sterility presence trait
 def: "The presence of sterility on spike basal spikelets." []
 synonym: "SBsSterPre" EXACT []
-is_a: TO:0000180
+is_a: TO:0000180 ! spikelet fertility
 
 [Term]
 id: CO_323:0000096
 name: barley awn presence trait
 def: "The presence or absence of awns." []
 synonym: "AwnPre" EXACT []
-is_a: TO:0002734
+is_a: TO:0002734 ! awn presence
 
 [Term]
 id: CO_323:0000099
 name: barley awn type trait
 def: "The lemma awns type." []
 synonym: "AwnTy" EXACT []
-is_a: TO:0002718
+is_a: TO:0002718 ! awn morphology trait
 
 [Term]
 id: CO_323:0000102
 name: barley awn length trait
 def: "The length of awns." []
 synonym: "AwnLng" EXACT []
-is_a: TO:0000072
+is_a: TO:0000072 ! awn length
 
 [Term]
 id: CO_323:0000105
 name: barley awn tip pigmentation presence trait
 def: "The presence or absence of pigmentation on awn tips." []
 synonym: "AwnTipPigPre" EXACT []
-is_a: TO:0002718
+is_a: TO:0002718 ! awn thickness
 
 [Term]
 id: CO_323:0000108
 name: barley awn texture trait
 def: "The smoothness or roughness of the lemma awn barbs." []
 synonym: "AwnTx" EXACT []
-is_a: TO:0002719
+is_a: TO:0002719 ! awn morphology trait
 
 [Term]
 id: CO_323:0000111
 name: barley lemma colour trait
 def: "The colour of the lemma (husk)." []
 synonym: "LemmCol" EXACT []
-is_a: TO:0000264
+is_a: TO:1000023 ! lemma morphology trait
 
 [Term]
 id: CO_323:0000114
 name: barley mature spike colour trait
 def: "The colour of the mature spikes." []
 synonym: "MatSCol" EXACT []
-is_a: TO:0001110
+is_a: TO:0001110 ! spike inflorescence morphology trait
 
 [Term]
 id: CO_323:0000117
 name: barley grain colour trait
 def: "The colour of the grains." []
 synonym: "GCol" EXACT []
-is_a: TO:0001109
+is_a: TO:0001109 ! grain color trait
 
 [Term]
 id: CO_323:0000120
@@ -282,42 +282,42 @@ name: barley grain hullness trait
 def: "The husk covering on the grain, whether lemma and palea adhere to the cariopsis." []
 synonym: "GHull" EXACT []
 synonym: "kernel covering" EXACT []
-is_a: TO:0001079
+is_a: TO:0001079 ! caryopsis fruit morphology trait
 
 [Term]
 id: CO_323:0000123
 name: barley grain shape trait
 def: "The shape of the grains." []
 synonym: "GShp" EXACT []
-is_a: TO:0002730
+is_a: TO:0002730 ! grain shape
 
 [Term]
 id: CO_323:0000126
 name: barley lemma surface type trait
 def: "The lemmas surface type." []
 synonym: "LemmSurfTy" EXACT []
-is_a: TO:1000023
+is_a: TO:1000023 ! lemma morphology trait
 
 [Term]
 id: CO_323:0000129
 name: barley rachilla hair length trait
 def: "The length of the rachilla hairs." []
 synonym: "RacllHrLng" EXACT []
-is_a: TO:0000974
+is_a: TO:0000974 ! spikelet rachilla hair type
 
 [Term]
 id: CO_323:0000132
 name: barley grain crease width trait
 def: "The width of grain creases." []
 synonym: "GCreWid" EXACT []
-is_a: TO:0001079
+is_a: TO:0001079 ! grain color trait
 
 [Term]
 id: CO_323:0000135
 name: barley salinity tolerance trait
 def: "The plant response to soil/water salinity conditions." []
 synonym: "SalTol" EXACT []
-is_a: TO:0000974
+is_a: TO:0006001 ! salt tolerance
 
 [Term]
 id: CO_323:0000138
@@ -338,7 +338,7 @@ id: CO_323:0000144
 name: barley boron tolerance trait
 def: "The plant response to high levels of boron in soil." []
 synonym: "BTol" EXACT []
-is_a: TO:0000018
+is_a: TO:0000018 ! boron sensitivity
 
 [Term]
 id: CO_323:0000147
@@ -651,7 +651,7 @@ id: CO_323:0000358
 name: barley grain moisture content trait
 def: "The moisture content of the grain." []
 synonym: "GMoist" EXACT []
-is_a: TO:0000057
+is_a: TO:0000057 ! grain moisture content
 
 [Term]
 id: CO_323:0000361
@@ -893,331 +893,3 @@ name: barley yellow rust susceptibility trait
 def: "The plant susceptibility to Yellow Rust (Stripe Rust) caused by the agent Puccinia striiformis f. sp. hordei." []
 synonym: "YwRustSus" EXACT []
 is_a: TO:0001146
-
-[Term]
-id: TO:0000018
-name: boron sensitivity
-
-[Term]
-id: TO:0000056
-name: stem color
-
-[Term]
-id: TO:0000057
-name: grain moisture content
-
-[Term]
-id: TO:0000059
-name: node color
-
-[Term]
-id: TO:0000068
-name: lodging incidence
-
-[Term]
-id: TO:0000072
-name: awn length
-
-[Term]
-id: TO:0000114
-name: flooding related trait
-
-[Term]
-id: TO:0000124
-name: flag leaf angle
-
-[Term]
-id: TO:0000128
-name: harvest index
-
-[Term]
-id: TO:0000137
-name: days to heading
-
-[Term]
-id: TO:0000141
-name: awn color
-
-[Term]
-id: TO:0000162
-name: grain quality trait
-
-[Term]
-id: TO:0000178
-name: acid soil sensitivity
-
-[Term]
-id: TO:0000180
-name: spikelet fertility
-
-[Term]
-id: TO:0000188
-name: drought sensitivity
-
-[Term]
-id: TO:0000202
-name: germination ratio
-
-[Term]
-id: TO:0000207
-name: plant height
-
-[Term]
-id: TO:0000250
-name: plant vigor trait
-
-[Term]
-id: TO:0000259
-name: high temperature stress response
-
-[Term]
-id: TO:0000261
-name: insect damage response trait
-
-[Term]
-id: TO:0000264
-name: lemma and palea color
-
-[Term]
-id: TO:0000267
-name: inflorescence type
-
-[Term]
-id: TO:0000271
-name: inflorescence length
-
-[Term]
-id: TO:0000276
-name: drought tolerance
-
-[Term]
-id: TO:0000280
-name: seedling vigor
-
-[Term]
-id: TO:0000288
-name: alpha-amylase activity trait
-
-[Term]
-id: TO:0000294
-name: leaf sheath auricle color
-
-[Term]
-id: TO:0000303
-name: low temperature stress response
-
-[Term]
-id: TO:0000329
-name: tillering ability
-
-[Term]
-id: TO:0000346
-name: tiller number
-
-[Term]
-id: TO:0000382
-name: 1000-grain weight
-
-[Term]
-id: TO:0000396
-name: grain yield trait
-
-[Term]
-id: TO:0000397
-name: grain size
-
-[Term]
-id: TO:0000429
-name: salt sensitivity
-
-[Term]
-id: TO:0000456
-name: spikelet number
-
-[Term]
-id: TO:0000457
-name: biomass yield
-
-[Term]
-id: TO:0000469
-name: days to maturity
-
-[Term]
-id: TO:0000473
-name: grain shattering
-
-[Term]
-id: TO:0000582
-name: inflorescence number
-
-[Term]
-id: TO:0000619
-name: vivipary
-
-[Term]
-id: TO:0000625
-name: spikelet density
-
-[Term]
-id: TO:0000662
-name: Name barley fusarium head blight response
-
-[Term]
-id: TO:0000668
-name: mycotoxin content
-
-[Term]
-id: TO:0000696
-name: starch content
-
-[Term]
-id: TO:0000707
-name: pericarp color
-
-[Term]
-id: TO:0000787
-name: inflorescence waxiness
-
-[Term]
-id: TO:0000919
-name: grain weight
-
-[Term]
-id: TO:0000928
-name: plant structure growth and development trait
-
-[Term]
-id: TO:0000929
-name: fruit growth and development trait
-
-[Term]
-id: TO:0000933
-name: plant phenological trait
-
-[Term]
-id: TO:0000947
-name: whole plant growth and development trait
-
-[Term]
-id: TO:0000974
-name: spikelet rachilla hair type
-
-[Term]
-id: TO:0001070
-name: brewing quality trait
-
-[Term]
-id: TO:0001079
-name: caryopsis fruit morphology trait
-
-[Term]
-id: TO:0001109
-name: grain color trait
-
-[Term]
-id: TO:0001110
-name: spike inflorescence morphology trait
-
-[Term]
-id: TO:0001136
-name: grain protein content
-
-[Term]
-id: TO:0001145
-name: Ascomycete fungal disease response
-
-[Term]
-id: TO:0001146
-name: Basidiomycete fungal disease response
-
-[Term]
-id: TO:0001153
-name: survival rate after freezing temperature stress
-
-[Term]
-id: TO:0002616
-name: flowering time trait
-
-[Term]
-id: TO:0002691
-name: peduncle length
-
-[Term]
-id: TO:0002718
-name: awn morphology trait
-
-[Term]
-id: TO:0002719
-name: awn morphology trait
-
-[Term]
-id: TO:0002730
-name: grain shape
-
-[Term]
-id: TO:0002734
-name: awn presence
-
-[Term]
-id: TO:0002757
-name: flag leaf length
-
-[Term]
-id: TO:0002758
-name: flag leaf lamina width
-
-[Term]
-id: TO:0002759
-name: grain number
-
-[Term]
-id: TO:0003068
-name: grain nitrogen content
-
-[Term]
-id: TO:0006067
-name: aphid resistance
-
-[Term]
-id: TO:0020051
-name: barley leaf scald disease resistance
-
-[Term]
-id: TO:0020052
-name: barley spot blotch disease response
-
-[Term]
-id: TO:0020053
-name: wheat spot blotch disease response
-
-[Term]
-id: TO:0020060
-name: barley powdery mildew disease response
-
-[Term]
-id: TO:0020062
-name: barley net form net blotch disease response
-
-[Term]
-id: TO:0020067
-name: barley yellow dwarf virus disease response
-
-[Term]
-id: TO:0020068
-name: beta-glucan content
-
-[Term]
-id: TO:0020073
-name: barley wort protein concentration
-
-[Term]
-id: TO:0020089
-name: iron content trait
-
-[Term]
-id: TO:0020090
-name: zinc content trait
-
-[Term]
-id: TO:1000023
-name: lemma morphology trait
