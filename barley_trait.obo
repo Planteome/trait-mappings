@@ -192,7 +192,7 @@ id: CO_323:0000081
 name: barley spike type trait
 def: "The type of spike according its row number." []
 synonym: "STy" EXACT []
-is_a: TO:0000267
+is_a: TO:0000267 ! inflorescence type
 
 [Term]
 id: CO_323:0000084
@@ -396,7 +396,7 @@ id: CO_323:0000171
 name: barley aphids susceptibility trait
 def: "The plant susceptibility to aphids in general, without distinguishing species. For example, Corn leaf aphid (Rhopalosiphum maidis), Russian wheat aphid (Diuraphis noxia), Greenbug (Schizaphis graminum), etc." []
 synonym: "AphidSus" EXACT []
-is_a: TO:0006067
+is_a: TO:0006067 ! aphid resistance
 
 [Term]
 id: CO_323:0000174
@@ -674,7 +674,7 @@ id: CO_323:0000370
 name: barley grain plumpness fraction 2.2 mm trait
 def: "The grain fraction with kernel size bigger than 2.2 mm of the raw grain." []
 synonym: "GPlumpF22" EXACT []
-is_a: TO:0000397
+is_a: TO:0000397 ! grain size
 
 [Term]
 id: CO_323:0000375
