@@ -61,7 +61,7 @@ is_a: TO:0000445 ! fruit seed number
 
 is_a: TO:0000457 ! biomass yield
 
-is_a: TO:0000469 ! days to maturity
+is_a:  ! days TO:0000469to maturity
 
 is_a: TO:0000484 ! seed shape
 
@@ -178,230 +178,173 @@ is_a: TO:0020020 ! primary shoot branch number
 is_a: TO:1000012 ! whole plant size
 
 [Term]
-id: TO:0000043
-name: root morphology trait
+is_a: TO:0000043! root morphology trait
 
 [Term]
-id: TO:0000077
-name: shoot system morphology trait
+is_a: TO:0000077! shoot system morphology trait
 
 [Term]
-id: TO:0000078
-name: root dry weight
+is_a: TO:0000078!  root dry weight
 
 [Term]
-id: TO:0000148
-name: viral disease response
+is_a: TO:0000148 ! viral disease response
 
 [Term]
-id: TO:0000149
-name: seed width
+is_a: TO:0000149 ! seed width
 
 [Term]
-id: TO:0000181
-name: seed weight
+is_a: TO:0000181 ! seed weight
 
 [Term]
-id: TO:0000207
-name: plant height
+is_a: TO:0000207 ! plant height
 
 [Term]
-id: TO:0000227
-name: root length
+is_a: TO:0000227 ! root length
 
 [Term]
-id: TO:0000233
-name: root volume
+is_a: TO:0000233 ! root volume
 
 [Term]
-id: TO:0000250
-name: plant vigor trait
+is_a: TO:0000250 ! plant vigor trait
 
 [Term]
-id: TO:0000259
-name: heat tolerance
+is_a: TO:0000259 ! heat toler
 
 [Term]
-id: TO:0000261
-name: insect damage response trait
+is_a: TO:0000261 ! insect damage response trait
 
 [Term]
-id: TO:0000276
-name: drought tolerance
+is_a: TO:0000276 ! drought tolerance
 
 [Term]
-id: TO:0000303
-name: cold tolerance
+is_a: TO:0000303 ! cold tolerance
 
 [Term]
-id: TO:0000344
-name: days to flowering trait
+is_a: TO:0000344 ! days to flowering trait
 
 [Term]
-id: TO:0000352
-name: plant dry weight
+is_a: TO:0000352 ! plant dry weight
 
 [Term]
-id: TO:0000384
-name: nematode damage response trait
+is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
-id: TO:0000445
-name: fruit seed number
+is_a: TO:0000445 ! fruit seed number
 
 [Term]
-id: TO:0000469
-name: days to maturity
+is_a: TO:0000469 ! days to maturity
 
 [Term]
-id: TO:0000484
-name: seed shape
+is_a: TO:0000484 ! seed shape
 
 [Term]
-id: TO:0000486
-name: seed color
+is_a: TO:0000486 ! seed color
 
 [Term]
-id: TO:0000490
-name: seed protein content
+is_a: TO:0000490 ! seed protein content
 
 [Term]
-id: TO:0000519
-name: rooting depth
+is_a: TO:0000519 ! rooting depth
 
 [Term]
-id: TO:0000537
-name: flower color
+is_a: TO:0000537 ! flower color
 
 [Term]
-id: TO:0000547
-name: primary branch number
+is_a: TO:0000547 ! primary branch number
 
 [Term]
-id: TO:0000557
-name: secondary branch number
+is_a: TO:0000557 ! secondary branch number
 
 [Term]
-id: TO:0000562
-name: specific leaf area
+is_a: TO:0000562 ! specific leaf area
 
 [Term]
-id: TO:0000667
-name: cooking or brewing quality
+is_a: TO:0000667 ! cooking or brewing quality
 
 [Term]
-id: TO:0000708
-name: plant color
+is_a: TO:0000708 ! plant color
 
 [Term]
-id: TO:0000852
-name: fruit set trait
+is_a: TO:0000852 ! fruit set trait
 
 [Term]
-id: TO:0000879
-name: stem hairiness
+is_a: TO:0000879 ! stem hairiness
 
 [Term]
-id: TO:0000897
-name: seed harvest index
+is_a: TO:0000897 ! seed harvest index
 
 [Term]
-id: TO:0000903
-name: seed coat texture
+is_a: TO:0000903 ! seed coat texture
 
 [Term]
-id: TO:0000904
-name: seed coat pattern
+is_a: TO:0000904 ! seed coat pattern
 
 [Term]
-id: TO:0000905
-name: seed yield trait
+is_a: TO:0000905 ! seed yield trait
 
 [Term]
-id: TO:0000931
-name: seed quality trait
+is_a: TO:0000931 ! seed quality trait
 
 [Term]
-id: TO:0000947
-name: whole plant growth and development trait
+is_a: TO:0000947 ! whole plant growth and development trait
 
 [Term]
-id: TO:0001014
-name: leaf dry weight
+is_a: TO:0001014 ! leaf dry weight
 
 [Term]
-id: TO:0001017
-name: water use efficiency
+is_a: TO:0001017 ! water use efficiency
 
 [Term]
-id: TO:0001069
-name: cooking quality trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
-id: TO:0001092
-name: legume fruit weight
+is_a: TO:0001092 ! legume fruit weight
 
 [Term]
-id: TO:0001121
-name: compound leaf morphology trait
+is_a: TO:0001121 ! compound leaf morphology trait
 
 [Term]
-id: TO:0001125
-name: pod number trait
+is_a: TO:0001125 ! pod number trait
 
 [Term]
-id: TO:0001145
-name: Ascomycete fungal disease response
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
-id: TO:0002616
-name: flowering time trait
+is_a: TO:0002616 ! flowering time trait
 
 [Term]
-id: TO:0002626
-name: fruit length
+is_a: TO:0002626 ! fruit length
 
 [Term]
-id: TO:0002635
-name: leaf margin morphology trait
+is_a: TO:0002635 ! leaf margin morphology trait
 
 [Term]
-id: TO:0002636
-name: leaflet number
+is_a: TO:0002636 ! leaflet number
 
 [Term]
-id: TO:0002643
-name: carbon isotope discrimination
+is_a: TO:0002643 ! carbon isotope discrimination
 
 [Term]
-id: TO:0002736
-name: flower number
+is_a: TO:0002736 ! flower number
 
 [Term]
-id: TO:0003001
-name: stem dry weight
+is_a: TO:0003001 ! stem dry weight
 
 [Term]
-id: TO:0006001
-name: salt tolerance
+is_a: TO:0006001 ! salt tolerance
 
 [Term]
-id: TO:0006034
-name: tertiary branch number
+is_a: TO:0006034 ! tertiary branch number
 
 [Term]
-id: TO:0006062
-name: plant width
+is_a: TO:0006062 ! plant width
 
 [Term]
-id: TO:0012002
-name: leaf chlorophyll content
+is_a: TO:0012002 ! leaf chlorophyll content
 
 [Term]
-id: TO:0020003
-name: shoot system potassium content
+is_a: TO:0020003 ! shoot system potassium content
 
 [Term]
-id: TO:0020004
-name: shoot system sodium content
+is_a: TO:0020004 ! shoot system sodium content
 
