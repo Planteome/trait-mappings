@@ -176,3 +176,232 @@ is_a: TO:0020004 ! shoot system sodium content
 is_a: TO:0020020 ! primary shoot branch number
 
 is_a: TO:1000012 ! whole plant size
+
+[Term]
+id: TO:0000043
+name: root morphology trait
+
+[Term]
+id: TO:0000077
+name: shoot system morphology trait
+
+[Term]
+id: TO:0000078
+name: root dry weight
+
+[Term]
+id: TO:0000148
+name: viral disease response
+
+[Term]
+id: TO:0000149
+name: seed width
+
+[Term]
+id: TO:0000181
+name: seed weight
+
+[Term]
+id: TO:0000207
+name: plant height
+
+[Term]
+id: TO:0000227
+name: root length
+
+[Term]
+id: TO:0000233
+name: root volume
+
+[Term]
+id: TO:0000250
+name: plant vigor trait
+
+[Term]
+id: TO:0000259
+name: heat tolerance
+
+[Term]
+id: TO:0000261
+name: insect damage response trait
+
+[Term]
+id: TO:0000276
+name: drought tolerance
+
+[Term]
+id: TO:0000303
+name: cold tolerance
+
+[Term]
+id: TO:0000344
+name: days to flowering trait
+
+[Term]
+id: TO:0000352
+name: plant dry weight
+
+[Term]
+id: TO:0000384
+name: nematode damage response trait
+
+[Term]
+id: TO:0000445
+name: fruit seed number
+
+[Term]
+id: TO:0000469
+name: days to maturity
+
+[Term]
+id: TO:0000484
+name: seed shape
+
+[Term]
+id: TO:0000486
+name: seed color
+
+[Term]
+id: TO:0000490
+name: seed protein content
+
+[Term]
+id: TO:0000519
+name: rooting depth
+
+[Term]
+id: TO:0000537
+name: flower color
+
+[Term]
+id: TO:0000547
+name: primary branch number
+
+[Term]
+id: TO:0000557
+name: secondary branch number
+
+[Term]
+id: TO:0000562
+name: specific leaf area
+
+[Term]
+id: TO:0000667
+name: cooking or brewing quality
+
+[Term]
+id: TO:0000708
+name: plant color
+
+[Term]
+id: TO:0000852
+name: fruit set trait
+
+[Term]
+id: TO:0000879
+name: stem hairiness
+
+[Term]
+id: TO:0000897
+name: seed harvest index
+
+[Term]
+id: TO:0000903
+name: seed coat texture
+
+[Term]
+id: TO:0000904
+name: seed coat pattern
+
+[Term]
+id: TO:0000905
+name: seed yield trait
+
+[Term]
+id: TO:0000931
+name: seed quality trait
+
+[Term]
+id: TO:0000947
+name: whole plant growth and development trait
+
+[Term]
+id: TO:0001014
+name: leaf dry weight
+
+[Term]
+id: TO:0001017
+name: water use efficiency
+
+[Term]
+id: TO:0001069
+name: cooking quality trait
+
+[Term]
+id: TO:0001092
+name: legume fruit weight
+
+[Term]
+id: TO:0001121
+name: compound leaf morphology trait
+
+[Term]
+id: TO:0001125
+name: pod number trait
+
+[Term]
+id: TO:0001145
+name: Ascomycete fungal disease response
+
+[Term]
+id: TO:0002616
+name: flowering time trait
+
+[Term]
+id: TO:0002626
+name: fruit length
+
+[Term]
+id: TO:0002635
+name: leaf margin morphology trait
+
+[Term]
+id: TO:0002636
+name: leaflet number
+
+[Term]
+id: TO:0002643
+name: carbon isotope discrimination
+
+[Term]
+id: TO:0002736
+name: flower number
+
+[Term]
+id: TO:0003001
+name: stem dry weight
+
+[Term]
+id: TO:0006001
+name: salt tolerance
+
+[Term]
+id: TO:0006034
+name: tertiary branch number
+
+[Term]
+id: TO:0006062
+name: plant width
+
+[Term]
+id: TO:0012002
+name: leaf chlorophyll content
+
+[Term]
+id: TO:0020003
+name: shoot system potassium content
+
+[Term]
+id: TO:0020004
+name: shoot system sodium content
+

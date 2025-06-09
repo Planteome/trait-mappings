@@ -393,7 +393,7 @@ def: "Number of basal primary branches per plant" [CO:curators]
 synonym: "BPBR" EXACT []
 synonym: "Number of basal primary branches per plant" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000547  ! primary branch number
+is_a: TO:0000547 ! primary branch number
 
 [Term]
 id: CO_339:0000144
