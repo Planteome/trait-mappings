@@ -5,7 +5,7 @@ ontology: co_323
 [Term]
 id: CO_323:0000003
 name: barley plant early vigour trait
-def: "The initial vigour of the seedling." []
+def: "The initial vigour of the seedling." [CO:curators]
 synonym: "initial growth vigour" EXACT []
 synonym: "PEarlyVig" EXACT []
 is_a: TO:0000280 ! seedling vigor
@@ -13,14 +13,14 @@ is_a: TO:0000280 ! seedling vigor
 [Term]
 id: CO_323:0000006
 name: barley plant tillering capacity trait
-def: "The capacity of plants to produce tillers." []
+def: "The capacity of plants to produce tillers." [CO:curators]
 synonym: "PTllrCapacity" EXACT []
 is_a: TO:0000329 ! tillering ability
 
 [Term]
 id: CO_323:0000009
 name: barley effective tiller number trait
-def: "The number of effective tillers bearing spikes per area." []
+def: "The number of effective tillers bearing spikes per area." [CO:curators]
 synonym: "EffTllrN" EXACT []
 synonym: "fertile tiller number" EXACT []
 is_a: TO:0000346 ! tiller number
@@ -28,42 +28,42 @@ is_a: TO:0000346 ! tiller number
 [Term]
 id: CO_323:0000012
 name: barley flowering time trait
-def: "The timing of the flowering." []
+def: "The timing of the flowering." [CO:curators]
 synonym: "Flw" EXACT []
 is_a: TO:0002616 ! flowering time trait
 
 [Term]
 id: CO_323:0000015
 name: barley maturity time trait
-def: "The timing of the physiological maturity." []
+def: "The timing of the physiological maturity." [CO:curators]
 synonym: "Mat" EXACT []
 is_a: TO:0000469 ! days to maturity
 
 [Term]
 id: CO_323:0000018
 name: barley grain filling period duration trait
-def: "The duration of the grain filling period." []
+def: "The duration of the grain filling period." [CO:curators]
 synonym: "GFP" EXACT []
 is_a: TO:0000929 ! fruit growth and development trait
 
 [Term]
 id: CO_323:0000021
 name: barley plant lodging incidence trait
-def: "The plant lodging incidence." []
+def: "The plant lodging incidence." [CO:curators]
 synonym: "LodgInc" EXACT []
 is_a: TO:0000068 ! lodging incidence
 
 [Term]
 id: CO_323:0000024
 name: barley plant height trait
-def: "The height of plant from ground to top part." []
+def: "The height of plant from ground to top part." [CO:curators]
 synonym: "PH" EXACT []
 is_a: TO:0000207 ! plant height
 
 [Term]
 id: CO_323:0000027
 name: barley grain number per spike trait
-def: "The number of grains per spike." []
+def: "The number of grains per spike." [CO:curators]
 synonym: "SGN" EXACT []
 synonym: "spike grain number" EXACT []
 is_a: TO:0002759 ! grain number
@@ -71,98 +71,98 @@ is_a: TO:0002759 ! grain number
 [Term]
 id: CO_323:0000030
 name: barley spike length trait
-def: "The length of the spike." []
+def: "The length of the spike." [CO:curators]
 synonym: "SpkLng" EXACT []
 is_a: TO:0000271 ! inflorescence length
 
 [Term]
 id: CO_323:0000033
 name: barley rachis brittleness trait
-def: "The tendency of rachis breaking from spike peduncle at maturity." []
+def: "The tendency of rachis breaking from spike peduncle at maturity." [CO:curators]
 synonym: "RachisBrit" EXACT []
 is_a: TO:0000473 ! grain shattering
 
 [Term]
 id: CO_323:0000036
 name: barley thousand grain weight trait
-def: "The weight of thousand grains." []
+def: "The weight of thousand grains." [CO:curators]
 synonym: "TGW" EXACT []
 is_a: TO:0000382 ! 1000-grain weight
 
 [Term]
 id: CO_323:0000039
 name: barley aboveground biomass yield fresh weight basis trait
-def: "The amount in fresh weight basis of aboveground biomass that was harvested per unit area or plant." []
+def: "The amount in fresh weight basis of aboveground biomass that was harvested per unit area or plant." [CO:curators]
 synonym: "BMFW" EXACT []
 is_a: TO:0000457 ! biomass yield
 
 [Term]
 id: CO_323:0000042
 name: barley grain yield fresh weight basis trait
-def: "The amount in fresh weight basis of grain that was harvested per unit area or plant." []
+def: "The amount in fresh weight basis of grain that was harvested per unit area or plant." [CO:curators]
 synonym: "GYFW" EXACT []
 is_a: TO:0000396 ! grain yield trait
 
 [Term]
 id: CO_323:0000045
 name: barley harvest index trait
-def: "The biomass partitioning to grain, as ratio of grain yield to aboveground biomass yield." []
+def: "The biomass partitioning to grain, as ratio of grain yield to aboveground biomass yield." [CO:curators]
 synonym: "HI" EXACT []
 is_a: TO:0000128 ! harvest index
 
 [Term]
 id: CO_323:0000048
 name: barley growth habit trait
-def: "The plant growth habit during vegetative stages." []
+def: "The plant growth habit during vegetative stages." [CO:curators]
 synonym: "GwtHabit" EXACT []
 is_a: TO:0000928 ! plant structure growth and development trait
 
 [Term]
 id: CO_323:0000051
 name: barley stem pigmentation trait
-def: "The stem pigmentation." []
+def: "The stem pigmentation." [CO:curators]
 synonym: "StmPig" EXACT []
 is_a: TO:0000056 ! stem color
 
 [Term]
 id: CO_323:0000054
 name: barley auricle pigmentation trait
-def: "The pigmentation of the auricles." []
+def: "The pigmentation of the auricles." [CO:curators]
 synonym: "AuclePig" EXACT []
 is_a: TO:0000294 ! leaf sheath auricle color
 
 [Term]
 id: CO_323:0000057
 name: barley stem upper node pigmentation trait
-def: "The pigmentation of the upper node in the stem." []
+def: "The pigmentation of the upper node in the stem." [CO:curators]
 synonym: "StmPig" EXACT []
 is_a: TO:0000059 ! node color
 
 [Term]
 id: CO_323:0000060
 name: barley flag leaf attitude trait
-def: "The angle or attitude of the flag leaf respect the culm." []
+def: "The angle or attitude of the flag leaf respect the culm." [CO:curators]
 synonym: "FLfAtt" EXACT []
 is_a: TO:0000124 ! flag leaf angle
 
 [Term]
 id: CO_323:0000063
 name: barley flag leaf length trait
-def: "The length of flag leaf." []
+def: "The length of flag leaf." [CO:curators]
 synonym: "FLfLng" EXACT []
 is_a: TO:0002757 ! flag leaf length
 
 [Term]
 id: CO_323:0000066
 name: barley flag leaf width trait
-def: "The width of flag leaf at mid-point of the leaf blade." []
+def: "The width of flag leaf at mid-point of the leaf blade." [CO:curators]
 synonym: "FLfWid" EXACT []
 is_a: TO:0002758 ! flag leaf width
 
 [Term]
 id: CO_323:0000069
 name: barley peduncle length trait
-def: "The length of the peduncles." []
+def: "The length of the peduncles." [CO:curators]
 synonym: "PedLng" EXACT []
 is_a: TO:0002691 ! peduncle length
 
@@ -176,112 +176,112 @@ is_a: TO:0001110 ! spike inflorescence morphology trait
 [Term]
 id: CO_323:0000075
 name: barley spike colour trait
-def: "The colour of the spike." []
+def: "The colour of the spike." [CO:curators]
 synonym: "SCol" EXACT []
 is_a: TO:0000787 ! inflorescence waxiness
 
 [Term]
 id: CO_323:0000078
 name: barley spike attitude trait
-def: "The angle or attitude of spike respect the culm." []
+def: "The angle or attitude of spike respect the culm." [CO:curators]
 synonym: "SAtt" EXACT []
 is_a: TO:0001110 ! spike inflorescence morphology trait
 
 [Term]
 id: CO_323:0000081
 name: barley spike type trait
-def: "The type of spike according its row number." []
+def: "The type of spike according its row number." [CO:curators]
 synonym: "STy" EXACT []
 is_a: TO:0000267 ! inflorescence type
 
 [Term]
 id: CO_323:0000084
 name: barley lateral spikelet presence trait
-def: "The presence of lateral spikelets in two row types." []
+def: "The presence of lateral spikelets in two row types." [CO:curators]
 synonym: "LSpkltPre" EXACT []
 is_a: TO:0001110 ! spike inflorescence morphology trait
 
 [Term]
 id: CO_323:0000087
 name: barley lateral spikelet fertility trait
-def: "The fertility of lateral spikelet sin two row types." []
+def: "The fertility of lateral spikelet sin two row types." [CO:curators]
 synonym: "LSpkltFert" EXACT []
 is_a: TO:0000180 ! spikelet fertility
 
 [Term]
 id: CO_323:0000090
 name: barley spike density trait
-def: "The arrangement and compactness of the spikelets on the spike." []
+def: "The arrangement and compactness of the spikelets on the spike." [CO:curators]
 synonym: "SpkDen" EXACT []
 is_a: TO:0000625 ! spikelet density
 
 [Term]
 id: CO_323:0000093
 name: barley spike basal sterility presence trait
-def: "The presence of sterility on spike basal spikelets." []
+def: "The presence of sterility on spike basal spikelets." [CO:curators]
 synonym: "SBsSterPre" EXACT []
 is_a: TO:0000180 ! spikelet fertility
 
 [Term]
 id: CO_323:0000096
 name: barley awn presence trait
-def: "The presence or absence of awns." []
+def: "The presence or absence of awns." [CO:curators]
 synonym: "AwnPre" EXACT []
 is_a: TO:0002734 ! awn presence
 
 [Term]
 id: CO_323:0000099
 name: barley awn type trait
-def: "The lemma awns type." []
+def: "The lemma awns type." [CO:curators]
 synonym: "AwnTy" EXACT []
 is_a: TO:0002718 ! awn morphology trait
 
 [Term]
 id: CO_323:0000102
 name: barley awn length trait
-def: "The length of awns." []
+def: "The length of awns." [CO:curators]
 synonym: "AwnLng" EXACT []
 is_a: TO:0000072 ! awn length
 
 [Term]
 id: CO_323:0000105
 name: barley awn tip pigmentation presence trait
-def: "The presence or absence of pigmentation on awn tips." []
+def: "The presence or absence of pigmentation on awn tips." [CO:curators]
 synonym: "AwnTipPigPre" EXACT []
 is_a: TO:0002718 ! awn thickness
 
 [Term]
 id: CO_323:0000108
 name: barley awn texture trait
-def: "The smoothness or roughness of the lemma awn barbs." []
+def: "The smoothness or roughness of the lemma awn barbs." [CO:curators]
 synonym: "AwnTx" EXACT []
 is_a: TO:0002719 ! awn morphology trait
 
 [Term]
 id: CO_323:0000111
 name: barley lemma colour trait
-def: "The colour of the lemma (husk)." []
+def: "The colour of the lemma (husk)." [CO:curators]
 synonym: "LemmCol" EXACT []
 is_a: TO:1000023 ! lemma morphology trait
 
 [Term]
 id: CO_323:0000114
 name: barley mature spike colour trait
-def: "The colour of the mature spikes." []
+def: "The colour of the mature spikes." [CO:curators]
 synonym: "MatSCol" EXACT []
 is_a: TO:0001110 ! spike inflorescence morphology trait
 
 [Term]
 id: CO_323:0000117
 name: barley grain colour trait
-def: "The colour of the grains." []
+def: "The colour of the grains." [CO:curators]
 synonym: "GCol" EXACT []
 is_a: TO:0001109 ! grain color trait
 
 [Term]
 id: CO_323:0000120
 name: barley grain hullness trait
-def: "The husk covering on the grain, whether lemma and palea adhere to the cariopsis." []
+def: "The husk covering on the grain, whether lemma and palea adhere to the cariopsis." [CO:curators]
 synonym: "GHull" EXACT []
 synonym: "kernel covering" EXACT []
 is_a: TO:0001079 ! caryopsis fruit morphology trait
@@ -289,133 +289,133 @@ is_a: TO:0001079 ! caryopsis fruit morphology trait
 [Term]
 id: CO_323:0000123
 name: barley grain shape trait
-def: "The shape of the grains." []
+def: "The shape of the grains." [CO:curators]
 synonym: "GShp" EXACT []
 is_a: TO:0002730 ! grain shape
 
 [Term]
 id: CO_323:0000126
 name: barley lemma surface type trait
-def: "The lemmas surface type." []
+def: "The lemmas surface type." [CO:curators]
 synonym: "LemmSurfTy" EXACT []
 is_a: TO:1000023 ! lemma morphology trait
 
 [Term]
 id: CO_323:0000129
 name: barley rachilla hair length trait
-def: "The length of the rachilla hairs." []
+def: "The length of the rachilla hairs." [CO:curators]
 synonym: "RacllHrLng" EXACT []
 is_a: TO:0000974 ! spikelet rachilla hair type
 
 [Term]
 id: CO_323:0000132
 name: barley grain crease width trait
-def: "The width of grain creases." []
+def: "The width of grain creases." [CO:curators]
 synonym: "GCreWid" EXACT []
 is_a: TO:0001079 ! grain color trait
 
 [Term]
 id: CO_323:0000135
 name: barley salinity tolerance trait
-def: "The plant response to soil/water salinity conditions." []
+def: "The plant response to soil/water salinity conditions." [CO:curators]
 synonym: "SalTol" EXACT []
 is_a: TO:0006001 ! salt tolerance
 
 [Term]
 id: CO_323:0000138
 name: barley cold tolerance trait
-def: "The plant response to cold or low temperatures." []
+def: "The plant response to cold or low temperatures." [CO:curators]
 synonym: "ColdTol" EXACT []
 is_a: TO:0000303 ! low temperature stress response
 
 [Term]
 id: CO_323:0000141
 name: barley drought tolerance trait
-def: "The plant response to drought conditions." []
+def: "The plant response to drought conditions." [CO:curators]
 synonym: "DrouTol" EXACT []
 is_a: TO:0000276 ! drought tolerance
 
 [Term]
 id: CO_323:0000144
 name: barley boron tolerance trait
-def: "The plant response to high levels of boron in soil." []
+def: "The plant response to high levels of boron in soil." [CO:curators]
 synonym: "BTol" EXACT []
 is_a: TO:0000018 ! boron sensitivity
 
 [Term]
 id: CO_323:0000147
 name: barley leaf stripe incidence trait
-def: "The Leaf Stripe incidence caused by the agent Pyrenophora graminea (Helminthosporium gramineum)." []
+def: "The Leaf Stripe incidence caused by the agent Pyrenophora graminea (Helminthosporium gramineum)." [CO:curators]
 synonym: "LfStripeInc" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_323:0000150
 name: barley smuts incidence trait
-def: "The general Smuts incidence. Diseases caused by Covered (Ustilago hordei) or Loose (U. nuda) Smuts." []
+def: "The general Smuts incidence. Diseases caused by Covered (Ustilago hordei) or Loose (U. nuda) Smuts." [CO:curators]
 synonym: "SmutInc" EXACT []
 is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_323:0000153
 name: barley spot blotch severity trait
-def: "The Spot Blotch (spot form of leaf blotch) severity caused by the agent Cochliobolus sativus (Bipolaris sorokiniana, Helminthosporium sativum)." []
+def: "The Spot Blotch (spot form of leaf blotch) severity caused by the agent Cochliobolus sativus (Bipolaris sorokiniana, Helminthosporium sativum)." [CO:curators]
 synonym: "SpotBloSev" EXACT []
 is_a: TO:0020053 ! barley spot blotch disease response
 
 [Term]
 id: CO_323:0000156
 name: barley net blotch severity trait
-def: "The Net Blotch (net form of leaf blotch) severity caused by the agent Pyrenophora teres (Dreschlera teres f.sp. teres, Helminthosporium teres)." []
+def: "The Net Blotch (net form of leaf blotch) severity caused by the agent Pyrenophora teres (Dreschlera teres f.sp. teres, Helminthosporium teres)." [CO:curators]
 synonym: "NetBloSev" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_323:0000159
 name: barley leaf scald severity trait
-def: "The Leaf Scald severity caused by the agent Rhyncosporium secalis." []
+def: "The Leaf Scald severity caused by the agent Rhyncosporium secalis." [CO:curators]
 synonym: "LfScaldSev" EXACT []
 is_a: TO:0020051 ! barley leaf scald disease resistance
 
 [Term]
 id: CO_323:0000162
 name: barley spikelet fusarium head blight incidence trait
-def: "The Fusarium Head Blight (Scab) incidence on spikelets caused by the agent Fusarium spp." []
+def: "The Fusarium Head Blight (Scab) incidence on spikelets caused by the agent Fusarium spp." [CO:curators]
 synonym: "SpkltFHBInc" EXACT []
 is_a: TO:0000662 ! Name barley fusarium head blight response
 
 [Term]
 id: CO_323:0000168
 name: barley powdery mildew susceptibility trait
-def: "The plant susceptibility to Powdery Mildew caused by the agent Erysiphe graminis (Blumeria graminis f.sp. Hordei)." []
+def: "The plant susceptibility to Powdery Mildew caused by the agent Erysiphe graminis (Blumeria graminis f.sp. Hordei)." [CO:curators]
 synonym: "PMSus" EXACT []
 is_a: TO:0020060 ! barley powdery mildew disease response
 
 [Term]
 id: CO_323:0000171
 name: barley aphids susceptibility trait
-def: "The plant susceptibility to aphids in general, without distinguishing species. For example, Corn leaf aphid (Rhopalosiphum maidis), Russian wheat aphid (Diuraphis noxia), Greenbug (Schizaphis graminum), etc." []
+def: "The plant susceptibility to aphids in general, without distinguishing species. For example, Corn leaf aphid (Rhopalosiphum maidis), Russian wheat aphid (Diuraphis noxia), Greenbug (Schizaphis graminum), etc." [CO:curators]
 synonym: "AphidSus" EXACT []
 is_a: TO:0006067 ! aphid resistance
 
 [Term]
 id: CO_323:0000174
 name: barley barley yellow dwarf virus susceptibility trait
-def: "The plant susceptibility to Barley Yellow Dwarf Virus (BYDV)." []
+def: "The plant susceptibility to Barley Yellow Dwarf Virus (BYDV)." [CO:curators]
 synonym: "BYDVSus" EXACT []
 is_a: TO:0020067 ! barley yellow dwarf virus disease response
 
 [Term]
 id: CO_323:0000177
 name: barley grain plumpness fraction 2.5 mm trait
-def: "The grain fraction with kernel size bigger than 2.5 mm of the raw grain." []
+def: "The grain fraction with kernel size bigger than 2.5 mm of the raw grain." [CO:curators]
 synonym: "GPlumpF25" EXACT []
 is_a: TO:0000397 ! grain size
 
 [Term]
 id: CO_323:0000180
 name: barley grain test weight trait
-def: "The grain weight of a known volume." []
+def: "The grain weight of a known volume." [CO:curators]
 synonym: "GTestW" EXACT []
 synonym: "grain density" EXACT []
 synonym: "grain specific gravity" EXACT []
@@ -424,35 +424,35 @@ is_a: TO:0000919 ! grain weight
 [Term]
 id: CO_323:0000183
 name: barley grain husk content trait
-def: "The husk content of the grains." []
+def: "The husk content of the grains." [CO:curators]
 synonym: "GHuskC" EXACT []
 is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_323:0000186
 name: barley grain protein content trait
-def: "The protein content of the grains in dry weight basis." []
+def: "The protein content of the grains in dry weight basis." [CO:curators]
 synonym: "GProtC" EXACT []
 is_a: TO:0001136 ! grain protein content
 
 [Term]
 id: CO_323:0000192
 name: barley grain starch content trait
-def: "The starch content in grains." []
+def: "The starch content in grains." [CO:curators]
 synonym: "GStarchC" EXACT []
 is_a: TO:0000696 ! starch content
 
 [Term]
 id: CO_323:0000195
 name: barley grain germinative energy trait
-def: "The germinative energy determine the germination of grains as proportion within a 72 hour period using a standard method." []
+def: "The germinative energy determine the germination of grains as proportion within a 72 hour period using a standard method." [CO:curators]
 synonym: "GGermEn" EXACT []
 is_a: TO:0000202 ! germination ratio
 
 [Term]
 id: CO_323:0000198
 name: barley grain germination capacity trait
-def: "The grains capability to germinate. Germinative Capacity is also referred to as viability." []
+def: "The grains capability to germinate. Germinative Capacity is also referred to as viability." [CO:curators]
 synonym: "Grain viability" EXACT []
 synonym: "GGermCap" EXACT []
 is_a: TO:0000202 ! germination ratio
@@ -460,14 +460,14 @@ is_a: TO:0000202 ! germination ratio
 [Term]
 id: CO_323:0000204
 name: barley malt yield trait
-def: "The malt recovery yield." []
+def: "The malt recovery yield." [CO:curators]
 synonym: "MaltY" EXACT []
 is_a: TO:0001070 ! brewing quality trait
 
 [Term]
 id: CO_323:0000207
 name: barley malt friability trait
-def: "The degree and homogeneity of malt modification." []
+def: "The degree and homogeneity of malt modification." [CO:curators]
 synonym: "MaltF" EXACT []
 is_a: TO:0001070 ! brewing quality trait
 
@@ -481,21 +481,21 @@ is_a: TO:0001070 ! brewing quality trait
 [Term]
 id: CO_323:0000213
 name: barley malt diastatic power trait
-def: "The total starch degrading enzymes activity in malt." []
+def: "The total starch degrading enzymes activity in malt." [CO:curators]
 synonym: "MaltDP" EXACT []
 is_a: TO:0001070 ! brewing quality trait
 
 [Term]
 id: CO_323:0000216
 name: barley wort filtration rate trait
-def: "The filtration efficiency of wort." []
+def: "The filtration efficiency of wort." [CO:curators]
 synonym: "WortFR" EXACT []
 is_a: TO:0001070 ! brewing quality trait
 
 [Term]
 id: CO_323:0000219
 name: barley malt kolbach index trait
-def: "The Kobalch index (protein solution degree) is the nitrogen in the wort as proportion of total nitrogen in malt. It represents the proportion of solved protein in the wort." []
+def: "The Kobalch index (protein solution degree) is the nitrogen in the wort as proportion of total nitrogen in malt. It represents the proportion of solved protein in the wort." [CO:curators]
 synonym: "Malt Kolbach value" EXACT []
 synonym: "Malt protein solution degree" EXACT []
 synonym: "MaltKI" EXACT []
@@ -504,266 +504,266 @@ is_a: TO:0001070 ! brewing quality trait
 [Term]
 id: CO_323:0000222
 name: barley malt alpha amylase activity trait
-def: "The alpha amylase activity of the malt." []
+def: "The alpha amylase activity of the malt." [CO:curators]
 synonym: "MaltAAmyCct" EXACT []
 is_a: TO:0000288 ! alpha-amylase activity trait
 
 [Term]
 id: CO_323:0000225
 name: barley grain deoxynivalenol content trait
-def: "The content of the mycotoxin Deoxynivalenol in grains." []
+def: "The content of the mycotoxin Deoxynivalenol in grains." [CO:curators]
 synonym: "GDONC" EXACT []
 is_a: TO:0000668 ! mycotoxin content
 
 [Term]
 id: CO_323:0000228
 name: barley aboveground biomass yield dry weight basis trait
-def: "The amount in dry weight basis of aboveground biomass that was harvested per unit area or plant." []
+def: "The amount in dry weight basis of aboveground biomass that was harvested per unit area or plant." [CO:curators]
 synonym: "BMDW" EXACT []
 is_a: TO:0000457 ! biomass yield
 
 [Term]
 id: CO_323:0000229
 name: barley grain yield dry weight basis trait
-def: "The amount in dry weight basis of grain that was harvested per unit area or plant." []
+def: "The amount in dry weight basis of grain that was harvested per unit area or plant." [CO:curators]
 synonym: "GYDW" EXACT []
 is_a: TO:0000396 ! grain yield trait
 
 [Term]
 id: CO_323:0000230
 name: barley heading time trait
-def: "The timing of the heading." []
+def: "The timing of the heading." [CO:curators]
 synonym: "Head" EXACT []
 is_a: TO:0000137 ! days to heading
 
 [Term]
 id: CO_323:0000253
 name: barley awn colour trait
-def: "The colour of the awns." []
+def: "The colour of the awns." [CO:curators]
 synonym: "AwnCol" EXACT []
 is_a: TO:0000141 ! awn color
 
 [Term]
 id: CO_323:0000274
 name: barley black rust coefficient of infection trait
-def: "The Black Rust (Stem Rust) coefficient of infection. Disease caused by the agent Puccinia graminis f. sp. tritici." []
+def: "The Black Rust (Stem Rust) coefficient of infection. Disease caused by the agent Puccinia graminis f. sp. tritici." [CO:curators]
 synonym: "BlkRustCI" EXACT []
 is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_323:0000277
 name: barley black rust plant response trait
-def: "The plant response to Black Rust (Stem Rust) caused by the agent Puccinia graminis f. sp. tritici." []
+def: "The plant response to Black Rust (Stem Rust) caused by the agent Puccinia graminis f. sp. tritici." [CO:curators]
 synonym: "BlkRustResp" EXACT []
 is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_323:0000280
 name: barley black rust severity trait
-def: "The Black Rust (Stem Rust) severity caused by the agent Puccinia graminis f. sp. tritici." []
+def: "The Black Rust (Stem Rust) severity caused by the agent Puccinia graminis f. sp. tritici." [CO:curators]
 synonym: "BlkRustSev" EXACT []
 is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_323:0000283
 name: barley black rust severity and response trait
-def: "The Black Rust (Stem Rust) severity and response notes. Disease caused by the agent Puccinia graminis f. sp. tritici." []
+def: "The Black Rust (Stem Rust) severity and response notes. Disease caused by the agent Puccinia graminis f. sp. tritici." [CO:curators]
 synonym: "BlkRustNotes" EXACT []
 is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_323:0000286
 name: barley black rust susceptibility trait
-def: "The plant susceptibility to Black Rust (Stem Rust) caused by the agent Puccinia graminis f. sp. tritici." []
+def: "The plant susceptibility to Black Rust (Stem Rust) caused by the agent Puccinia graminis f. sp. tritici." [CO:curators]
 synonym: "BlkRustSus" EXACT []
 is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_323:0000291
 name: barley brown rust coefficient of infection trait
-def: "The Brown Rust (Dwarf Leaf Rust) coefficient of infection. Disease caused by the agent Puccinia hordei." []
+def: "The Brown Rust (Dwarf Leaf Rust) coefficient of infection. Disease caused by the agent Puccinia hordei." [CO:curators]
 synonym: "BwnRustCI" EXACT []
 is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_323:0000294
 name: barley brown rust plant response trait
-def: "The plant response to Brown Rust (Dwarf Leaf Rust) caused by the agent Puccinia hordei." []
+def: "The plant response to Brown Rust (Dwarf Leaf Rust) caused by the agent Puccinia hordei." [CO:curators]
 synonym: "BwnRustResp" EXACT []
 is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_323:0000297
 name: barley brown rust severity trait
-def: "The Brown Rust (Dwarf Leaf Rust) severity caused by the agent Puccinia hordei." []
+def: "The Brown Rust (Dwarf Leaf Rust) severity caused by the agent Puccinia hordei." [CO:curators]
 synonym: "BwnRustSev" EXACT []
 is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_323:0000300
 name: barley brown rust severity and response trait
-def: "The Brown Rust (Dwarf Leaf Rust) severity and response notes. Disease caused by the agent Puccinia hordei." []
+def: "The Brown Rust (Dwarf Leaf Rust) severity and response notes. Disease caused by the agent Puccinia hordei." [CO:curators]
 synonym: "BwnRustNotes" EXACT []
 is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_323:0000303
 name: barley brown rust susceptibility trait
-def: "The plant susceptibility to Brown Rust (Dwarf Leaf Rust) caused by the agent Puccinia hordei." []
+def: "The plant susceptibility to Brown Rust (Dwarf Leaf Rust) caused by the agent Puccinia hordei." [CO:curators]
 synonym: "BwnRustSus" EXACT []
 is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_323:0000308
 name: barley drought susceptibility trait
-def: "The plant susceptibility to drought conditions." []
+def: "The plant susceptibility to drought conditions." [CO:curators]
 synonym: "DrouSus" EXACT []
 is_a: TO:0000188 ! drought sensitivity
 
 [Term]
 id: CO_323:0000315
 name: barley emergence time trait
-def: "The timing of the crop emergence." []
+def: "The timing of the crop emergence." [CO:curators]
 synonym: "Emer" EXACT []
 is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_323:0000332
 name: barley fusarium head blight severity trait
-def: "The Fusarium Head Blight severity caused by the agent Fusarium spp." []
+def: "The Fusarium Head Blight severity caused by the agent Fusarium spp." [CO:curators]
 synonym: "FHBSev" EXACT []
 is_a: TO:0000662 ! barley fusarium head blight response
 
 [Term]
 id: CO_323:0000336
 name: barley malt beta glucan content trait
-def: "The Beta Glucan content of the malt." []
+def: "The Beta Glucan content of the malt." [CO:curators]
 synonym: "GBGlucan" EXACT []
 is_a: TO:0020068 ! beta-glucan content
 
 [Term]
 id: CO_323:0000355
 name: barley grain iron content trait
-def: "The Iron content of grains." []
+def: "The Iron content of grains." [CO:curators]
 synonym: "GFeC" EXACT []
 is_a: TO:0020089 ! iron content trait
 
 [Term]
 id: CO_323:0000358
 name: barley grain moisture content trait
-def: "The moisture content of the grain." []
+def: "The moisture content of the grain." [CO:curators]
 synonym: "GMoist" EXACT []
 is_a: TO:0000057 ! grain moisture content
 
 [Term]
 id: CO_323:0000361
 name: barley grain nitrogen content trait
-def: "The Nitrogen content of the grains in dry weight basis." []
+def: "The Nitrogen content of the grains in dry weight basis." [CO:curators]
 synonym: "GNC" EXACT []
 is_a: TO:0003068 ! grain nitrogen content
 
 [Term]
 id: CO_323:0000364
 name: barley grain number trait
-def: "The number of grains per area." []
+def: "The number of grains per area." [CO:curators]
 synonym: "GN" EXACT []
 is_a: TO:0002759 ! grain number
 
 [Term]
 id: CO_323:0000370
 name: barley grain plumpness fraction 2.2 mm trait
-def: "The grain fraction with kernel size bigger than 2.2 mm of the raw grain." []
+def: "The grain fraction with kernel size bigger than 2.2 mm of the raw grain." [CO:curators]
 synonym: "GPlumpF22" EXACT []
 is_a: TO:0000397 ! grain size
 
 [Term]
 id: CO_323:0000375
 name: barley grain plumpness fraction 2.8 mm trait
-def: "The grain fraction with kernel size bigger than 2.8 mm of the raw grain." []
+def: "The grain fraction with kernel size bigger than 2.8 mm of the raw grain." [CO:curators]
 synonym: "GPlumpF28" EXACT []
 is_a: TO:0000397 ! grain size
 
 [Term]
 id: CO_323:0000388
 name: barley grain yield adjusted weight basis trait
-def: "The amount in adjusted weight basis (at commercial/standard moisture content) of grain that was harvested per unit area or plant." []
+def: "The amount in adjusted weight basis (at commercial/standard moisture content) of grain that was harvested per unit area or plant." [CO:curators]
 synonym: "GYAdjW" EXACT []
 is_a: TO:0000396 ! grain yield trait
 
 [Term]
 id: CO_323:0000397
 name: barley grain zinc content trait
-def: "The Zinc content of grains." []
+def: "The Zinc content of grains." [CO:curators]
 synonym: "GZnC" EXACT []
 is_a: TO:0020090 ! zinc content trait
 
 [Term]
 id: CO_323:0000402
 name: barley growth type class trait
-def: "The plant growth type class or seasonality." []
+def: "The plant growth type class or seasonality." [CO:curators]
 synonym: "GwtClass" EXACT []
 is_a: TO:0000947 ! whole plant growth and development trait
 
 [Term]
 id: CO_323:0000412
 name: barley hessian fly susceptibility trait
-def: "The plant susceptibility to Hessian Fly (Mayetiola destructor)." []
+def: "The plant susceptibility to Hessian Fly (Mayetiola destructor)." [CO:curators]
 synonym: "HessFlySus" EXACT []
 is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_323:0000415
 name: barley high soil moisture susceptibility trait
-def: "The plant susceptibility to waterlogging conditions." []
+def: "The plant susceptibility to waterlogging conditions." [CO:curators]
 synonym: "HiSoilMoistSus" EXACT []
 is_a: TO:0000114 ! flooding related trait
 
 [Term]
 id: CO_323:0000418
 name: barley high temperature susceptibility trait
-def: "The plant susceptibility to high temperatures." []
+def: "The plant susceptibility to high temperatures." [CO:curators]
 synonym: "HiTmpSus" EXACT []
 is_a: TO:0000259 ! high temperature stress response
 
 [Term]
 id: CO_323:0000429
 name: barley leaf scald susceptibility trait
-def: "The plant susceptibility to Leaf Scald caused by the agent Rhyncosporium secalis." []
+def: "The plant susceptibility to Leaf Scald caused by the agent Rhyncosporium secalis." [CO:curators]
 synonym: "LfScaldSus" EXACT []
 is_a: TO:0020051 ! barley leaf scald disease resistance
 
 [Term]
 id: CO_323:0000434
 name: barley leaf stripe susceptibility trait
-def: "The plant susceptibility to Leaf stripe caused by the agent Pyrenophora graminea (Helminthosporium gramineum)." []
+def: "The plant susceptibility to Leaf stripe caused by the agent Pyrenophora graminea (Helminthosporium gramineum)." [CO:curators]
 synonym: "LfStripeSus" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_323:0000447
 name: barley low temperature susceptibility trait
-def: "The plant susceptibility to cold or low temperatures." []
+def: "The plant susceptibility to cold or low temperatures." [CO:curators]
 synonym: "LoTmpSus" EXACT []
 is_a: TO:0000303 ! low temperature stress response
 
 [Term]
 id: CO_323:0000452
 name: barley malt beta glucan content trait
-def: "The Beta Glucan content of the grains." []
+def: "The Beta Glucan content of the grains." [CO:curators]
 synonym: "MaltBGlucan" EXACT []
 is_a: TO:0020068 ! beta-glucan content
 
 [Term]
 id: CO_323:0000475
 name: barley net blotch susceptibility trait
-def: "The plant susceptibility to Net Blotch (net form of leaf blotch) caused by the agent Pyrenophora teres (Dreschlera teres f.sp. teres, Helminthosporium teres)." []
+def: "The plant susceptibility to Net Blotch (net form of leaf blotch) caused by the agent Pyrenophora teres (Dreschlera teres f.sp. teres, Helminthosporium teres)." [CO:curators]
 synonym: "NetBloSus" EXACT []
 is_a: TO:0020062 ! barley net form net blotch disease response
 
 [Term]
 id: CO_323:0000478
 name: barley non-bearing tiller number trait
-def: "The number of non-bearing (infertile) tillers per area." []
+def: "The number of non-bearing (infertile) tillers per area." [CO:curators]
 synonym: "NoBearTllrN" EXACT []
 synonym: "infertile tiller number" EXACT []
 is_a: TO:0000346 ! tiller number
@@ -771,42 +771,42 @@ is_a: TO:0000346 ! tiller number
 [Term]
 id: CO_323:0000485
 name: barley pericarp colour trait
-def: "The pericarp colour of the grains." []
+def: "The pericarp colour of the grains." [CO:curators]
 synonym: "PericCol" EXACT []
 is_a: TO:0000707 ! pericarp color
 
 [Term]
 id: CO_323:0000503
 name: barley plant vigour trait
-def: "The vigour of the plant." []
+def: "The vigour of the plant." [CO:curators]
 synonym: "PVig" EXACT []
 is_a: TO:0000250 ! plant vigor trait
 
 [Term]
 id: CO_323:0000512
 name: barley salinity susceptibility trait
-def: "The plant susceptibility to water/soil salinity conditions." []
+def: "The plant susceptibility to water/soil salinity conditions." [CO:curators]
 synonym: "SalSus" EXACT []
 is_a: TO:0000429 ! salt sensitivity
 
 [Term]
 id: CO_323:0000519
 name: barley soil acidity susceptibility trait
-def: "The plant susceptibility to soil acidity conditions." []
+def: "The plant susceptibility to soil acidity conditions." [CO:curators]
 synonym: "SoilAcidSus" EXACT []
 is_a: TO:0000178 ! acid soil sensitivity
 
 [Term]
 id: CO_323:0000535
 name: barley spike number trait
-def: "The number of spikes per area." []
+def: "The number of spikes per area." [CO:curators]
 synonym: "SN" EXACT []
 is_a: TO:0000582
 
 [Term]
 id: CO_323:0000547
 name: barley spikelet number per spike trait
-def: "The number of spikelets per spike." []
+def: "The number of spikelets per spike." [CO:curators]
 synonym: "spike spikelet number" EXACT []
 synonym: "SSpkltN" EXACT []
 is_a: TO:0000456 ! spikelet number
@@ -814,28 +814,28 @@ is_a: TO:0000456 ! spikelet number
 [Term]
 id: CO_323:0000551
 name: barley spikelet shattering susceptibility trait
-def: "The plant susceptibility to shattering as tendency spikelets to break from rachis." []
+def: "The plant susceptibility to shattering as tendency spikelets to break from rachis." [CO:curators]
 synonym: "SpkltShattSus" EXACT []
 is_a: TO:0000473 ! grain shattering
 
 [Term]
 id: CO_323:0000558
 name: barley spot blotch susceptibility trait
-def: "The plant susceptibility to Spot Blotch (spot form of leaf blotch) caused by the agent Cochliobolus sativus (Bipolaris sorokiniana/ Helminthosporium sativum)." []
+def: "The plant susceptibility to Spot Blotch (spot form of leaf blotch) caused by the agent Cochliobolus sativus (Bipolaris sorokiniana/ Helminthosporium sativum)." [CO:curators]
 synonym: "SpotBloSus" EXACT []
 is_a: TO:0020052 ! barley spot blotch disease response
 
 [Term]
 id: CO_323:0000561
 name: barley sprouting susceptibility trait
-def: "The plant susceptibility to sprouting as tendency to sprout in the spike before harvest." []
+def: "The plant susceptibility to sprouting as tendency to sprout in the spike before harvest." [CO:curators]
 synonym: "SproutSus" EXACT []
 is_a: TO:0000619 ! vivipary
 
 [Term]
 id: CO_323:0000573
 name: barley tiller number trait
-def: "The total number of tillers per area." []
+def: "The total number of tillers per area." [CO:curators]
 synonym: "total tiller number" EXACT []
 synonym: "TllrN" EXACT []
 is_a: TO:0000346 ! tiller number
@@ -843,55 +843,55 @@ is_a: TO:0000346 ! tiller number
 [Term]
 id: CO_323:0000576
 name: barley winter kill susceptibility trait
-def: "The plant susceptibility to winter-kill." []
+def: "The plant susceptibility to winter-kill." [CO:curators]
 synonym: "WKillSus" EXACT []
 is_a: TO:0001153 ! survival rate after freezing temperature stress
 
 [Term]
 id: CO_323:0000579
 name: barley wort fan content trait
-def: "The free amino acid nitrogen content of the wort." []
+def: "The free amino acid nitrogen content of the wort." [CO:curators]
 synonym: "WortFAN" EXACT []
 is_a: TO:0020073 ! barley wort protein concentration
 
 [Term]
 id: CO_323:0000584
 name: barley wort viscosity trait
-def: "The viscosity of the wort." []
+def: "The viscosity of the wort." [CO:curators]
 synonym: "WortVis" EXACT []
 is_a: TO:0001070 ! brewing quality trait
 
 [Term]
 id: CO_323:0000588
 name: barley yellow rust coefficient of infection trait
-def: "The Yellow Rust (Stripe Rust) coefficient of infection. Disease caused by the agent Puccinia striiformis f. sp. hordei." []
+def: "The Yellow Rust (Stripe Rust) coefficient of infection. Disease caused by the agent Puccinia striiformis f. sp. hordei." [CO:curators]
 synonym: "YwRustCI" EXACT []
 is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_323:0000591
 name: barley yellow rust plant response trait
-def: "The plant response to Yellow Rust (Stripe Rust) caused by the agent Puccinia striiformis f. sp. hordei." []
+def: "The plant response to Yellow Rust (Stripe Rust) caused by the agent Puccinia striiformis f. sp. hordei." [CO:curators]
 synonym: "YwRustResp" EXACT []
 is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_323:0000594
 name: barley yellow rust severity trait
-def: "The Yellow Rust (Stripe Rust) severity caused by the agent Puccinia striiformis f. sp. hordei." []
+def: "The Yellow Rust (Stripe Rust) severity caused by the agent Puccinia striiformis f. sp. hordei." [CO:curators]
 synonym: "YwRustSev" EXACT []
 is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_323:0000597
 name: barley yellow rust severity and response trait
-def: "The Yellow Rust (Stripe Rust) severity severity and response notes. Disease caused by the agent Puccinia striiformis f. sp. hordei." []
+def: "The Yellow Rust (Stripe Rust) severity severity and response notes. Disease caused by the agent Puccinia striiformis f. sp. hordei." [CO:curators]
 synonym: "YwRustNotes" EXACT []
 is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_323:0000600
 name: barley yellow rust susceptibility trait
-def: "The plant susceptibility to Yellow Rust (Stripe Rust) caused by the agent Puccinia striiformis f. sp. hordei." []
+def: "The plant susceptibility to Yellow Rust (Stripe Rust) caused by the agent Puccinia striiformis f. sp. hordei." [CO:curators]
 synonym: "YwRustSus" EXACT []
 is_a: TO:0001146 ! Basidiomycete fungal disease response

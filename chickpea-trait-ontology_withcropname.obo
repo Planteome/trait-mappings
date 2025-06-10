@@ -12,7 +12,7 @@ is_a: TO:0001092 ! legume fruit weight
 [Term]
 id: CO_338:0000003
 name: chickpea pod number trait
-def: "Is a count of the number of pods per plant grown in the pot or field." []
+def: "Is a count of the number of pods per plant grown in the pot or field." [CO:curators]
 synonym: "PODNO" EXACT []
 is_a: TO:0001125 ! pod number trait
 
@@ -121,7 +121,7 @@ is_a: TO:0000903 ! seed coat texture
 [Term]
 id: CO_338:0000022
 name: chickpea dots on seed coat trait
-def: "Trait indicating the presence or absence of dots on the seed coat." []
+def: "Trait indicating the presence or absence of dots on the seed coat." [CO:curators]
 synonym: "DOTSD" EXACT []
 is_a: TO:0000904 ! seed coat pattern
 
@@ -135,7 +135,7 @@ is_a: TO:0000207 ! plant height
 [Term]
 id: CO_338:0000025
 name: chickpea seed yield per plant trait
-def: "Weight of seeds obtained from a plant." []
+def: "Weight of seeds obtained from a plant." [CO:curators]
 synonym: "seed weight" EXACT []
 synonym: "SYPL" EXACT []
 is_a: TO:0000905 ! seed yield trait
@@ -172,14 +172,14 @@ is_a: TO:0000552 ! shoot dry weight
 [Term]
 id: CO_338:0000032
 name: chickpea shoot sodium trait
-def: "Shoot sodium content from plants/subset of plants." []
+def: "Shoot sodium content from plants/subset of plants." [CO:curators]
 synonym: "SHSOD" EXACT []
 is_a: TO:0020004 ! shoot system sodium content
 
 [Term]
 id: CO_338:0000033
 name: chickpea shoot potassium trait
-def: "Shoot potassium content from plants/subset of plants." []
+def: "Shoot potassium content from plants/subset of plants." [CO:curators]
 synonym: "SHPOT" EXACT []
 is_a: TO:0020003 ! shoot system potassium content
 
@@ -221,7 +221,7 @@ is_a: TO:0001145 ! Ascomycete fungal disease response
 [Term]
 id: CO_338:0000041
 name: chickpea pod borer resistance trait
-def: "The extent of damage caused by the pod borer. Causative agent:Helicoverpa armigera. The insect feeds on all green parts and defoliate young crops, large larvae cut round holes in the pod wall and devour the seed inside." []
+def: "The extent of damage caused by the pod borer. Causative agent:Helicoverpa armigera. The insect feeds on all green parts and defoliate young crops, large larvae cut round holes in the pod wall and devour the seed inside." [CO:curators]
 synonym: "PBR" EXACT []
 is_a: TO:0000261 ! insect damage response trait
 
@@ -249,7 +249,7 @@ is_a: TO:0000352 ! plant dry weight
 [Term]
 id: CO_338:0000048
 name: chickpea filled double pod number trait
-def: "Is a count of the number of filled chickpea double pods produced by a double podded line." []
+def: "Is a count of the number of filled chickpea double pods produced by a double podded line." [CO:curators]
 synonym: "FDPN" EXACT []
 is_a: TO:0001125 ! pod number trait
 
@@ -355,7 +355,7 @@ is_a: TO:0001145 ! Ascomycete fungal disease response
 [Term]
 id: CO_338:0000065
 name: chickpea leaf miner resistance trait
-def: "Causative agent: Liriomyza cicerina. The leaflets are mined, have a reduced photosynthetic capacity and senesce prematurely." []
+def: "Causative agent: Liriomyza cicerina. The leaflets are mined, have a reduced photosynthetic capacity and senesce prematurely." [CO:curators]
 synonym: "LMR" EXACT []
 is_a: TO:0000261 ! insect damage response trait
 
@@ -426,7 +426,7 @@ is_a: TO:0000852 ! fruit set trait
 [Term]
 id: CO_338:0000075
 name: chickpea cyst nematode resistance trait
-def: "Causative agent: Heterodera spp. Syncytia are formed on the roots which become necrotic." []
+def: "Causative agent: Heterodera spp. Syncytia are formed on the roots which become necrotic." [CO:curators]
 synonym: "CYSNR" EXACT []
 is_a: TO:0000384 ! nematode damage response trait
 

@@ -5,21 +5,21 @@ ontology: co_337
 [Term]
 id: CO_337:0000001
 name: groundnut emergence time trait
-def: "Emergence time usually recorded as days from sowing or date." []
+def: "Emergence time usually recorded as days from sowing or date." [CO:curators]
 synonym: "Em" EXACT []
 is_a: TO:0006061 ! days to germinate
 
 [Term]
 id: CO_337:0000002
 name: groundnut flowering time trait
-def: "Flowering time usually recorded as days from sowing or date." []
+def: "Flowering time usually recorded as days from sowing or date." [CO:curators]
 synonym: "Flw" EXACT []
 is_a: TO:0002616 ! flowering time trait
 
 [Term]
 id: CO_337:0000004
 name: groundnut harvest time trait
-def: "Harvest time usually recorded as days from sowing or date." []
+def: "Harvest time usually recorded as days from sowing or date." [CO:curators]
 synonym: "maturity" EXACT []
 synonym: "harv" EXACT []
 is_a: TO:0000469 ! days to maturity
@@ -27,21 +27,21 @@ is_a: TO:0000469 ! days to maturity
 [Term]
 id: CO_337:0000005
 name: groundnut pod yield (qualitative) trait
-def: "Assessement of pods weight per unit area or plot." []
+def: "Assessement of pods weight per unit area or plot." [CO:curators]
 synonym: "PYq" EXACT []
 is_a: TO:0000871 ! fruit yield trait
 
 [Term]
 id: CO_337:0000006
 name: groundnut general disease severity trait
-def: "General disease severity for plants infected with leafspots and/or rust." []
+def: "General disease severity for plants infected with leafspots and/or rust." [CO:curators]
 synonym: "DS" EXACT []
 is_a: TO:0000439 ! fungal disease response
 
 [Term]
 id: CO_337:0000007
 name: groundnut rosette disease incidence trait
-def: "Rosette disease incidence caused by a complex of two viruses." []
+def: "Rosette disease incidence caused by a complex of two viruses." [CO:curators]
 synonym: "Disease Score RO:Rosette" EXACT []
 synonym: "DRO" EXACT []
 is_a: TO:0000148 ! viral disease response
@@ -49,7 +49,7 @@ is_a: TO:0000148 ! viral disease response
 [Term]
 id: CO_337:0000008
 name: groundnut insect pest damage trait
-def: "Damage caused by insect pest." []
+def: "Damage caused by insect pest." [CO:curators]
 synonym: "insect pest score" EXACT []
 synonym: "IPS" EXACT []
 is_a: TO:0000261 ! insect damage response
@@ -57,49 +57,49 @@ is_a: TO:0000261 ! insect damage response
 [Term]
 id: CO_337:0000009
 name: groundnut shelling ratio trait
-def: "Proportion of seed weight to total pod weight." []
+def: "Proportion of seed weight to total pod weight." [CO:curators]
 synonym: "SH" EXACT []
 is_a: TO:0000905 ! seed yield trait
 
 [Term]
 id: CO_337:0000010
 name: groundnut seed sound mature proportion trait
-def: "Proportion of mature seed to total seed weight." []
+def: "Proportion of mature seed to total seed weight." [CO:curators]
 synonym: "SM" EXACT []
 is_a: TO:0000931 ! seed quality trait
 
 [Term]
 id: CO_337:0000011
 name: groundnut seed weight trait
-def: "Weight of seed." []
+def: "Weight of seed." [CO:curators]
 synonym: "SW" EXACT []
 is_a: TO:0000181 ! seed weight
 
 [Term]
 id: CO_337:0000012
 name: groundnut seed appearance and uniformity trait
-def: "Appearance of seeds and their uniformity." []
+def: "Appearance of seeds and their uniformity." [CO:curators]
 synonym: "SAU" EXACT []
 is_a: TO:0000931 ! seed quality trait
 
 [Term]
 id: CO_337:0000013
 name: groundnut seed oil content trait
-def: "Oil content of seeds." []
+def: "Oil content of seeds." [CO:curators]
 synonym: "Oil" EXACT []
 is_a: TO:0000604 ! fat and oil content
 
 [Term]
 id: CO_337:0000014
 name: groundnut seed protein content trait
-def: "Protein content of seeds." []
+def: "Protein content of seeds." [CO:curators]
 synonym: "Prot" EXACT []
 is_a: TO:0000490 ! seed protein contenet trait
 
 [Term]
 id: CO_337:0000015
 name: groundnut growth habit trait
-def: "A qualitative description of the growth habit of the plant." []
+def: "A qualitative description of the growth habit of the plant." [CO:curators]
 synonym: "GH" EXACT []
 is_a: TO:0000947 ! whole plant growth and development trait
 
@@ -113,7 +113,7 @@ is_a: TO:0002639 ! shoot branching
 [Term]
 id: CO_337:0000017
 name: groundnut stem pigmentation trait
-def: "A qualitative trait indicating the extent of anthocyanin pigmentation in the stem." []
+def: "A qualitative trait indicating the extent of anthocyanin pigmentation in the stem." [CO:curators]
 synonym: "StPig" EXACT []
 synonym: "Haulm pigmentation" EXACT []
 synonym: "SP" EXACT []
@@ -122,7 +122,7 @@ is_a: TO:0000056 ! stem color
 [Term]
 id: CO_337:0000018
 name: groundnut peg pigmentation trait
-def: "A qualitative trait indicating the extent pigmentation in the peg." []
+def: "A qualitative trait indicating the extent pigmentation in the peg." [CO:curators]
 synonym: "PP" EXACT []
 synonym: "PegPig" EXACT []
 is_a: TO:0000739 ! shoot axis morphology trait
@@ -130,49 +130,49 @@ is_a: TO:0000739 ! shoot axis morphology trait
 [Term]
 id: CO_337:0000019
 name: groundnut leaf size trait
-def: "Size of the leaf." []
+def: "Size of the leaf." [CO:curators]
 synonym: "LS" EXACT []
 is_a: TO:0002637 ! leaf size
 
 [Term]
 id: CO_337:0000020
 name: groundnut leaf color trait
-def: "A qualitative expression of leaf color." []
+def: "A qualitative expression of leaf color." [CO:curators]
 synonym: "LC" EXACT []
 is_a: TO:0000326 ! leaf color
 
 [Term]
 id: CO_337:0000021
 name: groundnut leaf shape trait
-def: "Visual appearance of leaf shape." []
+def: "Visual appearance of leaf shape." [CO:curators]
 synonym: "LSp" EXACT []
 is_a: TO:0000492 ! leaf shape
 
 [Term]
 id: CO_337:0000022
 name: groundnut flower standard petal color trait
-def: "A qualitative trait indicating flower standard petal color." []
+def: "A qualitative trait indicating flower standard petal color." [CO:curators]
 synonym: "FC" EXACT []
 is_a: TO:0000572 ! petal color
 
 [Term]
 id: CO_337:0000023
 name: groundnut marking on standard petal trait
-def: "A quantitative appearance of wing petal." []
+def: "A quantitative appearance of wing petal." [CO:curators]
 synonym: "MSP" EXACT []
 is_a: TO:0000863 ! petal morphology trait
 
 [Term]
 id: CO_337:0000024
 name: groundnut flower crescent color trait
-def: "A qualitative trait indicating flower crescent color." []
+def: "A qualitative trait indicating flower crescent color." [CO:curators]
 synonym: "FCC" EXACT []
 is_a: TO:0000572 ! petal color
 
 [Term]
 id: CO_337:0000025
 name: groundnut hairiness on mainstem trait
-def: "Morphological character measuring density of hairs on main stem." []
+def: "Morphological character measuring density of hairs on main stem." [CO:curators]
 synonym: "HMSt" EXACT []
 synonym: "HM" EXACT []
 synonym: "hairiness on main haulm" EXACT []
@@ -181,14 +181,14 @@ is_a: TO:0000879 ! stem hairiness
 [Term]
 id: CO_337:0000026
 name: groundnut hairiness on mature leaflet trait
-def: "Morphological character measuring density of hairs on leaf." []
+def: "Morphological character measuring density of hairs on leaf." [CO:curators]
 synonym: "HML" EXACT []
 is_a: TO:0002722 ! leaf pubescence
 
 [Term]
 id: CO_337:0000027
 name: groundnut pod seed number trait
-def: "Number of seeds per pod." []
+def: "Number of seeds per pod." [CO:curators]
 synonym: "PSN" EXACT []
 synonym: "seed per pod" EXACT []
 is_a: TO:0000445 ! fruit seed number
@@ -196,21 +196,21 @@ is_a: TO:0000445 ! fruit seed number
 [Term]
 id: CO_337:0000028
 name: groundnut pod size trait
-def: "Length of pod." []
+def: "Length of pod." [CO:curators]
 synonym: "PSz" EXACT []
 is_a: TO:0002626 ! fruit length
 
 [Term]
 id: CO_337:0000029
 name: groundnut pod constriction trait
-def: "A qualitative trait indicating shape of pod." []
+def: "A qualitative trait indicating shape of pod." [CO:curators]
 synonym: "Con" EXACT []
 is_a: TO:0002628 ! fruit shape
 
 [Term]
 id: CO_337:0000030
 name: groundnut pod beak trait
-def: "Tip of the pod." []
+def: "Tip of the pod." [CO:curators]
 synonym: "B" EXACT []
 is_a: TO:0002628 ! fruit shape
 
@@ -224,49 +224,49 @@ is_a: TO:0002623 ! pericarp texture
 [Term]
 id: CO_337:0000032
 name: groundnut pod ridge trait
-def: "Texture of each seed in pod." []
+def: "Texture of each seed in pod." [CO:curators]
 synonym: "R" EXACT []
 is_a: TO:0000903 ! seed coat texture
 
 [Term]
 id: CO_337:0000033
 name: groundnut pod shell thickness trait
-def: "A quantitative measurement of pod thickness." []
+def: "A quantitative measurement of pod thickness." [CO:curators]
 synonym: "ST" EXACT []
 is_a: TO:0000945 ! pericarp morphology trait
 
 [Term]
 id: CO_337:0000034
 name: groundnut seed color trait
-def: "A qualitative trait indicating seed coat color." []
+def: "A qualitative trait indicating seed coat color." [CO:curators]
 synonym: "SCP" EXACT []
 is_a: TO:0000190 ! seed coat color
 
 [Term]
 id: CO_337:0000035
 name: groundnut seed size trait
-def: "A trait indicating seed size." []
+def: "A trait indicating seed size." [CO:curators]
 synonym: "SSz" EXACT []
 is_a: TO:0000391 ! seed size
 
 [Term]
 id: CO_337:0000036
 name: groundnut seed shape trait
-def: "A qualitative trait indicating seed shape." []
+def: "A qualitative trait indicating seed shape." [CO:curators]
 synonym: "SSp" EXACT []
 is_a: TO:0000484 ! seed shape
 
 [Term]
 id: CO_337:0000037
 name: groundnut seed ends trait
-def: "A qualitative trait indicating seed end shape." []
+def: "A qualitative trait indicating seed end shape." [CO:curators]
 synonym: "E" EXACT []
 is_a: TO:0000484 ! seed shape
 
 [Term]
 id: CO_337:0000039
 name: groundnut canopy height trait
-def: "Height of the canopy." []
+def: "Height of the canopy." [CO:curators]
 synonym: "plant height" EXACT []
 synonym: "main stem height" EXACT []
 synonym: "CH" EXACT []
@@ -275,7 +275,7 @@ is_a: TO:0000207 ! plant height
 [Term]
 id: CO_337:0000040
 name: groundnut canopy width trait
-def: "Width of the canopy." []
+def: "Width of the canopy." [CO:curators]
 synonym: "canopy diameter" EXACT []
 synonym: "CW" EXACT []
 is_a: TO:0006062 ! plant width
@@ -283,63 +283,63 @@ is_a: TO:0006062 ! plant width
 [Term]
 id: CO_337:0000041
 name: groundnut root depth trait
-def: "Maximum rooting depth." []
+def: "Maximum rooting depth." [CO:curators]
 synonym: "RD" EXACT []
 is_a: TO:0000519 ! rooting depth
 
 [Term]
 id: CO_337:0000042
 name: groundnut root biomass trait
-def: "Root dry weight of a sample." []
+def: "Root dry weight of a sample." [CO:curators]
 synonym: "RBM" EXACT []
 is_a: TO:0000078 ! root dry weight
 
 [Term]
 id: CO_337:0000043
 name: groundnut root length trait
-def: "Root length of a sample." []
+def: "Root length of a sample." [CO:curators]
 synonym: "RL" EXACT []
 is_a: TO:0000227 ! root length
 
 [Term]
 id: CO_337:0000044
 name: groundnut root diameter trait
-def: "Root diameter." []
+def: "Root diameter." [CO:curators]
 synonym: "RDM" EXACT []
 is_a: TO:0001112 ! root width
 
 [Term]
 id: CO_337:0000045
 name: groundnut root to shoot ratio trait
-def: "Root/shoot dry weight ratio." []
+def: "Root/shoot dry weight ratio." [CO:curators]
 synonym: "RSR" EXACT []
 is_a: TO:0000278 ! root to shoot ratio
 
 [Term]
 id: CO_337:0000046
 name: groundnut biomass trait
-def: "The amount (weight) of biomass that was harvested per unit area or plant." []
+def: "The amount (weight) of biomass that was harvested per unit area or plant." [CO:curators]
 synonym: "BM" EXACT []
 is_a: TO:0000457 ! biomass yield
 
 [Term]
 id: CO_337:0000047
 name: groundnut leaf weight trait
-def: "Weight of leaf." []
+def: "Weight of leaf." [CO:curators]
 synonym: "LW" EXACT []
 is_a: TO:0000505 ! leaf weight
 
 [Term]
 id: CO_337:0000049
 name: groundnut specific leaf area trait
-def: "Specific leaf area as leaf area/leaf weight ratio." []
+def: "Specific leaf area as leaf area/leaf weight ratio." [CO:curators]
 synonym: "SLA" EXACT []
 is_a: TO:0000562 ! specific leaf area
 
 [Term]
 id: CO_337:0000050
 name: groundnut plant stem weight trait
-def: "Weight of stems per plant." []
+def: "Weight of stems per plant." [CO:curators]
 synonym: "PlntStW" EXACT []
 synonym: "haulm weight" EXACT []
 is_a: TO:0000952 ! stem weight
@@ -347,14 +347,14 @@ is_a: TO:0000952 ! stem weight
 [Term]
 id: CO_337:0000051
 name: groundnut plant leaf weight trait
-def: "Total leaves weight per plant." []
+def: "Total leaves weight per plant." [CO:curators]
 synonym: "PlntLW" EXACT []
 is_a: TO:0000505 ! leaf weight
 
 [Term]
 id: CO_337:0000052
 name: groundnut plant pod number trait
-def: "Number of pods per plant." []
+def: "Number of pods per plant." [CO:curators]
 synonym: "pods per plant" EXACT []
 synonym: "PlntPN" EXACT []
 is_a: TO:0001125 ! pod number trait
@@ -362,14 +362,14 @@ is_a: TO:0001125 ! pod number trait
 [Term]
 id: CO_337:0000053
 name: groundnut plant pod weight trait
-def: "Weight of pods per plant." []
+def: "Weight of pods per plant." [CO:curators]
 synonym: "PlntPW" EXACT []
 is_a: TO:0001092 ! legume fruit weight
 
 [Term]
 id: CO_337:0000054
 name: groundnut plant peg number trait
-def: "Number of pegs per plant." []
+def: "Number of pegs per plant." [CO:curators]
 synonym: "pegs per plant" EXACT []
 synonym: "PlntPegN" EXACT []
 is_a: TO:0000077 ! shoot system morphology trait
@@ -377,14 +377,14 @@ is_a: TO:0000077 ! shoot system morphology trait
 [Term]
 id: CO_337:0000055
 name: groundnut leaf sodium content trait
-def: "Leaf sodium content." []
+def: "Leaf sodium content." [CO:curators]
 synonym: "NaL" EXACT []
 is_a: TO:0020004 ! shoot system sodium content
 
 [Term]
 id: CO_337:0000056
 name: groundnut stem sodium content trait
-def: "Stem sodium content." []
+def: "Stem sodium content." [CO:curators]
 synonym: "NaSt" EXACT []
 synonym: "NaS" EXACT []
 synonym: "haulm sodium content" EXACT []
@@ -393,14 +393,14 @@ is_a: TO:0020004 ! shoot system sodium content
 [Term]
 id: CO_337:0000057
 name: groundnut leaf potassium content trait
-def: "Leaf potassium content." []
+def: "Leaf potassium content." [CO:curators]
 synonym: "KL" EXACT []
 is_a: TO:0003049 ! leaf potassium content
 
 [Term]
 id: CO_337:0000058
 name: groundnut stem potassium content trait
-def: "Stem potassium content." []
+def: "Stem potassium content." [CO:curators]
 synonym: "KSt" EXACT []
 synonym: "KS" EXACT []
 synonym: "haulm potassium content" EXACT []
@@ -409,7 +409,7 @@ is_a: TO:0003050 ! stem potassium content
 [Term]
 id: CO_337:0000059
 name: groundnut harvest index trait
-def: "Proportion of seed yield over total biomass yield." []
+def: "Proportion of seed yield over total biomass yield." [CO:curators]
 synonym: "plant biomass partitioning to seed" EXACT []
 synonym: "HI" EXACT []
 is_a: TO:0000897 ! seed harvest index
@@ -424,42 +424,42 @@ is_a: TO:0005001 ! linoleic acid content
 [Term]
 id: CO_337:0000061
 name: groundnut transpiration trait
-def: "The amount of water transpired by leaf stomata." []
+def: "The amount of water transpired by leaf stomata." [CO:curators]
 synonym: "TP" EXACT []
 is_a: TO:0001018 ! transpiration rate
 
 [Term]
 id: CO_337:0000062
 name: groundnut transpiration efficiency trait
-def: "The amount of water used for the amount of biomass production." []
+def: "The amount of water used for the amount of biomass production." [CO:curators]
 synonym: "TE" EXACT []
 is_a: TO:0001017 ! water use efficiency
 
 [Term]
 id: CO_337:0000063
 name: groundnut spad at the start of stress trait
-def: "A qualitative measurement of leaf chlorophyll content." []
+def: "A qualitative measurement of leaf chlorophyll content." [CO:curators]
 synonym: "SPADS" EXACT []
 is_a: TO:0012002 ! leaf chlorophyll content
 
 [Term]
 id: CO_337:0000064
 name: groundnut spad after 7days under stress trait
-def: "A qualitative measurement of leaf chlorophyll content after 7 days under stress." []
+def: "A qualitative measurement of leaf chlorophyll content after 7 days under stress." [CO:curators]
 synonym: "SPAD7" EXACT []
 is_a: TO:0012002 ! leaf chlorophyll content
 
 [Term]
 id: CO_337:0000065
 name: groundnut spad at harvest (10d) trait
-def: "A qualitative measurement of leaf chlorophyll content at harvest." []
+def: "A qualitative measurement of leaf chlorophyll content at harvest." [CO:curators]
 synonym: "SPADH" EXACT []
 is_a: TO:0012002 ! leaf chlorophyll content
 
 [Term]
 id: CO_337:0000066
 name: groundnut leaf carbon isotope discrimination trait
-def: "Ratio of Carbon isotope 13C discrimination." []
+def: "Ratio of Carbon isotope 13C discrimination." [CO:curators]
 synonym: "D13C" EXACT []
 synonym: "Delta 13C" EXACT []
 is_a: TO:0002643 ! carbon isotope discrimination
@@ -467,21 +467,21 @@ is_a: TO:0002643 ! carbon isotope discrimination
 [Term]
 id: CO_337:0000067
 name: groundnut leaf area trait
-def: "A measurement leaf area." []
+def: "A measurement leaf area." [CO:curators]
 synonym: "LA" EXACT []
 is_a: TO:0000540 ! leaf area trait
 
 [Term]
 id: CO_337:0000068
 name: groundnut seed yield (qualitative) trait
-def: "Weight of seeds per unit area or plot." []
+def: "Weight of seeds per unit area or plot." [CO:curators]
 synonym: "SYq" EXACT []
 is_a: TO:0000905 ! seed yield trait
 
 [Term]
 id: CO_337:0000069
 name: groundnut fresh seed dormancy trait
-def: "Duration of seed dormancy." []
+def: "Duration of seed dormancy." [CO:curators]
 synonym: "seed dormancy" EXACT []
 synonym: "FSD" EXACT []
 is_a: TO:0000253 ! seed dormancy
@@ -489,14 +489,14 @@ is_a: TO:0000253 ! seed dormancy
 [Term]
 id: CO_337:0000212
 name: groundnut bud necrosis disease incidence trait
-def: "Bud necrosis disease incidence caused by agent peanut bud necrosis virus (PBNV)." []
+def: "Bud necrosis disease incidence caused by agent peanut bud necrosis virus (PBNV)." [CO:curators]
 synonym: "BND" EXACT []
 is_a: TO:0000148 ! viral disease response
 
 [Term]
 id: CO_337:0000218
 name: groundnut specific leaf area trait
-def: "Specific leaf area as leaf area/leaf weight ratio." []
+def: "Specific leaf area as leaf area/leaf weight ratio." [CO:curators]
 synonym: "SLA" EXACT []
 synonym: "SPAD7" EXACT []
 is_a: TO:0000562 ! specific leaf area
@@ -504,28 +504,28 @@ is_a: TO:0000562 ! specific leaf area
 [Term]
 id: CO_337:0000233
 name: groundnut collar rot incidence trait
-def: "Collar rot incidence caused by agent Aspergillus niger." []
+def: "Collar rot incidence caused by agent Aspergillus niger." [CO:curators]
 synonym: "CR" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_337:0000239
 name: groundnut early leaf spot severity trait
-def: "Early leaf spot disease severity caused by agent Cercospora arachidicola." []
+def: "Early leaf spot disease severity caused by agent Cercospora arachidicola." [CO:curators]
 synonym: "ELS" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_337:0000242
 name: groundnut late leaf spot severity trait
-def: "Late leaf spot disease severity caused by agent Phaeoisariopsis personata." []
+def: "Late leaf spot disease severity caused by agent Phaeoisariopsis personata." [CO:curators]
 synonym: "LLS" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_337:0000245
 name: groundnut plant branch number trait
-def: "Number of branches per plant." []
+def: "Number of branches per plant." [CO:curators]
 synonym: "branch per plant" EXACT []
 synonym: "PlntBN" EXACT []
 is_a: TO:0020020 ! primary shoot branch number
@@ -533,7 +533,7 @@ is_a: TO:0020020 ! primary shoot branch number
 [Term]
 id: CO_337:0000248
 name: groundnut plant seed number trait
-def: "Number of seeds per plant." []
+def: "Number of seeds per plant." [CO:curators]
 synonym: "seed per plant" EXACT []
 synonym: "PlntSN" EXACT []
 is_a: TO:0000905 ! seed yield trait
@@ -541,42 +541,42 @@ is_a: TO:0000905 ! seed yield trait
 [Term]
 id: CO_337:0000251
 name: groundnut plant seed weight trait
-def: "Weight of seeds per plant." []
+def: "Weight of seeds per plant." [CO:curators]
 synonym: "PlntSW" EXACT []
 is_a: TO:0000905 ! seed yield trait
 
 [Term]
 id: CO_337:0000254
 name: groundnut plant vigour trait
-def: "Assessment of plant growth to describe the capacity of plant to grow." []
+def: "Assessment of plant growth to describe the capacity of plant to grow." [CO:curators]
 synonym: "PlntVig" EXACT []
 is_a: TO:0000250 ! fruit seed number
 
 [Term]
 id: CO_337:0000257
 name: groundnut rust severity trait
-def: "Rust disease severity caused by Puccinia arachidis." []
+def: "Rust disease severity caused by Puccinia arachidis." [CO:curators]
 synonym: "Rust" EXACT []
 is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_337:0000260
 name: groundnut stem rot incidence trait
-def: "Stem rot incidence caused by agent Sclerotium rolfsii." []
+def: "Stem rot incidence caused by agent Sclerotium rolfsii." [CO:curators]
 synonym: "StR" EXACT []
 is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_337:0000601
 name: groundnut groundnut bruchid trait
-def: "The reaction of the plant to Caryedon serratus activity and/or traits that affect the biology of the Coleopteran insect in the presence of the plant. Caryedon serratus is commonly known as the groundnut bruchid, groundnut borer, and groundnut seed beetle." []
+def: "The reaction of the plant to Caryedon serratus activity and/or traits that affect the biology of the Coleopteran insect in the presence of the plant. Caryedon serratus is commonly known as the groundnut bruchid, groundnut borer, and groundnut seed beetle." [CO:curators]
 synonym: "GB" EXACT []
 is_a: TO:0000261 ! insect damage response
 
 [Term]
 id: CO_337:0000602
 name: groundnut haulm weight trait
-def: "Weight of the leaves and stems of a single plant." []
+def: "Weight of the leaves and stems of a single plant." [CO:curators]
 synonym: "HlmW" EXACT []
 is_a: TO:0000952 ! stem weight
 
@@ -590,35 +590,35 @@ is_a: TO:0000361 ! stem morphology trait
 [Term]
 id: CO_337:0000604
 name: groundnut peanut root-knot nematode reaction trait
-def: "The reaction of the plant to nematode Meloidogyne arenaria activity and/or traits that affect the biology of the nematode in the presence of the plant." []
+def: "The reaction of the plant to nematode Meloidogyne arenaria activity and/or traits that affect the biology of the nematode in the presence of the plant." [CO:curators]
 synonym: "PRN" EXACT []
 is_a: TO:0000384 ! nematode damage response trait
 
 [Term]
 id: CO_337:0000605
 name: groundnut pod weight trait
-def: "Weight of a single pod." []
+def: "Weight of a single pod." [CO:curators]
 synonym: "PW" EXACT []
 is_a: TO:0001092 ! legume fruit weight
 
 [Term]
 id: CO_337:0000606
 name: groundnut pod width trait
-def: "Width of the pod. Trait may refer to the width of either the short axis perpendicular to the suture plane or the short axis that lies on that plane." []
+def: "Width of the pod. Trait may refer to the width of either the short axis perpendicular to the suture plane or the short axis that lies on that plane." [CO:curators]
 synonym: "PWd" EXACT []
 is_a: TO:0001082 ! legume fruit morphology trait
 
 [Term]
 id: CO_337:0000607
 name: groundnut plant seed number - method - 120 days after planting trait
-def: "The reaction of the plant to nematode Meloidogyne arenaria activity and/or traits that affect the biology of the nematode in the presence of the plant." []
+def: "The reaction of the plant to nematode Meloidogyne arenaria activity and/or traits that affect the biology of the nematode in the presence of the plant." [CO:curators]
 synonym: "PRN" EXACT []
 is_a: TO:0000445 ! fruit seed number
 
 [Term]
 id: CO_337:0000612
 name: groundnut aflatoxin trait
-def: "Effect of infection by Aspergillus flavus and/or Aspergillus parasiticus." []
+def: "Effect of infection by Aspergillus flavus and/or Aspergillus parasiticus." [CO:curators]
 synonym: "Afl" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
@@ -632,21 +632,21 @@ is_a: TO:0002736
 [Term]
 id: CO_337:0000624
 name: groundnut determinacy of pod maturity trait
-def: "The determinacy of pod maturity. Trait may be measured by the proportion of pods at harvest that are mature." []
+def: "The determinacy of pod maturity. Trait may be measured by the proportion of pods at harvest that are mature." [CO:curators]
 synonym: "PM" EXACT []
 is_a: TO:0002633 ! fruit ripening trait
 
 [Term]
 id: CO_337:0000652
 name: groundnut late and early leaf spot trait
-def: "The reaction of the plant to Nothopassalora personata and/or Cercospora arachidicola infections. Indicates that the two Leaf spot diseases coexisit on the same plants or are not distinguished." []
+def: "The reaction of the plant to Nothopassalora personata and/or Cercospora arachidicola infections. Indicates that the two Leaf spot diseases coexisit on the same plants or are not distinguished." [CO:curators]
 synonym: "LELS" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_337:0000655
 name: groundnut lateral branch length trait
-def: "Length of a single lateral branch (primary branch)." []
+def: "Length of a single lateral branch (primary branch)." [CO:curators]
 synonym: "LaBL" EXACT []
 is_a: TO:0000740 ! branch morphology trait
 
@@ -674,7 +674,7 @@ is_a: TO:0000370 ! leaf width
 [Term]
 id: CO_337:0000699
 name: groundnut peg length trait
-def: "Length of peg (gynophore)." []
+def: "Length of peg (gynophore)." [CO:curators]
 synonym: "PgL" EXACT []
 is_a: TO:0000630 ! pedicel length
 
@@ -688,7 +688,7 @@ is_a: TO:0000398 ! whole plant morphology trait
 [Term]
 id: CO_337:0000707
 name: groundnut plant pod shell weight trait
-def: "Total weight of shells produced by a plant." []
+def: "Total weight of shells produced by a plant." [CO:curators]
 synonym: "PWallW" EXACT []
 synonym: "pod wall weight per plant" EXACT []
 is_a: TO:0001092 ! legume fruit weight
@@ -703,14 +703,14 @@ is_a: TO:1000012 ! whole plant size
 [Term]
 id: CO_337:0000717
 name: groundnut plant weight trait
-def: "Weight of an entire single plant. Includes all developed aboveground, belowground, vegetative, and reproductive organs." []
+def: "Weight of an entire single plant. Includes all developed aboveground, belowground, vegetative, and reproductive organs." [CO:curators]
 synonym: "PlW" EXACT []
 is_a: TO:0000442 ! plant fresh weight
 
 [Term]
 id: CO_337:0000724
 name: groundnut pod harvest index trait
-def: "Ratio of the pod weight per plant to the total plant weight." []
+def: "Ratio of the pod weight per plant to the total plant weight." [CO:curators]
 synonym: "PHI" EXACT []
 is_a: TO:0000895 ! fruit harvest index
 
@@ -724,63 +724,63 @@ is_a: TO:0002628 ! fruit shape
 [Term]
 id: CO_337:0000744
 name: groundnut pollen viability trait
-def: "Ability of pollen to germinate under appropriate conditions and the potential to deliver male gametes to the female gametophyte." []
+def: "Ability of pollen to germinate under appropriate conditions and the potential to deliver male gametes to the female gametophyte." [CO:curators]
 synonym: "PolV" EXACT []
 is_a: TO:0000421 ! pollen fertility
 
 [Term]
 id: CO_337:0000750
 name: groundnut root weight/haulm weight ratio trait
-def: "Ratio of the weight of the root system to the weight of the haulm (leaves and stems)." []
+def: "Ratio of the weight of the root system to the weight of the haulm (leaves and stems)." [CO:curators]
 synonym: "nan" EXACT []
 is_a: TO:0000985 ! root system morphology trait
 
 [Term]
 id: CO_337:0000754
 name: groundnut seed coat pattern trait
-def: "Color pattern on seed coat (testa) at harvest." []
+def: "Color pattern on seed coat (testa) at harvest." [CO:curators]
 synonym: "SCP" EXACT []
 is_a: TO:0000904 ! seed coat pattern
 
 [Term]
 id: CO_337:0000760
 name: groundnut seed length trait
-def: "Length of a seed measured in its longest dimension with the hylum face up)." []
+def: "Length of a seed measured in its longest dimension with the hylum face up)." [CO:curators]
 synonym: "SL" EXACT []
 is_a: TO:0000146 ! seed length
 
 [Term]
 id: CO_337:0000763
 name: groundnut seed linoleic acid content trait
-def: "Linoleic acid content of seeds." []
+def: "Linoleic acid content of seeds." [CO:curators]
 synonym: "L" EXACT []
 is_a: TO:0005001 ! linoleic acid content
 
 [Term]
 id: CO_337:0000766
 name: groundnut seed oleic acid content trait
-def: "Oleic acid content of seeds." []
+def: "Oleic acid content of seeds." [CO:curators]
 synonym: "O" EXACT []
 is_a: TO:0005002 ! oleic acid content
 
 [Term]
 id: CO_337:0000772
 name: groundnut seed width trait
-def: "Width of a seed measured from side to side with the hylum face up." []
+def: "Width of a seed measured from side to side with the hylum face up." [CO:curators]
 synonym: "SWd" EXACT []
 is_a: TO:0000149 ! seed width
 
 [Term]
 id: CO_337:0000777
 name: groundnut shoot weight trait
-def: "Weight of the entire shoot system of a single plant, including the leaves, stems, pegs, and pods." []
+def: "Weight of the entire shoot system of a single plant, including the leaves, stems, pegs, and pods." [CO:curators]
 synonym: "ShW" EXACT []
 is_a: TO:0000077 ! shoot system morphology trait
 
 [Term]
 id: CO_337:0000786
 name: groundnut thrips trait
-def: "The reaction of the plant or plant part to thrips and/or traits that affect the biology of the Thysanopteran insect in the presence of the plant." []
+def: "The reaction of the plant or plant part to thrips and/or traits that affect the biology of the Thysanopteran insect in the presence of the plant." [CO:curators]
 synonym: "Th" EXACT []
 is_a: TO:0000261 ! insect damage response
 
