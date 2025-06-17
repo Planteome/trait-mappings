@@ -7,21 +7,18 @@ ontology: co_350
 id: CO_350:0000000
 name: oat agronomic score trait
 def: "Rating of overall agronomical attributes and health of oat plants in a plot." [CO:curators]
-synonym: "nan" EXACT []
 is_a: TO:0000322 ! phenotypic acceptability
 
 [Term]
 id: CO_350:0000003
 name: oat breakage incidence trait
 def: "Proportion of the stems in a plot that are snapped/broken." [CO:curators]
-synonym: "nan" EXACT []
 is_a: TO:0000200 ! brittle culm
 
 [Term]
 id: CO_350:0000006
 name: oat grain yield trait
 def: "Total weight of grains harvested per unit area." [CO:curators]
-synonym: "nan" EXACT []
 is_a: TO:0000396 ! grain yield trait
 
 [Term]
@@ -42,7 +39,6 @@ is_a: TO:0000137 ! days to heading
 id: CO_350:0000015
 name: oat lodging incidence trait
 def: "Measure of the percentage of the stems of plants in a plot that have been permanently bent, usually as a result of adverse weather." [CO:curators]
-synonym: "nan" EXACT []
 is_a: TO:0000068 ! lodging incidence
 
 [Term]
@@ -63,21 +59,18 @@ is_a: TO:0000207 ! plant height
 id: CO_350:0000024
 name: oat relative canopy development trait
 def: "Relative canopy development, each genotype is rated against the earliest genotypes, when those genotypes have a completely closed canopy." [CO:curators]
-synonym: "nan" EXACT []
 is_a: TO:0000357 ! plant growth and development trait
 
 [Term]
 id: CO_350:0000027
 name: oat snapback trait
 def: "Snapback, or recovery to a vertical position, of the plant after being held at a 45 degree angle." [CO:curators]
-synonym: "nan" EXACT []
 is_a: TO:0000051 ! stem strength
 
 [Term]
 id: CO_350:0000030
 name: oat winter survival trait
 def: "Percentage of plants in a plot sown in fall that are still growing in spring." [CO:curators]
-synonym: "nan" EXACT []
 is_a: TO:0001153 ! survival rate after freezing temperature stress
 
 [Term]
@@ -98,7 +91,6 @@ is_a: TO:0020068 ! beta-glucan content
 id: CO_350:0000039
 name: oat broken groats trait
 def: "The amount of broken groats after de-hulling, expressed as a percentage of the weight of the entire whole grain sample." [CO:curators]
-synonym: "nan" EXACT []
 is_a: TO:0000162 ! grain quality trait
 
 [Term]
@@ -119,21 +111,18 @@ is_a: TO:0000669 ! deoxynivalenol content
 id: CO_350:0000048
 name: oat grain protein content trait
 def: "The amount of protein in the grain, expressed as a percentage of the whole grain." [CO:curators]
-synonym: "nan" EXACT []
 is_a: TO:0001136 ! grain protein content
 
 [Term]
 id: CO_350:0000051
 name: oat groat oil content trait
 def: "The amount of oil in the groat, expressed as a percentage of the groat." [CO:curators]
-synonym: "nan" EXACT []
 is_a: TO:0000604 ! fat and essential oil content
 
 [Term]
 id: CO_350:0000054
 name: oat groat protein content trait
 def: "The amount of protein in the groat, expressed as a percentage of the groat." [CO:curators]
-synonym: "nan" EXACT []
 is_a: TO:0001136 ! grain protein content
 
 [Term]
@@ -154,7 +143,6 @@ is_a: TO:0000281 ! metabolite content trait
 id: CO_350:0000063
 name: oat undehulled seed trait
 def: "Amount of undehulled seed remaining after dehulling." [CO:curators]
-synonym: "nan" EXACT []
 is_a: TO:0000162 ! grain quality trait
 
 [Term]
@@ -168,21 +156,18 @@ is_a: TO:0000399 ! grain thickness
 id: CO_350:0000069
 name: oat grain color trait
 def: "Color of the hulled grain." [CO:curators]
-synonym: "nan" EXACT []
 is_a: TO:0001109 ! grain color trait
 
 [Term]
 id: CO_350:0000072
 name: oat groat color trait
 def: "Color of the de-hulled grain: the groat." [CO:curators]
-synonym: "nan" EXACT []
 is_a: TO:0000385 ! milled grain color
 
 [Term]
 id: CO_350:0000075
 name: oat test weight trait
 def: "A measure of the density or weight per unit volume of a grain at a standardized moisture level." [CO:curators]
-synonym: "nan" EXACT []
 is_a: TO:0000919 ! grain weight
 
 [Term]
@@ -231,35 +216,30 @@ is_a: TO:0001145 ! Ascomycete fungal disease response
 id: CO_350:0000096
 name: oat leaf blotch severity trait
 def: "Severity of leaf blotch symptoms observed in a plot." [CO:curators]
-synonym: "nan" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_350:0000099
 name: oat powdery mildew incidence trait
 def: "Percentage of plants in a plot showing symptoms of powdery mildew." [CO:curators]
-synonym: "nan" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_350:0000102
 name: oat root rot incidence trait
 def: "Percentage of plants in a plot showing symptoms of root rot." [CO:curators]
-synonym: "nan" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_350:0000105
 name: oat smut incidence trait
 def: "Percentage of plants in a plot showing symptoms of smut." [CO:curators]
-synonym: "nan" EXACT []
 is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_350:0000108
 name: oat stem rust incidence trait
 def: "Percentage of plants in a plot showing symptoms of stem rust." [CO:curators]
-synonym: "nan" EXACT []
 is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
