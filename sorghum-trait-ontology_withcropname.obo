@@ -1761,7 +1761,7 @@ is_a: TO:0000406 ! panicle threshability
 [Term]
 id: CO_324:0001121
 name: sorghum overall preference trait
-def: "nan." [CO:curators]
+def: "TBA." [CO:curators]
 synonym: "OvPrf" EXACT []
 is_a: TO:0000162 ! grain quality trait
 
