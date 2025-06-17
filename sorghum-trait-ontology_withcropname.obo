@@ -1726,35 +1726,35 @@ is_a: TO:0000250 ! plant vigor trait
 [Term]
 id: CO_324:0001111
 name: sorghum maturity trait
-def: "nan." [CO:curators]
+def: "TBA." [CO:curators]
 synonym: "Mat" EXACT []
 is_a: TO:0000469 ! days to maturity
 
 [Term]
 id: CO_324:0001113
 name: sorghum stay green trait
-def: "nan." [CO:curators]
+def: "TBA." [CO:curators]
 synonym: "StGr" EXACT []
 is_a: TO:0002712 ! stay green trait
 
 [Term]
 id: CO_324:0001115
 name: sorghum marketability trait
-def: "nan." [CO:curators]
+def: "TBA." [CO:curators]
 synonym: "Mkt" EXACT []
 is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_324:0001117
 name: sorghum taste trait
-def: "nan." [CO:curators]
+def: "TBA." [CO:curators]
 synonym: "Tst" EXACT []
 is_a: TO:0002694 ! fruit flavor trait
 
 [Term]
 id: CO_324:0001119
 name: sorghum threshability trait
-def: "nan." [CO:curators]
+def: "TBA." [CO:curators]
 synonym: "Thr" EXACT []
 is_a: TO:0000406 ! panicle threshability
 
@@ -1768,21 +1768,21 @@ is_a: TO:0000162 ! grain quality trait
 [Term]
 id: CO_324:0001123
 name: sorghum overall performance vs local trait
-def: "nan." [CO:curators]
+def: "TBA." [CO:curators]
 synonym: "OvPrfvLoc" EXACT []
 is_a: TO:0000322 ! phenotypic acceptability
 
 [Term]
 id: CO_324:0001125
 name: sorghum storage problemstolerance trait
-def: "nan." [CO:curators]
+def: "TBA." [CO:curators]
 synonym: "StoPrbTol" EXACT []
 is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_324:0001127
 name: sorghum storability trait
-def: "nan." [CO:curators]
+def: "TBA." [CO:curators]
 synonym: "Stobly" EXACT []
 is_a: TO:0000396 ! grain yield trait
 
