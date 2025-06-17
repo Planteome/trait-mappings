@@ -732,7 +732,6 @@ is_a: TO:0000421 ! pollen fertility
 id: CO_337:0000750
 name: groundnut root weight/haulm weight ratio trait
 def: "Ratio of the weight of the root system to the weight of the haulm (leaves and stems)." [CO:curators]
-synonym: "nan" EXACT []
 is_a: TO:0000985 ! root system morphology trait
 
 [Term]
