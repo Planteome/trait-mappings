@@ -558,7 +558,8 @@ name: soybean seed moisture content trait
 def: "The amount of moisture of a mature seed" [CO:curators]
 synonym: "Moisture content" EXACT []
 synonym: "SEEDMOISTURE" EXACT []
-is_a: TO:0000228 ! moisture content trait
+is_a: TO:0001157 ! seed moisture content
+
 
 [Term]
 id: CO_336:0000198
