@@ -768,7 +768,7 @@ id: CO_324:0000446
 name: sorghum leaf biomass moisture content trait
 def: "Leaf biomass moisture content." [CO:curators]
 synonym: "LfMoi" EXACT []
-is_a: TO:0000228 ! moisture content trait
+is_a: TO:0003034 ! leaf moisture content
 
 [Term]
 id: CO_324:0000459
