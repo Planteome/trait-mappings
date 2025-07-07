@@ -824,7 +824,7 @@ id: CO_324:0000530
 name: sorghum stover biomass moisture content trait
 def: "Stover biomass moisture content." [CO:curators]
 synonym: "StoMoi" EXACT []
-is_a: TO:0000228 ! moisture content trait
+is_a: TO:0003038 ! shoot system moisture content
 
 [Term]
 id: CO_324:0000538
@@ -852,7 +852,7 @@ id: CO_324:0000561
 name: sorghum whole above ground biomass moisture content trait
 def: "Whole above ground biomass moisture content." [CO:curators]
 synonym: "WAGBMoi" EXACT []
-is_a: TO:0000228 ! moisture content trait
+is_a: TO:0003038 ! shoot system moisture content
 
 [Term]
 id: CO_324:0000569
