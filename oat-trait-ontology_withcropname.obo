@@ -1404,7 +1404,7 @@ id: CO_350:0005428
 name: oat silage moisture content trait
 def: "Moisture content of silage." [CO:curators]
 synonym: "SMQ" EXACT []
-is_a: TO:0000228 ! moisture content trait
+is_a: TO:0003038 ! shoot system moisture content
 
 [Term]
 id: CO_350:0005429
