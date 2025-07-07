@@ -708,10 +708,10 @@ is_a: TO:0001041 ! root yield
 
 [Term]
 id: CO_334:0000407
-name: cassava moisture content trait
+name: cassava storage root moisture content trait
 def: "Storage root moisture content" [CO:curators]
 synonym: "mc" EXACT []
-is_a: TO:0000228 ! moisture content trait
+is_a: TO:0003042 ! tuberous root tuber moisture content
 
 [Term]
 id: CO_334:0000408
