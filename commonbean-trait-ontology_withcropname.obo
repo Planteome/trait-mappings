@@ -231,7 +231,7 @@ id: CO_335:0000797
 name: common bean seed moisture content trait
 def: "The content of moisture in seeds." [CO:curators]
 synonym: "POM" EXACT []
-is_a: TO:0000228 ! moisture content trait
+is_a: TO:0001157 ! seed moisture content trait
 
 [Term]
 id: CO_335:0000798
