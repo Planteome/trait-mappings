@@ -803,7 +803,7 @@ id: CO_324:0000506
 name: sorghum stem biomass moisture content trait
 def: "Stem biomass moisture content." [CO:curators]
 synonym: "StmMoi" EXACT []
-is_a: TO:0000228 ! moisture content trait
+is_a: TO:0003035 ! stem moisture content
 
 [Term]
 id: CO_324:0000514
