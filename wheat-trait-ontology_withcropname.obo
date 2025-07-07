@@ -2644,7 +2644,7 @@ id: CO_321:0500015
 name: wheat forage moisture content trait
 def: "Moisture in forage sample" [CO:curators]
 synonym: "ForMst" EXACT []
-is_a: TO:0000228 ! moisture content trait
+is_a: TO:0003038 ! shoot system moisture content
 
 [Term]
 id: CO_321:0500016
