@@ -143,7 +143,7 @@ id: CO_341:0000060
 name: pigeonpea seed moisture content trait
 def: "Moisture content" [CO:curators]
 synonym: "MC" EXACT []
-is_a: TO:0000228 ! moisture content trait
+is_a: TO:0001157 ! seed moisture content trait
 
 [Term]
 id: CO_341:0000063
