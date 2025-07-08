@@ -1214,7 +1214,7 @@ id: CO_340:0008033
 name: cowpea seed size for target use or market trait
 def: "Size of the seed for the targeted market or use." [CO:curators]
 synonym: "GraSizMarkUse" EXACT []
-is_a: TO:0000392 ! seed size
+is_a: TO:0000391 ! seed size
 
 [Term]
 id: CO_340:0008035
