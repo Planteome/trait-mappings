@@ -420,7 +420,7 @@ id: CO_335:0000824
 name: common bean stem maggot damage trait
 def: "The qualification of Bean Fly (Ophiomyia spp.) damage on the crop." [CO:curators]
 synonym: "BSM" EXACT []
-is_a: TO:0000261 ! insect damage resistance
+is_a: TO:0001163 ! Diptera damage response trait
 
 [Term]
 id: CO_335:0000825
