@@ -781,7 +781,7 @@ id: CO_337:0000786
 name: groundnut thrips trait
 def: "The reaction of the plant or plant part to thrips and/or traits that affect the biology of the Thysanopteran insect in the presence of the plant." [CO:curators]
 synonym: "Th" EXACT []
-is_a: TO:0000261 ! insect damage response
+is_a: TO:0001165 ! Thysanoptera damage response trait
 
 [Term]
 id: CO_337:0000789

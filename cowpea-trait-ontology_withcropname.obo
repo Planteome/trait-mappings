@@ -107,7 +107,7 @@ id: CO_340:0000299
 name: cowpea thrip damage to podset trait
 def: "Damage to podset caused by thrips." [CO:curators]
 synonym: "THRIPDAM" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001165 ! Thysanoptera damage response trait
 
 [Term]
 id: CO_340:0000302
@@ -223,7 +223,7 @@ name: cowpea thrip resistance trait
 def: "Resistance to Thrips." [CO:curators]
 synonym: "THRIPS" EXACT []
 synonym: "THRIPSTIP" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001165 ! Thysanoptera damage response trait
 
 [Term]
 id: CO_340:0000365
@@ -288,7 +288,7 @@ def: "Flower thrip damage to stipules." [CO:curators]
 synonym: "THRIPDAM" EXACT []
 synonym: "THRIPFLOW" EXACT []
 synonym: "THRIPSTIP" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001165 ! Thysanoptera damage response trait
 
 [Term]
 id: CO_340:0000392
@@ -365,7 +365,7 @@ id: CO_340:0000428
 name: cowpea foliar thrip damage trait
 def: "Foliar thrip damage." [CO:curators]
 synonym: "FOLTHRIP" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001165 ! Thysanoptera damage response trait
 
 [Term]
 id: CO_340:0000431
@@ -695,7 +695,7 @@ synonym: "FOLTHRIP" EXACT []
 synonym: "THRIPFLOW" EXACT []
 synonym: "THRIPS" EXACT []
 synonym: "THRIPSTIP" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001165 ! Thysanoptera damage response trait
 
 [Term]
 id: CO_340:0000652
