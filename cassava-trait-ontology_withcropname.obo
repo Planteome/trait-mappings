@@ -123,7 +123,7 @@ id: CO_334:0000122
 name: cassava green mite incidence trait
 def: "Proportion of plants affected by cassava green mite (Mononychellus tanajoa)" [CO:curators]
 synonym: "cgmi" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0020121 ! arachnid damage response trait
 
 [Term]
 id: CO_334:0000266
