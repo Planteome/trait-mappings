@@ -306,14 +306,14 @@ id: CO_343:0000153
 name: yam leaf beetle damage incidence trait
 def: "Incidence of leaf beetle damage." [CO:curators]
 synonym: "Lfbtinc" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001160 ! Coleoptera damage response trait
 
 [Term]
 id: CO_343:0000156
 name: yam leaf beetle damage severity trait
 def: "Severity of leaf beetle damage." [CO:curators]
 synonym: "Lfbtsev" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001160 ! Coleoptera damage response trait
 
 [Term]
 id: CO_343:0000159
@@ -334,14 +334,14 @@ id: CO_343:0000165
 name: yam tuber beetle incidence trait
 def: "Incidence of tuber beetle damage." [CO:curators]
 synonym: "Tubtlinc" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001160 ! Coleoptera damage response trait
 
 [Term]
 id: CO_343:0000168
 name: yam tuber beetle severity trait
 def: "Severity of tuber beetle damage." [CO:curators]
 synonym: "Tubtlsev" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001160 ! Coleoptera damage response trait
 
 [Term]
 id: CO_343:0000174
