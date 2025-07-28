@@ -1002,7 +1002,7 @@ id: CO_330:0000484
 name: potato reaction to aphids trait
 def: "The reaction of the plant or plant part to damage caused by aphids." [CO:curators]
 synonym: "RnAph" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0006067 ! aphid damage response
 
 [Term]
 id: CO_330:0000485

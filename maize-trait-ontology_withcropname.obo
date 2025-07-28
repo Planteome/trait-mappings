@@ -776,7 +776,7 @@ id: CO_322:0000128
 name: maize aphid damage trait
 def: "Aphids (Rhopalosiphum maidis) damage." [CO:curators]
 synonym: "AphDmg" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0006067 ! aphid damage response
 
 [Term]
 id: CO_322:0000129
