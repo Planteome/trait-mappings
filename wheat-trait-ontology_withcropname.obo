@@ -581,7 +581,7 @@ id: CO_321:0000094
 name: wheat suni pest damage trait
 def: "The plant damage caused by suni pest (eurygaster spp., sunn pest, suni bug)" [CO:curators]
 synonym: "SuPDmg" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001164 ! Hemiptera damage response trait
 
 [Term]
 id: CO_321:0000095

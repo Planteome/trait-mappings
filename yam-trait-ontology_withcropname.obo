@@ -320,14 +320,14 @@ id: CO_343:0000159
 name: yam mealybug tuber infestation incidence trait
 def: "Incidence of mealybug tuber infestation." [CO:curators]
 synonym: "MbugInc" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001164 ! Hemiptera damage response trait
 
 [Term]
 id: CO_343:0000162
 name: yam mealybug tuber infestation severity trait
 def: "Severity of mealybug tuber infestation." [CO:curators]
 synonym: "MbugSev" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001164 ! Hemiptera damage response trait
 
 [Term]
 id: CO_343:0000165
@@ -1024,7 +1024,7 @@ id: CO_343:0000454
 name: yam scale insect infestation trait
 def: "Scale insect infestation on tubers at harvest." [CO:curators]
 synonym: "Scalisec" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001164 ! Hemiptera damage response trait
 
 [Term]
 id: CO_343:0000456

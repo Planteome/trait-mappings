@@ -237,24 +237,24 @@ is_a: TO:0020079 ! beta-cryptoxanthin content
 
 [Term]
 id: CO_334:0000288
-name: cassava bemesia tabaci nymphs black trait
+name: cassava Bemesia tabaci nymphs black trait
 def: "Number of black bemesia tabaci nymphs on 14th leaf" [CO:curators]
 synonym: "btwfb" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001164 ! Hemiptera damage response trait
 
 [Term]
 id: CO_334:0000289
-name: cassava bemesia tabaci nymphs severity trait
+name: cassava Bemesia tabaci nymphs severity trait
 def: "Severity of the chlorotic blotches on leaf caused by the nymphs of Bemesia tabaci" [CO:curators]
 synonym: "BTNSev" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001164 ! Hemiptera damage response trait
 
 [Term]
 id: CO_334:0000290
-name: cassava bemesia tabaci nymphs yellow
+name: cassava Bemesia tabaci nymphs yellow
 def: "Number of yellow bemesia tabaci nymphs on 14th leaf" [CO:curators]
 synonym: "btwfy" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001164 ! Hemiptera damage response trait
 
 [Term]
 id: CO_334:0000291
@@ -350,7 +350,7 @@ id: CO_334:0000339
 name: cassava mealy bug incidence trait
 def: "Proportion of plants within a plot showing symptoms of cassava mealy-bug damage (Phenacoccus Manihoti)" [CO:curators]
 synonym: "cmbi" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001164 ! Hemiptera damage response trait
 
 [Term]
 id: CO_334:0000340
@@ -358,7 +358,7 @@ name: cassava mealy bug severity trait
 def: "Severity of the damage caused by cassava mealy bug (Phenacoccus Manihoti)" [CO:curators]
 synonym: "cassava Mealy Bug Severity - Cassavabase" EXACT []
 synonym: "CMBSev" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001164 ! Hemiptera damage response trait
 
 [Term]
 id: CO_334:0000353
@@ -732,14 +732,14 @@ id: CO_334:0000410
 name: cassava number of bemesia tabaci adult
 def: "Number of Bemesia tabaci adult white flies" [CO:curators]
 synonym: "BTAdtNo" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001164 ! Hemiptera damage response trait
 
 [Term]
 id: CO_334:0000411
 name: cassava number of bemesia tabaci nymphs
 def: "Number of Bemesia tabaci nymphs white flies" [CO:curators]
 synonym: "BTNyNo" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001164 ! Hemiptera damage response trait
 
 [Term]
 id: CO_334:0000412
@@ -1069,14 +1069,14 @@ id: CO_334:0000464
 name: cassava spiraling whitefly incidence trait
 def: "Proportion of plants within a plot showing evidence of colonization by spiraling whitefly." [CO:curators]
 synonym: "Swfi" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001164 ! Hemiptera damage response trait
 
 [Term]
 id: CO_334:0000465
 name: cassava spiraling whitefly severity trait
 def: "Spiraling whitefly severity" [CO:curators]
 synonym: "SWFSev" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001164 ! Hemiptera damage response trait
 
 [Term]
 id: CO_334:0000466
@@ -1486,7 +1486,7 @@ is_a: TO:0001068 ! processing quality trait
 id: CO_334:0001068
 name: cassava number of Aleurotrachelus socialis nymphs trait
 def: "Number of Aleurotrachelus socialis nymphs white flies" [CO:curators]
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001164 ! Hemiptera damage response trait
 
 [Term]
 id: CO_334:0001073

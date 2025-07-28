@@ -144,7 +144,7 @@ id: CO_340:0000317
 name: cowpea pod sucking bug severity trait
 def: "Severity of pod sucking bug symptoms." [CO:curators]
 synonym: "PODSB" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001164 ! Hemiptera damage response trait
 
 [Term]
 id: CO_340:0000323
@@ -400,7 +400,7 @@ id: CO_340:0000443
 name: cowpea lygus bug damage trait
 def: "Damage caused by lygus bug." [CO:curators]
 synonym: "LYGUSRES" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001164 ! Hemiptera damage response trait
 
 [Term]
 id: CO_340:0000449
@@ -685,7 +685,7 @@ id: CO_340:0000643
 name: cowpea leafhopper (empoasca) damage trait
 def: "Damage caused by leafhopper (Empoasca)." [CO:curators]
 synonym: "EmpRes" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001164 ! Hemiptera damage response trait
 
 [Term]
 id: CO_340:0000644

@@ -476,7 +476,7 @@ id: CO_335:0000832
 name: common bean leafhopper damage trait
 def: "The qualification of Leafhopper (Empoasca kraemeri, chicharrita, saltahojas, cigarrinha verde) damage on the crop." [CO:curators]
 synonym: "LH" EXACT []
-is_a: TO:0000261 ! insect damage resistance
+is_a: TO:0001164 ! Hemiptera damage response trait
 
 [Term]
 id: CO_335:0000833
