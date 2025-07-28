@@ -372,7 +372,7 @@ id: CO_341:0000153
 name: pigeonpea pod wasp susceptibility trait
 def: "Susceptibility to pod wasp (Tanaostigmodes cajaninae)" [CO:curators]
 synonym: "PWasp" EXACT []
-is_a: TO:0000261 ! insect damage resistance
+is_a: TO:0001161 ! Hymenoptera damage response trait
 
 [Term]
 id: CO_341:0000154

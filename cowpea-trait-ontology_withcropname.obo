@@ -577,7 +577,7 @@ id: CO_340:0000596
 name: cowpea wasps trait
 def: "Undefined trait." [CO:curators]
 synonym: "WASPS" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001161 ! Hymenoptera damage response trait
 
 [Term]
 id: CO_340:0000599

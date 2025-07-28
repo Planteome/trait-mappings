@@ -510,7 +510,7 @@ id: CO_321:0000084
 name: wheat ant damage trait
 def: "The plant damage caused by ants." [CO:curators]
 synonym: "AntDmg" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001161 ! Hymenoptera damage response trait
 
 [Term]
 id: CO_321:0000085
@@ -567,7 +567,7 @@ id: CO_321:0000092
 name: wheat sawfly damage trait
 def: "The plant damage caused by sawfly, cephus cinctus." [CO:curators]
 synonym: "SawflyDmg" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001161 ! Hymenoptera damage response trait
 
 [Term]
 id: CO_321:0000093
