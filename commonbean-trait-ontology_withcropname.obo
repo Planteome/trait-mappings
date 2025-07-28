@@ -427,7 +427,7 @@ id: CO_335:0000825
 name: common bean bruchid damage on seeds trait
 def: "The quantification of bruchid (Zabrotes subfasciatus, Acanthocelides obtectus) damage on seed." [CO:curators]
 synonym: "BRU" EXACT []
-is_a: TO:0000261 ! insect damage resistance
+is_a: TO:0001160 ! Coleoptera damage response trait
 
 [Term]
 id: CO_335:0000826

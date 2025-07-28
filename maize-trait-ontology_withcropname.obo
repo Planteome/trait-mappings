@@ -769,7 +769,7 @@ id: CO_322:0000127
 name: maize large grain borer damage trait
 def: "Large grain borer (Prostephanus truncatus) damage." [CO:curators, NCBITaxon:101470]
 synonym: "LGBDmg" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001160 ! Coleoptera damage response trait
 
 [Term]
 id: CO_322:0000128
@@ -783,21 +783,21 @@ id: CO_322:0000129
 name: maize weevil incidence trait
 def: "Maize weevil (Sitophilus zeamais) incidence on grain." [CO:curators]
 synonym: "WeevInc" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001160 ! Coleoptera damage response trait
 
 [Term]
 id: CO_322:0000130
 name: maize weevil number in grain trait
 def: "The number of maize weevils (Sitophilus zeamais) hatching and emerging from an infested grain sample within a given period. Large values indicate susceptibility to grain weevils, small values indicate partial resistance to grain weevils." [CO:curators]
 synonym: "WeevN" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001160 ! Coleoptera damage response trait
 
 [Term]
 id: CO_322:0000131
 name: maize grain weight loss by maize weevil trait
 def: "Loss of weight of the grain samples caused by weevil (Sitophilus zeamais) feeding during a given period of incubation." [CO:curators]
 synonym: "GWLostWeev" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001160 ! Coleoptera damage response trait
 
 [Term]
 id: CO_322:0000132

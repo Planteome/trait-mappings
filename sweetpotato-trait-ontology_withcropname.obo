@@ -217,7 +217,7 @@ id: CO_331:0000088
 name: sweetpotato reaction to sweetpotato weevil trait
 def: "Overall assessment of weevil damage based on inspection of the harvested roots; early." [CO:curators]
 synonym: "RnWvl" EXACT []
-is_a: TO:0000261 ! insect damage resistance
+is_a: TO:0001160 ! Coleoptera damage response trait
 
 [Term]
 id: CO_331:0000091
@@ -765,56 +765,56 @@ id: CO_331:0000355
 name: sweetpotato reaction to West Indian sweetpotato weevil trait
 def: "Reaction to West Indian sweetpotato weevil." [CO:curators]
 synonym: "RnWISPW" EXACT []
-is_a: TO:0000261 ! insect damage resistance
+is_a: TO:0001160 ! Coleoptera damage response trait
 
 [Term]
 id: CO_331:0000356
 name: sweetpotato reaction to striped sweetpotato weevil trait
 def: "The reaction of the plant or plant part to damage caused by Striped sweetpotato weevil." [CO:curators]
 synonym: "RnSSPW" EXACT []
-is_a: TO:0000261 ! insect damage resistance
+is_a: TO:0001160 ! Coleoptera damage response trait
 
 [Term]
 id: CO_331:0000357
 name: sweetpotato reaction to sweetpotato wire worms trait
 def: "Reaction to sweetpotato wire worms." [CO:curators]
 synonym: "RnSPWW" EXACT []
-is_a: TO:0000261 ! insect damage resistance
+is_a: TO:0001160 ! Coleoptera damage response trait
 
 [Term]
 id: CO_331:0000358
 name: sweetpotato reaction to wire worms trait
 def: "Reaction to wire worms." [CO:curators]
 synonym: "RnWW" EXACT []
-is_a: TO:0000261 ! insect damage resistance
+is_a: TO:0001160 ! Coleoptera damage response trait
 
 [Term]
 id: CO_331:0000359
 name: sweetpotato reaction to sweetpotato flea beetles trait
 def: "Reaction to sweetpotato flea beetles." [CO:curators]
 synonym: "RnSPFB" EXACT []
-is_a: TO:0000261 ! insect damage resistance
+is_a: TO:0001160 ! Coleoptera damage response trait
 
 [Term]
 id: CO_331:0000360
 name: sweetpotato reaction to flea beetles trait
 def: "Reaction to flea beetles." [CO:curators]
 synonym: "RnFB" EXACT []
-is_a: TO:0000261 ! insect damage resistance
+is_a: TO:0001160 ! Coleoptera damage response trait
 
 [Term]
 id: CO_331:0000361
 name: sweetpotato reaction to sweetpotato leaf beetles trait
 def: "Reaction to sweetpotato leaf beetles." [CO:curators]
 synonym: "RnSPLB" EXACT []
-is_a: TO:0000261 ! insect damage resistance
+is_a: TO:0001160 ! Coleoptera damage response trait
 
 [Term]
 id: CO_331:0000362
 name: sweetpotato reaction to beetles trait
 def: "Reaction to beetles." [CO:curators]
 synonym: "RnBTL" EXACT []
-is_a: TO:0000261 ! insect damage resistance
+is_a: TO:0001160 ! Coleoptera damage response trait
 
 [Term]
 id: CO_331:0000363
@@ -1346,7 +1346,7 @@ id: CO_331:0000439
 name: sweetpotato Alcidodes sp. damage trait
 def: "Observation of damage caused by Alcidodes sp, causes crown enlargement/galling or death by girdling." [CO:curators]
 synonym: "RtAlcDam" EXACT []
-is_a: TO:0000261 ! insect damage resistance
+is_a: TO:0001160 ! Coleoptera damage response trait
 
 [Term]
 id: CO_331:0000440

@@ -641,7 +641,7 @@ id: CO_340:0000629
 name: cowpea diabrotica trait
 def: "Infestation by diabrotica." [CO:curators]
 synonym: "DIABRT" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0005010 ! rootworm resistance (Diabrotica spp)
 
 [Term]
 id: CO_340:0000638

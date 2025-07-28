@@ -568,10 +568,10 @@ is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_337:0000601
-name: groundnut groundnut bruchid trait
+name: groundnut bruchid trait
 def: "The reaction of the plant to Caryedon serratus activity and/or traits that affect the biology of the Coleopteran insect in the presence of the plant. Caryedon serratus is commonly known as the groundnut bruchid, groundnut borer, and groundnut seed beetle." [CO:curators]
 synonym: "GB" EXACT []
-is_a: TO:0000261 ! insect damage response
+is_a: TO:0001160 ! Coleoptera damage response trait
 
 [Term]
 id: CO_337:0000602

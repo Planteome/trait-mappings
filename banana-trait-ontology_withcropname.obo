@@ -887,7 +887,7 @@ id: CO_325:0000516
 name: banana damage to periphery of peeled corm caused by weevils trait
 def: "The amount of damage to the periphery of the peeled corm, assessed by tunnels caused by weevils." [CO:curators]
 synonym: "peripheral damage" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001160 ! Coleoptera damage response trait
 
 [Term]
 id: CO_325:0000518
@@ -1129,21 +1129,21 @@ is_a: TO:0001145 ! Ascomycete fungal disease response
 id: CO_325:0000650
 name: banana Percentage damage to upper cross-section inner corm caused by weevils trait
 def: "The amount of damage to the inner corm (central cylinder) upper cross-section, assessed by the percentage of tunnels caused by weevils." [CO:curators]
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001160 ! Coleoptera damage response trait
 
 [Term]
 id: CO_325:0000677
 name: banana percentage damage to lower cross-section inner corm caused by weevils trait
 def: "The amount of damage to the inner corm (central cylinder) lower cross-section, assessed by percentage of tunnels caused by weevils." [CO:curators]
 synonym: "Damage index-X-inner" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001160 ! Coleoptera damage response trait
 
 [Term]
 id: CO_325:0000679
 name: banana percentage damage to lower cross-section outer corm caused by weevils trait
 def: "The amount of damage to the outer corm (cortex) lower cross-section, assessed by percentage of tunnels caused by weevils." [CO:curators]
 synonym: "Damage index-X-outer" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001160 ! Coleoptera damage response trait
 
 [Term]
 id: CO_325:0000726
@@ -1171,21 +1171,21 @@ id: CO_325:0000841
 name: banana damage to the corm of the mother plant caused by weevils trait
 def: "The score of damage to the mother plant corm, assessed by tunnels caused by weevils." [CO:curators]
 synonym: "damagemothercorm" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001160 ! Coleoptera damage response trait
 
 [Term]
 id: CO_325:0000843
 name: banana size of corm inner diameter after weevils introduction trait
 def: "The diameter of the inner corm after weevil introduction." [CO:curators]
 synonym: "sizeinnercorm" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001160 ! Coleoptera damage response trait
 
 [Term]
 id: CO_325:0000845
 name: banana size of corm outer diameter after weevils introduction trait
 def: "The diameter of the outter corm after weevil introduction." [CO:curators]
 synonym: "sizeouttercorm" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001160 ! Coleoptera damage response trait
 
 [Term]
 id: CO_325:0000857
@@ -1679,7 +1679,7 @@ is_a: TO:0001098 ! pepo fruit morphology trait
 id: CO_325:0003004
 name: banana weevil damage assessment trait
 def: "Weevil damage assesssment." [CO:curators]
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001160 ! Coleoptera damage response trait
 
 [Term]
 id: CO_325:0003014
@@ -1714,7 +1714,7 @@ is_a: TO:0000322 ! phenotypic acceptability
 id: CO_325:0003030
 name: banana weevil insect assessment trait
 def: "Weevil insect assesssment." [CO:curators]
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001160 ! Coleoptera damage response trait
 
 [Term]
 id: CO_325:0003034
@@ -1755,13 +1755,13 @@ is_a: TO:0000315 ! bacterial disease response
 id: CO_325:0003055
 name: banana damage to upper cross-section inner corm caused by weevils trait
 def: "Damage to the inner corm (central cylinder) upper cross-section caused by weevils." [CO:curators]
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001160 ! Coleoptera damage response trait
 
 [Term]
 id: CO_325:0003056
 name: banana damage to upper cross-section outer corm caused by weevils trait
 def: "Damage to the outer corm (cortex) upper cross-section caused by weevils." [CO:curators]
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001160 ! Coleoptera damage response trait
 
 [Term]
 id: CO_325:0003057
@@ -1798,7 +1798,7 @@ is_a: TO:0000568 ! shoot axis weight
 id: CO_325:0003074
 name: banana damage to the pseudostem caused by weevils trait
 def: "Does weevil damage extend into the pseudostem." [CO:curators]
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001160 ! Coleoptera damage response trait
 
 [Term]
 id: CO_325:0003082

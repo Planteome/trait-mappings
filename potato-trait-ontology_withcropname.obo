@@ -1009,7 +1009,7 @@ id: CO_330:0000485
 name: potato reaction to potato weevil trait
 def: "The reaction of the plant or plant part to damage caused by potato weevil." [CO:curators]
 synonym: "RnSSPW" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001160 ! Coleoptera damage response trait
 
 [Term]
 id: CO_330:0000486

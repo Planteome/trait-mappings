@@ -75,7 +75,7 @@ name: lentil bruchid resistance trait
 def: "Degree of tolerance to Bruchids.Callosobruchus analis. Damage flowers, pods and seeds" [CO:curators]
 synonym: "BRUR" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001160 ! Coleoptera damage response trait
 
 [Term]
 id: CO_339:0000027
@@ -483,7 +483,7 @@ name: lentil stem weevil resistance trait
 def: "Degree of tolerance to stem weevil (Sitona crinitus). Damage seedlings and root nodules" [CO:curators]
 synonym: "SWVR" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001160 ! Coleoptera damage response trait
 
 [Term]
 id: CO_339:0000177
