@@ -379,7 +379,7 @@ id: CO_341:0000154
 name: pigeonpea pod fly susceptibility trait
 def: "Susceptibility to pod fly (Melanagromyza btusa)." [CO:curators, NCBITaxon:5507]
 synonym: "PF" EXACT []
-is_a: TO:0000261 ! insect damage resistance
+is_a: TO:0001163 ! Diptera damage response trait
 
 [Term]
 id: CO_341:0000155

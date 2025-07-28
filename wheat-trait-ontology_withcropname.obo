@@ -539,7 +539,7 @@ id: CO_321:0000088
 name: wheat hessian fly damage trait
 def: "The plant damage caused by hessian fly, maytiola destructor." [CO:curators]
 synonym: "HesFlyDmg" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001163 ! Diptera damage response trait
 
 [Term]
 id: CO_321:0000089

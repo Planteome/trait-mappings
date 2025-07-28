@@ -709,7 +709,7 @@ id: CO_323:0000412
 name: barley hessian fly susceptibility trait
 def: "The plant susceptibility to Hessian Fly (Mayetiola destructor)." [CO:curators]
 synonym: "HessFlySus" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001163 ! Diptera damage response trait
 
 [Term]
 id: CO_323:0000415

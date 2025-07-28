@@ -441,7 +441,7 @@ name: sorghum midge incidence trait
 def: "Midge incidence as grain abortion on the panicles." [CO:curators]
 synonym: "Grain incidence" EXACT []
 synonym: "MidgeInc" EXACT []
-is_a: TO:0000261 ! insect damage resistance
+is_a: TO:0001163 ! Diptera damage response trait
 
 [Term]
 id: CO_324:0000160

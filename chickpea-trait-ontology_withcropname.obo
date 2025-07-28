@@ -357,7 +357,7 @@ id: CO_338:0000065
 name: chickpea leaf miner resistance trait
 def: "Causative agent: Liriomyza cicerina. The leaflets are mined, have a reduced photosynthetic capacity and senesce prematurely." [CO:curators]
 synonym: "LMR" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001163 ! Diptera damage response trait
 
 [Term]
 id: CO_338:0000066
