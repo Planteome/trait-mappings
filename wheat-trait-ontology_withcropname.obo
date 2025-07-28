@@ -285,7 +285,7 @@ id: CO_321:0000050
 name: wheat peduncle neck break trait
 def: "Observation of spike break from the base of head." [CO:curators]
 synonym: "NeckBreak" EXACT []
-is_a: TO:0000168 ! abiotic plant stress trait
+is_a: TO:0000164 ! plant stress response trait
 
 [Term]
 id: CO_321:0000051
