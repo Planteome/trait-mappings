@@ -909,28 +909,28 @@ id: CO_322:0000152
 name: maize busseola incidence trait
 def: "Busseola larvae incidence." [CO:curators]
 synonym: "BusseolaInc" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001162 ! Lepidoptera damage response trait
 
 [Term]
 id: CO_322:0000153
 name: maize earworm incidence trait
 def: "Ear worm (Heliothis) incidence." [CO:curators]
 synonym: "EWormInc" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001162 ! Lepidoptera damage response trait
 
 [Term]
 id: CO_322:0000154
 name: maize army worm damage trait
 def: "Army worm (syn. Spodoptera exempta) damage." [CO:curators]
 synonym: "AWormDmg" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001162 ! Lepidoptera damage response trait
 
 [Term]
 id: CO_322:0000155
 name: maize chilo damage trait
 def: "Chilo (Chilo partellus) damage." [CO:curators]
 synonym: "ChiloDmg" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001162 ! Lepidoptera damage response trait
 
 [Term]
 id: CO_322:0000156
@@ -959,7 +959,7 @@ name: maize stem borer damage trait
 def: "Stem borer damage includes different stem borers such as Chilo partellus, Sesamia spp. and Spodoptera." [CO:curators]
 synonym: "StBorDmg" EXACT []
 xref: GRINDesc:89014
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001162 ! Lepidoptera damage response trait
 
 [Term]
 id: CO_322:0000160
@@ -1267,7 +1267,7 @@ id: CO_322:0000685
 name: maize earworm damage trait
 def: "Ear worm (Heliothis) damage." [CO:curators]
 synonym: "EWormDmg" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001162 ! Lepidoptera damage response trait
 
 [Term]
 id: CO_322:0000772
@@ -1281,7 +1281,7 @@ id: CO_322:0000808
 name: maize busseola damage trait
 def: "Plant damage caused by Busseola larvae." [CO:curators]
 synonym: "BusseolaDmg" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001162 ! Lepidoptera damage response trait
 
 [Term]
 id: CO_322:0000829

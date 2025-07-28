@@ -386,7 +386,7 @@ id: CO_341:0000155
 name: pigeonpea pod borers susceptibility trait
 def: "Susceptibility to pod borer insects (Helicoverpa armigera, Etiella zinckenella, Maruca testulalis)." [CO:curators]
 synonym: "PB" EXACT []
-is_a: TO:0000261 ! insect damage resistance
+is_a: TO:0001162 ! Lepidoptera damage response trait
 
 [Term]
 id: CO_341:0000156
@@ -414,7 +414,7 @@ id: CO_341:0000159
 name: pigeonpea leaf tier susceptibility trait
 def: "Susceptibility to leaf tier (Grapholita critica)." [CO:curators]
 synonym: "LT" EXACT []
-is_a: TO:0000261 ! insect damage resistance
+is_a: TO:0001162 ! Lepidoptera damage response trait
 
 [Term]
 id: CO_341:0000160

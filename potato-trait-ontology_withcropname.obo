@@ -995,7 +995,7 @@ id: CO_330:0000483
 name: potato reaction to moths trait
 def: "The reaction of the plant or plant part to damage caused by moths." [CO:curators]
 synonym: "RnMth" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001162 ! Lepidoptera damage response trait
 
 [Term]
 id: CO_330:0000484

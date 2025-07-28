@@ -821,14 +821,14 @@ id: CO_331:0000363
 name: sweetpotato reaction to grubworm trait
 def: "The reaction of the root to damage caused by grubworm." [CO:curators]
 synonym: "RnGrbW" EXACT []
-is_a: TO:0000261 ! insect damage resistance
+is_a: TO:0001162 ! Lepidoptera damage response trait
 
 [Term]
 id: CO_331:0000364
 name: sweetpotato reaction to hornworm trait
 def: "The reaction of the root to damage caused by hornworm." [CO:curators]
 synonym: "RnHrnw" EXACT []
-is_a: TO:0000261 ! insect damage resistance
+is_a: TO:0001162 ! Lepidoptera damage response trait
 
 [Term]
 id: CO_331:0000365
@@ -849,21 +849,21 @@ id: CO_331:0000367
 name: sweetpotato reaction to sweetpotato moth trait
 def: "Reaction to sweetpotato moth." [CO:curators]
 synonym: "RnSPMth" EXACT []
-is_a: TO:0000261 ! insect damage response
+is_a: TO:0001162 ! Lepidoptera damage response trait
 
 [Term]
 id: CO_331:0000368
 name: sweetpotato reaction to moth trait
 def: "Reaction to moth." [CO:curators]
 synonym: "RnMth" EXACT []
-is_a: TO:0000261 ! insect damage response
+is_a: TO:0001162 ! Lepidoptera damage response trait
 
 [Term]
 id: CO_331:0000369
 name: sweetpotato reaction to sweetpotato stem borer trait
 def: "Reaction to sweetpotato stem borer (Omphisa anastomosalis)." [CO:curators]
 synonym: "RnSPSB" EXACT []
-is_a: TO:0000261 ! insect damage response
+is_a: TO:0001162 ! Lepidoptera damage response trait
 
 [Term]
 id: CO_331:0000370

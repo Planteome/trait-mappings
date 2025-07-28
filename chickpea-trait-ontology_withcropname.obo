@@ -223,7 +223,7 @@ id: CO_338:0000041
 name: chickpea pod borer resistance trait
 def: "The extent of damage caused by the pod borer. Causative agent:Helicoverpa armigera. The insect feeds on all green parts and defoliate young crops, large larvae cut round holes in the pod wall and devour the seed inside." [CO:curators]
 synonym: "PBR" EXACT []
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001162 ! Lepidoptera damage response trait
 
 [Term]
 id: CO_338:0000043

@@ -344,7 +344,7 @@ name: lentil pod borer resistance trait
 def: "Degree of tolerance to podborer.Helicoverpa armigera. Damage pods and seeds" [CO:curators]
 synonym: "PBR" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000261 ! insect damage response trait
+is_a: TO:0001162 ! Lepidoptera damage response trait
 
 [Term]
 id: CO_339:0000126
