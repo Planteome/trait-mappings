@@ -944,7 +944,7 @@ id: CO_322:0000157
 name: maize diatraea damage trait
 def: "Plant damage caused by Diatraea species." [CO:curators]
 synonym: "DiatraeaDmg" EXACT []
-is_a: TO:0005010 ! rootworm response
+is_a: TO:0001162 ! Lepidoptera damage response trait
 
 [Term]
 id: CO_322:0000158
