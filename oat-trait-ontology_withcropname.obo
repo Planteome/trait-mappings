@@ -736,7 +736,7 @@ is_a: TO:0020093 ! nitrogen content
 
 [Term]
 id: CO_350:0000370
-name: oat oat/groat n content trait
+name: oat/groat N content trait
 def: "The nitrogen content of the oat/groat." [CO:curators]
 synonym: "GrNCnt" EXACT []
 is_a: TO:0003068 ! grain nitrogen content
@@ -995,28 +995,28 @@ is_a: TO:0000299 ! leaf lamina color
 
 [Term]
 id: CO_350:0000581
-name: oat oat blue dwarf virus severity trait
+name: oat blue dwarf virus severity trait
 def: "Oat blue dwarf virus severity." [CO:curators]
 synonym: "OBDV" EXACT []
 is_a: TO:0000148 ! viral disease response trait
 
 [Term]
 id: CO_350:0000584
-name: oat oat mosaic virus severity trait
+name: oat mosaic virus severity trait
 def: "Oat mosaic virus severity." [CO:curators]
 synonym: "OMV" EXACT []
 is_a: TO:0000148 ! viral disease response trait
 
 [Term]
 id: CO_350:0000587
-name: oat oat necrotic mottle virus severity trait
+name: oat necrotic mottle virus severity trait
 def: "Oat necrotic mottle virus severity." [CO:curators]
 synonym: "ONMV" EXACT []
 is_a: TO:0000148 ! viral disease response trait
 
 [Term]
 id: CO_350:0000590
-name: oat oat/groat breakage fraction trait
+name: oat/groat breakage fraction trait
 def: "Fraction of oat/groat broken." [CO:curators]
 synonym: "BrkFrt" EXACT []
 is_a: TO:0000162 ! grain quality trait
