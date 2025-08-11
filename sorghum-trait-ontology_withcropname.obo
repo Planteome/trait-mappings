@@ -498,7 +498,7 @@ id: CO_324:0000193
 name: sorghum striga incidence trait
 def: "Striga incidence on Sorghum plants." [CO:curators]
 synonym: "StrigaInc" EXACT []
-is_a: TO:0000347 ! weed damage
+is_a: TO:0000444 ! parasitic weed response
 
 [Term]
 id: CO_324:0000196
