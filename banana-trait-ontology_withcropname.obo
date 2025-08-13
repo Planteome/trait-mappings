@@ -1767,19 +1767,19 @@ is_a: TO:0001160 ! Coleoptera damage response trait
 id: CO_325:0003057
 name: banana fertility trait
 def: "n/a." [CO:curators]
-is_a: TO:0000392 ! sterility or fertility trait
+is_a: TO:0000420 ! fertility related trait
 
 [Term]
 id: CO_325:0003058
 name: banana female fertility trait
 def: "n/a." [CO:curators]
-is_a: TO:0000392 ! sterility or fertility trait
+is_a: TO:0000420 ! fertility related trait
 
 [Term]
 id: CO_325:0003059
 name: banana male fertility trait
 def: "n/a." [CO:curators]
-is_a: TO:0000392 ! sterility or fertility trait
+is_a: TO:0000420 ! fertility related trait
 
 [Term]
 id: CO_325:0003064
