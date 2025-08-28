@@ -525,7 +525,7 @@ name: lentil water logging tolerance trait
 def: "Degree of tolerance to waterlogging condition" [CO:curators]
 synonym: "WLOT" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000114 ! flooding related trait
+is_a: TO:0000524 ! submergence tolerance trait
 
 [Term]
 id: CO_339:0000192

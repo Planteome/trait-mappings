@@ -723,7 +723,7 @@ name: sweetpotato reaction to flooding trait
 def: "Response of plant to inundation by water of all or part of the plant." [CO:curators]
 synonym: "RnFld" EXACT []
 synonym: "waterlogging response" EXACT []
-is_a: TO:0000114 ! flooding related trait
+is_a: TO:0000286 ! submergence response trait
 
 [Term]
 id: CO_331:0000350

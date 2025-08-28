@@ -212,7 +212,7 @@ def: "Response of plant to inundation by water of all or part of the plant" [CO:
 synonym: "FLOODING" EXACT []
 synonym: "Submergence tolerance, waterlogging response" EXACT []
 xref: SOY:0001351
-is_a: TO:0000114 ! flooding related trait
+is_a: TO:0000524 ! submergence tolerance trait
 
 [Term]
 id: CO_336:0000075

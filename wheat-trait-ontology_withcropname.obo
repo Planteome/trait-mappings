@@ -732,7 +732,7 @@ id: CO_321:0000128
 name: wheat waterlogging damage trait
 def: "Plants killed as a result of winter conditions." [CO:curators]
 synonym: "WtrLoggDmg" EXACT []
-is_a: TO:0000114 ! flooding related trait
+is_a: TO:0000286 ! submergence response trait
 
 [Term]
 id: CO_321:0000131
