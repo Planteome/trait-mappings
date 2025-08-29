@@ -1731,7 +1731,7 @@ id: CO_334:0002092
 name: cassava starch final viscosity trait
 def: "Viscosity at the end of the Rapid Visco Analyzer test" [CO:curators]
 synonym: "fvisc" RELATED []
-is_a: TO:0001069 ! cooking quality trait
+is_a: TO:0000376 ! starch cool paste viscosity
 
 [Term]
 id: CO_334:0002094
@@ -1744,7 +1744,7 @@ id: CO_334:0002096
 name: cassava starch trough trait
 def: "The minimum viscosity after the peak" [CO:curators]
 synonym: "hold" RELATED []
-is_a: TO:0001069 ! cooking quality trait
+is_a: TO:0000408 ! starch hot paste viscosity
 
 [Term]
 id: CO_334:0002098
@@ -1758,13 +1758,13 @@ id: CO_334:0002100
 name: cassava starch pasting temperature trait
 def: "Temperature at which the viscosity trace first raises above the baseline during the initial heating phase." [CO:curators]
 synonym: "pstemp" RELATED []
-is_a: TO:0001069 ! cooking quality trait
+is_a: TO:0000462 ! starch gelatinization temperature
 
 [Term]
 id: CO_334:0002109
 name: cassava starch viscosity trait
-def: "TBA." [TO:cooperl]
-is_a: TO:0001069 ! cooking quality trait
+def: "TBA." [CO:curators]
+is_a: TO:0000376 ! starch consistency viscosity
 
 [Term]
 id: CO_334:0002110

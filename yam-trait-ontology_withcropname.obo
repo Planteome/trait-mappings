@@ -1188,7 +1188,7 @@ id: CO_343:0002001
 name: yam trough viscosity trait
 def: "Trough viscosity is the ability of the starch granules to remain undisrupted when the yam paste is subjected to a hold period of constant high temperature and mechanical shear stress." [CO:curators]
 synonym: "tvisc"  EXACT []
-is_a: TO:0000374 ! starch breakdown viscosity
+is_a: TO:0000408 ! starch hot paste viscosity
 
 [Term]
 id: O_343:0002002
