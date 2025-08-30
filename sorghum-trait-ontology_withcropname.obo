@@ -1784,7 +1784,7 @@ id: CO_324:0001127
 name: sorghum storability trait
 def: "TBA." [CO:curators]
 synonym: "Stobly" EXACT []
-is_a: TO:0000396 ! grain yield trait
+is_a: TO:0000597 ! plant quality trait
 
 [Term]
 id: CO_324:0001129
