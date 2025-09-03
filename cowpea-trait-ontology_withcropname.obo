@@ -1026,7 +1026,7 @@ id: CO_340:0000698
 name: cowpea tap root diameter at 15 trait
 def: "Tap diameter 15cm below soil surface." [CO:curators]
 synonym: "TD15" EXACT []
-is_a: TO:0000084 ! root number
+is_a: TO:0000306 ! root thickness
 
 [Term]
 id: CO_340:0000699
