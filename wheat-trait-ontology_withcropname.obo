@@ -1146,7 +1146,7 @@ id: CO_321:0000207
 name: wheat stem water soluble carbohydrate trait
 def: "Water soluble carbohydrates accumulate up to and around anthesis and are partitioned to the stem, from where they are later available as a reservoir for remobilization to the developing grains. these reserves are an important source of carbon for grainfilling." [CO:curators]
 synonym: "StmWSC" EXACT []
-is_a: TO:0020088 ! total water soluble content
+is_a: TO:0000291 ! cacrbohydrate content
 
 [Term]
 id: CO_321:0000208
