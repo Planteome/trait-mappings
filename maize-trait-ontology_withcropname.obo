@@ -1127,7 +1127,7 @@ id: CO_322:0000214
 name: maize aflatoxin content trait
 def: "Grain Aflatoxins content produced by Aspergillus flavus and Aspergillus parasiticus." [CO:curators]
 synonym: "Aflatox" EXACT []
-is_a: TO:0000281 ! metabolite content trait
+is_a: TO:0000668 ! mycotoxin content trait
 
 [Term]
 id: CO_322:0000488
