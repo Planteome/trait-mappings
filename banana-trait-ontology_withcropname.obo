@@ -59,7 +59,7 @@ id: CO_325:0000024
 name: banana number of suckers trait
 def: "The number of all types of suckers in the mat." [CO:curators]
 synonym: "numsuckers" EXACT []
-is_a: TO:0000077 ! shoot system morphology trait
+is_a: TO:0000988 ! shoot-borne shoot system morphology trait
 
 [Term]
 id: CO_325:0000027
@@ -301,21 +301,21 @@ id: CO_325:0000221
 name: banana number of maiden suckers trait
 def: "The number of maiden suckers (fully grown suckers with foliage leaves) in the mat." [CO:curators]
 synonym: "nummaidensuckers" EXACT []
-is_a: TO:0000077 ! shoot system morphology trait
+is_a: TO:0000988 ! shoot-borne shoot system morphology trait
 
 [Term]
 id: CO_325:0000225
 name: banana number of sword suckers trait
 def: "The number of sword suckers (suckers with narrow leaves and a large rhizome) in the mat." [CO:curators]
 synonym: "numswordsuckers" EXACT []
-is_a: TO:0000077 ! shoot system morphology trait
+is_a: TO:0000988 ! shoot-borne shoot system morphology trait
 
 [Term]
 id: CO_325:0000229
 name: banana number of peeper suckers trait
 def: "The number of peeper suckers (suckers < 15 cm tall) in the mat." [CO:curators]
 synonym: "numpeepersuckers" EXACT []
-is_a: TO:0000077 ! shoot system morphology trait
+is_a: TO:0000988 ! shoot-borne shoot system morphology trait
 
 [Term]
 id: CO_325:0000233
@@ -440,7 +440,7 @@ id: CO_325:0000310
 name: banana number of water suckers trait
 def: "The number of water suckers (suckers with broad leaves, a small rhizome, and a weak connection to the plant) in the mat." [CO:curators]
 synonym: "numwatersuckers" EXACT []
-is_a: TO:0000077 ! shoot system morphology trait
+is_a: TO:0000988 ! shoot-borne shoot system morphology trait
 
 [Term]
 id: CO_325:0000312
