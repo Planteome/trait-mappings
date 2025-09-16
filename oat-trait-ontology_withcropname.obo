@@ -1030,7 +1030,7 @@ is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_350:0000596
-name: oat pink snow mold(fusarium patch) severity trait
+name: oat pink snow mold (fusarium patch) severity trait
 def: "Pink snow mold(Fusarium patch) severity." [CO:curators]
 synonym: "PnkMd" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
