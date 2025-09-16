@@ -438,7 +438,7 @@ def: "The total isoflavone content of a seed." [CO:curators]
 synonym: "ISOFLAVON" EXACT []
 synonym: "isoflavone concentration" EXACT []
 xref: SOY:0001849
-is_a: TO:0000281 ! metabolite content trait
+is_a: TO:0000290 ! flavonoid content
 
 [Term]
 id: CO_336:0000156
