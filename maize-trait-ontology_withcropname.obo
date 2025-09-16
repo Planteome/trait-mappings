@@ -748,11 +748,11 @@ is_a: TO:0002653 ! endosperm storage protein content
 
 [Term]
 id: CO_322:0000125
-name: maize grain provitamina content trait
+name: maize grain provitamin A content trait
 def: "Whole-grain pro-vitaminA content." [CO:curators]
 synonym: "GVitA" EXACT []
 synonym: "Whole-grain pro-vitaminA content" EXACT []
-is_a: TO:0000281 ! metabolite content trait
+is_a: TO:0002695 ! beta-carotene content
 
 [Term]
 id: CO_322:0000126
