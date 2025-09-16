@@ -859,13 +859,13 @@ is_a: TO:0006046 ! sulfur content
 id: CO_330:0000461
 name: potato tuber chlorogenic acid concentration trait
 def: "The concentration of chlorogenic acid in tuber." [CO:curators]
-is_a: TO:0000281 ! metabolite content trait
+is_a: TO:0001172 ! polyphenol compound content
 
 [Term]
 id: CO_330:0000462
 name: potato tuber caffeic acid concentration trait
 def: "The concentration of caffeic acid in tuber." [CO:curators]
-is_a: TO:0000281 ! metabolite content trait
+is_a: TO:0001172 ! polyphenol compound content
 
 [Term]
 id: CO_330:0000463
@@ -1790,55 +1790,55 @@ is_a: TO:0000654 ! shoot system growth and development trait
 id: CO_330:0001137
 name: potato tuber cryptochlorogenic acid concentration trait
 def: "The cryptochlorogenic acid concentration in tuber." [CO:curators]
-is_a: TO:0000281 ! metabolite content trait
+is_a: TO:0001172 ! polyphenol compound content
 
 [Term]
 id: CO_330:0001138
 name: potato tuber epicatechin concentration trait
 def: "The epicatechin concentration in tuber." [CO:curators]
-is_a: TO:0000281 ! metabolite content trait
+is_a: TO:0001172 ! polyphenol compound content
 
 [Term]
 id: CO_330:0001139
 name: potato tuber ferulic acid concentration trait
 def: "The ferulic acid concentration in tuber." [CO:curators]
-is_a: TO:0000281 ! metabolite content trait
+is_a: TO:0000675 ! ferulic acid content
 
 [Term]
 id: CO_330:0001140
 name: potato tuber gallic acid concentration trait
 def: "The gallic acid concentration in tuber." [CO:curators]
-is_a: TO:0000281 ! metabolite content trait
+is_a: TO:0020076 ! phenolic compound content
 
 [Term]
 id: CO_330:0001141
 name: potato tuber neochlorogenic acid concentration trait
 def: "The neochlorogenic acid concentration in tuber." [CO:curators]
-is_a: TO:0000281 ! metabolite content trait
+is_a: TO:0001172 ! polyphenol compound content
 
 [Term]
 id: CO_330:0001142
 name: potato tuber p-coumaric acid concentration trait
 def: "The p-coumaric acid concentration in tuber." [CO:curators]
-is_a: TO:0000281 ! metabolite content trait
+is_a: TO:0020076 ! phenolic compound content
 
 [Term]
 id: CO_330:0001143
 name: potato tuber protocatechuic acid concentration trait
 def: "The protocatechuic acid concentration in tuber." [CO:curators]
-is_a: TO:0000281 ! metabolite content trait
+is_a: TO:0020076 ! phenolic compound content
 
 [Term]
 id: CO_330:0001144
 name: potato tuber rutin concentration trait
 def: "The rutin concentration in tuber." [CO:curators]
-is_a: TO:0000281 ! metabolite content trait
+is_a: TO:0000290 ! flavonoid content
 
 [Term]
 id: CO_330:0001145
 name: potato tuber syringic acid concentration trait
 def: "The syringic acid concentration in tuber." [CO:curators]
-is_a: TO:0000281 ! metabolite content trait
+is_a: TO:0020076 ! phenolic compound content
 
 [Term]
 id: CO_330:0001146
@@ -1850,7 +1850,7 @@ is_a: TO:0000281 ! metabolite content trait
 id: CO_330:0001147
 name: potato tuber vanillic acid concentration trait
 def: "The vanillic acid concentration in tuber." [CO:curators]
-is_a: TO:0000281 ! metabolite content trait
+is_a: TO:0020076 ! phenolic compound content
 
 [Term]
 id: CO_330:0001148
