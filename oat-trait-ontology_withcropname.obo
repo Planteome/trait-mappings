@@ -130,14 +130,14 @@ id: CO_350:0000057
 name: oat tocotrienol concentration trait
 def: "Tocotrienol concentration" [CO:curators]
 synonym: "TocotrCtn" EXACT []
-is_a: TO:0000281 ! metabolite content trait
+is_a: TO:0020076 ! phenolic compound content
 
 [Term]
 id: CO_350:0000060
 name: oat tocopherol concentration trait
 def: "Tocopherol concentration" [CO:curators]
 synonym: "TocophCtn" EXACT []
-is_a: TO:0000281 ! metabolite content trait
+is_a: TO:0020076 ! phenolic compound content
 
 [Term]
 id: CO_350:0000063
@@ -1411,14 +1411,14 @@ id: CO_350:0005429
 name: oat total toco concentration trait
 def: "Measure of the total -tocopherol and -tocotrienol content" [CO:curators]
 synonym: "TocoCtn" EXACT []
-is_a: TO:0000281 ! metabolite content trait
+is_a: TO:0020076 ! phenolic compound content
 
 [Term]
 id: CO_350:0005430
 name: oat tunaxanthin content trait
 def: "Tunaxanthin content" [CO:curators]
 synonym: "TaxCnt" EXACT []
-is_a: TO:0000281 ! metabolite content trait
+is_a: TO:0000301 ! xanthophyll content
 
 [Term]
 id: CO_350:0005431
