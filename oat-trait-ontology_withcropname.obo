@@ -1362,14 +1362,14 @@ id: CO_350:0005422
 name: oat fatty acid content trait
 def: "Fatty acid content of the grain" [CO:curators]
 synonym: "FAC" EXACT []
-is_a: TO:0000604 ! fat and essential oil content
+is_a: TO:0001170 ! fatty acid content trait
 
 [Term]
 id: CO_350:0005423
 name: oat groat flour falling number trait
 def: "Flour falling number is used as an indirect measurement of the alpha amylase content of the groat" [CO:curators]
 synonym: "FFN" EXACT []
-is_a: TO:0001069 ! cooking quality trait
+is_a: TO:0000288 ! alpha-amylase activity trait
 
 [Term]
 id: CO_350:0005424
