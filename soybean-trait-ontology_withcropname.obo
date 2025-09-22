@@ -317,7 +317,7 @@ def: "Linolenic acid content of the seed oil i.e., linolenic acid weight per tot
 synonym: "LINOLENIC" EXACT []
 synonym: "Linolenic acid, ALA, alpha-lenolenic acid, C18:3" EXACT []
 xref: SOY:0001392
-is_a: TO:0005005 ! alpha-linolenic acid content
+is_a: TO:0005001 ! linolenic acid content
 
 [Term]
 id: CO_336:0000111
