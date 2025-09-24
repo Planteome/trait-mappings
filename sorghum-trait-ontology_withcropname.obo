@@ -985,7 +985,7 @@ id: CO_324:0000729
 name: sorghum main shoot stem crude protein content of dry matter trait
 def: "Main shoot stem crude protein content of dry matter." [CO:curators]
 synonym: "StmMnShoCPDM" EXACT []
-is_a: TO:0000340 ! total soluble sugar content
+is_a: TO:0000598 ! protein content
 
 [Term]
 id: CO_324:0000730
