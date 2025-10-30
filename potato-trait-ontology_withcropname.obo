@@ -643,14 +643,14 @@ id: CO_330:0000345
 name: potato tuber appearance trait
 def: "The appearence of the tuber." [CO:curators]
 synonym: "TubApp" EXACT []
-is_a: TO:0000745 ! subterranean shoot axis tuber appearance
+is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 [Term]
 id: CO_330:0000349
 name: potato tuber uniformity trait
 def: "The uniformity of the tuber." [CO:curators]
 synonym: "TubUni" EXACT []
-is_a: TO:0000745 ! subterranean shoot axis tuber appearance
+is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 [Term]
 id: CO_330:0000353
