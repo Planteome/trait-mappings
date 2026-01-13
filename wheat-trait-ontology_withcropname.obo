@@ -1393,7 +1393,7 @@ id: CO_321:0000658
 name: wheat stem wall thickness trait
 def: "Stem wall thickness." [CO:curators]
 synonym: "StmWallThk" EXACT []
-is_a: TO:0000361 ! stem morphology trait
+is_a: TO:0000339 ! stem thickness
 
 [Term]
 id: CO_321:0000659

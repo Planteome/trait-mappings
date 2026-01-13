@@ -1343,7 +1343,7 @@ id: CO_334:0000506
 name: cassava young stem pubescence trait
 def: "Pubescence of young stem" [CO:curators]
 synonym: "stmpub" EXACT []
-is_a: TO:0000361 ! stem morphology trait
+is_a: TO:0000879 ! stem hairiness
 
 [Term]
 id: CO_334:0000507
