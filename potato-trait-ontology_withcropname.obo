@@ -455,7 +455,7 @@ is_a: TO:0001069 ! cooking quality trait
 id: CO_330:0000198
 name: potato tuber ascorbic acid concentration in dry weight basis trait
 def: "The concentration of ascorbic acid in dry weight basis." [CO:curators]
-is_a: TO:0000281 ! metabolite content trait
+is_a: TO:0001143 ! antioxidant activity trait
 
 [Term]
 id: CO_330:0000201
@@ -739,7 +739,7 @@ is_a: TO:0001143 ! antioxidant activity trait
 id: CO_330:0000427
 name: potato tuber ascorbic acid concentration in fresh weight basis trait
 def: "The concentration of ascorbic acid in fresh weight basis." [CO:curators]
-is_a: TO:0000281 ! metabolite content trait
+is_a: TO:0001143 ! antioxidant activity trait
 
 [Term]
 id: CO_330:0000430
