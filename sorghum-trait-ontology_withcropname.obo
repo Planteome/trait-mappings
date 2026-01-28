@@ -1774,7 +1774,7 @@ is_a: TO:0000322 ! phenotypic acceptability
 
 [Term]
 id: CO_324:0001125
-name: sorghum storage problemstolerance trait
+name: sorghum storage problems tolerance trait
 def: "TBA." [CO:curators]
 synonym: "StoPrbTol" EXACT []
 is_a: TO:0000162 ! grain quality trait
