@@ -136,7 +136,7 @@ is_a: TO:0001042 ! root quality trait
 [Term]
 id: CO_334:0000267
 name: cassava harvest index trait
-def: "TBA." [TO:cooperl]
+def: "TBA." [CO:curators]
 created_by: naama
 creation_date: 2015-09-24T16:40:07Z
 is_a: TO:0000128 ! harvest index
@@ -316,7 +316,7 @@ is_a: TO:1000010 ! caruncle color
 [Term]
 id: CO_334:0000302
 name: cassava storage root weight by plot trait
-def: "TBA." [TO:cooperl]
+def: "TBA." [CO:curators]
 created_by: naama
 creation_date: 2016-12-22T16:13:27Z
 is_a: TO:0001041 ! root yield
@@ -324,7 +324,7 @@ is_a: TO:0001041 ! root yield
 [Term]
 id: CO_334:0000303
 name: cassava storage root weight by plant trait
-def: "TBA." [TO:cooperl]
+def: "TBA." [CO:curators]
 created_by: naama
 creation_date: 2016-12-22T16:15:30Z
 is_a: TO:0001041 ! root yield
@@ -332,7 +332,7 @@ is_a: TO:0001041 ! root yield
 [Term]
 id: CO_334:0000305
 name: cassava fresh shoot weight by plot trait
-def: "TBA." [TO:cooperl]
+def: "TBA." [CO:curators]
 created_by: naama
 creation_date: 2016-12-22T16:23:13Z
 is_a: TO:0000327 ! shoot system yield trait
@@ -340,7 +340,7 @@ is_a: TO:0000327 ! shoot system yield trait
 [Term]
 id: CO_334:0000306
 name: cassava fresh shoot weight by plant trait
-def: "TBA." [TO:cooperl]
+def: "TBA." [CO:curators]
 created_by: naama
 creation_date: 2016-12-22T16:23:29Z
 is_a: TO:0000327 ! shoot system yield trait
@@ -1379,7 +1379,7 @@ is_a: TO:0000933 ! plant phenological trait
 [Term]
 id: CO_334:0000517
 name: cassava days to senescence by branch level trait
-def: "TBA." [TO:cooperl]
+def: "TBA." [CO:curators]
 created_by: AAfolabi
 creation_date: 2017-07-25T12:17:45Z
 is_a: TO:0000933 ! plant phenological trait
@@ -1448,19 +1448,19 @@ is_a: TO:0001069 ! cooking quality trait
 [Term]
 id: CO_334:0001025
 name: cassava farmer preference post-harvest trait
-def: "TBA." [TO:cooperl]
+def: "TBA." [CO:curators]
 is_a: TO:0001042 ! root quality trait
 
 [Term]
 id: CO_334:0001026
 name: cassava farmer preference trait
-def: "TBA." [TO:cooperl]
+def: "TBA." [CO:curators]
 is_a: TO:0001042 ! root quality trait
 
 [Term]
 id: CO_334:0001027
 name: cassava farmer preference at harvest trait
-def: "TBA." [TO:cooperl]
+def: "TBA." [CO:curators]
 is_a: TO:0001042 ! root quality trait
 
 [Term]
@@ -1534,7 +1534,7 @@ is_a: TO:0001015 ! photosynthetic rate
 [Term]
 id: CO_334:0002002
 name: cassava peel thickness trait
-def: "TBA." [TO:cooperl]
+def: "TBA." [CO:curators]
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
@@ -1554,7 +1554,7 @@ is_a: TO:0000656 ! root development trait
 [Term]
 id: CO_334:0002005
 name: cassava weed tolerance trait
-def: "TBA." [TO:cooperl]
+def: "TBA." [CO:curators]
 is_a: TO:0000347 ! weed damage response trait
 
 [Term]
@@ -1661,7 +1661,7 @@ is_a: TO:0001068 ! processing quality trait
 [Term]
 id: CO_334:0002060
 name: cassava fibrous root weight trait
-def: "TBA." [TO:cooperl]
+def: "TBA." [CO:curators]
 synonym: "firtwt" RELATED []
 is_a: TO:0003009 ! tuberous root tuber weight
 
