@@ -1437,7 +1437,7 @@ name: wheat plant photoperiod response trait
 def: "Extent to which long days hasten flowering." [CO:curators]
 synonym: "Daylength sensitivity" EXACT []
 synonym: "PhotopResp" EXACT []
-is_a: TO:0000075 ! light sensitivity
+is_a: TO:0000229 ! photoperiod sensitivity trait
 
 [Term]
 id: CO_321:0000673
