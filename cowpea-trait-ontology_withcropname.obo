@@ -482,8 +482,8 @@ is_a: TO:0000327 ! shoot system yield trait
 
 [Term]
 id: CO_340:0000533
-name: cowpea pode emergence time trait
-def: "Time to pod Emergence." [CO:curators]
+name: cowpea pod emergence time trait
+def: "Time to pod emergence." [CO:curators]
 synonym: "DFRSTPO" EXACT []
 is_a: TO:0000933 ! plant phenological trait
 
