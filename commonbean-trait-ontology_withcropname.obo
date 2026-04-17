@@ -721,7 +721,7 @@ id: CO_335:0000868
 name: common bean flowering date trait
 def: "The date when 50% of plants have at least one flower." [CO:curators]
 synonym: "FDATE" EXACT []
-is_a: TO:0000344 ! days to flowering trait
+is_a: TO:0001175 ! days to 50% flowering
 
 [Term]
 id: CO_335:0000872

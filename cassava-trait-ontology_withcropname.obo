@@ -2545,7 +2545,7 @@ id: CO_334:0003236
 name: cassava sprouting time trait
 def: "Time from planting cassava seed until hypocotyl emerges from the substrate" [CO:curators]
 synonym: "SprTm" EXACT []
-is_a: TO:0000933 ! plant phenological trait
+is_a: TO:0001173 ! days to seedling emergence
 
 [Term]
 id: CO_334:0003237

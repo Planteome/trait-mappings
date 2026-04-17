@@ -103,7 +103,7 @@ id: CO_321:0000021
 name: wheat emergence time trait
 def: "Emergence time is when the first leaf appears above the soil surface." [CO:curators]
 synonym: "Emer" EXACT []
-is_a: TO:0000933 ! plant phenological trait
+is_a: TO:0001173 ! days to seedling emergence
 
 [Term]
 id: CO_321:0000022

@@ -390,14 +390,14 @@ id: CO_343:0000198
 name: yam first sprout emergence time trait
 def: "Time to the  first sprout (plant) emerge in a plot." [CO:curators]
 synonym: "TIMFSE" EXACT []
-is_a: TO:0000933 ! plant phenological trait
+is_a: TO:0001173 ! days to seedling emergence
 
 [Term]
 id: CO_343:0000200
 name: yam 50% sprout emergence time trait
 def: "Time to 50% sprouts (plants) emerge in a plot." [CO:curators]
 synonym: "TIMSE" EXACT []
-is_a: TO:0000933 ! plant phenological trait
+is_a: TO:0001174 ! days to 50% seedling emergence
 
 [Term]
 id: CO_343:0000204
@@ -1356,7 +1356,7 @@ is_a: TO:0001069 ! cooking quality trait
 id: CO_343:0100200
 name: yam earliness of emergence trait
 def: "Elapsed time between planting date and date of 50% emergence sprouts in a plot." [CO:curators]
-is_a: TO:0000933 ! plant phenological trait
+is_a: TO:0001174 ! days to 50% seedling emergence
 
 [Term]
 id: CO_343:0100203

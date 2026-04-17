@@ -230,7 +230,7 @@ id: CO_338:0000043
 name: chickpea days to 50% flowering trait
 def: "Number of days from sowing to when 50% of the plants have started flowering" []
 synonym: "DFTFL" EXACT []
-is_a: TO:0000344 ! days to flowering trait
+is_a: TO:0001175 ! days to 50% flowering
 
 [Term]
 id: CO_338:0000044

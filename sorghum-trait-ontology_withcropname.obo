@@ -1658,7 +1658,7 @@ id: CO_324:0001036
 name: sorghum seedling emergence time trait
 def: "Emergence time." [CO:curators]
 synonym: "Emer" EXACT []
-is_a: TO:0000933 ! plant phenological trait
+is_a: TO:0001173 ! days to seedling emergence
 
 [Term]
 id: CO_324:0001039

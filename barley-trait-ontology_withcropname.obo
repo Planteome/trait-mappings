@@ -625,7 +625,7 @@ id: CO_323:0000315
 name: barley emergence time trait
 def: "The timing of the crop emergence." [CO:curators]
 synonym: "Emer" EXACT []
-is_a: TO:0000933 ! plant phenological trait
+is_a: TO:0001173 ! days to seedling emergence
 
 [Term]
 id: CO_323:0000332

@@ -131,7 +131,7 @@ name: lentil days to 50% flowering trait
 def: "Number of days from sowing to when 50% of the plants have started flowering" [CO:curators]
 synonym: "DFTFL" EXACT []
 created_by: Karthika Rajendran & Shiv Kumar
-is_a: TO:0000344 ! days to flowering trait
+is_a: TO:0001175 ! days to 50% flowering
 
 [Term]
 id: CO_339:0000048

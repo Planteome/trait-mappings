@@ -15,14 +15,14 @@ id: CO_341:0000003
 name: pigeonpea maturity group trait
 def: "Maturity group based on days to 50 % flowering" [CO:curators]
 synonym: "MTG" EXACT []
-is_a: TO:0000344 ! days to flowering trait
+is_a: TO:0001175 ! days to 50% flowering
 
 [Term]
 id: CO_341:0000006
 name: pigeonpea days to 50 % flowering trait
 def: "Number of days required to flower 50 % population in a plot" [CO:curators]
 synonym: "DF" EXACT []
-is_a: TO:0000344 ! days to flowering trait
+is_a: TO:0001175 ! days to 50% flowering
 
 [Term]
 id: CO_341:0000009
