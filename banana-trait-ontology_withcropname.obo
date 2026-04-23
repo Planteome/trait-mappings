@@ -8,7 +8,8 @@ id: CO_325:0000000
 name: banana time from planting to shooting trait
 def: "The time elapsed from planting to shooting (when the inflorescence emerges from the pseudostem and is still in an erect position)." [CO:curators]
 synonym: "plant2shoot" EXACT []
-is_a: TO:0000933 ! plant phenological trait
+is_a: TO:0001021 ! days to inflorescence exsertion
+
 
 [Term]
 id: CO_325:0000003
@@ -1452,7 +1453,7 @@ name: banana time from planting to shooting trait
 def: "The time elapsed from planting to shooting (when the inflorescence emerges from the pseudostem and is still in an erect position)." [CO:curators]
 synonym: "Length of vegetative stage" EXACT []
 synonym: "plant2shoot" EXACT []
-is_a: TO:0000933 ! plant phenological trait
+is_a: TO:0001021 ! days to inflorescence exsertion
 
 [Term]
 id: CO_325:0000967

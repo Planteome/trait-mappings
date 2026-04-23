@@ -387,7 +387,7 @@ name: cassava days to 50% anthesis trait
 def: "50% of the female flower opened to expose the pistils per plot" [CO:curators]
 synonym: "dyfl" EXACT []
 synonym: "flw50a" EXACT []
-is_a: TO:0002616 ! flowering time trait
+is_a: TO:0001175 ! days to 50% flowering
 
 [Term]
 id: CO_334:0000357
@@ -1358,7 +1358,7 @@ name: cassava days to first female flower opens trait
 def: "First female flower (pistillate) mature and opens." [CO:curator]
 created_by: AAfolabi
 creation_date: 2017-07-25T11:46:46Z
-is_a: TO:0000933 ! plant phenological trait
+is_a: TO:0000359 ! female flowering
 
 [Term]
 id: CO_334:0000512
@@ -1366,7 +1366,7 @@ name: cassava days to first female flower opens by branch levels trait
 def: "First female flower (pistillate) mature and opens by branching levels." [CO:curator]
 created_by: AAfolabi
 creation_date: 2017-07-25T11:49:20Z
-is_a: TO:0000933 ! plant phenological trait
+is_a: TO:0000359 ! female flowering
 
 [Term]
 id: CO_334:0000516

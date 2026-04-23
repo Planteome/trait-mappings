@@ -519,7 +519,7 @@ id: CO_343:0000245
 name: yam time to 50% flowering trait
 def: "Time when 50% of the plants flower in a plot." [CO:curators]
 synonym: "TIMFL" EXACT []
-is_a: TO:0002616 ! flowering time trait
+is_a: TO:0001175 ! days to 50% flowering
 
 [Term]
 id: CO_343:0000247
